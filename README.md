@@ -1,4 +1,4 @@
-# Use LLM to generate key entry information to enhance defect report quality
+# ChatBR: Automated assessment and improvement of bug report quality using ChatGPT
 ***
 # abstract
 Bug reports, containing crucial information such as the Observed Behavior (OB), Expected Behavior (EB), and Steps to Reproduce (S2R), can help developers reproduce and fix bugs efficiently. However, due to the limited experience of the some report writer and the complexity of some bugs, the bug reports often miss this crucial information.  Although some machine learning based approaches and information retrieval (IR) based techniques are proposed to detect and supplement the missing information in bug reports, the performance of these approaches depends heavily on the size and quality of the bug report dataset.

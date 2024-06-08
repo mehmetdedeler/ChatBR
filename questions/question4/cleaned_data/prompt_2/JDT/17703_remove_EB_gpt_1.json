@@ -1,0 +1,8 @@
+{
+  "id": "17703",
+  "title": "Bug 17703 - Edit/Add Task action should use Workbench dialog as Java Editor does",
+  "description": "When executing the 'File -> Add Task' action using the F1 key and selecting a CU in the Packages view, a different dialog is observed compared to executing the action from the Java editor's ruler context menu.",
+  "OB": "The dialog for adding a task is different when using the 'File -> Add Task' action through F1 and selecting a CU in the Packages view.",
+  "EB": "The dialog for adding a task should be consistent, whether executing the action through F1 and selecting a CU in the Packages view or using the Java editor's ruler context menu.",
+  "SR": "1. Open the Packages view.\n2. Select a CU (Compilation Unit).\n3. Execute 'File -> Add Task' using the F1 key.\n   - Observe the dialog.\n4. Compare with executing the same action from the Java editor's ruler context menu.\n   - Observe the dialog.\nExpected: The dialogs should be consistent in both cases."
+}

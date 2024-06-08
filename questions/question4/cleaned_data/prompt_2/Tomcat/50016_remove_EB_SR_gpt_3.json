@@ -1,0 +1,8 @@
+{
+  "id": "50016",
+  "title": "Bad division of responsibility between isUserInRole and new Request login/logout methods",
+  "description": "There's a problem with the division of responsibility between isUserInRole and the new Request login/logout methods. The issue revolves around the incorrect handling of roleref mappings and an intrusive implementation of login/logout methods that overly restricts authentication processes.",
+  "OB": "The new login and logout methods intrude excessively into authentication internals by checking for a specific Authenticator. This approach limits the functionality as it doesn't accommodate other potential Authenticators that might be installed.",
+  "EB": "The login and logout methods should not be excessively restrictive, allowing for flexibility in handling authentication by accommodating various Authenticators.",
+  "SR": "Steps to reproduce:\n1. Install multiple Authenticators in the system.\n2. Attempt to use the new login/logout methods with different Authenticators installed.\n3. Observe the restrictions placed by the methods and their inability to adapt to different Authenticators."
+}

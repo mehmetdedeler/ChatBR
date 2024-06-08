@@ -1,0 +1,8 @@
+{
+  "id": "120315",
+  "title": "Display Property 'none' Not Taking Effect in New PDF Emitter",
+  "description": "When setting the display property of an item to 'none' in the new PDF emitter, the expected behavior is not being observed.",
+  "OB": "When the display property of an item is set to 'none' in the new PDF emitter, the label remains visible.",
+  "EB": "When setting the display property of an item to 'none' in the new PDF emitter, the expected result is that the label should disappear in the PDF preview.",
+  "SR": "To reproduce the issue:\n1. Open the application with the new PDF emitter feature enabled.\n2. Navigate to the item whose display property you want to set to 'none'.\n3. Update the display property to 'none'.\n4. Preview the item in PDF. The label should not be visible, but it remains visible in the actual result."
+}

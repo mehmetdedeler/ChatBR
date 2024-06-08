@@ -1,0 +1,8 @@
+{
+  "id": "130068",
+  "title": "Bug 130068 [Regression] Report Parameter window doesn't pop up when preview a report with parameters",
+  "description": "Description: The Report Parameter window doesn't pop up when previewing a report with parameters.",
+  "OB": "When trying to preview a report with parameters, the Report Parameter window does not appear as expected.",
+  "EB": "Clicking 'Preview' in the Layout should result in a window popping up for inputting parameter values. Expected result: The window should allow users to enter parameter values. Actual result: Some required parameter values are not set or are set to an incompatible data type.",
+  "SR": "Steps to reproduce: 1. Create a report parameter without a default value. 2. Drag the parameter to the Layout. 3. Attempt to preview the report with parameters."
+}

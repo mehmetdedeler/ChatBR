@@ -1,0 +1,1 @@
+{"bug_id": "28382", "title": "Bug 28382Extra separator line drawn in emulated CoolBar", "description": "It looks like the rightmost CoolItem in an emulated CoolBar displays a separator line on the left hand edge. This is true regardless of whether or not the CoolBar is \"locked\".This behavior does not match the native look&feel on either windows or macosx."}

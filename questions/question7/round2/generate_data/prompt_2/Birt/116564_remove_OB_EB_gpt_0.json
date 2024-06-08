@@ -1,0 +1,1 @@
+{"id": "116564", "title": "The title of the Hyperlink Builder should be \"Hyperlink Options\", but it is changing with the settings.", "description": "", "OB": "", "EB": "", "SR": "To reproduce the issue, follow these steps: \n\n1. Set a label hyperlink as \"www.actuate.com\"."}

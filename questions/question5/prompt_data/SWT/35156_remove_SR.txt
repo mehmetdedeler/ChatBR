@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+In your bug reports, it is essential to provide clear and informative statements for the following categories:
+- **Observed Behavior (OB):** This section should describe the relevant software behavior, actions, output, or results. Avoid vague statements like "the system does not work."
+- **Expected Behavior (EB):** This part should articulate what the software should or is expected to do, using phrases like "should...", "expect...", or "hope...". Avoid suggestions or recommendations for bug resolution in this section.
+- **Steps to Reproduce (SR):** Include user actions or operations that can potentially lead to reproducing the issue. Use phrases like "to reproduce," "steps to reproduce," or "follow these steps."
+It is possible that the bug report may lack sufficient details in the OB, EB, and SR sections. In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements. Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '35156', 'title': 'Bug 35156Ctrl+F1 works only on some fields in the help search', 'description': '', 'OB': 'Bug 35156Ctrl+F1 works only on some fields in the help search ', 'EB': 'OS: LinuxGTKBuild: RC2 with IBMJava2131 JRESteps to reproduce:1.Launch eclipse with DBCS locale.2.Select from the menu bar SearchHelp3.When the window pops up, click on the first text field and press ctrl+F1.Expected Result:A help pop up screen should come up displaying information about the HelpSearch.Execution result:Nothing HappensComments:1.This occurs on all DBCS languages.2.This event only happens in the first text field.When cycling through allthe other fields using the tab key, the ctrl+F1 functions properly bydisplaying the correct text.3.The attachment will show exactly which field is not responding to thectrl+F1, for it is circled in red.The fields circled in green work properly. ', 'SR': ''}
+</BUG REPORT>

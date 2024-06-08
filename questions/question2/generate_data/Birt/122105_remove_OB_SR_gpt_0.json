@@ -1,0 +1,8 @@
+{
+  "id": "122105",
+  "title": "Schema Missing in Stored Procedure Naming",
+  "description": "The schema should be added as 'schemaname.Procedurename' when using a stored procedure.",
+  "OB": "The observed behavior is not provided in the report. It is essential to specify the current behavior or issue you are facing.",
+  "EB": "The expected behavior is that when a stored procedure is used, the stored procedure naming should include both the database schema name and the stored procedure name in the format 'schemaname.Procedurename'.",
+  "SR": "To investigate and address this issue, please provide the following steps to reproduce the problem: \n1. Create a new report. \n2. Describe the actions and configurations involved in using a stored procedure within the report. \n3. Describe the expected behavior when using the stored procedure, and any differences observed from the expected behavior."
+}

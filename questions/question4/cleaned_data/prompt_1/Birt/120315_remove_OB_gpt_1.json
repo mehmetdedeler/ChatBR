@@ -1,0 +1,8 @@
+{
+  "id": "120315",
+  "title": "Bug 120315: Display property not taking effect in new PDF emitter",
+  "description": "The bug report lacks specific details about the issue. Based on the available context, it seems to involve the display property of an item not working as expected in the new PDF emitter.",
+  "OB": "When the display property of an item is set to 'none' in the 'properties' view, the label is still visible in the PDF preview.",
+  "EB": "In the PDF preview, setting the display property of an item to 'none' should make the label disappear. However, the actual result is that the label remains visible.",
+  "SR": "Steps to Reproduce:\n1. Add a label.\n2. Open the 'properties' view.\n3. Set the sectionDisplay property to 'none'.\n4. Preview the PDF to observe that the label is still visible when it should disappear."
+}

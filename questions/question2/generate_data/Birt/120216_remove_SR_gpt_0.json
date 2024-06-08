@@ -1,0 +1,8 @@
+{
+  "id": "120216",
+  "title": "Group dialog should be displayed even when the dataset is not set",
+  "description": "",
+  "OB": "When an error occurs, an error message is displayed.",
+  "EB": "The group dialog should be displayed even when the dataset is not set. Users should be able to define a group even if the dataset is not defined.",
+  "SR": "1. Open the application.\n2. Navigate to the 'Group' section.\n3. Observe the behavior when no dataset is selected. The group dialog should still be accessible and usable."
+}

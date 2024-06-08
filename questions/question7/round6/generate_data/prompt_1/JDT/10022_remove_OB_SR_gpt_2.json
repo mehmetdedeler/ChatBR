@@ -1,0 +1,8 @@
+{
+  "id": "10022",
+  "title": "Bug 10022: Incorrect 'Build' Popup Action Enablement",
+  "description": "Bug 10022: Incorrect 'Build' Popup Action Enablement",
+  "OB": "The 'Build' popup action is enabled even when the build process has already been completed. This leads to unnecessary manual build attempts.",
+  "EB": "The 'Build' popup action should be disabled when the build process is already done, ensuring that manual builds are not triggered unnecessarily.",
+  "SR": "1. Open the application.\n2. Trigger a build process.\n3. Observe that the 'Build' popup action is enabled.\n4. Verify that the build process has already been completed.\n5. Expected: The 'Build' popup action should be disabled in this scenario."
+}

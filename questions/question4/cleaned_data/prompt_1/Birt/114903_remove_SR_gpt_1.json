@@ -1,0 +1,8 @@
+{
+  "id": "114903",
+  "title": "Bug 114903: Default values not displayed in 'Show Report Parameters' dialog",
+  "description": "",
+  "OB": "The 'Show Report Parameters' dialog does not display default values.",
+  "EB": "When previewing and clicking the 'Show Report Parameters' button, the expected behavior is that default values should be shown in the value box. This allows users to modify the specific parameter they intend to change.",
+  "SR": "Steps to reproduce:\n1. Preview the report.\n2. Click the 'Show Report Parameters' button.\n\nExpected result: Default values are displayed in the value box, enabling modification of the desired parameter.\nActual result: In the 'Enter Parameters' dialog, all values appear empty, requiring the user to input all values, which is not the expected behavior."
+}

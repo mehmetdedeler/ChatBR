@@ -1,0 +1,8 @@
+{
+  "id": "49195",
+  "title": "Bug 49195 - Error Message When Using Port 1 as Shutdown Port with Windows Service",
+  "description": "This bug report concerns the use of port 1 as the shutdown port with the Tomcat Windows service.",
+  "OB": "The observed behavior is as follows:\n- When port 1 is specified as the shutdown port in the server.xml configuration, an error message is printed in the catalina.20100427.log. The error message is 'No shutdown port configured. Server not shut down.'\n- It's important to note that this is just a message, and Tomcat stops regardless. After printing the message, the Catalina stopServer() function performs System.exit(1), which leads to Tomcat's shutdown. It seems that when the service launcher stops Tomcat, CatalinaServer is not null.",
+  "EB": "The expected behavior should be that when port 1 is used as the shutdown port with the Tomcat Windows service, no error message related to 'No shutdown port configured' should be printed. The shutdown process should proceed without any error messages, and the service should stop as intended.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Specify <Server port='1' in server.xml configuration.\n2. Start the Tomcat Windows service.\n3. Stop the service using the appropriate method.\n4. Observe the error message being printed in the logs."
+}

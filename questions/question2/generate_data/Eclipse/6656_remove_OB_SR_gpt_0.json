@@ -1,0 +1,8 @@
+{
+  "id": "6656",
+  "title": "Close button moves down when view resized smaller",
+  "description": "When resizing the view to a smaller size, the close button and label no longer align properly, causing a usability issue.",
+  "OB": "When the view is resized to a smaller width, the close button shifts down below the label, breaking the expected alignment. This results in a usability problem as users are used to the close button being on the same line as the label and positioned in the far-right corner.",
+  "EB": "The expected behavior is that the close button should remain on the same line as the label, even when the view is resized to a smaller width. Users are accustomed to this alignment, and it should not deviate from their expectations.",
+  "SR": "To reproduce the issue:\n1. Open the application.\n2. Locate the view with the close button and label.\n3. Resize the view to a smaller width, either by dragging the window edge or using a specific resizing control.\n4. Observe that the close button moves down below the label, causing the misalignment."
+}

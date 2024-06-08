@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Bug 4971 - Unexpected Result in 'Copy Package'",
+  "description": "This bug report pertains to an issue in the 'copy package' operation, occurring in version 2031 of the 'org.eclipse.jdt.internal.ui' component within 'jdt.ui'.",
+  "OB": "Upon performing this operation, the package 'ui' is mistakenly copied to a destination labeled 'xx'.",
+  "EB": "The expected behavior should involve copying the package from 'org.eclipse.jdt.internal.ui', not 'ui', to the specified destination 'xx'.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open a project in version 2031.\n2. Access the package viewer within the project.\n3. Select the 'ui' package.\n4. From the context menu, choose the 'copy' option."
+}

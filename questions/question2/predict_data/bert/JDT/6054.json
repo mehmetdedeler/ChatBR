@@ -1,0 +1,1 @@
+{"id": "6054", "title": "Bug 6054renaming a readonly package resets the readonly flag [refactoring]", "description": " Bug 6054renaming a readonly package resets the readonly flag [refactoring] as said in the summery: renaming a readonly package resets the readonly flag", "OB": "", "EB": "", "SR": ""}

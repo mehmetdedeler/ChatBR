@@ -1,0 +1,8 @@
+{
+  "id": "13725",
+  "title": "Revert is much slower than close and reopen in Java editor",
+  "description": "When attempting to revert a file in the Java editor, it takes significantly longer compared to closing and reopening the file. This issue needs to be addressed to improve the efficiency of the editor.",
+  "OB": "When I answer 'no' to the 'do you want to save changes' dialog and double click on the file in the navigator to reopen it, the process is reasonably fast. However, if I repeat these steps and then select 'Revert' from the pop-up menu in the editor, it takes 15 seconds to replace the contents of the window with the original.",
+  "EB": "It seems odd that reverting the file contents takes 15 seconds, which is much slower than simply closing and reopening the file. The expected behavior is that the 'Revert' operation should be as fast as, if not faster than, closing and reopening the file.",
+  "SR": "To reproduce this issue:\n1. Open a file in the Java editor.\n2. Make some changes to the file.\n3. When prompted with the 'do you want to save changes' dialog, choose 'no'.\n4. Double-click on the file in the navigator to reopen it (this should be reasonably fast).\n5. Repeat steps 1-3.\n6. Instead of reopening the file, right-click on the file in the editor and select 'Revert' from the pop-up menu.\n7. Observe that it takes 15 seconds to replace the contents of the window with the original, which is significantly slower than the previous method of reopening the file."
+}

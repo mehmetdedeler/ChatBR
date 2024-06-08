@@ -1,0 +1,8 @@
+{
+  "id": "116564",
+  "title": "The title of hyperlink builder should be 'Hyperlink Options', but it changes with settings.",
+  "description": "The title of hyperlink builder in the software is not behaving as expected.",
+  "OB": "When clicking on 'OK' and then reopening the hyperlink builder, its title becomes 'www.actuate.com'.",
+  "EB": "The title of the hyperlink builder should remain consistent as 'Hyperlink Options' regardless of the settings.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Set a label for the hyperlink as 'www.actuate.com'.\n2. Click on 'OK' and then reopen the hyperlink builder."
+}

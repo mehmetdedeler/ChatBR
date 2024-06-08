@@ -1,0 +1,8 @@
+{
+  "id": "13620",
+  "title": "Bug 13620: The Java Source Attachment Preference Page has text with a large amount of white space",
+  "description": "The Java Source Attachment Preference Page displays excessive white space, causing a visual inconsistency with other sections.",
+  "OB": "Upon navigating to the Java Source Attachment Preference Page, the text is scattered with a noticeable amount of white space, creating a less-than-ideal visual presentation.",
+  "EB": "The text on the Java Source Attachment Preference Page should align consistently with the layout of other sections, appearing at the top without unnecessary white space.",
+  "SR": "1. Open the Java Source Attachment Preference Page.\n2. Observe the excessive white space around the text.\n3. Compare with other sections to note the inconsistency."
+}

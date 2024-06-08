@@ -1,0 +1,1 @@
+{"bug_id": "40625", "title": "Bug 40625CGIServlet eats root cause", "description": "The code below doesn't make sense:<snipcatch (IOException e){log (\"Caught exception \" + e);throw new IOException (e.toString());}</snipIt should be \"throw e;\".IMHO, It seems no need to log this exception here, sothe cache block can be removed."}

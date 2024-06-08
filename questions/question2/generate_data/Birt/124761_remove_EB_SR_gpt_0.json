@@ -1,0 +1,8 @@
+{
+  "id": "124761",
+  "title": "Bug 124761: Data Extraction Issue with Multiple Filters",
+  "description": "When adding two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10', the data extraction is not working correctly.",
+  "OB": "When adding two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10', the data extraction is not functioning as expected.",
+  "EB": "The expected behavior is that the intersection set of the data for 'State is equal to CA' and the data for 'EmployeeId is Top 10' should be displayed.",
+  "SR": "Steps to reproduce:\n1. Import the attached report.\n2. Preview the data.\n\nActual result: The data is not being extracted correctly."
+}

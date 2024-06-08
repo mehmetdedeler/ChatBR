@@ -1,0 +1,1 @@
+{"bug_id": "48285", "title": "Bug 48285ApplicationFilterFactory.matchDispatcher() fails to check ASYNC", "description": "catalina.core.ApplicationFilterFactory.matchDispatcher(FilterMap filterMap, DispatcherType type) fails to check for type == ASYNCThe extra case ought to be added (but I don't know what it should contain, so cannot provide a patch)"}

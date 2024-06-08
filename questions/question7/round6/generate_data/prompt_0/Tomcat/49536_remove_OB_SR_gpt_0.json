@@ -1,0 +1,8 @@
+{
+  "id": "49536",
+  "title": "Bug 49536 - If no webapps deployed, accessing a URL returns 200 OK with no content instead of 404",
+  "description": "Ali Tokmen http://ali.tokmen.com/",
+  "OB": "When starting a Tomcat 7 instance with no deployed webapps and accessing a URL, the system returns an HTTP code 200 OK with no content.",
+  "EB": "I expect that if there are no webapps deployed, accessing a URL should result in an HTTP error 404 instead of a 200 OK response with no content.",
+  "SR": "To reproduce the issue:\n1. Download http://mirror.veriportal.com/apache/tomcat/tomcat7/v7.0.0beta/bin/apachetomcat7.0.0.zip\n2. Start a Tomcat 7 instance with no webapps deployed.\n3. Access a URL in the instance and observe the response."
+}

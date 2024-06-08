@@ -1,0 +1,8 @@
+{
+  "id": "124570",
+  "title": "Preview from toolbar always shows first report opened in session",
+  "description": "When attempting to preview reports from the toolbar, it consistently displays the first report opened in the session, regardless of the selected report.",
+  "OB": "Whenever I click the 'Preview' button in the toolbar, it consistently displays the Product Catalog report, no matter which report I have currently open.",
+  "EB": "I expect that when I open a Sales Invoice and click on the 'Preview' button again, it should display the Sales Invoice report, which is the currently open report.",
+  "SR": "1. Open any report, for example, the Product Catalog report.\n2. Click the 'Preview' button in the toolbar.\n3. Now, open a different report, such as the Sales Invoice report.\n4. Click the 'Preview' button in the toolbar again.\n5. Observe that it incorrectly displays the Product Catalog report instead of the Sales Invoice report."
+}

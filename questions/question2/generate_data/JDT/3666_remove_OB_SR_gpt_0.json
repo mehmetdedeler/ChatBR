@@ -1,0 +1,8 @@
+{
+  "id": "3666",
+  "title": "Bug 3666 - Hungry code assist",
+  "description": "Under certain circumstances, code assist eats too much code. Consider the enclosed class. As a programmer, I must add a parameter to the 'baz' call in 'bar' to make the program correct.",
+  "OB": "In certain cases, the code assist feature consumes more code than expected when used. The specific situations in which this issue occurs are not mentioned.",
+  "EB": "The expected behavior is that when using code assist, it should provide the option to add a parameter to the 'baz' call in the 'bar' method. The code should change to 'baz(x.foo().x.foo())'.",
+  "SR": "To reproduce the issue:\n1. Open the provided class 'X'.\n2. In the 'bar' method, place the cursor after 'x.foo()' within the 'baz' call.\n3. Invoke the code assist feature.\n4. Observe the code assist result and confirm that it does not provide the option to add a parameter to the 'baz' call in 'bar'."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "4121",
+  "title": "Out of Sync Error When Overwriting Exported JAR",
+  "description": "Report about the issue causing an 'out of sync' message when overwriting an exported JAR in the same directory.",
+  "OB": "When a directory (project) is exported and the exported JAR is placed in the same directory (project) and then overwritten, it triggers an 'out of sync' message.",
+  "EB": "The expected behavior is that overwriting an exported JAR in the same directory should not result in an 'out of sync' error message.",
+  "SR": "To reproduce the issue:\n1. Export a directory (project).\n2. Place the exported JAR in the same directory (project).\n3. Overwrite the exported JAR file the second time. An 'out of sync' message should appear."
+}

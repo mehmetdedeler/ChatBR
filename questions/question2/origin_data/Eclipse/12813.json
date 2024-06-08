@@ -1,0 +1,1 @@
+{"bug_id": "12813", "title": "Bug 12813Doubleclick does not properly select strings", "description": "Build 20020402 new .txt file enter \"fred\" doubleclick between \" and f it selects \"fredIt should select either \"fred\" or fred.Likewise for doubleclicking between d and \"."}

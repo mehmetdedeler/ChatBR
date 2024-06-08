@@ -1,0 +1,8 @@
+{
+  "id": "3622",
+  "title": "Bug 3622 - New Package Wizard has confusing message (1GD0L9O)",
+  "description": "Bug 3622 - New Package Wizard has confusing message (1GD0L9O)",
+  "OB": "When invoking the New Java Package wizard, the following message appears at the top before typing anything: 'A folder corresponding to the package name already exists.' However, the package name field is empty at this point. It is unclear what this message means. Is it an error? If so, should it be displayed in red with the error icon?",
+  "EB": "When invoking the New Java Package wizard, the message 'A folder corresponding to the package name already exists' appears at the top before typing anything. However, the package name field is empty at this point. It is now clarified that this message is a warning. The message will be removed to address the confusion. Additionally, as suggested by EG (5/1/2001 5:53:41 AM), there should be no error message when the package name field is empty, and the 'Finish' button should be disabled.",
+  "SR": "Ensure that when the New Java Package wizard is invoked, the message 'A folder corresponding to the package name already exists' is clearly identified as a warning. Remove the message when the package name field is empty to prevent confusion. Implement the suggestion from EG (5/1/2001 5:53:41 AM) to disable the 'Finish' button when the package name field is empty."
+}

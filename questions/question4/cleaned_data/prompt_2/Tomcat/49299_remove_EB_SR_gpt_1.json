@@ -1,0 +1,8 @@
+{
+  "id": "49299",
+  "title": "Bug 49299 - Incorrect handling of custom session tracking cookie name",
+  "description": "Chapter 7.1.1 of servlet30finalspec.pdf mentions that a custom name for session tracking cookies should also affect the URI parameter name when URL rewriting is enabled. However, the observed behavior does not align with this specification.",
+  "OB": "The application creates a session tracking cookie named MYSESSIONCOOKIE with a value of 658C60E714E9C7C833F4FDA366E0477F, using the path /cookiename and marked as HttpOnly. Despite this custom cookie name, the 'Reload' link on the page generates a URL using 'jsessionid' instead of the expected custom cookie name in the parameter: http://localhost:8080/cookiename/index.jsp;jsessionid=658C60E714E9C7C833F4FDA366E0477F4.",
+  "EB": "Expected behavior: When a web application configures a custom session tracking cookie name, any URL generated for session tracking purposes, including the 'Reload' link, should use the same custom name in the URL parameter instead of 'jsessionid'.",
+  "SR": "Steps to reproduce:\n1. Enable URL rewriting in the web application.\n2. Configure a custom session tracking cookie name.\n3. Access a page within the application that initiates a session.\n4. Observe the generated 'Reload' link or any URL used for session tracking."
+}

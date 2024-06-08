@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '6009', 'title': "Bug 6009New class wizard doesn't get context right for nested classes", 'description': '', 'OB': '', 'EB': '', 'SR': 'Build 20011106. with a .java file open in the editor, click the new class button check "Enclosing Type" the field is blank it should default to the current type in the editor '}
+</BUG REPORT>

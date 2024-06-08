@@ -1,0 +1,1 @@
+{"id": "26121", "title": "Bug 26121cannot launch eclipse 2: javacore dump", "description": " Bug 26121cannot launch eclipse 2: javacore dump I20021113 linuxgtk (was not in 20021105):This sounds like bug 24815, but the javacore file points topangolayoutsetfontdescription()I'm using pango1.0.32.gdk is still 2.0.2.", "OB": "", "EB": "", "SR": ""}

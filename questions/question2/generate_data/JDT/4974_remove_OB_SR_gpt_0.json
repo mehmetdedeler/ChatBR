@@ -1,0 +1,8 @@
+{
+  "id": "4974",
+  "title": "Bug 4974 - Inconsistent Classpath and Output Location Configuration",
+  "description": "This bug report addresses an issue related to configuring the classpath and output location settings in a project.",
+  "OB": "Currently, there is no observed behavior detailed in the report.",
+  "EB": "The expected behavior is that classpath and output location settings should be offered as a single, unified operation, similar to validation checks that verify both at once. Additionally, the error message should be improved to provide a clearer message, such as: '/xy/src' cannot be nested in '/xy'.",
+  "SR": "The report does not provide specific steps to reproduce the issue, so we need additional information to replicate the problem."
+}

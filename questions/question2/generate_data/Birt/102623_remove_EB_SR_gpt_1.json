@@ -1,0 +1,8 @@
+{
+  "id": "102623",
+  "title": "Image can't be refreshed after importing again",
+  "description": "When importing a new image into the layout, the image is not being refreshed as expected.",
+  "OB": "When importing a new 'image1.jpg' into the layout, the original image remains displayed without being updated.",
+  "EB": "After importing a new 'image1.jpg' into the layout, the expected behavior is that the new image should be displayed, replacing the original one.",
+  "SR": "1. Open the layout where you want to import the image.\n2. Import the new 'image1.jpg' into the layout again."
+}

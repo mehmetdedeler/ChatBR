@@ -1,0 +1,8 @@
+{
+  "id": "12428",
+  "title": "Inconsistent Messages in Pull Up Refactoring",
+  "description": "The Pull Up refactoring displays inconsistent messages during the process.",
+  "OB": "During the Pull Up refactoring, when selecting to copy the 'void setUp()' method from 'TestCase', the message displayed in the 'tree of changes' says 'copy method 'void setUp()' to type 'TestCase'.",
+  "EB": "The expected behavior is to have consistent and clear messages during the Pull Up refactoring, with proper capitalization and the use of the fully qualified name, such as 'Copy method 'void setUp()' FROM type 'junit.framework.TestCase'.",
+  "SR": "To reproduce the issue:\n1. Start the Pull Up refactoring on 'TestCase.setUp'.\n2. Observe the message in the 'tree of changes'."
+}

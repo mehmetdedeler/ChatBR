@@ -1,0 +1,8 @@
+{
+  "id": "13189",
+  "title": "Bug 13189: Refactoring - Deleting Fields - Context menu overridden by message dialog",
+  "description": "20020409I on LinuxMotif and w2k:1. Setup JUnit2.",
+  "OB": "When performing refactoring by deleting fields in TestCase.java and right-clicking on 'fName' in the outliner, the context menu is overridden by a message dialog.",
+  "EB": "After enabling the option 'Code GeneratorRemove prefix from field names,' the context menu for deleting fields in TestCase.java should not be overridden by a message dialog.",
+  "SR": "Ensure that the context menu for deleting fields remains functional and is not overridden by message dialogs when the option 'Code GeneratorRemove prefix from field names' is enabled."
+}

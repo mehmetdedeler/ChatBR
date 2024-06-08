@@ -1,0 +1,8 @@
+{
+  "id": "109718",
+  "title": "Bug 109718 - Tips Displaying Large Content in One Line",
+  "description": "When saving and placing the mouse pointer on a text item containing large content, the tips are displayed in a single line. This behavior is not in line with the expected result.",
+  "OB": "When saving and hovering the mouse over the text item with large content, the tips are displayed as a single line.",
+  "EB": "The expected behavior is that the tips should be displayed in the given format, not as a single line.",
+  "SR": "To reproduce the issue:\n1. Save the document with a text item containing large content.\n2. Place the mouse pointer over the text item."
+}

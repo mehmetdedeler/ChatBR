@@ -1,0 +1,8 @@
+{
+  "id": "10022",
+  "title": "Bug 10022: Incorrect \"Build\" Popup Action Enablement",
+  "description": "Bug 10022 reports incorrect enablement behavior for the \"Build\" popup action.",
+  "OB": "The 'Build' action in the context-sensitive popup menu is always enabled, even when a manual build is unnecessary.",
+  "EB": "The 'Build' action in the context-sensitive popup menu should be automatically disabled if a build is already completed.",
+  "SR": "Steps to reproduce:\n1. Open a project in the Java perspective.\n2. Verify that the 'Build' action is always enabled in the context-sensitive popup menu, even when no manual build is required."
+}

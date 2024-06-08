@@ -1,0 +1,8 @@
+{
+  "id": "17825",
+  "title": "Bug 17825: Unexpected Beeping with SWT.MULTI in ControlExampleText",
+  "description": "When selecting SWT.MULTI in ControlExampleText, there is an unexpected beeping sound. It seems this behavior is unintended.",
+  "OB": "Selecting SWT.MULTI triggers a beeping sound. Subsequent clicks on other buttons also produce the same bell sound.",
+  "EB": "The expected behavior is to hear a Windows 'ding' sound (indicating an action that may be incorrect) when selecting SWT.MULTI.",
+  "SR": "1. Open ControlExampleText.\n2. Choose the SWT.MULTI option.\n3. Observe the unexpected beeping sound.\n4. Click on other buttons to note the persistence of the bell sound."
+}

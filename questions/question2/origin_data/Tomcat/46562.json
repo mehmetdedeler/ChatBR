@@ -1,0 +1,1 @@
+{"bug_id": "46562", "title": "Bug 46562Reader not closed", "description": "SHTML files are locked when using windows. Closing the reader solves the problem."}

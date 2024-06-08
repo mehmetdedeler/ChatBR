@@ -1,0 +1,8 @@
+{
+  "id": "4974",
+  "title": "Bug 4974: Combine Setting Classpath and Output Location as One Operation",
+  "description": "The current setup requires two separate operations for setting classpath and output location. It should be streamlined into a single operation for efficiency and clarity. Additionally, the error message needs revision for better clarity.",
+  "OB": "Currently, the process of setting classpath and output location requires two separate operations, leading to confusion and inefficiency.",
+  "EB": "Setting classpath and output location should be merged into one operation, simplifying the workflow. The error message needs to be improved for better understanding, suggesting something like: '/xy/src' cannot be nested within '/xy'.",
+  "SR": "1. Navigate to the settings panel.\n2. Look for the 'Set Classpath and Output Location' option.\n3. Attempt to set a classpath or output location that results in an error.\n4. Observe the error message and its clarity."
+}

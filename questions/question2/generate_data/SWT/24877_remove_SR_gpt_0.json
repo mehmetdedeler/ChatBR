@@ -1,0 +1,8 @@
+{
+  "id": "24877",
+  "title": "Bug 24877 - Missing File Extension in SWT FileDialog",
+  "description": "This bug report highlights a critical issue in the SWT FileDialog, making the dialog almost unusable. The problem is that there's no way to obtain the file extension that the user selects from the FileDialog. An API enhancement is needed to return the 'Save as type' field that the user selects in the FileDialog. This problem becomes apparent when exporting to a JAR file.",
+  "OB": "The observed behavior is that there's no way to get the file extension that the user selected from the FileDialog, and this issue is encountered when exporting to a JAR file.",
+  "EB": "The expected behavior is that the export wizard should use the file name 'test.zip' when the steps provided below are followed during JAR file export.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Select a Java file.\n2. Go to 'File' -> 'Export...'\n3. Choose 'JAR file' and click 'Next'.\n4. Click 'Browse...' to open the 'Save As' file dialog.\n5. Enter 'test' for the file name.\n6. Select '.zip' for the 'Save as type' field.\n7. Click 'Save'.\n\nResult: The JAR export wizard uses 'test' for the JAR file field, which is incorrect.\nExpected result: The JAR export wizard should use 'test.zip' for the JAR file field."
+}

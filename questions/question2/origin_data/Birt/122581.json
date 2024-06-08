@@ -1,0 +1,1 @@
+{"bug_id": "122581", "title": "Bug 122581Available columns are not displayed properly when export data.", "description": "Description: Available columns are not displayed properly when export data.Steps to reproduce:1. Preview attached design file in html.2. Select the first table and export it.3. In \"export data\" dialog, Available columns are not displayed properly."}

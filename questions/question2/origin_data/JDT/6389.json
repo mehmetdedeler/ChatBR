@@ -1,0 +1,1 @@
+{"bug_id": "6389", "title": "Bug 6389System threads show suspended at startup", "description": "Version 200111271. Launch Eclipse from Eclipse.2. Note that the system threads are incorrectly rendered as suspended in theDebugView.3. Close the DebugView and reopen it.4. The threads are rendered correctlySomewhere along the line we're not firing a changed (suspended, etc.) event."}

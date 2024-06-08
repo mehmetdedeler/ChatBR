@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '129569', 'title': 'Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window', 'description': ' Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window This is BiDI specific defect. tomer)3. tomerREMOT)4. Make sure that this table has columns with BiDi name (e.g. "EMANNMULOC")5. from tomer.tomerREMOT3. where tomer.tomerREMOT.EMANNMULOC != \'OLLEH world\'Actual results:1. select tomer.tomerEMANNMULOC.REMOT2. from tomer.tomerREMOT3. where tomer.tomerOLLEH\' =!', 'OB': " It is similar to another defect in which similar problem is reported for Expression Builder dialog. However in this defect we are talking about context of Query screen in the Edit Data Set dialog.Capital characters used in the examples below stay for BiDi (Hebrew or Arabic) characters.1. EMANNMULOC.REMOT world'As you can see in the 1st and 3rd rows the order of characters is completely ruined such that it is impossible to read the query. In the 1st row the name of column and part of table name are switched. In the 3rd row part of the constant , table name and column name are mixed.", 'EB': '', 'SR': ''}
+</BUG REPORT>

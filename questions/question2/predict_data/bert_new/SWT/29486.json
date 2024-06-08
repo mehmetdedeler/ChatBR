@@ -1,0 +1,1 @@
+{"id": "29486", "title": "Bug 29486Keys need stronger filtering.", "description": "Bug 29486Keys need stronger filtering. ", "OB": "Right now keys like CapsLock, ScrollLock, etc will cause garbage characters tobe entered into StyledText widget buffers.Need to filter out the Photoncontrol keys that have no mapping in the SWT world. ", "EB": "", "SR": ""}

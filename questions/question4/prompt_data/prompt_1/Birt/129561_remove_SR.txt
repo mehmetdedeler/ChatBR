@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '129561', 'title': 'Bug 129561HCGBIDI: Undesirable generation of SQL query elements', 'description': 'Bug 129561HCGBIDI: Undesirable generation of SQL query elements This is not even NLS specific defect. Otherwise the query will fail.1. Create table with name including blank in this database. Select "Preview Results"Result: Exception is fired.7. "Table Name". "Column Name"8. ', 'OB': 'It happens with English as well.The problem is that on the Query screen in the Edit Data Set dialog the drag/drop of columns into the Query screen must enclose every entity name including blank in the quotation marks. Select "Preview Results"Result: No exception is issued. ', 'EB': 'You should get something like select USER.Table Name.Column Name6. ', 'SR': ''}
+</BUG REPORT>

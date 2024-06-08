@@ -1,0 +1,8 @@
+{
+  "id": "128359",
+  "title": "Logic Error when Applying Filter to Table Layout",
+  "description": "We observed an issue with the logic when applying a filter to a table on the layout. The dataset originally contains 10 records (DataResultA).",
+  "OB": "After applying the filter (FilterA) to the dataset, we expected to obtain 6 records (DataResultB), but the logic does not correctly filter the data.",
+  "EB": "We expect that after applying the filter (FilterA) to the dataset, only 6 records should be displayed in DataResultB. The filtering logic should accurately reduce the dataset to the desired result.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create a report and establish a new datasource and dataset.\n2. Set a filter (FilterA) in the dataset, and then verify that only 6 records are shown in DataResultB."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "104248", "title": "Bug 104248Axis types on Chart dialog are not displayed in localized language.", "description": "Axis types \"Linear\", \"Logarithmic\", \"text\", \"DateTime\" are not displayedin localized language.These text are not found in .properties files."}

@@ -1,0 +1,8 @@
+{
+  "id": "32286",
+  "title": "Button Tab Styles Reset Button Orientation",
+  "description": "When utilizing the Button controls from the SWT Controls example, changing the SWT.ARROW buttons while toggling the SWT.BORDER property results in resetting the arrow buttons' alignment to UP.",
+  "OB": "The issue arises when the SWT.ARROW buttons are used along with toggling the SWT.BORDER property. This causes the arrow buttons' alignment property to reset to UP.",
+  "EB": "The expected behavior is that toggling the SWT.BORDER property should not affect the orientation of the arrow buttons.",
+  "SR": "1. Launch the SWT Controls view.\n2. Navigate to the styles group.\n3. Select or deselect the SWT.BORDER property.\n4. Observe the changes in the arrow buttons' orientation."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "19458",
+  "title": "Bug 19458[Navigator] Copy Project dialog UI problems",
+  "description": "Bug 19458[Navigator] Copy Project dialog UI problems this is in red text.",
+  "OB": "The issue is related to the Copy Project dialog UI. When attempting to copy a project named 'test' with the 'use default location' option checked, I can't select or view the default location in the edit box below.",
+  "EB": "I expect that when 'use default location' is checked, I should still have the option to select or view the default location from the edit box below. Additionally, I should be able to choose a different path close to the default location if needed.",
+  "SR": "To reproduce the issue:\n1. Create a single project named 'test'.\n2. Copy the project.\n3. On the 'Copy Project' dialog:\n   a. Check the 'use default location' option and ensure it's selected.\n   b. Attempt to select or view the default location from the edit box below.\n   c. Try to choose a path close to the default location if desired."
+}

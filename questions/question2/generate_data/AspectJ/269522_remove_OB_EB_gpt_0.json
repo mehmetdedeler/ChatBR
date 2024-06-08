@@ -1,0 +1,8 @@
+{
+  "id": "269522",
+  "title": "Bug 269522 - Cross Reference View and Markers Mix Up Joinpoints Assigned to Advice",
+  "description": "This bug report addresses an issue related to the Cross Reference view and markers incorrectly handling joinpoints assigned to advice.",
+  "OB": "The observed behavior mentioned in the report involves the following:\n1. In the Cross Reference view, when selecting one of the after advice statements, all joinpoints for both after advice pieces are displayed.\n2. When selecting the other after advice statement, no joinpoints are shown.\n3. Right-clicking the marker for either piece of after advice displays all joinpoints for both pieces of advice.",
+  "EB": "The expected behavior is as follows:\n1. In the Cross Reference view, selecting one of the after advice statements should display only the joinpoints relevant to that advice, not all joinpoints.\n2. When selecting the other after advice statement, it should show the joinpoints assigned to that specific advice.\n3. Right-clicking the marker for either piece of after advice should display only the joinpoints associated with that advice.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the attached project and perform a clean compile.\n2. Open the Cross Reference view.\n3. Select line 22 and note that it shows 5 joinpoints instead of the expected 3.\n4. Choose line 68 and observe that it displays zero joinpoints instead of the expected 2.\n5. Right-click the marker at line 68 and choose 'advises' to see all 5 joinpoints instead of only 2.\n6. Right-click the marker at line 22 and choose 'advises' to again see all 5 joinpoints."
+}

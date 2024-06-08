@@ -1,0 +1,1 @@
+{"id": "2355", "title": "Bug 2355AbstractUIPlugin.initializeImageRegistry is final (1GETC7J)", "description": " Bug 2355AbstractUIPlugin.initializeImageRegistry is final (1GETC7J)", "OB": " The spec for AbstractUIPlugin.initializeImageRegistry(ImageRegistry) says it can be overridden,but it's marked final.This is a little cruel.NOTES:", "EB": "", "SR": ""}

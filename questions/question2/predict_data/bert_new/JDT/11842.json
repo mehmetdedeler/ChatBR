@@ -1,0 +1,1 @@
+{"id": "11842", "title": "Bug 11842new TestCase not always initialized correctly", "description": "Bug 11842new TestCase not always initialized correctly ", "OB": "It works for CUs but not for classesTest Case: select class Test in the Packages view and create an new TestCase== only superclass field is initialized ", "EB": "", "SR": ""}

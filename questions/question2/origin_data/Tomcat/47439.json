@@ -1,0 +1,1 @@
+{"bug_id": "47439", "title": "Bug 47439PooledConnection.connect() fails to check for null connection", "description": "PooledConnection.connect() fails to check for null return from java.sql.Driver.connect() method.This can result in an NPE when the connection is used later."}

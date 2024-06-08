@@ -1,0 +1,1 @@
+{"bug_id": "20347", "title": "Bug 20347IllegalArgumentException pressing Ctrl+F6", "description": "build F3Workspace with 8 editorsPressing Ctrl+F6 to go to the next editor causes an IllegalArgumentExceptionin TableItem.setText via CycleEditorAction.addItems."}

@@ -1,0 +1,8 @@
+{
+  "id": "123044",
+  "title": "Page Break Not Occurring in PDF Preview for First Item",
+  "description": "When previewing an attached file in PDF format, the page break in the first item is not happening as expected.",
+  "OB": "When previewing the attached file in PDF format, the page break in the first item does not occur.",
+  "EB": "When previewing the file in PDF format, we expect the first page to be blank because the first item is set to 'pagebreakbefore: always.'",
+  "SR": "To reproduce the issue, open the attached file in bug report 1228982."
+}

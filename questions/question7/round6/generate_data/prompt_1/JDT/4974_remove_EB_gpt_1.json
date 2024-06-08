@@ -1,0 +1,8 @@
+{
+  "id": "4974",
+  "title": "Bug 4974 - Set classpath / output location should be one operation",
+  "description": "",
+  "OB": "When pressing 'Ok,' an error message appears: 'Cannot nest output folder /xy in source folder /xy/src.' This occurs due to the separation of setting output location and classpath as two distinct operations. Setting the output location first creates an illegal state.",
+  "EB": "Pressing 'Ok' should not trigger the error message regarding nesting output folders within source folders. The setting of output location and classpath should be combined into a single operation to prevent this issue.",
+  "SR": "1. Create a project with 'src' designated as the source folder and 'bin' as the output location.\n2. Access the project properties and modify the settings to utilize the project as both the source folder and the output location."
+}

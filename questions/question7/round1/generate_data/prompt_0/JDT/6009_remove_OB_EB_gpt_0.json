@@ -1,0 +1,1 @@
+{"id": "6009", "title": "Bug 6009 - New class wizard doesn't get context right for nested classes", "description": "", "OB": "", "EB": "", "SR": "Build 20011106. With a .java file open in the editor, click the new class button. Check the 'Enclosing Type' field. Currently, the field is blank. It should default to the current type in the editor."}

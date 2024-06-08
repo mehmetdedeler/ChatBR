@@ -1,0 +1,1 @@
+{"id": "116609", "title": "Bug 116609[Regression]Color orange doesn't work.", "description": "Bug 116609[Regression]Color orange doesn't work. Description:Color orange doesn't work.Steps to reproduce:1. <OB></OB><EB>Preview.Expected result:Orange color works.Actual result:It didn't work.</EB> Insert a report item.2. Set color or background color to orange.3. <SR></SR>"}

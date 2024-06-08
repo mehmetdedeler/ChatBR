@@ -1,0 +1,1 @@
+{"id": "108822", "title": "Bug 108822 - More robust logic is expected to process disk sorting when there is a border value for row value", "description": "", "OB": "When sorting on disk, if the sort is performed on 40000 rows of data, and the program is set to process only the data less than 40000, the current logic performs the following operation: 1.", "EB": "", "SR": ""}

@@ -1,0 +1,8 @@
+{
+  "id": "11863",
+  "title": "Bug 11863: Update Test Suite action does not allow removal",
+  "description": "The bug report highlights an issue with the 'Update Test Suite' action, where selecting 'Y' in the dialog does not make it clear that 'X' will be removed.",
+  "OB": "When selecting 'Y' in the dialog for 'Update Test Suite', it is not clear that it will result in the removal of 'X'.",
+  "EB": "Normally, the 'Update' action displays the content of existing items (directories, zip files) and allows modification. To address the confusion, renaming the action (and the dialog) to 'Recreate Test Suite' is suggested.",
+  "SR": "1. Open the application and navigate to the 'Test Suite' section.\n2. Select the 'Update Test Suite' action.\n3. In the dialog, choose 'Y' and observe the removal of 'X'.\n4. Consider renaming the action and dialog to 'Recreate Test Suite' for clarity."
+}

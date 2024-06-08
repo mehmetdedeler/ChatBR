@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '108822', 'title': 'Bug 108822More better logic is expected to process disk sorting when there is border value for row value', 'description': '', 'OB': 'when sort on disk, if sort on 40000 rows data, and set the program process thedata less than 40000.DtE do following operation1. ', 'EB': 'Bug 108822More better logic is expected to process disk sorting when there is border value for row value Copy the file to destination folderMore better logic should supported here, say sort the data directly in memoryand then write it to file ', 'SR': ''}
+</BUG REPORT>

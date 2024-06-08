@@ -1,0 +1,1 @@
+{"id": "84312", "title": "Bug 84312Finish implementation of runtime retention checking", "description": "Bug 84312Finish implementation of runtime retention checking See FIXME in BindingAnnotationTypePattern.resolveBinding() andEclipseSourceType.getAnnotationTypes() ", "OB": "", "EB": "", "SR": ""}

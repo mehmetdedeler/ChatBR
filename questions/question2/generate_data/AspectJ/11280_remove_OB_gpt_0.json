@@ -1,0 +1,8 @@
+{
+  "id": "11280",
+  "title": "Bug 11280[View Mgmt] Switching perspectives loses view maximized state",
+  "description": "This bug report pertains to the issue of view maximization not being retained when switching between perspectives in the software.",
+  "OB": "Upon switching perspectives, the CVS repository view is no longer maximized, which is not the expected behavior. A maximized view should remain maximized.",
+  "EB": "The expected behavior is that the CVS repository view, when maximized, should stay maximized even after switching between perspectives.",
+  "SR": "To reproduce this issue, please follow these steps:\n1. Open the CVS repository view in the Java perspective.\n2. Maximize the view by double-clicking the title bar.\n3. Switch to the resource perspective.\n4. Return to the Java perspective."
+}

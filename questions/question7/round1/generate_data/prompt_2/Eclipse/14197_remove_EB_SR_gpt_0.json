@@ -1,0 +1,1 @@
+{"id": "14197", "title": "Removing a working set immediately applies changes", "description": "When removing a working set, the changes are applied immediately.", "OB": "1. Create a working set with one project and select it. The package view should be filtered.\n2. ", "EB": "After removing the working set, the package view should no longer be filtered.", "SR": ""}

@@ -1,0 +1,1 @@
+{"bug_id": "23795", "title": "Bug 23795ControlExample: Image Label leaves cheese when resized", "description": "Build I200209171408Run ControlExampleSwitch to Label tab.Change the size.Image label leaves cheese.Select SWT.WRAP.Image label does not leave anymore cheese."}

@@ -1,0 +1,1 @@
+{"bug_id": "12195", "title": "Bug 12195TestCase creation wizard: no progress when pressing super button", "description": "There is no progress shown in the wizard when pressing the browse button forselecting the super class. This is not consistent with the New Class wizard."}

@@ -1,0 +1,1 @@
+{"bug_id": "11437", "title": "Bug 11437jar packager: no error message but buttons disabled", "description": "20020314on the 'jar manifest' wizard page, if you select to use existing manifest filethere's no error message but next and finish are disableduser should be informed what to do to make the wizard happy"}

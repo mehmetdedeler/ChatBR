@@ -1,0 +1,8 @@
+{
+  "id": "17758",
+  "title": "Problems with 'Go Into' Action in Navigator View",
+  "description": "In the Navigator View, there are issues with the 'Go Into' action.",
+  "OB": "After packing a project (e.g., org.eclipse.ant) and performing 'Go Into,' 'Go Up,' 'Go Back,' and 'Go Back' actions, everything works as expected. However, after closing the project, the 'Forward' button is still enabled, but the first 'Forward' action leads to a blank screen. Clicking 'Forward' then 'Back' further exacerbates the issue.",
+  "EB": "When performing 'Go Into,' 'Go Up,' and 'Go Back' actions, the behavior should remain consistent, both when the project is open and after it's closed. The 'Forward' button should not lead to a blank screen but instead should behave as expected.",
+  "SR": "To reproduce the issue:\n1. Start with a clean F1 build.\n2. Import all plugins from the runtime environment to get some projects.\n3. Pack a project (e.g., org.eclipse.ant).\n4. Open the project.\n5. Perform 'Go Into,' 'Go Up,' 'Go Back,' and 'Go Back' actions; they should work fine.\n6. Close the project.\n7. Observe that the 'Forward' button is still enabled.\n8. Click 'Forward' and note that it leads to a blank screen.\n9. Click 'Back' after clicking 'Forward.'"
+}

@@ -1,0 +1,6 @@
+{"id": "5473",
+"title": "Bug 5473: ShiftLeft behavior with intermixed tabs and spaces",
+"description": "Bug 5473: ShiftLeft behavior with intermixed tabs and spaces. Build 200110251.",
+"OB": "When executing ShiftLeft on a line with intermixed tabs and spaces, the text does not move as expected.",
+"EB": "After executing ShiftLeft on a line with intermixed tabs and spaces, the text should be shifted left. Any leading tabs should be replaced with spaces so that the lines are visually indented the same. In the first scenario, the second line should be shifted left and the first line should be shifted at least to the first space character, effectively getting rid of the tab. It should be ensured that there are no stray spaces, as this can be confusing and prevent the text from shifting.",
+"SR": "To reproduce the issue in a default text editor, follow these steps:\n1. Type the following lines:\na. \\<space\\>\\<tab\\>some text\nb. \\<tab\\>some text2\n2. Highlight the two lines and execute ShiftLeft.\n3. Notice that nothing moves when it should have shifted left."}

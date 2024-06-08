@@ -1,0 +1,1 @@
+{"bug_id": "7251", "title": "Bug 7251compiler preference page: combo boxes should have equal sizes", "description": "combo boxes have different sizes  depending on whether the entry is 'error'or 'warning'  they should be equalsized"}

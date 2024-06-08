@@ -1,0 +1,1 @@
+{"id": "43479", "title": "Bug 43479APR sendfile thread leaks memory", "description": " Bug 43479APR sendfile thread leaks memory", "OB": " The APR sendfile thread leaks memory by adding SendfileData objects to itsHashMap and failing to remove them.", "EB": "", "SR": ""}

@@ -1,0 +1,8 @@
+{
+  "id": "16822",
+  "title": "Bug 16822 - Search results not removed when cu is moved",
+  "description": "Build 200205211.",
+  "OB": "After moving the file X.java from 'P/src1' to 'P/src2', the search result for the declaration of X.java remains in the search view. Attempting to double-click on the search result opens a 'Search Error' dialog with the following message: 'An error occurred while creating a Java element. Reason: X.java does not exist.'",
+  "EB": "The expected behavior is that when a Java source file (e.g., X.java) is moved from one source folder (e.g., 'P/src1') to another (e.g., 'P/src2'), the search result for the declaration of the moved file should be automatically removed from the search view. There should be no 'Search Error' dialog related to the moved file.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create a project 'P' with 2 source folders: 'src1' and 'src2'.\n2. Create a Java source file 'X.java' under 'P/src1'.\n3. Perform a search for the declaration of 'X'.\n4. Move 'X.java' from 'P/src1' to 'P/src2'.\n\nObservation:\nThe search result for 'X.java' is still present in the search view.\nAttempting to double-click on the search result opens a 'Search Error' dialog with the message: 'An error occurred while creating a Java element. Reason: X.java does not exist.'"
+}

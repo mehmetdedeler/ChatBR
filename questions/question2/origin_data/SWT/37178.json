@@ -1,0 +1,1 @@
+{"bug_id": "37178", "title": "Bug 37178drag and drop movement of a class addes package. to imports [refactoring]", "description": "Since I run around using 'organize imports' to turn all those stars intospecific imports, shouldn't this import the specific class instead of ?Perhaps some sort of configuration option for this would be appropriate."}

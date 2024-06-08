@@ -1,0 +1,8 @@
+{
+  "id": "129561",
+  "title": "Bug 129561HCGBIDI: Undesirable generation of SQL query elements",
+  "description": "Bug 129561HCGBIDI: Undesirable generation of SQL query elements. This is not even NLS specific defect. Otherwise, the query will fail. The issue occurs when creating a table with a name that includes spaces in the database. When you select 'Preview Results' after dragging and dropping columns into the Query screen in the Edit Data Set dialog, an exception is fired. However, the problem is not specific to the English language; it happens with other languages as well. The solution is to enclose every entity name with spaces in quotation marks on the Query screen. When you do this and select 'Preview Results,' no exception is issued.",
+  "OB": "When creating a table with a name that includes spaces in the database and selecting 'Preview Results' after dragging and dropping columns into the Query screen in the Edit Data Set dialog, an exception is fired.",
+  "EB": "The expected behavior is that, regardless of the language used, the drag/drop of columns into the Query screen should enclose every entity name with spaces in quotation marks. When 'Preview Results' is selected, no exception should be issued.",
+  "SR": "To reproduce this bug, follow these steps:\n1. Create a DB2 database.\n2. Ensure it has a column with a name that includes spaces.\n3. Create a Data Source based on the DB from step 1.\n4. Create a Data Set based on the table from Step 2.\n5. On the Query screen, drag and drop the column name from step 2 into the 'select' portion of the clause. Change the SQL query manually as follows: select USER."
+}

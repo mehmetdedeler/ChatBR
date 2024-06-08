@@ -1,0 +1,8 @@
+{
+  "id": "17703",
+  "title": "Bug 17703: Edit/Add Task action inconsistency with dialog",
+  "description": "When executing the 'File > Add Task' action after selecting a Compilation Unit (CU) in the packages view (F1), a different dialog appears compared to executing the same action from the Java editor's ruler context menu.",
+  "OB": "After selecting a CU in the packages view and executing 'File > Add Task', a different dialog appears compared to the one shown when executing the action from the Java editor's ruler context menu.",
+  "EB": "The 'File > Add Task' action when selecting a CU in the packages view should display the same dialog as when executing the action from the Java editor's ruler context menu.",
+  "SR": "1. Open the packages view.\n2. Select a Compilation Unit (CU).\n3. Execute 'File > Add Task'.\n4. Observe the displayed dialog.\n5. Compare it with the dialog shown when executing the same action from the Java editor's ruler context menu."
+}

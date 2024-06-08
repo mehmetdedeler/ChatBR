@@ -1,0 +1,8 @@
+{
+  "id": "4329",
+  "title": "Bug 4329: No results when searching via Package view selection and dialog (1GLDN1X)",
+  "description": "Bug 4329: No results when searching via Package view selection and dialog (1GLDN1X)",
+  "OB": "The package view initializes the Search dialog with the fully qualified name. However, when searching for declarations, no results are found. Searching via the context menu in the packages view works as expected.",
+  "EB": "The issue arises when searching for declarations. Instead of initializing the search with the fully qualified name, the Search dialog should first attempt to get the Java element. If that fails, it should display the element name instead of the fully qualified name. Searching via the context menu in the packages view should continue to work as intended.",
+  "SR": "1. Modify the search functionality in the Package view to prioritize obtaining the Java element before resorting to the fully qualified name.\n2. Ensure that searching for declarations via the context menu in the packages view continues to function correctly.\n3. Double-check the Java Search logic to improve accuracy and reliability."
+}

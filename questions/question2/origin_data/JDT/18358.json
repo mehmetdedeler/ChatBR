@@ -1,0 +1,1 @@
+{"bug_id": "18358", "title": "Bug 18358Clicking on methods in the hierarchy view shows the top of the file in the editor", "description": "Build 20020528  20020530. Clicking on a member or method in the hierarchy viewwith the \"Show source of selected elements only\" on, goes to the top of thefile. This seems to be a regression as I saw this bug half a year ago.Leon"}

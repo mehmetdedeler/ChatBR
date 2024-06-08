@@ -1,0 +1,8 @@
+{
+  "id": "16938",
+  "title": "Bug 16938 - Class File Editor Scrolling Issue",
+  "description": "Reported in version 20020521 (F1). The priority of this issue is unclear as it may not be a bug. Users can work around this problem by using the scrollbar's thumb for scrolling.",
+  "OB": "While using the Class File editor for Java code and attempting to scroll through the code, there is an issue with the scrolling behavior.",
+  "EB": "The expected behavior is for the Class File Editor to provide smoother scrolling. Specifically, it should scroll one line at a time when clicking on the arrows, and when clicking on the scrollbar's background to scroll a page at a time, it should perform this action without scrolling about a line at a time.",
+  "SR": "To replicate the problem:\n1. Place a breakpoint in a Java file, just before a 'System.out.println' statement.\n2. Start debugging and step into the 'println' call, ensuring the class you step into lacks the corresponding source code.\n3. The Class File Editor for that class will open.\n4. Attempt to scroll within the Class File Editor using the scrollbar.\n\nObserved behavior:\n- Clicking on the scrollbar's down arrow results in scrolling one pixel at a time.\n- Clicking on the scrollbar's background to scroll a page at a time leads to the editor scrolling about a line at a time.\n\nDesired behavior:\n- The editor should scroll one line at a time when using the arrows.\n- When clicking on the scrollbar's background to scroll a page at a time, it should do so smoothly without scrolling about a line at a time."
+}

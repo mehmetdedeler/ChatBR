@@ -1,0 +1,16 @@
+{
+  "id": "9619",
+  "title": "Bug 9619 - Move static member: Dialog details",
+  "description": "During the process of moving static members, there are some issues and improvements that need to be addressed. This bug report outlines these problems and suggested changes.",
+  "OB": "a. The Browse button is too small, and it's recommended to use SWTUtil for standard button sizes.\n"
+        "b. The Title is used for long text, and when transitioning to the next page, it displays 'Type not found.' Only types from the source folders of the own project should be shown in the dialog.\n"
+        "c. The destination type can be the source type, and during refactoring, it incorrectly warns about resulting errors and makes pseudo changes in all referencing classes.",
+  "EB": "a. The title should be used for 'Move static field(s),' and the description should be used for 'x fields from xx.'\n"
+        "b. The selection dialog should be initialized with the type currently entered.",
+  "SR": "To reproduce the issues:\n"
+        "1. Attempt to move a static member.\n"
+        "2. Observe the small Browse button size.\n"
+        "3. Enter a type name in the dialog.\n"
+        "4. Try to move a static member to a destination type that is also the source type.\n"
+        "5. Notice the warning message and pseudo changes in referencing classes."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "6410",
+  "title": "Bug 6410 - File marked as changed despite no code assist suggestions",
+  "description": "When utilizing code assist, the file is incorrectly marked as changed despite no actual suggestions being provided.",
+  "OB": "Upon using code assist with no suggestions, the file is marked as changed even though no modifications are made.",
+  "EB": "If code assist has nothing to suggest, it should not flag the file as changed or 'dirty'. The file state should remain unchanged.",
+  "SR": "1. Open a file in the code editor.\n2. Trigger code assist when there are no suggestions available (e.g., empty space, irrelevant context).\n3. Note how the file is marked as changed despite no changes being made. This behavior should not occur; the file should remain unaltered in this scenario."
+}

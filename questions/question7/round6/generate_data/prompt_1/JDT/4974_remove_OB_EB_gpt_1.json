@@ -1,0 +1,8 @@
+{
+  "id": "4974",
+  "title": "Bug 4974 - Set classpath / output location should be one operation",
+  "description": "The bug report lacks sufficient details in the OB, EB, and SR sections. I'll infer and supplement the necessary information.",
+  "OB": "When creating a project, setting 'src' as the source folder and 'bin' as the output location is not functioning correctly.",
+  "EB": "After creating a project, when changing the project properties to use the project as both the source folder and output location, the settings do not apply as expected.",
+  "SR": "To reproduce the issue:\n1. Create a project with 'src' as the source folder and 'bin' as the output location.\n2. In the project properties, change the setting to use the project as both the source folder and the output location."
+}

@@ -1,0 +1,8 @@
+{
+    "id": "4971",
+    "title": "Bug 4971: Strange 'copy package'",
+    "description": "Bug 4971: When performing a 'copy package' operation in the Eclipse IDE, the behavior is unexpected. Steps to reproduce: 1. Create a new project and name it xxx. 2. In the package viewer, select a package in project A. 3. From the context menu, choose copy. 4. ",
+    "OB": "After selecting 'copy' from the context menu, the package should be successfully copied to the clipboard.",
+    "EB": "After selecting 'copy' from the context menu, the package is not copied to the clipboard.",
+    "SR": "Investigate the issue and fix the 'copy package' functionality in the Eclipse IDE to ensure that the package is successfully copied to the clipboard."
+}

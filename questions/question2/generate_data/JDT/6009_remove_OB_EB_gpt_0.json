@@ -1,0 +1,8 @@
+{
+  "id": "6009",
+  "title": "Bug 6009 - New Class Wizard Doesn't Set Enclosing Type by Default for Nested Classes",
+  "description": "This bug report addresses a problem related to the New Class Wizard's behavior when creating nested classes.",
+  "OB": "The observed behavior and expected behavior are not explicitly mentioned in the report, making it unclear what exactly is wrong with the New Class Wizard's handling of nested classes.",
+  "EB": "The expected behavior is also not clearly stated in the report. It should specify what the New Class Wizard should do when creating nested classes.",
+  "SR": "To improve this report, it should include clear steps to reproduce the issue, such as which options to select and what actions to take to demonstrate the problem."
+}

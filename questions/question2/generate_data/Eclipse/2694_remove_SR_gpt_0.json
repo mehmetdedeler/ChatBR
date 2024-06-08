@@ -1,0 +1,8 @@
+{
+  "id": "2694",
+  "title": "Editor Selection Dialog: UI suggestions (1GI6RPE)",
+  "description": "In the Editor Selection Dialog, there are some UI suggestions that need to be addressed. Additionally, there is an issue with the 'Add' button. Please see the details below for more information.",
+  "OB": "When no selection is made, the 'OK' button is enabled.",
+  "EB": "The 'Add' button should not be enabled when no selection is made. Entries that already exist in the associated editors list should not be available for selection.",
+  "SR": "1. Open the Editor Selection Dialog.\n2. Try to add an associated editor without selecting any from the list. Observe that the 'Add' button is enabled."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "384398", "title": "Bug 384398Type Mismatch error when using inner classes contained in generic types within ITDs", "description": "Please see attached example project.I get the following (strange) compiler error:Type mismatch: cannot convert from A<T.InnerA< to A.InnerABAspect.aj/AspectJInnerclassInGenericTypeBug/src/de/exampleline 12"}

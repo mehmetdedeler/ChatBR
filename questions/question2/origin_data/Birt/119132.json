@@ -1,0 +1,1 @@
+{"bug_id": "119132", "title": "Bug 119132Remove the cheet sheet input box from the dialog", "description": "cheet sheet is more for advanced users.During the UI demo it was decidedWhen a user tries to publish a template, the save dialog is displayed,remove the cheetsheet input box from the dialog."}

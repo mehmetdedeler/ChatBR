@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+In your bug reports, it is essential to provide clear and informative statements for the following categories:
+- **Observed Behavior (OB):** This section should describe the relevant software behavior, actions, output, or results. Avoid vague statements like "the system does not work."
+- **Expected Behavior (EB):** This part should articulate what the software should or is expected to do, using phrases like "should...", "expect...", or "hope...". Avoid suggestions or recommendations for bug resolution in this section.
+- **Steps to Reproduce (SR):** Include user actions or operations that can potentially lead to reproducing the issue. Use phrases like "to reproduce," "steps to reproduce," or "follow these steps."
+It is possible that the bug report may lack sufficient details in the OB, EB, and SR sections. In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements. Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '7752', 'title': 'Bug 7752Export multiple files with same file name under different directories to zip file fails.', 'description': 'Steps to reproduce:1. ', 'OB': 'Bug 7752Export multiple files with same file name under different directories to zip file fails. In the "Export" dialog window, Select both projects created earlier, givethe zip file a name (such as test.zip) and begin export to zip file.Results:An error message box pops up: Problems were encountered during export and thedetail lists the file of the same name in project2 as the problem (i.e. ', 'EB': 'foo.txtin project 2).If you name foo.txt in project 2 foo2.txt there are no problems.Expected Behaviour:The zip file should be able to store files with same name under differentdirectories. ', 'SR': ''}
+</BUG REPORT>

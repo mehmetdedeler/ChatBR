@@ -1,0 +1,1 @@
+{"bug_id": "16174", "title": "Bug 16174Wrong popup menu", "description": "This happens randomly.Edit some Java source in Eclipse.Right click in the Packages view (orHierarchy view).The menu that pops up is wrong 10% of the time.Bringing itup again fixes the problem."}

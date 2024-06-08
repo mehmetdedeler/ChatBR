@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '125678', 'title': 'Bug 125678The original chart instance in report design handle is not modified after running the report.', 'description': '', 'OB': "Bug 125678The original chart instance in report design handle is not modified after running the report. The original chart instance in report design handle is not modified afterrunning the report.In my application, I get the design time instance of chart, and then Icall method which runs the report.I expect chart bound with data after running the report.The same functionality was working fine (I mean: BIRT was returning chartbound with data after running report)till BIRT2.0M3. It's not working as expected in BIRT RC and 2.0 version. ", 'EB': 'The original chart instance in report design handle is not modified afterrunning the report.In my application, I get the design time instance of chart, and then Icall method which runs the report.I expect chart bound with data after running the report.The same functionality was working fine (I mean: BIRT was returning chartbound with data after running report)till BIRT2.0M3. ', 'SR': ''}
+</BUG REPORT>

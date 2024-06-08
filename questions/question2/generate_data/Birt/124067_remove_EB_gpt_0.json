@@ -1,0 +1,8 @@
+{
+  "id": "124067",
+  "title": "Support for Relative Paths in XML File Selection",
+  "description": "When selecting an XML file, the application should support relative paths.",
+  "OB": "When selecting an XML file, the system only supports absolute file paths. It does not support relative paths.",
+  "EB": "The expected behavior is that when selecting an XML file, both relative and absolute file paths should be supported.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create a new datasource and dataset based on an XML file."
+}

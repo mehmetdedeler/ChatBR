@@ -1,0 +1,8 @@
+{
+  "id": "49890",
+  "title": "Nio Selector Issue Causing CPU to Reach 100% on Linux Platform",
+  "description": "On the Linux platform, there's an issue with the Nio Selector causing the server's CPU to consistently reach 100%. Even after restarting the server, the CPU remains at 100%. This problem has been observed across multiple Java versions: 1.6.007, 1.6.018, 1.6.021. It appears to be a duplicate of Bug 46373, which was addressed by the Jetty team (http://jira.codehaus.org/browse/JETTY937?focusedCommentId=168060&page=com.atlassian.jira.plugin.system.issuetabpanels:commenttabpanel). I've added additional logging to NioEndpoint.java to track the issue.",
+  "OB": "The logging shows that selector.select(timeout) occasionally returns zero keys on the Linux platform.",
+  "EB": "The issue is not present on the Windows platform.",
+  "SR": "To reproduce:\n1. Use the attached NioEndpoint.7z with the patched NioEndpoint.java (with logging).\n2. Utilize the simple web application provided in web.7z."
+}

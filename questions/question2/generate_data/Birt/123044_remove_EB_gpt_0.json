@@ -1,0 +1,8 @@
+{
+  "id": "123044",
+  "title": "Bug 123044 - Missing Page Break in First Item When Previewing PDF",
+  "description": "This bug report is related to the issue where the first item does not have a page break when previewing an attached file in PDF format.",
+  "OB": "The observed behavior is that when previewing the attached file in PDF, the first item does not have a page break as expected.",
+  "EB": "The expected behavior is that the first item should have a page break when previewing an attached file in PDF format.",
+  "SR": "To reproduce this issue:\n1. Open the attached file from bug report 1228982 in a PDF viewer and preview it."
+}

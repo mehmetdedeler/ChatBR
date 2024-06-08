@@ -1,0 +1,1 @@
+{"id": "121687", "title": "Bug 121687 - Exception throws when exporting data in table inside a grid cell", "description": "", "OB": "", "EB": "When exporting data in two tables, the expected result is that the data should be exported successfully. However, the actual result is that an exception is thrown in the ReportEngineService.getMetaData() function.", "SR": ""}

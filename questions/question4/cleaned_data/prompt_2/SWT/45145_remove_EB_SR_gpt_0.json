@@ -1,0 +1,1 @@
+{"id": "45145", "title": "Bug 45145 - Second window comes to front when using first", "description": "", "OB": "When switching from another application to one Eclipse window, and clicking on a docked view or perspective, the second window comes to the front and overlaps my other applications' windows.", "EB": "", "SR": ""}

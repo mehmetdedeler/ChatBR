@@ -1,0 +1,1 @@
+{"id": "121695", "title": "Bug 121695\"Save as\" is always disabled in a library file.", "description": "Bug 121695\"Save as\" is always disabled in a library file. ", "OB": "\"Save as\" is always grayed out. ", "EB": "", "SR": "Description: \"Save as\" is always disabled in a library file.Steps to reproduce:1. Create a library.2. Select FileSave as. "}

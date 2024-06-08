@@ -1,0 +1,8 @@
+{
+  "id": "112458",
+  "title": "Bug 112458 - Property Editor Displays Layout Items' Properties in Master Page Viewer",
+  "description": "The issue is related to the Property Editor continuing to display the properties of layout items when switching to the Master Page viewer.",
+  "OB": "N/A",
+  "EB": "The expected behavior is that when switching to the Master Page viewer, the Property Editor should change to reflect Master Page properties. However, it is not specified in the bug report.",
+  "SR": "To reproduce the issue:\n1. Create a new report.\n2. Insert a label or any layout item on the report.\n3. Select the label or layout item. (Property Editor should show the properties of the selected item)\n4. Additional steps are needed to verify the bug, as the expected behavior in the Master Page viewer is not mentioned in the report."
+}

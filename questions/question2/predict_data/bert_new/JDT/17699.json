@@ -1,0 +1,1 @@
+{"id": "17699", "title": "Bug 17699Java Editor: Local Histroy menu entries are enabled for readonly files", "description": "Bug 17699Java Editor: Local Histroy menu entries are enabled for readonly files ", "OB": "F1 make file readonly open it observe: context menu contains Local History actions. Only compare makessense for readonly files ", "EB": "", "SR": ""}

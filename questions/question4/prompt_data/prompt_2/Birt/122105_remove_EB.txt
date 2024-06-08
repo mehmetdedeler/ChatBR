@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '122105', 'title': "Bug 122105the schema should be added as 'schemaname.Procedurename' when use the stored procedure.", 'description': "Bug 122105the schema should be added as 'schemaname.Procedurename' when use the stored procedure. ", 'OB': 'In the window "Edit data set", drag a store procedure to the QueryTextExpected Results:The stored procedure naming should be composed of the database schema name and the store procedure name ', 'EB': '', 'SR': 'create a data source and a data set on the store procedure3. '}
+</BUG REPORT>

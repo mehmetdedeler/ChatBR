@@ -1,0 +1,8 @@
+{
+  "id": "6656",
+  "title": "Bug 6656 - Close button shifts downward when view resized smaller",
+  "description": "The issue occurs on Linux with build 20011127 and is not present in build 20011116 on Nt2000. When resizing a view, such as the Navigator, to a smaller size, the tool items shift below the label.",
+  "OB": "Upon resizing the view smaller, the close button relocates downward, misaligning with the label and disrupting the expected layout.",
+  "EB": "The close button should maintain its position relative to the label when the view is resized smaller, ensuring a consistent and expected layout.",
+  "SR": "Steps to Reproduce:\n1. Launch the application on Linux with build 20011127.\n2. Open a view, for example, the Navigator.\n3. Resize the view to a smaller dimension.\n4. Observe the close button's downward movement, misaligning with the label."
+}

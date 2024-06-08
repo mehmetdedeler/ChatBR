@@ -1,0 +1,8 @@
+{
+  "id": "13196",
+  "title": "Unexpected Behavior When Manipulating Source in Browsing Perspective",
+  "description": "In the Java Browsing Perspective, there is an unexpected behavioral difference when manipulating source in the type hierarchy and in the method list of the browser perspective.",
+  "OB": "The observed behavior is that all related views and the editor are cleared when deleting a method from the hierarchy view. This is not the case when the editor is dirty.",
+  "EB": "The expected behavior is that when deleting a method from the hierarchy view in the Java Browsing Perspective, only the hierarchy view should be affected, and the type list view and the editor should remain unchanged. This behavior should be consistent with the behavior when the editor is dirty.",
+  "SR": "To reproduce the issue:\n1. Open the Java Browsing Perspective\n2. Select a type\n3. Select a method in the method list view\n4. Delete the method using the context menu of the method list view (editor becomes dirty)\n5. Select another type\n6. Open the type hierarchy on this type and dock the hierarchy view\n7. Select a method in the method list view\n8. Select the same method in the hierarchy view\n9. Delete the method using the context menu of the hierarchy view\n\nThe observed issue should be apparent when following these steps, as the hierarchy view clears not only the method but also the type list view and the editor, which is not the expected behavior."
+}

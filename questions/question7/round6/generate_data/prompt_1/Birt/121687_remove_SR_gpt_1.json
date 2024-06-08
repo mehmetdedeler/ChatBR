@@ -1,0 +1,8 @@
+{
+  "id": "121687",
+  "title": "Bug 121687: Exception thrown when exporting data from a table within a grid cell",
+  "description": "An exception is thrown when attempting to export data from a table nested within a grid cell.",
+  "OB": "Upon attempting to export data in a table within a grid cell, an exception is thrown.",
+  "EB": "When exporting data from two tables, the expected result is that the data are successfully exported. However, the actual result is an exception thrown in the 'ReportEngineService.getMetaData()' function.",
+  "SR": "Steps to reproduce:\n1. Insert a grid.\n2. Attempt to export data from two tables.\nExpected result: Data are exported successfully.\nActual result: Exception occurs in 'ReportEngineService.getMetaData()'."
+}

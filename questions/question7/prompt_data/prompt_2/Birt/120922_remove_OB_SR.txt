@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '120922', 'title': 'Bug 120922"Dirty Page" behavior in XML Report Designer editor needs improved', 'description': 'Bug 120922"Dirty Page" behavior in XML Report Designer editor needs improved Other pages cannot be used until the source is saved." (including the quotes). And then the user needs figure out how to save or discard their changes. Do you want to save the changes?<Yes <No <CancelYes would save the changesNo would discard the changesCancel would do nothing and remain on the Source pageIn addition, the dialog is titled "Error" (including the quotes). ', 'OB': '', 'EB': 'A better and more typical approach would be:XML Report Design has been changed. The dialog needs to use a better title (and certainly should not have the quotes). ', 'SR': ''}
+</BUG REPORT>

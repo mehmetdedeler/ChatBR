@@ -1,0 +1,8 @@
+{
+  "id": "13196",
+  "title": "Bug 13196[Browsing] Consequences of changes",
+  "description": "Bug 13196[Browsing] Consequences of changes",
+  "OB": "When performing manipulations with an open editor, the behavior is inconsistent. Some manipulations affect the working copy shown in the editor, while others do not.",
+  "EB": "Both manipulations should behave consistently. If there is an open editor, all manipulations should work on the working copy shown in the editor.",
+  "SR": "1. Open an editor. 2. Perform various manipulations (provide specific manipulations if possible). 3. Observe the behavior and note any inconsistencies in how manipulations affect the working copy."
+}

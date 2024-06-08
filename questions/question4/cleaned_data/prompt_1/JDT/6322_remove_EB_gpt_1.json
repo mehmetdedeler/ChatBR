@@ -1,0 +1,8 @@
+{
+  "id": "6322",
+  "title": "Bug 6322: All types dialog shows obfuscated classes",
+  "description": "Bug 6322: All types dialog displays obfuscated classes. JDK 1.4 includes obfuscated classes (a, a1, b, c, d) etc.",
+  "OB": "The obfuscated classes (e.g., a, a1, b, c, d) prominently appear in the Open Type dialog.",
+  "EB": "The obfuscated classes should be either sorted after class names that start with a capital letter or completely filtered out.",
+  "SR": "I suggest option (a) to sort lower case class names after the ones that start with a capital letter."
+}

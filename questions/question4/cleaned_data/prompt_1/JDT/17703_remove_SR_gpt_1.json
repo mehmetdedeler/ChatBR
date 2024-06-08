@@ -1,0 +1,8 @@
+{
+  "id": "17703",
+  "title": "Bug 17703: Edit/Add Task action uses different dialog than Java Editor",
+  "description": "When executing the 'Add Task' action on a selected CU in the Packages view, a different dialog appears compared to executing the action from the Java editor's ruler context menu.",
+  "OB": "When pressing F1 and selecting a CU in the Packages view, executing 'File > Add Task': A different dialog appears than when executing the action from the Java editor's ruler context menu.",
+  "EB": "The 'Edit/Add Task' action should display the same dialog in the Packages view as it does when performed from the Java editor's ruler context menu.",
+  "SR": "1. Open the Packages view.\n2. Select a CU.\n3. Press F1.\n4. Choose 'File > Add Task'.\n5. Note the dialog displayed.\n6. Open a Java file in the editor.\n7. Right-click on the ruler context menu.\n8. Choose 'Add Task'.\n9. Compare the dialog with the one in step 5."
+}

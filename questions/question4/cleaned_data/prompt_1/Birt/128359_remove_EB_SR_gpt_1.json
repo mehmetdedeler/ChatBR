@@ -1,0 +1,8 @@
+{
+  "id": "128359",
+  "title": "Bug 128359: Incorrect logic when applying a filter to the table on the layout",
+  "description": "We observe that the dataset has 10 records (DataResultA).",
+  "OB": "When dragging the dataset to the layout and setting an additional filter (FilterB) on the table, the actual result is that the output of FilterB is based on DataResultA.",
+  "EB": "The expected result is that the output of FilterB should be based on DataResultB.",
+  "SR": "1. Drag the dataset to the layout.\n2. Set another filter (FilterB) on the table.\n3. Observe that the result of FilterB is based on DataResultA instead of DataResultB."
+}

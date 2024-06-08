@@ -1,0 +1,1 @@
+{"id": "2535", "title": "Bug 2535[UI] Import from zip progress bar inaccurate (1GFL1W5)", "description": " Bug 2535[UI] Import from zip progress bar inaccurate (1GFL1W5)", "OB": " The import from zip progress bar reaches 100% before importing all the files.NOTES:", "EB": "", "SR": ""}

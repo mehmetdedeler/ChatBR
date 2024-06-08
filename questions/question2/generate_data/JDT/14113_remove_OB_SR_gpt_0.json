@@ -1,0 +1,8 @@
+{
+  "id": "14113",
+  "title": "Listening to FSOURCEATTACHED and FSOURCEDETACHED Java Deltas",
+  "description": "Bug 14113 should enable listening to FSOURCEATTACHED and FSOURCEDETACHED Java deltas.",
+  "OB": "The system does not currently respond to FSOURCEATTACHED and FSOURCEDETACHED Java deltas.",
+  "EB": "I expect the system to refresh the class file editor when FSOURCEATTACHED or FSOURCEDETACHED Java deltas are triggered. Currently, I plan to fire a (FREMOVEDFROMCLASSPATH | FSOURCEDETACHED | FSOURCEATTACHED) delta and remove the FREMOVEDFROMCLASSPATH when this bug is fixed.",
+  "SR": "To reproduce the issue:\n1. Open the software.\n2. Trigger FSOURCEATTACHED or FSOURCEDETACHED Java deltas."
+}

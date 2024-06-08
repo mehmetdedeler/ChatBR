@@ -1,0 +1,8 @@
+{
+    "id": "122105",
+    "title": "The schema should be added as 'schemaname.Procedurename' when using the stored procedure",
+    "description": "The schema is not being added properly when using the stored procedure. It seems to be missing from the procedure name.",
+    "OB": "The schema is not being added when using the stored procedure. It appears that the stored procedure is being called without the schema prefix.",
+    "EB": "The schema should automatically be included as 'schemaname.Procedurename' when using the stored procedure.",
+    "SR": "To reproduce:\n1. Create a new report.\n2. Create a data source.\n3. Create a data set using the stored procedure with the schema prefix included in the procedure name."
+}

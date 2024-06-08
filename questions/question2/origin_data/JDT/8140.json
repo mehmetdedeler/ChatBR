@@ -1,0 +1,1 @@
+{"bug_id": "8140", "title": "Bug 8140Code assist for anonymous inner types adds empty line", "description": "button.addActionListener(new ActionListener() {/  @see ActionListeneractionPerformed(ActionEvent) /public void actionPerformed(ActionEvent e) {}< here }"}

@@ -1,0 +1,8 @@
+{
+  "id": "121170",
+  "title": "Bug 121170: Inconsistent Column Labels Retrieval",
+  "description": "The software should retrieve recognizable column labels from the metadata object both before and after extraction, but it's currently displaying different labels.",
+  "OB": "When attempting to retrieve column labels from the metadata object before extraction, the system returns incorrect or unrecognizable strings. After extraction, the displayed labels differ from those retrieved before.",
+  "EB": "The 'get column label' function should consistently retrieve user-recognizable strings from the metadata object before and after extraction. The labels displayed pre-extraction should match those displayed post-extraction.",
+  "SR": "1. Initialize meta data object with column labels.\n2. Call getcolumnlabel before data extraction.\n3. Verify that the returned labels are user recognizable and match the labels after data extraction."
+}

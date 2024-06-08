@@ -1,0 +1,8 @@
+{
+  "id": "17618",
+  "title": "Changing output location does not delete all derived resources",
+  "description": "When changing the output location, the expected behavior is that all derived resources created by the Java builder should be deleted. However, this is not currently happening.",
+  "OB": "After changing the output location, the derived resources created by the Java builder remain in their original location, leading to redundancy and potential conflicts.",
+  "EB": "After changing the output location, all derived resources created by the Java builder should be automatically deleted to ensure a clean and updated project structure.",
+  "SR": "1. Open the project in the IDE.\n2. Change the output location in the project settings.\n3. Build the project using the Java builder.\n4. Check the original output location for any remaining derived resources."
+}

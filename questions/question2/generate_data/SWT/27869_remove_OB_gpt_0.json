@@ -1,0 +1,8 @@
+{
+  "id": "27869",
+  "title": "Bug 27869 - Performance Issue with StyledText and Font.getFontData",
+  "description": "This bug report highlights a performance problem related to the excessive use of the Font.getFontData API in the StyledText component. The report suggests that the metric information should be cached in the StyledText and only updated when the font changes. The issue is particularly evident on platforms like Redhat 8 with UTF-8 encoding.",
+  "OB": "The observed behavior regarding the performance issue is not explicitly mentioned in the bug report.",
+  "EB": "The expected behavior is that the StyledText component should not excessively use the Font.getFontData API, especially during typing. The suggestion is to avoid using this API in such scenarios.",
+  "SR": "To reproduce the problem, add a 'system.out.println' statement in the first line of the 'Font.getFontData' method. Then, run a self-hosted Eclipse, and monitor the console. The performance problem is a concern, especially on platforms like Motif running with UTF-8 encoding."
+}

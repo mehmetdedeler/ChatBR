@@ -1,0 +1,1 @@
+{"bug_id": "13002", "title": "Bug 13002Internal error dialog focus default", "description": "Build: 20020404The internal error dialog defaults the focus to the \"Yes\" answer, it shoulddefault to \"No\".The main problem I have with defaulting to \"Yes\" is that an absentminded Entercauses the entire workspace to shutdown."}

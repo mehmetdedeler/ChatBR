@@ -1,0 +1,1 @@
+{"id": "16847", "title": "Bug 16847Japanese: Template page buttons cut off", "description": " Bug 16847Japanese: Template page buttons cut off", "OB": "", "EB": "", "SR": " In the JavaTemplate page in Japanese the text is cut off on the last 4buttons.STEPS1) Install build 20020521 with the 20020515 fragments2) Open PreferencesJavaTemplates"}

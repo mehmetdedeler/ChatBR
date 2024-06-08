@@ -1,0 +1,1 @@
+{"bug_id": "16384", "title": "Bug 16384Leak: Outline hangs onto registered menus", "description": "After working for a while (4 hours) with eclipse, I get OutofmemoryError.I have Win2k/Sp2/384MB RAM.I suspect it's a memory leak.I have some large projects loaded on my workspace but I work with only fewsmall projects.Eclipse build  integration 20020517"}

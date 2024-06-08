@@ -1,0 +1,8 @@
+{
+  "id": "23787",
+  "title": "Bug 23787 [Properties dialog] Project Properties Info page displays improper field types",
+  "description": "In the Integration build 09/17, the Project Properties Info page uses text fields, which looks poor on motif platforms.",
+  "OB": "The Project Properties Info page displays text fields for information, causing a poor visual appearance on motif platforms.",
+  "EB": "The Project Properties Info page should utilize readonly labels instead of text fields for presenting information. This change would improve the visual appearance on motif platforms.",
+  "SR": "1. Open the Project Properties Info page on a motif platform.\n2. Observe the use of text fields for information display.\n3. Compare the appearance and functionality with readonly labels for presenting the same information."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "46909", "title": "Bug 46909<jsp:plugin error", "description": "<jsp:plugin type=\"applet\" generates type=\"application/xjavaapplet;\" instead of type = \"application/xjavaapplet\".Firefox with Javaplugin cannot display Java applets because \";\" is added."}

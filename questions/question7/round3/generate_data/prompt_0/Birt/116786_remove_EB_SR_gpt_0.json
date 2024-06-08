@@ -1,0 +1,1 @@
+{"id": "116786", "title": "Bug 116786 - Library include should store relative path.", "description": "", "OB": "The report design is currently storing the absolute path for the library include. Instead, it should save the relative path as the property value. The current absolute path is: 'E:/birt/sampleReports/otherlib/lib1.rptlibrary'.", "EB": "", "SR": ""}

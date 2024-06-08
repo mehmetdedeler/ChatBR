@@ -1,0 +1,1 @@
+{"bug_id": "6525", "title": "Bug 6525wrong indent when using replace from local history", "description": "JUnit setup1) Change junit.tests.createResult()2) save3) replace from local history4) select previous edition method is inserted with wrong indentrepeat 3)indent is accumulated"}

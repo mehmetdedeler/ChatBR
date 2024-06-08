@@ -1,0 +1,8 @@
+{
+                    "id": "17758",
+                    "title": "Bug 17758[Navigator] Navigator View. Problems with 'Go Into' action",
+                    "description": "Bug 17758[Navigator] Navigator View. Problems with 'Go Into' action ",
+                    "OB": "When performing the following steps:\n1. Import all plugins from runtime environment to get some projects.\n2. Pack a project (say org.eclipse.ant).\n3. Click 'Go into', then 'Go up', then 'Go back', then 'Go back' again.\n\nThe 'Go into' action works fine, and the project is closed correctly. However, the 'Go forward' button is still enabled even though it leads to a blank screen when clicked. Additionally, clicking the 'Go into' button again shows that it is disabled now.",
+                    "EB": "It is expected that closing a project should clean up the history or display some text in the navigator view indicating that the project is closed. Additionally, when opening another project (e.g., org.eclipse.lucene) and selecting a folder (e.g., 'bin'), the 'Go Into' action should be enabled.",
+                    "SR": "To reproduce:\n1. Import all plugins from runtime environment to get some projects.\n2. Pack a project (say org.eclipse.ant).\n3. Click 'Go into', then 'Go up', then 'Go back', then 'Go back' again.\n4. Notice the 'Go forward' button is enabled, but does not display any content when clicked.\n5. Click 'Go into' again and observe that it is now disabled."
+                }

@@ -1,0 +1,8 @@
+{
+  "id": "9654",
+  "title": "Bug 9654 - Issues with 'Modify Parameters' Dialog",
+  "description": "This bug report addresses issues with the 'Modify Parameters' dialog, suggesting multiple improvements to enhance its functionality and usability.",
+  "OB": "The observed behavior is not explicitly mentioned in the report, but it appears to be related to issues with the dialog.",
+  "EB": "The expected behavior includes the following improvements: reducing the excessive spacing between the button and the list, aligning the top button with the dialog's top, adding a label to the table to support mnemonics, enabling multiple item selection for moving up or down, ensuring the signature preview label wraps properly, and setting the background color of the signature preview to match the hover color.",
+  "SR": "The report does not provide specific steps to reproduce the issues, making it challenging to reproduce or verify the problems based on the information given."
+}

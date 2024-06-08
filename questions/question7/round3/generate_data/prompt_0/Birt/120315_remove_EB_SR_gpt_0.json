@@ -1,0 +1,1 @@
+{"id": "120315", "title": "Bug 120315: Display property set to 'none' not taking effect in new PDF emitter", "description": "", "OB": "When the display property of an item is set to 'none' in the new PDF emitter, it does not have any effect.", "EB": "", "SR": ""}

@@ -1,0 +1,1 @@
+{"bug_id": "17177", "title": "Bug 17177Javadoc wizard doesn't remember checked options between 2 runs", "description": "Build 20020521The Javadoc wizard doesn't remember that I checked 'Open generated index filein browser' between 2 runs. As a result, I cannot just press Finish, but I needto press Next twice, then check the option again, then press Finish."}

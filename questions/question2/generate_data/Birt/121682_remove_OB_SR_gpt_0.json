@@ -1,0 +1,8 @@
+{
+  "id": "121682",
+  "title": "Bug 121682: Exception thrown when exporting data from a table containing highlight/map",
+  "description": "Exception occurs when attempting to export data from an attached report.",
+  "OB": "When trying to export the data from a table in the attached report, an exception is thrown.",
+  "EB": "I expected that when I export the data from the table, the operation would complete successfully without any errors.",
+  "SR": "Steps to reproduce: 1. Open the attached report. 2. Go to the table containing highlight/map. 3. Attempt to export the data from the table."
+}

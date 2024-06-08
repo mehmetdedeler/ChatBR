@@ -1,0 +1,1 @@
+{"id": "8673", "title": "Bug 8673Bogus change names in preview page when renaming a method", "description": "", "OB": "", "EB": "", "SR": " Bug 8673Bogus change names in preview page when renaming a method Build 20020125 select a method open rename wizard go to the preview page all nodes are names update method reference"}

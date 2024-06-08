@@ -1,0 +1,8 @@
+{
+  "id": "120922",
+  "title": "Improvement needed for 'Dirty Page' Behavior in XML Report Designer Editor",
+  "description": "When working with the XML Report Designer editor, there is a 'Dirty Page' behavior issue that needs improvement. This issue prevents users from using other pages until the source is saved. The user is presented with a dialog that asks whether they want to save the changes, discard them, or cancel. The dialog is titled 'Error.'",
+  "OB": "When editing the XML in the 'source' view of the Layout Editor and then attempting to switch back to the Layout view, an error message is displayed, indicating that changes need to be saved. The problem here is that the user needs to figure out how to save the changes or discard them, which is not straightforward. Additionally, the error message is not very informative; it simply states, 'Source page is dirty.'",
+  "EB": "When editing the XML in the 'source' view of the Layout Editor and then trying to switch back to the Layout view, the expected behavior should be as follows: The user should be presented with a clear and user-friendly dialog that clearly asks whether they want to save the changes, discard them, or cancel. The dialog should have an appropriate title that reflects the situation, rather than 'Error.'",
+  "SR": "To reproduce this issue:\n1. Open the XML Report Designer editor.\n2. Edit the XML content in the 'source' view of the Layout Editor.\n3. Attempt to switch back to the Layout view.\n4. Observe the error message and the options provided in the dialog, including how to save the changes or discard them."
+}

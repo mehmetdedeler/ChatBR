@@ -1,0 +1,8 @@
+{
+  "id": "18028",
+  "title": "Bug 18028: Rename package doesn't check if all resources are writable",
+  "description": "When attempting to rename a package, the current implementation does not verify whether all resources within the package are writable.",
+  "OB": "While trying to rename a package, the process completes without checking the writability of resources, leading to potential issues with read-only files.",
+  "EB": "The precondition check during package renaming should include verification for writeability of all resources, ensuring that read-only files are not overlooked.",
+  "SR": "1. Open the IDE and create a project with a package containing read-only files.\n2. Attempt to rename the package.\n3. Observe that the process completes without checking the writeability status of resources."
+}

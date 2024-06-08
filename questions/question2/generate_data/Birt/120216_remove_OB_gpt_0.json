@@ -1,0 +1,8 @@
+{
+  "id": "120216",
+  "title": "Group dialog should be displayed even when the dataset is not set.",
+  "description": "The software currently does not show the group dialog when the dataset is not defined. This is causing an issue where users are unable to define a group if the dataset is not set.",
+  "OB": "The group dialog is not displayed when attempting to create a new table group without setting the dataset.",
+  "EB": "The group dialog should be displayed even when the dataset is not set. Users should have the ability to define a group, even if the dataset has not been defined.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the software.\n2. Add a table report item to the project, but do not set the dataset.\n3. Attempt to create a new table group."
+}

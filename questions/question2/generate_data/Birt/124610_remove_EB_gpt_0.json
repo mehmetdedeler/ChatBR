@@ -1,0 +1,8 @@
+{
+  "id": "124610",
+  "title": "Error Occurs When Adding a Filter to a Computed Boolean Column",
+  "description": "When attempting to add a filter to a boolean computed column, an error is encountered.",
+  "OB": "When trying to add a filter to a boolean computed column, an error occurs.",
+  "EB": "Adding a filter to a boolean computed column should not result in an error.",
+  "SR": "Steps to reproduce:\n1. Create a new BIRT sample data source and a dataset from the 'orders' table.\n2. Create a computed column with the name 'yes/no', type 'any' (no boolean option for selection), and value 'if(row[1]%2==0){true;}else{false;}'.\n3. Drag the dataset from the Data Explorer to the Layout.\n4. Select the table, then click the 'Filters' tab in the Property Editor.\n5. Click the 'Add' button.\n6. Select 'yes/no' as the Expression and 'Is True' as the Operator."
+}

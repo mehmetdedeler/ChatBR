@@ -1,0 +1,8 @@
+{
+  "id": "9654",
+  "title": "Bug 9654: Modify Parameters Dialog Details",
+  "description": "Bug 9654: Modify Parameters dialog details include duplicated name validation on the first page. The first and second columns could be merged.",
+  "OB": "The spacing between the button and list is too large. The top button should align with the dialog top. The table lacks a label for mnemonic purposes. The absence of multiple selection capability prevents applying 'move up'/'move down' actions to more than one item. The signature preview text overflows its container. Additionally, the signature preview lacks a background color resembling the hover color.",
+  "EB": "The spacing between the button and list should be adjusted for optimal alignment. A label should be added to the table for mnemonic inclusion. Enable multiple selection functionality to allow 'move up'/'move down' actions on multiple items. Adjust the signature preview to wrap within its container. Set the background color of the signature preview to match the hover color.",
+  "SR": "1. Open the Modify Parameters dialog.\n2. Observe the excessive spacing between the button and list.\n3. Note the absence of a label for the table.\n4. Attempt to perform 'move up'/'move down' actions on multiple items.\n5. Observe the signature preview text overflowing its container and lacking the appropriate background color."
+}

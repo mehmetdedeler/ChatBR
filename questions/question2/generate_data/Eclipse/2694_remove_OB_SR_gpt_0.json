@@ -1,0 +1,8 @@
+{
+  "id": "2694",
+  "title": "Editor Selection Dialog UI Suggestions",
+  "description": "Bug 2694Editor Selection Dialog: UI suggestions (1GI6RPE) involves pressing the 'Add' button for the associated editors. Multiple issues and suggestions were identified. This report focuses on some of the key concerns and proposed improvements.",
+  "OB": "a. When clicking the 'Add' button, it adds a hidden entry.\nc. The default entry in the associated editors list is not marked as '(default)' as expected.\nf. The dialog lacks a width hint.\ng. The File Editors Preferences page increases in height when selected, while other pages do not.",
+  "EB": "a. Clicking 'Add' should not add a hidden entry.\nd. The 'Add' function should not make entries that already exist in the associated editors list available for selection.\nc. The default entry in the associated editors list should be clearly marked as '(default)'.\nf. The dialog should have a width hint to provide a more consistent and visually appealing UI.\ng. The File Editors Preferences page should not increase in height when selected, matching the behavior of other pages.",
+  "SR": "To reproduce the issues and suggestions:\n1. Launch the Editor Selection Dialog.\n2. Navigate to the 'Associated Editors' section.\n3. Click the 'Add' button.\n4. Verify if a hidden entry is added (OBa).\n5. Check if the default entry is marked as '(default)' (OBc).\n6. Observe the dialog's width (OBf).\n7. Compare the height change in the File Editors Preferences page with other pages (OBg).\n8. Attempt to add an entry that already exists in the associated editors list (OBd)."
+}

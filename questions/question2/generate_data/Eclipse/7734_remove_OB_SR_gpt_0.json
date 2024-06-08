@@ -1,0 +1,8 @@
+{
+  "id": "7734",
+  "title": "Bug 7734 - System can be shut down without savefile warnings",
+  "description": "",
+  "OB": "The system can be shut down without any warning or prompt for saving files.",
+  "EB": "The expected behavior is that the system should provide a 'Do you want to save your file?' dialog box with options 'Yes,' 'No,' and 'Cancel' (which halts the shutdown). Additionally, it would be helpful if applications could control the shutdown/save process and pop up their own windows that would also allow the user to stop the shutdown if 'Cancel' is selected.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open any application or create a new document with unsaved changes.\n2. Attempt to shut down the system, either through the Start menu or by pressing the power button."
+}

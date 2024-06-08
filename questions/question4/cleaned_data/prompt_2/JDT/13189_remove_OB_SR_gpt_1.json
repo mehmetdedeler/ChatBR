@@ -1,0 +1,8 @@
+{
+  "id": "13189",
+  "title": "Bug 13189 - Refactoring: Deleting fields context menu overridden by message dialog",
+  "description": "20020409I on LinuxMotif and w2k:\n1. Setup JUnit\n2. [Incomplete Description - Please provide more details]",
+  "OB": "Context menu is not displayed; instead, a prompt immediately appears, asking if I want to delete the getter/setter as well.",
+  "EB": "Expected behavior is to see the context menu for field deletion without an immediate prompt.",
+  "SR": "1. Setup JUnit\n2. [Detailed Steps to Reproduce - Please provide the specific actions leading to the issue]"
+}

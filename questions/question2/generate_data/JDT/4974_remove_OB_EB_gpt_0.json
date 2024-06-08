@@ -1,0 +1,8 @@
+{
+  "id": "4974",
+  "title": "Bug 4974 - Classpath and Output Location Configuration",
+  "description": "This bug report addresses a problem related to configuring the classpath and output location settings in a project.",
+  "OB": "When attempting to configure the classpath and output location settings in a project, it doesn't work as expected.",
+  "EB": "The expected behavior is that configuring the classpath and output location should be a single, unified operation to prevent issues with project configurations.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create a new project with 'src' as the source folder and 'bin' as the output location.\n2. In the project properties, attempt to configure both the source folder and output location settings simultaneously." 
+}

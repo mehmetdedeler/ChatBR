@@ -1,0 +1,1 @@
+{"id": "33022", "title": "Bug 33022NPE in FontDialog", "description": " Bug 33022NPE in FontDialog", "OB": "  invoke a FontDialog through Eclipse in the first Combo add a \"k\" to \"Western\" get the attached NPE", "EB": "", "SR": "  invoke a FontDialog through Eclipse in the first Combo add a \"k\" to \"Western\" get the attached NPE"}

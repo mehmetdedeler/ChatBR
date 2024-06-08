@@ -1,0 +1,8 @@
+{
+  "id": "121170",
+  "title": "Bug 121170 - 'get column label' from meta data object should return recognizable strings",
+  "description": "The bug is related to the discrepancy in the labels returned by 'get column label' before and after extraction.",
+  "OB": "Before extraction, the labels returned by 'get column label' are null, whereas after extraction, recognizable strings are returned.",
+  "EB": "The expected behavior is that 'get column label' before extraction should also return recognizable strings, as these labels need to be displayed to the end user before extraction.",
+  "SR": "1. Open the application and navigate to the data extraction section.\n2. Call 'get column label' for a specific column before performing data extraction.\n3. Note the returned label.\n4. Perform data extraction.\n5. Call 'get column label' for the same column after extraction.\n6. Compare the labels before and after extraction to identify the discrepancy."
+}

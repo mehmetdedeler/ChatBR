@@ -1,0 +1,8 @@
+{
+  "id": "22839",
+  "title": "Bug 22839: Palette Colors Issue with SWT Windows in Focus",
+  "description": "The bug report discusses problems with palette colors when SWT (Standard Widget Toolkit) windows are in focus.",
+  "OB": "The bug report title indicates that palette colors are affected when SWT windows are in focus, but the details of the observed behavior are missing.",
+  "EB": "The expected behavior is that when an SWT window comes into focus, it should not cause issues with the palette colors of other windows, and vice versa.",
+  "SR": "Steps to reproduce this issue are not provided in the bug report, but they would be necessary to investigate the problem further."
+}

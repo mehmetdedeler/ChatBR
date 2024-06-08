@@ -1,0 +1,8 @@
+{
+  "id": "116786",
+  "title": "Library include does not store relative path",
+  "description": "When a library is included in a report design, the BIRT designer is not generating and saving the relative path correctly.",
+  "OB": "When a library is included in a report design, the BIRT designer does not generate and save the relative path correctly.",
+  "EB": "When a library is included in a report design, the BIRT designer should generate and save the relative path correctly. For example, if the report design is located in $project/test, and a library is included from $project/otherlib/lib1.rptlibrary, the relative path should be stored accurately.",
+  "SR": "To reproduce the issue, create a report design located in $project/test and include a library from $project/otherlib/lib1.rptlibrary. Observe that the relative path is not saved correctly."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "6009",
+  "title": "Bug 6009: Context Issue in New Class Wizard for Nested Classes",
+  "description": "When using the new class wizard for nested classes, the context isn't correctly identified, leading to misplacement or errors in the nested class creation process.",
+  "OB": "When attempting to create a nested class using the new class wizard, the wizard doesn't identify the proper context, resulting in the creation of the nested class at the wrong level or encountering errors during creation.",
+  "EB": "The new class wizard for nested classes should accurately recognize and adapt to the contextual hierarchy, allowing seamless creation without errors, placing the nested class at the intended level within the structure.",
+  "SR": "1. Open the IDE and navigate to the 'New Class' wizard.\n2. Choose to create a nested class within an existing class.\n3. Verify that the wizard correctly identifies the contextual hierarchy and creates the nested class at the intended level without errors."
+}

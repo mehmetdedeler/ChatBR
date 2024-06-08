@@ -1,0 +1,1 @@
+{"id": "21526", "title": "Bug 21526Shell.computeTrim does not include menu bar", "description": " Bug 21526Shell.computeTrim does not include menu bar", "OB": " Eclipse R2.0.On GTK2.Shell.computeTrim does not include the size of the menu bar when one ispresent.Other platforms do.", "EB": "", "SR": ""}

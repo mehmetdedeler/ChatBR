@@ -1,0 +1,1 @@
+{"bug_id": "116254", "title": "Bug 116254AjTypeSystem interface cannot be used in LTW environment", "description": "This API uses unqualified calls to Class.forName(). See bug 116229 for moredetails. The attached patches better simulate a runtime environment and a fixthat uses the class loader associated with the type provided by the user."}

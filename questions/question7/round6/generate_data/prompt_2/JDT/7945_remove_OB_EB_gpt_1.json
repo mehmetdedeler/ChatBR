@@ -1,0 +1,8 @@
+{
+  "id": "7945",
+  "title": "Bug 7945 - Search results not selected in external jar",
+  "description": "When using Build 200201151, the search results fail to be selected in an external jar when searching for references to a field. The issue occurs when attempting to search for references to 'tmpFir'.",
+  "OB": "After performing a search for references to the 'tmpFir' field in an external JAR, the search results are not being highlighted or selected.",
+  "EB": "The expected behavior is that upon searching for references to a field within an external JAR, the search results should be correctly highlighted or selected for further action.",
+  "SR": "1. Ensure JDK1.3.1 is set as the default JRE.\n2. Verify that the 'source forrt.jar' is available.\n3. Open 'java.io.File'.\n4. Perform a search for references to the field 'tmpFir'.\n5. Observe that the search results are not being highlighted or selected."
+}

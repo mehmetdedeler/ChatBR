@@ -1,0 +1,8 @@
+{
+  "id": "4121",
+  "title": "Bug 4121 - JarExporter causes out of Sync (1GILQD5)",
+  "description": "Bug 4121 - JarExporter causes out of Sync (1GILQD5)",
+  "OB": "When exporting a directory (project) and placing the exported JAR file in the same directory (project), an 'out of sync' message is displayed when attempting to overwrite the exported JAR file for the second time.",
+  "EB": "The expected behavior is that when exporting a directory and overwriting the exported JAR file in the same directory, no 'out of sync' message should appear, and the overwrite operation should be successful without issues.",
+  "SR": "1. Open the software and load a project directory.\n2. Export the project as a JAR file and place it in the same directory.\n3. Attempt to export the same project as a JAR file again in the same directory, overwriting the existing JAR file.\n4. Observe the 'out of sync' message that appears during the second export attempt."
+}

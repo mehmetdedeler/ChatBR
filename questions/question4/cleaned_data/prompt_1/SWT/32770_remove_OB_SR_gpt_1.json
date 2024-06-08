@@ -1,0 +1,8 @@
+{
+  "id": "32770",
+  "title": "Bug 32770 - Java application launch shortcut error lacks helpful information",
+  "description": "The Java application launch shortcut error (Bug 32770) currently fails to provide meaningful guidance to the user. Additionally, there is a need to enhance the quality of the error message.",
+  "OB": "The current error message does not effectively communicate the issue to the user. It should be revised to provide clear guidance on the necessary steps to resolve the problem. In this case, the message should indicate that the user needs to select a resource. An improved message might be: 'Launch failed: No file with a main type selected.'",
+  "EB": "The updated error message should give users a more informative and actionable hint, guiding them on what steps to take to address the problem. Specifically, it should say something like: 'Launch failed: No file with a main type selected.'",
+  "SR": "Ensure that the error message is revised as per the specified improvement, providing users with clear instructions on resolving the issue. Conduct thorough testing to confirm that the new error message is displayed appropriately in relevant scenarios."
+}

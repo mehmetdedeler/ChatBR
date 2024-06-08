@@ -1,0 +1,1 @@
+{"id": "17423", "title": "Revert option appears twice in the popup menu", "description": "When the menu is opened, there are two instances of the Revert option.", "OB": "There are two Revert options in the popup menu.", "EB": "There is only one Revert option disabled, as it should be.", "SR": "1) Open the editor. 2) Make the editor dirty. 3) Open the menu."}

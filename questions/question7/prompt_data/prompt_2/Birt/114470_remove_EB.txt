@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '114470', 'title': 'Bug 114470[Smoke]Error message throws when using new Date("3/2/2005") as value in table filter.', 'description': 'new Date("3/2/2005")4. ', 'OB': 'Bug 114470[Smoke]Error message throws when using new Date("3/2/2005") as value in table filter. Description:Error message throws when using new Date("3/2/2005") as value in table filter.Steps to reproduce:1. ', 'EB': '', 'SR': 'New a datasource and a dataset containing datetime column.2. Insert a table and new a filter based on the datetime column.3. In value1, input new Date("..."). eg. '}
+</BUG REPORT>

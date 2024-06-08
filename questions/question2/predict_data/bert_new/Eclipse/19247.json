@@ -1,0 +1,1 @@
+{"id": "19247", "title": "Bug 19247StringFieldEditor: width != UNLIMITED is ignored", "description": "Bug 19247StringFieldEditor: width != UNLIMITED is ignored ", "OB": "Builds F1 & F2the width argument in the constructor seems to be ignored, it'salways UNLIMITED.Worked fine in build M5... ", "EB": "", "SR": ""}

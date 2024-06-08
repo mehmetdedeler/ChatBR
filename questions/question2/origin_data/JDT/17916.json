@@ -1,0 +1,1 @@
+{"bug_id": "17916", "title": "Bug 17916junit: progress maxfilled when test still running", "description": "F1the iconprogress is fully filled while test are still running(in my case, it was filled at ca. 1100 out of 1300 tests)what happens if the last test fails? (is the last 'brick' repainted?)"}

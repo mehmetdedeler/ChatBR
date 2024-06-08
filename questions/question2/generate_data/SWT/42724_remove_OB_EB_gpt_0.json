@@ -1,0 +1,8 @@
+{
+  "id": "42724",
+  "title": "Bug 42724 - Incorrect Selection Rendering on Bidi Platforms",
+  "description": "This bug report discusses an issue with the rendering of selections in StyledText on bidi (Bi-directional) platforms. The report mentions that there may be room for improvement in the way selection background rendering is handled by referencing code in StyledTextRenderer.drawLine, which deals with creating style ranges for selections.",
+  "OB": "The bug report lacks a clear description of the observed behavior (OB) related to the selection rendering issue on bidi platforms.",
+  "EB": "The expected behavior (EB) is also not explicitly mentioned in the bug report, which makes it challenging to determine what the software behavior should be.",
+  "SR": "The steps to reproduce (SR) the bug are provided in the report as follows:\n\n1. Using build 20030903\n2. Utilize the attached BidiUtil\n3. Type one English character followed by three or more Arabic/Hebrew characters\n4. Place the caret at the beginning of the line\n5. Select the next two characters, including one bidi character\n6. Observe that the selection background includes unselected characters."
+}

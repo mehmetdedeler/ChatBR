@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "Improvement needed for disk sorting logic with border row values",
+  "description": "The current disk sorting logic needs improvement, especially when dealing with data close to the row limit.",
+  "OB": "When sorting data on disk with a set of 40000 rows, if the program processes the data for less than 40000 rows, it performs the following operation1.",
+  "EB": "More efficient logic is expected to handle disk sorting, especially when working with data close to the row limit. It should optimize by sorting the data directly in memory and then writing it to the file. Additionally, please include a step to copy the sorted file to the destination folder.",
+  "SR": "1. Load a dataset with 40000 rows.\n2. Execute the sorting operation on the dataset.\n3. Ensure that the program processes data for fewer than 40000 rows during the sorting operation."
+}

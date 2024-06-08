@@ -1,0 +1,1 @@
+{"id": "50025", "title": "Bug 50025getConnection method in class DataSourceProxy is ignoring credentials", "description": "Bug 50025getConnection method in class DataSourceProxy is ignoring credentials See http://forum.springsource.org/showthread.php?t=95980 for a description of the problem. ", "OB": "", "EB": "", "SR": ""}

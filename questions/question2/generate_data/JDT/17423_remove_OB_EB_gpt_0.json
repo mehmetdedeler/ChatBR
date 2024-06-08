@@ -1,0 +1,8 @@
+{
+  "id": "17423",
+  "title": "Revert Option Appears Twice in the Popup Menu",
+  "description": "When opening the context menu in a Java editor, there are two 'Revert' options displayed, which is unexpected.",
+  "OB": "Upon opening the context menu in a Java editor, there are two 'Revert' options visible.",
+  "EB": "There should be only one 'Revert' option in the context menu, not two.",
+  "SR": "To reproduce this issue, follow these steps: 1) Open a Java editor. 2) Right-click to open the context menu. You will notice that there are two 'Revert' options, one appearing after 'UNDO' and the other before 'FORMAT'."
+}

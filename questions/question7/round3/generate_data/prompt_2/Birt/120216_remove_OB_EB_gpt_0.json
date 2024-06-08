@@ -1,0 +1,1 @@
+{"id": "120216", "title": "Bug 120216: Group dialog should be displayed even when dataset is not set.", "description": "", "OB": "", "EB": "", "SR": "Bug 120216: Group dialog should be displayed even when dataset is not set. To reproduce the issue: 1. Add a table report item. 2. Do not set the data set for the table. 3. Try creating a new table group."}

@@ -1,0 +1,1 @@
+{"id": "17917", "title": "Bug 17917ShiftTab does not work", "description": " Bug 17917ShiftTab does not work F1 on linuxgtk:In the JavaEditor, tab and shifttab indent right/left. This works both on w2k and linuxmotif.", "OB": " ShiftTab does not workunder GTK.", "EB": "", "SR": ""}

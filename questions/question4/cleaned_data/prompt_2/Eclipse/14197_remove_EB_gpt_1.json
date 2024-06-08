@@ -1,0 +1,8 @@
+{
+  "id": "14197",
+  "title": "Bug 14197: Changes Occur Immediately When Removing Working Set",
+  "description": "When removing a working set, changes take effect immediately.",
+  "OB": "Upon creating a working set with one project and selecting it, the package view is filtered.",
+  "EB": "Changes should not immediately take effect upon removing a working set.",
+  "SR": "1. Create a working set with one project and select it in the package view (filter applied). 2. Open the working set dialog again, create a second working set, then delete the first one."
+}

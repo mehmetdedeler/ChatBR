@@ -1,0 +1,8 @@
+{
+  "id": "50550",
+  "title": "PropFind 404 error after successful MkCol",
+  "description": "The issue suggests a potential problem with caching. Note: This scenario resembles issue 21288, which was fixed ('DirContext caching problem with Dreamweaver 6 when recursively creating directories'). The problem can be replicated using a jackrabbit client as follows:",
+  "OB": "Performing a PropFind call on a resource results in a 404 error when executed after a MkCol operation for the same resource.",
+  "EB": "The PropFind call should successfully retrieve the resource after a preceding MkCol operation on the same resource.",
+  "SR": "Steps to reproduce: \n1. Use an HttpClient with the following steps:\n   a. Make a PropFind request on a new directory ('newDir') via 'http://localhost:8080/webdav/output/' with a unique identifier.\n   b. Comment out the request from step 'a' to ensure the success of the second PropFind request.\n   c. Execute a MkCol request on 'newDir'.\n   d. Perform a PropFind request on 'newDir'.\n2. Observe the 404 error in the PropFind request."
+}

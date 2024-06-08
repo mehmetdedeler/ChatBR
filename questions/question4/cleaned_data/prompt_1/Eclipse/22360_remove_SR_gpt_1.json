@@ -1,0 +1,8 @@
+{
+  "id": "22360",
+  "title": "Bug 22360[Fonts] FontRegistry instantiation issue with external resources",
+  "description": "The FontRegistry fails to instantiate using resources outside org.eclipse.jface.resource. All resources are restricted to the location of the FontRegistry class in org.eclipse.jface.resource. This issue could be resolved by enabling FontRegistry to accept a client class or class loader as an additional parameter in the constructor.",
+  "OB": "Attempting to create a FontRegistry instance for my application results in a MissingResourceException. For instance: com.company.product.MyClass public void createFontRegistry(){FontRegistry fonts = new FontRegistry(\"com.company.product.fonts\");}. Despite having a fonts.properties file in my com/company/product/ folder, the exception occurs. However, using ResourceBundle.getBundle(\"com.company.product.fonts\") doesn't trigger an exception. Interestingly, creating a duplicate FontRegistry class in the com.company.product package resolves the issue. It seems the FontRegistry attempts to load the fonts resource bundle using its own class loader.",
+  "EB": "An alternative solution could involve allowing clients to load their own resource bundle and pass it as a parameter to the constructor, instead of just the name of the bundle.",
+  "SR": "1. Attempt to create a FontRegistry instance for the application using external resources.\n2. Observe the occurrence of MissingResourceException despite the existence of the resource file.\n3. Compare behavior when using ResourceBundle.getBundle instead of direct FontRegistry instantiation.\n4. Note behavior changes when duplicating FontRegistry in the application package."
+}

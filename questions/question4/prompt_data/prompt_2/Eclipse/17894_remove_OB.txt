@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '17894', 'title': 'Bug 17894Open Mode pref not reset by Restore Defaults', 'description': '', 'OB': '', 'EB': 'Build 20020521 go to Workbench prefs change Open Mode to Single Click and select both checkboxes Restore Defaults no change to theseIt should revert to Double Click and clear both checkboxes ', 'SR': 'Build 20020521 go to Workbench prefs change Open Mode to Single Click and select both checkboxes Restore Defaults no change to theseIt should revert to Double Click and clear both checkboxes '}
+</BUG REPORT>

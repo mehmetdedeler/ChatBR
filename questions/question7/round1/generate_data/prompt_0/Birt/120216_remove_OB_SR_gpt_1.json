@@ -1,0 +1,1 @@
+{"id": "120216", "title": "Bug 120216: Group dialog not shown when dataset is not set", "description": "", "OB": "", "EB": "The group dialog should be displayed even when the dataset is not set. When a table report item is added without setting a dataset, users should still be able to create a new table group and define it.", "SR": ""}

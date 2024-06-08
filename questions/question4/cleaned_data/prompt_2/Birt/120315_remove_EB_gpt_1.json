@@ -1,0 +1,1 @@
+{"id": "120315", "title": "Display property not taking effect in new pdf emitter", "description": "", "OB": "The display property of an item is not taking effect in the new pdf emitter.", "EB": "", "SR": "To reproduce the issue: 1. Add a label. 2. Open the 'Properties' view. 3. Set the 'sectionDisplay' property to 'none'."}

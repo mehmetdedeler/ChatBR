@@ -1,0 +1,1 @@
+{"bug_id": "40524", "title": "Bug 40524request.getAuthType() returns different string from HttpServletRequest.CLIENTCERTAUTH", "description": "using inspect:request.getAuthType()(java.lang.String) CLIENTCERTHttpServletRequest.CLIENTCERTAUTH(java.lang.String) CLIENTCERTapi says they should be the same object (== should work)"}

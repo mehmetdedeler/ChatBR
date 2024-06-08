@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '17703', 'title': 'Bug 17703EditAdd Task action should use Workbench dialog as Java Editor does', 'description': '', 'OB': '', 'EB': 'Bug 17703EditAdd Task action should use Workbench dialog as Java Editor does ', 'SR': 'F1 select CU in packages view execute FileAdd Taskobserve: you get a different dialog than executing the action from theJava editors ruler context menu '}
+</BUG REPORT>

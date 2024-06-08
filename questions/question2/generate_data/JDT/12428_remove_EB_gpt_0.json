@@ -1,0 +1,8 @@
+{
+  "id": "12428",
+  "title": "Bug 12428: Confusing Message in Pull Up Refactoring",
+  "description": "The message in the Pull Up refactoring is confusing and has some issues.",
+  "OB": "The observed behavior in the Pull Up refactoring includes:\n- The message reads: 'copy method 'void setUp()' to type 'TestCase'' (with a lowercase 'c' in 'copy').\n- If selecting to delete 'setUp' from 'TestCase,' the message under 'TestCase' reads: 'Delete method 'void setUp()' declared in type 'junit.framework.TestCase'.'",
+  "EB": "The expected behavior in the Pull Up refactoring should have a clear and correct message:\n- The message should read: 'Copy method 'void setUp()' FROM type 'TestCase'' (with an uppercase 'C' in 'Copy').\n- When selecting to delete 'setUp' from 'TestCase,' the message under 'TestCase' should read: 'Delete method 'void setUp()' declared in type 'junit.framework.TestCase'.'",
+  "SR": "To reproduce the issue:\n1. Perform the Pull Up refactoring on 'TestCase.setUp' (copies the method to 'Assert').\n2. Go to the 2nd page of the wizard in the refactoring process."
+}

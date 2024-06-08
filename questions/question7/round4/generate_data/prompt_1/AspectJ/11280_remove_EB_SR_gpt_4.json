@@ -1,0 +1,1 @@
+{"id": "11280", "title": "Bug 11280 - Switching perspectives loses view maximized state", "description": "", "OB": "When switching perspectives, the maximized state of views is lost.", "EB": "", "SR": "1. Open the application\n2. Maximize a view\n3. Switch to a different perspective\n4. Verify that the previously maximized view is no longer maximized"}

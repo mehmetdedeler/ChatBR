@@ -1,0 +1,8 @@
+{
+  "id": "17289",
+  "title": "Bug 17289 - Combo doesn't take focus by clicking on it (Photon)",
+  "description": "Try clicking on the first Combo.",
+  "OB": "When attempting to click on the first Combo, it no longer receives focus. However, if I drop down the combo list, it will take focus as expected.",
+  "EB": "The expected behavior is that clicking on the first Combo should give it focus immediately upon clicking, just like it does when the combo list is dropped down.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the 'Add a new CVS Repository' dialog.\n2. Click on the first Combo. Observe that it doesn't receive focus upon clicking as it should.\n3. Press 'Tab,' and the focus goes to the second Combo 'Repository Path.'"
+}

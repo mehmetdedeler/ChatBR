@@ -1,0 +1,8 @@
+{
+  "id": "124599",
+  "title": "Bug 124599 - Shortcut delete and menu delete behave differently in table column",
+  "description": "Description: Shortcut delete and menu delete act differently in a table column. Steps to reproduce: 1.",
+  "OB": "When using the shortcut key to delete an item in a table column and when using the delete option from the menu, the behavior is inconsistent.",
+  "EB": "Expected behavior: Both the shortcut key and the menu option for deleting items in a table column should produce the same result, removing the selected item from the table.",
+  "SR": "Steps to reproduce:\n1. Open the table containing multiple items.\n2. Select an item in the table.\n3. Use the shortcut key for delete (specify the key, e.g., 'Delete' or 'Backspace').\n4. Now, right-click on the selected item to open the context menu.\n5. Choose the 'Delete' option from the context menu.\n6. Observe the difference in behavior between the shortcut delete and menu delete."
+}

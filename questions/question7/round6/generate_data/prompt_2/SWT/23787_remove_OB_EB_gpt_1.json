@@ -1,0 +1,8 @@
+{
+  "id": "23787",
+  "title": "Bug 23787 - Project Properties Info Page Display Issue with Text Fields",
+  "description": "In the Integration build 09/17, the Project Properties Info page is displaying text fields, which appears visually poor across all motif platforms.",
+  "OB": "The Project Properties Info page displays text fields for readonly information like Path, Type, etc., resulting in a visually unappealing layout on motif platforms.",
+  "EB": "The Project Properties Info page should present readonly information such as Path, Type, etc., without using text fields, ensuring a visually polished layout that is consistent across motif platforms.",
+  "SR": "To reproduce: select a Project, right-click, choose Properties, and navigate to the subsequent Info page. Observe the presentation of the readonly fields (Path, Type, etc.) to confirm the absence of text fields."
+}

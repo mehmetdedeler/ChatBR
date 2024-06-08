@@ -1,0 +1,1 @@
+{"bug_id": "4937", "title": "Bug 4937Display view contents not restored properly", "description": "Exit a workspace with a display view present that has content with formatting.When the workspace starts up and the display is viewed, the restored contentwill have lost the formatting."}

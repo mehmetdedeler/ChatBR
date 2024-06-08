@@ -1,0 +1,1 @@
+{"bug_id": "123736", "title": "Bug 123736Underline, linethrough, overline doesn't work for chart font.", "description": "Description: Underline, linethrough, overline doesn't work for chart font.Steps to teproduce:1. Add a style, set its font.2. Tick \"underline\", \"linethrough\" and \"overline\".3. Preview. Font setting doesn't work."}

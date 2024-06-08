@@ -1,0 +1,8 @@
+{
+  "id": "23787",
+  "title": "Project Properties Info Page Should Use Readonly Text Fields Instead of Input Text Fields",
+  "description": "In the Integration build 09/17, the Project Properties Info page appears poorly on motif platforms. It displays text fields that receive automatic borders, making them look like user input targets. Additionally, on Solaris/AIX/HPUX, these fields have differently colored backgrounds, making them stand out even more.",
+  "OB": "On motif platforms, the text fields receive automatic borders, resembling user input targets. Also, on Solaris/AIX/HPUX, the fields have distinct background colors, worsening their appearance.",
+  "EB": "The expected behavior is for these fields to be created as readonly text fields rather than input text fields. This change would prevent the automatic borders on motif platforms and maintain consistency across Solaris/AIX/HPUX.",
+  "SR": "Steps to reproduce:\n1. Open Project Properties Info page on a motif platform.\n2. Notice the automatic borders around the text fields, indicating user input targets.\n3. Similarly, observe the different colored backgrounds on Solaris/AIX/HPUX."
+}

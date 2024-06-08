@@ -1,0 +1,8 @@
+{
+  "id": "7581",
+  "title": "Bug 7581: ComboBoxCellEditor sizing issue in property sheet",
+  "description": "From ECJoe Winchester <JoeWin@us.ibm.com wrote in messagenews:3C407F76.31A82113@us.ibm.com... ",
+  "OB": "The ComboBoxCellEditor does not size correctly in the property sheet.",
+  "EB": "I would have expected the behavior to be such that the combo box is always the width of the property sheet column. Note that it should exhibit the same behavior as DialogCellEditor (Button always visible). I will investigate to determine if this issue is within our codebase or related to SWT.",
+  "SR": "Ensure that the ComboBoxCellEditor resizes appropriately to match the width of the property sheet column. Investigate and fix any discrepancies in behavior compared to DialogCellEditor, where the button is always visible."
+}

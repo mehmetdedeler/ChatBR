@@ -1,0 +1,8 @@
+{
+  "id": "49235",
+  "title": "Bug 49235: ServletContainerInitializer onStartup(Set<Class<? classSet is not expecting the right class",
+  "description": "When using ServletContainerInitializer to initialize classes annotated with @MySomeAnn, the output is 'MySomeClass' instead of the expected 'MySomeAnn'.",
+  "OB": "The observed behavior is that when the ServletContainerInitializer is used to initialize classes annotated with @MySomeAnn, the output in the console is 'MySomeClass'.",
+  "EB": "The expected behavior is that when the ServletContainerInitializer initializes classes annotated with @MySomeAnn, the output in the console should be 'MySomeAnn'.",
+  "SR": "To reproduce the issue, you can follow these steps:\n1. Build Tomcat 7.0.0 from SVN r939221.\n2. Use the following code:\n\n@MySomeAnn\npublic class MySomeClass {\n  ...\n}\n\n@HandlesTypes(MySomeAnn.class)\npublic class ModuleInitializer implements ServletContainerInitializer {\n  @Override\n  public void onStartup(Set<Class<?>> classSet, ServletContext ctx) throws ServletException {\n    for (Class<?> targetClass : classSet) {\n      System.out.println(targetClass.getName());\n    }\n  }\n}\n\n3. When the application is started, you will observe that the output in the console is 'MySomeClass' instead of 'MySomeAnn', which is the expected behavior."
+}

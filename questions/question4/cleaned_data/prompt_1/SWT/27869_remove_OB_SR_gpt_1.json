@@ -1,0 +1,8 @@
+{
+  "id": "27869",
+  "title": "Bug 27869 - StyledText overuse of Font.getFontData",
+  "description": "Bug 27869 - StyledText overuse of Font.getFontData. By the way, UTF-8 is the default English encoding for Redhat 8. FontMetrics API is also heavily used by StyledText. I believe that the metric information should be cached in the StyledText and updated only when the font is changed.",
+  "OB": "The current implementation of StyledText excessively utilizes Font.getFontData, impacting performance. It would be beneficial to optimize this by caching metric information within StyledText, updating only upon a font change.",
+  "EB": "This API shouldn't be used at all by StyledText when it's being typed. This optimization would enhance performance and responsiveness.",
+  "SR": "1. Review and refactor the implementation of StyledText to reduce the reliance on Font.getFontData.\n2. Introduce a caching mechanism for metric information within StyledText.\n3. Ensure that the metric information updates only when there is a change in the font."
+}

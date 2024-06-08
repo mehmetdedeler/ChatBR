@@ -1,0 +1,8 @@
+{
+    "id": "108822",
+    "title": "Bug 108822: More efficient disk sorting needed for border row values",
+    "description": "When sorting data on disk, if the number of rows to be processed is less than 40000, the program performs the following operations:",
+    "OB": "1. [Action missing]",
+    "EB": "A more efficient logic is needed to process disk sorting when there are border row values. The program should directly sort the data in memory and then write it to the file.",
+    "SR": "Update the sorting logic to directly sort the data in memory when the number of rows is less than 40000."
+}

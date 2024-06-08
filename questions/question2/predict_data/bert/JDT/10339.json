@@ -1,0 +1,1 @@
+{"id": "10339", "title": "Bug 10339Refactoring: Pull up should have \"select/deselect all\" options", "description": "", "OB": "", "EB": " Bug 10339Refactoring: Pull up should have \"select/deselect all\" options When selecting multiple methods for pull up, it would be nice to have theoption to select/deselect all.", "SR": ""}

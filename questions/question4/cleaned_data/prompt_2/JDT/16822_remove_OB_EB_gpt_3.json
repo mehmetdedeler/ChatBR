@@ -1,0 +1,8 @@
+{
+  "id": "16822",
+  "title": "Bug 16822: Search results not cleared when CU is moved",
+  "description": "Build 200205211.",
+  "OB": "Search results persist in the search view after moving a Compilation Unit (CU). Double-clicking on the search result opens a 'Search Error' dialog with the message 'An error occurred while creating a Java element. Reason: X.java does not exist.'",
+  "EB": "Search results should be automatically removed from the search view when a Compilation Unit (CU) is moved. Double-clicking on the search result after the move should not trigger a 'Search Error' dialog.",
+  "SR": "1.Create project P with 2 source folders 'src1' and 'src2'. 2.Create compilation unit X.java under 'P/src1'. public class X {} 3.Search for the declaration of X. 4.Move X.java to 'P/src2'. 5.Observe: The search result is still in the search view. 6.Attempt to double-click on the search result. 7.Result: 'Search Error' dialog appears with the message 'An error occurred while creating a Java element. Reason: X.java does not exist.'"
+}

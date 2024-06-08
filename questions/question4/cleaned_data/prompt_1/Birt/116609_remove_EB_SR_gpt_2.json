@@ -1,0 +1,8 @@
+{
+  "id": "116609",
+  "title": "Bug 116609 [Regression] Color orange doesn't work.",
+  "description": "Bug 116609 [Regression] Color orange doesn't work. Description: Color orange doesn't work. Steps to reproduce: 1. ",
+  "OB": "Actual result: It didn't work. Additional details: The observed behavior shows that the orange color is not displayed as expected in the preview.",
+  "EB": "The expected behavior is that the orange color should be displayed correctly in the preview.",
+  "SR": "Steps to reproduce: 1. Navigate to the preview section. 2. Select the color orange. 3. Observe the preview to ensure that the orange color is displayed correctly."
+}

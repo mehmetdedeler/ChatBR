@@ -1,0 +1,8 @@
+{
+  "id": "32286",
+  "title": "Bug 32286 - ControlExample Button Tab Changing Styles Resets Button Orientation",
+  "description": "When ControlExample's Button Tab is changing styles, it resets the button orientation. Ensure that Eclipse is not running and accept new configuration defaults.",
+  "OB": "When changing styles in the Button Tab of ControlExample, the buttons change to arrow buttons pointing up.",
+  "EB": "The expected behavior is that when changing styles in the Button Tab of ControlExample, the button orientation should not reset. Selecting or deselecting SWT.BORDER in the styles group should not affect the button orientation.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Ensure that Eclipse is not running.\n2. Accept new configuration defaults.\n3. Navigate to the Button Tab in ControlExample.\n4. Change styles in the Button Tab.\n5. Observe that the button orientation resets to pointing up."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "11306",
+  "title": "New Class Wizard Launches Simple Project Wizard",
+  "description": "When working in a new workspace, pressing the 'New Class' button in the Java perspective results in the 'Simple Project Wizard' launching unexpectedly.",
+  "OB": "Upon pressing the 'New Class' button, the 'Simple Project Wizard' is launched instead of the expected 'New Class Wizard' in the Java perspective.",
+  "EB": "I expect that when I press the 'New Class' button in the Java perspective of a new workspace, the 'New Class Wizard' should launch, allowing me to create a new class as intended.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open a new workspace.\n2. Navigate to the Java perspective.\n3. Press the 'New Class' button. The 'Simple Project Wizard' unexpectedly launches."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "19458",
+  "title": "Bug 19458[Navigator] Copy Project dialog UI problems",
+  "description": "In Bug 19458[Navigator], the Copy Project dialog is experiencing UI issues with the text displayed in red.",
+  "OB": "Upon choosing the project name as 'test', a static text validation error appears on the dialog.",
+  "EB": "When unchecking the default location checkbox, the default location should remain in the edit box without being cleared. The text color should be black, and it should include the standard on-the-fly validation small error icon.",
+  "SR": "1. Open the Copy Project dialog in the Navigator.\n2. Choose the project name as 'test'.\n3. Observe the static text validation error on the dialog.\n4. Check the default location checkbox.\n5. Uncheck the default location checkbox.\n6. Verify that the default location remains in the edit box, the text is black, and the standard on-the-fly validation small error icon is displayed."
+}

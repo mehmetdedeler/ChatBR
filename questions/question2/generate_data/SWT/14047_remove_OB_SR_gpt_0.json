@@ -1,0 +1,8 @@
+{
+  "id": "14047",
+  "title": "Bug 14047 StyledText inefficient redraw during text change with word wrap",
+  "description": "The report addresses an issue related to inefficient redraw behavior during text changes with word wrap enabled.",
+  "OB": "The report lacks specific details about the observed behavior. However, it suggests that there are excessive redraws occurring during text changes in word wrap mode.",
+  "EB": "The expected behavior is that there should be, at most, one redraw for each visible line when making text changes with word wrap enabled. Excessive redraws should be minimized for improved performance.",
+  "SR": "To reproduce the issue and further investigate, additional steps are required. It is recommended to provide a specific test case or scenario that demonstrates the problem. Clear steps for reproducing the issue will help in diagnosing and resolving the problem effectively."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "109718",
+  "title": "Bug 109718 - Tips display issue with large content in text item",
+  "description": "INTRODUCTION 32. SOME OF THE ERROR MESSAGE DOESN'T HAVE ENOUGH INFORMATION FOR USERS TO IDENTIFY THE ERROR. 42.5 ADD JAVASCRIPT OBJECT 42.6 SUPPORT DROP IN THE GROUP HEADER 42.7 PROVIDE UNDOABLE TRANSACTION 42.8 USER PROPERTY REVISION 52.9 HELP GUI TO FILTRATE THE UNNECESSARY NOTIFICATIONS 53. ELEMENT EXTENSION 65. Save and put mouse on the text item.\n\nExpected Result: Tips should display in the given format.\nActual Result: Tips display in one line.",
+  "OB": "When putting large content in a text item, the tips show the content in one line.",
+  "EB": "Tips should display properly with the given format, even when the content in the text item is large.",
+  "SR": "1. Open the application.\n2. Save the content in a text item.\n3. Put the mouse on the text item to trigger the tips display.\n4. Observe that the tips display the content in one line instead of the expected format."
+}

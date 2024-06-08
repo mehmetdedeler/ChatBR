@@ -1,0 +1,8 @@
+{
+  "id": "121682",
+  "title": "Exception Thrown When Exporting Data from Table with Highlight/Map",
+  "description": "Exception is thrown when attempting to export data from an attached report.",
+  "OB": "An exception is thrown when attempting to export data from a table that contains highlights or maps.",
+  "EB": "The software should export data from the table with highlights or maps without any exceptions or errors.",
+  "SR": "1. Open the attached report.\n2. Navigate to a table that contains highlights or maps.\n3. Attempt to export the data from the table."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "47910",
+  "title": "Bug 47910 - ajc outjar jarfile does not contain MANIFEST.MF",
+  "description": "When using ajc to compile with the command 'ajc sourceroots <mydir outjar <my.jar,' an output file is created with a .jar extension, but it lacks a valid MANIFEST.MF file.",
+  "OB": "The generated .jar file does not contain a MANIFEST.MF file, making it an invalid jar file.",
+  "EB": "The expected behavior is that when using the 'outjar' parameter, the resulting .jar file should include a valid MANIFEST.MF file.",
+  "SR": "To reproduce the issue, execute the command 'ajc sourceroots <mydir outjar <my.jar' and observe that the generated .jar file does not have a MANIFEST.MF file."
+}

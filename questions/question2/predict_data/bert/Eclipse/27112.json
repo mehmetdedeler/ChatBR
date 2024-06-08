@@ -1,0 +1,1 @@
+{"id": "27112", "title": "Bug 27112[Linked Resources] Prompt for deep copy/move", "description": " Bug 27112[Linked Resources] Prompt for deep copy/move Similar to deleting a project in the workspacevs. on disk.", "OB": "", "EB": " build 20021119When copying or moving a linked folder we should prompt the user whether to doa shallow vs. deep copy/move.", "SR": ""}

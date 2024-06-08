@@ -1,0 +1,8 @@
+{
+  "id": "117981",
+  "title": "Bug 117981: Unable to select items on the first attempt in library outline view",
+  "description": "Description: Any item can't be selected at the first time in library outline view.",
+  "OB": "When attempting to select an item in the library outline view for the first time, the selection does not take effect.",
+  "EB": "Upon the second attempt, selecting the label item works as expected.",
+  "SR": "Steps to reproduce: 1. Add a label in the library file. 2. Attempt to select the label item in the library outline view. 3. Observe the selection behavior on the first attempt."
+}

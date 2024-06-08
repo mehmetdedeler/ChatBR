@@ -1,0 +1,1 @@
+{"id": "43909", "title": "Bug 43909EL EvaluationContext wrapper hides locale", "description": "Bug 43909EL EvaluationContext wrapper hides locale org.apache.el.lang.EvaluationContext doesn't pass locale to the wrappedELContext as does org.apache.jasper.el.ELContextWrapper. This prohibits using ofthe locale for it's original purpose. ", "OB": "", "EB": "", "SR": ""}

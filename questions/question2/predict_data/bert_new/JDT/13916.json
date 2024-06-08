@@ -1,0 +1,1 @@
+{"id": "13916", "title": "Bug 13916api: IScanner  Scanner.linePtr", "description": "Bug 13916api: IScannerScanner.linePtr 20020412i can't find a good way to get the old Scanner.linePtrfuntionalityin the api scanner (i need read access to that field) ", "OB": "", "EB": "", "SR": ""}

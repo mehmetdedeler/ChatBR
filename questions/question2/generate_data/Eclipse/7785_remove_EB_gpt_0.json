@@ -1,0 +1,8 @@
+{
+  "id": "7785",
+  "title": "Bug 7785 - SaveAs Forgets the File Type and Icon Change",
+  "description": "When performing a 'SaveAs' operation on an existing java file, the file type extension is not retained. Additionally, the icon associated with the file has changed from the parent java file icon to a generic file icon.",
+  "OB": "Upon performing the 'SaveAs' operation on an existing java file, the following issues are observed:\n1) The file type extension is not retained in the saved file.\n2) The icon associated with the file changes from the parent java file icon to a generic file icon.",
+  "EB": "The expected behavior should be:\n1) When performing a 'SaveAs' operation, the file type extension of the original file should be retained in the saved file.\n2) The icon associated with the file should remain the same as the parent java file icon after the 'SaveAs' operation.",
+  "SR": "To reproduce the issue:\n1) Open an existing java file.\n2) Make modifications to the file (e.g., move an existing class within the file).\n3) Click on the 'SaveAs' icon located next to the 'Save' icon. A dialog will appear.\n4) Browse for a valid container location to save the file.\n5) Type the filename without including the file extension (as it is not requested).\n6) Click 'Ok' to save the file.\n7) Observe that the Navigator panel displays the file in the specified location, but without the file extension, and the file icon has changed from the original java file icon to a generic file icon."
+}

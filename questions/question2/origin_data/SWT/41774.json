@@ -1,0 +1,1 @@
+{"bug_id": "41774", "title": "Bug 41774DBCS: DBCS named file drag&drop failure on GTK", "description": "Platform:RedHat 8.0, GTK+2.2.2 and RHEL 3.0 beta1stepsdrag DBCS named file (will attach later) and drop it workbench package exploreview. Error dialog will popup with message, resource 'build%C6%FC%CB%DC%B8%EC.xml' not exits in file system."}

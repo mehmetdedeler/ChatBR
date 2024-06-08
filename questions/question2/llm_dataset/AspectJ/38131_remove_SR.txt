@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '38131', 'title': 'Bug 38131ajc needs d . option while correctly compiling classes from subpackage', 'description': ' Bug 38131ajc needs d . I am using 1.1rc1. This is a regression since rc1 and a deviation from javac.I am guessing this may have to do something with change in the underlyingEclipse compiler.Create a class in a subpackage such as:package subpackage;public class Test {public static void main(String[] args) {System.out.println("Hello");}}Then compile using following command: ajc subpackage\\Test.javaYou will see a directory "subpackage" created under the existing "subpackage"directory. subpackage\\Test.javaor javac subpackage\\Test.javaNo big deal, really.', 'OB': ' The test.class is then put in subpackage\\subpackage directory.This means running java command results inException in thread "main" java.lang.NoClassDefFoundError: subpackage/TestRunning either of the following command fixes the problem: ajc d .', 'EB': ' But it will be nice to have same behavior as javac.', 'SR': ''}
+</BUG REPORT>

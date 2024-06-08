@@ -1,0 +1,1 @@
+{"id": "14047", "title": "Bug 14047: StyledText inefficient redraw during text change with word wrap", "description": "", "OB": "", "EB": "", "SR": "Add the following line to `StyledText.performPaint` to see the redraws occurring: `System.out.println(\"lineCount \" + lineCount + \", paintY \" + paintY + \",renderHeight \" + renderHeight);`"}

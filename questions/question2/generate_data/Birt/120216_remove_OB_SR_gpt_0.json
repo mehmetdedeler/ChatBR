@@ -1,0 +1,11 @@
+{
+  "id": "120216",
+  "title": "Bug 120216: Group dialog not appearing without a dataset",
+  "description": "",
+  "OB": "When attempting to create a new group, the group dialog does not appear when no dataset is selected.",
+  "EB": "Bug 120216: The group dialog should be displayed even when a dataset is not set. Users should be able to define a group, even if the dataset is not defined.",
+  "SR": "1. Open the application.
+2. Navigate to the 'Groups' section.
+3. Try to create a new group.
+4. Notice that the group dialog does not appear, and it should, even if no dataset is selected."
+}

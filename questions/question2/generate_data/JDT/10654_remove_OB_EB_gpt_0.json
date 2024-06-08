@@ -1,0 +1,8 @@
+{
+  "id": "10654",
+  "title": "Bug 10654 - Allow Adding All Jars in a Folder to Build Path",
+  "description": "This bug report is related to the process of adding jar files to the build path using classpath variables.",
+  "OB": "The observed behavior is that when adding jar files to the build path using classpath variables, users have to specify each jar file separately, even if multiple jar files are located in the same directory.",
+  "EB": "The expected behavior should be to allow users to add all jar files from a specific directory to the build path in a single action, without the need to specify each file individually.",
+  "SR": "To reproduce this issue and understand the impact on my project:\n1. Open the software and create or manage a Java project.\n2. Access the build path settings for the project.\n3. Attempt to add jar files located in the same directory using classpath variables.\n4. Observe that you must specify each jar file individually, even when multiple jar files are in the same directory.\n\nIn my specific case:\n1. I had to add several jar files from the WTE plugin directory to make my code compile.\n2. This involved manually searching through the jar files to find the missing classes and adding the appropriate jars.\n3. I also reference bug 3887, which may be related to this issue and mentions that the feature will be deferred, but I couldn't find a bug report or feature request directly describing this problem."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "24877",
+  "title": "Cannot Retrieve Selected File Extension in SWT FileDialog",
+  "description": "When using the SWT FileDialog, it is impossible to obtain the selected file extension. This limitation severely impacts the usability of the dialog, as we cannot determine the correct file extension to append to the file name. This issue is particularly evident when exporting to a JAR file.",
+  "OB": "The problem here is that there is no way to retrieve the file extension selected by the user in the FileDialog. We need an API or mechanism to access the 'Save as type' field that the user chooses in the FileDialog. While we are currently facing this problem in our own product, it is a more general issue that affects various use cases, especially when exporting to a JAR file.",
+  "EB": "We expect that the SWT FileDialog should provide a method or attribute that allows us to obtain the file extension selected by the user. This would enable us to determine the correct file extension to use when saving files, which is crucial for a variety of applications, including our own. The 'Save as type' field should be accessible programmatically.",
+  "SR": "To reproduce this issue:\n1. Open any application that utilizes the SWT FileDialog component.\n2. Trigger a file dialog that allows you to select a file for saving or exporting (e.g., 'Save As' or 'Export' functionality).\n3. In the FileDialog, choose a file type from the 'Save as type' dropdown.\n4. Attempt to retrieve the selected file extension programmatically, which is currently not possible due to the bug."
+}

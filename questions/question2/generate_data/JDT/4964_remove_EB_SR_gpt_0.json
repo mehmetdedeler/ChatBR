@@ -1,0 +1,8 @@
+{
+  "id": "4964",
+  "title": "Bug 4964 - Improve Automatic Code Assist Behavior",
+  "description": "This bug report addresses the behavior of automatic code assist and suggests an improvement to make it smarter.",
+  "OB": "In Build 204, while writing SWT code, I encountered an issue with the automatic code assist. When I typed 'button.dispose', the code assist list appeared, but I was not aware of it. In the list, 'DISPOSED' was selected by default. After typing '(', the code assist inserted 'DISPOSED' instead of 'dispose()', resulting in incorrect code.",
+  "EB": "The expected behavior is for the automatic code assist to recognize context and prioritize completing the method 'dispose()' when '(' is typed. This would prevent the insertion of incorrect code and improve the user experience.",
+  "SR": "To reproduce the issue:\n1. Open the development environment using Build 204.\n2. Start writing SWT code where you need to call 'dispose()' on a 'button' object.\n3. Type 'button.dispose'.\n4. Note that the code assist list appears, and 'DISPOSED' is selected by default.\n5. Continue typing '('.\n6. Observe that 'DISPOSED' is inserted instead of 'dispose()'.\n\nThe expected behavior is that the code assist should prioritize code suggestions that match the context."
+}

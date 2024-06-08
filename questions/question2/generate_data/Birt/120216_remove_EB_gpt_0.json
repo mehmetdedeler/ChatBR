@@ -1,0 +1,8 @@
+{
+  "id": "120216",
+  "title": "Bug 120216 - Group dialog should be displayed even when the dataset is not set.",
+  "description": "When using a table report item without setting the data set, the group dialog should still be accessible.",
+  "OB": "An error is displayed when attempting to use the group dialog without setting the data set.",
+  "EB": "As part of the template requirements, we expect the UI to allow access to the group dialog even when the data set is not set.",
+  "SR": "To reproduce the issue:\n1. Add a table report item to the template.\n2. Do not set the data set for the table.\n3. Try to create a new table group, and observe that the group dialog does not appear as expected."
+}

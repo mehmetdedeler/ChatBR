@@ -1,0 +1,8 @@
+{
+  "id": "17825",
+  "title": "Bug 17825: ControlExampleText beeps when I choose SWT.MULTI",
+  "description": "Bug 17825: ControlExampleText emits a beep when I choose SWT.MULTI. It seems unintended.",
+  "OB": "When selecting SWT.MULTI in the ControlExampleText under the Text tab, a beep sound is heard, indicating an unexpected behavior.",
+  "EB": "I hear a Windows 'ding' when I perform the mentioned action, suggesting an error or unintended behavior. This sound typically indicates that an incorrect operation has been performed.",
+  "SR": "Build: F1 (20020521)\nEnvironment: Win2K\n(Not sure if this is SWT or just the SWT Example)\nReproduction Steps:\n1. Open the SWT example ControlExample.\n2. Navigate to the Text tab.\n3. Click on Styles SWT.SINGLE.\n4. Then, click on Styles SWT.MULTI."
+}

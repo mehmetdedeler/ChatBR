@@ -1,0 +1,1 @@
+{"id": "14197", "title": "Bug 14197 - Removing a working set immediately applies changes", "description": "When removing a working set, the changes are immediately applied.", "OB": "1. Create a working set with one project and select it.\n2. Notice that the package view is filtered accordingly.", "EB": "", "SR": ""}

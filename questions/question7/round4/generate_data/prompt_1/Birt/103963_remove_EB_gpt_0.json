@@ -1,0 +1,1 @@
+{"id": "103963", "title": "If there is no data for a series, a friendly error message should be displayed", "description": "", "OB": "When selecting a column without data in the chart preview, no friendly error message is displayed.", "EB": "", "SR": "To reproduce the issue: 1. Create a chart and set the data definition. 2. Select a column without data."}

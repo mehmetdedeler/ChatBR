@@ -1,0 +1,1 @@
+{"bug_id": "4914", "title": "Bug 4914can't extract class expression", "description": "class B{Object m(){return /[/B.class/]/;}}cannot extract the selected fragment"}

@@ -1,0 +1,1 @@
+{"bug_id": "130511", "title": "Bug 130511Move RunReportAction from IDE plugin to Preview plugin", "description": "RunReportAction need InputParameterDialog which will move to Preview plugin, but IDE plugin is not depends on Preview plugin, so this action must move to Preview plugin"}

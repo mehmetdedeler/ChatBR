@@ -1,0 +1,8 @@
+{
+  "id": "121170",
+  "title": "Bug 121170: Inconsistent Column Labels from Meta Data Object",
+  "description": "When using the IMetaData.getColumnLabel() method, the column labels retrieved before and after data extraction are inconsistent.",
+  "OB": "The issue is that when calling IMetaData.getColumnLabel() before data extraction, the retrieved column labels do not match the labels obtained after data extraction.",
+  "EB": "The expected behavior is that calling IMetaData.getColumnLabel() should return the same user-recognizable column labels both before and after data extraction. In other words, the labels should remain consistent throughout the process.",
+  "SR": "Steps to reproduce the issue:\n1. Call IMetaData.getColumnLabel() before data extraction.\n2. Note the retrieved column labels.\n3. Perform data extraction.\n4. Call IMetaData.getColumnLabel() again after data extraction.\n5. Compare the labels obtained before and after data extraction to observe the inconsistency."
+}

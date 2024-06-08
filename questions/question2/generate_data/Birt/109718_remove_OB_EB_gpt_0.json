@@ -1,0 +1,8 @@
+{
+  "id": "109718",
+  "title": "Bug 109718 - Display Issue with Tips in Text Items",
+  "description": "When putting large content in a text item, the tips show the content in one line, which is not the expected behavior. The expected result is that the tips should display the content in the given format.",
+  "OB": "When putting large content in a text item, the tips show the content in one line.",
+  "EB": "The expected result is that the tips should display the content in the given format.",
+  "SR": "Steps to reproduce:\n1. Insert a text in the layout.\n2. Input the following content:\n'Contents\n1. MINOR ENHANCEMENTS\n32.1 PROVIDE PROPERTY GROUP INFORMATION ON ELEMENT DEFN CLASS\n32.2 COMPLETE THE TODO TASKS\n32.3 REVIEW RESULT\n32.4 MESSAGE FILE ENHANCEMENT\n4. CURRENTLY, WE STORE THE ERROR MESSAGE FOR EXCEPTIONS IN THE MESSAGE.PROPERTY FILE.\nNEW FEATURES\n53.1 RHINO EXPRESSION PARSER\n53.2 STRUCTURE TYPE SUPPORT\n63.3 NEW SYSTEM\n64. QA TEST SUPPORTING\n7.'"
+}

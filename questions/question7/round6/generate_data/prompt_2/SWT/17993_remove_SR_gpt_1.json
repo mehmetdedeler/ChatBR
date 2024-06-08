@@ -1,0 +1,8 @@
+{
+  "id": "17993",
+  "title": "Bug 17993 - Find/Replace replacing typed entry with history value",
+  "description": "The current behavior of Find/Replace replaces user-typed entries with values from the search history, which affects the functionality. This behavior resembles autocomplete but limits find and replace operations. A preferable approach might involve retaining user-typed entries without replacing them with history values while maintaining case sensitivity.",
+  "OB": "Using the F1 build, the Find/Replace dialog (accessed through Edit -> Find/Replace...) features a history of recent searches. When typing in the 'Find' or 'Replace With' fields, the system searches for entries from previous searches. If a match is found, it replaces the user-typed entry with the value from the history. The search is case insensitive, potentially altering the case of the user-typed entry to match that of the history value. This behavior impedes find or replace operations in certain scenarios.",
+  "EB": "The Find/Replace feature should not replace user-typed entries with history values. I frequently perform these operations and believe the current behavior should be simplified to allow a full range of find and replace operations. It's crucial to maintain the case sensitivity of user-typed entries. Until the behavior is updated, considering removing this feature would be a viable option.",
+  "SR": "1. Open a document to enable Edit -> Find/Replace...\n2. Type in the 'Find' or 'Replace With' fields.\n3. Observe that the system attempts to replace the user-typed entry with a value from the history, hindering the expected functionality. This behavior persists similarly in the 'Replace With' field."
+}

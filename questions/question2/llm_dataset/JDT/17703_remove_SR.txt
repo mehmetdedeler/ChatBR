@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '17703', 'title': 'Bug 17703EditAdd Task action should use Workbench dialog as Java Editor does', 'description': '', 'OB': ' F1 select CU in packages view execute FileAdd Taskobserve: you get a different dialog than executing the action from theJava editors ruler context menu', 'EB': ' Bug 17703EditAdd Task action should use Workbench dialog as Java Editor does', 'SR': ''}
+</BUG REPORT>

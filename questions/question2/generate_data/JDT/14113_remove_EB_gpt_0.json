@@ -1,0 +1,8 @@
+{
+  "id": "14113",
+  "title": "Incorrect Handling of Source Attachment Changes for JAR Files",
+  "description": "This bug report addresses the incorrect handling of source attachment changes for JAR files.",
+  "OB": "Currently, when changing the attached source of a JAR file, a FSOURCEDETACHED java delta is fired instead of the expected (FSOURCEDETACHED | FSOURCEATTACHED) delta. As a result, the user interface (UI) reacts by closing the class file editors that were opened for this JAR file.",
+  "EB": "The expected behavior is that when changing the attached source of a JAR file, a (FSOURCEDETACHED | FSOURCEATTACHED) delta should be fired to accurately represent this change. This should trigger the UI to react appropriately without closing class file editors.",
+  "SR": "To reproduce this issue: 1) Build the system using version 20020416. 2) Change the attached source of a JAR file. You will observe that a FSOURCEDETACHED delta is fired, causing the UI to incorrectly close class file editors. Although attempting to fix the delta to be (FSOURCEDETACHED | FSOURCEATTACHED), the UI does not respond as expected."
+}

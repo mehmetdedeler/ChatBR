@@ -1,0 +1,8 @@
+{
+  "id": "4974",
+  "title": "Bug 4974: Combine setting classpath/output location as one operation",
+  "description": "Currently, when pressing 'Ok', an error message appears: 'Cannot nest output folder /xy in source folder /xy/src'. This occurs due to the separation of setting output location and classpath as two separate operations, leading to an illegal state after setting the first.",
+  "OB": "Upon pressing 'Ok', an error message is displayed: 'Cannot nest output folder /xy in source folder /xy/src'.",
+  "EB": "The expected behavior is to unify the setting of classpath and output location into a single operation. Similar to the validation process, this unified operation should check the classpath and output location simultaneously. Also, the error message should be revised to accurately state: '/xy/src' cannot be nested in '/xy'.",
+  "SR": "1. Open the settings window.\n2. Locate the options for setting classpath and output location.\n3. Try to set both the classpath and output location.\n4. Upon attempting to apply these settings, observe the error message: 'Cannot nest output folder /xy in source folder /xy/src'."
+}

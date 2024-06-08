@@ -1,0 +1,1 @@
+{"bug_id": "274559", "title": "Bug 274559Compile exception when not using debug info", "description": "The following project throws a compiler exception when the project property \"Add variable attributes to generated class files\" is turned off."}

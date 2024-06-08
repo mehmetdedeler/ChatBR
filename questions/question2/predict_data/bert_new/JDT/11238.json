@@ -1,0 +1,1 @@
+{"id": "11238", "title": "Bug 112381.4 settings should not include 'assert as identifier'", "description": "", "OB": "Build 20020312In 1.4 source mode, 'assert' is a keyword, and therefore it cannot be reportedto be used as an identifier. ", "EB": "Bug 112381.4 settings should not include 'assert as identifier' ", "SR": ""}

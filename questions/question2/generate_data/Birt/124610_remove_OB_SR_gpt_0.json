@@ -1,0 +1,8 @@
+{
+  "id": "124610",
+  "title": "Bug 124610: Error when adding a filter to a boolean computed column",
+  "description": "When attempting to add a filter to a boolean computed column, an error occurs.",
+  "OB": "When trying to add a filter to a boolean computed column, an error is thrown.",
+  "EB": "After adding a filter to a boolean computed column, the expected behavior is that the filter should work as intended. However, the actual result is an error message: 'data.engine.ConvertToDataTypeError' is thrown, and the error details mention 'org.eclipse.birt.data.engine.core.DataException: Cannot be converted to class java.lang.Boolean.'",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the software and navigate to the data table containing a boolean computed column.\n2. Select the boolean computed column to which you want to add a filter.\n3. Add a filter to the selected column.\n4. Save the changes and preview the report.\n5. The error should occur during the preview process."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "17703",
+  "title": "Bug 17703 - Inconsistent Dialog When Adding Task",
+  "description": "When attempting to add a task using the 'Edit' > 'Add Task' action, the displayed dialog differs from the one obtained by executing the action from the Java editor's ruler context menu.",
+  "OB": "When using the 'Edit' > 'Add Task' action, a different dialog appears compared to the one accessed through the Java editor's ruler context menu.",
+  "EB": "The 'Edit' > 'Add Task' action should display the same dialog as when executed from the Java editor's ruler context menu.",
+  "SR": "1. Open the 'Packages' view.\n2. Select a Java compilation unit (CU) using the F1 key.\n3. Execute the 'File' > 'Add Task' action.\n4. Notice the observed difference in the dialog.\n5. Alternatively, access the Java editor, select a CU, right-click on the ruler, and choose 'Add Task' to observe the expected dialog."
+}

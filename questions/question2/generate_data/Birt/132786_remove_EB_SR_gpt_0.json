@@ -1,0 +1,8 @@
+{
+  "id": "132786",
+  "title": "Value2 not cleaned after converting operator from between to equal in highlight rule",
+  "description": "When setting the highlight rule to '2 between 1 and 3, color blue', the issue arises when saving the report and viewing the generated XML source.",
+  "OB": "After saving the report and viewing the generated XML source, the observed behavior is that 'value2' is not cleaned as expected in the highlight expression. Instead, in the XML source, 'value1' is set to 1, and 'value2' is set to 3.",
+  "EB": "The expected behavior is that when converting the operator from 'between' to 'equal' in the highlight rule, the 'value2' should be cleaned in the highlight expression in the XML source.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the report configuration.\n2. Go to the highlight rule settings.\n3. Locate the rule '2 between 1 and 3, color blue'.\n4. Edit this rule to change the operator from 'between' to 'equal'.\n5. Save the report.\n6. View the generated XML source and observe that 'value2' is not cleaned."
+}

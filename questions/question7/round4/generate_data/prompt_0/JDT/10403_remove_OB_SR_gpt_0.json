@@ -1,0 +1,1 @@
+{"id": "10403", "title": "Bug 10403 - Project creation should confirm the bin directory can be scrubbed", "description": "", "OB": "", "EB": "The software should confirm that the bin directory can be scrubbed during project creation.", "SR": "To reproduce, create a project and observe if the software confirms the ability to scrub the bin directory."}

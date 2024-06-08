@@ -1,0 +1,8 @@
+{
+  "id": "28974",
+  "title": "Bug 28974 - Compiler error when introducing a 'final' field",
+  "description": "This bug report addresses a compilation error that occurs when introducing a 'final' field.",
+  "OB": "The observed behavior is not provided in the report, making it challenging to understand the exact problem or its impact.",
+  "EB": "The expected behavior is not explicitly stated in the report. However, it appears that there might be a need for enabling or disabling the creation of type comments through settings in 'WindowPreferencesJavaCode Generation.' The report hints at a desired user interface change.",
+  "SR": "To address the issue and understand it better, additional information is needed regarding the observed behavior and to specify the desired outcome. Clear and complete steps to reproduce the problem would also be helpful for understanding and resolving the issue."
+}

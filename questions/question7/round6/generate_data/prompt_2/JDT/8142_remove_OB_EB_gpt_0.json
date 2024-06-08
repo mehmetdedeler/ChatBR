@@ -1,0 +1,1 @@
+{"id": "8142", "title": "Bug 8142: No scoped type hierarchy on binary projects", "description": "Bug 8142: No scoped type hierarchy on binary projects. When I hit F4 on a binary project selection (e.g. ", "OB": "no scoped type hierarchy", "EB": "", "SR": "Add support for scoped type hierarchy on binary projects when hitting F4 key on a selection."}

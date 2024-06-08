@@ -1,0 +1,8 @@
+{
+  "id": "2120",
+  "title": "Bug 2120 - MRU File List Not Persisted Between Sessions (1GE71Z0)",
+  "description": "The Most Recently Used (MRU) File List is not being persisted between sessions.",
+  "OB": "Files initially appear in the File menu MRU list, but upon restarting the application, the list is empty.",
+  "EB": "The MRU File List should persist between sessions, ensuring that previously opened files are displayed in the File menu MRU list upon relaunch.",
+  "SR": "1. Launch the application and open several files.\n2. Observe the files in the File menu MRU list.\n3. Close the application.\n4. Restart the application.\n5. Check the File menu MRU list to see if the previously opened files are still listed.\n\nNOTES: DS (5/23/01 3:36:30 PM)\nNote: Utilize IPersistableElement for persistence. Do not inspect the implementation to access the underlying resource, as the IEditorInput may not be a resource."
+}

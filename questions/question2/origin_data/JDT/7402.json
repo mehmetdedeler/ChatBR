@@ -1,0 +1,1 @@
+{"bug_id": "7402", "title": "Bug 7402Packages view sorts case senstive", "description": "If I have three foldersaa Ba and baThey will be sorted in the orderBabaabaBut they should be in case insensitive orderaaBabba"}

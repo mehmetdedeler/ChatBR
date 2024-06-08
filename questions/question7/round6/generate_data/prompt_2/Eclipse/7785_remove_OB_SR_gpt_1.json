@@ -1,0 +1,8 @@
+{
+  "id": "7785",
+  "title": "Bug 7785: SaveAs Forgets the File Type",
+  "description": "Bug 7785: SaveAs Forgets the File Type. The icon has also changed from the parent Java file icon to a generic file icon.",
+  "OB": "When using the SaveAs function, the file is saved without the proper file type extension, and the icon associated with the file changes from the original Java file icon to a generic file icon.",
+  "EB": "The file, after using SaveAs, becomes a generic file, and when opened, it is treated as plain text. Expected Behavior: The file should be saved with the same extension as the original, unless explicitly changed during the SaveAs operation.",
+  "SR": "To reproduce the issue: \n1. Open a file in the software.\n2. Go to the 'File' menu and select 'Save As'.\n3. Choose a new file name and location.\n4. Save the file.\n5. Open the saved file and observe the file type and icon."
+}

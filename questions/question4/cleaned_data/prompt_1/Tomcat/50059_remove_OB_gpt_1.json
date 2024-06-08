@@ -1,0 +1,8 @@
+{
+  "id": "50059",
+  "title": "Bug 50059: Resources not served from /WEBINF/lib/{.jar}/METAINF/resources with metadatacomplete=\"true\"",
+  "description": "Bug 50059: Resources are not served from /WEBINF/lib/{.jar}/METAINF/resources if metadatacomplete=\"true\" is set in web.xml. Create a Servlet 3.0 web app (let's name it foo) with metadatacomplete=\"true\" attribute set on the web app element in the /WEBIBNF/web.xml.",
+  "OB": "When metadatacomplete=\"true\" is set in web.xml, resources are not served from /WEBINF/lib/{.jar}/METAINF/resources.",
+  "EB": "The jar containing resources (let's name it bar.jar) should be placed in /WEBINF/lib.",
+  "SR": "To reproduce:\n1. Create a jar holding a single /METAINF/resources/index.html file.\n2. Start the web app in Tomcat 7.0.\n3. In the browser, go to http://localhost:8080/foo/index.html.\n\nExpected result: 200 response, and index.html served.\nActual result: 404.\n\nIf you modify the web.xml to metadatacomplete=\"false\" and restart the app, /foo/index.html will respond as expected.\n\nI tried the same web app with Glassfish v3.0.1, and it works as expected regardless of what I set in the metadatacomplete attribute.\n\nAfter a quick look at the Servlet 3.0 spec, it appears that metadatacomplete only regulates annotation and web fragment processing."
+}

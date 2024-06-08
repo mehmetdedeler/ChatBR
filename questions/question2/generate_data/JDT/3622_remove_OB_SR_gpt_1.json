@@ -1,0 +1,8 @@
+{
+  "id": "3622",
+  "title": "New Package Wizard displays confusing warning message",
+  "description": "When using the New Package Wizard, a confusing warning message is displayed, causing uncertainty about its meaning.",
+  "OB": "When accessing the New Java Package Wizard, a message appears at the top that says, 'A folder corresponding to the package name already exists.' This message is displayed even before any input is provided in the package name field.",
+  "EB": "When invoking the New Java Package Wizard, the message 'A folder corresponding to the package name already exists' should not be displayed when the package name field is empty. Instead, if there is an issue, it should be displayed as a warning with proper styling, such as in red text with an error icon.",
+  "SR": "To reproduce this issue:\n1. Open the New Java Package Wizard.\n2. Observe the message that appears at the top even before entering anything in the package name field."
+}

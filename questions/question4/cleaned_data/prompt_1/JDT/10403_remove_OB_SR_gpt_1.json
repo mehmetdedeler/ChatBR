@@ -1,0 +1,8 @@
+{
+  "id": "10403",
+  "title": "Bug 10403 - Project creation should confirm the bin directory can be scrubbed",
+  "description": "When creating a new project, there is an issue with confirming the ability to scrub the bin directory.",
+  "OB": "During project creation, there is no confirmation or validation that the bin directory can be successfully scrubbed, leading to potential issues in the future.",
+  "EB": "Bug 10403 - Project creation should include a confirmation step to ensure the bin directory can be scrubbed successfully.",
+  "SR": "Ensure that a validation step is added during project creation to confirm the scrubbing functionality of the bin directory, preventing potential issues related to directory cleanup."
+}

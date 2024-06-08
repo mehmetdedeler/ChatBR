@@ -1,0 +1,8 @@
+{
+  "id": "38131",
+  "title": "Bug 38131 - ajc Requires '-d .' Option for Compiling Classes from Subpackages",
+  "description": "The bug report addresses an issue with the AspectJ Compiler (ajc) in version 1.1rc1. It's noted as a regression from previous versions and is different from the behavior of the Java Compiler (javac). The problem occurs when compiling classes from subpackages without specifying the '-d .' option.",
+  "OB": "When compiling a class from a subpackage using the command 'ajc subpackage\\Test.java,' it creates a 'subpackage' directory under the existing 'subpackage' directory. This causes issues when running the 'java' command, leading to a 'java.lang.NoClassDefFoundError' for 'subpackage/Test.'",
+  "EB": "The expected behavior is that ajc should handle class compilation from subpackages without creating additional subdirectories. The use of the '-d .' option should not be necessary to avoid this problem.",
+  "SR": "To reproduce the issue:\n1. Create a class in a subpackage, e.g., 'subpackage/Test.java.'\n2. Compile the class using the command 'ajc subpackage\\Test.java.'\n3. Observe that a 'subpackage' directory is incorrectly created under the existing 'subpackage' directory.\n4. Running either of the following commands should fix the problem: 'ajc -d .' or 'javac subpackage\\Test.java.'"
+}

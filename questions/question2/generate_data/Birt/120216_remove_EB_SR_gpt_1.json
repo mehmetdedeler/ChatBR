@@ -1,0 +1,8 @@
+{
+  "id": "120216",
+  "title": "Bug 120216 - Group dialog should be displayed even if the dataset is not set.",
+  "description": "When attempting to open the group dialog, an error is displayed. This behavior is contrary to our template requirements, where we don't want the UI to perform validation.",
+  "OB": "An error is shown when trying to open the group dialog.",
+  "EB": "The group dialog should be displayed even if the dataset is not set. The UI should not perform validation in this scenario as per our template requirements.",
+  "SR": "To reproduce the issue:\n1. Launch the application.\n2. Go to the 'Groups' section.\n3. Try to open the group dialog without setting a dataset. The error should appear when it shouldn't."
+}

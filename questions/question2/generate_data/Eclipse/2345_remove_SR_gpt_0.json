@@ -1,0 +1,8 @@
+{
+  "id": "2345",
+  "title": "Bug 2345 - Open with a different type of editor has no effect if file already open",
+  "description": "Bug 2345 - Open with a different type of editor has no effect if file already open (1GEWMSQ)",
+  "OB": "When following the steps in 1GEWMOZ (ITPUI:WIN2000), using a scripted resource editor example, an XML file (test.xml) opens by default with the scripted resource editor example. When attempting to open the same test.xml file from the Navigator by selecting 'Open With...' and choosing 'Default Text Editor,' nothing happens; it reactivates the scripted resource editor example. Searching for an existing open file should also consider editor types.",
+  "EB": "When following the steps in 1GEWMOZ (ITPUI:WIN2000), using a scripted resource editor example, an XML file (test.xml) opens by default with the scripted resource editor example. When attempting to open the same test.xml file from the Navigator by selecting 'Open With...' and choosing 'Default Text Editor,' it should open a new editor on the file, because the editor type is different.",
+  "SR": "1. Open the ITPUI:WIN2000 environment.\n2. Create a new basic project.\n3. Create a new file named 'test.xml.'\n4. Observe that the editor used is the scripted resource editor example, which does not consider the XML file content.\n5. In the Navigator, locate 'test.xml.'\n6. Right-click 'test.xml' and choose 'Open With...'\n7. Select 'Default Text Editor.'\n8. Notice that nothing happens, and it reactivates the scripted resource editor example."
+}

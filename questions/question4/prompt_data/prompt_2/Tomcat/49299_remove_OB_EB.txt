@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '49299', 'title': 'Bug 49299Servlet 3.0 ch.7.1.1 says that custom cookie name affects URL rewriting', 'description': 'Bug 49299Servlet 3.0 ch.7.1.1 says that custom cookie name affects URL rewriting ', 'OB': '', 'EB': '', 'SR': '"That is not true for the current trunk: the default "jsessionid" is used instead.I am attaching a war file that reproduces this issue.Steps to reproduce:1. Deploy it as cookiename.war2. Access http://localhost:8080/cookiename/3. '}
+</BUG REPORT>

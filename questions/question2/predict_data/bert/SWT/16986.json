@@ -1,0 +1,1 @@
+{"id": "16986", "title": "Bug 16986JavaViewer example should remember path", "description": " Bug 16986JavaViewer example should remember path Every time the user opens a file, he has to walkthe file system again.This can be easily done by keeping the FileDialog around.", "OB": " The JavaViewer example does not remember the path of the lastfile opened.", "EB": "", "SR": ""}

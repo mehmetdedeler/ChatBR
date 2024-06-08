@@ -1,0 +1,1 @@
+{"bug_id": "11795", "title": "Bug 11795java browsing: members type shows imports strangely", "description": "give this code:package p;import java.util.List;public class A {class D{}}i see the import container as a child of both A and Dstrange"}

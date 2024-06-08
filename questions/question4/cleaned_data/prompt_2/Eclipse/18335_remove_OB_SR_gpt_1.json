@@ -1,0 +1,8 @@
+{
+  "id": "18335",
+  "title": "Bug 18335 - Perspective contents lost when view is maximized",
+  "description": "When maximizing the view, perspective contents are lost upon closing the workbench.",
+  "OB": "Upon closing the workbench after maximizing the view, the perspective contents are lost, and a temporary layout seems to be persisting instead of the proper layout.",
+  "EB": "The proper layout should persist when the workbench is closed, even if the view was maximized temporarily.",
+  "SR": "1. Open the application and navigate to a perspective.\n2. Maximize the view within the perspective.\n3. Close the workbench.\n4. Reopen the application and check if the proper layout is maintained."
+}

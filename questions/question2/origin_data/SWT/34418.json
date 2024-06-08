@@ -1,0 +1,1 @@
+{"bug_id": "34418", "title": "Bug 34418Crash when running DNDExample", "description": "build RC2, Solaris Motif.Run the DNDExample.Check the drag detect and the drop target on the widgetsDrag and Drop a few times (two or three).Segmentation faultReproducible"}

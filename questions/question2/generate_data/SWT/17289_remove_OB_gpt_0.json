@@ -1,0 +1,8 @@
+{
+  "id": "17289",
+  "title": "Bug 17289 Combo doesn't take focus by clicking on it (Photon)",
+  "description": "The bug report indicates that the first Combo in the Photon version does not gain focus when clicked.",
+  "OB": "The observed behavior is not provided in the report, but it implies that the first Combo does not receive focus when clicked.",
+  "EB": "The expected behavior is that the first Combo, specifically the \"Host:\" field, should acquire focus when clicked within the \"Add a new CVS Repository\" dialog in the Photon version.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the \"Add a new CVS Repository\" dialog.\n2. Observe that clicking on the first Combo, which is the \"Host:\" field, does not move the focus to it.\n3. Press the \"Tab\" key, and focus should go to the second Combo named \"Repository Path:\"."
+}

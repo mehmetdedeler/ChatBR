@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '11863', 'title': 'Bug 11863Update Test Suite action does not allow to remove', 'description': '', 'OB': '', 'EB': 'Normally "Update"shows the content of the existing stuff (dir, zip) and allows to modify this.I think renaming the action (and the dialog) to Recreate Test Suite would solvethe problem. ', 'SR': 'What the action actually does is RECREATE the test suite based on the selectionin the dialog.I do an update on a test suite which contains X. '}
+</BUG REPORT>

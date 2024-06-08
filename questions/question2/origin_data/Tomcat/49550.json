@@ -1,0 +1,1 @@
+{"bug_id": "49550", "title": "Bug 49550[PATCH] Response class fix isSpace (deprecated) = isWhiteSpace", "description": "Created attachment 25703 [details]fix isSpace (deprecated) = isWhiteSpaceAs the subject says"}

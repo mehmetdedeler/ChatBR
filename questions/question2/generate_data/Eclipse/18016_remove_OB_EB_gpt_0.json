@@ -1,0 +1,8 @@
+{
+  "id": "18016",
+  "title": "Most Menu Actions Should Be Disabled for Customers from Repository",
+  "description": "In Bug 18016, most menu actions should be disabled for customers from the repository, but the rest is meaningless and they should be removed.",
+  "OB": "Most menu actions are not disabled for customers from the repository.",
+  "EB": "Menu actions for customers from the repository should be disabled, except for necessary ones.",
+  "SR": "To reproduce the issue:\n1. Open the repository view.\n2. Open a .java file."
+}

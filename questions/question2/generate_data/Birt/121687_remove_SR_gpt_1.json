@@ -1,0 +1,8 @@
+{
+  "id": "121687",
+  "title": "Exception Thrown When Exporting Data from a Table Inside a Grid Cell",
+  "description": "When attempting to export data from a table located within a grid cell, an exception is thrown in the ReportEngineService.getMetaData() function.",
+  "OB": "When attempting to export data from a table located within a grid cell, an exception is thrown in the ReportEngineService.getMetaData() function.",
+  "EB": "When exporting data from two tables, the expected result is that the data should be successfully exported.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Insert a grid containing at least one table within a cell.\n2. Attempt to export data from the table(s)."
+}

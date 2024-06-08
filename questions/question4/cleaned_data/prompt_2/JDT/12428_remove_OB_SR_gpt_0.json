@@ -1,0 +1,8 @@
+{
+  "id": "12428",
+  "title": "Bug 12428: Confusing message in Pull Up refactoring",
+  "description": "Bug 12428: Confusing message in Pull Up refactoring. The message currently displayed when performing the Pull Up refactoring is not clear and inconsistent. The message should be modified to say 'Copy method 'void setUp()' FROM type 'TestCase', with uppercase 'C' in 'Copy'.\n\nAnother issue is that when selecting to delete the setUp method from TestCase, the message displayed under TestCase is 'Delete method 'void setUp()' declared in type 'junit.framework.TestCase'. This message should also be consistent and use the fully qualified name.",
+  "OB": "",
+  "EB": "The 'copy method' text in the Pull Up refactoring should be consistent and also use the fully qualified name.",
+  "SR": ""
+}

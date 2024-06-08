@@ -1,0 +1,8 @@
+{
+  "id": "121682",
+  "title": "Bug 121682: Exception thrown during data export from table with highlight/map",
+  "description": "Exception occurs when attempting to export data from the attached report.",
+  "OB": "During the export process, an exception is thrown when the report contains a table with a group, a highlight rule, and a map rule in the group row.",
+  "EB": "No exception should be thrown during the export process when the report contains a table with a group, a highlight rule, and a map rule in the group row. The export operation should proceed smoothly without errors.",
+  "SR": "1. Open the attached report.\n2. Add a table with a group, a highlight rule, and a map rule in the group row.\n3. Preview the report.\n4. Attempt to export data from the table.\n5. Observe if any exceptions are thrown during the export process."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "12398",
+  "title": "Accessibility Problems in Help View",
+  "description": "The Help view in our application has accessibility issues. Specifically, I need to first click on one of the 'live' areas before it starts working (e.g., the banner with the tool buttons, the navigation frame, or the content frame). This behavior was observed on March 26, 2002, on a Windows 2000 machine.",
+  "OB": "When I launch the Help view, the tab key does not actually do anything.",
+  "EB": "The expected behavior is that when launching the Help view, it should be immediately navigable via the keyboard without the need to click on any specific area.",
+  "SR": "Steps to reproduce:\n1. Open the application.\n2. Go to the Help view.\n3. Attempt to navigate using the tab key and observe that it does not work as expected."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "116786",
+  "title": "Bug 116786: Library include does not store relative path",
+  "description": "When a library is included in a report design, the BIRT designer should generate and save the relative path, but it is not currently doing so. This can lead to issues when trying to access the report design in a different location. For example, if the project is in the folder $project/test, it should contain the report design with the relative path properly stored.",
+  "OB": "Currently, when including a library in a report design, the BIRT designer does not generate or save the relative path. It saves the library without considering its location, making it difficult to access the report design if the project is moved to a different directory.",
+  "EB": "The expected behavior is that when a library is included in a report design, the BIRT designer should automatically generate and save the relative path. This means that if the project is in the folder $project/test, the report design should contain the library with the relative path properly stored, ensuring that it can be accessed correctly regardless of the project's location.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the BIRT designer.\n2. Create a new report design or open an existing one.\n3. Include a library in the report design.\n4. Save the report design.\n5. Move the project to a different directory or location.\n6. Attempt to open the report design. You will notice that the library's relative path is not properly stored, causing issues in accessing the report design."
+}

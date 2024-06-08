@@ -1,0 +1,8 @@
+{
+  "id": "103963",
+  "title": "No Friendly Error Message for Empty Series Data",
+  "description": "The software should display a user-friendly error message when there is no data for a series.",
+  "OB": "Currently, when there is no data for a series, no error message is displayed. The software does not provide any feedback to the user, which can lead to confusion.",
+  "EB": "When there is no data for a series, the software should pop up a friendly error message to remind the user that there is no data available for the selected series.",
+  "SR": "Steps to reproduce:\n1. Open the software.\n2. Go to a series with no data available.\n3. Observe that no error message is displayed."
+}

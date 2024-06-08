@@ -1,0 +1,8 @@
+{
+  "id": "2940",
+  "title": "Bug 2940 - Export Zip: Updating of checkboxes should use busy cursor (1GKWVMA)",
+  "description": "Bug 2940 - Export Zip: Updating of checkboxes should use busy cursor (1GKWVMA) MA (01.10.2001 11:38:21)1.",
+  "OB": "The process of updating the checked state of the table takes a long time (approximately 30 seconds in my case). During this time, there is no indication of ongoing activity. A busy cursor should be displayed to provide visual feedback to the user.",
+  "EB": "When updating the checkboxes' state in the table, a busy cursor should be displayed, providing a clear visual indication that the process is underway. This should improve the user experience by reducing uncertainty during the update.",
+  "SR": "1. Open the application and navigate to the 'Export Zip' feature.\n2. Perform actions that trigger the updating of checkboxes in the table.\n3. Observe the absence of a busy cursor during the checkbox update process, indicating the need for visual feedback.\n4. Confirm that the addition of a busy cursor enhances the user experience by providing a clear indication of ongoing activity."
+}

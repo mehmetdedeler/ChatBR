@@ -1,0 +1,1 @@
+{"id": "120315", "title": "Bug 120315: Display property set to 'none' not taking effect in new PDF emitter", "description": "", "OB": "", "EB": "", "SR": "Steps to Reproduce:\n1. Add a label to the document.\n2. Open the 'Properties' view of the label.\n3. Set the 'sectionDisplay' property to 'none'.\n4. Observe the rendering in the new PDF emitter."}

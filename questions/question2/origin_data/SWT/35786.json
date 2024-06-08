@@ -1,0 +1,1 @@
+{"bug_id": "35786", "title": "Bug 35786Eclipse crashes on shut down", "description": "I2003032615561) download eclipse into an empty directory2) launch eclipse3) shut down eclipseEclipse crashes."}

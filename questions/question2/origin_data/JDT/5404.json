@@ -1,0 +1,1 @@
+{"bug_id": "5404", "title": "Bug 5404Extract method with 'continue' statement not possible", "description": "1. Open WorkingSetReader (1.1)2. Select the full forstatement in readXML():for (int k= 0; k < contents.getLength(); k++) {...}3. Extract method== dialog says, it's not possible to do so because of the 'continue' statement"}

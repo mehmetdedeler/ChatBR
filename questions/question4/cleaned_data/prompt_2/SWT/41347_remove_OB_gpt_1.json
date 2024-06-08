@@ -1,0 +1,8 @@
+{
+  "id": "41347",
+  "title": "CCombo Mouse Selection DefaultSelection Issue",
+  "description": "The CCombo is erroneously triggering defaultSelection when a list item is selected using the mouse, which is unexpected behavior for users. This behavior disrupts the normal flow of interaction, potentially dismissing the dialog unexpectedly.",
+  "OB": "When a user selects an entry from the dropdown list using the mouse, the CCombo fires a defaultSelection event, which causes the dialog to be dismissed.",
+  "EB": "The CCombo should trigger a selection event instead of defaultSelection when an item is chosen from the dropdown list using the mouse. Default selection should only occur when the user hits enter from the text field. The expected behavior is to differentiate between mouse selection and hitting enter from the text field.",
+  "SR": "To reproduce: \n1. Open the dropdown list of the CCombo using the mouse. \n2. Select an entry using the mouse. \nExpected result: The CCombo should trigger a selection event without dismissing the dialog. Currently, it erroneously triggers defaultSelection, mimicking the behavior of hitting enter from the text field."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "49299",
+  "title": "Bug 49299 Servlet 3.0 ch.7.1.1 Misleading Documentation on Custom Cookie Name and URL Rewriting",
+  "description": "Bug 49299 Servlet 3.0 ch.7.1.1 incorrectly states that custom cookie name affects URL rewriting.",
+  "OB": "The observed behavior is not explicitly provided in the bug report.",
+  "EB": "I expect the documentation to accurately reflect the behavior. Based on the context, it seems the expected behavior is for the Reload link to be http://localhost:8080/cookiename/index.jsp;MYSESSIONCOOKIE=658C60E714E9C7C833F4FDA366E0477F",
+  "SR": "1. Navigate to the URL http://localhost:8080/cookiename/index.jsp\n2. Observe the behavior of the Reload link\n3. Verify that the session cookie is correctly appended to the URL as MYSESSIONCOOKIE=658C60E714E9C7C833F4FDA366E0477F"
+}

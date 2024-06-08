@@ -1,0 +1,1 @@
+{"id": "27115", "title": "Bug 27115[Preferences] Workbench preference page has inconsistent note", "description": " Bug 27115[Preferences] Workbench preference page has inconsistent note", "OB": "", "EB": " The WorkbenchPreferencePage should use createNoteComposite in PreferencePageso that its note is consistent with the others.", "SR": ""}

@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Bug 123036: Data in a report is doubly stored",
+  "description": "The bug involves double storage of data in a report, impacting the integrity of the information.",
+  "OB": "Upon generating the report, I observed that the data instances are being stored twice in the content stream.",
+  "EB": "The expected behavior is that each data instance should be stored only once in the content stream, ensuring data consistency and eliminating redundancy.",
+  "SR": "Steps to Reproduce:\n1. Navigate to the reporting module.\n2. Generate a report with multiple data instances.\n3. Examine the content stream or storage backend to observe the duplication of data instances."
+}

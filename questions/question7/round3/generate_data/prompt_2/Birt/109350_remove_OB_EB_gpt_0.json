@@ -1,0 +1,1 @@
+{"id": "109350", "title": "Bug 109350 - Output parameter not displayed in data set dialog", "description": "", "OB": "", "EB": "", "SR": "1. Open the data set dialog.\n2. Call a stored procedure from an Oracle database.\n3. Check if the output parameter, which stores the query result as an object, is displayed in the data set dialog."}

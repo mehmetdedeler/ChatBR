@@ -1,0 +1,8 @@
+{
+  "id": "6410",
+  "title": "Bug 6410 - File unchanged but dirtied by code assist",
+  "description": "Bug 6410 - File unchanged but dirtied by code assist",
+  "OB": "Upon opening a Java file, placing the cursor inside the leftmost parenthesis of a method call, and invoking code assist using Ctrl+Space, the file remains unchanged.",
+  "EB": "After performing the described steps, the file should remain unchanged, and there should be no indication of the file being dirtied by the code assist operation.",
+  "SR": "1. Open a Java file. Place the cursor inside the leftmost parenthesis of a method call (e.g., \"I\" in the example: Object o = anotherObject.method(I);). Press Ctrl+Space. Verify that the file remains unchanged after code assist and ensure there is no indication of the file being dirtied."
+}

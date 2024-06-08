@@ -1,0 +1,8 @@
+{
+  "id": "123727",
+  "title": "Bug 123727 - 'Top N' and 'Bottom N' functionality not working",
+  "description": "",
+  "OB": "When attempting to use the 'Top N' and 'Bottom N' functionality, the data is not displayed as expected.",
+  "EB": "After saving and previewing the report, no data is displayed. The expected result is that the data should be displayed according to the 'Top N' and 'Input Parameters' configurations.",
+  "SR": "Steps to reproduce:\n1. Create a new report.\n2. Apply 'Top N' or 'Bottom N' filter.\n3. Save and preview the report."
+}

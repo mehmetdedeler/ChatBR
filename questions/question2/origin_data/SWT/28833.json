@@ -1,0 +1,1 @@
+{"bug_id": "28833", "title": "Bug 28833Eclipse no longer responds to 'Quit' AppleEvent", "description": "M4(regression from M3)Eclipse no longer responds to 'Quit' AppleEvents, as a consequence you cannotshutdown Mac OS X if Eclipse is running.To try without halting MacOSX: in dock open context menu on Eclipse app and select'Quit'"}

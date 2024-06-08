@@ -1,0 +1,8 @@
+{
+  "id": "18335",
+  "title": "Perspective contents lost when view is maximized",
+  "description": "All the contents of the perspective (views, layout info) are lost when the following actions are performed in F1: Maximize a view in any perspective. Observe that only the maximized view is actually present, and all other views are missing from the perspective. As far as I can remember, the view maximize code replaced the page layout with a temporary one that contained only the maximized view.",
+  "OB": "Upon maximizing a view in any perspective, all contents (views, layout info) disappear, and only the maximized view remains visible. Other views are missing from the perspective.",
+  "EB": "After maximizing a view, the expected behavior is that the maximized view is present, but other views and layout information within the perspective should remain intact.",
+  "SR": "1. Open any perspective in F1.\n2. Maximize a view within the perspective.\n3. Observe that only the maximized view is present, and all other views are missing from the perspective."
+}

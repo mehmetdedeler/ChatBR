@@ -1,0 +1,8 @@
+{
+  "id": "6536",
+  "title": "Bug 6536: Adding Javadoc on field in Type Hierarchy does nothing",
+  "description": "When attempting to add Javadoc on a field in the Type Hierarchy view, the feature does not work as expected. It should allow users to add Javadoc comments to fields in this view.",
+  "OB": "Currently, when selecting a field in the Type Hierarchy view and trying to add Javadoc, nothing happens. There is no interface for adding Javadoc comments to fields in this view.",
+  "EB": "I expect that when I select a field in the Type Hierarchy view and attempt to add Javadoc, I should be able to provide Javadoc comments for the selected field, similar to how it works in other parts of the software.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the Type Hierarchy view in the software.\n2. Select any field in the Type Hierarchy view.\n3. Attempt to add Javadoc comments to the selected field. You will notice that the feature does not work as expected."
+}

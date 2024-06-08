@@ -1,0 +1,8 @@
+{
+  "id": "18285",
+  "title": "Bug 18285: Incorrect Behavior When Doubleclicking on Import Statement",
+  "description": "When navigating in the package view outline, double-clicking on a type import statement opens the editor for the referenced type instead of the unit hosting the import reference.",
+  "OB": "In the package view outline, double-clicking on a type import statement opens the editor for the referenced type instead of the unit hosting the import reference.",
+  "EB": "When double-clicking on a type import statement in the package view outline, the editor should open for the unit hosting the import reference, not the referenced type.",
+  "SR": "1. Open the package view outline.\n2. Double-click on a type import statement."
+}

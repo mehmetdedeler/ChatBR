@@ -1,0 +1,1 @@
+{"bug_id": "28852", "title": "Bug 28852failonerror attribute on Ant tasks", "description": "failonerror boolean attribute on manager Ant tasks would be a nice have toallow for more flexible operation within Ant build files.I will attach a patch next week that also fixes unecessary CRs during responseread/print and missing url encoding in some tasks."}

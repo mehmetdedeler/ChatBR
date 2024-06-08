@@ -1,0 +1,8 @@
+{
+  "id": "5473",
+  "title": "Bug 5473: ShiftLeft behavior with intermixed tabs and spaces",
+  "description": "Bug 5473: ShiftLeft behavior with intermixed tabs and spaces Build 200110251.",
+  "OB": "Replace the tab character in the first line with spaces so that the two lines are indented the same visually. Execute ShiftLeft. The text now moves. In the first scenario, it seems like the second line should be shifted left, and the first line should be shifted left, at least to the space character (i.e., get rid of the tab). At any rate, it's definitely confusing if there is a stray space. You don't know why the text won't shift.",
+  "EB": "When intermixing tabs and spaces, the ShiftLeft behavior is inconsistent. Specifically, when a tab character is present in the first line, replacing it with spaces should visually align the two lines. Currently, executing ShiftLeft does not behave as expected. In the first scenario, the second line should be shifted left, and the first line should be shifted left, at least to the space character, eliminating the tab. Additionally, ensure that the behavior is not confusing when there is a stray space.",
+  "SR": "1. Investigate and correct the ShiftLeft behavior when tabs and spaces are intermixed.\n2. Verify that replacing a tab character with spaces aligns the visual indentation of the two lines.\n3. Adjust the ShiftLeft functionality to appropriately shift both the first and second lines left when a tab character is present in the first line.\n4. Address any inconsistencies in the behavior to avoid confusion, especially in the presence of stray spaces."
+}

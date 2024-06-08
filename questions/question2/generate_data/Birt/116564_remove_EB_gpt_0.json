@@ -1,0 +1,8 @@
+{
+  "id": "116564",
+  "title": "Bug 116564 - The title of hyperlink builder should be 'Hyperlink Options', but it changes with settings.",
+  "description": "The bug report is about the title of the hyperlink builder changing unexpectedly.",
+  "OB": "When you click on 'OK' and then reopen the hyperlink builder, the actual result is that its title becomes 'www.actuate.com'.",
+  "EB": "The expected behavior is that the hyperlink builder's title should always be 'Hyperlink Options' regardless of the settings.",
+  "SR": "To reproduce the issue:\n1. Set a label hyperlink as 'www.actuate.com'.\n2. Click on 'OK'.\n3. Reopen the hyperlink builder."
+}

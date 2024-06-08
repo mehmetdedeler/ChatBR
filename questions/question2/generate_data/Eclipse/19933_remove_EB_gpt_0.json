@@ -1,0 +1,8 @@
+{
+  "id": "19933",
+  "title": "Bug 19933 - Emacs: Keybinding Service Clears Status Line",
+  "description": "The keybinding service in Emacs is always clearing the status line, even when actions could have written to it. Currently, there is no API available to retrieve messages from the status line, making it impossible to solve this issue in a general sense. However, we can address this problem for specific cases by avoiding the clearance of the status line when running in the default mode.",
+  "OB": "When running with Emacs keybindings, any action that writes to the status line results in the status line message being cleared by AcceleratorScope.resetMode. Additionally, when a mode is entered, the key sequence that initiated the mode is written to the status line.",
+  "EB": "When running with Emacs keybindings, we expect the status line to display messages from actions without being automatically cleared by AcceleratorScope.resetMode. The status line should continue to show the key sequence when a mode is entered.",
+  "SR": "1. Launch the application with Emacs keybindings enabled.\n2. Perform any action that writes a message to the status line.\n3. Observe that the status line is automatically cleared by AcceleratorScope.resetMode.\n4. Enter a mode using a key sequence.\n5. Verify that the key sequence is displayed on the status line without being cleared."
+}

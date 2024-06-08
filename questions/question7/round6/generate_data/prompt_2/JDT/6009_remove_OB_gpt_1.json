@@ -1,0 +1,8 @@
+{
+  "id": "6009",
+  "title": "Bug 6009: New class wizard doesn't default to the current type in the editor for nested classes",
+  "description": "When attempting to create a new class using the wizard, the 'Enclosing Type' field does not default to the current type in the editor.",
+  "OB": "When using Build 20011106, upon clicking the 'New Class' button with a .java file open in the editor, the 'Enclosing Type' field remains blank.",
+  "EB": "The 'Enclosing Type' field should automatically default to the current type open in the editor when creating a new class.",
+  "SR": "To reproduce: Using Build 20011106, open a .java file in the editor, click the 'New Class' button, and check the 'Enclosing Type' field, which should default to the current type in the editor."
+}

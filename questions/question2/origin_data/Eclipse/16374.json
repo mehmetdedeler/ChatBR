@@ -1,0 +1,1 @@
+{"bug_id": "16374", "title": "Bug 16374Should prompt for new name on paste to same location", "description": "Build 20020517JDT has changed to prompting for a new name when pasting to same location.See bug 6178.The Navigator should support this as well, to be consistent."}

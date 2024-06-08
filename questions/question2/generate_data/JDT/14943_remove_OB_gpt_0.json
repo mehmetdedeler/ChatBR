@@ -1,0 +1,8 @@
+{
+  "id": "14943",
+  "title": "Code Assist does not respect platform line ends",
+  "description": "When using Code Assist, it does not respect the platform line endings, resulting in incorrect formatting.",
+  "OB": "When Code Assist is used, it fails to adjust the line endings according to the platform, causing the code to have inconsistent line endings.",
+  "EB": "Code Assist should correctly adapt the line endings to match the platform, ensuring that they are in the CR/LF format as expected.",
+  "SR": "To reproduce this issue, follow these steps: 1. Create a new class. 2. Add a method within the class. 3. Define a local variable for an array."
+}

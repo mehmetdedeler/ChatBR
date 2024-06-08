@@ -1,0 +1,1 @@
+{"id": "11448", "title": "Bug 11448extract method: incorrect on anonymous inner types", "description": " Bug 11448extract method: incorrect on anonymous inner types", "OB": " class A {void m(){Object u= /[/new Object(){}/]/;}}this is extracted to a method with return type Awhich causes a compile error", "EB": "", "SR": ""}

@@ -1,0 +1,8 @@
+{
+  "id": "6536",
+  "title": "Bug 6536: Unable to Add Javadoc on Field in TH",
+  "description": "When attempting to add Javadoc to a field in TH, the following issue is observed.",
+  "OB": "Upon selecting 'Add Javadoc' from the context menu, nothing happens. The action of adding Javadoc to the field does not take effect.",
+  "EB": "When the 'Add Javadoc' option is chosen from the context menu, it should successfully add Javadoc to the selected field in TH. The expected behavior is that the Javadoc is added as intended when the action is triggered.",
+  "SR": "To reproduce the issue:\n1. Open TH (Targeted Handler) application.\n2. Locate a field in the TH application for which you want to add Javadoc.\n3. Right-click on the field to open the context menu.\n4. From the context menu, select the 'Add Javadoc' option.\n5. Observe that nothing happens, and the Javadoc is not added to the field as expected."
+}

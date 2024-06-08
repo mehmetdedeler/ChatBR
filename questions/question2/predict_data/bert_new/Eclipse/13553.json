@@ -1,0 +1,1 @@
+{"id": "13553", "title": "Bug 13553[Preferences] Should use SafeRunnable for preference store callbacks", "description": "Bug 13553[Preferences] Should use SafeRunnable for preference store callbacks ", "OB": "", "EB": "Build 20020409When sending preference store callbacks, we should wrap them in a SafeRunnableto make the system resilient to callback handler failure. ", "SR": ""}

@@ -1,0 +1,8 @@
+{
+  "id": "18934",
+  "title": "Bug 18934 - Scrollbars Enabled in ImageAnalyzer Example",
+  "description": "The ImageAnalyzer example currently displays scrollbars when it shouldn't.",
+  "OB": "Scrollbars are visible in the ImageAnalyzer example when it loads an image, causing an overflow beyond the viewport.",
+  "EB": "Scrollbars should be disabled in the ImageAnalyzer example, ensuring that the image fits within the viewport without causing any overflow.",
+  "SR": "1. Open the ImageAnalyzer example.\n2. Load an image that exceeds the viewport size.\n3. Observe the presence of scrollbars on the image viewer, allowing overflow.\n4. Expected: The image should fit within the viewport without any visible scrollbars."
+}

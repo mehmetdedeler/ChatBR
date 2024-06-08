@@ -1,0 +1,8 @@
+{
+  "id": "23787",
+  "title": "Bug 23787 - Project Properties Info Page Uses Text Fields Instead of Labels",
+  "description": "In the Integration build dated 09/17, the Project Properties Info page displays text fields, which look bad on all motif platforms.",
+  "OB": "The Project Properties Info page displays text fields.",
+  "EB": "The Project Properties Info page should use readonly Labels instead of text fields. This change is necessary to improve the visual appearance of the page. Labels should be used to display information such as Path, Type, and other details. The text fields make the page look bad on all motif platforms.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Select a Project.\n2. Right-click on the selected Project.\n3. Click on 'Properties' to access the subsequent Info page and observe that it displays readonly text fields for values such as Path, Type, etc."
+}

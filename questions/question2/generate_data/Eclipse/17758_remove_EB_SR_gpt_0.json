@@ -1,0 +1,8 @@
+{
+  "id": "17758",
+  "title": "Bug 17758[Navigator] Navigator View. Problems with 'Go Into' action",
+  "description": "Bug 17758[Navigator] Navigator View. Problems with 'Go Into' action",
+  "OB": "From a clean F1 build, after importing all plugins from the runtime environment to get some projects, pack a project (for example, org.eclipse.ant). Upon using 'Go Into,' 'Go Up,' 'Go Back,' 'Go Back,' these actions work fine. After closing the project, the 'Forward' option remains enabled, but upon clicking it, it leads to a blank screen. The 'Go Into' option is now disabled.",
+  "EB": "Expect the 'Forward' option to work properly, leading to the expected screen instead of a blank one. Additionally, the 'Go Into' option should remain enabled even after closing a project.",
+  "SR": "1. Install a clean F1 build. \n2. Import all plugins from the runtime environment to obtain some projects. \n3. Pack a project, for instance, 'org.eclipse.ant'. \n4. Perform 'Go Into,' 'Go Up,' 'Go Back,' 'Go Back' operations. \n5. Close the project. \n6. Check the status of the 'Forward' option. \n7. Attempt to use the 'Forward' option. \n8. Observe the behavior of the 'Go Into' option after the project is closed."
+}

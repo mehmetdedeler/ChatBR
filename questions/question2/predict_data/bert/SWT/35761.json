@@ -1,0 +1,1 @@
+{"id": "35761", "title": "Bug 35761ControlExample  Label  Image labels issue with SWT.WRAP", "description": " Bug 35761ControlExampleLabelImage labels issue with SWT.WRAP They don't on Windows.", "OB": " I20030326Run ControlExampleSwitch to Label tabSelect SWT.WRAPThe image labels go away.", "EB": "", "SR": ""}

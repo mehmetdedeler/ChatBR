@@ -1,0 +1,8 @@
+{
+  "id": "6410",
+  "title": "Bug 6410: File unchanged but dirtied by code assist",
+  "description": "Bug 6410: File unchanged but dirtied by code assist",
+  "OB": "When code assist has nothing to suggest, the file is marked as dirty, even though no changes have been made.",
+  "EB": "If code assist has nothing to suggest, it should not mark the file as dirty.",
+  "SR": "1. Open a file with existing code.\n2. Trigger code assist when the cursor is at a valid location.\n3. Observe that the file is marked as dirty, even though code assist did not provide any suggestions."
+}

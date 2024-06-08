@@ -1,0 +1,8 @@
+{
+  "id": "4329",
+  "title": "No Search Results When Searching via Package View Selection and Dialog",
+  "description": "This bug report highlights the issue of not getting search results when using the Package view selection and dialog in the integrated development environment.",
+  "OB": "The package view initializes the Search dialog with the fully qualified name, and as a result, it doesn't find any results when searching for declarations.",
+  "EB": "The expected behavior is that the search should first attempt to find the Java element, and if that fails, it should display the element name rather than the fully qualified name in the search results.",
+  "SR": "To reproduce the issue:\n1. Use the Package view selection and dialog for searching.\n2. Attempt to search for declarations. No search results will be found.\n3. Compare this with searching via the context menu in the packages view, which works as expected."
+}

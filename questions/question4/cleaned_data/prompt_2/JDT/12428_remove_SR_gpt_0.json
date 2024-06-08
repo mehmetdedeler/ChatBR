@@ -1,0 +1,5 @@
+{"id": "12428",
+  "title": "Bug 12428: Pull Up - Confusing message",
+  "description": "Bug 12428: Pull Up - Confusing message. The message 'Copy method 'void setUp()' FROM type 'TestCase' should use an uppercase 'C' in 'Copy'. Additionally, when selecting to delete 'setUp' from 'TestCase', the message under 'TestCase' shows 'Delete method 'void setUp()' declared in type 'junit.framework.TestCase'.' (Markus)", "OB": "In the tree of changes, under 'Assert', the message 'Copy method 'void setUp()' to type 'TestCase'' is displayed. Here, 'TestCase' is shown with the fully qualified name.",
+  "EB": "Shouldn't the 'copy method' text be consistent and also use the fully qualified name?",
+  "SR": ""}

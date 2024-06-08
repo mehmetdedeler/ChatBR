@@ -1,0 +1,8 @@
+{
+  "id": "17703",
+  "title": "Bug 17703 - Inconsistent Dialog for 'Add Task' Action",
+  "description": "The 'Add Task' action should use the Workbench dialog, as the Java Editor does.",
+  "OB": "When selecting a Compilation Unit (CU) in the packages view and executing the 'File > Add Task' action, a different dialog appears compared to executing the action from the Java editor's ruler context menu.",
+  "EB": "The expected behavior is that the 'Add Task' action consistently uses the Workbench dialog, similar to how it behaves in the Java editor's ruler context menu.",
+  "SR": "To reproduce the issue:\n1) Select a Compilation Unit (CU) in the packages view.\n2) Execute 'File > Add Task'.\nObservation: The dialog that appears is different from the one shown when executing the action from the Java editor's ruler context menu."
+}

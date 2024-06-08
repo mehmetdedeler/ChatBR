@@ -1,0 +1,8 @@
+{
+  "id": "121687",
+  "title": "Exception Thrown When Exporting Data in Table Within a Grid Cell",
+  "description": "",
+  "OB": "An exception is thrown when attempting to export data from a table that is located inside a grid cell.",
+  "EB": "The expected behavior is that data from tables within grid cells can be exported without any exceptions.",
+  "SR": "To reproduce the issue:\n1. Insert a table into one grid cell.\n2. Insert another table into a different grid cell.\n3. Attempt to export data from one of the tables within a grid cell, which will trigger the exception."
+}

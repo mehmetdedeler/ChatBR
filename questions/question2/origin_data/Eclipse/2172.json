@@ -1,0 +1,1 @@
+{"bug_id": "2172", "title": "Bug 2172[Dialogs] Cannot copy errors in a Multi error dialog.", "description": "The error dialog with details does not allow the user to select all of the details as it is single select. This would be useful for the user as it would allow them to copy and paste errors (which wealso can't do currently).NOTES:"}

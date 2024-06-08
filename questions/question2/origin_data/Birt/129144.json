@@ -1,0 +1,1 @@
+{"bug_id": "129144", "title": "Bug 129144Support suppressDuplicates property on table row in report engine", "description": "See 129143 for detail. This only needs to be supported for data item in a detail row of a table."}

@@ -1,0 +1,1 @@
+{"bug_id": "6536", "title": "Bug 6536Add Javadoc on field in TH does nothing", "description": "1. Select a field in the Type Hierarchy view2. From its context menu select \"Add Javadoc\"== nothing happens.Either this menu should be removed or (preferably) the action should add thefields Javadoc."}

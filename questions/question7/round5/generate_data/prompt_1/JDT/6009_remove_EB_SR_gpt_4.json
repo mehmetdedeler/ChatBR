@@ -1,0 +1,1 @@
+{"id": "6009", "title": "Bug 6009 - New class wizard doesn't get context right for nested classes", "description": "When using the new class wizard to create a nested class, the context is not set correctly.", "OB": "When using the new class wizard to create a nested class, the context is not set correctly.", "EB": "", "SR": ""}

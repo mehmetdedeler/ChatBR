@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '18268', 'title': 'Bug 18268not finding images and files in NLspecific subdirectories', 'description': 'Bug 18268not finding images and files in NLspecific subdirectories build 200205291235Setup Start eclipse. Delete <install/eclipse/org.eclipse.platform2.0.0/eclipselg.gif3. Edit <install/eclipse/org.eclipse.platform2.0.0/about.iniChange the value of the aboutImage property:aboutImage=$nl$/eclipselg.gif4. Edit <install/eclipse/org.eclipse.platform2.0.0/about.iniChange the value of the aboutImage property:aboutImage=nl/en/eclipselg.gif7. Open the about dialogObserve: There is a main image again.This suggests that the UI is correctly passing the entire pathto IPluginDescriptor.find, but that the "$nl$" path segment is not beinghandled correctly. ', 'OB': 'Open the about dialog Observe: There is a main image. ', 'EB': 'Open the about dialogObserve: There is no main image.Expectation: It should have found it in.6. ', 'SR': ''}
+</BUG REPORT>

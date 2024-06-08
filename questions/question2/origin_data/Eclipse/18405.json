@@ -1,0 +1,1 @@
+{"bug_id": "18405", "title": "Bug 18405Preference pages are sometimes detached from right edge", "description": "Build 20020530 plus latest changes to org.eclipse.ui open prefs so that Workbench pref is selected expand it select Appearance select Compare  it resizes a bit larger select Appearance its right edge is indented  it did not relayout due to the resize"}

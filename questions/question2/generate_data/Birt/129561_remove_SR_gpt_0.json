@@ -1,0 +1,8 @@
+{
+  "id": "129561",
+  "title": "Bug 129561HCGBIDI: Undesirable generation of SQL query elements",
+  "description": "Bug 129561HCGBIDI: Undesirable generation of SQL query elements. This is not even NLS specific defect. Otherwise, the query will fail.\n1. Create a table with a name including a blank space in this database.\nSelect 'Preview Results'.\nResult: An exception is fired.\n7. 'Table Name'. 'Column Name'.\n8.",
+  "OB": "When creating a table with a name that includes a blank space, selecting 'Preview Results' triggers an exception.",
+  "EB": "The expected behavior is that the SQL query should enclose every entity name including blank spaces in quotation marks. For example, it should be something like 'select USER.Table Name.Column Name'.",
+  "SR": "To reproduce the issue:\n1. Create a table with a name containing a blank space in the database.\n2. Select 'Preview Results'.\n3. Observe the exception being fired."
+}

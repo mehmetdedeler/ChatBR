@@ -1,0 +1,8 @@
+{
+  "id": "6536",
+  "title": "Bug 6536: Adding Javadoc on a field in TH does nothing",
+  "description": "When attempting to add Javadoc on a field in the TH (Tool Hub), there is an issue where the expected action is not occurring.",
+  "OB": "When I right-click on a field in the TH and select the 'Add Javadoc' option from the context menu, nothing happens. The Javadoc is not added to the field, and no error or notification is displayed.",
+  "EB": "I expect that when I right-click on a field in the TH and choose the 'Add Javadoc' option from the context menu, the Javadoc for the selected field should be added. This action should populate the Javadoc with the appropriate documentation for the field.",
+  "SR": "To reproduce the issue:\n1. Open the TH (Tool Hub).\n2. Locate a field in the TH that you want to add Javadoc to.\n3. Right-click on the field to open the context menu.\n4. Select the 'Add Javadoc' option from the context menu.\n5. Observe that nothing happens, and the Javadoc is not added as expected."
+}

@@ -1,0 +1,1 @@
+{"id": "16458", "title": "Bug 16458Trying to free a GdkEvent: pointer=NULL", "description": "Bug 16458Trying to free a GdkEvent: pointer=NULL ", "OB": "ControlExample prints many warnings:gdkeventfree: assertion `event != NULL' failed ", "EB": "", "SR": ""}

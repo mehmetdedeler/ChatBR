@@ -1,0 +1,8 @@
+{
+  "id": "24877",
+  "title": "Cannot Retrieve File Extension from SWT FileDialog",
+  "description": "The bug prevents users from obtaining the file extension in SWT FileDialog, rendering the dialog nearly unusable as it's impossible to determine the correct file extension to append to the file name.",
+  "OB": "The observed behavior is that when using the SWT FileDialog, there is no apparent way to retrieve the file extension from the selected file type in the 'Save as type' dropdown. This results in a significant limitation as it's crucial to know the file extension when saving a file.",
+  "EB": "The expected behavior is that the SWT FileDialog should provide a method or feature that allows users to obtain the selected file type's extension when saving a file. Users should be able to easily determine the correct file extension to append to the file name based on their selection in the 'Save as type' dropdown.",
+  "SR": "To reproduce this bug:\n1. Open the application that uses the SWT FileDialog.\n2. Trigger the FileDialog to open for saving a file.\n3. In the 'Save as type' dropdown, select '.zip' (or any other file type).\n4. Enter a file name (e.g., 'test').\n5. Observe that there is no apparent way to determine the file extension from the 'Save as type' dropdown."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "125678",
+  "title": "The original chart instance in report design handle is not modified after running the report.",
+  "description": "The original bug report lacks details in the OB, EB, and SR sections.",
+  "OB": "The chart in the report design handle remains unchanged after running the report.",
+  "EB": "The chart in the report design handle should reflect modifications made during report execution.",
+  "SR": "1. Open the report design handle with a chart instance.\n2. Make modifications to the chart.\n3. Run the report.\n4. Observe that the chart in the report design handle does not reflect the changes made in step 2."
+}

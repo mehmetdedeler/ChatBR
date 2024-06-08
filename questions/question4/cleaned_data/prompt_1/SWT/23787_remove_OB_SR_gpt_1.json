@@ -1,0 +1,8 @@
+{
+  "id": "23787",
+  "title": "Bug 23787[Properties dialog] Project Properties Info page should not use text fields",
+  "description": "Bug 23787[Properties dialog] Project Properties Info page should not use text fields Integration build 09/17. Looks bad on all motif platforms.",
+  "OB": "The Project Properties Info page currently uses text fields, which results in a visually unappealing display on motif platforms.",
+  "EB": "Change the Project Properties Info page to use readonly Labels instead of text fields. This adjustment will enhance the visual presentation and maintain a consistent appearance on all motif platforms.",
+  "SR": "Update the code responsible for rendering the Project Properties Info page to replace text fields with readonly Labels. Ensure that this modification does not affect the functionality and allows users to select and copy the values as needed."
+}

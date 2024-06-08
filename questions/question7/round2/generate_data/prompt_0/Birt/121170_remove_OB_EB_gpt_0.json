@@ -1,0 +1,1 @@
+{"id": "121170", "title": "Bug 121170 - 'getColumnLabel' should return user recognizable strings", "description": "", "OB": "", "EB": "", "SR": "Calling 'IMetaData.getColumnLabel()' before/after data extraction yields different results."}

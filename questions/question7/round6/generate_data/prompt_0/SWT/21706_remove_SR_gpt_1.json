@@ -1,0 +1,8 @@
+{
+  "id": "21706",
+  "title": "Bug 21706 - BidiUtil in win32 has Class.forName() usage",
+  "description": "The bug report describes an issue with the usage of Class.forName() in the BidiUtil class in win32. The problem is that the method throws a NoClassDefFoundError, which is not defined in the CLDC class libraries, causing issues in the CLDC version of SWT. The reporter suggests removing the reflection usage by adding a private constructor to the class.",
+  "OB": "The BidiUtil class in win32 uses Class.forName() to create a Callback object, which can throw a NoClassDefFoundError in the CLDC version of SWT.",
+  "EB": "To resolve this issue, I suggest adding a private constructor to the BidiUtil class. Since there are no nonstatic methods in the class, this change would prevent unnecessary instantiation of the class and improve code clarity. Additionally, adding a private constructor does not increase the size of the compiled code.",
+  "SR": "1. Add a private constructor to the BidiUtil class.\n2. Ensure that the private constructor is properly implemented to prevent unnecessary instantiation of the class."
+}

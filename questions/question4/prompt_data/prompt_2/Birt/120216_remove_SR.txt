@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '120216', 'title': 'Bug 120216Group dialog should be showed even dataset is not set.', 'description': '', 'OB': 'An error is shownExpected behavior As part of the template requirements, we dont want UI to do the validation. ', 'EB': 'Bug 120216Group dialog should be showed even dataset is not set.Add a table report item do not set the data set try creating a new table group. User should be able to go and define a group, even if the dataset is not defined. ', 'SR': ''}
+</BUG REPORT>

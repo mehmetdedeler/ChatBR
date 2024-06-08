@@ -1,0 +1,8 @@
+{
+  "id": "120216",
+  "title": "Bug 120216 - Group dialog not displayed when dataset is not set",
+  "description": "The group dialog is not being shown when attempting to define a group in a table report item without setting the dataset.",
+  "OB": "When creating a new table group without setting the dataset, an error is displayed instead of showing the expected group dialog.",
+  "EB": "The expected behavior is that the group dialog should be displayed even when the dataset is not defined. Users should be able to define a group without the necessity of setting the dataset.",
+  "SR": "1. Add a table report item to the template.\n2. Do not set the dataset for the table.\n3. Try creating a new table group.\n4. Observe that the group dialog is not displayed, which is the observed behavior.\n5. The expected behavior is for the group dialog to be shown, allowing the user to define a group even when the dataset is not defined."
+}

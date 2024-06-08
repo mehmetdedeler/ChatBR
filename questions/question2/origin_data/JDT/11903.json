@@ -1,0 +1,1 @@
+{"bug_id": "11903", "title": "Bug 11903'add javadoc comment' adds nonjava doc comments", "description": "1. (default codegeneration preference settings)2. select the method and 'add javadoc comment'package p;class A{public String toString() {return super.toString();}}it adds/  @see ObjecttoString() /which is not a javadoc comment"}

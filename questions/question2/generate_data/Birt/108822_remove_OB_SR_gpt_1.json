@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "Improvement needed in processing disk sorting with border values for row data",
+  "description": "The current process for disk sorting encounters issues when dealing with border values for row data. It needs an improved logic to handle this situation efficiently.",
+  "OB": "The existing disk sorting logic encounters problems when dealing with border values for row data.",
+  "EB": "An improved logic should be implemented to process disk sorting when border values are involved for row data. This improved logic should involve sorting the data directly in memory and then writing it to the file.",
+  "SR": "To reproduce the issue:\n1. Prepare a dataset with row data containing border values.\n2. Initiate the disk sorting process with this dataset.\n3. Observe the problems encountered during sorting."
+}

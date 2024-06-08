@@ -1,0 +1,8 @@
+{
+  "id": "41039",
+  "title": "Bug 41039 - Enter/Return Key Issue in Find/Replace Dialog on Mac OS X",
+  "description": "The bug report highlights an issue where using the Enter/Return key in the Find/Replace dialog on Mac OS X does not produce the expected behavior.",
+  "OB": "When operating Eclipse 3.0 M2 with Build ID 200307181617 on Mac OS X 10.2.6, the observed behavior is as follows:\n- Launch the Find/Replace dialog (Edit -> Find/Replace).\n- Input a search term into the text box.\n- Pressing the Return key does not trigger any action. It fails to execute a 'Find' operation, which is the anticipated behavior. The 'Find' button within the dialog is highlighted as the default action but remains unresponsive when the Return key is pressed.",
+  "EB": "The expected behavior is that, while using Eclipse 3.0 M2 on Mac OS X, pressing the Enter/Return key within the Find/Replace dialog should perform a 'Find' operation, akin to clicking the 'Find' button, which is highlighted as the default action in the dialog.",
+  "SR": "To replicate this issue, please follow these steps:\n1. Employ Eclipse 3.0 M2 with Build ID 200307181617 on Mac OS X 10.2.6.\n2. Open the Find/Replace dialog (Edit -> Find/Replace).\n3. Enter a search term into the text box.\n4. Press the Return key.\n\nExpected Result: Pressing the Return key should initiate a 'Find' operation.\n\nActual Result: No action is taken when the Return key is pressed."
+}

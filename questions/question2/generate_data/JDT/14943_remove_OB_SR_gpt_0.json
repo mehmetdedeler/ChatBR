@@ -1,0 +1,8 @@
+{
+  "id": "14943",
+  "title": "Bug 14943: Code Assist does not respect platform line ends",
+  "description": "When using Code Assist, it doesn't respect the platform-specific line endings.",
+  "OB": "When using Code Assist on a file with platform-specific line endings, it does not automatically adjust the line endings to match the platform. Instead, it retains the original line endings, causing inconsistency and formatting issues.",
+  "EB": "Code Assist should automatically adjust the line endings to match the platform's standard line endings (CR/LF or LF) when inserting or modifying code snippets. This ensures consistency and proper formatting across different platforms.",
+  "SR": "To reproduce the issue:\n1. Create a new file with Windows-style line endings (CR/LF).\n2. Open the file using the Code Assist feature.\n3. Try to insert a code snippet that contains line breaks.\n4. Observe that the Code Assist does not adjust the line endings to match the platform's standard."
+}

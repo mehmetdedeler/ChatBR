@@ -1,0 +1,8 @@
+{
+  "id": "116564",
+  "title": "Bug 116564 - The title of hyperlink builder should be 'Hyperlink Options'; it changes with settings.",
+  "description": "",
+  "OB": "Upon reopening the hyperlink builder after clicking 'OK', the title changes to 'www.actuate.com'.",
+  "EB": "The title of the hyperlink builder should remain consistent as 'Hyperlink Options' regardless of settings changes.",
+  "SR": "1. Open the hyperlink builder.\n2. Click 'OK'.\n3. Reopen the hyperlink builder."
+}

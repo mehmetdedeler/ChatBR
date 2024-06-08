@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '19933', 'title': 'Bug 19933Emacs: keybinding service always clears status line', 'description': 'Bug 19933Emacs: keybinding service always clears status line However, the action could havewritten to the status line.We currently do not have the API necessary to get the message in the statusline, so it is not possible to solve the problem in general. The problem can besolved for some cases by not clearing the status line when running in thedefault mode. ', 'OB': 'Build 20020611When running in with Emacs keybindings, any action that writes to the statusline will have the status line message cleared by AcceleratorScope.resetMode.When a mode is entered, the keysequence that started the mode is written to thestatus line. ', 'EB': 'AcceleratorScope.resetMode is intended to cleanup the status lineonce the appropriate action has been run. ', 'SR': ''}
+</BUG REPORT>

@@ -1,0 +1,8 @@
+{
+  "id": "9619",
+  "title": "Bug 9619 - Issues with Moving Static Member: Dialog Details",
+  "description": "The user reported several issues related to the 'Move Static Member' dialog.",
+  "OB": "The observed behavior includes several issues: a small 'Browse' button, the title displaying 'Type not found,' and the dialog offering types from a CU in a different project.",
+  "EB": "The expected behavior. The user anticipates that the 'Browse' button should have an appropriate size, the title should display relevant information, and the dialog should only offer types from the source folders of the own project.",
+  "SR": "To reproduce these issues, follow these steps:\n1. Open the 'Move Static Member' dialog.\n2. Observe the small 'Browse' button.\n3. Proceed to the next page in the dialog and note the title displaying 'Type not found.'\n4. When using the 'Browse' feature, you may encounter types from a compilation unit (CU) in a different project."
+}

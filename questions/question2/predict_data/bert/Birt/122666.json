@@ -1,0 +1,1 @@
+{"id": "122666", "title": "Bug 122666Performance enhancement for RandomAccessFile", "description": " Bug 122666Performance enhancement for RandomAccessFile", "OB": " The readInt method for RandomAccessFile makes 4 calls to system, and the calls are not buffered.", "EB": "", "SR": ""}

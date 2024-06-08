@@ -1,0 +1,5 @@
+{"id": "6536", "title": "Bug 6536: Unable to add Javadoc on field in TH",
+"description": "When attempting to add Javadoc on a field in the Type Hierarchy view, the action does not add the Javadoc as expected. Selecting 'Add Javadoc' from the context menu results in no action. The expected behavior is for the action to add the Javadoc on the selected field.",
+"OB": "When selecting 'Add Javadoc' from the context menu in the Type Hierarchy view, no action is taken.",
+"EB": "The action to add Javadoc on a field in the Type Hierarchy view should successfully add the corresponding Javadoc.",
+"SR": "To reproduce this issue, select a field in the Type Hierarchy view and attempt to add Javadoc using the 'Add Javadoc' option from the context menu."}

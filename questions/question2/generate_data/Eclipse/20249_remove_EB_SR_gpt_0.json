@@ -1,0 +1,8 @@
+{
+  "id": "20249",
+  "title": "Bug 20249 [Help] Change editor/view/perspective F1 help",
+  "description": "When trying to access F1 help in the change editor menu, the help window closes immediately, preventing the user from reading its contents.",
+  "OB": "When the change editor menu is open, pressing F1 should display relevant help. However, the help window closes immediately, preventing the user from reading its contents.",
+  "EB": "When the change editor menu is open, pressing F1 should display relevant help, and the help window should stay open for the user to read.",
+  "SR": "1. Open the change editor menu.\n2. Press the F1 key."
+}

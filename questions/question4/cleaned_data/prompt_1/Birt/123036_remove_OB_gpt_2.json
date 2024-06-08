@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Bug 123036: Data in a report is doubly stored",
+  "description": "The bug report lacks sufficient details regarding the observed behavior, expected behavior, and steps to reproduce. Based on the context, I will supplement and improve the wording for clarity.",
+  "OB": "When viewing a report, duplicate instances of data are visible, indicating that the content stream is storing the data twice.",
+  "EB": "The expected behavior is that the data should be stored only once by the content stream.",
+  "SR": "Steps to reproduce the issue:\n1. Generate or open a report.\n2. Observe the data displayed in the content stream.\n3. Note the presence of duplicate instances of the data.\n4. Additionally, check if the data is being stored again by the DtE process."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "129569",
+  "title": "Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window",
+  "description": "Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window. This is a BiDI-specific defect. Follow the steps below to reproduce the issue:\n1. Create a DB2 database.\n2. Create a user with a Latin name (e.g., user).\n3. Create a table under this user with a mixed Latin and BiDI name (e.g., table).\n4. Create a Data Source based on the DB from step 1.\n5. Create a Data Set based on the table from step 3.\n6. Add a column name from step 4 to the select portion of the SQL query.\n7. Add a table name from step 3 to the from portion of the SQL query.",
+  "OB": "Similar to another defect where a similar problem is reported for the Expression Builder dialog, this defect addresses the issue in the context of the Query screen in the Edit Data Set dialog. Capital characters used in the examples below represent BiDi (Hebrew or Arabic) characters. In the 1st and 3rd rows, the order of characters is disrupted, making it impossible to read the query. In the 1st row, the column name and part of the table name are switched. In the 3rd row, part of the constant, table name, and column name are mixed.",
+  "EB": "The Expected Behavior section is currently empty and needs to be filled with the expected behavior after the bug is fixed.",
+  "SR": "Additional steps to reproduce the bug:\n8. Add a column name from step 4 to the select portion of the SQL query.\n9. Add a table name from step 3 to the from portion of the SQL query."
+}

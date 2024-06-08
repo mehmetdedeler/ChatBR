@@ -1,0 +1,8 @@
+{
+  "id": "132103",
+  "title": "Bug 132103 - No objects under Context in palette when scripting a data set",
+  "description": "When scripting a data set, the Context palette does not display any objects.",
+  "OB": "No objects are visible under the 'Context' section in the palette while scripting a data set.",
+  "EB": "Expected behavior is that relevant objects under the 'Context' section should be displayed in the palette when scripting a data set.",
+  "SR": "1. Open the scripting interface for a data set.\n2. Navigate to the 'Context' section in the palette.\n3. Observe that no objects are displayed."
+}

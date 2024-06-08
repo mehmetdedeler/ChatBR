@@ -1,0 +1,8 @@
+{
+  "id": "13189",
+  "title": "Bug 13189: Context Menu Override by Message Dialog During Field Deletion Refactoring",
+  "description": "On LinuxMotif and w2k, while setting up JUnit2.",
+  "OB": "Upon attempting to delete fields during refactoring, the expected context menu does not appear. Instead, an immediate prompt asks whether I want to delete the getter/setter alongside.",
+  "EB": "Upon enabling the option 'Code Generator - Remove prefix from field names', the expected behavior should be a context menu displaying deletion options without an immediate prompt to delete getter/setter.",
+  "SR": "1. Setup JUnit2.\n2. Enable the option 'Code Generator - Remove prefix from field names'.\n3. Open TestCase.java.\n4. In the outliner, right-click on 'fName'.\n5. The expected behavior is to see the context menu for deletion options without an immediate prompt."
+}

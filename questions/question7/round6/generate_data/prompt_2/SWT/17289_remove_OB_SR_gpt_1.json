@@ -1,0 +1,8 @@
+{
+  "id": "17289",
+  "title": "Bug 17289: Inability to Focus on Combo by Clicking (Photon)",
+  "description": "Clicking on the first Combo does not focus on it.",
+  "OB": "Clicking on the first Combo does not trigger focus.",
+  "EB": "Upon clicking the first Combo, the focus caret should be placed in the field labeled 'Host:'.",
+  "SR": "1. Open the interface containing the Combo elements.\n2. Attempt to click on the first Combo labeled 'Host:'.\n3. Observe that the focus is not directed to the 'Host:' field."
+}

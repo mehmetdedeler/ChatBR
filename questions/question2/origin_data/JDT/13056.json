@@ -1,0 +1,1 @@
+{"bug_id": "13056", "title": "Bug 13056can't delete 2 identical methods", "description": "class Ad {void f(){};void f(){};}you can't delete the 2 f methods (together)it works if you delete them separately"}

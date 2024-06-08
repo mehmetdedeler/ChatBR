@@ -1,0 +1,8 @@
+{
+  "id": "32770",
+  "title": "Bug 32770: Java application launch shortcut error lacks guidance for users",
+  "description": "When attempting to launch a Java application, the error message provided does not assist users effectively. Additionally, enhancing the error message quality is necessary.",
+  "OB": "Upon attempting to launch a Java application, the error message is uninformative and doesn't guide the user on resolving the issue.",
+  "EB": "The error message should offer guidance on resolving the issue. For instance, it could say something like: 'Launch failed: No file with a main type selected.' This message would prompt users to select a resource, clarifying the action needed to resolve the problem.",
+  "SR": "1. Open a Java file containing a main method.\n2. Select a non-resource-based view, such as the Debug view.\n3. Click on 'Debug As' -> 'Java Application'.\n4. Observe the error message lacking specific guidance on selecting a file with a main type."
+}

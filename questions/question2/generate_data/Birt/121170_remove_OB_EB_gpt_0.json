@@ -1,0 +1,8 @@
+{
+  "id": "121170",
+  "title": "Bug 121170: Inconsistent Column Labels from IMetaData.getColumnLabel()",
+  "description": "When retrieving column labels from the metadata object, the function should return easily recognizable strings for users.",
+  "OB": "The current behavior of IMetaData.getColumnLabel() is inconsistent when called before or after data extraction. When called before data extraction, it returns cryptic labels that are not user-friendly, making it difficult for users to understand the data. After data extraction, it returns labels that are more user-recognizable and descriptive.",
+  "EB": "The expected behavior is that IMetaData.getColumnLabel() should consistently return user-recognizable and descriptive column labels, whether called before or after data extraction. Users should be able to understand and interpret the column labels easily.",
+  "SR": "To reproduce the issue:\n1. Create a metadata object using IMetaData.\n2. Call IMetaData.getColumnLabel() before data extraction.\n3. Note the labels returned.\n4. Perform data extraction.\n5. Call IMetaData.getColumnLabel() again after data extraction.\n6. Compare the labels before and after data extraction to observe the inconsistency."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "35156",
+  "title": "Bug 35156 - Ctrl+F1 works only on some fields in the help search",
+  "description": "When using the Ctrl+F1 keyboard shortcut in the help search feature, it seems to work inconsistently, not providing information for all fields or components. This behavior is unexpected and needs to be addressed.",
+  "OB": "When I press Ctrl+F1 in the help search, it provides information for some fields or components, but not for all. It appears to be working selectively.",
+  "EB": "I expect Ctrl+F1 to work consistently in the help search and provide information for all fields and components. It should not be selective in its behavior.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the software and access the help search feature.\n2. Use the keyboard shortcut Ctrl+F1 in the help search.\n3. Observe that it does not consistently provide information for all fields or components."
+}

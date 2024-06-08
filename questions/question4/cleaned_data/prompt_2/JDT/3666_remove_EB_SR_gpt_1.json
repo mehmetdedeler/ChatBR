@@ -1,0 +1,8 @@
+{
+  "id": "3666",
+  "title": "Bug 3666: Code Completion Causes Excessive Code Modification",
+  "description": "Code completion in certain cases leads to excessive modification of code, especially observed when adding a parameter to a method call.",
+  "OB": "Upon using code completion, the code is modified excessively. For instance, when attempting to add a parameter to the 'baz' call within the 'bar' method, the code assist provides a result that extends beyond the expected modification.",
+  "EB": "Code completion should assist in adding a parameter to a method call without altering the surrounding code unexpectedly. For instance, adding a parameter to the 'baz' call within the 'bar' method should result in a modified code that correctly reflects the addition without expanding other segments of code.",
+  "SR": "Steps to reproduce:\n1. Open the provided class 'X'.\n2. Navigate to the 'bar' method within 'X'.\n3. Attempt to add a parameter to the 'baz' call within the 'bar' method using code completion."
+}

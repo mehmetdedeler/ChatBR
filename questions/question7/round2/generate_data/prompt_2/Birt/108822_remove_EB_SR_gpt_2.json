@@ -1,0 +1,1 @@
+{"id": "108822", "title": "More efficient logic is needed to handle disk sorting when there are boundary values for row values", "description": "", "OB": "When sorting data on disk, if the sorting is applied to 40000 rows and the program is configured to process only less than 40000 rows, the following operation is performed by DtE:", "EB": "", "SR": ""}

@@ -1,0 +1,1 @@
+{"bug_id": "47569", "title": "Bug 47569Test cases do not clear up afterwards", "description": "Some of the test cases (e.g. TestTomcat) start a Tomcat server,This creates the directory treetomcat.8080/work...which is not deleted when the test finishes."}

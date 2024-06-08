@@ -1,0 +1,8 @@
+{
+  "id": "123727",
+  "title": "Bug 123727 - 'Top N' and 'Bottom N' not functioning",
+  "description": "",
+  "OB": "The 'Top N' and 'Bottom N' features are not working as expected. When I attempt to use them, they do not produce the intended results.",
+  "EB": "The expected behavior is that the 'Top N' and 'Bottom N' features should provide a list of the top and bottom items or entries based on the specified criteria. For example, if I select 'Top N' and specify '5', I should see a list of the top 5 items. Similarly, if I select 'Bottom N' and specify '3', I should see a list of the bottom 3 items.",
+  "SR": "Steps to reproduce: \n1. Open the application. \n2. Navigate to the 'Top N' or 'Bottom N' feature, whichever you prefer to test. \n3. Enter the desired criteria or number of items you want to see (e.g., 'Top N' with '5' or 'Bottom N' with '3'). \n4. Click the 'Apply' or 'Generate' button to execute the operation. \n5. Observe that the feature does not produce the correct list of items according to the specified criteria."
+}

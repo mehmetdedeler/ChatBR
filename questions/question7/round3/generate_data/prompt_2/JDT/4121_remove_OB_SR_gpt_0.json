@@ -1,0 +1,1 @@
+{"id": "4121", "title": "Bug 4121: JarExporter causes out of sync", "description": "The JarExporter is causing an out of sync issue.", "OB": "The exported jar file includes itself.", "EB": "The exported jar file should not include itself.", "SR": "1. Run the JarExporter tool. 2. Check the exported jar file to confirm that it does not include itself."}

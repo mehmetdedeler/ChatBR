@@ -1,0 +1,1 @@
+{"bug_id": "3793", "title": "Bug 3793Wrong formating when creating inner class using wizard (1GEUE91)", "description": " select TestCase create a new class using TestCase as an eclosing typeobserve: new type is added at the end. Quasi standard is having the new type at the beginning. new type doesn't have indention.NOTES:GDA (6/5/01 11:08:09 AM)defer"}

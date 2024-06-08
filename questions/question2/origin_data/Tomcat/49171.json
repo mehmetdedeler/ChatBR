@@ -1,0 +1,1 @@
+{"bug_id": "49171", "title": "Bug 49171Avoid raw type warning in TagSupport", "description": "Created attachment 25334 [details]Simple fix to suppress rawtype warning (does not affect API!)"}

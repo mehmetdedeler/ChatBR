@@ -1,0 +1,1 @@
+{"bug_id": "5361", "title": "Bug 5361No error tick on imports in Packages view", "description": "Add an import that causes an error (e.g. dani.is.bad) and save.== The Outline view shows the error ticks on the imports but the package viewdoesn't"}

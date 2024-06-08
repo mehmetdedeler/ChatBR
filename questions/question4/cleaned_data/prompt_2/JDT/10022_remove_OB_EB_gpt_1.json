@@ -1,0 +1,8 @@
+{
+  "id": "10022",
+  "title": "Incorrect 'Build' Popup Action Enablement",
+  "description": "The 'Build' popup action in the context-sensitive menu in the Java perspective is incorrectly enabled at all times.",
+  "OB": "The 'Build' action in the context-sensitive popup menu is always enabled, regardless of the project or file status.",
+  "EB": "The 'Build' action in the context-sensitive popup menu should only be enabled when there are valid build targets available, and it should be disabled when there are no applicable build targets or when the project is in an invalid state for building.",
+  "SR": "1. Open the Java perspective.\n2. Create a new project or open an existing one.\n3. Right-click to open the context-sensitive popup menu.\n4. Observe that the 'Build' action is always enabled, regardless of the project or file status."
+}

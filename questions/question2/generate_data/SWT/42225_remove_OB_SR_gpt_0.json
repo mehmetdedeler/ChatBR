@@ -1,0 +1,8 @@
+{
+  "id": "42225",
+  "title": "Bug 42225 - Issue with Ctrl+Backspace Key Assignment",
+  "description": "This bug report addresses difficulties in assigning a command to the Ctrl+Backspace key combination.",
+  "OB": "The observed behavior is missing from the report.",
+  "EB": "The expected behavior is that, out of the box, Ctrl+Backspace should delete the previous word without any misinterpretation.",
+  "SR": "The steps to reproduce are missing from the report. To better understand and address this issue, please provide detailed steps to reproduce the problem."
+}

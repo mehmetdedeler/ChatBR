@@ -1,0 +1,1 @@
+{"id": "16995", "title": "Bug 16995HoverHelp example does not create ONTOP Shell for tooltips", "description": "", "OB": " Bug 16995HoverHelp example does not create ONTOP Shell for tooltips The shell created to show the tooltip does not have the ONTOP style. Itcauses the main window to loose focus when the tooltip is shown.", "EB": "", "SR": ""}

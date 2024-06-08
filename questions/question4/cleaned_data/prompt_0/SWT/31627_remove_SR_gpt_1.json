@@ -1,0 +1,8 @@
+{
+  "id": "31627",
+  "title": "Bug 31627 - DBCS: Perspective change caused core dump after adding DBCS project to the workspace",
+  "description": "Language: Japanese\nBuild driver: eclipseSDKI20030211linuxgtk\nOS: RedHat8 (Japanese: locale jaJP.eucJP), gtk 2.2\nJDK Ver. : IBM JDK1.3.1 + SR3\nSummary: DBCS: Perspective change caused core dump after adding DBCS project to the workspace\nDescription: Steps to recreate problem:\n1. ",
+  "OB": "After adding a DBCS project to the workspace, attempting to change the perspective by clicking the 'Resource Perspective' icon at the shortcut bar results in a workbench core dump.",
+  "EB": "When clicking the 'Resource Perspective' icon at the shortcut bar after adding a DBCS project, the perspective change should occur successfully without any workbench core dump.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Add a DBCS project to the workspace.\n2. Click the 'Resource Perspective' icon at the shortcut bar."
+}

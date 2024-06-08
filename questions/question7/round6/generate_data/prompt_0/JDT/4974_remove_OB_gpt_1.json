@@ -1,0 +1,8 @@
+{
+  "id": "4974",
+  "title": "Bug 4974 - Set classpath / output location should be one operation",
+  "description": "The current bug report lacks information in the OB section. Based on the context, we need to provide clear and informative statements for the observed behavior, expected behavior, and steps to reproduce.",
+  "OB": "Currently, the observed behavior section is empty, and there is no information provided about the specific issue or problem encountered while setting the classpath and output location.",
+  "EB": "For this bug report, the expected behavior is that setting the classpath and output location should be offered as a single, combined operation. Additionally, the error message related to this operation should be improved to provide a more meaningful and clear message, such as: '/xy/src' cannot be nested in '/xy'.",
+  "SR": "To reproduce the issue, follow these steps: \n1. Create a new project with 'src' as the source folder and 'bin' as the output location. \n2. In the project properties, change the settings to use the project as both the source folder and the output location."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "109699", "title": "Bug 109699Eclipse hangs up when resizing chart preview window to minimum.", "description": "Description: Eclipse hangs up when resizing chart preview window to minimum.Steps to reproduce:1.Create a chart.2. In chart dialog, click on \"preview\" button.3. Resize preview window to minimum.Actual result: Eclipse hangs up."}

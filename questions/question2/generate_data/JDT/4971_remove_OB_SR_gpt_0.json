@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Bug 4971 - Unexpected Outcome in 'Copy Package'",
+  "description": "This bug report addresses an issue with the 'copy package' operation in version 2031. The problem is located within the 'org.eclipse.jdt.internal.ui' component of 'jdt.ui'.",
+  "OB": "The report lacks a clear description of the observed behavior, which is essential for a complete bug report.",
+  "EB": "The expected behavior should involve the 'org.eclipse.jdt.internal.ui' component, but the report does not provide details to clarify this.",
+  "SR": "The steps to reproduce are missing from the report and should be provided for a complete bug report."
+}

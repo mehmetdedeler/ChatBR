@@ -1,0 +1,8 @@
+{
+  "id": "32770",
+  "title": "Improving Error Messaging and Resource Selection in Java Application Launch Shortcut",
+  "description": "The current error message on the Java application launch shortcut doesn't provide adequate guidance to users. Additionally, enhancing the quality of the error message is necessary.",
+  "OB": "When attempting to launch the Java application, a dialog displaying 'Launch failed: no main type found' appears. There's a need to enhance resource selection similar to how external tools track selection for variable expansion. It might be beneficial to merge these mechanisms into a unified approach.",
+  "EB": "The error message upon Java application launch should be more descriptive and instructive, offering guidance on potential causes or troubleshooting steps. Enhancing resource selection should streamline the process and provide more intuitive functionality, aligning it with external tools' selection tracking for variable expansion.",
+  "SR": "1. Attempt to launch the Java application from the shortcut.\n2. Observe the 'Launch failed: no main type found' error dialog.\n3. Notice the lack of detailed information or guidance in the error message.\n4. Compare resource selection behavior with external tools' selection tracking for variable expansion.\n5. Consider merging these resource selection mechanisms into a unified approach."
+}

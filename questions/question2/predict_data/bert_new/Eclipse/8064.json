@@ -1,0 +1,1 @@
+{"id": "8064", "title": "Bug 8064working set: can enter allspaces names", "description": "Bug 8064working set: can enter allspaces names ", "OB": "", "EB": "i think working set names that consist of only spaces should be disallowed.also, names should be trimmedotherwise you can havea set named 'a' and another one named 'a ' ", "SR": ""}

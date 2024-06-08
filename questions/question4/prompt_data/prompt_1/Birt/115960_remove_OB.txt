@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '115960', 'title': 'Bug 115960Datetime values retrieved from table show different format in dynamic text item and data/text item', 'description': '', 'OB': '', 'EB': 'Input new Date() as content for three items.3Save and preview.Expected result:They show the same form.Actual result:Data and text item were the same but dyanmic text was different. ', 'SR': 'Insert a text, data, dynamic text item2. '}
+</BUG REPORT>

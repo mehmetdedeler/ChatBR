@@ -1,0 +1,1 @@
+{"id": "103963", "title": "Bug 103963: Missing friendly error message when no data is available for a series", "description": "", "OB": "", "EB": "If there is no data available for a series, a friendly error message should be displayed to remind the user.", "SR": "To reproduce the issue: \n1. Perform an action that would result in the absence of data for a series."}

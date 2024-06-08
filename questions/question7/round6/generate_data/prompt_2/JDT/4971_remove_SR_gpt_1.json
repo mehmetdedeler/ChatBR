@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Bug 4971: Unexpected Behavior in 'Copy Package'",
+  "description": "When attempting to copy package 'org.eclipse.jdt.internal.ui' in jdt.ui, selecting 'xxx' as the destination.",
+  "OB": "The resulting copied package is named 'ui'.",
+  "EB": "The copied package should retain its original name 'org.eclipse.jdt.internal.ui'.",
+  "SR": "Steps to Reproduce:\n1. Open jdt.ui\n2. Navigate to package 'org.eclipse.jdt.internal.ui'\n3. Select 'Copy Package'\n4. Choose 'xxx' as the destination\n5. Confirm the copy process"
+}

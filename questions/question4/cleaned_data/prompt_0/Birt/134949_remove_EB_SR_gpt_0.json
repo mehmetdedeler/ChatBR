@@ -1,0 +1,8 @@
+{
+                    "id": "134949",
+                    "title": "Bug 134949 - Themes nest in other library",
+                    "description": "Bug 134949 - Themes nest in other library\n\nDetails: Themes nest in other library\n\nStep: 1.",
+                    "OB": "When I open the Library tree of library A in the library explorer and attempt to drag and drop themes from library B into the layout, I encounter an issue. The actual result is that it pops up an error message, indicating that the library namespace 'B' already exists.",
+                    "EB": "I expect that I should be able to add themes from library B to the layout of library A without encountering any errors or conflicts. The system should handle the nesting of themes appropriately.",
+                    "SR": "To reproduce the issue:\n1. Open the Library tree of library A in the library explorer.\n2. Attempt to drag and drop themes from library B into the layout of library A."
+                }

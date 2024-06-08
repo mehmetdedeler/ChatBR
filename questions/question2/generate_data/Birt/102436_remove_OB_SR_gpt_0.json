@@ -1,0 +1,8 @@
+{
+  "id": "102436",
+  "title": "Bug 102436 - Date/time value not stored correctly in report design",
+  "description": "An invalid date/time string (which does not conform to a universal format or the system default locale format) should have been rejected.",
+  "OB": "Invalid date/time values are being accepted and stored in the report design, which can lead to incorrect data representation.",
+  "EB": "The software should reject invalid date/time strings and display an error message to the user, preventing the storage of inaccurate date/time information in the report design.",
+  "SR": "To reproduce the issue:\n1. Open the report design interface.\n2. Input an invalid date/time string that does not conform to a universal format or the system default locale format.\n3. Attempt to save the report with the invalid date/time value."
+}

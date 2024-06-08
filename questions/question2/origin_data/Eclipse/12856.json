@@ -1,0 +1,1 @@
+{"bug_id": "12856", "title": "Bug 12856Missing common interface ISite", "description": "Build 20020402Currently thr workbench provides the sides IPageSite, IWorkbenchPartSite.Although they have common methods they miss a common interface. This makeswriting actions that work in the outline and a normal view hard. Pleaseintroduce a common interface."}

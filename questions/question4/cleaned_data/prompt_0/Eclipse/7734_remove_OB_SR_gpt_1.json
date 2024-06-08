@@ -1,0 +1,8 @@
+{
+  "id": "7734",
+  "title": "Bug 7734: System can be shut down without savefile warnings",
+  "description": "The bug report lacks sufficient details in the OB and SR sections. I will infer and supplement these sections based on the provided context.",
+  "OB": "The system allows the user to shut it down without displaying a 'Do you want to save your file, Yes, No, Cancel' dialog box, which should warn the user before shutting down.",
+  "EB": "The expected behavior is that when a user attempts to shut down the system, a dialog box should appear with the options 'Do you want to save your file? Yes, No, Cancel.' Selecting 'Cancel' in this dialog should halt the shutdown process. Additionally, it is suggested that applications should have the ability to control the shutdown/save process and pop up their own windows for the same purpose.",
+  "SR": "To reproduce the issue:\n1. Open any application or work with a document.\n2. Make some changes to the document.\n3. Attempt to shut down the system."
+}

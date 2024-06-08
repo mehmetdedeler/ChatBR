@@ -1,0 +1,8 @@
+{
+  "id": "134949",
+  "title": "Bug 134949 - Themes nesting in another library",
+  "description": "Bug 134949 - Themes nest in other library\nDetails: Themes nest in other library\nStep: 1.",
+  "OB": "When I open the Library tree of A in the library explorer and drop the themes from B into the layout, it results in an error message stating that the library namespace 'B' already exists.",
+  "EB": "The expected behavior is that dropping themes from Library B into the layout of Library A should not trigger an error related to existing library namespaces. The operation should be allowed without any issues.",
+  "SR": "Steps to Reproduce:\n1. Ensure Library A is using Library B, and Library B has a theme.\n2. Design a report using Library A.\n3. Open the Library tree of A in the library explorer.\n4. Drop the themes from Library B into the layout.\n\nActual result: An error message pops up, indicating that the library namespace 'B' already exists.\n\nException result: It is unclear whether I can proceed with this method due to the error."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "3616", "title": "Bug 3616No icon for method parameters in code assist list (1GD014D)", "description": "Trigger code assist in a method with parameters so that a parameter nameshows in the list.Note that the parameter name has no icon.NOTES:"}

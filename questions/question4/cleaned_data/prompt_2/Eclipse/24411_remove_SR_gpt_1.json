@@ -1,0 +1,8 @@
+{
+  "id": "24411",
+  "title": "Bug 24411 - Mouse Click on Link Does Not Select Link in Welcome Page",
+  "description": "Mouse click on a link in the welcome page should select the link.",
+  "OB": "After restarting with build 20021001, ensure you get a welcome page (by removing the welcome...line in prefstore.ini of the workbench metadata). Click on any link in the welcome page. The appropriate action is executed, but the clicked link is not selected when you return to the welcome page.",
+  "EB": "After restarting with build 20021001, ensure you get a welcome page (by removing the welcome...line in prefstore.ini of the workbench metadata). Clicking on any link in the welcome page should execute the appropriate action, and the clicked link should be selected when you return to the welcome page.",
+  "SR": "1. Restart the application with build 20021001.\n2. Ensure you have a welcome page (remove the welcome...line in prefstore.ini of the workbench metadata if needed).\n3. Click on any link in the welcome page.\n4. Observe that the appropriate action is executed.\n5. Return to the welcome page.\n6. Observe that the clicked link is not selected. It should be selected to provide more context to the user when returning to the welcome page."
+}

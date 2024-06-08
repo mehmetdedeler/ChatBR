@@ -1,0 +1,8 @@
+{
+  "id": "9039",
+  "title": "New Project Wizard Doesn't Remember Last Location",
+  "description": "In the New Project Wizard, when I deselect 'Use default' and manually enter a location like '/test', and then reselect 'Use default' (even if I accidentally click the checkbox label), the 'Directory' field becomes empty. I believe Eclipse should remember the last location, at least while the dialog is shown.",
+  "OB": "When deselecting 'Use default' and manually entering a location like '/test' and then reselecting 'Use default' (even if clicking the checkbox label), the 'Directory' field becomes empty.",
+  "EB": "I expect that Eclipse should remember the last entered location in the 'Directory' field, at least while the New Project Wizard dialog is still open.",
+  "SR": "1. Open the New Project Wizard.\n2. Deselect 'Use default'.\n3. Manually enter a location, for example, '/test'.\n4. Reselect 'Use default' (even if you accidentally click the checkbox label).\n5. Deselect 'Use default' again.\n6. Observe that the 'Directory' field is empty. It should have retained the last entered location."
+}

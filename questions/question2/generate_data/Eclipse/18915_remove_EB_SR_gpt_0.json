@@ -1,0 +1,8 @@
+{
+  "id": "18915",
+  "title": "Switching Between Erroneous Preferences Pages Generates Warning Instead of Error",
+  "description": "When entering invalid data on any preference page, and the system indicates an issue in the UI, attempting to switch to another page without correcting the problem triggers a warning dialog. This report suggests that this warning dialog should be an 'error' dialog, as leaving the page without addressing the mistake is not allowed.",
+  "OB": "Upon entering invalid data on a preference page, if an issue is flagged in the UI and an attempt is made to switch to another page without correcting the problem, a warning dialog is displayed with the message: 'The currently displayed page contains invalid values.'",
+  "EB": "The expected behavior is that when attempting to switch to another preference page with invalid data, the system should show an 'error' dialog instead of a warning. The error dialog should clearly indicate that the user cannot proceed to another page without first fixing the issue.",
+  "SR": "To reproduce the issue:\n1. Go to any preference page.\n2. Enter invalid data that triggers a UI warning.\n3. Attempt to switch to another preference page without correcting the invalid data.\n4. Observe that a warning dialog appears when it should display an error dialog."
+}

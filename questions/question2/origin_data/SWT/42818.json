@@ -1,0 +1,1 @@
+{"bug_id": "42818", "title": "Bug 42818DirectoryDialog does not show its set message", "description": "The native selection dialog does not have a label for displaying text.It'seasy to add one though, so we should consider doing so in order to appearconsistent with other platforms."}

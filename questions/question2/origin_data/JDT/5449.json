@@ -1,0 +1,1 @@
+{"bug_id": "5449", "title": "Bug 5449TVT Text Expansion/Truncations in new java class dialog", "description": "Screen slightly truncated on the right edge and the shortcut keys on thebuttons are duplicated.Ref TVT case 17.17http://jumpstart.raleigh.ibm.com/jumpstart/TVTDOCS/eclipsewbtvt.htmToc527954903"}

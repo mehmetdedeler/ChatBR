@@ -1,0 +1,8 @@
+{
+  "id": "7581",
+  "title": "Bug 7581 - ComboBoxCellEditor does not size correctly in property sheet",
+  "description": "From ECJoe Winchester <JoeWin@us.ibm.com wrote in messagenews:3C407F76.31A82113@us.ibm.com...",
+  "OB": "When using the PropertySheetViewer to edit objects with a set of rows that are name-value pairs in two columns, where each column is defined by an IPropertyDescriptor, and ComboBoxCellEditor is used to create editors that include strings, the editor appears in column two of the property sheet. If any of the strings is wider than the width of the property sheet column, the combo box grows to be the width of the largest item. The problem is that the drop-down button may now be too far to the right and off the visible area of the property sheet, causing it to be clipped. As a result, users can no longer see the combo drop-down button without making the property sheet view wider until the button comes into the visible area.",
+  "EB": "The ComboBoxCellEditor should size itself correctly within the property sheet column and ensure that the drop-down button is always fully visible, even when the strings in the combo box are wider than the column's width.",
+  "SR": "To reproduce the issue:\n1. Open the PropertySheetViewer.\n2. Edit an object with name-value pairs displayed in two columns.\n3. Use a ComboBoxCellEditor to create an editor for a cell in the second column.\n4. Make sure at least one of the strings in the combo box is wider than the width of the property sheet column.\n5. Observe that the combo box resizes to accommodate the widest string, and the drop-down button may be clipped off the visible area of the property sheet."
+}

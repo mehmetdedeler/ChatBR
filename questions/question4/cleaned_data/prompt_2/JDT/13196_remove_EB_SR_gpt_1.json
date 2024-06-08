@@ -1,0 +1,8 @@
+{
+  "id": "13196",
+  "title": "Bug 13196[Browsing] Consequences of changes",
+  "description": "Bug 13196[Browsing] Consequences of changes",
+  "OB": "From the user's perspective, an unexpected behavioral difference occurs when manipulating the source in the type hierarchy and the method list of the browser perspective. After performing certain actions, such as deleting a method, the editor becomes dirty, and subsequent steps lead to unexpected consequences.",
+  "EB": "The expected behavior is that changes made in the hierarchy view should not have an impact on the file system, type list view, method list view, or the editor when the editor is not dirty. The system should maintain consistency in behavior regardless of whether the editor is in a dirty state.",
+  "SR": "1. Open Java Browsing Perspective\n2. Select a type\n3. Select a method in the method list view\n4. Delete the method using the context menu of the method list view (editor becomes dirty)\n5. Select another type\n6. Open the type hierarchy on this type and dock the hierarchy view\n7. Select a method in the method list view\n8. Select the same method in the hierarchy view\n9. Delete the method using the context menu of the hierarchy view\n   (Note: Ensure the editor is not dirty during these steps)\n\nObservation: Method is unexpectedly deleted on the file system, type list view, method list view, and the editor are all cleared."
+}

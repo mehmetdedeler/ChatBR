@@ -1,0 +1,8 @@
+{
+  "id": "49299",
+  "title": "Bug 49299 - Inconsistent Cookie Name in Servlet 3.0 URL Rewriting",
+  "description": "This bug report points out an inconsistency in Servlet 3.0's behavior regarding custom cookie names and URL rewriting.",
+  "OB": "The observed behavior is not explicitly mentioned in the report.",
+  "EB": "The expected behavior, as per Servlet 3.0 specification (7.1.1), is that the Reload link should use the custom session tracking cookie name in the URL.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Deploy the provided 'cookiename.war' file.\n2. Access 'http://localhost:8080/cookiename/'."
+}

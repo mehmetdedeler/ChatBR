@@ -1,0 +1,8 @@
+{
+  "id": "120922",
+  "title": "Bug 120922: 'Dirty Page' behavior in XML Report Designer editor needs improvement",
+  "description": "Bug 120922: 'Dirty Page' behavior in XML Report Designer editor needs improvement. Other pages cannot be used until the source is saved, and then the user needs to figure out how to save or discard their changes. Do you want to save the changes? <Yes <No <Cancel> Yes would save the changes, No would discard the changes, Cancel would do nothing and remain on the Source page. In addition, the dialog is titled 'Error'.",
+  "OB": "The dialog titled 'Error' appears when making changes to the XML Report Design. The user is prompted with options to save, discard, or cancel, but the behavior of the 'Dirty Page' is unclear.",
+  "EB": "A better and more typical approach would be: When the XML Report Design is changed, the dialog should have a clear title without quotes. Additionally, the options for saving, discarding, or canceling changes should be presented in a more user-friendly manner.",
+  "SR": "1. Open XML Report Designer.\n2. Make changes to the design.\n3. Observe the 'Dirty Page' behavior.\n4. Note the unclear title and confusing options in the dialog.\n5. Suggest improvements for a better user experience."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "14047",
+  "title": "Bug 14047 - StyledText inefficient redraw during text change with word wrap",
+  "description": "Appending N lines to StyledText in word wrap mode results in N redraws of the entire client area.",
+  "OB": "The current implementation causes inefficient redraws during text changes with word wrap. When appending N lines to StyledText, it triggers N redraws of the entire client area, leading to performance issues.",
+  "EB": "Optimize the redraw process to minimize the number of redraws during text changes with word wrap. Aim to improve the overall performance of StyledText in such scenarios.",
+  "SR": "1. Analyze the existing codebase to identify the root cause of the inefficient redraws during text changes with word wrap.\n2. Implement optimizations to reduce the number of redraws while maintaining the correctness of the displayed content.\n3. Conduct thorough testing to ensure that the changes do not introduce new issues and that the performance improvements are achieved."
+}

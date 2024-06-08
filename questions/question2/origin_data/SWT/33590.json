@@ -1,0 +1,1 @@
+{"bug_id": "33590", "title": "Bug 33590RC1: \"Application Modal\" shell style behaves incorrectly", "description": "Observed while testing the SWT Controls view within Examples.After creating ashell with Application Modal style, it is still possible to change focus to aparent shell without closing the new child."}

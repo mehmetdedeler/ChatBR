@@ -1,0 +1,1 @@
+{"bug_id": "40192", "title": "Bug 40192build cancel during weaving", "description": "The build can not be cancelled during the bytecode weaving stage."}

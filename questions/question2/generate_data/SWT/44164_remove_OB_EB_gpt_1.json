@@ -1,0 +1,8 @@
+{
+  "id": "44164",
+  "title": "Update Needed in Javadoc for Constructor Image(Device, ImageData)",
+  "description": "In the provided code snippet, there seems to be an issue with the constructor 'Image(Device, ImageData).' The problem occurs when creating an 'Image' object using 'Image(Display.getDefault(), data).' It appears that this constructor is throwing an exception, and there is a need for an update in the Javadoc to clarify the behavior and usage of this constructor. Below are the details:",
+  "OB": "The 'Image' constructor is throwing an exception, but the exact nature of the exception is not specified.",
+  "EB": "The Javadoc for the 'Image(Device, ImageData)' constructor should provide a clear and accurate description of its behavior, including any potential exceptions that can be thrown. Users should be able to understand how to use this constructor correctly.",
+  "SR": "To recreate the issue, you can follow these steps:\n1. Import the 'org.eclipse.swt.graphics' package.\n2. Use the 'Image' constructor with a 'Device' and 'ImageData' as follows:\n   ```java\n   Image image = new Image(Display.getDefault(), data);\n   ```\n3. Observe that the constructor may throw an exception. The specific exception details should be documented in the Javadoc for this constructor."
+}

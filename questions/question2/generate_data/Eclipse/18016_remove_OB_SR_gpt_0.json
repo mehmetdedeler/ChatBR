@@ -1,0 +1,8 @@
+{
+  "id": "18016",
+  "title": "Most Menu Actions Should be Disabled for Custom Files from Repository",
+  "description": "When users are dealing with custom files from the repository, most menu actions are enabled even though they are irrelevant. These unnecessary options should be removed. Additionally, the 'convert line delimiters' menu action should be disabled.",
+  "OB": "When working with custom files from the repository, most menu actions are enabled.",
+  "EB": "Most menu actions for custom files from the repository should be disabled, and the 'convert line delimiters' menu action should also be disabled.",
+  "SR": "To reproduce the issue:\n1. Log in to the system.\n2. Navigate to the repository section.\n3. Open a custom file from the repository.\n4. Observe that most menu actions are enabled and the 'convert line delimiters' menu action is also enabled, which should not be the case."
+}

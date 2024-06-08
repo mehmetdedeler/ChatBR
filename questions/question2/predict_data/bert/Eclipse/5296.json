@@ -1,0 +1,1 @@
+{"id": "5296", "title": "Bug 5296TVT1: Hardcoded string \"System Editor\"", "description": " Bug 5296TVT1: Hardcoded string \"System Editor\"", "OB": " \"System Editor\" is still in English.", "EB": "", "SR": " Select a java file and bring up the context menu, select \"Open With\"."}

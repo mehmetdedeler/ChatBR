@@ -1,0 +1,1 @@
+{"bug_id": "24329", "title": "Bug 24329[Navigator] Navigator uses Workbench preference store", "description": "20021001The ResourceNavigator uses the workbench preference store currently forbackwards compatibility. It should be migrated over to using its ownpreference store and the preference page should update it."}

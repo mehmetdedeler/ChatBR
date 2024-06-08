@@ -1,0 +1,8 @@
+{
+  "id": "49195",
+  "title": "Issue with Shutdown Port 1 Printing Error Message Despite Successful Shutdown",
+  "description": "When configuring the server.xml file with <Server port=\"1\", the Windows service operates as expected, shutting down Tomcat. However, an error message is logged in the catalina.20100427.log stating 'No shutdown port configured. Server not shut down.' Despite this message, Tomcat stops after printing it, as Catalina's stopServer() performs System.exit(1). It seems that when the service launcher stops Tomcat, Catalina's server object remains active.",
+  "OB": "When using '1' as the shutdown port for the Windows service, Tomcat stops successfully, but an error message is logged in the catalina.20100427.log: 'No shutdown port configured. Server not shut down.' Although this message is logged, Tomcat shuts down regardless.",
+  "EB": "If the service launcher stopping Tomcat results in Catalina's server object persisting, improving the shutdown process in StandardServer.await() might resolve this. Using wait(10000) instead of sleep(10000) could allow for awakening via a notifyAll() call or utilizing interrupt() to wake up the thread if identified.",
+  "SR": "1. Configure server.xml with <Server port=\"1\"\n2. Start the Windows service\n3. Observe the catalina.20100427.log for the error message 'No shutdown port configured. Server not shut down.' despite successful Tomcat shutdown"
+}

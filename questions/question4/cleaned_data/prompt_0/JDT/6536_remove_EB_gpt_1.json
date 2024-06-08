@@ -1,0 +1,8 @@
+{
+  "id": "6536",
+  "title": "Bug 6536: 'Add Javadoc on field' in TH has no effect",
+  "description": "",
+  "OB": "When selecting a field in the Type Hierarchy (TH) view and choosing 'Add Javadoc' from the context menu, nothing happens. The expected behavior is either the removal of this menu option or, preferably, the addition of Javadoc to the selected field.",
+  "EB": "Expect that selecting 'Add Javadoc' on a field in the Type Hierarchy view will either remove the menu option or, preferably, add Javadoc to the selected field.",
+  "SR": "To reproduce: 1. Open the Type Hierarchy view. 2. Select a field in the Type Hierarchy view. 3. Right-click to open the context menu and choose 'Add Javadoc.'"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "49299",
+  "title": "Bug 49299 - Servlet 3.0 Ch.7.1.1 Custom Cookie Name Not Affecting URL Rewriting",
+  "description": "The Servlet 3.0 specification in Chapter 7.1.1 claims that a custom cookie name should affect URL rewriting, but this is not the case in the current trunk. Instead, the default 'jsessionid' is used. I have attached a war file that reproduces this issue.",
+  "OB": "The Servlet 3.0 specification states that a custom cookie name should affect URL rewriting, but in the current trunk, the default 'jsessionid' is used, which contradicts the expected behavior.",
+  "EB": "I expected that setting a custom cookie name would result in it being used for URL rewriting, as stated in the Servlet 3.0 specification, Chapter 7.1.1.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Deploy the attached war file named 'cookiename.war'.\n2. Access the application at http://localhost:8080/cookiename/."
+}

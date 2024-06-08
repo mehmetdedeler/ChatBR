@@ -1,0 +1,8 @@
+{
+  "id": "6536",
+  "title": "Bug 6536 - Add Javadoc on field in Type Hierarchy does nothing",
+  "description": "When attempting to add Javadoc on a field in the Type Hierarchy view, the operation does not have any effect.",
+  "OB": "When selecting a field in the Type Hierarchy view to add Javadoc, no changes are observed.",
+  "EB": "After selecting a field in the Type Hierarchy view and attempting to add Javadoc, the expected behavior is that the Javadoc is successfully added to the selected field.",
+  "SR": "1. Open Type Hierarchy view. 2. Select a field. 3. Attempt to add Javadoc to the selected field. Ensure that the Javadoc is successfully added."
+}

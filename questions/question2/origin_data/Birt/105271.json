@@ -1,0 +1,1 @@
+{"bug_id": "105271", "title": "Bug 105271Acceptance:one report can open several times", "description": "details:one report can open several timessteps tp reproduce:1.one report can open several timesactual result:Open one report, there is several designer opened."}

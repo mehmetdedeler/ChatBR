@@ -1,0 +1,1 @@
+{"bug_id": "10168", "title": "Bug 10168NPE in externalize strings dialog", "description": "1. Select Java file2. Externalize Strings3. Next4. Click \"Browse\" next to \"test.properties\".Click OK in the dialog without selecting anything. NPE occurs."}

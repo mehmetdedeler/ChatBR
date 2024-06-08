@@ -1,0 +1,8 @@
+{
+  "id": "102623",
+  "title": "Bug 102623: Image can't be refreshed after importing again.",
+  "description": "When attempting to import a new image, it doesn't refresh the display as expected.",
+  "OB": "After importing a new image named 'image1.jpg' into the layout, the display does not update, and the original image remains visible.",
+  "EB": "Import new 'image1.jpg' into the layout again. Expected result: The new image should be displayed. Actual result: The original image is still displayed.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Import an image named 'image1.jpg' into the layout view.\n2. Delete this image file from the outline image.\n3. Rename 'image2.jpg' as 'image1.jpg'."
+}

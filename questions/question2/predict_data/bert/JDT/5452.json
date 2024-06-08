@@ -1,0 +1,1 @@
+{"id": "5452", "title": "Bug 5452Typehierarchy: can't see full label in method list", "description": " Bug 5452Typehierarchy: can't see full label in method list", "OB": " The label is shown with \"...\" even though the view has a horizontal scrollbar.This is critical since when showin inherited members the lable can be long.", "EB": "", "SR": ""}

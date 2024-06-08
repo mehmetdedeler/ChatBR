@@ -1,0 +1,1 @@
+{"bug_id": "17022", "title": "Bug 17022SWT Layouts example  missing window title", "description": "Start the SWT Layouts exampleClick on 'Code'The window which comes up has no title."}

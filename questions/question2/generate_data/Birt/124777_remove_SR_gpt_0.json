@@ -1,0 +1,8 @@
+{
+  "id": "124777",
+  "title": "Bug 124777 - Exception when setting a blank tooltip in chart title during preview",
+  "description": "",
+  "OB": "When a blank tooltip is set in the chart title and the chart is previewed, it results in an unexpected exception dialog being displayed.",
+  "EB": "During the chart preview in the viewer, if the mouse is moved over the chart title with a blank tooltip, the expected behavior is that nothing should happen. No exception dialog should be displayed.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Set a blank tooltip in the chart title.\n2. Preview the chart in the viewer.\n3. Move the mouse over the chart title to trigger the issue."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "Improved Logic Needed for Disk Sorting with Border Row Values",
+  "description": "",
+  "OB": "When sorting data on disk, if the number of rows to sort is 40,000 and the program processes data fewer than 40,000 rows, it performs the following operations:\n1. Saves the file as a temporary file.\n2. Loads the file into memory.\n3. Sorts the data.\n4. Saves the sorted data to a temporary file.",
+  "EB": "More robust logic is expected to handle disk sorting when there are border values for row counts. The current process should be enhanced to efficiently sort the data directly in memory and then write it to a file.",
+  "SR": "To reproduce the issue:\n1. Set up the program to sort data on disk.\n2. Ensure there are border values for row counts involved.\n3. Start sorting with fewer rows than the specified border value.\n4. Observe the file-saving process, memory loading, sorting, and final file saving."
+}

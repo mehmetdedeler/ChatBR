@@ -1,0 +1,8 @@
+{
+  "id": "6536",
+  "title": "Bug 6536: 'Add Javadoc' on field in TH does nothing",
+  "description": "When attempting to use the 'Add Javadoc' option from the context menu on a field in TH, no action occurs. The expected behavior is that selecting this option should add Javadoc to the field.",
+  "OB": "Selecting 'Add Javadoc' from the context menu on a field in TH results in no action being taken.",
+  "EB": "When 'Add Javadoc' is chosen from the context menu, it should correctly add Javadoc to the selected field in TH.",
+  "SR": "1. Open TH.\n2. Right-click on a field.\n3. From the context menu, choose 'Add Javadoc'.\n4. Observe no Javadoc being added to the field."
+}

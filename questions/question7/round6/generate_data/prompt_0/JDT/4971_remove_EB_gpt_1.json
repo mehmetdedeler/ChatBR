@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Bug 4971 - Strange 'copy package'",
+  "description": "Bug 4971: Encountering a strange behavior while copying a package in org.eclipse.jdt.internal.ui within jdt.ui.",
+  "OB": "When attempting to copy a package within the 'org.eclipse.jdt.internal.ui' of the 'jdt.ui', the result is that the destination project ('xx') now contains an unexpected package named 'ui'.",
+  "EB": "The 'copy package' operation should create an exact copy of the selected package without introducing any additional subpackages.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create a new project named 'xxx'.\n2. Open the Package Viewer in the project.\n3. Select a package within project 'A' (e.g., 'Ae') from the Package Viewer.\n4. From the context menu, choose the 'copy' option."
+}

@@ -1,0 +1,1 @@
+{"id": "109350", "title": "Bug 109350: Output parameter should display in the dataset dialog", "description": "", "OB": "", "EB": "", "SR": "To reproduce the issue:\n1. Call the stored procedure from the Oracle database.\n2. Store the query result in an output parameter as an object."}

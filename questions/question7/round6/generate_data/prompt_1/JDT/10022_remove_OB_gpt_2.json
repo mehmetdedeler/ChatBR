@@ -1,0 +1,8 @@
+{
+  "id": "10022",
+  "title": "Incorrect \"Build\" Popup Action Enablement",
+  "description": "Bug 10022: Incorrect \"Build\" popup action enablement.",
+  "OB": "The \"Build\" action in the context-sensitive popup menu is always enabled in the Java perspective.",
+  "EB": "If a project has already been built, the 'Build' action in the context-sensitive popup menu should be automatically disabled to avoid unnecessary manual builds. Currently, there seems to be an issue where the 'Build' action remains enabled even when a build is already done. This behavior needs to be corrected.",
+  "SR": "Ensure that the 'Build' action in the context-sensitive popup menu in the Java perspective is only enabled when there is a need for a build, and it should automatically disable when a build is already completed."
+}

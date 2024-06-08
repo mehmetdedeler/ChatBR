@@ -1,0 +1,1 @@
+{"id": "6700", "title": "Bug 6700Code assist should not just beep", "description": "", "OB": "", "EB": "Bug 6700Code assist should not just beep suggest to show a status message: Could not complete due to syntax errors.This is also better for accessability reasons. ", "SR": ""}

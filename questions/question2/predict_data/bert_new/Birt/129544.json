@@ -1,0 +1,1 @@
+{"id": "129544", "title": "Bug 129544Move preview preference from ui plugin to preview plugin", "description": "Bug 129544Move preview preference from ui plugin to preview plugin ", "OB": "With new plugin structure, the preview are in seperate plugin. ", "EB": "Need move preview preference related classed from ui plugin to new preview plugin. ", "SR": ""}

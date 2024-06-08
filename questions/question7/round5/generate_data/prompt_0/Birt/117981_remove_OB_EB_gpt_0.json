@@ -1,0 +1,1 @@
+{"id": "117981", "title": "Any item can't be selected at the first time in library outline view", "description": "Description: Any item can't be selected at the first time in library outline view.\nSteps to reproduce:\n1. Add a label in library file.\n2. Select the label item in library outline view."}

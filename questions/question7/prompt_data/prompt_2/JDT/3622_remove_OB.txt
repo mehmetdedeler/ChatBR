@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '3622', 'title': 'Bug 3622New Package Wizard has confusing message (1GD0L9O)', 'description': 'Bug 3622New Package Wizard has confusing message (1GD0L9O) ', 'OB': '', 'EB': 'Invoke New Java Package.Result: Before you type anything the following message appears at the top: "A foldercorresponding to the package name already exists".At this point my package name fieldis empty.What does this message mean?Is this an error?If so, should it be displayed inred with the error icon?NOTES:EG (5/1/2001 5:53:41 AM)there should be no error message when the package name field is empty andfinish should be disabled.MA (5/2/01 9:34:00 AM)It is a warning.I will remove the messageEG (5/2/01 9:43:44 AM)issue how to create a default package?It can\'t be created by the user since it always there. ', 'SR': 'Create a new Java Project2. Select the project.3. '}
+</BUG REPORT>

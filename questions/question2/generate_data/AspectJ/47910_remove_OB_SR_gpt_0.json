@@ -1,0 +1,12 @@
+{
+"id": "47910",
+"title": "Bug 47910 - Missing MANIFEST.MF in outjar jarfile",
+"description": "The issue is related to the 'ajc' tool's 'outjar' option, which does not contain a 'MANIFEST.MF' file inside the resulting JAR file.",
+"OB": "When using the 'outjar' option in 'ajc', the resulting JAR file does not contain a 'MANIFEST.MF' file.",
+"EB": "When the 'outjar' option is used in 'ajc', the resulting JAR file should be a valid JAR file, and it should contain a 'MANIFEST.MF' file as expected.",
+"SR": "To reproduce the issue, follow these steps:\n1. Use the 'ajc' tool with the 'outjar' option to create a JAR file from your source code.\n2. Check the contents of the resulting JAR file to see if it contains a 'MANIFEST.MF' file. The 'MANIFEST.MF' file should be included in the JAR file when using the 'outjar' option."
+}
+
+
+
+

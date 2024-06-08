@@ -1,0 +1,1 @@
+{"bug_id": "113510", "title": "Bug 113510readAspect", "description": "clearly define what the goal for readAspect isold byte per byte reading cause NPE in some test casecurrent impl is hashcode for aspect name + classloader  ie unstable acrossstartups."}

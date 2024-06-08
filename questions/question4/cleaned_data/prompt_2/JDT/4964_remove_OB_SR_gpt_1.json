@@ -1,0 +1,8 @@
+{
+  "id": "4964",
+  "title": "Bug 4964: Automatic Code Assist needs to be smarter",
+  "description": "When using the automatic code assist feature, I encountered an issue where 'DISPOSED' was mistakenly suggested and selected instead of 'dispose()'. This resulted in the insertion of 'button.DISPOSED', which was not the intended code. I had to manually delete it and start over. The code assist should recognize that I've typed '(' and suggest 'dispose()' instead of 'DISPOSED', as it's a closer match.",
+  "OB": "The code assist suggested 'DISPOSED' instead of 'dispose()' when typing '('.",
+  "EB": "The code assist should intelligently recognize context and suggest 'dispose()' when '(' is typed, improving accuracy and relevance in code suggestions.",
+  "SR": "Steps to reproduce:\n1. Begin typing code that requires a method call, for example, 'button('.\n2. Observe the automatic code assist suggesting 'DISPOSED' instead of 'dispose()'."
+}

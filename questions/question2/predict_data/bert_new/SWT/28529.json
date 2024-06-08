@@ -1,0 +1,1 @@
+{"id": "28529", "title": "Bug 28529ProgressBar direction wrong + cheese", "description": "Bug 28529ProgressBar direction wrong + cheese ", "OB": "I20021216In progress bar tab of the control example:select SWT.HORIZONTAL.select 100x100Progress bar draws vertically and leaves cheese. ", "EB": "", "SR": ""}

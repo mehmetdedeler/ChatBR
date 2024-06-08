@@ -1,0 +1,1 @@
+{"id": "19101", "title": "Bug 19101View tab contains title text", "description": "Bug 19101View tab contains title text ", "OB": "", "EB": "", "SR": "F2 build do a search that generates some results close all perspectives open Java perspective show view / Search it appears with the last search indicated in the titlebar, but also in thetab. "}

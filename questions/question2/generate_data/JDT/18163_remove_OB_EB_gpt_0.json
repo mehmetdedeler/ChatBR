@@ -1,0 +1,8 @@
+{
+  "id": "18163",
+  "title": "Bug 18163: Add Import should ignore leading/trailing whitespace",
+  "description": "When using the 'Add Import' feature, it fails to work when there is leading or trailing whitespace within the selected text. This behavior should be improved to ignore such whitespace.",
+  "OB": "The 'Add Import' feature does not work when there is leading or trailing whitespace within the selected text.",
+  "EB": "The 'Add Import' feature should work seamlessly regardless of the presence of leading or trailing whitespace within the selected text.",
+  "SR": "To reproduce the issue:\n1. Open a code editor.\n2. Select a piece of text that includes leading or trailing whitespace.\n3. Press Ctrl+M to use the 'Add Import' feature.\n4. Observe that the feature does not work as expected due to the whitespace in the selection."
+}

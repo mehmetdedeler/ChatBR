@@ -1,0 +1,1 @@
+{"id": "108822", "title": "More improved logic is expected to process disk sorting when there is a border value for row value", "description": "When sorting data on disk, if the sorting is applied to 40000 rows of data and the program is set to process less than 40000 rows, the following operations are carried out by DtE:", "OB": "1. ", "EB": "", "SR": ""}

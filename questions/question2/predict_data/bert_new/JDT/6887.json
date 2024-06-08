@@ -1,0 +1,1 @@
+{"id": "6887", "title": "Bug 6887Create Getter and Setter should create isFoo for booleans", "description": "Bug 6887Create Getter and Setter should create isFoo for booleans ", "OB": "", "EB": "Create getter and setter should create an 'is' method for booleans not a 'get'method. ", "SR": ""}

@@ -1,0 +1,1 @@
+{"id": "11428", "title": "Bug 11428Wildcard search does not work", "description": "Bug 11428Wildcard search does not work The query syntax saysand ? ", "OB": "are supported, but searching for proj brings 0hits.It does not work in any driver since 20020228 until most recent 20020314 ", "EB": "", "SR": ""}

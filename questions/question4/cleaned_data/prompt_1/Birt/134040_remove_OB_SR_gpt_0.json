@@ -1,0 +1,1 @@
+{"id": "134040", "title": "Bug 134040 - Row should not have page break property in Property Editor.", "description": "", "OB": "The row should not have the page break property in the Property Editor.", "EB": "Currently, the row has the page break property in the Property Editor.", "SR": "Fix the issue so that the row does not have the page break property in the Property Editor."}

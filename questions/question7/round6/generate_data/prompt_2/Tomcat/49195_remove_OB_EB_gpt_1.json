@@ -1,0 +1,8 @@
+{
+  "id": "49195",
+  "title": "Bug 49195: Error message printed when using shutdown port '1' with Windows service",
+  "description": "When specifying <Server port='1' in server.xml, there's an error message printed while using Tomcat as a Windows service. There might be room for improvement in the shutdown process of Tomcat, possibly related to how it's stopped using 'System.exit(0)' irrespective of these configurations. Similar behavior might be observed with 'jsvc,' though untested.",
+  "OB": "When using Tomcat as a Windows service with <Server port='1'> specified in server.xml, an error message is printed during shutdown.",
+  "EB": "Tomcat should function as a Windows service without printing error messages when <Server port='1'> is specified in server.xml during shutdown.",
+  "SR": "1. Install Tomcat as a service on Windows.\n2. Start the service.\n3. Stop the service.\n4. Shutdown the server using an OS signal or by calling Catalina.stop()."
+}

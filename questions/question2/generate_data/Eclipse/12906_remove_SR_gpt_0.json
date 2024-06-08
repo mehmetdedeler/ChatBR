@@ -1,0 +1,8 @@
+{
+  "id": "12906",
+  "title": "Bug 12906 - Unable to Open a File in Another Editor if It's Already Opened (No Warning or Error Message)",
+  "description": "When attempting to open a file in another editor after it's already opened in one editor, no warning or error message is displayed, which should happen as a safety feature to prevent accidental overwrites or conflicts.",
+  "OB": "1. Open a file in the workspace.\n2. Right-click on the same file and choose 'Open With' -> 'System Editor'.\n3. No warning or error message is displayed.",
+  "EB": "Upon trying to open a file that's already opened in one editor, there should be a warning or error message to inform the user about potential conflicts or accidental overwrites.",
+  "SR": "1. Open a file in the workspace.\n2. Right-click on the same file.\n3. From the context menu, select 'Open With' -> 'System Editor'.\n4. Observe the warning or error message that should appear, indicating the need to close the file in the previous editor."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "9619",
+  "title": "Bug 9619 - Move static member: Dialog details",
+  "description": "When moving a static member in version 20020212a, I noticed several issues:\na. Mnemonics are missing.\nb. There is no validation on the 'type' field. Adding validation for the type field should not be too expensive, considering it's already done in the type wizard for the super class.\nc. The label should be changed to 'Select destination type'.\nd. The title should be used for 'Move static field(s)', and the description should be used for 'x fields from xx'.\ne. The selection dialog should be initialized with the type currently entered.",
+  "OB": "The observed behavior includes missing mnemonics, lack of validation on the 'type' field, and an incorrect label for the dialog.",
+  "EB": "I expect the mnemonics to be added, validation for the 'type' field to be implemented, and the label to be changed to 'Select destination type'. Additionally, the title should be used for 'Move static field(s)', and the description should be used for 'x fields from xx'. The selection dialog should also be initialized with the type currently entered.",
+  "SR": "To reproduce these issues:\n1. Open the static member move dialog in version 20020212a.\n2. Observe the absence of mnemonics and lack of validation on the 'type' field.\n3. Notice that the label is incorrect.\n4. Attempt to move a static field and observe the issues with the title and description.\n5. Pay attention to the selection dialog and confirm that it is not initialized with the type currently entered."
+}

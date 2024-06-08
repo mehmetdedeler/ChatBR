@@ -1,0 +1,1 @@
+{"bug_id": "5147", "title": "Bug 5147[JFace] DialogSettings convenience methods do not check for null", "description": "In DialogSettings, convenience methods like getBoolean() do not check for null.They just call getString(String) then try to convert.This method can return null, though."}

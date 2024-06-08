@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Bug 123036: Data in a report is doubly stored",
+  "description": "",
+  "OB": "The issue is observed in the system where data is being stored twice in reports.",
+  "EB": "We expect that the data should be stored only once in reports, avoiding any duplication.",
+  "SR": "To reproduce the issue:\n1. Navigate to the reporting section of the application.\n2. Generate a report using the specified parameters.\n3. Review the report and observe that data is duplicated in the output."
+}

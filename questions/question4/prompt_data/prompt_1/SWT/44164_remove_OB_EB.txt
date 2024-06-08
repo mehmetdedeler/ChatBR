@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '44164', 'title': 'Bug 44164update needed in javadoc for constructor Image(Device , ImageData)', 'description': 'Bug 44164update needed in javadoc for constructor Image(Device , ImageData) ;import org.eclipse.swt.widgets. ;public class TestImageInvalidImage {public static void main(String[] args) {ImageData data = new ImageData(10, 10, 1, new PaletteData(0xff0000, 0x00ff00, 0x0000ff));Image image = new Image(Display.getDefault(), data);// image.dispose();}} ', 'OB': '', 'EB': '', 'SR': 'Steps to recreate (note that the ImageData is successfullycreated, it is Image that is throwing the exception):import org.eclipse.swt.graphics. '}
+</BUG REPORT>

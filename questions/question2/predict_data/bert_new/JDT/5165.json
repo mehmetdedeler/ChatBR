@@ -1,0 +1,1 @@
+{"id": "5165", "title": "Bug 5165package viewer project sorting", "description": "Bug 5165package viewer project sorting i have a (library) project Refactoring Tests Resourcesand other projects org.eclipse....before 205 they used to be sorted alphabeticallynow they're not.is that intentional? ", "OB": "", "EB": "", "SR": ""}

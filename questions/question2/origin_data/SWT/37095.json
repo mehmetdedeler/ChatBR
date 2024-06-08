@@ -1,0 +1,1 @@
+{"bug_id": "37095", "title": "Bug 37095BIDI  When starting Eclipse from Arabic locale it is always RTL oriented", "description": "When starting an Eclipse instance from an Arabic Locale, the workbench and itscomponents are RTLoriented without giving the user the choice for otherwise."}

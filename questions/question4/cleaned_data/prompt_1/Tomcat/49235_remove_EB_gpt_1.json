@@ -1,0 +1,8 @@
+{
+  "id": "49235",
+  "title": "Bug 49235: ServletContainerInitializer onStartup(Set<Class<? classSet is not expected",
+  "description": "Bug 49235: ServletContainerInitializer onStartup(Set<Class<? The output is \"MySomeClass\". ",
+  "OB": "The current output is \"MySomeAnn\", but I expect the output to be \"MySomeClass\". This behavior is not consistent with Servlet 3.0 spec. My code works fine on Glassfish 3.0.",
+  "EB": "The expected output is \"MySomeClass\" as per the Servlet 3.0 spec.",
+  "SR": "To reproduce the issue, build Tomcat 7.0.0 from SVN r939221. Below is my code:\n\n@MySomeAnn\npublic class MySomeClass {...}\n\n@HandlesTypes(MySomeAnn.class)\npublic class ModuleInitializer implements ServletContainerInitializer {\n  @Override\n  public void onStartup(Set classSet, ServletContext ctx) throws ServletException {\n    for (Class targetClass : classSet) {\n      System.out.println(targetClass.getName());\n    }\n  }\n}\n\nThe current output is \"MySomeAnn\" instead of the expected output \"MySomeClass\"."
+}

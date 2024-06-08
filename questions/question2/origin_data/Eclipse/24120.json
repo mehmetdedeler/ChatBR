@@ -1,0 +1,1 @@
+{"bug_id": "24120", "title": "Bug 24120[Dialogs] TypeFilterDialog UI and API not same", "description": "The UI shows the extensions as \".txt\" while the API expects \"txt\" only.This is confusing.The format of the extension is not specified.The dialog should be able to tread \".txt\" as input as well and also be able toreturn \".txt\" (instead or in addition to \"txt\")."}

@@ -1,0 +1,1 @@
+{"id": "116786", "title": "Bug 116786 - Library include should store relative path.", "description": "", "OB": "The report design currently stores the absolute path of the library file. It should be updated to save the relative path.", "EB": "", "SR": ""}

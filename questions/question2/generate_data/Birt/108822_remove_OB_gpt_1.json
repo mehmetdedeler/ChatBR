@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "Improvement needed for handling disk sorting with border row values",
+  "description": "",
+  "OB": "The current logic for disk sorting, especially when dealing with border row values, is not efficient.",
+  "EB": "A more efficient approach is expected for processing disk sorting, especially when handling border row values. Instead of saving intermediate files and loading data from disk, the system should sort the data directly in memory and then write it to the file.",
+  "SR": "To reproduce the issue:\n1. Perform a disk sort on a dataset with 40,000 rows.\n2. Ensure that the program processes the data, especially when it's less than 40,000 rows.\n3. Observe the following operations:\n   a. Save the data to a temporary file.\n   b. Load the data into memory.\n   c. Sort the data in memory.\n   d. Save the sorted data to a temporary file."
+}

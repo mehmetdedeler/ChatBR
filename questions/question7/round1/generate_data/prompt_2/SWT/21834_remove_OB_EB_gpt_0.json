@@ -1,0 +1,1 @@
+{"id": "21834", "title": "Bug 21834: Coolbar deleting items corrupting layout", "description": "Bug 21834: Coolbar deleting items corrupting layout in Build 2002071610021.", "OB": "When running the attached test case and performing the specified steps:", "EB": "The second row should remain intact after deleting the first item on the second row.", "SR": "To reproduce the issue:"}

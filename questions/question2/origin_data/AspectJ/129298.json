@@ -1,0 +1,1 @@
+{"bug_id": "129298", "title": "Bug 129298Contribution: Remove Memory Consuming Declared Signature", "description": "The code for weaver.MembergetDeclaredSignature() is never used in the weaver. My memory analysis showed this can pin several megabytes of memory in a large system. This patch removes it. YAGNI :)"}

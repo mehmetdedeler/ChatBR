@@ -1,0 +1,8 @@
+{
+  "id": "109350",
+  "title": "Bug 109350 - Output parameter not displaying in data set dialog",
+  "description": "The bug is related to the absence of the output parameter in the data set dialog when viewing query results.",
+  "OB": "While in the query result page, no data is returned. Actual result: The output parameter does not display in the edit data set dialog.",
+  "EB": "The expected behavior is that the output parameter should be visible in the edit data set dialog when on the query result page.",
+  "SR": "Steps to reproduce: When calling the stored procedure from the Oracle database, the query result should be stored in the output parameter as an object. Verify that the output parameter is not displaying in the edit data set dialog."
+}

@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '32770', 'title': "Bug 32770Java application launch shortcut error doesn't help user", 'description': "Bug 32770Java application launch shortcut error doesn't help user Also, we should improve the quality of theerror message. ", 'OB': '', 'EB': 'The message should give the user a hint about what they needto do to fix the problemin this case, they need to select a resource.The message should say something like "Launch failed: No file with a maintype selected" ', 'SR': ''}
+</BUG REPORT>

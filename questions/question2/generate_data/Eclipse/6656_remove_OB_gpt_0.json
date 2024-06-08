@@ -1,0 +1,8 @@
+{
+  "id": "6656",
+  "title": "Bug 6656 - Close button moves down when view resized smaller",
+  "description": "When resizing the view smaller on Linux using build 20011127 (not observed on build 20011116 on Windows NT 2000), the close button moves down below the label, which could lead to usability issues as users expect the close button to remain on the same line as the label and positioned in the far-right corner.",
+  "OB": "When a view like the Navigator is resized smaller on Linux using build 20011127, the tool items move below the label.",
+  "EB": "The expected behavior is that these two tool items should remain on the same line as the label, regardless of how small the view gets. Users are accustomed to the close button being on the same line as the label and located to the far-right corner.",
+  "SR": "1. Open the application on Linux with build 20011127.\n2. Go to a view like the Navigator.\n3. Resize the view to make it smaller."
+}

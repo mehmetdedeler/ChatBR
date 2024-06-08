@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '102623', 'title': "Bug 102623Image can't be refreshed after importing again.", 'description': '', 'OB': '', 'EB': 'Import new "image1.jpg" into layout again.Expected result: New image is displayed.Actual result: Original image is still displayed. ', 'SR': 'Import an image named "image1.jpg" into layout view.2. Delete this image file from outlineimage.3. Rename "image2.jpg" as "image1.jpg".4. '}
+</BUG REPORT>

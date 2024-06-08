@@ -1,0 +1,1 @@
+{"bug_id": "117415", "title": "Bug 117415Focus is lost when publishing a template to a folder", "description": "Description: Focus is lost when publishing a template to a folder.Steps to reproduce:1. After creating a template file, Select FilePublish to template folder.2. \"Publish to template folder\" dialog pops up and no cursor is focused on."}

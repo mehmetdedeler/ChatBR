@@ -1,0 +1,16 @@
+{
+  "id": "16822",
+  "title": "Bug 16822 - Search results persist after moving compilation unit",
+  "description": "Build 200205211.",
+  "OB": "Search result persists in the search view after moving a compilation unit (cu). Double-clicking on the result triggers a 'Search Error' dialog.",
+  "EB": "Search result should be removed from the search view after moving a compilation unit. Double-clicking on the result should not trigger a 'Search Error' dialog.",
+  "SR": [
+    "Create project P with 2 source folders 'src1' and 'src2'.",
+    "Create compilation unit X.java under 'P/src1'.\npublic class X {}",
+    "Search for the declaration of X.",
+    "Move X.java to 'P/src2'.",
+    "Observe: The search result still appears in the search view.",
+    "Attempt to double-click on the search result.",
+    "Result: 'Search Error' dialog opens with the message:\nAn error occurred while creating a Java element.\nReason: X.java does not exist."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "4974",
+  "title": "Bug 4974: Set classpath / output location should be one operation",
+  "description": "",
+  "OB": "The current behavior separates the setting of classpath and output location into two distinct operations. This creates a potential issue where the classpath and output location might not be in sync. To enhance user experience and avoid synchronization problems, it is recommended to combine the classpath and output location setting into a single operation.",
+  "EB": "Bug 4974: Setting classpath and output location should be a single operation. Similar to the validation process, where classpath and output location are checked simultaneously, the user should be able to configure both the classpath and output location in one operation. Additionally, the error message generated seems unclear and should be revised to accurately convey the issue, such as: '/xy/src' cannot be nested in '/xy'.",
+  "SR": "Modify the software to integrate the classpath and output location setting into a unified operation. Review and update the error messaging system to provide more informative and clear messages, particularly in cases like '/xy/src' being incorrectly nested in '/xy'."
+}

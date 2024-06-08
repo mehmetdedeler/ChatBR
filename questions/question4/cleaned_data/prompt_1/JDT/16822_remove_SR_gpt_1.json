@@ -1,0 +1,8 @@
+{
+  "id": "16822",
+  "title": "Bug 16822: Search results not cleared after moving file",
+  "description": "Build 200205211.",
+  "OB": "Move X.java to 'P/src2'. Observe: The search result is still present in the search view. Attempting to double-click on the search result opens a 'Search Error' dialog, stating: 'An error occurred while creating a Java element. Reason: X.java does not exist.'",
+  "EB": "Bug 16822: Search results should be automatically removed when the file 'X.java' is moved.",
+  "SR": "Ensure that after moving 'X.java' to 'P/src2', the search results are promptly cleared, and attempting to open the moved file from the search view does not result in a 'Search Error' dialog."
+}

@@ -1,0 +1,1 @@
+{"id": "48137", "title": "Bug 48137some misspellings I can find in the \"org.apache.catalina\" package", "description": " Bug 48137some misspellings I can find in the \"org.apache.catalina\" package Created attachment 24488 [details]svn patch for the various classes in the org.apache.catalina packageplease see the attached svn patch file", "OB": "", "EB": "", "SR": ""}

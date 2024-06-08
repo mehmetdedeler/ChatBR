@@ -1,0 +1,8 @@
+{
+  "id": "10593",
+  "title": "Bug 10593: Jar export fails to add \".jar\" suffix if not specified",
+  "description": "When attempting to export a JAR file, the application fails to add the \".jar\" suffix if it is not explicitly specified. This behavior deviates from the expected functionality.",
+  "OB": "When initiating the JAR export process without specifying the file extension, the resulting exported file lacks the \".jar\" suffix.",
+  "EB": "Upon JAR export, the application should automatically append the \".jar\" suffix to the filename if it is not provided explicitly.",
+  "SR": "1. Open the application and navigate to the JAR export feature.\n2. Choose a project or file to export.\n3. Do not manually input the \".jar\" extension in the filename.\n4. Initiate the export process.\n5. Observe that the exported file contains the \".jar\" suffix in its filename."
+}

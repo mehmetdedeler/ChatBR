@@ -1,0 +1,1 @@
+{"id": "17018", "title": "Bug 17018org.eclipse.ui.examples.redmetool.AddSentenceResolution is calling getEditors", "description": " Bug 17018org.eclipse.ui.examples.redmetool.AddSentenceResolution is calling getEditors 20020521org.eclipse.ui.examples.redmetool.AddSentenceResolution.run(...) is callingthe deprecated WorkbenchPage.getEditors()", "OB": "", "EB": "", "SR": ""}

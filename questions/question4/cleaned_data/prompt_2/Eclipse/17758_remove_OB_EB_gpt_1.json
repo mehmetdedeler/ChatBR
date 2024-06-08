@@ -1,0 +1,8 @@
+{
+  "id": "17758",
+  "title": "Bug 17758[Navigator] Navigator View. Problems with 'Go Into' action",
+  "description": "Bug 17758[Navigator] Navigator View. Problems with 'Go Into' action",
+  "OB": "After performing 'Go Into' action multiple times in the Navigator View, the forward navigation becomes problematic.",
+  "EB": "Expected behavior is that forward navigation should consistently work without leading to a blank screen.",
+  "SR": "1. Start with a clean F1 build.\n2. Import all plugins from the runtime environment to load some projects.\n3. Pack a project (e.g., org.eclipse.ant).\n4. Perform 'Go Into', 'Go Up', 'Go Back', 'Go Back' - this should work fine.\n5. Close the project.\n6. Notice that forward navigation is still enabled, but the first forward goes to a blank screen.\n7. Click forward, then click back to reproduce the issue."
+}

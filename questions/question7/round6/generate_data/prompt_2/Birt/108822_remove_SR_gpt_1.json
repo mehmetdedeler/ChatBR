@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "Bug 108822: Improved Logic Needed for Disk Sorting with Border Row Values",
+  "description": "The current logic for processing disk sorting with border row values is inadequate.",
+  "OB": "When sorting on disk with 40000 rows of data, and the program processes data less than 40000, unexpected behavior occurs.",
+  "EB": "More efficient logic is expected for processing disk sorting with border row values. A better approach would be to sort the data directly in memory and then write it to the file. Currently, the process involves copying the file to the destination folder, which is not ideal.",
+  "SR": "Steps to Reproduce:\n1. Load a dataset with at least 40000 rows of data.\n2. Initiate sorting on disk.\n3. Set the program to process the data less than 40000 rows.\n4. Observe the unexpected behavior during the sorting process."
+}

@@ -1,0 +1,1 @@
+{"id": "108822", "title": "Bug 108822 - More efficient disk sorting logic needed for handling border values in row data", "description": "", "OB": "When attempting to sort data on disk with 40000 rows, and the program is configured to process data less than 40000 rows, the following operation is performed:", "EB": "", "SR": ""}

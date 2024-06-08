@@ -1,0 +1,8 @@
+{
+  "id": "134949",
+  "title": "Bug 134949: Themes nest in other library",
+  "description": "Bug 134949: Themes nest in other library Details: Themes nest in other library Step: 1.",
+  "OB": "When navigating through the themes in the library, it is observed that themes are nesting within other libraries.",
+  "EB": "Themes should not nest within other libraries. Each theme should be displayed independently without being contained within another library.",
+  "SR": "To reproduce the issue:\n1. Open the software and navigate to the library section.\n2. Select a theme and observe if it nests within another library."
+}

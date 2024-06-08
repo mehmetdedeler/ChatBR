@@ -1,0 +1,8 @@
+{
+  "id": "5340",
+  "title": "Bug 5340 - Ineffective Cancellation of Adding Exception Breakpoint",
+  "description": "This bug report is about the issue related to cancelling the addition of an exception breakpoint.",
+  "OB": "The observed behavior is not specified in the report.",
+  "EB": "The expected behavior is that upon clicking 'Cancel' in the progress dialog, the addition of the exception breakpoint should be effectively cancelled, and the operation should terminate immediately.",
+  "SR": "To reproduce the issue:\n1. Go to the breakpoints pane in the debug perspective.\n2. Click the 'J!' button to add an exception.\n3. In the progress dialog, click 'Cancel.'"
+}

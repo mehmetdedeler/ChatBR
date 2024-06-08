@@ -1,0 +1,8 @@
+{
+  "id": "15899",
+  "title": "Bug 15899 - Close All Saved does not work consistently",
+  "description": "",
+  "OB": "When using build 20020508 with the latest UI code, the 'Close All Saved' feature in the file menu does not consistently close all open editors. Specifically, when I create a new file named 'f1.txt' and then select 'Close All Saved' from the file menu, nothing happens.",
+  "EB": "I expect that when I select 'Close All Saved' from the file menu, it should reliably close all open editors, including the newly created 'f1.txt' file. This action should clear the workspace of any unsaved changes and close all open files.",
+  "SR": "To reproduce the issue:\n1. Use build 20020508 with the latest UI code.\n2. Open multiple editors in the software.\n3. Create a new file and name it 'f1.txt'.\n4. Go to the file menu.\n5. Select 'Close All Saved' from the options."
+}

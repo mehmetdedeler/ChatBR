@@ -1,0 +1,8 @@
+{
+  "id": "11314",
+  "title": "Bug 11314 - Incorrect Package Name Compression",
+  "description": "The issue relates to incorrect package name compression in the 'Replace package name fragments' preferences.",
+  "OB": "When entering a package name fragment like '2~.', the expected behavior is that the package name compression should not make any changes as the provided fragment is already in a compressed format.",
+  "EB": "The expected behavior is that the package name compression should not modify an already compressed package name fragment like '2~.' and should retain it as it is.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Use Build 20020214.\n2. Access the preferences.\n3. In the 'Replace package name fragments with:' field, enter '2~.'."
+}

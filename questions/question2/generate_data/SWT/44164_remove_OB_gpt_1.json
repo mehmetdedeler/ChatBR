@@ -1,0 +1,8 @@
+{
+  "id": "44164",
+  "title": "Update Needed in Javadoc for Constructor Image(Device, ImageData)",
+  "description": "Bug 44164 - Update needed in Javadoc for constructor Image(Device, ImageData).",
+  "OB": "The Javadoc for the constructor Image(Device, ImageData) is missing crucial information.",
+  "EB": "This should be added to the Javadoc to provide a complete and accurate description of the constructor.",
+  "SR": "To reproduce the issue (note that the ImageData is successfully created, it is Image that is throwing the exception), use the following steps:\n1. Import org.eclipse.swt.graphics.\n2. Create an instance of ImageData with appropriate parameters.\n3. Attempt to create an Image using the constructor Image(Device, ImageData)."
+}

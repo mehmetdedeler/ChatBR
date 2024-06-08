@@ -1,0 +1,8 @@
+{
+  "id": "17423",
+  "title": "Bug 17423 - Duplicate 'Revert' Option in Popup Menu",
+  "description": "In the current state, there are two 'Revert' options available in the popup menu.",
+  "OB": "The issue observed is that the 'Revert' option appears twice in the popup menu.",
+  "EB": "There should be only one 'Revert' option in the popup menu.",
+  "SR": "To reproduce the issue:\n1. Use the software with build F1.\n2. Open a Java editor.\n3. Trigger the popup menu (right-click or relevant keyboard shortcut).\n\nObserved behavior:\n- Two 'Revert' options are present in the menu, one appearing after 'Undo' and the other before 'Format'.\n\nExpected behavior:\n- There should be only one 'Revert' option in the popup menu."
+}

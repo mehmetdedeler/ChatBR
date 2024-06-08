@@ -1,0 +1,1 @@
+{"bug_id": "123034", "title": "Bug 123034Move primitive type serialization to BIRT.core", "description": "Move primitive type serialization/deserialization to BIRT.core. Engine needs to use them too."}

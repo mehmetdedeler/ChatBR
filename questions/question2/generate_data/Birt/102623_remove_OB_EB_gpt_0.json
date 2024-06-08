@@ -1,0 +1,8 @@
+{
+  "id": "102623",
+  "title": "Bug 102623: Image can't be refreshed after importing again.",
+  "description": "When importing an image into the layout view, deleting the image file, and renaming a different image with the same name, the software fails to refresh the image properly.",
+  "OB": "After renaming 'image2.jpg' as 'image1.jpg' in the outline view, the image in the layout view remains unchanged, displaying the previous 'image1.jpg.'",
+  "EB": "I expected that after renaming 'image2.jpg' as 'image1.jpg' in the outline view, the image in the layout view should refresh and display the newly renamed 'image1.jpg.'",
+  "SR": "To reproduce the issue:\n1. Import an image named 'image1.jpg' into the layout view.\n2. Delete the 'image1.jpg' file from the outline view.\n3. Rename 'image2.jpg' as 'image1.jpg' in the outline view."
+}

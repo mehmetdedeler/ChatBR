@@ -1,0 +1,1 @@
+{"id": "50017", "title": "Bug 50017Make private immutable fields final", "description": " Bug 50017Make private immutable fields final Created attachment 26090 [details]Patch javax.el packagePatches to make immutable private fields final.", "OB": "", "EB": "", "SR": ""}

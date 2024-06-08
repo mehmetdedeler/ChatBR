@@ -1,0 +1,8 @@
+{
+  "id": "9654",
+  "title": "Bug 9654: Modify Parameters Dialog Details",
+  "description": "The Modify Parameters dialog is experiencing issues such as duplicated name validation on the first page. Additionally, the first and second columns seem to be merged.",
+  "OB": "The margin between the button and list is too large. The top button is not aligned with the dialog's top. The table lacks a label that could accommodate a mnemonic. Multiple selection is not allowed, preventing the application of 'move up'/'move down' on more than one item. The signature preview appears as a label that wraps, and it should ideally have its background color matching the hover color.",
+  "EB": "The margin between the button and list should be reduced. The top button should be aligned with the dialog's top. The table needs a label to support a mnemonic. Enable multiple selection to allow 'move up'/'move down' on multiple items. Modify the signature preview label to prevent wrapping, and set its background color to match the hover color.",
+  "SR": "1. Open the Modify Parameters dialog.\n2. Observe the large margin between the button and list.\n3. Note the misalignment of the top button with the dialog's top.\n4. Look for the table lacking a label that could accommodate a mnemonic.\n5. Attempt to select multiple items in the dialog's interface.\n6. Check the signature preview label to see if it wraps and lacks the appropriate background color."
+}

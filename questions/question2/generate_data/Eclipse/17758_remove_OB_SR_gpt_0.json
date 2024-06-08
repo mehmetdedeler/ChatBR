@@ -1,0 +1,8 @@
+{
+  "id": "17758",
+  "title": "Bug 17758[Navigator] Navigator View. Problems with 'Go Into' action",
+  "description": "The 'Go Into' action in the Navigator View is experiencing issues.",
+  "OB": "The 'Go Into' action remains enabled even after opening a project (e.g., org.eclipse.lucene) and selecting a folder (e.g., 'bin') in the Navigator View.",
+  "EB": "The 'Go Into' action should be disabled when a project is closed, and a message or indication, such as 'Project is closed,' should appear in the Navigator View. This would provide a clear visual feedback to the user regarding the project's status.",
+  "SR": "To reproduce the issue:\n1. Open a project in the Navigator View.\n2. Select a folder within the project, e.g., 'bin'.\n3. Observe that the 'Go Into' action remains enabled, even though it should be disabled when the project is closed."
+}

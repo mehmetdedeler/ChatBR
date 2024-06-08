@@ -1,0 +1,6 @@
+{"id": "2694",
+  "title": "Bug 2694Editor Selection Dialog: UI suggestions (1GI6RPE)",
+  "description": "Bug 2694Editor Selection Dialog: UI suggestions (1GI6RPE) press Add for the associated editors. a. Multiple selection could be enabled. c. The default entry in the associated editors list could be marked (default) (see perspectives). NOTES: KLM (10/10/2001 1:54:57 PM) Also: f. Need a width hint for the dialog. g. Why does the File editors Pref page grow in height when it is selected, but no other pages do the same? I currently have fixes for a, c, f. Need to release. KLM (10/10/2001 5:58:58 PM) released fixes for a, c, f, g",
+  "OB": "The 'Add' button adds a hidden entry. The associated editors list shows entries that are already existing and should not be available for selection.",
+  "EB": "'Add' should not add a hidden entry. Entries already existing in the associated editors should not be available for selection.",
+  "SR": "1. Open the Editor Selection Dialog.\n2. Press the 'Add' button for the associated editors.\n3. Observe that there is no selection but the 'OK' button is still enabled."}

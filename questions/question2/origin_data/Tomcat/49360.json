@@ -1,0 +1,1 @@
+{"bug_id": "49360", "title": "Bug 49360Context class reload fails for PersistentManager", "description": "On context class reload tomcat fails withLifecycleException:An invalid Lifecycle transition was attempted ([beforestart]) for component [org.apache.catalina.session.PersistentManager[/xxx]] in state [DESTROYED]"}

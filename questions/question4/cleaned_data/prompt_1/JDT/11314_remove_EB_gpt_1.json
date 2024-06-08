@@ -1,0 +1,8 @@
+{
+  "id": "11314",
+  "title": "Bug 11314: Replace package name fragments should always be smaller",
+  "description": "The 'Replace package name fragments with:' field in the preferences (Java Work in progress) is currently exhibiting unexpected behavior. When attempting to replace package name fragments, 'com.ibm.foobar' is replaced with 'co~.ib~.foobar'. It's expected that package name compression should only occur if the compressed name is smaller. In this case, 'com.' should not be replaced as 'co~.' is the same length and contains less information.",
+  "OB": "In the 'Replace package name fragments with:' field in the preferences (Java Work in progress), 'com.ibm.foobar' is replaced with 'co~.ib~.foobar'.",
+  "EB": "The expected behavior is that package name compression should only replace a fragment if the compressed name is actually smaller. Thus, 'com.' should not be replaced in this example, since 'co~.' is the same length and contains less information.",
+  "SR": "Build 20020214: Enter '2~.' in the 'Replace package name fragments with:' field."
+}

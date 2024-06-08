@@ -1,0 +1,8 @@
+{
+  "id": "13189",
+  "title": "Context Menu Overridden by Deletion Confirmation Dialog",
+  "description": "The context menu for refactoring and deleting fields is overridden by a message dialog, which doesn't allow proper interaction.",
+  "OB": "When attempting to use the context menu for refactoring and deleting fields, no context menu is shown. Instead, a deletion confirmation dialog appears right away, asking if the getter/setter should also be deleted.",
+  "EB": "The expected behavior is to have a functional context menu for refactoring and deleting fields, which allows users to perform these actions without immediate confirmation dialogs.",
+  "SR": "To reproduce the issue:\n1. Enable the option 'Code Generator: Remove prefix from field names'.\n2. Open 'TestCase.java'.\n3. In the outliner, right-click on 'fName'."
+}

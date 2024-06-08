@@ -1,0 +1,1 @@
+{"bug_id": "91417", "title": "Bug 91417Xreweavable should be the default", "description": "In order to facilitate widespread use of LTW we need to ensure code iscompiled with \u2013Xreweavable. However we cannot rely on developers to use thisflag so it must be the default. Unfortunately the current code bloat isunacceptable for large projects."}

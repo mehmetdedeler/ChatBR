@@ -1,0 +1,11 @@
+{
+  "id": "38131",
+  "title": "Bug 38131ajc needs -d option while correctly compiling classes from subpackage",
+  "description": "Bug 38131ajc needs -d. I am using 1.1rc1. This is a regression since rc1 and a deviation from javac. I am guessing this may have to do something with a change in the underlying Eclipse compiler. Create a class in a subpackage such as:\npackage subpackage;\npublic class Test {\npublic static void main(String[] args) {\nSystem.out.println(\"Hello\");\n}\n}\nThen compile using the following command: ajc subpackage\\Test.java\nYou will see a directory \"subpackage\" created under the existing \"subpackage\" directory. subpackage\\Test.java or javac subpackage\\Test.java. No big deal, really.",
+  "OB": "When compiling a Java class in a subpackage using the 'ajc' compiler as shown, a directory named \"subpackage\" is created under the existing \"subpackage\" directory.",
+  "EB": "The expected behavior is that the 'ajc' compiler should exhibit the same behavior as the 'javac' compiler.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create a Java class in a subpackage, for example:\n   package subpackage;\n   public class Test {\n       public static void main(String[] args) {\n           System.out.println(\"Hello\");\n       }\n   }\n2. Compile the class using the following command:\n   ajc subpackage\\Test.java\n3. Observe the creation of a directory named \"subpackage\" under the existing \"subpackage\" directory."
+}
+
+
+

@@ -1,0 +1,8 @@
+{
+  "id": "49299",
+  "title": "Incorrect Functionality Regarding Custom Cookie Name and URL Rewriting in Servlet 3.0 Ch.7.1.1",
+  "description": "The documentation in Servlet 3.0 ch.7.1.1 suggests that a custom cookie name should impact URL rewriting.",
+  "OB": "The Reload link is not following the expected URL format based on the custom cookie name; it's displaying an incorrect URL.",
+  "EB": "Expected behavior: Following the guidance in ch.7.1.1, the Reload link should display http://localhost:8080/cookiename/index.jsp;MYSESSIONCOOKIE=658C60E714E9C7C833F4FDA366E0477F.",
+  "SR": "Steps to reproduce: \n1. Set a custom cookie name in the servlet context.\n2. Access the application and generate a session.\n3. Navigate to the Reload link and observe the URL generated."
+}

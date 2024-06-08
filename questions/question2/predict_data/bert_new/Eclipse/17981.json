@@ -1,0 +1,1 @@
+{"id": "17981", "title": "Bug 17981Cycle Actions do not work in German", "description": "Bug 17981Cycle Actions do not work in German I suspect it is because the accelerators are neverexplicitly set. ", "OB": "The Ctrl+F6,F7 and F8 do not work in German. Ctrl+F6 and Ctrl+F7 work sometimesand Ctrl+F8 never works. ", "EB": "", "SR": ""}

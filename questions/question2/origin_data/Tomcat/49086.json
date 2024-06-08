@@ -1,0 +1,1 @@
+{"bug_id": "49086", "title": "Bug 49086Addition of Javadoc for Servlet 3.0 annotations", "description": "Created attachment 25252 [details]Javadoc patch for WebServlet annotationAddition of Javadoc for Servlet 3.0 javax.servlet.annotation package.Several patches to follow."}

@@ -1,0 +1,8 @@
+{
+  "id": "9654",
+  "title": "Bug 9654 - Modify Parameters: Dialog Details",
+  "description": "When modifying parameters, there is an issue with duplicated name validation. Additionally, the first and second columns could be merged incorrectly.",
+  "OB": "The issue with duplicated name validation is not described, and it is unclear how the first and second columns are merged.",
+  "EB": "Duplicated name validation should be performed correctly, and the merging of the first and second columns should be resolved to display the information clearly.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the 'Modify Parameters' dialog.\n2. Attempt to change the name of a parameter to something very long.\n3. Observe that the preview is cut off or not displayed correctly."
+}

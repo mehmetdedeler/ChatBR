@@ -1,0 +1,8 @@
+{
+  "id": "109718",
+  "title": "Bug 109718 - Tips show large content in text item in one line",
+  "description": "When inserting large content in a text item, the tips are displayed in a single line instead of the expected format.",
+  "OB": "When inserting a large amount of content into a text item, the tips are displayed in a single line, making it difficult to read.",
+  "EB": "The expected behavior is that when inserting large content into a text item, the tips should be displayed in a format that allows for easy readability and does not condense the text into a single line.",
+  "SR": "Steps to reproduce:\n1. Open the application and go to the layout editor.\n2. Insert a text item in the layout.\n3. Input the following content:\n'Contents1. MINOR ENHANCEMENTS 32.1 PROVIDE PROPERTY GROUP INFORMATION ON ELEMETNDEFN CLASS 32.2 COMPLETE THE TODO TASKS 32.3 REVIEW RESULT 32.4 MESSAGE FILE ENHANCEMENT 4CURRENTLY WE STORE THE ERROR MESSAGE FOR EXCEPTIONS IN THE MESSAGE.PROPERTYFILE. NEW FEATURES 53.1 RHINO EXPRESSION PARSER 53.2 STRUCTURE TYPE SUPPORT 63.3 NEW SYSTEM 64. QA TEST SUPPORTING 7'.\n4. Save the layout and put the mouse pointer on the text item."
+}

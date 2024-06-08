@@ -1,0 +1,32 @@
+{
+    "id": "chatcmpl-8GA4Tjxodw3mPnylB0Jv75dUPGW00",
+    "object": "chat.completion",
+    "created": 1698862653,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": {
+                    "id": "7734",
+                    "title": "Bug 7734: System can be shut down without savefile warnings",
+                    "description": "",
+                    "OB": "",
+                    "EB": "The system does not provide a 'Do you want to save your file' dialog box when attempting to shut down. It does not give any warnings or options to save the file before shutting down. Instead, it immediately shuts down without any prompts or user intervention.",
+                    "SR": "To reproduce the issue, follow these steps:1. Open a file in the application.2. Make some changes to the file.3. Try to shut down the system.4. Notice that there is no 'Do you want to save your file' dialog box or any options to save the file.5. The system shuts down immediately without any prompts or user intervention."
+                }
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 429,
+        "completion_tokens": 176,
+        "total_tokens": 605
+    },
+    "origin": {
+        "input_prompt": "Your role is a senior software engineer, you are very good at analyzing and writing bug reports.\nIn your bug reports, it is essential to provide clear and informative statements for the following categories:\n- **Observed Behavior (OB):** This section should describe the relevant software behavior, actions, output, or results. Avoid vague statements like \"the system does not work.\"\n- **Expected Behavior (EB):** This part should articulate what the software should or is expected to do, using phrases like \"should...\", \"expect...\", or \"hope...\". Avoid suggestions or recommendations for bug resolution in this section.\n- **Steps to Reproduce (SR):** Include user actions or operations that can potentially lead to reproducing the issue. Use phrases like \"to reproduce,\" \"steps to reproduce,\" or \"follow these steps.\"\nIt is possible that the bug report may lack sufficient details in the OB, EB, and SR sections. In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements. Also, improve the wording of these statements for clarity where possible.\nTo facilitate this process, please provide your responses in JSON format as follows:\n{\"id\": \"\", \"title\": \"\", \"description\": \"\", \"OB\": \"\", \"EB\": \"\", \"SR\": \"\"}",
+        "input_content": "<BUG REPORT>\n{'id': '7734', 'title': 'Bug 7734System can be shut down without savefile warnings', 'description': '', 'OB': '', 'EB': 'provide a “Do you want to save yourfile”, Yes, No, Cancel (which halts the shutdown) dialog box.Expected Behaviour:Should provide a “Do you want to save your file”, Yes, No, Cancel (which haltsthe shutdown) dialog box.One other nice feature might be to allow the applications to control theshutdown/save also or to pop up there own windows that would also (if cancel isselected) allow the user to stop the shutdown. ', 'SR': ''}"
+    }
+}

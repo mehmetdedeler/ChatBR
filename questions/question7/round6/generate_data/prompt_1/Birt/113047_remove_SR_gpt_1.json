@@ -1,0 +1,8 @@
+{
+  "id": "113047",
+  "title": "Bug 113047 - No Children Node Listing When Changing Data Source for a Dataset in Dataset Editor Page of the Query Tab",
+  "description": "",
+  "OB": "Upon changing the data source for a dataset in the dataset editor page of the query tab, no children nodes are listed.",
+  "EB": "Expected behavior is that when changing the data source, the new data source's children should be listed out.",
+  "SR": "Steps to Reproduce:\n1. Create a new dataset without an SQL statement.\n2. The new data source should have no database/table/column information.\n3. Change the data source for the dataset.\n4. Observe that no children nodes are listed.\n5. Close the dataset editor and reopen it.\n6. Verify that the new data source's children are listed."
+}

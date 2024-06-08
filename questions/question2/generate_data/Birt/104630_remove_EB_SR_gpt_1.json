@@ -1,0 +1,8 @@
+{
+  "id": "104630",
+  "title": "Column icons don't show up in connecting derby database",
+  "description": "When attempting to connect to a Derby database, the column icons are not visible as expected.",
+  "OB": "Upon connecting to a Derby database, the column icons are not displayed in the user interface.",
+  "EB": "I expect that when connecting to a Derby database, the column icons should be visible in the user interface, allowing users to interact with the database schema conveniently.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Launch the application.\n2. Go to the 'Database Connections' section.\n3. Click on the 'Connect to Derby Database' option.\n4. Enter the database credentials and click 'Connect'.\n5. Once connected, navigate to the 'Tables' or 'Schema' section.\n6. Observe that the column icons, which typically represent actions like 'View Data' or 'Edit Schema', are not visible as they should be."
+}

@@ -1,0 +1,1 @@
+{"id": "15899", "title": "Bug 15899: Close all saved does not work all the time", "description": "", "OB": "Close all editors", "EB": "When selecting 'Close All Saved' from the file menu", "SR": "Close all editors and create a new file f1.txt. Then, select 'Close All Saved' from the file menu."}

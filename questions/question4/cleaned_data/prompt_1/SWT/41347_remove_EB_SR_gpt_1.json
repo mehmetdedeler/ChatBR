@@ -1,0 +1,8 @@
+{
+  "id": "41347",
+  "title": "Bug 41347 - CCombo firing defaultSelection on mouse list selection",
+  "description": "The current behavior of CCombo firing defaultSelection on mouse list selection is inconsistent with standard Combos and can be confusing for users. A typical user of a combobox would be very surprised to have the dialog dismissed just because the entry was selected.",
+  "OB": "When you drop down the combo list using the mouse and then select an entry with the mouse, the CCombo fires a defaultSelection event. This behavior differs from standard Combos, which do not exhibit this. Consequently, it becomes challenging to distinguish between simply selecting an entry using the mouse and hitting enter from the text field of the CCombo.",
+  "EB": "The CCombo should not fire a defaultSelection event when an entry is selected using the mouse. This aligns with the standard behavior of Combos and ensures a more intuitive and consistent user experience.",
+  "SR": "Ensure that the CCombo component does not trigger a defaultSelection event upon mouse list selection. Verify that the behavior is consistent with standard Combos, where mouse list selection does not result in a defaultSelection event. Update the CCombo implementation accordingly to provide a more user-friendly and predictable interaction."
+}

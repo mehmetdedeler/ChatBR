@@ -1,0 +1,8 @@
+{
+  "id": "37021",
+  "title": "Bug 37021 - Incorrect Source Path in Declare Warning on Binary Files",
+  "description": "When running tests in the 'new/binaryWarnings' directory, there is an issue with declare warning messages for binary files in Java and AspectJ. The problem is related to the source path format used in these messages. It's worth noting that these tests may produce false positives when detecting the error because filename checking is not enabled in the harness verification of messages. This issue was observed in AJDT (AspectJ Development Tools), and it appears that AJDT may omit the filename if it doesn't make sense to it.",
+  "OB": "The declare warning messages for binary files in the 'new/binaryWarnings' directory use the source path format 'app.Main.class' instead of 'app/Main'.",
+  "EB": "The expected behavior is that declare warning messages for binary files should use the source path format 'app/Main' instead of 'app.Main.class'.",
+  "SR": "To reproduce this issue:\n1. Go to the 'new/binaryWarnings' directory in the codebase.\n2. Run tests targeting .class files from injars.\n3. Observe the format of the source path in the declare warning messages, which should be 'app/Main' but are currently 'app.Main.class'."
+}

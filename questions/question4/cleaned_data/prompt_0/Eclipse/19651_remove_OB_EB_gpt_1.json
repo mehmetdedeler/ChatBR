@@ -1,0 +1,8 @@
+{
+  "id": "19651",
+  "title": "Bug 19651 - Team menu disappears from Hierarchy and Packages view.",
+  "description": "Team menu disappears in the Hierarchy and Packages view. It was observed in step 9. Note: TestClass.java is not in any CVS repository, but the issue was first noticed with a file managed by CVS.",
+  "OB": "Team menu is not available in the package view after performing specific actions.",
+  "EB": "The Team menu should consistently appear in the package view after performing the described actions in the given steps.",
+  "SR": "Steps to Reproduce:\n1. Open Eclipse with a new workspace.\n2. Switch to the Java perspective and close the resource perspective.\n3. Create a Java Project named 'TestProject'.\n4. Create a Java class named 'TestClass'.\n5. Paste the provided code into 'TestClass' and save it.\n6. Change the preference 'WorkbenchPerspective' to open the perspective in a new window.\n7. Change the preference 'Java' to 'Open a new Type Hierarchy Perspective'.\n8. Exit the workbench and restart it.\n9. Select 'TestClass' (the class, not the unit) in the package view and right-click to open the popup menu. The Team menu is present but disabled.\n10. Exit the workbench and restart it again.\n11. Select the word 'InnerClass' in the text editor and press F4.\n12. Right-click in the new hierarchy view. The Team menu is not present, which is expected for an inner class.\n13. Select the word 'TestClass' in the new text editor and press F4. The Team menu is not present, but it should be since it is not an inner class.\n14. With three opened windows, close the two new windows.\n15. Select 'TestClass' in the package view and right-click to open the popup menu. The Team menu is not present anymore."
+}

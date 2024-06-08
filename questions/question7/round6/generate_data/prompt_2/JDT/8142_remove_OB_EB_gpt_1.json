@@ -1,0 +1,8 @@
+{
+  "id": "8142",
+  "title": "No Scoped Type Hierarchy on Binary Projects",
+  "description": "When attempting to access scoped type hierarchy on binary projects, the functionality appears inaccessible or non-functional, leading to confusion.",
+  "OB": "Upon pressing F4 on a binary project selection, the scoped type hierarchy fails to display or function as expected.",
+  "EB": "When pressing F4 on a binary project selection, the scoped type hierarchy should accurately display and function, allowing users to navigate through the project's types.",
+  "SR": "Steps to reproduce:\n1. Open a binary project.\n2. Select any file within the project.\n3. Press the F4 key to access the scoped type hierarchy."
+}

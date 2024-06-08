@@ -1,0 +1,8 @@
+{
+  "id": "11306",
+  "title": "Bug 11306 - New class wizard launches simple project wizard",
+  "description": "When there are no existing projects, the dialog prompts the user to create a new project, which is very handy.",
+  "OB": "Upon selecting 'yes' in response to creating a new project, the resulting dialog displays the first page of the generic new project wizard instead of opening the Java Project wizard as expected in the Java Class wizard.",
+  "EB": "When answering 'yes' to create a new project in the New Class wizard, the Java Class wizard should correctly open the Java Project wizard.",
+  "SR": "1. Launch the application and ensure there are no existing projects. 2. Trigger the New Class wizard. 3. Respond 'yes' when prompted to create a new project. 4. Observe that the resulting dialog opens the first page of the generic new project wizard instead of the expected Java Project wizard."
+}

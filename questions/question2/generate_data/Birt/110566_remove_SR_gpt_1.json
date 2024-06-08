@@ -1,0 +1,8 @@
+{
+"id": "110566",
+"title": "Wrong Data Set Result Returned When Setting an Invalid Filter Expression for row[0]",
+"description": "When a filter like 'row[0] equals to 0' is set, it returns null result set.",
+"OB": "The bug is observed when setting an invalid filter expression for 'row[0]' in the data set. Steps to reproduce: 1. Set a filter in the data set with 'row[0] equals to 0'. 2. Click on the 'Preview' tab. Actual Result: The first result record is returned when previewing. Expected Result: The developer has stated that 'row[0]' can only be generated after all the data has been fetched, so it can't be used as a filter expression.",
+"EB": "When setting such an invalid filter expression, a relevant error message should pop up to inform the user about the issue.",
+"SR": "1. Open the data set. 2. Set a filter with the expression 'row[0] equals to 0'. 3. Click on the 'Preview' tab to reproduce the issue."
+}

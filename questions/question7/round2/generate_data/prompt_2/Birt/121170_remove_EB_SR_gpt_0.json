@@ -1,0 +1,1 @@
+{"id": "121170", "title": "get_column_label_from_metadata_object does not return user recognizable strings", "description": "", "OB": "Before extraction, the labels returned by the get_column_label_from_metadata_object function are null. However, after extraction, the labels are recognizable strings.", "EB": "", "SR": ""}

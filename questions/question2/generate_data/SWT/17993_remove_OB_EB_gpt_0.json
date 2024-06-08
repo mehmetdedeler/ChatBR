@@ -1,0 +1,8 @@
+{
+  "id": "17993",
+  "title": "Bug 17993 Find/Replace shouldn't replace typed entry with value from history",
+  "description": "The bug report suggests that the Find/Replace feature is behaving like an autocomplete, automatically replacing typed entries with values from the history.",
+  "OB": "The observed behavior is appears to involve the Find/Replace feature automatically replacing typed entries with values from the history, similar to autocomplete.",
+  "EB": "The expected behavior is that the Find/Replace feature should not automatically replace typed entries with values from the history. Users should be able to type their entries without automatic replacements. Case sensitivity should be maintained in user input. Users can choose values from the history if they wish, but it should not be done automatically.",
+  "SR": "To reproduce the issue:\n1. Use the software's Find/Replace feature.\n2. In the 'Find' or 'Replace With' fields, type 'hello' and replace it with 'hi'.\n3. Then, search for 'Hello' and try to replace it with 'Hi'.\n4. Note that it's not possible to perform this operation.\n5. Choose Edit > Find/Replace...\n6. Type 'a' into the 'Find' field and click 'Find'.\n7. Try to type 'A' into the 'Find' field."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "2384", "title": "Bug 2384getFieldEditorParent() should be create... (1GEV3FC)", "description": "org.eclipse.jface.preference.FieldEditorPreferencePage.getFieldEditorParent()should be named createFieldEditorParent since it may create a new parent each time.NOTES:"}

@@ -1,0 +1,8 @@
+{
+  "id": "18335",
+  "title": "Bug 18335: Perspective contents lost when view is maximized",
+  "description": "When using the software, I encountered an issue where the contents of a perspective are lost when the view is maximized. This behavior is unexpected and causes data loss.",
+  "OB": "When I switch to another perspective and then exit the workbench, the perspective with the maximized view loses its contents.",
+  "EB": "I expect that when I switch to another perspective and then exit the workbench, the perspective with the maximized view should retain its contents. The data in the maximized view should not be lost.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the workbench.\n2. Switch to a perspective.\n3. Maximize the view within the perspective.\n4. Switch to another perspective.\n5. Exit the workbench.\n6. Open the workbench again.\n7. Switch to the perspective with the maximized view. The contents should be lost at this point."
+}

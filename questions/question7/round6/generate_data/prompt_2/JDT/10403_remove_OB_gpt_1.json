@@ -1,0 +1,8 @@
+{
+  "id": "10403",
+  "title": "Bug 10403: Project creation confirmation for scrubbing bin directory",
+  "description": "When creating a new project for an existing directory structure, there is a need to confirm the ability to delete and rebuild the output directory, especially when users set the output folder to a bin directory that may contain more than just .class files.",
+  "OB": "No confirmation or warning is displayed when attempting to create a project with the output folder set to a bin directory that contains additional files beyond .class files.",
+  "EB": "Upon project creation, there should be a confirmation prompt ensuring that the bin directory, if chosen as the output folder, can be safely deleted and rebuilt.",
+  "SR": "1. Open the application and navigate to the project creation wizard.\n2. Select an existing directory structure as the project location.\n3. Set the output folder to a bin directory containing various files, not just .class files.\n4. Complete the project creation process.\n5. Observe the absence of a confirmation prompt regarding the ability to scrub the bin directory.\n6. Expected: A confirmation dialog should appear, ensuring the user's awareness of the bin directory's contents and the ability to delete and rebuild it."
+}

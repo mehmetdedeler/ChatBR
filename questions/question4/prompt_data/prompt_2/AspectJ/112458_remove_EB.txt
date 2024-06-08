@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '112458', 'title': 'Bug 112458Property Editor still shows the properties of layout items when switch to Master page viewer.', 'description': 'Bug 112458Property Editor still shows the properties of layout items when switch to Master page viewer. Description:Property Editor still shows the properties of layout items when switch toMaster page viewer.Steps to reproduce:1. ', 'OB': 'This will confuse customers if theythought it as Master Page Editor and set properties without click Master Pageviewer at first. ', 'EB': '', 'SR': "New a report and insert a label.2. Select the label. (Property Editor shows label's properties)3. "}
+</BUG REPORT>

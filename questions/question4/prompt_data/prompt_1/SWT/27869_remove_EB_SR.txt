@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '27869', 'title': 'Bug 27869StyledText overuse of Font.getFontData', 'description': 'Bug 27869StyledText overuse of Font.getFontData Btw, UTF8is the default english encoding for Redhat 8.FontMetrics API is also very used by the StyledText, I believe that the metricinformation should be cached in the StyledText and update only when the font ischanged. ', 'OB': "Running eclipse, using the Java Editor: A single key stroke can cause the APIFont.getFontData() to be called 13 times. This API is also overused when we are scrolling the StyledText andselecting text. Each Font has 7 FontData, therefore everytime I type 'a' in the JavaEditor 91 (713) FontData will be loaded. ", 'EB': '', 'SR': ''}
+</BUG REPORT>

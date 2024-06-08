@@ -1,0 +1,8 @@
+{
+  "id": "49235",
+  "title": "Bug 49235: ServletContainerInitializer onStartup(Set<Class<? classSet is not expected class",
+  "description": "Bug 49235: ServletContainerInitializer onStartup(Set<Class<? The output is \"MySomeClass\".",
+  "OB": "The observed behavior is that the output of the ServletContainerInitializer onStartup method is \"MySomeAnn\" instead of the expected \"MySomeClass\".",
+  "EB": "The expected behavior is that the output should be \"MySomeClass\".",
+  "SR": "To reproduce:\n1. Run the ServletContainerInitializer onStartup method with a set of classes."
+}

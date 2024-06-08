@@ -1,0 +1,8 @@
+{
+  "id": "121170",
+  "title": "Bug 121170 - Inconsistent Column Labels in Meta Data",
+  "description": "The software is experiencing an issue related to the retrieval of column labels from the meta data object.",
+  "OB": "Prior to data extraction, when calling IMetaData.getColumnLabel(), the returned labels are null. However, after data extraction, the labels are recognizable strings.",
+  "EB": "We expect that calling IMetaData.getColumnLabel() should return recognizable strings for column labels both before and after data extraction.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the software.\n2. Load a dataset.\n3. Call IMetaData.getColumnLabel() before data extraction.\n4. Note that the returned labels are null.\n5. Extract the data from the dataset.\n6. Call IMetaData.getColumnLabel() again after extraction.\n7. Observe that the labels are now recognizable strings."
+}

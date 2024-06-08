@@ -1,0 +1,8 @@
+{
+  "id": "20249",
+  "title": "Bug 20249 [Help] Change Editor/View/Perspective F1 Help",
+  "description": "When the change editor menu is open and F1 is pressed, the help window briefly appears but immediately closes, preventing the user from reading its contents. If F1 is intended to provide help for the change editor menu, the help window should remain open for the user to read.",
+  "OB": "When the change editor menu is open, pressing F1 will display some help. However, the help window closes immediately, before the contents can be read. If there is supposed to be F1 defined for the change editor menu, then the help window should stay open for the user to read.",
+  "EB": "Pressing F1 when the change editor menu is open should display help content in a stable window that remains open until manually closed by the user.",
+  "SR": "1. Open the change editor menu.\n2. Press the F1 key.\n3. Observe the help window briefly appearing and then immediately closing."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "121170",
+  "title": "Column Labels Not Recognizable Before Extraction",
+  "description": "When attempting to get column labels from a metadata object, the labels returned are null before extraction and recognizable strings after extraction.",
+  "OB": "Before extraction, the labels returned are null, while the ones after extraction are recognizable strings.",
+  "EB": "When getting column labels from a metadata object, the expected behavior is that the labels should be recognizable strings both before and after extraction. Since the labels need to be displayed to the end user before doing the extraction, 'getcolumnlabel' before extraction should also return the same labels as after extraction.",
+  "SR": "To reproduce the issue:\n1. Open the application and load a dataset with metadata.\n2. Attempt to retrieve the column labels from the metadata object before performing any data extraction."
+}

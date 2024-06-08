@@ -1,0 +1,1 @@
+{"id": "108822", "title": "More robust logic is expected to process disk sorting when there is a border value for row value", "description": "", "OB": "When sorting on disk, if the sort is performed on a dataset of 40000 rows and the program is configured to process the data less than 40000 rows, the program performs certain operations.", "EB": "", "SR": ""}

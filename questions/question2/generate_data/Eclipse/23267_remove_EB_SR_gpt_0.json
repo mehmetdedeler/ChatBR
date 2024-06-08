@@ -1,0 +1,8 @@
+{
+  "id": "23267",
+  "title": "Bug 23267[Import/Export] Import Project should have a default folder",
+  "description": "When importing an existing Eclipse project on XP and clicking the Browse button, I get a dialog that does not have a good default folder. It shows me the desktop, my computer, etc. If none, it could point to the default content location.",
+  "OB": "When attempting to import an existing Eclipse project on Windows XP and clicking the 'Browse' button, the file dialog opens without a useful default folder. Instead, it displays options like the desktop and 'My Computer'. There is no preselected default folder, and it should ideally point to the default content location.",
+  "EB": "I expect that when I initiate the import of an existing Eclipse project and click the 'Browse' button, the file dialog should provide a default folder that points to the default content location for the project.",
+  "SR": "To reproduce this issue:\n1. Launch the Eclipse application on a Windows XP machine.\n2. Navigate to the 'Import/Export' feature within the application.\n3. Select 'Import Project.'\n4. When prompted to choose a project file, click the 'Browse' button.\n5. Observe that the file dialog does not have a suitable default folder, and instead, it displays options like the desktop and 'My Computer'." 
+}

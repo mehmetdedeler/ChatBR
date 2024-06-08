@@ -1,0 +1,8 @@
+{
+  "id": "3622",
+  "title": "New Package Wizard has confusing message",
+  "description": "The New Package Wizard displays a confusing message when creating a new package in the Java IDE.",
+  "OB": "When invoking the New Java Package wizard, the following message appears at the top: 'A folder corresponding to the package name already exists.' This message is displayed even when the package name field is empty.",
+  "EB": "When invoking the New Java Package Wizard, there should be no message when the package name field is empty. If a message is necessary, it should be a warning and displayed in a different style (e.g., red text) with a corresponding warning icon.",
+  "SR": "To reproduce the issue:\n1. Open the Java IDE.\n2. Go to the New Java Package Wizard.\n3. Leave the package name field empty and attempt to create a new package. The confusing message should appear."
+}

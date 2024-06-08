@@ -1,0 +1,8 @@
+{
+  "id": "28974",
+  "title": "Bug 28974: Compiler error when introducing a 'final' field",
+  "description": "When introducing a 'final' field in the code, a compiler error occurs with no source information available.",
+  "OB": "A compiler error occurs when introducing a 'final' field in the code with no source information available.",
+  "EB": "To resolve this issue, the software should enable and disable the creation of type comments in the 'WindowPreferences' under 'Java Code Generation.'",
+  "SR": "1. Open the software.\n2. Go to 'WindowPreferences.'\n3. Navigate to 'Java Code Generation.'\n4. Find the option to enable and disable the creation of type comments.\n5. Adjust the setting as needed to resolve the bug."
+}

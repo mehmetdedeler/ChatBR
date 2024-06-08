@@ -1,0 +1,8 @@
+{
+  "id": "27869",
+  "title": "Bug 27869 StyledText Font.getFontData Performance Issue",
+  "description": "The StyledText component in Redhat 8 seems to overuse Font.getFontData, causing performance issues. It's worth noting that UTF-8 is the default English encoding for Redhat 8. The FontMetrics API is also heavily utilized by StyledText. I suggest that the metric information should be cached within StyledText and updated only when the font is changed.",
+  "OB": "The performance of the StyledText component is significantly degraded on Redhat 8 due to the frequent use of Font.getFontData, especially when using the Motif interface and running with UTF-8 encoding. This can result in poor user experience and responsiveness.",
+  "EB": "The performance issue in StyledText should be resolved by optimizing the use of Font.getFontData. The metric information within StyledText should be cached, reducing the number of calls to Font.getFontData and improving overall performance on Redhat 8. Users should experience smoother performance when using the Motif interface with UTF-8 encoding.",
+  "SR": "To reproduce the performance issue: \n1. Add a 'system.out.println' statement at the beginning of the 'getFontData' method within the Font class.\n2. Run a self-hosted Eclipse environment on Redhat 8.\n3. Observe the console output for the performance of the 'getFontData' method when using the Motif interface with UTF-8 encoding."
+}

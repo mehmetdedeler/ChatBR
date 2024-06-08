@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "Improvement needed for sorting logic with border row values",
+  "description": "The current logic for sorting data on disk when there is a border value for row count needs improvement.",
+  "OB": "The current sorting logic for data on disk is not optimal, especially when there is a border value for row count. It involves unnecessary steps and is inefficient.",
+  "EB": "A more efficient logic for sorting data on disk is expected. It should be capable of handling border values for row count. The improved logic should sort the data directly in memory and then write it to the file.",
+  "SR": "To reproduce the issue and observe the inefficiency of the current sorting logic:\n1. Initiate a sorting operation on disk for a dataset with 40,000 rows.\n2. Ensure that the program processes the data for fewer than 40,000 rows.\n3. During the sorting process, observe the following steps:\n   a. The program saves the data to a temporary file.\n   b. The program loads the data into memory.\n   c. The program performs the sorting operation.\n   d. The program saves the sorted data to a temporary file."
+}

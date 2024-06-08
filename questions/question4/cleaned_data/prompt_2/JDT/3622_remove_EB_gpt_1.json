@@ -1,0 +1,8 @@
+{
+  "id": "3666",
+  "title": "Bug 3666 - Code Completion Eating Code",
+  "description": "Code completion is consuming excessive code in certain cases, causing an incorrect program behavior. The enclosed class demonstrates the issue where adding a parameter to the 'baz' call within 'bar' is necessary for program correctness. The code assist option affecting the replacement amount needs clarification.",
+  "OB": "The code currently changes the statement 'baz(x.foo());' to 'baz(x.foo()x.foo());' when it should produce 'baz(x.x.foo());'.",
+  "EB": "The expected behavior is for the code assist to replace the code appropriately, resulting in 'baz(x.x.foo());'.",
+  "SR": "To reproduce the issue:\n1. Modify the 'baz' call in the 'bar' method to 'baz(x.x.foo());'.\n2. Place the cursor after the first 'x.'.\n3. Use Ctrl + Space to invoke code assist.\n4. Filter the list by typing 'f'.\n5. Select 'foo()' from the filtered list."
+}

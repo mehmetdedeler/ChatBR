@@ -1,0 +1,1 @@
+{"id": "11968", "title": "Bug 11968ActionContributionItem update not working correctly", "description": "Bug 11968ActionContributionItem update not working correctly ", "OB": "The update method was failing to set the enablement correctly in the case of anewly made item. ", "EB": "", "SR": ""}

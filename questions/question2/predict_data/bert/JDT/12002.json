@@ -1,0 +1,1 @@
+{"id": "12002", "title": "Bug 12002TestCase wizard: error when pressing finish with an empty test name", "description": "", "OB": "", "EB": " the finish button should be disabled when the test name field is empty", "SR": " Bug 12002TestCase wizard: error when pressing finish with an empty test name"}

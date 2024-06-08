@@ -1,0 +1,1 @@
+{"id": "20258", "title": "Bug 20258[CVS] Esc key doesn't work on Commit Dialog", "description": "Bug 20258[CVS] Esc key doesn't work on Commit Dialog ", "OB": "Using F3, the Esc key doesn't close the Commit Dialog. ", "EB": "", "SR": ""}

@@ -1,0 +1,1 @@
+{"id": "10570", "title": "Bug 10570ast: CatchClause has incorrect startingPoint", "description": " Bug 10570ast: CatchClause has incorrect startingPoint CatchClause begins on the 'e' temp here:package p;class A{void m(){try{} catch (Exception e){m();}}}", "OB": "", "EB": "", "SR": ""}

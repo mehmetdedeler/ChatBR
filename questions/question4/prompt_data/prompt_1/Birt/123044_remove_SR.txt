@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '123044', 'title': "Bug 123044Preview attached file in PDF and the page break in the first item didn't happen.", 'description': "Description:Preview attached file in PDF and the page break in the first item didn't happen.Steps to reproduce:1. ", 'OB': "Bug 123044Preview attached file in PDF and the page break in the first item didn't happen. ", 'EB': "Preview in PDF.Expected result:The first page should be blank because the first item set pagebreakbefore to always.Actual result:The page break before action didn't happen. ", 'SR': ''}
+</BUG REPORT>

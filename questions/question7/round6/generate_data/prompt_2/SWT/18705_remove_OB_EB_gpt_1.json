@@ -1,0 +1,8 @@
+{
+  "id": "18705",
+  "title": "Excessive Flashing in Control Example",
+  "description": "Excessive flashing occurs in the Control Example.",
+  "OB": "When resizing the window vertically in the Control Example, all tabs in the TabFolder and Frames flash excessively.",
+  "EB": "The tabs in the TabFolder and Frames should resize smoothly without excessive flashing when the window is resized vertically.",
+  "SR": "Steps to reproduce:\n1. Open the Control Example.\n2. Resize the window vertically only.\n3. Observe the excessive flashing in all tabs within the TabFolder and Frames."
+}

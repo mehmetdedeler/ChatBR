@@ -1,0 +1,32 @@
+{
+    "id": "chatcmpl-8G97MDVIcszzw6WTFvQrO4xrzINA9",
+    "object": "chat.completion",
+    "created": 1698858988,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": {
+                    "id": "122584",
+                    "title": "Bug 122584 - Cascading parameter values not displayed properly in HTML viewer",
+                    "description": "Description: Cascading parameter values are not displayed properly in the HTML viewer.\n\nSteps to reproduce: Follow these steps to reproduce the issue:\n1. [Please provide the missing steps here]",
+                    "OB": "The second parameter value in the same cascading parameter group is not displayed in the HTML viewer.",
+                    "EB": "Selecting the first parameter value should result in the proper display of the corresponding second parameter value in the same cascading parameter group in the HTML viewer.",
+                    "SR": "1. [Please provide the missing steps to reproduce the issue here]"
+                }
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 389,
+        "completion_tokens": 147,
+        "total_tokens": 536
+    },
+    "origin": {
+        "input_prompt": "Your role is a senior software engineer, you are very good at analyzing and writing bug reports.\nIn your bug reports, it is essential to provide clear and informative statements for the following categories:\n- **Observed Behavior (OB):** This section should describe the relevant software behavior, actions, output, or results. Avoid vague statements like \"the system does not work.\"\n- **Expected Behavior (EB):** This part should articulate what the software should or is expected to do, using phrases like \"should...\", \"expect...\", or \"hope...\". Avoid suggestions or recommendations for bug resolution in this section.\n- **Steps to Reproduce (SR):** Include user actions or operations that can potentially lead to reproducing the issue. Use phrases like \"to reproduce,\" \"steps to reproduce,\" or \"follow these steps.\"\nIt is possible that the bug report may lack sufficient details in the OB, EB, and SR sections. In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements. Also, improve the wording of these statements for clarity where possible.\nTo facilitate this process, please provide your responses in JSON format as follows:\n{\"id\": \"\", \"title\": \"\", \"description\": \"\", \"OB\": \"\", \"EB\": \"\", \"SR\": \"\"}",
+        "input_content": "<BUG REPORT>\n{'id': '122584', 'title': \"Bug 122584Cascading parameter values can't be displayed properly in html viewer.\", 'description': \"Description: Cascading parameter values can't be displayed properly in html viewer.Steps to reproduce:1. \", 'OB': '', 'EB': 'Select the first parameter value and expect that the second parameter value in the same cascading parameter group could be displayed, but it is not displayed. ', 'SR': ''}"
+    }
+}

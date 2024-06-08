@@ -1,0 +1,1 @@
+{"id": "12449", "title": "Bug 12449delete action in type hierarchy is not registered on 'del' key", "description": " Bug 12449delete action in type hierarchy is not registered on 'del' key", "OB": "", "EB": " TypeHierarchyViewPart should call ReorgGroup.createDeleteActionsee PackageExplorerViewPart", "SR": ""}

@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '27869', 'title': 'Bug 27869StyledText overuse of Font.getFontData', 'description': ' Bug 27869StyledText overuse of Font.getFontData Btw, UTF8is the default english encoding for Redhat 8.FontMetrics API is also very used by the StyledText, I believe that the metricinformation should be cached in the StyledText and update only when the font ischanged.', 'OB': '', 'EB': " I believe, and many people agree,that this API don't need to be used at all by the StyledText when it's beentyped.", 'SR': ' Try to add system.out.println in the first line of methodFontgetFontData, run a selfhosted eclipse, watch the console.I concerned about this problem cause in some platform the performance of thismethod is very pour if compared with Windows.For example, Motif running on UTF8.'}
+</BUG REPORT>

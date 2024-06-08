@@ -1,0 +1,8 @@
+{
+  "id": "42225",
+  "title": "Bug 42225 - Issue with Ctrl+Backspace Key Assignment",
+  "description": "This bug report addresses difficulties in assigning a command to the Ctrl+Backspace key combination.",
+  "OB": "The observed behavior is that the keybinding manager mistakenly interprets Ctrl+Backspace as Ctrl+Del, leading to the deletion of the next word. When attempting to reassign the key via the key preference page, it incorrectly displays Ctrl+Del when Ctrl+Backspace is pressed. This behavior occurs when using a Swiss German keyboard with Swiss German Locale.",
+  "EB": "The expected behavior is that users should be able to assign a command to Ctrl+Backspace without any misinterpretation by the keybinding manager. It should correctly identify Ctrl+Backspace as the desired key combination. Users with a Swiss German keyboard and Swiss German Locale should not encounter issues when customizing key assignments.",
+  "SR": "To replicate the issue:\n1. Utilize a Swiss German keyboard with Swiss German locale settings.\n2. Open the keybinding manager or key preference page in the software.\n3. Attempt to assign a command to Ctrl+Backspace.\n\nDesired Outcome: The keybinding manager should accurately recognize and accept Ctrl+Backspace as the selected key combination.\n\nActual Outcome: The keybinding manager misinterprets Ctrl+Backspace as Ctrl+Del, resulting in the deletion of the next word, and incorrectly displays Ctrl+Del when trying to reassign the key."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "31566", "title": "Bug 31566FontData \"equals()\" and \"hashcode()\" methods do not consider height of the the fontdata", "description": "Checking the height of logfont is not enough.The height attribute should alsobe considered when equating two fontdatas and in hashcode."}

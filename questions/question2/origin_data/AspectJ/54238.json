@@ -1,0 +1,1 @@
+{"bug_id": "54238", "title": "Bug 54238Restore build cancelling to Swingbased IDEs", "description": "Core compiler implementation changes have resulted in an incompatability withAJDE's build cancelling mechanism.Once the core canceling behaviorstabilizes this needs to be restored."}

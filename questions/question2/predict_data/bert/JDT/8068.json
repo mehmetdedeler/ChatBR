@@ -1,0 +1,1 @@
+{"id": "8068", "title": "Bug 8068search: missing working set names on 'seearch for implementors'", "description": " Bug 8068search: missing working set names on 'seearch for implementors'", "OB": "", "EB": "", "SR": " select sth in the editor,open the context menu,go to: searchnote: in all 5 entires there are names of working sets you definedexcept for: 'implementors'"}

@@ -1,0 +1,1 @@
+{"bug_id": "119357", "title": "Bug 119357Description in \"New Template\"dialog is not correct.", "description": "Description: Description in \"New Template\"dialog is not correct.Steps to reproduce:1. Create a template.2. See its description, it shows \"New Report\"."}

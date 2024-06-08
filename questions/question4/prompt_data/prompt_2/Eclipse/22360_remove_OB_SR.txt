@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '22360', 'title': 'Bug 22360[Fonts] FontRegistry can not instantiated using resources outside org.eclipse.jface.resource', 'description': 'Bug 22360[Fonts] FontRegistry can not instantiated using resources outside org.eclipse.jface.resource Therefore all the resourcesthat are being looked up are the only ones relative to the location of theFontRegistry classorg.eclipse.jface.resource path.It can be remedied if FontRegistry took a client class (or class loader) as anadditional parameter to the constructor. ', 'OB': '', 'EB': 'Alternatively it can allow clients toload their own resource bundle and take it as a parameter to the constructor(Vs. name of the bundle). ', 'SR': ''}
+</BUG REPORT>

@@ -1,0 +1,8 @@
+{
+  "id": "22839",
+  "title": "Bug 22839 - Incorrect Colors in SWT Windows When Focused",
+  "description": "The provided code and description are unrelated to the bug report. Please provide relevant information about the issue.",
+  "OB": "The observed behavior is not mentioned in the bug report. Please provide details about what you are experiencing.",
+  "EB": "To enable and disable the creation of type comments, go to WindowPreferencesJavaCode Generation.",
+  "SR": "Steps to reproduce the issue are missing. Please provide clear and complete steps to replicate the problem."
+}

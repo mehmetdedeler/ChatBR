@@ -1,0 +1,1 @@
+{"bug_id": "15727", "title": "Bug 15727There are 2 WizardNewProjectCreationPages", "description": "We have a class called WizardNewProjectCreationPage in bothorg.eclipse.ui.dialogs and org.eclipse.ui.internal.dialogs. The internal oneshould be removed and replaced with the main one."}

@@ -1,0 +1,8 @@
+{
+  "id": "19458",
+  "title": "Bug 19458[Navigator] Copy Project dialog UI problems",
+  "description": "Bug 19458[Navigator] Copy Project dialog UI problems this is inred text.",
+  "OB": "Upon choosing the project name 'test,' a static text validation error appears on the 'Copy Project' dialog.",
+  "EB": "The static text validation error should not appear when selecting the project name 'test.'",
+  "SR": "To reproduce the issue:\n1. Create a single project with the name 'test'.\n2. Copy and paste the project.\n3. In the 'Copy Project' dialog:\n   a. Ensure that the 'Use Default Location' option is checked.\n   b. You should still be able to select or copy the default location from the edit box below.\n   c. Allow choosing a path close to the default location if desired."
+}

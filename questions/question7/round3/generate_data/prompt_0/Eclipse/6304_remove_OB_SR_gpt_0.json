@@ -1,0 +1,1 @@
+{"id": "6304", "title": "Bug 6304 cannot sync a .java file and another resource", "description": "", "OB": "When opening the context menu, the 'Team' entry is not present.", "EB": "The 'Team' entry should be available in the context menu.", "SR": "To reproduce:\n1. Open the context menu."}

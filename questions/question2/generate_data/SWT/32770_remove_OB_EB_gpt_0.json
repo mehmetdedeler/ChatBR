@@ -1,0 +1,8 @@
+{
+  "id": "32770",
+  "title": "Bug 32770 - Improving Error Message for Java Application Launch",
+  "description": "This bug report highlights an issue with the error message that is displayed during a Java application launch. The report suggests improving the quality of the error message to make it more helpful for users.",
+  "OB": "The bug report lacks specific information about the observed behavior.",
+  "EB": "The expected behavior is to enhance the quality of the error message to provide users with more informative and actionable guidance when encountering errors during Java application launches.",
+  "SR": "To replicate the issue:\n1. Open a Java file that contains a main method.\n2. Select a non-resource-based view, such as the Debug view.\n3. Click on 'Debug As' and choose 'Java Application' from the options."
+}

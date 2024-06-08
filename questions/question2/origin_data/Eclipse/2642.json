@@ -1,0 +1,1 @@
+{"bug_id": "2642", "title": "Bug 2642Can delete ListViewer.getSelection() (1GHHBK2)", "description": "It has the same behavior as StructuredViewer.getSelection(),and doesn't introduce any spec changes.NOTES:"}

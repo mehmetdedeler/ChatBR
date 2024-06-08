@@ -1,0 +1,1 @@
+{"id": "121687", "title": "Bug 121687: Exception thrown when exporting data from a table inside a grid cell", "description": "", "OB": "An exception is thrown when attempting to export data from a table that is inside a grid cell.", "EB": "", "SR": "The following steps can be followed to reproduce the issue: 1. Insert a grid. 2. [INSERT ADDITIONAL STEPS HERE]"}

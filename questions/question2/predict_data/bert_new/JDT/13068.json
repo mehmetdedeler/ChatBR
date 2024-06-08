@@ -1,0 +1,1 @@
+{"id": "13068", "title": "Bug 13068Move refactoring enabled for nonstatic methods", "description": "Bug 13068Move refactoring enabled for nonstatic methods ", "OB": "", "EB": "", "SR": "1) select a static and a nonstatic method in the outline2) RefactorMovethe wizard tells to move 2 static members. "}

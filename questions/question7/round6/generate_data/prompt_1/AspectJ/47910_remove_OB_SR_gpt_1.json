@@ -1,0 +1,8 @@
+{
+  "id": "47910",
+  "title": "Bug 47910: ajc outjar jarfile missing MANIFEST.MF",
+  "description": "When using the ajc compiler with the outjar option, the resulting JAR file does not contain the expected METAINF/MANIFEST.MF file.",
+  "OB": "The generated JAR file should include the required MANIFEST.MF file within the METAINF directory.",
+  "EB": "Currently, when the outjar option is used, the resulting file is not a valid JAR file as it lacks the necessary MANIFEST.MF in the METAINF directory.",
+  "SR": "Ensure that the ajc compiler, when used with the outjar option, correctly includes the MANIFEST.MF file within the METAINF directory of the generated JAR file."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "12428",
+  "title": "Inconsistent Message and Functionality in Pull Up Feature",
+  "description": "The current message and behavior in the Pull Up feature are inconsistent. When attempting to copy the method 'void setUp()' from type 'TestCase', there are discrepancies in the displayed text and functionality. The message for copying should be consistent and properly capitalized. Additionally, upon selecting to delete 'setUp' from 'TestCase', an unclear message appears under 'TestCase'.",
+  "OB": "Inconsistencies exist in the displayed text and behavior during method copying and deletion from TestCase.",
+  "EB": "The 'copy method' text should be consistent, including proper capitalization, and should use the fully qualified name. The message displayed upon selecting to delete 'setUp' from 'TestCase' should be clearer.",
+  "SR": "1. Run Pull Up on TestCase.setUp (copies the method to Assert).\n2. Proceed to the 2nd page of the wizard to observe the inconsistencies."
+}

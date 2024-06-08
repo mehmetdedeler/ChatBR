@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '7752', 'title': 'Bug 7752Export multiple files with same file name under different directories to zip file fails.', 'description': 'Steps to reproduce:1. ', 'OB': 'Bug 7752Export multiple files with same file name under different directories to zip file fails. In the "Export" dialog window, Select both projects created earlier, givethe zip file a name (such as test.zip) and begin export to zip file.Results:An error message box pops up: Problems were encountered during export and thedetail lists the file of the same name in project2 as the problem (i.e. ', 'EB': '', 'SR': 'Launch WSWB and create two projects2. Under each project, create a new file with the same name (such as "foo.txt")3. From the mainmenu, Select FileExportand select Zip File to export4. '}
+</BUG REPORT>

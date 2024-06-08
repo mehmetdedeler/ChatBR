@@ -1,0 +1,1 @@
+{"id": "49180", "title": "Bug 49180Add option to disable log rotation in FileHandler.", "description": "Bug 49180Add option to disable log rotation in FileHandler. Small enhancement to FileHandler.java which allow susers to disable log rotation by setting the .rotation attribute to \"false\". ", "OB": "", "EB": "", "SR": ""}

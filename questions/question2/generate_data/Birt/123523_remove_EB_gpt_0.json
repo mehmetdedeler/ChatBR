@@ -1,0 +1,8 @@
+{
+  "id": "123523",
+  "title": "Bug 123523 - NullPointerException When Previewing Scripted Data Set",
+  "description": "When previewing a scripted data set mapped to a Java event handler, a NullPointerException (NPE) is thrown. The issue may be related to the use of context for class loading, particularly in the context of caching class loaders.",
+  "OB": "Upon attempting to preview a scripted data set, an NPE is thrown when we try to obtain a class loader from the ExecutionContext.",
+  "EB": "When previewing a scripted data set mapped to a Java event handler, there should be no NPE. The class loader should be retrieved successfully from the ExecutionContext, and the preview should proceed without errors.",
+  "SR": "To reproduce the issue:\n1. Attempt to preview a scripted data set mapped to a Java event handler."
+}

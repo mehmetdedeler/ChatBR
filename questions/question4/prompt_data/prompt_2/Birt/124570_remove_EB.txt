@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '124570', 'title': 'Bug 124570Preview from toolbar always shows first report opened in session', 'description': 'Bug 124570Preview from toolbar always shows first report opened in session ', 'OB': 'I am testing BIRT 2.0 RC2 and am running into a problem where Preview (from the toolbar) in the Web Viewer will only show the first report I opened in a session. ', 'EB': '', 'SR': 'To reproduce the problem:1. Start BIRT 2.0 RC2, create a project and import the attached two designs into the project.2. Open Product Catalog and then click on the Preview button on the toolbar to see the report. Once you have viewed the report, close the viewer.3. '}
+</BUG REPORT>

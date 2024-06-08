@@ -1,0 +1,8 @@
+{
+  "id": "24779",
+  "title": "Bug 24779[Perspectives] Reference to invalid views are not removed",
+  "description": "Bug 24779[Perspectives] Reference to invalid views are not removed It already tried, and it can't.8. ",
+  "OB": "Currently, even when the plugin is not available, Eclipse retains references to invalid views.",
+  "EB": "The plugin was not available the last time Eclipse was closed, so the workbench should have no more references to this plugin.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Close Eclipse with the plugin unavailable.\n2. Reopen Eclipse and check if there are any references to the missing plugin in the perspectives or views."
+}

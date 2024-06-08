@@ -1,0 +1,1 @@
+{"bug_id": "2497", "title": "Bug 2497[Navigator] Navigator does not save its input. (1GFBH2P)", "description": "Create a project with a folder and a file (if you do not have any).Select the folder and go into.ExitStart up. Navigator starts up using its initial input instead of the selected folder.NOTES:"}

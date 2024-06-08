@@ -1,0 +1,1 @@
+{"bug_id": "25053", "title": "Bug 25053Cannot use the pull down menu in GTK", "description": "2.1 build 20021017You cannot use the pulldown menu in GTK if you invoke it from Ctrl F10 as itwill not have focus.STEPS1) Open the packages view2) Hit Ctrl F10 to get the pulldown menu3) Use the arrow keys  no entry will be selected unless you bring the mouseover to give it focus"}

@@ -1,0 +1,8 @@
+{
+  "id": "8142",
+  "title": "No Scoped Type Hierarchy on Binary Projects",
+  "description": "I don't understand it.",
+  "OB": "The scoped type hierarchy feature is not working as expected on binary projects.",
+  "EB": "I expect that when I hit F4 on a binary project selection, it should display a scoped type hierarchy, just like it does for other types of projects.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open a binary project in the software.\n2. Select the binary project in the project explorer.\n3. Press the F4 key."
+}

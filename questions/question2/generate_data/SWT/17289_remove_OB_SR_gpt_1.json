@@ -1,0 +1,8 @@
+{
+  "id": "17289",
+  "title": "Bug 17289 - Combo doesn't take focus by clicking on it (Photon)",
+  "description": "When attempting to focus on the first Combo, it doesn't respond as expected. Try clicking on the first Combo.",
+  "OB": "Clicking on the first Combo does not cause it to take focus.",
+  "EB": "The expected behavior is that when clicking on the first Combo labeled 'Host:', the focus caret should be inside the input field of the Combo, allowing the user to type immediately.",
+  "SR": "To reproduce the issue:\n1. Open the application.\n2. Locate the first Combo labeled 'Host:'.\n3. Click on the first Combo."
+}

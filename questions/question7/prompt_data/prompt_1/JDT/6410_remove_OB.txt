@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '6410', 'title': 'Bug 6410File unchanged but dirtied by code assist', 'description': 'Bug 6410File unchanged but dirtied by code assist ', 'OB': '', 'EB': 'If code assist has nothing to suggest, it should not dirty the file. ', 'SR': '1122.Open a Java file. Place the cursor inside the leftmost parenthesis of a methodcall. For example, consider "I" to be the cursor below:Object o = anotherObject.method(I);Press CtrlSpace. '}
+</BUG REPORT>

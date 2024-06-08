@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '9619', 'title': 'Bug 9619Move static member: Dialog details', 'description': "Bug 9619Move static member: Dialog details 20020212a. Mnemonicsb. No validation on the type field. Type existance is not too expensive (donein the type wizard for super class), so could be done. At least isValidTypeNamef. label could say 'Select destination type:'g. ", 'OB': "Browse button is too small (use SWTUtil for standard button sizes)c. Title is used for long text. When going to thenext page, it says 'Type not found'Only types from the source folders of the own project should be shown in thedialog.e. destination type can be source type: refactoring warns that this will resultin errors (which is not true) and makes pseudochanges in all referencingclasses. ", 'EB': '', 'SR': ''}
+</BUG REPORT>

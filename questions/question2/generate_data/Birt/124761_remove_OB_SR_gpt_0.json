@@ -1,0 +1,8 @@
+{
+  "id": "124761",
+  "title": "Bug 124761: Data Extraction Issue with Multiple Filters",
+  "description": "When adding two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10', the data extraction is not working as expected.",
+  "OB": "When two filters, 'State is equal to CA' and 'EmployeeId is Top 10,' are applied, the data extraction is failing.",
+  "EB": "The expected behavior is that the intersection set of the data matching 'State is equal to CA' and 'EmployeeId is Top 10' should be displayed in the extracted data. Currently, this is not happening, and the data extraction is unsuccessful.",
+  "SR": "Steps to Reproduce:\n1. Open the application and navigate to the data extraction module.\n2. Add a filter for 'State is equal to CA.'\n3. Add another filter for 'EmployeeId is Top 10.'\n4. Attempt to extract the data.\n5. Observe that the data extraction does not display the expected intersection set of the two filter conditions."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "135439", "title": "Bug 135439JDBC database drivers areplaced under both JDBC and Viewer plugin folder", "description": "steps to reproduce: create a report import JDBC database driver check both JDBC and Viewer plugin folderexpected behavior: drivers are copied to JDBC plugin folderactual behavior: drivers were copyied to both JDBC and Viewer plugin folders"}

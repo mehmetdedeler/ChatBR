@@ -1,0 +1,8 @@
+{
+  "id": "7330",
+  "title": "Bug 7330 - Inconsistent Availability of Actions on Text Selection",
+  "description": "Certain actions, such as 'Add Javadoc Comment,' are not readily available in the context menu, leading to confusion and the need to switch views to access them.",
+  "OB": "The observed behavior is that some actions, like 'Add Javadoc Comment,' are not present in the context menu, making them difficult to access from the editor.",
+  "EB": "The expected behavior is that all relevant actions should be easily accessible from the context menu or another accessible global menu. Users should not be required to switch views or navigate through different menus to access commonly used actions.",
+  "SR": "To address this issue, please ensure that actions like 'Add Javadoc Comment' are added to the context menu or a global menu, making them accessible without the need to switch views." 
+}

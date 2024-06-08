@@ -1,0 +1,8 @@
+{
+  "id": "10654",
+  "title": "Bug 10654: Allow all jars in a folder to be added to build path",
+  "description": "Bug 10654: Allow all jars in a folder to be added to build path",
+  "OB": "No current functionality exists to add all JAR files in a directory to the build path.",
+  "EB": "It would be beneficial to introduce a feature allowing the use of a classpath variable to specify an entire directory. This way, all JAR files in that directory can be automatically added to the build path. This proposed enhancement is similar to the installed extensions feature in the Java launcher, where the system property 'java.ext.dirs' can be used to point to directories containing JAR files for automatic inclusion in the classpath.",
+  "SR": "1. Open the IDE and create a new Java project.\n2. Navigate to the project's build path settings.\n3. Attempt to add all JAR files in a specific folder to the build path.\n4. Observe that there is no current option to achieve this functionality.\n5. Suggest using a classpath variable to point to the entire directory containing JAR files.\n6. Verify that upon setting the classpath variable, all JAR files in the specified directory are automatically added to the build path."
+}

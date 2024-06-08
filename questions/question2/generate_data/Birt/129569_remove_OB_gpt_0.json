@@ -1,0 +1,8 @@
+{
+  "id": "129569",
+  "title": "Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window",
+  "description": "Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window. This is a BiDI specific defect.",
+  "OB": "When executing a SQL query in the Query window, the order of BiDI characters in the query does not match the expected order.",
+  "EB": "The expected behavior is that the order of BiDI characters in the SQL query should match the order in which they are defined in the database. Add the following condition to the 'where' portion of the SQL query: tomer.tomerREMOT.EMANNMULOC != 'OLLEH world'.",
+  "SR": "1. Create a DB2 database.\n2. Create a user with a Latin name (e.g., 'tomer').\n3. Create a table under this user with mixed Latin and BiDI name (e.g., 'tomerREMOT').\n4. Create a Data Source based on the DB from step 1.\n5. Create a Data Set based on the table from step 3.\n6. Add a column name from step 4 to the select portion of the SQL query.\n7. Add the table name from step 3 to the from portion of the SQL query."
+}

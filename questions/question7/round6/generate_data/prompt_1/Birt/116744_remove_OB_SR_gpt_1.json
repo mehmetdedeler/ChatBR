@@ -1,0 +1,8 @@
+{
+  "id": "116744",
+  "title": "Bug 116744: Dynamic text content type has no effect",
+  "description": "",
+  "OB": "The dynamic text element's Content Type property has no effect on the displayed results.",
+  "EB": "Regardless of whether the dynamic text element's Content Type property is set to Auto, Plain, or HTML, the report consistently displays the same results. Expected results are as follows:\n\nFor Plain: I expect the literal content, including tags, to be displayed.\nFor Auto: I expect content 1, 2, and 3 to appear properly without HTML or RTF tags.\nFor HTML: I expect content 1 and 2 to appear properly without HTML tags, and content 3 to appear literally with RTF tags.\nSee attached report.",
+  "SR": "1. Open the report.\n2. Navigate to the dynamic text element.\n3. Modify the Content Type property to Auto.\n4. Observe that the displayed results remain unchanged.\n5. Repeat steps 3-4 for Content Type set to Plain and HTML. The results should consistently show the issue."
+}

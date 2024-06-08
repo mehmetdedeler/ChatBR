@@ -1,0 +1,1 @@
+{"id": "16045", "title": "Bug 16045Esc key doesn't close the About box", "description": "", "OB": "Bug 16045Esc key doesn't close the About box ", "EB": "Minor, TRIVIAL little issue: should be able to close the About box with the escape key. ", "SR": ""}

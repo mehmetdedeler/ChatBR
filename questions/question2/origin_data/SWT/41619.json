@@ -1,0 +1,1 @@
+{"bug_id": "41619", "title": "Bug 41619SWT does not render Unicode glyphs  255", "description": "I20030813 In MacOS X  System Preferences  Input Menuadd the \"Character Palette\" to your input method menu open the character palette and enter characters  255into the Eclipse text editorObserve: you only get empty boxes"}

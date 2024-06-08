@@ -1,0 +1,8 @@
+{
+  "id": "110566",
+  "title": "Incorrect Results when Applying Invalid Filter Expression 'row[0]'",
+  "description": "When setting a filter condition like 'row[0] equals to 0', or just returning a null result set.",
+  "OB": "When attempting to set a filter expression with 'row[0] equals to 0' and clicking on the Preview tab, the first result record is returned.",
+  "EB": "The expected behavior is that when setting a filter expression like 'row[0] equals to 0' and clicking on the Preview tab, no records should be returned. This is because 'row[0]' can only be generated after all the data has been fetched and should not be used as a filter expression.",
+  "SR": "To reproduce the issue:\n1. Set a filter in the data set with the condition 'row[0] equals to 0'.\n2. Click on the Preview tab."
+}

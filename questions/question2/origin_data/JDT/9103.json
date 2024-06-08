@@ -1,0 +1,1 @@
+{"bug_id": "9103", "title": "Bug 9103Search reports no references to SWT.Help", "description": "1) Open class SWT2) Select field Help3) ReferencesWorkspaceNothing found"}

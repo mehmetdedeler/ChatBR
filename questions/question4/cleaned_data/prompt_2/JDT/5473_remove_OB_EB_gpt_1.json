@@ -1,0 +1,8 @@
+{
+  "id": "5473",
+  "title": "Bug 5473: ShiftLeft behavior with intermixed tabs and spaces",
+  "description": "The issue occurs in Build 200110251 where the ShiftLeft behavior behaves unexpectedly when dealing with a combination of spaces and tabs.",
+  "OB": "When executing ShiftLeft on lines containing a mixture of spaces and tabs in a default text editor, no movement or alignment change occurs as expected.",
+  "EB": "The expected behavior is that executing ShiftLeft should correctly indent the lines regardless of the combination of spaces and tabs present.",
+  "SR": "To reproduce:\n1. Open a default text editor.\n2. Enter the following: <space><tab>some text<tab>some text2.\n3. Highlight the two lines mentioned.\n4. Execute ShiftLeft.\n   - Observe that there's no indentation movement."
+}

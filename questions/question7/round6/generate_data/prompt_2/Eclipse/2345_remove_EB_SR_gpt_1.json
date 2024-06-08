@@ -1,0 +1,8 @@
+{
+  "id": "2345",
+  "title": "Bug 2345 [Editor Mgmt] Open with a different type of editor has no effect if file already open (1GEWMSQ)",
+  "description": "Bug 2345 [Editor Mgmt] Open with a different type of editor has no effect if file already open (1GEWMSQ)",
+  "OB": "When attempting to open a file with a different editor type that is already open, the expected behavior is to open a new editor for the file. However, currently, selecting 'Open With... / Default Text Editor' for a specific XML file (e.g., test.xml) does not have any effect. The scripted resource editor example, which is the default for XML files, is not reactivated, and nothing happens.",
+  "EB": "The expected behavior is that selecting 'Open With... / Default Text Editor' for a file that is already open should open a new editor instance with the specified default text editor.",
+  "SR": "1. Open Eclipse IDE.\n2. Create a new basic project.\n3. Create a new file (e.g., test.xml) within the project.\n4. With the file selected in the Navigator, choose 'Open With... / Default Text Editor'.\n5. Observe that nothing happens, and the scripted resource editor example is not reactivated.\n\nEXPECTED BEHAVIOR:\nA new editor should open for the selected file, utilizing the specified default text editor."
+}

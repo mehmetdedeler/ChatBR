@@ -1,0 +1,8 @@
+{
+  "id": "124570",
+  "title": "Preview from toolbar always shows first report opened in session",
+  "description": "When using BIRT 2.0 RC2, the preview from the toolbar consistently displays the first report opened in the session, regardless of the currently selected report.",
+  "OB": "The preview from the toolbar consistently displays the first report opened in the session, regardless of the currently selected report.",
+  "EB": "I expect that when I click on the 'Preview' button from the toolbar, it should display the report that is currently selected, not the first report opened in the session.",
+  "SR": "To reproduce the problem:\n1. Start BIRT 2.0 RC2, create a project, and import the attached two designs into the project.\n2. Open the 'Product Catalog' and then click on the 'Preview' button on the toolbar to see the report. Once you have viewed the report, close the viewer."
+}

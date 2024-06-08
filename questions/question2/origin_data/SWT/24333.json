@@ -1,0 +1,1 @@
+{"bug_id": "24333", "title": "Bug 24333DCR  Tree.getTopItem/setTopItem", "description": "build 20021001To better restore the last UI state we would like to have aTree.getTopIndex/setTopIndex API that works just like the Table API. I.e.,based on the current visible items return/set the index of the topmost visibleitem.See also bug 4676."}

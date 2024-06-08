@@ -1,0 +1,1 @@
+{"bug_id": "2512", "title": "Bug 2512Save As... on OLE editor doesn't let you choose folder (1GFDCRE)", "description": " new file test.doc it opens Word or Wordpad choose File / Save As it gives you the rename prompter, which only lets you enter a new name, not choose a different folder Save As on an internal editor does let you choose a folderNOTES:"}

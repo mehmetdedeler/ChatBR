@@ -1,0 +1,1 @@
+{"bug_id": "9045", "title": "Bug 9045New file and folder wizards don't handle selected Java elements", "description": "Build 20020129 select a Java package choose File / New / File. the selected folder is not filled inLooks like SelectionEnabler does not properly handle IAdaptables."}

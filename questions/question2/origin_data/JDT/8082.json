@@ -1,0 +1,1 @@
+{"bug_id": "8082", "title": "Bug 8082template pref page: export overwrites without warning", "description": "export from template pref page overwrites files without warningthis is never good  you can lose templates you have saved on your disksomewhere"}

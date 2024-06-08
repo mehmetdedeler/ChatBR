@@ -1,0 +1,1 @@
+{"id": "6536", "title": "Bug 6536: Adding Javadoc on field in Type Hierarchy does nothing", "description": "", "OB": "", "EB": "", "SR": "To reproduce the bug, follow these steps:\n1. Select a field in the Type Hierarchy view."}

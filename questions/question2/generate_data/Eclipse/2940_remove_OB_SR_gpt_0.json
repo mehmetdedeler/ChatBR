@@ -1,0 +1,8 @@
+{
+  "id": "2940",
+  "title": "Updating of Checkboxes Takes Too Long",
+  "description": "In the 'Export Zip' feature, the updating of checkboxes is taking a considerable amount of time, approximately 30 seconds in my case. A busy cursor should be displayed during this process.",
+  "OB": "The process of updating the checkboxes is slow, taking around 30 seconds.",
+  "EB": "The expected behavior is that the updating of checkboxes should be much faster, and a busy cursor should be displayed to indicate that the process is ongoing.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the 'Export Zip' feature.\n2. Start selecting multiple checkboxes in the table.\n3. Observe the time it takes for the checkboxes to update."
+}

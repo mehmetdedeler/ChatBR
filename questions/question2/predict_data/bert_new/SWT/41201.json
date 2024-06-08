@@ -1,0 +1,1 @@
+{"id": "41201", "title": "Bug 41201GTKBIDI: RTL support in Label", "description": "Bug 41201GTKBIDI: RTL support in Label ", "OB": "For some reason rtloriented wrapped Label need the opposite justification tobe aligned correctly, when LEAD or TRAIL alignment are used. ", "EB": "", "SR": ""}

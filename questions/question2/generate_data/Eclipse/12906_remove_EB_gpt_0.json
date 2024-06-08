@@ -1,0 +1,8 @@
+{
+  "id": "12906",
+  "title": "Unable to Open the Same File in Multiple Editors",
+  "description": "Bug 12906[Editor Mgmt] If a file is already opened in one editor, you cannot open it in another editor. It should give an error message.",
+  "OB": "When a file is open in one editor, attempting to open the same file in another editor from the Java Perspective by right-clicking and selecting 'Open With... System Editor' does not produce any result. There should be a warning message indicating that overwriting changes may occur, and a prompt to confirm the action, or an error message suggesting to close all open files. We suspect this behavior is a safety feature meant to prevent external editing while the file is already open in the WSAD (WebSphere Studio Application Developer).",
+  "EB": "When a file is already open in one editor, attempting to open it in another editor should trigger a warning message, informing the user about the potential for overwriting changes and asking for confirmation. Alternatively, an error message should be displayed, instructing the user to close all open files first.",
+  "SR": "To reproduce the issue:\n1. Ensure you have an associated Windows editor for Java files. If not, set WordPad or Notepad as the default editor for all Java files in the file explorer.\n2. In the Java Perspective, right-click on a Java file.\n3. Select 'Open With... System Editor'.\n4. Observe that nothing happens, which is the problem. The workbench should display a warning message asking if you want to continue, considering the possibility of overwriting changes, or an error message stating that you need to close all open files before proceeding."
+}

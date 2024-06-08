@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "More Efficient Logic Needed for Disk Sorting with Border Value in Row",
+  "description": "The current logic for disk sorting encounters issues when there is a border value for the row. Improvement is required.",
+  "OB": "When attempting disk sorting with a border value in the row, the current logic fails to process the data correctly. Sorting errors occur, leading to inaccurate results.",
+  "EB": "A more efficient logic is expected for disk sorting when a border value is present in the row. The sorting process should handle such cases seamlessly. Specifically, the logic should involve sorting the data directly in memory and then writing it to the file. Currently, the file is copied to the destination folder, but this approach needs enhancement.",
+  "SR": "1. Copy the file to the destination folder.\n2. Attempt disk sorting with a dataset containing a border value in the row.\n3. Observe the sorting behavior and note the inaccuracies or failures encountered."
+}

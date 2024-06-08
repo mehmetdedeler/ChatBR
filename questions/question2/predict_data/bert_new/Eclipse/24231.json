@@ -1,0 +1,1 @@
+{"id": "24231", "title": "Bug 24231ErrorDialog not accessible", "description": "Bug 24231ErrorDialog not accessible ", "OB": "The reorg done for the MessageDialog was not applied to the ErrorDialog so itscontents cannot be read in 2.0.2. ", "EB": "", "SR": ""}

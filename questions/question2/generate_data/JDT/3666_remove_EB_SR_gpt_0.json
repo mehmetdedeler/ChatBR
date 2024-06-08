@@ -1,0 +1,8 @@
+{
+  "id": "3666",
+  "title": "Code Assist Consumes Excessive Code",
+  "description": "Code assist consumes too much code in certain situations, causing inconvenience to the programmer.",
+  "OB": "The observed behavior is that in a given code snippet, the code assist transforms 'baz(x.foo())' into 'baz(x.foo().foo())', whereas the programmer would prefer it to be 'baz(x.foo()x.foo())'.",
+  "EB": "The expected behavior is that code assist should not consume more code than necessary. In the provided example, it should have suggested 'baz(x.foo()x.foo())' as an option to the programmer.",
+  "SR": "To reproduce the issue:\n1. Modify the 'baz' call to 'baz(x.x.foo())'.\n2. Place the cursor after the first 'x.'.\n3. Trigger the code assist (e.g., using Ctrl+Space).\n4. Type 'f' to filter the list of code suggestions.\n5. Select 'foo()'.\n6. Observe that code assist consumes more code than expected."
+}

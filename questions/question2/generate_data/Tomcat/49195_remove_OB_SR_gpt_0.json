@@ -1,0 +1,8 @@
+{
+  "id": "49195",
+  "title": "Bug 49195 - Error Message When Using Port 1 as Shutdown Port with Windows Service",
+  "description": "This bug report discusses an issue related to using port 1 as the shutdown port with the Tomcat Windows service.",
+  "OB": "The bug report does not provide clear information about the observed behavior when using port 1 as the shutdown port with the Tomcat Windows service.",
+  "EB": "The expected behavior is not explicitly mentioned in the bug report, but it seems that the user expects a more efficient way to handle shutdown in the Tomcat service, such as using 'wait(10000)' or 'interrupt()' calls to improve the shutdown process.",
+  "SR": "The bug report lacks specific steps to reproduce the issue. It would be helpful if the user provided clear and detailed steps to reproduce the problem."
+}

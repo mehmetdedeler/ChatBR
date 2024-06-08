@@ -1,0 +1,8 @@
+{
+  "id": "21834",
+  "title": "Bug 21834: Coolbar Deleting Items Corrupting Layout",
+  "description": "This bug report pertains to a problem with the Coolbar, specifically when deleting items, leading to layout corruption. The issue was identified in Build 2002071610021.",
+  "OB": "The bug report lacks a clear description of the observed behavior (OB).",
+  "EB": "The expected behavior (EB) is not specified in the bug report.",
+  "SR": "To reproduce the issue, the following steps are provided:\n1. Run the attached test case.\n2. Move the 'Open Type' cool item to the second row, placing it as the last cool item.\n3. Relocate the 'Launch' cool item (the last item on the first row) to the second row, positioning it after the 'Open Type' item.\n4. Move the 'Search' cool item to the second row, inserting it after the 'Launch' cool item.\n5. Move the 'Script' cool item to the second row, specifically after the 'Search' cool item.\n6. Press the Delete button. This will result in the deletion of the first item on the second row. Observe that the second row is removed when the deletion occurs, which is not the expected behavior. The expected outcome is for the second row to remain. An alternative set of steps is also provided for reproduction with different items involved."
+}

@@ -1,0 +1,1 @@
+{"id": "35156", "title": "Bug 35156: Ctrl+F1 does not work on all fields in the help search", "description": "When using the Ctrl+F1 keyboard shortcut to access help in the search feature, it is observed that the shortcut only works on certain fields and not on all fields.", "OB": "Ctrl+F1 does not work on all fields in the help search", "EB": "", "SR": ""}

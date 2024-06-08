@@ -1,0 +1,1 @@
+{"id": "24225", "title": "Bug 24225DragSourceAdapter incorrect JavaDoc", "description": " Bug 24225DragSourceAdapter incorrect JavaDoc build 20020924The Javadoc for the methods in DragSourceAdapter refers to nonexistingDropTargetListener methods. I'm guessing this should be refering toDragSourceListener instead.", "OB": "", "EB": "", "SR": ""}

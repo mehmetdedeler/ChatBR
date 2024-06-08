@@ -1,0 +1,8 @@
+{
+  "id": "7734",
+  "title": "Bug 7734 - System can be shut down without savefile warnings",
+  "description": "The system can be shut down without warning users to save their unsaved files, causing data loss.",
+  "OB": "When a WSWB session is open with some opened, dirty .txt file, shutting down Windows will cause the loss of the changes in the .txt file.",
+  "EB": "The system should provide a 'Do you want to save your file?' dialog box with options for 'Yes,' 'No,' and 'Cancel' to allow the user to decide whether to save their unsaved work before shutting down. Additionally, it would be beneficial to allow applications to control the shutdown/save process or to pop up their own windows that would also enable the user to stop the shutdown if 'Cancel' is selected.",
+  "SR": "Steps to Reproduce:\n1. Start WSWB and create a new project.\n2. Create a text file in the project and add a line of text to it, marking the text file as dirty.\n3. Left-click on the Windows Start menu and select the 'Shut Down' command to initiate the shutdown/reboot process.\n\nResults: There is no warning or question message box to give users a chance to save their unsaved model(s), and the computer is shut down/rebooted immediately, resulting in potential data loss. This issue affects other Windows programs like Word and Outlook as well."
+}

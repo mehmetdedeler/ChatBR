@@ -1,0 +1,8 @@
+{
+  "id": "9654",
+  "title": "Bug 9654 - Issues with 'Modify Parameters' Dialog",
+  "description": "This bug report addresses issues with the 'Modify Parameters' dialog. It suggests improvements such as performing duplicate name validation on the first page and merging the first and second columns.",
+  "OB": "The observed behavior includes various issues such as small buttons, the lack of a selected table entry when the dialog opens, both move buttons being enabled, cutoff preview when changing a parameter name to something very long, and the dialog appearing large for methods with many parameters.",
+  "EB": "The expected behavior is not explicitly stated, but the report suggests performing duplicate name validation on the first page and merging the first and second columns to improve the dialog. There's also a mention of the preview being cut off when changing parameter names to something very long.",
+  "SR": "The steps to reproduce the reported issues are not provided in the report."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "23331", "title": "Bug 23331[Editor Mgmt] Pinned editors not restored as pinned", "description": "When I started up the workbench, four editors that I had previously openedwere restored, but they were not pinned. They had previously been pinned whenI shut down the workbench."}

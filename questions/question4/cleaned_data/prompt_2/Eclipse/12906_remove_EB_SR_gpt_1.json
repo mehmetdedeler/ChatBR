@@ -1,0 +1,8 @@
+{
+  "id": "12906",
+  "title": "Bug 12906[Editor Mgmt] Unable to open a file in another editor if already opened in one (should prompt error message)",
+  "description": "Bug 12906[Editor Mgmt] If file is already opened in one editor, cannot open in another editor (should give error msg)",
+  "OB": "In the Java Perspective, after opening a Java file by double-clicking, attempt to open the same file with 'Open With .. System Editor.' No warning or error message is displayed, and nothing happens.",
+  "EB": "When attempting to open a file that is already opened in one editor with 'Open With .. System Editor,' a warning message should be displayed in the workbench. The warning should inform the user that they may overwrite changes and ask if they want to continue. Alternatively, an error message should indicate that the user should close all files first.",
+  "SR": "1. Close the file if it is open.\n2. Go to the Java Perspective.\n3. Open a Java file by double-clicking on it.\n4. Right-click on the same Java file.\n5. Choose 'Open With .. System Editor.'\n6. Observe if a warning message appears in the workbench, informing about the possibility of overwriting changes and asking if the user wants to continue. Alternatively, check if an error message indicates that all files should be closed first."
+}

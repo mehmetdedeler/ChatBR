@@ -1,0 +1,8 @@
+{
+  "id": "17703",
+  "title": "Bug 17703 - Edit/Add Task action should use Workbench dialog as Java Editor does",
+  "description": "When attempting to edit or add a task, the current behavior does not align with the expected behavior, causing inconsistencies with the Java Editor.",
+  "OB": "When selecting the Edit/Add Task action, the current dialog does not match the behavior of the Java Editor's Workbench dialog.",
+  "EB": "The Edit/Add Task action should utilize the Workbench dialog consistently, mirroring the behavior observed in the Java Editor.",
+  "SR": "1. Open the application and navigate to a file requiring task editing/addition.\n2. Select the Edit/Add Task action.\n3. Observe the dialog used for task interaction and note its inconsistency with the Java Editor.\n4. Expected behavior: The dialog should align with the Workbench dialog used in the Java Editor."
+}

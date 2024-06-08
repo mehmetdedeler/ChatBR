@@ -1,0 +1,8 @@
+{
+  "id": "114470",
+  "title": "Bug 114470 - Error message when using new Date('3/2/2005') in table filter",
+  "description": "When attempting to use 'new Date('3/2/2005')' as a value in a table filter, an error occurs.",
+  "OB": "When using 'new Date('3/2/2005')' as a value in a table filter, an error message is displayed on the report page.",
+  "EB": "Save and preview the table filter. The expected result is that the filter works without errors. However, the actual result is that there are errors on the report page, specifically, data.engine.DataConversionError occurring 1 time. The error details indicate that there is a problem with data type conversion, and it cannot be converted to a Date.",
+  "SR": "1. Open the table filter.\n2. Enter 'new Date('3/2/2005')' as the filter value.\n3. Save and preview the filter. The error message should be displayed on the report page."
+}

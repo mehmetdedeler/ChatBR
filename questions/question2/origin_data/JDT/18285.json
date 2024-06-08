@@ -1,0 +1,1 @@
+{"bug_id": "18285", "title": "Bug 18285Doubleclicking on import statement transfers to referenced type", "description": "Build 20020528In the package view outline, doubleclicking on a type import statement doesopen the editor on the target type, instead of the unit hosting the importreference."}

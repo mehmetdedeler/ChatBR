@@ -1,0 +1,8 @@
+{
+  "id": "14047",
+  "title": "Bug 14047: StyledText inefficient redraw during text change with word wrap",
+  "description": "",
+  "OB": "When appending N lines to StyledText in word wrap mode (build 20020416), it results in N redraws of the entire client area.",
+  "EB": "Expected behavior is that when appending N lines to StyledText in word wrap mode, it should result in only one redraw of the entire client area, rather than N redraws.",
+  "SR": "Steps to reproduce:\n1. Open the StyledText editor in word wrap mode.\n2. Build version: 20020416.\n3. Append N lines of text to the editor.\n4. Observe that the entire client area is redrawn N times instead of just once."
+}

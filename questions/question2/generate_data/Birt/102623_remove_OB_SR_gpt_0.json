@@ -1,0 +1,8 @@
+{
+  "id": "102623",
+  "title": "Bug 102623: Image can't be refreshed after importing again.",
+  "description": "When attempting to refresh an image by importing a new version of 'image1.jpg' into the layout, the expected behavior is not met as the original image remains displayed.",
+  "OB": "After importing 'image1.jpg' again into the layout, the original image is still displayed.",
+  "EB": "Importing the new version of 'image1.jpg' should result in the new image being displayed in the layout, replacing the original image.",
+  "SR": "1. Open the application.\n2. Navigate to the layout where 'image1.jpg' is displayed.\n3. Import a new version of 'image1.jpg' into the layout."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "23820", "title": "Bug 23820Launched SWT application isn't brought to front", "description": "If an AWT or Swing app is launched from Eclipse, it comes to front. This isn't true for SWTbased application."}

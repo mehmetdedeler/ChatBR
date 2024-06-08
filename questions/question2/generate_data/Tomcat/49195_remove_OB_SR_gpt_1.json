@@ -1,0 +1,8 @@
+{
+  "id": "49195",
+  "title": "Bug 49195 - Using 1 as shutdown port with Windows service works, but prints error message",
+  "description": "When specifying <Server port=\"1\" in server.xml, it's observed that using this port as a shutdown port with the Windows service works, but it prints an error message. This behavior needs improvement to provide a better user experience. Additionally, there could be enhancements in how Tomcat is stopped. System.exit(0) would work regardless of all that. It's also worth mentioning that jsvc may exhibit the same behavior, although it has not been tested.",
+  "OB": "When using 1 as the shutdown port with the Windows service, it works as intended, but it prints an error message.",
+  "EB": "The expected behavior is for the Windows service to use port 1 as the shutdown port without printing an error message. Additionally, it would be better to use wait(10000) instead of sleep(10000) in StandardServer.await() so that it could be woken by a notifyAll() call, or use the interrupt() call to wake it up if the relevant thread is known.",
+  "SR": "To reproduce the issue:\n1. Specify <Server port=\"1\" in the server.xml configuration.\n2. Use this port as the shutdown port for the Windows service.\n3. Observe the error message being printed."
+}

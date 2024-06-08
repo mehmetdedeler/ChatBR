@@ -1,0 +1,1 @@
+{"id": "44595", "title": "Bug 44595Add possibility to request the QueueSize of an executor via JMX", "description": " Bug 44595Add possibility to request the QueueSize of an executor via JMX Created attachment 21660 [details]Patch against 6.0.16The attached patch adds the possibility to check the QueueSize of an executor via JMX.", "OB": "", "EB": "", "SR": ""}

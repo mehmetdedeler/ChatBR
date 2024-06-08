@@ -1,0 +1,8 @@
+{
+  "id": "8142",
+  "title": "Bug 8142 - No Scoped Type Hierarchy on Binary Projects",
+  "description": "The bug description for Bug 8142 is unclear, and it's difficult to understand.",
+  "OB": "The observed behavior is not provided. To understand the issue, we need information about what happens when you try to access scoped type hierarchy on binary projects.",
+  "EB": "The expected behavior is missing, and it's essential to outline what should occur when trying to access the scoped type hierarchy on binary projects.",
+  "SR": "To help investigate this issue, please provide a clear and detailed description of what you are doing when you encounter the problem. Include the steps you follow to access the scoped type hierarchy on a binary project and what you expect to see. This information will help in identifying the problem and providing a solution."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "116829",
+  "title": "Bug 116829 - Label height doesn't change with label font modification.",
+  "description": "Description: When modifying the font size of a label, the label's height does not change as expected.",
+  "OB": "After editing a label's font size to 18 points, the label's height remains unchanged.",
+  "EB": "Expected behavior: When the font size of a label is modified, the label's height should adjust accordingly to accommodate the new font size, maintaining proper text alignment and spacing.",
+  "SR": "Steps to reproduce:\n1. Create a label or select an existing one.\n2. Edit the label's font size and set it to '18 points'."
+}

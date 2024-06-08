@@ -1,0 +1,8 @@
+{
+  "id": "23787",
+  "title": "Bug 23787 - Project Properties Info Page Uses Text Fields Instead of Labels",
+  "description": "In the Properties dialog for Project Properties, the Info page displays text fields instead of labels, making it look bad on all motif platforms. Integration build 09/17.",
+  "OB": "The Info page in the Project Properties dialog displays text fields instead of labels.",
+  "EB": "The Info page in the Project Properties dialog should display labels instead of text fields for a better appearance on all motif platforms.",
+  "SR": "To reproduce the issue:\n1. Open the software.\n2. Go to the Project Properties dialog.\n3. Navigate to the Info page within the dialog.\n4. Observe that the Info page uses text fields instead of labels."
+}

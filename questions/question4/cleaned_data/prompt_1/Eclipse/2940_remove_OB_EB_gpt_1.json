@@ -1,0 +1,8 @@
+{
+  "id": "2940",
+  "title": "Bug 2940: Export Zip - Updating of Checkboxes Should Use Busy Cursor",
+  "description": "Bug 2940Export Zip: Updating of checkboxes should use busy cursor (1GKWVMA) MA (01.10.2001 11:38:21)1.",
+  "OB": "When exporting a Zip file in a workspace with many projects, the checkboxes do not use a busy cursor during the update process.",
+  "EB": "The checkboxes should display a busy cursor while updating during the Zip file export process in a workspace with multiple projects.",
+  "SR": "Steps to reproduce:\n1. Open a workspace with many projects.\n2. Initiate the export Zip process.\n3. Select all projects.\n4. Choose file types and press OK."
+}

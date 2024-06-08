@@ -1,0 +1,8 @@
+{
+  "id": "18934",
+  "title": "Bug 18934: Scrollbars should be disabled in ImageAnalyzer example",
+  "description": "",
+  "OB": "In Build F2 (20020602) on Redhat 7.2 with GTK2 and KDE 2.210(GTK2 only), when opening the ImageAnalyzer example, scrollbars are enabled. They can be moved around, but they don't have any effect. If you open a small image, such as an icon, the scrollbars are misleading because they don't perform any action.",
+  "EB": "The expected behavior is that the scrollbars in the ImageAnalyzer example should be disabled when opening small images, like icons. This ensures that users are not misled by non-functional scrollbars.",
+  "SR": "Steps to Reproduce:\n1. Launch Build F2 (20020602) on Redhat 7.2 with GTK2 and KDE 2.210(GTK2 only).\n2. Open the ImageAnalyzer example.\n3. Notice that the scrollbars are enabled and movable.\n4. Open a small image, such as an icon.\n5. Observe that the scrollbars remain enabled but do not have any effect, causing confusion."
+}

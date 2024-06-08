@@ -1,0 +1,8 @@
+{
+  "id": "103963",
+  "title": "No Friendly Error Message Shown When Data is Missing for Series",
+  "description": "When there is no data for a series, the software should display a friendly error message to inform the user.",
+  "OB": "Currently, when there is no data for a series, no error message or notification is displayed to the user.",
+  "EB": "When there is no data for a series, the software should pop up a friendly error message to remind the user of the missing data.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create a chart.\n2. Set the data definition for the chart.\n3. Select a column that does not have any data assigned to it."
+}

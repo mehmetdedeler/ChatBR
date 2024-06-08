@@ -1,0 +1,1 @@
+{"bug_id": "20113", "title": "Bug 20113[Workbench] Importing preferences does not trip a Rebuild All when appropriate [general issue]", "description": "If importing preferences changes a preference that would cause trip rebuild allif processed manually, then it should cause the same action if changed viaimport preferences.(In my case, using jdk1.4 compliance.)"}

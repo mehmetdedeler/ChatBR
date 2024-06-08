@@ -1,0 +1,8 @@
+{
+  "id": "109718",
+  "title": "Bug 109718 - Tips Displaying Large Content in One Line",
+  "description": "When saving and placing the mouse cursor on a text item with large content, the expected behavior is that the tips should be displayed in a given format. However, the actual result is that the tips are shown in a single line.",
+  "OB": "When saving and placing the mouse cursor on a text item with large content, the tips are displayed in one line instead of the expected format.",
+  "EB": "When saving and placing the mouse cursor on a text item with large content, the tips should be displayed in the expected format.",
+  "SR": "To reproduce the issue:\n1. Save a text item with a large content.\n2. Place the mouse cursor on the text item."
+}

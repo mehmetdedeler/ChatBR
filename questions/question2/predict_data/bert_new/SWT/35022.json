@@ -1,0 +1,1 @@
+{"id": "35022", "title": "Bug 35022Motif does not send dragFinished event on aborted drags", "description": "Motif will only send a dragFinished event if the drop is successful.Windowssends dragFinished even if the drop is not successful.This bug split from bug 34983. ", "OB": "Bug 35022Motif does not send dragFinished event on aborted drags ", "EB": "", "SR": ""}

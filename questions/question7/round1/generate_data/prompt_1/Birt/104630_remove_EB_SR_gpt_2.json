@@ -1,0 +1,1 @@
+{"id": "104630", "title": "Column icons don't show up in connecting derby database", "description": "", "OB": "When connecting to a Derby database, the column icons do not appear.", "EB": "", "SR": "1. Open the application.\n2. Connect to a Derby database.\n3. Navigate to the database schema.\n4. Observe that the column icons are missing."}

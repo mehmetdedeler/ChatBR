@@ -1,0 +1,1 @@
+{"bug_id": "33369", "title": "Bug 33369[JUNIT] Button fails", "description": "I20030221setLocation fails.setImage has a serious error and hangs the execution of the tests."}

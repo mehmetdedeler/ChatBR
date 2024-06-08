@@ -1,0 +1,1 @@
+{"bug_id": "29786", "title": "Bug 29786BIDI: keyborad's left and right arrows move focus between tabs of rtloriented CTabFolder in the opposite direction.", "description": "BIDI: when keyboard is used to move focus from current tab of horizontal rtloriented CTabFolder to another, left arrow causes moving to the right directionand right arrow  to the left direction."}

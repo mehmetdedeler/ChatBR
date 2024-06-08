@@ -1,0 +1,8 @@
+{
+  "id": "50059",
+  "title": "Bug 50059 - Resources Not Served from /WEB-INF/lib/{.jar}/META-INF/resources with metadatacomplete='true'",
+  "description": "This bug report concerns a problem in a Servlet 3.0 web application named 'foo' when the metadatacomplete attribute is set to 'true' in the web.xml file.",
+  "OB": "The observed behavior is not provided in the bug report. Additional information about what went wrong should be included to clarify the issue.",
+  "EB": "The expected behavior, as inferred from the context, is that a JAR file (referred to as 'bar.jar') should be placed in the /WEB-INF/lib directory.",
+  "SR": "To provide a clear understanding of the issue, the steps to reproduce should be provided, but they are missing from the bug report."
+}

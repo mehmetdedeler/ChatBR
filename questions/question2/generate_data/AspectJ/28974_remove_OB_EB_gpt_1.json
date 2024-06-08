@@ -1,0 +1,8 @@
+{
+  "id": "28974",
+  "title": "Bug 28974: Compiler error when introducing a 'final' field",
+  "description": "When attempting to introduce a 'final' field in the code, a compiler error occurs, and no source information is available. This issue is causing a problem in the 'DemoBeanEJB' aspect, which is part of the 'com.ibm.amc' package. The error message suggests that there is an issue with assigning a value to the 'final' field 'com.ibm.amc.DemoBean.ajc$interField$comibmamc$verbose' in the code. This error occurs when using version 1.1b2 of the compiler.",
+  "OB": "When attempting to introduce a 'final' field in the code, a compiler error occurs, and no source information is available.",
+  "EB": "The expected behavior is that the code should compile successfully without any errors, even when introducing a 'final' field. There should be no compilation errors or issues related to 'final' fields.",
+  "SR": "To reproduce this issue:\n1. Use version 1.1b2 of the compiler.\n2. Attempt to introduce a 'final' field in the code, as demonstrated in the 'DemoBeanEJB' aspect in the 'com.ibm.amc' package.\n3. Compile the code by running the command: '$ ajc com/ibm/amc/.java com/ibm/amc/ejb/.java'\n4. You should encounter the compilation error described in the bug report, which mentions the issue with assigning a value to the 'final' field 'com.ibm.amc.DemoBean.ajc$interField$comibmamc$verbose'."
+}

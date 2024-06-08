@@ -1,0 +1,8 @@
+{
+  "id": "50016",
+  "title": "Bug 50016 - Bad division of responsibility around isUserInRole and new Request login and logout methods",
+  "description": "There is a bug related to the division of responsibility for isUserInRole and the new Request login/logout methods. The current implementation of Request.isUserInRole attempts to prevent JACC implementations, but it behaves incorrectly. In the existing Tomcat implementation, role reference mappings are applied to the supplied role, and then the target role is tested. JACC requires this to be implemented by constructing a role reference permission with the current servlet name and the supplied (not mapped) role.",
+  "OB": "The existing implementation of Request.isUserInRole has a bad division of responsibility, and it does not behave correctly according to JACC requirements.",
+  "EB": "Request.isUserInRole should correctly implement the division of responsibility as per JACC requirements. It should first apply role reference mappings to the supplied role and then test the target role. Additionally, the division of responsibility for the new Request login and logout methods needs to be clearly defined and documented.",
+  "SR": "To reproduce the issue and observe the incorrect behavior:\n1. Consider a web application with two roles, A and B.\n2. Create a servlet, S, that maps role A to B and role B to A.\n3. Attempt to use the Request.isUserInRole method with various roles to see the incorrect behavior in role checking."
+}

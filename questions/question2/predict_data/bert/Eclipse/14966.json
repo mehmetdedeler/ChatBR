@@ -1,0 +1,1 @@
+{"id": "14966", "title": "Bug 14966Decorator description should autowrap", "description": " Bug 14966Decorator description should autowrap", "OB": "", "EB": " The description text field in the decorator pref page should autowrap toproperly display long messages.", "SR": ""}

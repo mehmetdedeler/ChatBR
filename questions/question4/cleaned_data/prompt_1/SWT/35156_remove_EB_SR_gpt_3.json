@@ -1,0 +1,8 @@
+{
+  "id": "35156",
+  "title": "Bug 35156 - Ctrl+F1 works only on some fields in the help search",
+  "description": "Users report that Ctrl+F1 functionality is inconsistent when used in the help search. Further details need to be provided.",
+  "OB": "When using Ctrl+F1 in the help search, it is observed that the shortcut works only on certain fields, leading to an inconsistent user experience.",
+  "EB": "Ctrl+F1 should consistently work on all fields within the help search, providing a uniform and expected behavior for users.",
+  "SR": "1. Open the help search feature.\n2. Use Ctrl+F1 on different fields within the search.\n3. Observe the inconsistency in the shortcut's functionality."
+}

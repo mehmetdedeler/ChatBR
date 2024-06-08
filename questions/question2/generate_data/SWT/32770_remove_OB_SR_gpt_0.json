@@ -1,0 +1,8 @@
+{
+  "id": "32770",
+  "title": "Bug 32770 - Java Application Launch Error Message Improvement",
+  "description": "This bug report suggests enhancing the error message displayed during Java application launches to provide users with more actionable guidance.",
+  "OB": "The bug report does not describe the observed behavior, making it difficult to understand the current issue.",
+  "EB": "The expected behavior is to improve the error message to offer users a hint on how to resolve the problem. Specifically, the message should suggest selecting a resource, and it might read something like 'Launch failed: No file with a main type selected.'",
+  "SR": "The bug report lacks clear steps to reproduce the issue, and they should be provided for better understanding."
+}

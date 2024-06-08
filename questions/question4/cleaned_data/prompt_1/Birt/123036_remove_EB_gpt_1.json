@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Bug 123036 Data in a report is doubly stored",
+  "description": "",
+  "OB": "The data in the report is duplicated, leading to inaccuracies and redundancy. This issue affects the integrity of the stored information.",
+  "EB": "Data should be stored only once, either in the content stream or by DtE, to ensure accurate and efficient storage without duplication.",
+  "SR": "Steps to reproduce:\n1. Perform action X to initiate data storage.\n2. Observe the content stream and check for data duplication.\n3. Execute action Y to trigger DtE data storage.\n4. Verify that data is not duplicated in both the content stream and DtE."
+}

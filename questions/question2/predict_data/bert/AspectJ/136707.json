@@ -1,0 +1,1 @@
+{"id": "136707", "title": "Bug 136707iajc should print summary like javac", "description": "", "OB": "", "EB": " Bug 136707iajc should print summary like javac The iajc ant task should produce a summary of what it is doing, like the javac task does:[javac] Compiling 189 source files to C:\\project\\classes", "SR": ""}

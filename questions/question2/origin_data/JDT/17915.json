@@ -1,0 +1,1 @@
+{"bug_id": "17915", "title": "Bug 17915JUnit dirty indicator appears to early", "description": "opening a compilation unit in the editor marks the test result as dirty."}

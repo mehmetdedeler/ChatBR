@@ -1,0 +1,8 @@
+{
+  "id": "16822",
+  "title": "Bug 16822 - Search Results Not Cleared When Compilation Unit (cu) Is Moved",
+  "description": "This issue is specific to Build 200205211.",
+  "OB": "When the compilation unit X.java is moved to 'P/src2', the search results for X.java remain in the search view. Additionally, attempting to double-click on the search result opens a 'Search Error' dialog with the message: 'An error occurred while creating a Java element. Reason: X.java does not exist.'",
+  "EB": "The expected behavior is that when a compilation unit (cu) is moved within the project, the corresponding search results should be automatically cleared from the search view. Users should not encounter any 'Search Error' dialogs when attempting to access search results for a moved cu.",
+  "SR": "To reproduce and confirm this issue, follow these steps:\n1. Create a project with at least two source folders, e.g., 'src1' and 'src2'.\n2. Create a compilation unit (cu) named X.java under 'src1'.\n3. Perform a search for the declaration of X within the IDE.\n4. Move the X.java cu to 'src2'.\n\nObserve if the search results for X.java are automatically removed from the search view as expected or if the 'Search Error' dialog appears."
+}

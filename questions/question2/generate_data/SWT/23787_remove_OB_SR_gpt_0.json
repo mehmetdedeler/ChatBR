@@ -1,0 +1,8 @@
+{
+  "id": "23787",
+  "title": "Bug 23787 - Display Issue in Project Properties Info Page",
+  "description": "The Project Properties Info page has a display issue, particularly on Motif platforms. This issue is associated with the use of text fields for displaying certain information.",
+  "OB": "The bug report does not provide specific details about the observed behavior. To address the issue effectively, it's crucial to describe the exact problem that users encounter on the Info page.",
+  "EB": "The expected behavior is that the Info page should use readonly Labels instead of Text fields to display information. This change is likely to improve the page's appearance and user experience.",
+  "SR": "Steps to reproduce the issue are not provided in the bug report. Please provide clear and complete steps to replicate the problem, including what information should be displayed as readonly Labels on the Info page."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "15899",
+  "title": "Bug 15899 - Close All Saved Functionality Inconsistent",
+  "description": "The 'Close all saved' feature is intermittently failing to function properly.",
+  "OB": "At times, selecting 'Close all saved' doesn't close the files despite no changes being made.",
+  "EB": "This feature should reliably close all open files when no changes have been made to them.",
+  "SR": "1. Open multiple files.\n2. Make no changes to any file.\n3. Attempt to use 'Close all saved' feature.\n4. Observe the behavior of some files not closing despite meeting the criteria."
+}

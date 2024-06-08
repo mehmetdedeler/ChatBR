@@ -1,0 +1,8 @@
+{
+  "id": "6410",
+  "title": "Bug 6410 - File marked as changed by code assist when it shouldn't",
+  "description": "The software marks a file as changed when using code assist, even if there are no suggestions or modifications made.",
+  "OB": "When using code assist with no suggestions to offer, the software marks the Java file as 'dirtied' or 'changed' despite no actual changes being made to the file.",
+  "EB": "If code assist has nothing to suggest, it should not mark the file as changed. The expected behavior is that the file remains unaltered when code assist does not provide any recommendations.",
+  "SR": "To reproduce the issue:\n1. Open a Java file.\n2. Place the cursor inside the leftmost parenthesis of a method call, for example, consider 'I' to be the cursor below:\n   Object o = anotherObject.method(I);\n3. Press CtrlSpace."
+}

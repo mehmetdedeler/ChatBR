@@ -1,0 +1,8 @@
+{
+  "id": "24411",
+  "title": "Mouse Click on Link Doesn't Select Link in Welcome Page",
+  "description": "Mouse click on link should select link in the Welcome page.",
+  "OB": "When clicking on a link in the Welcome page, the appropriate action is executed, but the clicked link is not visually selected. This behavior could be confusing to the user when they return to the Welcome page.",
+  "EB": "The expected behavior is that when a user clicks on a link in the Welcome page, not only should the appropriate action be executed, but the clicked link should also be visually highlighted or selected. This would provide more context to the user when they return to the Welcome page.",
+  "SR": "To reproduce the issue:\n1. Ensure you are using build 20021001.\n2. Make sure you have set the Welcome page as the default page (I removed the welcome...line in prefstore.ini of the workbench metadata).\n3. Click on any link in the Welcome page. Observe that the appropriate action is executed, but the clicked link is not visually selected."
+}

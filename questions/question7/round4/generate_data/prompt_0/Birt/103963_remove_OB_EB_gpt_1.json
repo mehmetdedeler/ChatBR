@@ -1,0 +1,1 @@
+{"id": "103963", "title": "If there is no data for series, it should display a friendly error message to remind users.", "description": "", "OB": "", "EB": "", "SR": "To reproduce the issue, follow these steps:\n1. Create a chart.\n2. Set the data definition.\n3. Select a column that does not contain any data."}

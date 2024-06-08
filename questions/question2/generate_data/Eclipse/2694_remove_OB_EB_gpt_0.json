@@ -1,0 +1,8 @@
+{
+  "id": "2694",
+  "title": "Bug 2694 - Editor Selection Dialog: UI suggestions (1GI6RPE)",
+  "description": "Editor Selection Dialog (1GI6RPE) needs improvement in various aspects. Some fixes have already been implemented, but there are additional issues that need attention.",
+  "OB": "The following issues and suggestions have been identified:\n1. Multiple selection is not enabled for the associated editors.\n2. The default entry in the associated editors list is not clearly marked as '(default).' (Refer to perspectives)\n3. The dialog lacks a width hint, affecting its visual appearance.\n4. The 'File Editors' Preferences page increases in height when selected, unlike other pages.\n",
+  "EB": "Expected Behavior:\n1. Users should be able to select multiple associated editors.\n2. The default entry in the associated editors list should be clearly marked as '(default).' (Refer to perspectives)\n3. The dialog should have a width hint to improve its visual presentation.\n4. The 'File Editors' Preferences page should behave consistently with other pages, not increasing in height when selected.\n",
+  "SR": "Steps to Reproduce:\n1. Open the WorkbenchFile Editors preference page.\n2. Without selecting anything from the 'Internal Editors' section, go to 'External Editors' and select an entry.\n3. Return to 'Internal Editors' (with no selection made), and press 'OK.' Observe if the selected external editor is added.\n"
+}

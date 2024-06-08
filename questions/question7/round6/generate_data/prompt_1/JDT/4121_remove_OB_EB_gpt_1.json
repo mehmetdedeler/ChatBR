@@ -1,0 +1,8 @@
+{
+  "id": "4121",
+  "title": "Bug 4121: JarExporter causes out-of-sync (1GILQD5)",
+  "description": "Bug 4121: JarExporter causes out-of-sync (1GILQD5)",
+  "OB": "When exporting a directory (project) and placing the exported JAR in the same directory (project), an out-of-sync message occurs when overwriting the exported JAR file for the second time.",
+  "EB": "The JarExporter should handle overwriting the exported JAR file without triggering an out-of-sync message when placed in the same directory.",
+  "SR": "Please address the issue with JarExporter to ensure smooth overwriting of exported JAR files without triggering out-of-sync messages."
+}

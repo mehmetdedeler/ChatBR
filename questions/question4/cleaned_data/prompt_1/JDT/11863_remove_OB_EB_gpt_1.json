@@ -1,0 +1,8 @@
+{
+  "id": "11863",
+  "title": "Bug 11863: Update Test Suite action does not allow removal",
+  "description": "The Update Test Suite action does not provide an option to remove elements from the test suite.",
+  "OB": "When attempting to update a test suite using the action, there is no functionality to remove existing elements from the suite, leading to a limitation in test suite modification.",
+  "EB": "The Update Test Suite action should include the ability to remove elements from the test suite, providing users with a comprehensive toolset for test suite management.",
+  "SR": "Modify the Update Test Suite action to allow users to remove elements from the test suite when updating. Ensure that the user interface clearly presents this option and that the functionality is intuitive for users working with test suites."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "6304",
+  "title": "Bug 6304 - Cannot synchronize a .java file and another resource",
+  "description": "The bug report lacks sufficient details in the OB (Observed Behavior), EB (Expected Behavior), and SR (Steps to Reproduce) sections. I'll infer and supplement the information for clarity.",
+  "OB": "When attempting to synchronize a .java file with another resource, the synchronization process fails or encounters unexpected behavior.",
+  "EB": "The synchronization process for a .java file and another resource should complete successfully without encountering errors or unexpected behavior.",
+  "SR": "1. Open the IDE and navigate to the project containing a .java file and another resource.\n2. Attempt to synchronize the .java file with the other resource.\n3. Observe any error messages, unexpected behavior, or failure to synchronize."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "136279", "title": "Bug 136279Structure and table datatypes should be hidden.", "description": "Description:Structure and table datatype should be hidden.Steps to reproduce:In table data binding, I saw structure and table two datatypes.They are not supported now, so they should be removed."}

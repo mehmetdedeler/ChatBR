@@ -1,0 +1,1 @@
+{"bug_id": "2403", "title": "Bug 2403Changing build order should initiate incremental build (1GEYZPB)", "description": "If you change the preference so you can specify build order,and change the order, autobuild should run if enabled (or do full build).NOTES:"}

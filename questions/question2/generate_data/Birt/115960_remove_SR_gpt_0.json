@@ -1,0 +1,8 @@
+{
+  "id": "115960",
+  "title": "Datetime values retrieved from table show different format in dynamic text item and data/text item",
+  "description": "",
+  "OB": "Datetime values retrieved from the table exhibit varying formats when displayed in dynamic text items and data/text items. The observed behavior is that dynamic text items are showing the date in a different format compared to data/text items.",
+  "EB": "When inputting 'new Date()' as content for three different items and then saving and previewing, the expected result is that all three items should display the date in the same format. However, the actual result is that the data and text items are consistent in their date format, but the dynamic text item displays the date in a different format.",
+  "SR": "To reproduce the issue:\n1. Input 'new Date()' as the content for three items.\n2. Save the changes.\n3. Preview the items.\n4. Observe that the dynamic text item displays the date in a different format compared to the data and text items."
+}

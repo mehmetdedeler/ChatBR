@@ -1,0 +1,8 @@
+{
+  "id": "134488",
+  "title": "Bug 134488 - Setting page break for table inside list group header causes data display error",
+  "description": "When setting a page break for a table inside a list group header, it results in a data display error. The behavior in different views needs to be addressed.",
+  "OB": "When a page break is set for a table inside a list group header, data display issues occur.",
+  "EB": "Expected result: When a page break is set for a table inside a list group header, the data should be displayed correctly. However, in the Web Viewer, the data in the table keeps displaying only the first data row on each page. In HTML/PDF, the display is as expected without errors.",
+  "SR": "To reproduce the issue:\n1. Open the application and navigate to a page with a table inside a list group header.\n2. Set a page break for the table inside the list group header.\n3. View the page in the Web Viewer and note the data display error where only the first data row is shown on each page.\n4. View the same page in HTML/PDF to confirm that the issue does not occur there."
+}

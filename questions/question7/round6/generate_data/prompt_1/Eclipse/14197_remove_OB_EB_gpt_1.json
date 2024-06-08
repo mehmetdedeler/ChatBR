@@ -1,0 +1,8 @@
+{
+  "id": "14197",
+  "title": "Bug 14197: Removing a working set immediately makes changes",
+  "description": "Bug 14197: Removing a working set immediately makes changes",
+  "OB": "When a working set is removed, the changes take effect instantly without any prompt or confirmation.",
+  "EB": "Expected behavior is that there should be a confirmation dialog or prompt before changes are applied upon removing a working set. Users should be able to review and confirm their decision.",
+  "SR": "Steps to Reproduce:\n1. Create a working set with one project and select it; the package view is filtered.\n2. Open the working set dialog again.\n3. Create a second working set and delete the first."
+}

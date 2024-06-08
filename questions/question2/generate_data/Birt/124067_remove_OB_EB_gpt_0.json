@@ -1,0 +1,8 @@
+{
+  "id": "124067",
+  "title": "Relative Path Not Supported When Selecting XML File",
+  "description": "When selecting an XML file, the software should support relative paths for data sources and datasets.",
+  "OB": "Currently, when a user selects an XML file for creating a data source and dataset, the software only allows absolute file paths. It does not recognize or support relative paths, making it inconvenient for users who want to maintain their project's portability.",
+  "EB": "The expected behavior is that when a user selects an XML file for creating a data source and dataset, the software should allow the use of relative file paths. This means that the software should be able to resolve file references based on the current project or working directory, enabling users to work with XML files in a more flexible and portable manner.",
+  "SR": "To reproduce the issue and verify the bug, follow these steps:\n1. Open the software.\n2. Create a new data source and dataset.\n3. When prompted to select an XML file, choose an XML file using a relative path (e.g., '../../data/mydata.xml').\n4. Observe that the software does not accept the relative path and provides an error or does not load the file correctly."
+}

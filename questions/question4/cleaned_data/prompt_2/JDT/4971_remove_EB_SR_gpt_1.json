@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Bug 4971 - Unexpected Behavior with 'Copy Package'",
+  "description": "When attempting to copy a package labeled '2031' within 'org.eclipse.jdt.internal.ui' in 'jdt.ui3' and selecting 'xxx' as the destination, unexpected behavior occurs.",
+  "OB": "After the operation, the destination 'xxx' contains a package named 'ui'.",
+  "EB": "After copying, 'xxx' should not contain a package named 'ui'.",
+  "SR": "Steps to Reproduce:\n1. Open 'org.eclipse.jdt.internal.ui' in 'jdt.ui3'.\n2. Locate package '2031'.\n3. Attempt to copy this package.\n4. Select 'xxx' as the destination.\n5. Observe the presence of the 'ui' package in 'xxx'."
+}

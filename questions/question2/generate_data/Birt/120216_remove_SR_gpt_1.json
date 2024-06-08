@@ -1,0 +1,8 @@
+{
+  "id": "120216",
+  "title": "Group dialog not displaying when dataset is not set",
+  "description": "When attempting to define a group, the group dialog is not displayed when the dataset is not set. This issue needs to be addressed to ensure that users can define a group even in the absence of a dataset.",
+  "OB": "An error is shown when attempting to define a group, and the group dialog is not displayed.",
+  "EB": "The group dialog should be displayed when a user attempts to define a group, even if the dataset is not defined. Users should be able to go ahead and define a group without any hindrance from the UI. There should be no error message or validation blocking this process.",
+  "SR": "To reproduce this issue:\n1. Open the application.\n2. Navigate to the 'Groups' section.\n3. Try to create a new group without defining a dataset.\n4. Observe that the group dialog does not appear, and an error is displayed instead."
+}

@@ -1,0 +1,1 @@
+{"id": "13799", "title": "Bug 13799JAR exporter exports class files from output folder", "description": "Bug 13799JAR exporter exports class files from output folder ", "OB": "There was a problem with the output folder not being detected as such. ", "EB": "", "SR": ""}

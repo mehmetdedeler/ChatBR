@@ -1,0 +1,1 @@
+{"bug_id": "14768", "title": "Bug 14768Next problem action is always enabled", "description": "The \"Next Problem..\" action never disables.Clicking it in the toolbar mightdo nothing."}

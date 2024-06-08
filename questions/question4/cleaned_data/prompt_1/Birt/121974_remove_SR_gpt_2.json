@@ -1,0 +1,8 @@
+{
+  "id": "121974",
+  "title": "Bug 121974: Can't evaluate global expressions when ResultIterator is not in the iteration loop",
+  "description": "For global expressions, such as {params['p1']},{new DateTime()}, it should always be available and evaluable within the BIRT scripting environment. Currently, Dte scriptExpression has three types: BEFOREFIRSTROW, AFTERLASTROW, ONEACHROW.",
+  "OB": "BEFOREFIRSTROW only works when the cursor is just entering the first row, and AFTERLASTROW only works when the cursor is just leaving the last row. Once the iteration is finished, both types won't work anymore. Attempting to evaluate these expressions after iteration results in a 'QueryResults or its iterator has been closed' DataException.",
+  "EB": "Global expressions should be evaluable within the BIRT scripting environment regardless of the data row iteration status. Rename BEFOREFIRSTROW/AFTERLASTROW to more accurately reflect their behavior, such as ONSTARTROW and ONENDROW. Introduce a new GLOBAL expression type to address this issue.",
+  "SR": "1. Open BIRT scripting environment.\n2. Use global expressions, like {params['p1']},{new DateTime()}.\n3. Observe that BEFOREFIRSTROW works only when entering the first row, and AFTERLASTROW works only when leaving the last row. After iteration, attempting to evaluate these expressions should not result in a 'QueryResults or its iterator has been closed' DataException."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "2120",
+  "title": "Bug 2120 - MRU File List Not Persisted Between Sessions (1GE71Z0)",
+  "description": "The MRU (Most Recently Used) file list is not being saved between software sessions.",
+  "OB": "Upon opening the software, I observed that the files that were previously used do not appear in the 'File' menu's Most Recently Used (MRU) list. The MRU list should display the recently used files, but it is currently empty.",
+  "EB": "I expect the MRU list to persist between sessions. When I open the software, the MRU list should display the files that were recently opened during the previous sessions. This will enhance user convenience and efficiency.",
+  "SR": "To reproduce the issue:\n1. Launch the software.\n2. Open some files using the 'File' menu.\n3. Close the software.\n4. Reopen the software.\n5. Check the 'File' menu's MRU list. The previously opened files should be listed here, but they are not."
+}

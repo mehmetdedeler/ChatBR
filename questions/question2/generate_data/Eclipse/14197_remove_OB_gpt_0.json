@@ -1,0 +1,8 @@
+{
+  "id": "14197",
+  "title": "Removing a working set immediately triggers unwanted package view changes",
+  "description": "Bug 14197 - Removing a working set immediately triggers unwanted package view changes",
+  "OB": "When removing a working set, the package view in the background immediately undergoes a refiltering process.",
+  "EB": "At the moment of deletion, the package view in the background should not automatically refilter. Refiltering should only occur when closing the working set selection dialog. Additionally, pressing cancel should revert all changes made to working sets, including canceling the removal of a working set.",
+  "SR": "Steps to reproduce the issue: 1. Create a working set with one project and select it; the package view is filtered. 2. Open the working set dialog again, create a second working set, and then delete the first working set."
+}

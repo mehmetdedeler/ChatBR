@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '31627', 'title': 'Bug 31627DBCS: Perspective change caused core dump after adding DBCS project to the workspace', 'description': 'Language: JapaneseBuild driver: eclipseSDKI20030211linuxgtkOS: RedHat8(Japanese: locale jaJP.eucJP), gtk 2.2JDK Ver. : IBM JDK1.3.1 + SR3Summary: DBCS: Perspective change caused core dump after adding DBCS projectto the workspaceDescription:Steps to recreate problem:1. ', 'OB': '', 'EB': 'Click "Resource Perspective" icon at the shortcut bar.<<ErrorAfter step 12, the workbench core dump.Please refer the attachment (cvsdefect.zip)<<Expected ResultIt should change the perspective successfully without core dump. ', 'SR': ''}
+</BUG REPORT>

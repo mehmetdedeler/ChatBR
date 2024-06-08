@@ -1,0 +1,1 @@
+{"bug_id": "100999", "title": "Bug 100999Ctrl+Z/Y doesn't work in expression builder", "description": "Description: Undo/redo doesn't work in expression builder.Steps to reproduce:1. Edit a data element.2. In expression builder, press ctrl+z/y.Expected result:undo/redo works.Actual result: no response."}

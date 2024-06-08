@@ -1,0 +1,8 @@
+{
+                    "id": "129569",
+                    "title": "Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window",
+                    "description": "Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window. This is a BiDI specific defect. 1. Open the Query window.2. Connect to the 'tomer' database.3. Make sure that this table has columns with BiDi name (e.g. 'EMANNMULOC').4. Execute the following SQL query: 'select tomer.tomerEMANNMULOC.REMOT from tomer.tomerREMOT where tomer.tomerOLLEH' =! ",
+                    "OB": "",
+                    "EB": "Add the following condition to the WHERE portion of the SQL query: tomer.tomerREMOT.EMANNMULOC != 'OLLEH world'.",
+                    "SR": "1. Open the Query window.\n2. Connect to the 'tomer' database.\n3. Ensure that the table has columns with BiDi names (e.g. 'EMANNMULOC').\n4. Execute the SQL query: 'select tomer.tomerEMANNMULOC.REMOT from tomer.tomerREMOT where tomer.tomerOLLEH != 'OLLEH world'."
+                }

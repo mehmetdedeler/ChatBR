@@ -1,0 +1,8 @@
+{
+  "id": "49503",
+  "title": "Connectors Fail to Bind Ports Properly in Tomcat Catalina.load() vs. start()",
+  "description": "In Tomcat trunk revision 957942, it appears that Connectors fail to bind to their ports during Catalina.load() but only succeed later in start(). This issue potentially affects version 7.0.0 as well. In TC6, there's a distinct prestartup phase allowing Connectors to bind to ports before other Tomcat components start. This phase involves separate Bootstrapload(String[]) and Bootstartstart() methods [1]. Unfortunately, this seems to break the fix for BZ 48625. Notably, when using jsvc, Tomcat may fail to bind to privileged ports (like 80). Although I don't use jsvc, I encountered this issue while testing fixes for bug 49030 and bug 48625 applied in r957960. The second instance fails as anticipated, but not in the expected manner. Actual behavior: The exception doesn't occur because the connector doesn't attempt to bind to the port. It only binds when start() is called. The startup sequence proceeds, eventually failing in Server.await().",
+  "OB": "Connectors fail to bind to ports during Catalina.load() but succeed later in start().",
+  "EB": "Connectors should successfully bind to their ports during Catalina.load() itself, ensuring a smooth startup process without encountering failures in Server.await().",
+  "SR": "Steps to reproduce:\n1. Start the first instance successfully.\n2. Test the fix for bug 49030 + bug 48625 applied in r957960.\n3. Notice that the second instance fails to bind to the port during startup, leading to a subsequent failure in Server.await()."
+}

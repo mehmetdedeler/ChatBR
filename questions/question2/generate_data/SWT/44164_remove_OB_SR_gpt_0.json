@@ -1,0 +1,8 @@
+{
+  "id": "44164",
+  "title": "Bug 44164 - Javadoc Update Needed for Image Constructor",
+  "description": "This bug report emphasizes the requirement for an update in the Javadoc documentation for the constructor 'Image(Device, ImageData).' A code example is provided that indicates a documentation issue, but specific details regarding observed behavior, expected behavior, or steps to reproduce are not provided.",
+  "OB": "The observed behavior (OB) related to the Javadoc issue is not described. As a result, there is no information regarding what problems or inconsistencies are encountered.",
+  "EB": "The expected behavior (EB) is that the missing information should be added to the Javadoc documentation for the 'Image(Device, ImageData)' constructor, as indicated by the reporter. However, the specific details of what information is missing are not mentioned.",
+  "SR": "The steps to reproduce (SR) are not provided. To enhance the report, the reporter should include clear and specific steps to replicate the issue in the Javadoc documentation."
+}

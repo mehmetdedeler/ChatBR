@@ -1,0 +1,8 @@
+{
+  "id": "19458",
+  "title": "Bug 19458[Navigator] Copy Project dialog UI problems",
+  "description": "When attempting to copy a project in the Navigator, an issue arises with the UI elements displaying in red text.",
+  "OB": "Upon selecting the project name as 'test', an unexpected static text validation error is displayed within the dialog.",
+  "EB": "The dialog should not exhibit any red text or validation errors when selecting the project name.",
+  "SR": "1. Open the Navigator interface.\n2. Attempt to copy a project.\n3. Choose the project name as 'test' and observe the dialog for any unexpected red text or validation errors."
+}

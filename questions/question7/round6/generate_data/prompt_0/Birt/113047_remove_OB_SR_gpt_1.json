@@ -1,0 +1,8 @@
+{
+  "id": "113047",
+  "title": "Bug 113047: No children node listing when changing data source for a data set in the data set editor page of the query tab.",
+  "description": "The user encounters an issue where changing the data source for a data set in the data set editor page of the query tab does not result in the expected listing of children nodes.",
+  "OB": "When attempting to change the data source, there is no listing of children nodes in the data set editor page of the query tab. The expected children nodes do not appear as they should after the data source is changed.",
+  "EB": "When changing the data source for a data set in the data set editor page of the query tab, the expected behavior is that the children nodes related to the new data source should be listed out. The user should see an updated list of children nodes corresponding to the newly selected data source.",
+  "SR": "1. Open the data set editor page in the query tab.\n2. Select a data set.\n3. Attempt to change the data source for the selected data set.\n4. Observe the absence of children nodes in the listing.\n5. Expected: The listing should update to display the children nodes associated with the newly selected data source."
+}

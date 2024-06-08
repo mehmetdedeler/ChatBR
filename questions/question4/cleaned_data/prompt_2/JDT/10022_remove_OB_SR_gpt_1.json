@@ -1,0 +1,8 @@
+{
+  "id": "10022",
+  "title": "Bug 10022: Incorrect 'Build' Popup Action Enablement",
+  "description": "Bug 10022 - Incorrect 'Build' popup action enablement.",
+  "OB": "The 'Build' popup action is incorrectly enabled even when a manual build is not needed. This occurs even if the build has already been done automatically.",
+  "EB": "The 'Build' popup action should only be enabled when a manual build is required or if no automatic build has been performed. In cases where the build is already done automatically, the 'Build' action should be disabled.",
+  "SR": "1. Open the application and navigate to the build settings.\n2. Ensure that an automatic build has been performed.\n3. Check the 'Build' popup action's enablement status. It should be disabled since a manual build is not needed when an automatic build has already been done."
+}

@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '116744', 'title': 'Bug 116744Dynamic text content type has no effect', 'description': '', 'OB': '', 'EB': "The reportdisplays the same results whether I set the dynamic text element's Content Typeproperty to Auto, Plain, or HTML.Expected results:For Plain, I expect the literal content (tags and all) to be displayed.For Auto, I expect content 1, 2 and 3 to appear properly without HTML or RTFtags.For HTML, I expect content 1 and 2 to appear properly without HTML tags, andcontent 3 to appear literally with RTF tags.See attached report. ", 'SR': ''}
+</BUG REPORT>

@@ -1,0 +1,8 @@
+{
+  "id": "18915",
+  "title": "Bug 18915[Preferences] Switching Between Erroneous Preferences Pages Should Generate Error, Not Warning.",
+  "description": "",
+  "OB": "When entering invalid data on any preference page and attempting to switch to another page without fixing the problem, a warning dialog appears with the message: 'Warning: The currently displayed page contains invalid values.'",
+  "EB": "The warning dialog should be an 'error' dialog instead, as users should not be allowed to leave the page without addressing the mistake.",
+  "SR": "1. Enter invalid data on any preference page, triggering a red flag on the UI.\n2. Attempt to switch to another page without fixing the problem.\n3. Observe the warning dialog: 'Warning: The currently displayed page contains invalid values.'"
+}

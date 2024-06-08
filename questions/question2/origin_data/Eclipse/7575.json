@@ -1,0 +1,1 @@
+{"bug_id": "7575", "title": "Bug 7575Perpective  Show View sub menu not ordered...", "description": "(build 20020109)The list of views in the Perspective  Show View submenu is not ordered. Itshould be ordered alphabetically just like the Perspective  Open menu.Otherwise, it is a real pain scanning the list for a particular view."}

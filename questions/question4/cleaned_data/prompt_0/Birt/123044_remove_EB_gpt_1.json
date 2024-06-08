@@ -1,0 +1,8 @@
+{
+  "id": "123044",
+  "title": "Bug 123044 - Page Break Issue in PDF Preview",
+  "description": "Description: Preview attached file in PDF, and the page break in the first item didn't happen.",
+  "OB": "When previewing the attached file in PDF format, the expected page break in the first item did not occur.",
+  "EB": "The first item in the PDF preview should have a page break as per the expected formatting.",
+  "SR": "Steps to reproduce: 1. Open the attached file in bug 1228982 and preview it in PDF format."
+}

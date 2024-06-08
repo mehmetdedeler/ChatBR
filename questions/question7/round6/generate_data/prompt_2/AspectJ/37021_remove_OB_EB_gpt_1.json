@@ -1,0 +1,8 @@
+{
+  "id": "37021",
+  "title": "Incorrect Source Path in Declare Warning on Binary Files",
+  "description": "When performing declare warnings on binary files in [Java|AJ], the source path is displaying incorrectly. The issue was observed in the tests/new/binaryWarnings/ directory. It's important to note that these tests may produce false positives due to filename checking limitations in harness verification of messages. In AJDT, it seems that when filenames are nonsensical to AJDT, they might be omitted.",
+  "OB": "The source path in declare warning messages targeting .class files from 'injars' appears as 'app.Main.class' instead of 'app/Main'.",
+  "EB": "The expected behavior is for the source path in declare warning messages to display in the correct format, such as 'app/Main', when targeting .class files from 'injars'.",
+  "SR": "To reproduce the issue:\n1. Perform declare warning messages targeting .class files from 'injars'.\n2. Note the displayed source path, which should be observed as 'app.Main.class' rather than 'app/Main'."
+}

@@ -1,0 +1,1 @@
+{"id": "6304", "title": "Cannot synchronize a .java file and another resource", "description": "", "OB": "", "EB": "", "SR": "To reproduce the issue: 1. In the package viewer, select a .java file and another resource (e.g., a .properties file)."}

@@ -1,0 +1,8 @@
+{
+  "id": "3666",
+  "title": "Bug 3666 CodeCompletion - Hungry code assist (1GDRYW5)",
+  "description": "Under certain circumstances code assist eats too much code. Consider the enclosed class. As a programmer, I must add a parameter to the baz call in bar to make the program correct. Steps: 1. UI can decide whether it wants to use the code assist end position (until the end of the current identifier) or the cursor location it used to start with, so as to control the amount of source to replace. Removing code assist option.",
+  "OB": "The observed behavior is that the code is changed to: baz(x.foo().foo()) when it should be baz(x.foo()x.foo()) as shown in the provided class example.",
+  "EB": "The expected behavior is that the code assist should produce the code as follows: baz(x.foo()x.foo()) in accordance with the provided class example.",
+  "SR": "To reproduce the issue, follow these steps: 1. Create a class similar to the one provided, with a method 'bar' calling 'baz' and without the expected parameter. 2. Invoke the code assist for 'baz' within the 'bar' method, and observe that it generates 'baz(x.foo().foo())' instead of 'baz(x.foo()x.foo())'."
+}

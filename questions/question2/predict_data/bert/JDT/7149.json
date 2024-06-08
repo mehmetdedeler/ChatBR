@@ -1,0 +1,1 @@
+{"id": "7149", "title": "Bug 7149NLS: key generation for strings with trailing ...", "description": " Bug 7149NLS: key generation for strings with trailing ...", "OB": "", "EB": " It would make sense to remove trailing \"...\" for auto generated keys", "SR": ""}

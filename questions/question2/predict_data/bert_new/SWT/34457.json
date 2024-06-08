@@ -1,0 +1,1 @@
+{"id": "34457", "title": "Bug 34457Changing SWT.BORDER increments ProgressBar", "description": "Bug 34457Changing SWT.BORDER increments ProgressBar ", "OB": "", "EB": "", "SR": "RC2 run the ControlExample, go to the ProgressBar tab repeatedly click on the SWT.BORDER checkbox, and note that the sampleProgressBar increments each time "}

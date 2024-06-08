@@ -1,0 +1,1 @@
+{"bug_id": "14409", "title": "Bug 14409Hardcoded usage of \\t for indent", "description": "Build 20020418While fixing the indent problem for extract method I did a search for \\t in JDTUI. The following classes are IMO suspicious regarding their usage of \\tJavaAutoIndentStrategy.javaNLSLine.javaNLSRefactoring.javaStubUtility.javaSurroundWithTryCatchRefactoring.java"}

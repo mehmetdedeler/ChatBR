@@ -1,0 +1,1 @@
+{"id": "118644", "title": "Bug 118644Hint for Date Time Parameters", "description": "Bug 118644Hint for Date Time Parameters So it's quite confusing! ", "OB": "The hint you give for date time parameters (Please enter date ... pattern: MM/DD/YYYY ....) is only true if the date is unformatted. ", "EB": "", "SR": "If you apply a format, you must enter it according to it. "}

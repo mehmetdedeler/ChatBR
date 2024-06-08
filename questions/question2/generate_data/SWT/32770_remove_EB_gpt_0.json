@@ -1,0 +1,8 @@
+{
+  "id": "32770",
+  "title": "Bug 32770 - Java Application Launch Error Message Improvement",
+  "description": "This bug report is related to the error message displayed when attempting to launch a Java application. The error message 'Launch failed: no main type found' is considered unhelpful and should be improved to provide more clarity and guidance to the user.",
+  "OB": "The observed behavior is that a dialog appears with the unhelpful error message 'Launch failed: no main type found.'",
+  "EB": "The expected behavior is to provide a more informative and user-friendly error message that guides the user on how to resolve the issue or identify the problem.",
+  "SR": "To reproduce the issue and view the unhelpful error message:\n1. Open a Java file containing a main method.\n2. Select a non-resource-based view, such as the Debug view.\n3. Click 'Debug As' > 'Java Application'."
+}

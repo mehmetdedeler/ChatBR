@@ -1,0 +1,8 @@
+{
+  "id": "27869",
+  "title": "Bug 27869 - StyledText Overuse of Font.getFontData",
+  "description": "StyledText in Redhat 8 overuses Font.getFontData and relies heavily on the FontMetrics API. It would be more efficient to cache the metric information in StyledText and update it only when the font is changed.",
+  "OB": "StyledText currently excessively uses the Font.getFontData and FontMetrics API, resulting in a performance overhead.",
+  "EB": "I believe, and many people agree, that this API should not be used at all by StyledText for routine typing operations. It should rely on cached metric information and only update when the font is changed.",
+  "SR": "To reproduce the issue:\n1. Open StyledText in Redhat 8.\n2. Start typing text within StyledText.\n3. Observe the excessive usage of Font.getFontData and FontMetrics API during typing, leading to performance degradation."
+}

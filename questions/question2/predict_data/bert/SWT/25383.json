@@ -1,0 +1,1 @@
+{"id": "25383", "title": "Bug 25383Variant needs a dispose method", "description": " Bug 25383Variant needs a dispose method", "OB": " IUnknown and IDispatch interfaces being leaked.", "EB": "", "SR": ""}

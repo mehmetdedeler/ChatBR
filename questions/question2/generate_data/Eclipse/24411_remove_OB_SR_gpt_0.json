@@ -1,0 +1,8 @@
+{
+  "id": "24411",
+  "title": "Mouse Click on Link Does Not Select Link in Welcome Page",
+  "description": "Mouse click on a link in the welcome page does not select the link as expected.",
+  "OB": "When clicking on a link in the welcome page, the appropriate action is executed, but the clicked link is not visually selected when you return to the welcome page. The selection state of the link is not updated.",
+  "EB": "When clicking on a link in the welcome page, it should execute the appropriate action as it currently does, and additionally, the clicked link should be visually selected. This will provide more context to the user when they return to the welcome page.",
+  "SR": "1. Open the software (build 20021001) and ensure you get the welcome page.\n2. Click on any link in the welcome page.\n3. Observe that the appropriate action is executed.\n4. Return to the welcome page.\n5. Notice that the link you clicked on is not visually selected, which is the issue."
+}

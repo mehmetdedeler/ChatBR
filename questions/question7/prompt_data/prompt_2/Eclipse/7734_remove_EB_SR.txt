@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '7734', 'title': 'Bug 7734System can be shut down without savefile warnings', 'description': '', 'OB': 'Bug 7734System can be shut down without savefile warnings When a WSWB session is open with some opened, dirty .txt file, shutting downWindows will cause the loss of the changes in the .txt file.Steps To Reproduce:start WSWB and create a new projectcreate a text file in the project and add a line of text to it.Notice thatthetext file is marked as a dirty fileLeft click on the Windows Start menu, select "Shut Down" command to shut down/reboot the computerResults:There is no warning or question message box to give users a chance to savetheir dirty model(s), the computer is shut down/rebooted immediately.OtherWindows programs (like Word, Outlook etc. ', 'EB': '', 'SR': ''}
+</BUG REPORT>

@@ -1,0 +1,1 @@
+{"bug_id": "18525", "title": "Bug 18525Calls to IWorkbenchPart.dispose() should be wrapped in an ISafeRunnable", "description": "Exceptions may occur in IworkbenchPart.dispose() due to code which assumesthat createPartControl has been calledsee bug 18165"}

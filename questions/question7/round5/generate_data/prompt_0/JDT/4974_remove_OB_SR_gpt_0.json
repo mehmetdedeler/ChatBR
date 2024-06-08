@@ -1,0 +1,1 @@
+{"id": "4974", "title": "Bug 4974 - Set classpath / output location should be one operation", "description": "", "OB": "", "EB": "Like the validation (checking classpath and output location at once), the setting of classpath / output location should be offered as one operation. Note that the error message is strange. It should say: '/xy/src' cannot be nested in '/xy'", "SR": ""}

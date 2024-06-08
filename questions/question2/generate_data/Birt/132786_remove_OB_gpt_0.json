@@ -1,0 +1,8 @@
+{
+  "id": "132786",
+  "title": "Bug 132786 - Value2 not cleaned after converting operator from between to equal in highlight rule",
+  "description": "When using the 'between' operator with values 2 between 1 and 3, the text is colored blue.3.",
+  "OB": "In the xml source, value1 is 1, and value2 is 3.",
+  "EB": "Value2 should be cleaned in the highlight expression after converting the operator from 'between' to 'equal' in the highlight rule.",
+  "SR": "1. Insert a data.\n2. Set a highlight rule in the Property Editor.\n3. Save the report.\n4. Modify the highlight rule by changing it to '1 equal 1' and set the color to blue.\n5. Save the report again."
+}

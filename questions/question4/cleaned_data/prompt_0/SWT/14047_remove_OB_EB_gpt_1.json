@@ -1,0 +1,8 @@
+{
+  "id": "14047",
+  "title": "Bug 14047 - StyledText inefficient redraw during text change with word wrap",
+  "description": "The current bug report lacks essential information. I'll provide clear and complete OB/EB/SR statements based on the context.",
+  "OB": "During text modification with word wrap enabled in StyledText, the text widget exhibits inefficient redraw behavior.",
+  "EB": "We expect that when making changes to the text content with word wrap enabled, StyledText should efficiently redraw only the affected portions of the widget, minimizing unnecessary redraws and improving performance.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open an application that uses the StyledText widget with word wrap enabled.\n2. Enter or modify text in the widget, causing text changes.\n3. Observe the widget's redraw behavior, especially when the text content exceeds the visible area or wraps to the next line."
+}

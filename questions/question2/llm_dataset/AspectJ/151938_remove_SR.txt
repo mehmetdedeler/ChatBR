@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '151938', 'title': 'Bug 151938Handle Duplicate javaagent entries more gracefully', 'description': ' Failing that, it would be better to fail and give an error message than emit the bytecode.This issue came up for our automated installer, which adds a javaagent flag to VM startup commands. We are making our scripts more intelligent to avoid this issue, but we are probably not the only people who will hit this issue (e.g., if someone manually edits both setclasspath.bat and catalina.bat to add the flag for a Tomcat instance...)', 'OB': " If you start a java 5 VM with AspectJ's loadtime weaver specified more than once using the javaagent flag, if there is an aop.xml file defined, it chokes badly: it tries to reweave the woven AspectJ code and emits massive amounts of bytecode. If the script is wrapped twice, it can generate a duplicate.", 'EB': ' Bug 151938Handle Duplicate javaagent entries more gracefully It would be better if AspectJ detected that it was specified more than once and gave a warning then disabled all but one of the agents.', 'SR': ''}
+</BUG REPORT>

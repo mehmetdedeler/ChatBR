@@ -1,0 +1,1 @@
+{"bug_id": "104592", "title": "Bug 104592Spanish label on Edit Parameter is truncated", "description": "Spanish translation for \"Selection values:\" on Edit Parameter is truncated.Please check attached bitmap file for detail.\"Set default\" button is also truncated, but it's a duplicate of 104584."}

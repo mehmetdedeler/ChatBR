@@ -1,0 +1,6 @@
+{"id": "12428",
+  "title": "Bug 12428: Confusing message in Pull Up operation",
+  "description": "When performing the Pull Up operation on TestCase.setUp, the message displayed is incorrect. The correct message should be 'Copy method 'void setUp()' FROM type 'TestCase'. Additionally, the capitalization of 'Copy' should be corrected. Another issue occurs when selecting to delete setUp from TestCase. The message displayed under TestCase is 'Delete method 'void setUp()' declared in type 'junit.framework.TestCase'.",
+  "OB": "The message displayed during the Pull Up operation is 'Copy method 'void setUp()' from type 'TestCase'.",
+  "EB": "The corrected message should be 'Copy method 'void setUp()' FROM type 'TestCase'. The capitalization of 'Copy' should also be corrected.",
+  "SR": "1. Run Pull Up on TestCase.setUp (copies the method to Assert).\n2. Navigate to the second page of the wizard."}

@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '23787', 'title': 'Bug 23787[Properties dialog] Project Properties  Info page should not use text fields', 'description': ' Bug 23787[Properties dialog] Project PropertiesInfo page should not use text fields Integration build 09/17.Looks bad on all motif platforms.', 'OB': '', 'EB': ' are created as readonly Text fields instead of Labels.I guess this isso that their values can be selected and copied by the user (?)', 'SR': ' select a Project, rightclickProperties on the subsequent Info page the readonly fields (the values for Path, Type,etc.)'}
+</BUG REPORT>

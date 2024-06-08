@@ -1,0 +1,1 @@
+{"id": "15412", "title": "Bug 15412deleting type removes too much from editor", "description": " Bug 15412deleting type removes too much from editor 20020502package p;/ /class Test{}/ /class Test1{}delete Testyou end up with:package p; /class Test1{}which does not even compile", "OB": "", "EB": "", "SR": ""}

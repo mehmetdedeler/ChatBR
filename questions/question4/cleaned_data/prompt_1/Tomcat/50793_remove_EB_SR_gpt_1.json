@@ -1,0 +1,8 @@
+{
+  "id": "50793",
+  "title": "Bug 50793: Invalid DispatchType in ServletRequestListener on async dispatch",
+  "description": "Bug 50793: Invalid DispatchType in ServletRequestListener on async dispatch",
+  "OB": "When a ServletRequestListener is invoked after a call to AsyncContext.dispatch(), the DispatcherType returned from the ServletRequest is REQUEST instead of ASYNC.",
+  "EB": "The expected behavior is that after a call to AsyncContext.dispatch(), the DispatcherType returned from the ServletRequest should be ASYNC.",
+  "SR": "Ensure that the ServletRequestListener correctly reflects the DispatcherType as ASYNC after the invocation of AsyncContext.dispatch()."
+}

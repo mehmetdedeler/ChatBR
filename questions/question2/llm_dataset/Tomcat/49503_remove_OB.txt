@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '49503', 'title': 'Bug 49503Connectors do not bind to their ports in Catalina.load(), but only later in start()', 'description': ' Bug 49503Connectors do not bind to their ports in Catalina.load(), but only later in start() Testing with trunk at revision 957942, thus this supposedly affects 7.0.0 as well.In TC6 there is a separate prestartup phase when starting Tomcat, to allow Connectors to bind to their ports before other parts of Tomcat are started.IIRC, it is implemented by having separate Bootstrapload(String[]) and Bootstartstart() methods [1]. Essentially, it breaks the fix for BZ 48625.To reproduce:1. The first instance starts successfully.', 'OB': '', 'EB': ' Expected behaviour:I would expect that in StandardServiceinitInternal() the connector.init() call fails, because it cannot bind to the port.The exception from connector.init() is caught there and, if EXITONINITFAILURE flag is set, it is rethrown, then caught in Catalinaload() and then rethrown as an Error, which aborts Tomcat startup.4.', 'SR': ' Add the following line to conf/catalina.propertiesorg.apache.catalina.startup.EXITONINITFAILURE=true2. Start two Tomcat instances with the same configuration at the same time.'}
+</BUG REPORT>

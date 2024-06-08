@@ -1,0 +1,8 @@
+{
+  "id": "14197",
+  "title": "Bug 14197: Immediate Changes on Removing Working Set",
+  "description": "Bug 14197 - Removing a working set immediately makes changes.",
+  "OB": "Upon removing a working set, the package view in the background immediately refilters.",
+  "EB": "The expected behavior is that refiltering should only occur when closing the working set selection dialog, not during the manipulation. Additionally, pressing cancel in the dialog should cancel all changes made to working sets, including the removal.",
+  "SR": "Steps to Reproduce:\n1. Create a working set with one project and select it; the package view is filtered.\n2. Open the working set dialog again, create a second working set, and delete the first."
+}

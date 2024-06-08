@@ -1,0 +1,8 @@
+{
+  "id": "49503",
+  "title": "Connectors Fail to Bind Ports During Catalina.load()",
+  "description": "The bug report addresses an issue where Connectors in Tomcat do not bind to their ports during the Catalina.load() phase but succeed later during the start() phase.",
+  "OB": "When running Tomcat with jsvc, it is observed that Tomcat cannot bind to privileged ports (e.g., port 80). This issue was noticed while testing bug fixes for issues 49030 and 48625, applied in revision 957960. The second instance fails, not in the expected way. The exception does not happen because the connector does not attempt to bind to the port. It only binds when the start() method is called. The startup sequence continues and then fails in Server.await().",
+  "EB": "The expected behavior is that in StandardService.initInternal(), the connector.init() call should fail because it cannot bind to the port. The exception from connector.init() should be caught there, and if the EXITONINITFAILURE flag is set, it should be rethrown. It should then be caught in Catalina.load() and rethrown as an Error, which would abort Tomcat startup.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Add the following line to 'conf/catalina.properties': 'org.apache.catalina.startup.EXITONINITFAILURE=true'\n2. Start two Tomcat instances with the same configuration at the same time."
+}

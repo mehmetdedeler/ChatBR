@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+In your bug reports, it is essential to provide clear and informative statements for the following categories:
+- **Observed Behavior (OB):** This section should describe the relevant software behavior, actions, output, or results. Avoid vague statements like "the system does not work."
+- **Expected Behavior (EB):** This part should articulate what the software should or is expected to do, using phrases like "should...", "expect...", or "hope...". Avoid suggestions or recommendations for bug resolution in this section.
+- **Steps to Reproduce (SR):** Include user actions or operations that can potentially lead to reproducing the issue. Use phrases like "to reproduce," "steps to reproduce," or "follow these steps."
+It is possible that the bug report may lack sufficient details in the OB, EB, and SR sections. In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements. Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '4121', 'title': 'Bug 4121JarExporter causes out of Sync (1GILQD5)', 'description': 'Bug 4121JarExporter causes out of Sync (1GILQD5) ', 'OB': 'PA (8/17/01 2:03:29 PM)if you export a directory (project) and place the exported jar in the same directory (project) thenyou will get an out of sync message when you overwrite the exported jarfile the 2nd time. ', 'EB': 'maybe the exported jar file should not include itself ?NOTES: ', 'SR': ''}
+</BUG REPORT>

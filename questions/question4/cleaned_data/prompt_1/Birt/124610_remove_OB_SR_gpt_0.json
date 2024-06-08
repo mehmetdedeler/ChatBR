@@ -1,0 +1,1 @@
+{"id": "124610", "title": "Bug 124610: Adding a filter on a boolean computed column causes an error.", "description": "", "OB": "Add a filter on a boolean computed column.", "EB": "Filter should work without causing any errors.", "SR": "Investigate the data.exception error when trying to convert a value to class java.lang.Boolean."}

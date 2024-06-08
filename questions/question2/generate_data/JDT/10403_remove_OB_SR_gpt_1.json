@@ -1,0 +1,8 @@
+{
+  "id": "10403",
+  "title": "Bug 10403 - Project creation should confirm the bin directory can be scrubbed",
+  "description": "When creating a new project in the software, there is a bug that needs to be addressed. The problem relates to the scrubbing of the bin directory.",
+  "OB": "Currently, when creating a new project, there is no confirmation or notification provided regarding the ability to scrub the bin directory.",
+  "EB": "The expected behavior is that when a new project is created, there should be a confirmation or notification that confirms the bin directory can be scrubbed. This confirmation should appear after the project creation is completed.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Launch the software.\n2. Go to the 'File' menu and select 'New Project'.\n3. Complete the project creation process, providing all necessary information.\n4. After the project is created, there should be a confirmation message or notification indicating that the bin directory can be scrubbed."
+}

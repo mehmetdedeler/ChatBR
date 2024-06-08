@@ -1,0 +1,1 @@
+{"bug_id": "50108", "title": "Bug 50108Add missing setter/getter to AbstractXXXProtocol", "description": "Created attachment 26182 [details]patch for AbstractXXXProtocolAdd missing following methods to AbstractHttp11Protocol and AbstractAjpProtocol. setMinSpareThreads getMinSpareThreadsBest regards."}

@@ -1,0 +1,8 @@
+{
+  "id": "50016",
+  "title": "Request.isUserInRole and Request Login/Logout Methods Division Issue",
+  "description": "This bug report addresses problems related to the division of responsibility for Request.isUserInRole and the new Request login/logout methods in Tomcat. There are two specific issues that need attention. The first issue concerns Request.isUserInRole and its behavior, particularly in relation to JACC implementations. The second issue pertains to the intrusiveness of the new login and logout methods and their limitations with respect to compatibility with other authenticators.",
+  "OB": "The bug report does not provide a clear description of the observed behavior. It outlines the problems but lacks specific details on how these issues manifest in the software.",
+  "EB": "To address these issues, it is expected that Request.isUserInRole should be implemented in compliance with JACC standards. The division of responsibility should allow Request.isUserInRole to provide the original role and, when possible, the servlet name to the wrapper. Moreover, only the mapped role should be checked in cases where mapping is involved. Both functionalities should be directly delegated to the Authenticator, which should also have the flexibility to cache authentication results.",
+  "SR": "The bug report does not specify steps to reproduce the issues. Clear and detailed steps to replicate these problems are crucial for proper troubleshooting and resolution."
+}

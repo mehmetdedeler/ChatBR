@@ -1,0 +1,1 @@
+{"bug_id": "17894", "title": "Bug 17894Open Mode pref not reset by Restore Defaults", "description": "Build 20020521 go to Workbench prefs change Open Mode to Single Click and select both checkboxes Restore Defaults no change to theseIt should revert to Double Click and clear both checkboxes"}

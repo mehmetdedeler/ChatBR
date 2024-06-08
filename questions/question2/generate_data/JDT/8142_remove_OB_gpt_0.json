@@ -1,0 +1,8 @@
+{
+  "id": "8142",
+  "title": "Bug 8142 - No Scoped Type Hierarchy on Binary Projects",
+  "description": "The bug report for Bug 8142 is unclear, and the user mentions not understanding the problem.",
+  "OB": "The observed behavior is not provided, making it difficult to identify the issue. The user mentions hitting F4 on a binary project selection, but the specific outcome of this action is missing.",
+  "EB": "The expected behavior should be clarified. It is mentioned that 'No declaration of selected members in the chosen hierarchy of 'org.apache.ant'' is encountered, but what should happen instead needs to be defined. Additionally, the user asks, 'BTW, what does the message mean?' which suggests a lack of understanding.",
+  "SR": "To effectively address this issue, please provide detailed steps on how to reproduce the problem, including what is expected to happen. Additionally, clarify what the message 'No declaration of selected members in the chosen hierarchy of 'org.apache.ant'' means or specify the desired outcome."
+}

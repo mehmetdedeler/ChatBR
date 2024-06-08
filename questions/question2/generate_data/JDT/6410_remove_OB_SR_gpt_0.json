@@ -1,0 +1,8 @@
+{
+  "id": "6410",
+  "title": "Bug 6410 - Incorrect File 'Dirtied' Status in Code Assist",
+  "description": "When using code assist, the file is marked as 'dirtied' even when no suggestions are provided.",
+  "OB": "The observed behavior is not specified in the bug report, please provide details on what exactly happens when using code assist with no suggestions.",
+  "EB": "If code assist has nothing to suggest, it should not mark the file as 'dirtied.' The expected behavior is that the file remains unaltered when no recommendations are available from code assist.",
+  "SR": "To help us investigate the issue, please provide steps to reproduce the problem."
+}

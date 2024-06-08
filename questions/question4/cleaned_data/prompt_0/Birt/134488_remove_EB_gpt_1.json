@@ -1,0 +1,8 @@
+{
+  "id": "134488",
+  "title": "Bug 134488 - Setting page break for a table inside a list group header causes data display error.",
+  "description": "Issue reported regarding data display error when setting page break for a table inside a list group header.",
+  "OB": "When the page break is set for a table inside a list group header, the data display is erroneous.",
+  "EB": "The data display should not be affected when setting a page break for a table inside a list group header.",
+  "SR": "To reproduce the issue:\n1. Insert a list with a group.\n2. Insert a table into the list group header.\n3. Set 'page-break-before' to 'always' for the table.\n4. Preview the content in a web viewer/HTML/PDF."
+}

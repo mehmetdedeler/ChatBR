@@ -1,0 +1,8 @@
+{
+  "id": "50793",
+  "title": "Bug 50793 - Invalid DispatchType in ServletRequestListener on async dispatch",
+  "description": "The bug report highlights an issue where the DispatcherType returned from the ServletRequest is REQUEST instead of ASYNC when a ServletRequestListener is invoked after a call to AsyncContext.dispatch(). However, the observed and expected behavior are not explicitly mentioned in the report.",
+  "OB": "The observed behavior is not provided in the report.",
+  "EB": "The expected behavior should be clarified in the report to ensure a clear understanding of the issue.",
+  "SR": "To better understand and address the issue, the report should include details of the expected behavior and the specific steps to reproduce the problem."
+}

@@ -1,0 +1,1 @@
+{"id": "124777", "title": "Set blank tooltip in chart title will cause exception when preview.", "description": "", "OB": "Set a blank tooltip in the chart title and preview the chart in the viewer. Then, move the mouse over the chart title.", "EB": "Expected result: Nothing happens. Actual result: Unexpected exception dialog pops up.", "SR": ""}

@@ -1,0 +1,8 @@
+{
+  "id": "123727",
+  "title": "The 'Top N' and 'Bottom N' filters are not functioning correctly",
+  "description": "",
+  "OB": "When using the 'Top N' and 'Bottom N' filters and clicking the 'Save and Preview' button, no data is displayed.",
+  "EB": "I expect that after clicking 'Save and Preview,' the data should be displayed based on the 'Top N' and 'Input Parameters' selections.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the application and navigate to the data filtering section.\n2. Select the 'Top N' or 'Bottom N' filter.\n3. Set the desired parameters for the filter.\n4. Click the 'Save and Preview' button."
+}

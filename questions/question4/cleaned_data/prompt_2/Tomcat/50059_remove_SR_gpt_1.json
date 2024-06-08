@@ -1,0 +1,8 @@
+{
+  "id": "50059",
+  "title": "Bug 50059: Resources not served from /WEBINF/lib/{.jar}/METAINF/resources with metadatacomplete='true' in web.xml",
+  "description": "When metadatacomplete='true' is set in web.xml, resources aren't served from /WEBINF/lib/{.jar}/METAINF/resources in a Servlet 3.0 webapp named 'foo'. However, setting metadatacomplete='false' allows the resources to be served properly.",
+  "OB": "Upon starting the web app in Tomcat 7.0.2 and navigating to http://localhost:8080/foo/index.html, the expected result is a 200 response with index.html served. The actual result is a 404 error. When modifying web.xml to metadatacomplete='false' and restarting the app, /foo/index.html responds as expected.",
+  "EB": "To resolve this, the jar file ('bar.jar') should be placed in the /WEBINF/lib directory.",
+  "SR": "1. Create a Servlet 3.0 webapp named 'foo'.\n2. Set metadatacomplete='true' in /WEBIBNF/web.xml.\n3. Start the web app in Tomcat 7.0.2.\n4. Access http://localhost:8080/foo/index.html in a browser.\n5. Observe the 404 error.\n6. Modify web.xml to metadatacomplete='false'.\n7. Restart the app and access http://localhost:8080/foo/index.html again to confirm the expected response."
+}

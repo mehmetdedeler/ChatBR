@@ -1,0 +1,1 @@
+{"id": "51229", "title": "Bug 51229Some async examples are not work correctly", "description": " Bug 51229Some async examples are not work correctly Created attachment 27031 [details]patch for async examplesAsync0: The code that is befind complete() isnot executed.StockTicker: The link for StockTicker is wrong.Regards.", "OB": "", "EB": "", "SR": ""}

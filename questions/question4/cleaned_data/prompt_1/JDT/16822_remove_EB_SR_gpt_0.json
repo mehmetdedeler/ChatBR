@@ -1,0 +1,8 @@
+{
+  "id": "16822",
+  "title": "Bug 16822 - Search results should be removed when cu is moved",
+  "description": "Build 200205211.",
+  "OB": "After moving X.java to 'P/src2', the search result remains in the search view. Upon attempting to double-click on the search result, a 'Search Error' dialog appears with the message: 'An error occurred while creating a Java element. Reason: X.java does not exist.'",
+  "EB": "After moving X.java to 'P/src2', the search result should be removed from the search view. Double-clicking on the search result should not trigger a 'Search Error' dialog, and the file X.java should be accessible without any issues.",
+  "SR": "1. Move X.java to 'P/src2'.\n2. Check that the search result for X.java is no longer present in the search view.\n3. Attempt to double-click on the search result and ensure it opens without any 'Search Error' dialogs."
+}

@@ -1,0 +1,1 @@
+{"id": "116744", "title": "Bug 116744 - Dynamic text content type has no effect", "description": "", "OB": "", "EB": "", "SR": "I have a database field with three types of content:\n1) HTML text within <html>...</html> tags.\n2) HTML fragments not within <html> tags.\n3) Text with RTF tags.\n\nI use a dynamic text element to display the contents of this field."}

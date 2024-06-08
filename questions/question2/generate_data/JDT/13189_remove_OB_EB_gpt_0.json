@@ -1,0 +1,8 @@
+{
+  "id": "13189",
+  "title": "Context Menu Overridden by Deletion Confirmation Dialog",
+  "description": "Users encounter issues with the context menu being overridden by a message dialog when refactoring and deleting fields.",
+  "OB": "The context menu does not function as expected, and no context menu is displayed when trying to refactor or delete fields. Instead, a deletion confirmation dialog appears immediately.",
+  "EB": "The expected behavior is for the context menu to work correctly without being overridden by a confirmation dialog, allowing users to initiate field refactoring and deletion without immediate confirmation dialogs.",
+  "SR": "To reproduce the issue:\n1. Set up JUnit2.\n2. Enable the option 'Code Generator: Remove prefix from field names'.\n3. Open the 'TestCase.java' file.\n4. In the outliner, right-click on 'fName'."
+}

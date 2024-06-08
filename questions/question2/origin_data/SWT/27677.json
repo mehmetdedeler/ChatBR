@@ -1,0 +1,1 @@
+{"bug_id": "27677", "title": "Bug 27677[Key Bindings] ctrlf7 not working", "description": "build 20021127gtk, ibm jre 1.3.1ctrlf7 brings up a box but it is not populated with the view name entries.keep pressing ctrlf7 multiple times does seems to cycle between the views, though"}

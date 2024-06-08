@@ -1,0 +1,8 @@
+{
+  "id": "27869",
+  "title": "Bug 27869: StyledText Font.getFontData Overuse",
+  "description": "The issue arises from excessive use of Font.getFontData in StyledText. Additionally, on Redhat 8, UTF-8 serves as the default English encoding. The FontMetrics API heavily interfaces with StyledText. I propose caching metric information within StyledText and updating it only upon font changes.",
+  "OB": "The StyledText component currently excessively utilizes Font.getFontData, impacting performance and efficiency.",
+  "EB": "The usage of Font.getFontData within StyledText, especially during typing, should be minimized or eliminated entirely. There's widespread agreement among users regarding this unnecessary usage.",
+  "SR": "1. Open StyledText component. 2. Perform typing actions. 3. Observe the extensive usage of Font.getFontData."
+}

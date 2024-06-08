@@ -1,0 +1,8 @@
+{
+  "id": "122423",
+  "title": "Enhance RenderTask to Support Page Ranges",
+  "description": "The software should be enhanced to support page ranges in the RenderTask. When a page range is specified, it should be parsed and processed, and the output should include the specified pages, separated by a page splitter, similar to the behavior in runAndRenderTask. It is important to note that only one page should be included in case a specific page number is set.",
+  "OB": "The observed behavior is that the software now supports page ranges in the render task. For PDF format, a message is logged indicating that page ranges are not supported if specified, and the complete report is still generated. For HTML format, page ranges in the form of '1,2,510' and 'All' are supported. Invalid page numbers are logged, and an error message is returned.",
+  "EB": "The expected behavior is not provided in the report. It should be explicitly stated how page ranges should be handled in both PDF and HTML formats.",
+  "SR": "To enhance RenderTask to support page ranges:\n1. For PDF format, log a message saying that page ranges are not supported if specified, and still generate the complete report. If no range is set, check if a specific page number is set.\n2. For HTML format, support page ranges in the form of '1,2,510' and 'All'. If no range is set, check if a specific page number is set."
+}

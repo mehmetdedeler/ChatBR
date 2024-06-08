@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '13269', 'title': 'Bug 13269Incorrect operation order in jarpackager', 'description': "Bug 13269Incorrect operation order in jarpackager Same goes for '.jardesc' file.prehaps a warning in the wizard's header (now that an icon is shown as well)would be better in the case of the '.jardesc' file then a dialog box at theend. If the user wants that they should use the 'save the manifest inthe workspace' option combined with the 'reuse and save the manifest in theworkspace' option.20020409. JRT. ", 'OB': "This is because the jar file is created before the overwriteverifications happen.Other notes:the messages 'saving manifest file failed' is perhaps incorrect in this caseas the user chose not to overwrite the manifest file (thus it is not really afailure). ", 'EB': "Either way not overwriting this file should not cause the wizard to notcomplete its operation.The 'use existing manifest from workspace' option should not save a newmanifest file. ", 'SR': ''}
+</BUG REPORT>

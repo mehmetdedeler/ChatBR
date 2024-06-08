@@ -1,0 +1,1 @@
+{"bug_id": "5474", "title": "Bug 5474should not use tool tips for labels", "description": "To be consistent with other preference pages, the debug preference labels forstep filtering (filter sythetic methods, etc), should not specify tool tips.Instead, the relevant information should just be in the label."}

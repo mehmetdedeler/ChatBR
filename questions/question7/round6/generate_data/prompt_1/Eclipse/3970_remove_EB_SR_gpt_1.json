@@ -1,0 +1,8 @@
+{
+  "id": "3970",
+  "title": "Bug 3970[preferences] UI needed to define the default line delimiters for new files (1GFIOAX)",
+  "description": "Bug 3970[preferences] UI needed to define the default line delimiters for new files (1GFIOAX) the Windows work stations are used as X terminals and to run Eclipse (since PC are cheaper than Unix boxes).",
+  "OB": "When creating a new file, we currently use the line delimiter returned from System.getProperties(\"line.delimiter\"). However, this may not always align with the user's preference.",
+  "EB": "The expected behavior is to provide a user interface in the preferences section allowing users to define the default line delimiters for new files.",
+  "SR": "1. Open the Eclipse IDE.\n2. Navigate to the preferences section.\n3. Look for a new option under 'File' or 'Text' preferences allowing the user to define default line delimiters.\n4. Set the preferred line delimiters.\n5. Create a new file and observe that the chosen default line delimiters are applied."
+}

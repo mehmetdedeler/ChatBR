@@ -1,0 +1,8 @@
+{
+  "id": "12906",
+  "title": "Bug 12906[Editor Mgmt] If file is already opened in one editor, cannot open in another editor (should give error msg)",
+  "description": "Bug 12906[Editor Mgmt] If a file is already opened in one editor, attempting to open it in another editor results in no warning or error message.",
+  "OB": "When a file that is currently open in one editor is opened in another editor, there is no warning or error message displayed. The file simply opens in the second editor without any notification.",
+  "EB": "However, there should be a warning or error message displayed when attempting to open a file in a second editor that is already open in another editor. Users should receive a clear indication that the file is already being edited in another location.",
+  "SR": "To reproduce this issue:\n1. Open a file in Editor A.\n2. Attempt to open the same file in Editor B while it is still open in Editor A."
+}

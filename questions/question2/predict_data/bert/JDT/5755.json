@@ -1,0 +1,1 @@
+{"id": "5755", "title": "Bug 5755Open Type dialog is missing types", "description": " Bug 5755Open Type dialog is missing types They just aren't there... Class files exist for them.20011106", "OB": " I can't find any of the classes in some of my packages in the Open Type(CtrlShiftT) dialog.", "EB": "", "SR": ""}

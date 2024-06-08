@@ -1,0 +1,1 @@
+{"id": "19426", "title": "Bug 19426Editor name in tab changes", "description": "", "OB": "Bug 19426Editor name in tab changes ", "EB": "", "SR": "F21) Open a plugin.xml file using the default PDE editor2) Open some other file3) Exit/Restart the workbench4) Note that the PDE editor tab says plugin.xml, click on it, its name changesto the plugin name. "}

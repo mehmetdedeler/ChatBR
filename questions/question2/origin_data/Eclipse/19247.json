@@ -1,0 +1,1 @@
+{"bug_id": "19247", "title": "Bug 19247StringFieldEditor: width != UNLIMITED is ignored", "description": "Builds F1 & F2  the width argument in the constructor seems to be ignored, it'salways UNLIMITED.Worked fine in build M5..."}

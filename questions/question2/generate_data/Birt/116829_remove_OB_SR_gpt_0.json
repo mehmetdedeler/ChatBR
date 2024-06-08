@@ -1,0 +1,8 @@
+{
+  "id": "116829",
+  "title": "Bug 116829 - Label height doesn't change with label font modification.",
+  "description": "Description: When the label font size is modified, the label's height doesn't adjust accordingly.",
+  "OB": "After modifying the label's font size, the label's height remains unchanged. It should adjust to fit the new font size, but it doesn't.",
+  "EB": "The expected behavior is that when the label's font size is modified, the label's height should automatically adjust to accommodate the new font size. It should expand or shrink as needed to maintain proper alignment and readability.",
+  "SR": "Steps to reproduce:\n1. Open the application that contains the label.\n2. Locate the label that you want to modify the font size for.\n3. Change the font size of the label to a different value.\n4. Observe that the label's height does not change to match the new font size."
+}

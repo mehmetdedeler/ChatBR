@@ -1,0 +1,8 @@
+{
+  "id": "7734",
+  "title": "System shuts down without savefile warnings",
+  "description": "",
+  "OB": "When a WSWB session is open with some opened, dirty .txt file, shutting down Windows will cause the loss of changes in the .txt file. The system shuts down/reboots immediately without any warning or prompt to save files.",
+  "EB": "Upon initiating a shutdown/reboot while a WSWB session with unsaved .txt files is active, the system should prompt users to save their work before proceeding with the shutdown/reboot process.",
+  "SR": "1. Launch WSWB and create a new project.\n2. Create a text file within the project and add content to it.\n3. Observe that the text file is marked as 'dirty' (unsaved).\n4. Left-click on the Windows Start menu and select the 'Shut Down' command to initiate the shutdown/reboot process.\n5. Note the absence of any warning or message prompting to save unsaved files before the system shuts down/reboots."
+}

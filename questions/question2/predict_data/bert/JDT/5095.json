@@ -1,0 +1,1 @@
+{"id": "5095", "title": "Bug 5095template: toarray incorrect", "description": " Bug 5095template: toarray incorrect", "OB": "", "EB": " its defintion should be:(${type}[]) ${collection}.toArray(new ${type}[${collection}.size()]);rather than(${type}[]) ${collection}.toArray(new ${type}[${collection}]);", "SR": ""}

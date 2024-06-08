@@ -1,0 +1,8 @@
+{
+    "id": "12428",
+    "title": "Bug 12428: Confusing message in Pull Up operation",
+    "description": "Bug 12428: Confusing message in Pull Up operation. The current message displayed during the Pull Up operation is unclear and inconsistent. The word 'Copymethod' should be corrected to 'Copy method' with an uppercase 'C'. Furthermore, when selecting to delete the setUp method from TestCase, the message displayed under TestCase should be modified as well, from 'Delete method 'void setUp()' declared intype 'junit.framework.TestCase'' to 'Delete method 'void setUp()' declared in type 'junit.framework.TestCase''.",
+    "OB": "The message displayed during the Pull Up operation is confusing and contains typos.",
+    "EB": "The message during the Pull Up operation should be clear and consistent. It should use the fully qualified name and correct the typos.",
+    "SR": "To reproduce the issue: 1. Run the Pull Up operation on TestCase.setUp (copies the method to Assert). 2. Go to the 2nd page of the wizard."
+}

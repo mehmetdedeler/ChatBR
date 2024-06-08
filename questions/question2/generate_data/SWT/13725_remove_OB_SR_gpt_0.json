@@ -1,0 +1,8 @@
+{
+  "id": "13725",
+  "title": "Bug 13725 Revert is much slower than close and reopen in Java editor",
+  "description": "The report addresses a performance issue where the 'Revert' operation takes significantly more time than the 'Close and Reopen' operation in the Java editor.",
+  "OB": "The observed behavior is not explicitly mentioned in the bug report, but the issue implies that the 'Revert' operation is considerably slower than the 'Close and Reopen' operation when applied to a dirty file.",
+  "EB": "The expected behavior is that the 'Revert' operation should not take significantly more time than closing and reopening a dirty file. Reverting the file contents should be equally fast or even faster than the alternative action.",
+  "SR": "Steps to reproduce the issue are not provided in the bug report. To address this problem, we need to find a way to make the 'Revert' operation in the Java editor more efficient and closer in performance to the 'Close and Reopen' operation."  
+}

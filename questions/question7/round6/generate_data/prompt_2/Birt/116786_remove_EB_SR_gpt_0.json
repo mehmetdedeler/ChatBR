@@ -1,0 +1,1 @@
+{"id": "116786", "title": "Bug 116786 - Library include should store relative path.", "description": "", "OB": "I observed that the report design file stores the absolute path of the included library: <property name=\"fileName\" value=\"E:/birt/sampleReports/otherlib/lib1.rptlibrary\"/>. However, it should be saving the relative path instead.", "EB": "", "SR": ""}

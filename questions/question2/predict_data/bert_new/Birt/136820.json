@@ -1,0 +1,1 @@
+{"id": "136820", "title": "Bug 136820viewer supports render report in pdf format", "description": "Bug 136820viewer supports render report in pdf format ", "OB": "viewer does not support render report in pdf format, so the following request,http://host:port/birt/frameset?document=ProductCatalog.rptdocument&format=pdfcan't be used to view pdf report. ", "EB": "", "SR": ""}

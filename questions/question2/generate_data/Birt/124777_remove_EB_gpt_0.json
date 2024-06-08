@@ -1,0 +1,8 @@
+{
+  "id": "124777",
+  "title": "Bug: Setting Blank Tooltip in Chart Title Causes Exception on Preview",
+  "description": "When setting a blank tooltip in the chart title, an exception occurs during the preview.",
+  "OB": "When a blank tooltip is set in the chart title, an exception occurs when previewing the chart.",
+  "EB": "The software should handle the scenario of setting a blank tooltip in the chart title gracefully without causing an exception during the preview.",
+  "SR": "To reproduce the bug:\n1. Create a new simple chart.\n2. Add a title with interactivity enabled (mouse over/show tooltip).\n3. Keep the tooltip text blank.\n4. Click the 'Add' button to confirm the settings.\n5. Attempt to preview the chart."
+}

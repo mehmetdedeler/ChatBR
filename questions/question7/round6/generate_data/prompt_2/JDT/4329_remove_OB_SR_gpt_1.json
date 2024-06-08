@@ -1,0 +1,8 @@
+{
+  "id": "4329",
+  "title": "Bug 4329 - No results when searching via Package view selection and dialog (1GLDN1X)",
+  "description": "Bug 4329 - No results when searching via Package view selection and dialog (1GLDN1X)",
+  "OB": "No search results are displayed when using the search function via the Package view selection and dialog.",
+  "EB": "When searching for declarations, the search function should yield results. Specifically, searching via the context menu in the packages view should work properly.",
+  "SR": "Steps to Reproduce:\n1. Open the package view.\n2. Select a specific package.\n3. Use the search function within the dialog window to search for a declaration.\n4. Observe no search results displayed.\n5. Alternatively, search using the context menu in the packages view and note the difference in search results."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "49128", "title": "Bug 49128loader.WebappClassLoader.start() ignores Exception", "description": "catalina.loader.WebappClassLoader.start() ignores Exception.However, it probably only needs to ignore SecurityException"}

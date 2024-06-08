@@ -1,0 +1,1 @@
+{"id": "48249", "title": "Bug 48249org.apache.tomcat.util.net.NioBlockingSelector.BlockPoller.run <= volatile", "description": "Bug 48249org.apache.tomcat.util.net.NioBlockingSelector.BlockPoller.run <= volatile org.apache.tomcat.util.net.NioBlockingSelector.BlockPoller.run should be volatile, as it is used to communicate between running threads. ", "OB": "", "EB": "", "SR": ""}

@@ -1,0 +1,8 @@
+{
+  "id": "134949",
+  "title": "Themes from One Library Nested in Another Library",
+  "description": "While working with libraries, I encountered an issue where themes from one library were nested within another library. Here are the details of the problem and the steps to reproduce it.",
+  "OB": "When I opened the Library tree of Library A in the library explorer, I attempted to drag and drop themes from Library B into the layout of Library A. However, the actual result was an error message that popped up, indicating that the library namespace 'B' already existed. This was unexpected and confusing.",
+  "EB": "I expected the operation of dragging and dropping themes from one library to another within the same layout to work seamlessly. Users should be able to use this method without encountering errors or conflicts.",
+  "SR": "To reproduce this issue:\n1. Open the Library tree of Library A in the library explorer.\n2. Attempt to drag and drop themes from Library B into the layout of Library A."
+}

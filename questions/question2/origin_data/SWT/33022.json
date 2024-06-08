@@ -1,0 +1,1 @@
+{"bug_id": "33022", "title": "Bug 33022NPE in FontDialog", "description": " invoke a FontDialog through Eclipse in the first Combo add a \"k\" to \"Western\" get the attached NPE"}

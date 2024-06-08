@@ -1,0 +1,1 @@
+{"bug_id": "19786", "title": "Bug 19786multiple status items when opening editors", "description": "clean 0610.opening editors cause multiple status line panels (read/write,insert/overwrite, line:column) to appear."}

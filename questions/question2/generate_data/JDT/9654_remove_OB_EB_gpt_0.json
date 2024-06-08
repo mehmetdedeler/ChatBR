@@ -1,0 +1,8 @@
+{
+  "id": "9654",
+  "title": "Bug 9654 - Issues with 'Modify Parameters' Dialog",
+  "description": "This bug report addresses issues with the 'Modify Parameters' dialog, suggesting improvements like performing duplicate name validation on the first page and merging the first and second columns.",
+  "OB": "The observed behavior is not explicitly mentioned in the report.",
+  "EB": "The expected behavior is not explicitly stated in the report, but it suggests making enhancements to the dialog.",
+  "SR": "To reproduce an issue, the steps mentioned in the report are when changing a parameter name to something very long, the preview is cut off."
+}

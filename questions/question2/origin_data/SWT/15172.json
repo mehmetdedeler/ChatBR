@@ -1,0 +1,1 @@
+{"bug_id": "15172", "title": "Bug 15172focus not on text field for OpenTypeDialog", "description": "This happens on LinuxMotif, but not on w2k with 20020502:When the OpenTypeDialog comes up, the 'Show in Type Hierarchy' checkboxgets the focus, instead of the text field. I haven't touched OpenTypeDialogfor a long time."}

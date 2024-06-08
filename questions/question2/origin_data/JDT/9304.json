@@ -1,0 +1,1 @@
+{"bug_id": "9304", "title": "Bug 9304new class wizard: incorrect terminology used", "description": "1. new class wizard2. press Add.. in interfaces3. the dialog you see has a title 'Extended Interfaces Selection'this is incorrect  it should be 'Implemented Interfaces Selection'(this bug was pointed out on the wsad newsgroup)"}

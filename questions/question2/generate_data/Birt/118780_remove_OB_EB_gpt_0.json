@@ -1,0 +1,8 @@
+{
+  "id": "118780",
+  "title": "Alias for columns not reflected in Expression Builder",
+  "description": "",
+  "OB": "After setting an alias for a column in a dataset, the Expression Builder still displays the old column name when selecting the dataset.",
+  "EB": "When an alias is set for a column in a dataset, the Expression Builder should display the updated alias name instead of the old column name when selecting the dataset.",
+  "SR": "Steps to reproduce:\n1. Create a new datasource and add a dataset.\n2. Set an alias for the first column in the dataset to 'column1'.\n3. Insert a data item and bind it to the dataset.\n4. Open the Expression Builder and select the dataset. The Expression Builder should display 'column1' instead of the original column name."
+}

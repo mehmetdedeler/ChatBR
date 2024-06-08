@@ -1,0 +1,8 @@
+{
+  "id": "102436",
+  "title": "Date/Time value not stored correctly in report design",
+  "description": "An invalid date/time string (which does not conform to a universal format or the system default locale format) should have been rejected.",
+  "OB": "The system is accepting invalid date/time strings in the 'DateTime' type report parameter's 'default value' field in the BIRT report designer.",
+  "EB": "The date value should have been validated by the user interface (UI) or the underlying data model to ensure that only valid date/time strings are accepted. Invalid date/time strings should be rejected, and the user should be prompted to enter a valid date/time.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the BIRT report designer.\n2. Create a new report or open an existing one.\n3. Add a 'DateTime' type report parameter.\n4. In the 'default value' field of the parameter, type in an invalid date string, such as '55/66/9999'.\n5. Attempt to save the report or apply the parameter settings. The system should not accept the invalid date string and should provide an error message or prevent you from saving the report with the invalid value."
+}

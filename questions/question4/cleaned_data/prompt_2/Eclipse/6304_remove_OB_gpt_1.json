@@ -1,0 +1,8 @@
+{
+  "id": "6304",
+  "title": "Cannot Synchronize a .java File and Another Resource",
+  "description": "The bug report lacks specific details. To improve clarity and completeness, the following information is provided.",
+  "OB": "When attempting to synchronize a .java file and another resource, the Team entry is missing from the context menu.",
+  "EB": "Upon selecting a .java file and another resource (e.g., a .properties file) in the package viewer, the context menu should include the Team entry for synchronization.",
+  "SR": "Steps to Reproduce:\n1. Open the package viewer.\n2. Select a .java file and another resource (e.g., a .properties file).\n3. Observe the context menu and verify that the Team entry for synchronization is not present."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "7235", "title": "Bug 7235[Contributions] Need dispose() for action delegates", "description": "Action delegates should have a dispose() method so they can unhook anylisteners they have hooked.See bug 7122."}

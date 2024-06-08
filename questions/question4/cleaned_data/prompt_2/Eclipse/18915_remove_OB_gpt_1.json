@@ -1,0 +1,8 @@
+{
+  "id": "18915",
+  "title": "Bug 18915[Preferences] Switching between erroneous preferences pages should generate error, not warning.",
+  "description": "When entering invalid data on any preference page and attempting to switch to another page without fixing the issue, a warning dialog appears instead of the expected error dialog.",
+  "OB": "When trying to navigate away from a preference page with invalid values, a warning dialog is displayed.",
+  "EB": "Upon attempting to switch between preference pages with invalid values, an error dialog should be displayed instead of a warning.",
+  "SR": "Steps to reproduce:\n1. Open any preference page.\n2. Enter invalid data that triggers a warning on the UI.\n3. Try to navigate to another preference page without fixing the problem.\n4. Observe the warning dialog; it should be an error dialog instead."
+}

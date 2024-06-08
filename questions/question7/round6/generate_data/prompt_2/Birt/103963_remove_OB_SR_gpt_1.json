@@ -1,0 +1,8 @@
+{
+  "id": "103963",
+  "title": "If there is no data for series, display a friendly error message",
+  "description": "Currently, when there is no data for a series, the system does not provide any indication to the user. This bug report aims to address this by requesting the display of a friendly error message in such cases.",
+  "OB": "When there is no data for a series, no error message is shown, leaving users unaware of the issue.",
+  "EB": "When there is no data for a series, a friendly error message should be displayed to inform users about the absence of data.",
+  "SR": "Steps to Reproduce:\n1. Navigate to a series with no data.\n2. Observe that no error message is displayed, and users are not notified about the absence of data.\n3. Expected behavior: A friendly error message should pop up, clearly indicating that there is no data available for the selected series."
+}

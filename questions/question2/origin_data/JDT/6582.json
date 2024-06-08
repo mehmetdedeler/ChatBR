@@ -1,0 +1,1 @@
+{"bug_id": "6582", "title": "Bug 6582VMPreferencePage  CheckboxTableViewer has no columns anymore", "description": "20011204:CheckboxTableViewer has no more columns upon creation.You have to create the first column as well. I encountered the same problemin TemplatePreferencePage, because I used the same code as in VMPreferencePage."}

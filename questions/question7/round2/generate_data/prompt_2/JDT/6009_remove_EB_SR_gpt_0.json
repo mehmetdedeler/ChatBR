@@ -1,0 +1,1 @@
+{"id": "6009", "title": "New class wizard doesn't get context right for nested classes", "description": "", "OB": "When using the new class wizard for nested classes, the context is not being set correctly.", "EB": "", "SR": ""}

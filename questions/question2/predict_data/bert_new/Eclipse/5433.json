@@ -1,0 +1,1 @@
+{"id": "5433", "title": "Bug 5433TVT1: Hardcoded String  Export Error Message", "description": "Bug 5433TVT1: Hardcoded StringExport Error Message ", "OB": "Error message in english when exporting to a zip file.Test Case:http://jumpstart.raleigh.ibm.com/jumpstart/TVTDOCS/eclipsewbtvt.htmToc527954853 ", "EB": "", "SR": ""}

@@ -1,0 +1,1 @@
+{"bug_id": "117648", "title": "Bug 117648User properties can't be found in properties view.", "description": "Description: User properties can't be found in properties view.Steps to reproduce:1. Custom a user property in property editor view.2. Open properties view, user properties are not displayed."}

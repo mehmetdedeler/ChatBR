@@ -1,0 +1,1 @@
+{"id": "37458", "title": "Bug 37458Datarace on org.apache.catalina.loader.WebappClassLoader", "description": "Bug 37458Datarace on org.apache.catalina.loader.WebappClassLoader ", "OB": "In findClassInternal, it is possible that entry.manifest is set to null byanother thread right before calling definePackage(packageName, entry.manifest,entry.codeBase). ", "EB": "", "SR": ""}

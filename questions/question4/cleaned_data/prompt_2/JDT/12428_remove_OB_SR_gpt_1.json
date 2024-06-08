@@ -1,0 +1,8 @@
+{
+  "id": "12428",
+  "title": "Bug 12428Pull Up: Confusing message",
+  "description": "Bug 12428Pull Up: Confusing message Shouldn't it be 'Copy method 'void setUp()' FROM type 'TestCase'\" (also with uppercase C in Copy). Another thing: if I select to delete setUp from TestCase, I get under TestCase the message \"Delete method 'void setUp()' declared in type 'junit.framework.TestCase'. (Markus)",
+  "OB": "The 'Copy method' text is inconsistent and lacks the fully qualified name.",
+  "EB": "The 'Copy method' text should be consistent and also use the fully qualified name.",
+  "SR": "1. Open a TestCase.\n2. Select the 'Copy method' option for 'void setUp()'.\n3. Observe the displayed message and note the inconsistency.\n4. Additionally, try deleting 'setUp' from TestCase and observe the displayed message, which includes incorrect casing and lacks the fully qualified name."
+}

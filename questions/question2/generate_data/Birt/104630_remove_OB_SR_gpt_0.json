@@ -1,0 +1,8 @@
+{
+  "id": "104630",
+  "title": "Column icons don't show up in connecting Derby database",
+  "description": "When attempting to connect to a Derby database in the 'Available Items' sector of the software, the expected column icons are not appearing as they should.",
+  "OB": "When expanding the 'Data Source' section by clicking the related icon in the 'Available Items' sector of the software, the column icons that should be displayed do not appear.",
+  "EB": "In the 'Available Items' sector, when I expand the 'Data Source' section by clicking the related icon, I expect to see table icons and column icons. Specifically, I should see column icons, but they are not showing up as expected.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the software and navigate to the 'Available Items' sector.\n2. Locate the 'Data Source' section and click on the related icon to expand it.\n3. Observe that the column icons, which should be visible, are not appearing as expected."
+}

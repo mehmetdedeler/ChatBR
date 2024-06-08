@@ -1,0 +1,8 @@
+{
+  "id": "13269",
+  "title": "Incorrect operation order in jarpackager",
+  "description": "In the jarpackager, there is an issue with the operation order, which is also applicable to '.jardesc' files. It might be beneficial to consider displaying a warning in the wizard's header, especially since an icon is now shown. This would be more user-friendly than having a dialog box at the end of the process. To address this, users can utilize the 'save the manifest in the workspace' option along with the 'reuse and save the manifest in the workspace' option (if desired). (Reference: 20020409, JRT.)",
+  "OB": "The problem arises because the jar file is created before the overwrite verifications take place. Additionally, it's worth noting that the message 'saving manifest file failed' may be misleading in this context, as the user intentionally chose not to overwrite the manifest file (indicating it's not a genuine failure).",
+  "EB": "The jarpackager should ensure that overwrite verifications occur before the creation of the jar file. Furthermore, the wording of messages such as 'saving manifest file failed' should accurately reflect the user's choice not to overwrite the manifest file.",
+  "SR": "1. Open the jarpackager wizard.\n2. Create a new jar package or use an existing '.jardesc' file.\n3. Choose not to overwrite the manifest file when prompted.\n4. Observe the incorrect operation order and potentially misleading message about manifest file failure."
+}

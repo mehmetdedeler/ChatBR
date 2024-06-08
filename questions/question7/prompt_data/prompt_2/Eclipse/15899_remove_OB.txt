@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '15899', 'title': 'Bug 15899Close all saved does not work all the time', 'description': '', 'OB': '', 'EB': 'It should close thefile as no changes have been made ', 'SR': 'Using build 20020508 with latest UI codeClose all editorsCreate a new file f1.txtSelect Close All Saved from the file menu. '}
+</BUG REPORT>

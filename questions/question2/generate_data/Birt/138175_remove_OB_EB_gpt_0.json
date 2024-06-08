@@ -1,0 +1,8 @@
+{
+  "id": "138175",
+  "title": "Bug 138175: Bookmark link set in drill through link should be saved in Hyperlink Options dialog.",
+  "description": "When defining a drill through link and selecting a target bookmark, the bookmark link set should be saved and visible in the Hyperlink Options dialog.",
+  "OB": "Currently, after defining a drill through link with a target bookmark selected, the bookmark link set is not saved or displayed in the Hyperlink Options dialog.",
+  "EB": "The expected behavior is that when a drill through link is defined with a target bookmark selected, the selected bookmark link should be saved and visible in the Hyperlink Options dialog for further editing and reference.",
+  "SR": "To reproduce the issue:\n1. Open the application and navigate to the drill through link configuration.\n2. Define a new drill through link.\n3. Select a target bookmark.\n4. Save the drill through link.\n5. Open the Hyperlink Options dialog for the saved link.\n6. Observe that the selected bookmark link is not displayed in the Hyperlink Options dialog."
+}

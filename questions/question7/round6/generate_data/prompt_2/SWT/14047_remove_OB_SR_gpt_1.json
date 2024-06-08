@@ -1,0 +1,8 @@
+{
+  "id": "14047",
+  "title": "Bug 14047: StyledText inefficient redraw during text change with word wrap",
+  "description": "The issue involves an excessive redraw process in StyledText when changing text with word wrap enabled.",
+  "OB": "When changing text in StyledText with word wrap on, it causes multiple unnecessary redraws, slowing down the application.",
+  "EB": "Ideally, there should only be one redraw for each visible line during text changes, minimizing unnecessary redraws and maintaining application performance.",
+  "SR": "Steps to Reproduce:\n1. Open the application.\n2. Enable word wrap in the StyledText component.\n3. Make changes to the text, such as adding or deleting multiple lines.\n4. Observe the redraw behavior, noting any excessive or unnecessary redraws."
+}

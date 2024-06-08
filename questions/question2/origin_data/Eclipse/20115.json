@@ -1,0 +1,1 @@
+{"bug_id": "20115", "title": "Bug 20115\"Source | Format\" scrolls to the top of the file", "description": "\"Source | Format\" on a java file. Insteadit scrolls to the top of the file even thoughthe cursor remains at its position beforeformatting."}

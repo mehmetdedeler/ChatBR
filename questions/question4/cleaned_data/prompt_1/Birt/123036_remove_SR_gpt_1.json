@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Bug 123036 Data in a report is doubly stored",
+  "description": "",
+  "OB": "The data in the report is currently being stored twice.",
+  "EB": "The instance stored by the content stream should not be duplicated.",
+  "SR": "1. Open the application and navigate to the 'Reports' section.\n2. Generate a new report with any set of parameters.\n3. Observe that the data in the report is stored twice."
+}

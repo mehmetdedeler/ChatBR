@@ -1,0 +1,8 @@
+{
+  "id": "45145",
+  "title": "Bug 45145 - Second window comes to front when using first",
+  "description": "",
+  "OB": "When switching from another application to an Eclipse window, clicking on a docked view or perspective causes the second window to come to the front, overlapping other applications' windows.",
+  "EB": "The expected behavior is that clicking on a docked view or perspective in an Eclipse window should not bring the second window to the front, and it should not overlap with other applications' windows.",
+  "SR": "Ensure that clicking on a docked view or perspective in an Eclipse window does not bring the second window to the front. The behavior should align with standard window management principles, preventing overlap with other applications' windows."
+}

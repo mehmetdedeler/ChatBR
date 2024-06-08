@@ -1,0 +1,1 @@
+{"bug_id": "40380", "title": "Bug 40380Potential syncro problem in StandardSession.expire(boolean)", "description": "public void expire(boolean notify) {// Mark this session as \"being expired\" if neededif (expiring)return;// No man's land heresynchronized (this) {if (manager == null)return;expiring = true;"}

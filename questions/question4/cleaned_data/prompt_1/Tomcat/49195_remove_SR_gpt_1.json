@@ -1,0 +1,8 @@
+{
+  "id": "49195",
+  "title": "Bug 49195: Using 1 as shutdown port with Windows service works but prints error message",
+  "description": "Specify <Server port=\"1\" in server.xml3. That can be used to differentiate the two use cases. There could be improvements on how to stop Tomcat. System.exit(0) would work regardless of all that. I suppose that jsvc may show the same behavior, but I have not tried.",
+  "OB": "When using 1 as the shutdown port with the Windows service, Tomcat stops successfully but prints the following error message in the catalina.20100427.log:\n27.04.2010 17:49:13 org.apache.catalina.startup.Catalina stopServer\nSEVERE: No shutdown port configured. Server not shut down.\nIt is just a message, and Tomcat stops regardless of it. After printing the message, Catalina stopServer() performs System.exit(1), which results in Tomcat shutdown. I think that when the service launcher stops Tomcat, Catalina server is not null.",
+  "EB": "If the service launcher stopping Tomcat leaves Catalina server not null, it would be better to use wait(10000) instead of sleep(10000) in StandardServer.await(). This change would allow it to be woken by a notifyAll() call or use the interrupt() call to wake it up (if we know the thread).",
+ "SR": "Update the shutdown process to avoid the error message when using 1 as the shutdown port with the Windows service. Consider using wait(10000) instead of sleep(10000) in StandardServer.await(), allowing it to be woken by a notifyAll() call, or use interrupt() to wake it up (if the thread is known)."
+}

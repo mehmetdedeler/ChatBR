@@ -1,0 +1,1 @@
+{"bug_id": "116609", "title": "Bug 116609[Regression]Color orange doesn't work.", "description": "Description:Color orange doesn't work.Steps to reproduce:1. Insert a report item.2. Set color or background color to orange.3. Preview.Expected result:Orange color works.Actual result:It didn't work."}

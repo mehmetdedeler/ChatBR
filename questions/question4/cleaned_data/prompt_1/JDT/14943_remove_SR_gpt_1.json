@@ -1,0 +1,8 @@
+{
+  "id": "14943",
+  "title": "Bug 14943: Code Assist does not respect platform line ends",
+  "description": "Code Assist does not respect platform line ends.",
+  "OB": "When using code assist to create a for loop with a temporary variable, the resulting code has LF linefeeds on a Windows machine.",
+  "EB": "The linefeeds should be CR/LF.",
+  "SR": "Ensure that Code Assist generates code with the appropriate CR/LF line endings based on the platform."
+}

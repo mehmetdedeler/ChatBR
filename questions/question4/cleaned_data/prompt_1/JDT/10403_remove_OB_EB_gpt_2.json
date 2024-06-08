@@ -1,0 +1,8 @@
+{
+  "id": "10403",
+  "title": "Bug 10403: Project creation should confirm the bin directory can be scrubbed",
+  "description": "",
+  "OB": "Upon project creation, there is no confirmation or check for the ability to delete and rebuild the output directory.",
+  "EB": "Upon project creation, there should be a confirmation process to ensure that the bin directory (output folder) can be deleted and rebuilt successfully.",
+  "SR": "Steps to Reproduce:\n1. Create a new project for an existing directory structure.\n2. Point the output folder to a bin directory that contains more than just .class files.\n3. Attempt to create the project.\n4. Observe if there is a confirmation step ensuring the bin directory can be scrubbed and rebuilt."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "3970",
+  "title": "Bug 3970 - UI needed to define the default line delimiters for new files",
+  "description": "The Windows workstations are used as X terminals and to run Eclipse (since PCs are cheaper than Unix boxes).",
+  "OB": "New files created on Windows have Windows line delimiters, and there is no UI option to define the default line delimiters for new files.",
+  "EB": "Even if the new file is created on Windows, it should have Unix line delimiters since the end product is a Unix product. There should be a UI (Preference) to define the line delimiter for new files. Possible values are Dos / Windows Mac Unix default platform line delimiter. The UI should be provided by the Workbench since all plugins should use the same line delimiter for new files.",
+  "SR": "Consider the following scenario: Unix and Windows workstations are used to develop a Unix product/program."
+}

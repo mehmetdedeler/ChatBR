@@ -1,0 +1,1 @@
+{"bug_id": "27083", "title": "Bug 27083[Wizards] Wizard pages are not sizing buttons", "description": "The buttons in the wizard pages are not sizing themselves the same way thatthey do in the preference pages. For instance the wizard import pages hassmall browse buttons."}

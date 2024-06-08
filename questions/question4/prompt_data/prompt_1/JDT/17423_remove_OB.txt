@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '17423', 'title': 'Bug 17423Revert apears twice in the popup menu.', 'description': 'There are two Revert option in the menu. ', 'OB': '', 'EB': 'There is only one Revert option disable as it should be.3) Make the editor dirty.4) Popup the menu. ', 'SR': 'Build F1.1) Open a java editor.2) Popup the menu. One after UNDO andother before FORMAT. '}
+</BUG REPORT>

@@ -1,0 +1,8 @@
+{
+  "id": "19651",
+  "title": "Bug 19651 - Team menu disappears from Hierarchy and Packages view",
+  "description": "During step 9, the Team menu disappeared. Note: TestClass.java is not in any CVS repository, but I initially noticed the problem with a file managed by CVS.",
+  "OB": "When selecting the TestClass in the package view and opening the popup menu, the Team menu is missing.",
+  "EB": "After performing the following steps:\n11) Select the word InnerClass in the text editor and press F4\n12) Open the popup menu on the new hierarchy view (Team menu is not expected here, as it is an inner class)\n13) Select the word TestClass in the new text editor and press F4\n14) Ensure that you have 3 opened windows.",
+  "SR": "1. Open the package view.\n2. Select the TestClass in the package view.\n3. Open the popup menu and observe the absence of the Team menu.\n4. Close the two new windows.\n5. Select the word InnerClass in the text editor and press F4.\n6. Open the popup menu on the new hierarchy view (Team menu is not expected here).\n7. Select the word TestClass in the new text editor and press F4.\n8. Confirm that the Team menu is not present when it should be.\n9. Ensure that you have 3 opened windows."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Bug 123036 - Duplicate Data Storage Issue in Reports",
+  "description": "This bug report is about data duplication within reports. The problem involves data being stored redundantly, causing inefficiency and potential data integrity issues.",
+  "OB": "The observed behavior is the presence of duplicated data in reports, where the same data is stored twice.",
+  "EB": "The expected behavior is to eliminate data duplication. Data should be stored once, either in the content stream or by DtE, to ensure efficient data management and maintain data integrity.",
+  "SR": "To reproduce this issue:\n1. Generate or access a report.\n2. Observe that data is being stored twice within the report, indicating data duplication."
+}

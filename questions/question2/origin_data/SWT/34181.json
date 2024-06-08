@@ -1,0 +1,1 @@
+{"bug_id": "34181", "title": "Bug 34181CtrlClick doesn't select underlying item before bringing up context menu", "description": "I20030307Using CtrlClick to bring up the context menu of an item within a tree view doesn't select the underlying item. Instead the context menu works on the current selection. (Didn't try whether this is also true for rightclicking)"}

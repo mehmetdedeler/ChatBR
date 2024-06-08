@@ -1,0 +1,1 @@
+{"bug_id": "39140", "title": "Bug 39140SWT.VERTICAL ignored in ToolBar", "description": "If you create a ToolBar with the SWT.VERTICAL flga it is ignored unless youslam the size of the widget to only fit one entry."}

@@ -1,0 +1,1 @@
+{"id": "15899", "title": "Bug 15899: Close all saved does not work all the time", "description": "", "OB": "[Please provide a clear and complete statement describing the observed behavior]", "EB": "It should close the file as no changes have been made", "SR": "[Please provide clear and complete steps to reproduce the issue]"}

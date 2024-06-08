@@ -1,0 +1,8 @@
+{
+  "id": "49503",
+  "title": "Bug 49503 - Delayed Connector Binding in Catalina.load()",
+  "description": "The bug report addresses an issue where Connectors in Tomcat do not bind to their ports during the Catalina.load() phase but rather later during the start() phase.",
+  "OB": "The observed behavior is that when starting Tomcat with jsvc, Connectors do not bind to their ports during Catalina.load. This means that Tomcat cannot access privileged ports like port 80. The issue surfaced during testing with the fix for Bug 49030 and Bug 48625, applied in revision r957960.",
+  "EB": "The expected behavior is for Connectors to bind to their ports during Catalina.load() to allow Tomcat to bind to privileged ports. This behavior change negatively impacts the fixes for Bug 49030 and Bug 48625.",
+  "SR": "To reproduce the problem, follow these steps:\n1. Add the following line to 'conf/catalina.properties': 'org.apache.catalina.startup.EXITONINITFAILURE=true'\n2. Start two Tomcat instances with the same configuration at the same time."
+}

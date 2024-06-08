@@ -1,0 +1,1 @@
+{"bug_id": "5116", "title": "Bug 5116Showing methods in the Type Hierarchy View is redundant", "description": "It seems that showing methods in the Type Hierarchy View is reduntant.Couldn't we remove it and make the Type Hierarchy Perspective composed by theupper part of the Type Hierarchy View (showing the types) plus the outliner?"}

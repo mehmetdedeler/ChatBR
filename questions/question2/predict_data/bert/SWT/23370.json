@@ -1,0 +1,1 @@
+{"id": "23370", "title": "Bug 23370CLabel needs to allow transparent background for Mac OS X", "description": " Bug 23370CLabel needs to allow transparent background for Mac OS X See attached screenshot.", "OB": " Buttons in views are drawing with a white box background. The main toolbar buttonsseem to be drawing correctly.", "EB": "", "SR": ""}

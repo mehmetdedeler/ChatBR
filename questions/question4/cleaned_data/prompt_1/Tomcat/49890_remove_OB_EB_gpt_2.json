@@ -1,0 +1,8 @@
+{
+  "id": "49890",
+  "title": "Bug 49890 - Nio Selector issue on Linux platform",
+  "description": "Bug 49890 - Nio Selector issue on Linux platform\nCreated attachment 25997 [details]NioEndpoint.java and simple web applications\nSometimes, the server's CPU reaches 100% and stays at 100% all the time until restart the server.\nReproduced with Java versions: 1.6.007, 1.6.018, 1.6.021. It is a duplicate of issue: Bug 46373. It seems that Jetty guys fixed that problem: http://jira.codehaus.org/browse/JETTY937?focusedCommentId=168060&page=com.atlassian.jira.plugin.system.issuetabpanels:commenttabpanel. I added some logging to NioEndpoint.java.",
+  "OB": "Server's CPU reaches 100%, and it remains at 100% until the server is restarted.",
+  "EB": "Server's CPU should not reach 100% and should operate normally without the need for a server restart.",
+  "SR": "1. Reproduce the issue using the provided Java versions: 1.6.007, 1.6.018, 1.6.021.\n2. Monitor the server's CPU usage.\n3. Note the observed behavior of the server's CPU reaching 100% and staying at 100% until a server restart.\n4. Confirm that the issue is not reproduced on the Windows platform."
+}

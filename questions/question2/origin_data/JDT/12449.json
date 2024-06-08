@@ -1,0 +1,1 @@
+{"bug_id": "12449", "title": "Bug 12449delete action in type hierarchy is not registered on 'del' key", "description": "TypeHierarchyViewPart should call ReorgGroup.createDeleteActionsee PackageExplorerViewPart"}

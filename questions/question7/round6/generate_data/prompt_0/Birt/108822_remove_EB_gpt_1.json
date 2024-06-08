@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "Bug 108822 - More logical processing needed for disk sorting with border values for row count",
+  "description": "",
+  "OB": "When sorting on disk with 40000 rows of data and setting the program to process data less than 40000, the 'DtE' (presumably 'Data to Excel') performs the following operations:",
+  "EB": "Expect more robust logic for sorting on disk when the row count is on the border value. The sorting process should handle data less than the specified row count seamlessly without unnecessary operations.",
+  "SR": "To reproduce the issue:\n1. Sort data on disk with 40000 rows.\n2. Set the program to process data less than 40000.\n3. Perform the 'DtE' operation, which includes:\n   a. Saving the file as a temp file.\n   b. Calling the file to memory.\n   c. Sorting the data.\n   d. Saving the file to a temp file."
+}

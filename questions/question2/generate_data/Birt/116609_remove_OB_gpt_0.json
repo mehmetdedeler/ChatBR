@@ -1,0 +1,8 @@
+{
+  "id": "116609",
+  "title": "Bug 116609 [Regression] Color Orange Doesn't Work",
+  "description": "Bug 116609 [Regression] Color orange doesn't work.",
+  "OB": "When attempting to set the color or background color to orange for a report item, the expected orange color does not appear.",
+  "EB": "When inserting a report item and setting the color or background color to orange, the expected behavior is that the orange color should be displayed as the background color. The orange color should work as intended.",
+  "SR": "1. Insert a report item.\n2. Set the color or background color to orange."
+}

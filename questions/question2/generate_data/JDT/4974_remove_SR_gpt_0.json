@@ -1,0 +1,8 @@
+{
+  "id": "4974",
+  "title": "Bug 4974 - Inconsistent Classpath and Output Location Configuration",
+  "description": "This bug report addresses an issue related to configuring classpath and output location settings.",
+  "OB": "Upon pressing 'OK' after making changes, the user encounters the error message: 'Cannot nest output folder /xy in source folder /xy/src.'",
+  "EB": "The expected behavior is for classpath and output location settings to be combined into a single operation, similar to how validation checks work, which verifies both settings at once. Additionally, the error message should be improved to provide a clearer message, such as: '/xy/src' cannot be nested in '/xy'.",
+  "SR": "To replicate this issue:\n1. Create a new project with 'src' as the source folder and 'bin' as the output location.\n2. In the project properties, change the settings to use the project as the source folder and the project as the output location."
+}

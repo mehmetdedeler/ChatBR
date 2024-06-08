@@ -1,0 +1,8 @@
+{
+  "id": "44164",
+  "title": "Update needed in Javadoc for constructor Image(Device, ImageData)",
+  "description": "The Javadoc for constructor Image(Device, ImageData) requires an update. In the given code snippet, an attempt is made to create an Image using ImageData and Display, but it throws an exception.",
+  "OB": "The code throws an exception when attempting to create an Image.",
+  "EB": "The Javadoc for constructor Image(Device, ImageData) should accurately describe the requirements and usage to create an Image from ImageData and Display without throwing an exception.",
+  "SR": "Steps to reproduce:\n1. Import 'org.eclipse.swt.graphics.'\n2. Use the following code:\n   - Create an ImageData instance\n   - Attempt to create an Image using Display.getDefault() and the created ImageData"
+}

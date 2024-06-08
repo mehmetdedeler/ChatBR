@@ -1,0 +1,1 @@
+{"id": "6304", "title": "Bug 6304: Cannot sync a .java file and another resource", "description": "", "OB": "", "EB": "", "SR": "To reproduce the bug:\n1. Open the package viewer.\n2. Select a .java file and another resource (e.g., a .properties file) in the package viewer."}

@@ -1,0 +1,8 @@
+{
+  "id": "137464",
+  "title": "Bug 137464: Applying a filter on a Join dataset in chart editor's select data page does not refresh the data preview",
+  "description": "",
+  "OB": "When applying a filter with the condition row[\"Data Set1::EMPLOYEEID\"] = 1 in the chart editor's select data page, the data preview does not refresh.",
+  "EB": "After clicking a filter with the condition row[\"Data Set1::EMPLOYEEID\"] = 1, the actual result is that the data preview does not change, even though the filter has an effect. The expected result is that the data preview should refresh after setting a filter.",
+  "SR": "1. Open the chart editor's select data page.\n2. Apply a filter with the condition row[\"Data Set1::EMPLOYEEID\"] = 1.\n3. Observe that the data preview does not refresh, contrary to the expected behavior."
+}

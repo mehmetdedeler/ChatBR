@@ -1,0 +1,8 @@
+{
+  "id": "121323",
+  "title": "Bug 121323XML Edit Data Set dialog does not persist filter information",
+  "description": "",
+  "OB": "When entering an XPath expression for the column mapping with a selection part like 'section[@id='left']' in the XML Edit Data Set dialog, the selection is stripped off and stored in the filterInfo HashMap within the class RelationInformation. Upon leaving the dialog, RelationInformation is persisted to .rptdesign, but the data stored in filterInfo is lost. This may lead to unexpected behavior.",
+  "EB": "Expect the XML Edit Data Set dialog to persist the filter information correctly, including the XPath expression with a selection part like 'section[@id='left']'. The filterInfo HashMap should retain the selection information even after leaving the dialog, ensuring that it is correctly stored in .rptdesign.",
+  "SR": "To reproduce the issue:\n1. Open the XML Edit Data Set dialog.\n2. Enter an XPath expression for the column mapping with a selection part like 'section[@id='left']'.\n3. Observe that within the class RelationInformation, the selection is stripped off and stored in the filterInfo HashMap.\n4. Leave the dialog and check if, upon persistence to .rptdesign, the data stored in filterInfo is lost."
+}

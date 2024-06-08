@@ -1,0 +1,8 @@
+{
+  "id": "17993",
+  "title": "Bug 17993 Find/Replace shouldn't replace typed entry with value from history",
+  "description": "The bug report suggests that the Find/Replace feature should not automatically replace user-typed entries with values from the history, similar to an autocomplete feature.",
+  "OB": "The observed behavior is appears to involve the Find/Replace feature automatically replacing user-typed entries with values from the history, similar to autocomplete, making it difficult to perform find and replace operations.",
+  "EB": "The expected behavior is that the Find/Replace feature should not automatically replace user-typed entries with values from the history. Users should be able to type their entries without automatic replacements. Case sensitivity should be maintained in user input. The goal is to enable a full range of find and replace operations.",
+  "SR": "The steps to reproduce the issue are not provided in the bug report, but the issue seems to occur when opening a document and attempting to use 'Edit > Find/Replace...'. The behavior also affects the 'Replace With' field."
+}

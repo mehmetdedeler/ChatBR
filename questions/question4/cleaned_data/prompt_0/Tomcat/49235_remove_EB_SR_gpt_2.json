@@ -1,0 +1,8 @@
+{
+  "id": "49235",
+  "title": "Bug 49235 - ServletContainerInitializer onStartup(Set<Class<? classSet is not expected class",
+  "description": "Bug 49235 - ServletContainerInitializer onStartup(Set<Class<? - The output is \"MySomeClass\".",
+  "OB": "The current behavior is that the output is \"MySomeClass\".",
+  "EB": "The expected behavior is that the output should be \"MySomeClass\". This behavior is not in line with the Servlet 3.0 spec. My code works fine on Glassfish 3.0.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Set up a ServletContainerInitializer in an environment compliant with Servlet 3.0 spec.\n2. Call the onStartup method with a Set of Class<?>."
+}

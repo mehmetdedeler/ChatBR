@@ -1,0 +1,8 @@
+{
+  "id": "102436",
+  "title": "Bug 102436 - Date/time value not stored correctly in report design",
+  "description": "An invalid date/time string (which does not conform to a universal format or the system default locale format) should have been rejected.",
+  "OB": "When attempting to input an invalid date/time string in the report design, there is no validation occurring, and the incorrect value is being accepted without error.",
+  "EB": "(2) The date value should be validated either by the UI or the Model, and an appropriate error message should be displayed to the user when an invalid date/time string is entered.",
+  "SR": "1. Open the report design interface.\n2. Attempt to enter an invalid date/time string in the date field.\n3. Observe that the system accepts the invalid input without displaying any error message."
+}

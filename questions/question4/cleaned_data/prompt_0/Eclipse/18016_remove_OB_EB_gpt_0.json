@@ -1,0 +1,8 @@
+{
+  "id": "18016",
+  "title": "Bug 18016 - Most menu actions should be disabled for custom files from the repository",
+  "description": "Bug 18016 - Most menu actions should be disabled for custom files from the repository, but the rest is meaningless and they should be removed.",
+  "OB": "When opening a .java file in the repository view, several menu actions are enabled for custom files.",
+  "EB": "Menu actions for custom files in the repository view should be disabled, except for essential operations. The unnecessary menu items should be removed.",
+  "SR": "1. Open the repository view.\n2. Locate and open a .java file."
+}

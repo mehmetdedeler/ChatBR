@@ -1,0 +1,8 @@
+{
+  "id": "124761",
+  "title": "Bug 124761: Data extraction issue with dual filters",
+  "description": "When adding two filters, one is 'State is equal to CA,' and the other is 'EmployeeId is Top 10,' the data extraction is not functioning correctly.",
+  "OB": "Upon adding the specified filters, the data extraction does not display the expected results.",
+  "EB": "The preview shows that the data cannot be extracted. The expected result is that the intersection set of the data 'State is equal to CA' and 'EmployeeId is Top 10' should be displayed.",
+  "SR": "1. Navigate to the filter section.\n2. Add 'State is equal to CA' as the first filter.\n3. Add 'EmployeeId is Top 10' as the second filter.\n4. Observe the data extraction results, noting the discrepancy."
+}

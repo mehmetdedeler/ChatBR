@@ -1,0 +1,8 @@
+{
+  "id": "18028",
+  "title": "Rename package fails to verify resource writability",
+  "description": "The 'Rename package' function doesn't verify the writability of all resources.",
+  "OB": "Create a package containing a CU (Class Unit) and set the CU to read-only. Attempt to rename the package. Observation: Upon completion, an unexpected exception dialog appears.",
+  "EB": "Precondition checks should verify the writability of files within packages before allowing package renaming.",
+  "SR": "1. Create a package with a CU inside.\n2. Set the CU to read-only.\n3. Attempt to rename the package.\n4. Note the appearance of an unexpected exception dialog."
+}

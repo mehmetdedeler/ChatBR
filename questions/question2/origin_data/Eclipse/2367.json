@@ -1,0 +1,1 @@
+{"bug_id": "2367", "title": "Bug 2367add bookmark accepts empty string but does nothing (1GEUL6T)", "description": "AK (6/5/01 2:35:19 PM)you can put an empty string as a bookmark name  but the action does nothing then.emoty string should not be allowed.NOTES:GDA (6/5/01 12:08:06 PM)Defer. Not clear this is a JUI issue?Move to ui for kh to handle."}

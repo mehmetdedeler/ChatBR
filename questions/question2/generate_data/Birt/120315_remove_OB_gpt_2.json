@@ -1,0 +1,8 @@
+{
+  "id": "120315",
+  "title": "Bug 120315 - Display property 'none' not taking effect in PDF emitter",
+  "description": "When the display property of an item is set to 'none', it doesn't have the expected effect in the new PDF emitter.",
+  "OB": "The issue observed is that when setting the display property of an item to 'none', the label does not disappear in the PDF preview.",
+  "EB": "In the PDF preview, when the display property of an item is set to 'none', the label should disappear. This is the expected behavior.",
+  "SR": "To reproduce the issue:\n1. Add a label to the document.\n2. Open the 'properties' view.\n3. Set the 'sectionDisplay' property to 'none'.\n4. Preview the document in PDF format."
+}

@@ -1,0 +1,1 @@
+{"id": "2120", "title": "Bug 2120MRU File List is not persisted between sessions (1GE71Z0)", "description": "", "OB": "", "EB": "", "SR": "Start the workbench. Open 2 or 3 files. Shutdown the workbench. Restart the workbench and observe if the previously opened files are still listed."}

@@ -1,0 +1,8 @@
+{
+  "id": "32770",
+  "title": "Bug 32770 - Java Application Launch Error Message Enhancement",
+  "description": "This bug report addresses issues with the error message displayed when a Java application launch fails and suggests improving its quality to assist users more effectively.",
+  "OB": "The observed behavior is that a dialog appears with the message 'Launch failed: no main type found.'",
+  "EB": "The expected behavior is to enhance the error message to guide users on how to resolve the issue. It should provide a hint about the necessary action, such as selecting a resource. An improved message might read 'Launch failed: No file with a main type selected.'",
+  "SR": "The steps to reproduce are not provided in the bug report. To better understand the issue, clear and comprehensive steps for reproducing the problem should be included."
+}

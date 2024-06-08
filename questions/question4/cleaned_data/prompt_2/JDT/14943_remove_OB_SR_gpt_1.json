@@ -1,0 +1,8 @@
+{
+  "id": "14943",
+  "title": "Bug 14943: Code Assist does not respect platform line ends",
+  "description": "The Code Assist feature is not behaving as expected regarding platform line ends.",
+  "OB": "When using Code Assist, the line ends are not being respected according to the platform.",
+  "EB": "The expected behavior is that Code Assist should respect platform line ends, and they should be consistent with CR/LF standards.",
+  "SR": "1. Open the Code Assist feature.\n2. Create a new file with different line endings (CRLF or LF) based on your platform.\n3. Observe that Code Assist does not respect the line endings as expected."
+}

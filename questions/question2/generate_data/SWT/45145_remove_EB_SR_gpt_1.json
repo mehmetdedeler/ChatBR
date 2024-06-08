@@ -1,0 +1,8 @@
+{
+  "id": "45145",
+  "title": "Second window comes to the front when using first",
+  "description": "",
+  "OB": "When switching from another application to an Eclipse window and then clicking on a docked view or perspective, the other Eclipse window comes to the front, overlapping my other open application windows.",
+  "EB": "I expect that when I switch from another application to an Eclipse window and interact with docked views or perspectives, the Eclipse window I'm interacting with should come to the front as the topmost window, and it should not be obscured by my other open application windows.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Have multiple applications open on your desktop.\n2. Open Eclipse and have at least two Eclipse windows open.\n3. Switch to a different application, making Eclipse lose focus.\n4. Return to Eclipse and click on a docked view or perspective within one of the Eclipse windows."
+}

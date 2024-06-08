@@ -1,0 +1,8 @@
+{
+  "id": "2120",
+  "title": "MRU File List is not persisted between sessions (1GE71Z0)",
+  "description": "When using the application, I noticed that the Most Recently Used (MRU) file list is not retained between sessions. This is causing inconvenience to users who frequently work with the same set of files.",
+  "OB": "The MRU list in the File menu does not display any previously opened files when the application is restarted. It is empty every time the application is launched.",
+  "EB": "I expect the MRU list to persist between sessions. When a user opens a file and then closes the application, the next time they start the application, the MRU list should display the recently opened files. This behavior is standard in many applications and enhances user productivity.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Launch the application.\n2. Open any file.\n3. Close the application.\n4. Relaunch the application.\n5. Observe that the MRU list in the File menu is empty, and it should instead display the previously opened file."
+}

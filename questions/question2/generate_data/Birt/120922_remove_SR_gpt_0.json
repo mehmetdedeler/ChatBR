@@ -1,0 +1,8 @@
+{
+  "id": "120922",
+  "title": "Dirty Page Behavior in XML Report Designer Needs Improvement",
+  "description": "In the XML Report Designer editor, when you attempt to switch from 'source' view to 'layout' view after making changes, you receive an error message indicating the need to save your changes. The user is left unsure of how to save or discard their changes, and the error message is labeled 'Error' with quotes. Do you want to save the changes? <Yes <No <Cancel> Yes would save the changes, No would discard the changes, and Cancel would do nothing and remain on the Source page. The current error message is 'Source page is dirty' (including the quotes).",
+  "OB": "When editing XML in the 'source' view of the Layout Editor and attempting to switch back to the Layout view, an error message appears, indicating the need to save your changes. The problem is that the user has to figure out how to save or discard the changes, which is not intuitive, and the error message is not informative. The error message is 'Source page is dirty,' with quotes.",
+  "EB": "The expected behavior should be an improved user experience. When XML Report Design is changed, the dialog should have a clear and meaningful title without quotes. Users should be guided on how to save or discard their changes.",
+  "SR": "1. Open the XML Report Designer.\n2. Edit the XML content in the 'source' view of the Layout Editor.\n3. Attempt to switch back to the 'layout' view.\n4. Observe the error message and the lack of guidance on saving or discarding changes."
+}

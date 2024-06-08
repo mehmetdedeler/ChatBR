@@ -1,0 +1,8 @@
+{
+  "id": "50016",
+  "title": "Improper Handling of Request.isUserInRole and New Request Login/Logout Methods",
+  "description": "This bug report addresses two related problems regarding the handling of roles and the implementation of new login and logout methods in Tomcat. The first issue concerns the Request.isUserInRole method, which aims to accommodate JACC (Java Authorization Contract for Containers) implementations but currently operates incorrectly. The existing implementation applies 'roleref' mappings to the provided role and then tests the target role, deviating from JACC requirements. The second problem pertains to the implementation of new login and logout methods, which are excessively intrusive into the authentication process. These methods also lack flexibility and restrict compatibility with other authenticators.",
+  "OB": "The reported issues involve the incorrect operation of the Request.isUserInRole method, where 'roleref' mappings are applied improperly. Additionally, the new login and logout methods are overly invasive into the authentication process.",
+  "EB": "The expected behavior includes the proper functioning of the Request.isUserInRole method in compliance with JACC standards. Specifically, this method should provide the original role and, if possible, the servlet name to the wrapper. In cases of mapping, only the mapped role should be checked. Furthermore, both these functionalities should be delegated directly to the Authenticator, which should also have the capability to decide whether to cache authentication results.",
+  "SR": "The report does not specify steps to reproduce these problems. To address these issues effectively, it's crucial to provide clear and detailed steps to replicate the observed behavior."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "13269",
+  "title": "Bug 13269: Incorrect operation order in jarpackager",
+  "description": "Bug 13269: Incorrect operation order in jarpackager. The issue also applies to the '.jardesc' file. Perhaps a warning in the wizard's header, now that an icon is shown, would be better in the case of the '.jardesc' file, rather than a dialog box at the end. If the user wants that, they should use the 'save the manifest in the workspace' option combined with the 'reuse and save the manifest in the workspace' option. 20020409. JRT.",
+  "OB": "The jar file is created before the overwrite verifications happen. Other notes: The message 'saving manifest file failed' is perhaps incorrect in this case, as the user chose not to overwrite the manifest file (thus it is not really a failure).",
+  "EB": "Regardless, not overwriting this file should not cause the wizard to fail to complete its operation. The 'use existing manifest from workspace' option should not save a new manifest file.",
+  "SR": "1. Open the jarpackager wizard.\n2. Select the '.jardesc' file option.\n3. Observe the lack of a warning in the wizard's header for the '.jardesc' file.\n4. Note that the jar file is created before overwrite verifications occur.\n5. Select the 'save the manifest in the workspace' and 'reuse and save the manifest in the workspace' options.\n6. Verify that the wizard completes its operation without errors."
+}

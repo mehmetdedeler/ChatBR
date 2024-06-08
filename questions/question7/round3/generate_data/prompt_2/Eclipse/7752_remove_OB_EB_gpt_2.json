@@ -1,0 +1,1 @@
+{"id": "7752", "title": "Export multiple files with same file name under different directories to zip file fails.", "description": "Steps to reproduce:\n1. Launch WSWB and create two projects\n2. Under each project, create a new file with the same name (such as 'foo.txt')\n3. From the main menu, select 'File' -> 'Export' and then select 'Zip File' to export\n4. [Incomplete]"}

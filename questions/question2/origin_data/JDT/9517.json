@@ -1,0 +1,1 @@
+{"bug_id": "9517", "title": "Bug 9517Browser Perspective: new project doesn't show up in project view part", "description": "Test pass for M3 open eclipse switch to browser perspective open context menu in project view part select NewProject create JUnit projectobserve: new project doesn't show up in project view part"}

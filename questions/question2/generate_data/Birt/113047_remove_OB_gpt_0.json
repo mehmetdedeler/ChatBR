@@ -1,0 +1,8 @@
+{
+  "id": "113047",
+  "title": "No Children Node Listing When Changing Data Source in Data Set Editor of Query Tab",
+  "description": "The issue is related to a lack of children node listing when changing the data source for a data set in the data set editor page of the query tab.",
+  "OB": "When changing the data source for a data set, no children nodes are listed in the data set editor page of the query tab.",
+  "EB": "The expected behavior is that when changing the data source for a data set, the new data source should list out its children nodes, including database tables and columns.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create a new data set without an SQL statement.\n2. Open the data set editor and navigate to the data source page.\n3. Change the data source to a new one.\n4. Observe that the new data source does not display any database tables or columns as children nodes.\n5. Close the data set editor and reopen it to confirm the issue."
+}

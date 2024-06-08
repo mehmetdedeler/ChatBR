@@ -1,0 +1,8 @@
+{
+    "id": "129569",
+    "title": "Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window",
+    "description": "Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window. This is a BiDi specific defect.\n\nSteps to reproduce:\n1. Open the Query window in the Edit Data Set dialog.\n2. Make sure that the table contains columns with BiDi names (e.g. \"EMANNMULOC\").\n3. Enter a query like:\n   select tomer.tomerEMANNMULOC.REMOT2\n   from tomer.tomerREMOT3\n   where tomer.tomerOLLEH'' =!\n\nExpected results:\n- In the 1st and 3rd rows, the order of characters should be correct, allowing the query to be read easily.\n- The name of the column and part of the table name should not be switched in the 1st row.\n- Part of the constant, table name, and column name should not be mixed in the 3rd row.\n\nActual results:\n- The order of characters is completely ruined in the 1st and 3rd rows, making it impossible to read the query.",
+    "OB": "This bug is similar to another defect that reports a similar problem in the Expression Builder dialog. However, in this defect, we are specifically referring to the context of the Query screen in the Edit Data Set dialog.",
+    "EB": "The order of BiDi characters in the Query window should be corrected to ensure readability of the query.",
+    "SR": "1. Investigate the order of BiDi characters in the Query window.\n2. Identify the reason behind the incorrect ordering.\n3. Implement the necessary changes to fix the issue and ensure proper ordering of BiDi characters.\n4. Test the fix to verify that the order of characters in the Query window is correct and allows for easy reading of the query."
+}

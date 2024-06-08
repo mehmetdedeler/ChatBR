@@ -1,0 +1,1 @@
+{"bug_id": "37479", "title": "Bug 37479BIDI: Dropdown list of CCombo doesn't inherit it's orientation from CCombo.", "description": "Shell, which stores dropdown list of CCombo, is always created with NOTRIMstyle only. Therefore it inherit it's orientation not from CCombo, but fromit's parent shell."}

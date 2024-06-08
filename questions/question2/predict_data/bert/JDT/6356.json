@@ -1,0 +1,1 @@
+{"id": "6356", "title": "Bug 6356Outliner has to delete actions", "description": " Bug 6356Outliner has to delete actions Product version: smoke test for integration build 20011127 load compilation unit into Java editor open context menu in outlinerobserve: there are two delete actions", "OB": "", "EB": "", "SR": ""}

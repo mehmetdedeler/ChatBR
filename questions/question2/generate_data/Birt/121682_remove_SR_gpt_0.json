@@ -1,0 +1,8 @@
+{
+  "id": "121682",
+  "title": "Exception thrown when exporting data from a table containing a highlight/map",
+  "description": "When trying to export data from an attached report, an exception is thrown. This issue occurs when attempting to export data from a table that contains a highlight or map. To reproduce the issue, follow these steps:",
+  "OB": "An exception is thrown when attempting to export data from a table that contains a highlight or map.",
+  "EB": "When exporting data from a table, the expected behavior is that the data should be exported without any errors or exceptions.",
+  "SR": "1. Open the attached report.\n2. Locate a table that contains a highlight or map.\n3. Attempt to export the data from this table.\n4. Observe the exception occurring during the export process."
+}

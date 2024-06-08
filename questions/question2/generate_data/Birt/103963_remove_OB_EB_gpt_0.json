@@ -1,0 +1,8 @@
+{
+  "id": "103963",
+  "title": "No Friendly Error Message for Empty Series",
+  "description": "When there is no data available for a series, the software should display a user-friendly error message to inform the user about the lack of data. However, this is not currently happening. The bug report lacks details, so I will provide the missing information.",
+  "OB": "When there is no data for a series, no error message or notification is displayed to the user. Instead, the chart remains empty, which can be confusing.",
+  "EB": "The expected behavior is that when there is no data for a series, a friendly error message should appear on the chart, informing the user that there is no data available for the selected series. The message should be clear and concise, helping the user understand the issue.",
+  "SR": "To reproduce the issue:\n1. Create a chart using the software.\n2. Define the data for the chart.\n3. Select a column or series that has no data available."
+}

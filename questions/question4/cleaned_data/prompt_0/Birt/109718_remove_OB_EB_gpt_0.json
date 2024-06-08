@@ -1,0 +1,8 @@
+{
+  "id": "109718",
+  "title": "Bug 109718 - Put large content in text item, the tips show the content in one line",
+  "description": "INTRODUCTION 32. SOME OF THE ERROR MESSAGE DOESN?? ?T HAVE ENOUGH INFORMATION FOR USER TO IDENTIFY THE ERROR. 42.5 ADD JAVASCRIPT OBJECT 42.6 SUPPORT DROP IN THE GROUP HEADER 42.7 PROVIDE UNDOABLE TRANSACTION 42.8 USER PROPERTY REVISION 52.9 HELP GUI TO FILTRATE THE UNNECESSARY NOTIFICATIONS 53. ELEMENT EXTENSION 65. Save and put mouse on the text item\nExpected Result: tips show in the given format\nActual Result: tips show in one line",
+  "OB": "When putting large content in a text item and hovering the mouse over it, the tips display the content in a single line.",
+  "EB": "The tips should display the content in the given format, providing a clear and formatted representation of the large text content.",
+  "SR": "Steps to reproduce:\n1. Insert a text in the layout with the following content:\n   \"Contents\n   1. MINOR ENHANCEMENTS\n      32.1 PROVIDE PROPERTY GROUP INFORMATION ON ELEMENT DEFN CLASS\n      32.2 COMPLETE THE TODO TASKS\n      32.3 REVIEW RESULT\n      32.4 MESSAGE FILE ENHANCEMENT\n   4. CURRENTLY, WE STORE THE ERROR MESSAGE FOR EXCEPTIONS IN THE MESSAGE.PROPERTY FILE.\n   NEW FEATURES\n      53.1 RHINO EXPRESSION PARSER\n      53.2 STRUCTURE TYPE SUPPORT\n      63.3 NEW SYSTEM\n      64. QA TEST SUPPORTING\n   7.\""
+}

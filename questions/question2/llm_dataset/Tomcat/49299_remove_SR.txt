@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '49299', 'title': 'Bug 49299Servlet 3.0 ch.7.1.1 says that custom cookie name affects URL rewriting', 'description': ' Bug 49299Servlet 3.0 ch.7.1.1 says that custom cookie name affects URL rewriting', 'OB': ' Created attachment 25442 [details]cookiename.warIn chapter 7.1.1 of servlet30finalspec.pdf it is said that"If a web application configures a custom name for its session tracking cookies, thesame custom name will also be used as the name of the URI parameter if the sessionid is encoded in the URL (provided that URL rewriting has been enabled). Actual result:The page sends the following cookie:SetCookie: MYSESSIONCOOKIE=658C60E714E9C7C833F4FDA366E0477F; Path=/cookiename; HttpOnlybut the Reload link on the page uses "jsessionid":http://localhost:8080/cookiename/index.jsp;jsessionid=658C60E714E9C7C833F4FDA366E0477F4.', 'EB': ' Expected result: if that phrase in 7.1.1 is to be followed, I would expect the Reload link to behttp://localhost:8080/cookiename/index.jsp;MYSESSIONCOOKIE=658C60E714E9C7C833F4FDA366E0477F', 'SR': ''}
+</BUG REPORT>

@@ -1,0 +1,1 @@
+{"bug_id": "17396", "title": "Bug 17396Organize import on multiple CUs flickers", "description": "20020521Should use a WorkspaceModifyOperation"}

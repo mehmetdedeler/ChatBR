@@ -1,0 +1,1 @@
+{"id": "108822", "title": "More efficient logic needed for disk sorting when there is a boundary value for the row count", "description": "", "OB": "When sorting data on disk with a row count of 40000, the program processes only a portion of the data. The process followed is as follows:", "EB": "", "SR": "To reproduce the issue:"}

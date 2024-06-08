@@ -1,0 +1,8 @@
+{
+  "id": "122105",
+  "title": "The schema should be added as 'schemaname.Procedurename' when using a stored procedure.",
+  "description": "When using a stored procedure, the schema should be added as 'schemaname.Procedurename'.",
+  "OB": "Currently, when using a stored procedure, the schema is not being added to the procedure name.",
+  "EB": "The expected behavior is that when a stored procedure is used, it should be in the format 'schemaname.Procedurename' to ensure proper schema resolution.",
+  "SR": "Steps to reproduce: 1. Create a new report. 2. Use a stored procedure within the report without specifying the schema, and observe that the schema is not automatically added to the procedure name."
+}

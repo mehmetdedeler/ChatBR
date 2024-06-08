@@ -1,0 +1,8 @@
+{
+  "id": "2345",
+  "title": "Bug 2345[Editor Mgmt] Open with a different type of editor has no effect if file already open (1GEWMSQ)",
+  "description": "Bug 2345[Editor Mgmt] Open with a different type of editor has no effect if file already open (1GEWMSQ)",
+  "OB": "When selecting 'Open With...' and choosing 'Default Text Editor' for an XML file (test.xml) in the Navigator, nothing happens, and it reactivates the scripted resource editor example.",
+  "EB": "When selecting 'Open With...' and choosing 'Default Text Editor' for an XML file (test.xml) in the Navigator, a new editor should open for the file with the correct editor type, as it is different from the scripted resource editor example.",
+  "SR": "To reproduce the issue:\n1. Create a new basic project.\n2. Create a new file named 'test.xml'.\n3. The editor used by default is the scripted resource editor example.\n4. In the Navigator, select 'test.xml'.\n5. Right-click and choose 'Open With...' > 'Default Text Editor'.\n6. Observe that nothing happens, and the scripted resource editor example is reactivated.\n\nExpected behavior: Selecting 'Default Text Editor' should open a new editor for 'test.xml' due to the different editor type."
+}

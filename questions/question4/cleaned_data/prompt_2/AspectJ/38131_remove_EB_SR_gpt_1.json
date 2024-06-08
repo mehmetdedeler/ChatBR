@@ -1,0 +1,8 @@
+{
+  "id": "38131",
+  "title": "Bug 38131: Missing 'd .' option in ajc compilation for subpackages",
+  "description": "I encountered a regression in ajc 1.1rc1 while compiling classes from a subpackage. It seems to differ from the behavior of javac, possibly due to changes in the underlying Eclipse compiler.",
+  "OB": "After compiling a class within a subpackage using ajc, the test.class file is placed in a 'subpackage\\subpackage' directory. Consequently, running the 'java' command leads to an error: 'Exception in thread \"main\" java.lang.NoClassDefFoundError: subpackage/Test'. This issue can be resolved by executing 'ajc d .'",
+  "EB": "The 'ajc' compilation process for subpackages should not create an additional 'subpackage' directory within the existing one. Running the 'java' command after compilation should not result in a 'NoClassDefFoundError' for the subpackage class.",
+  "SR": "1. Create a class in a subpackage (e.g., package subpackage; public class Test { public static void main(String[] args) { System.out.println(\"Hello\"); } }).\n2. Compile the class using 'ajc subpackage\\Test.java'.\n3. Verify that the 'test.class' file is located directly within the 'subpackage' directory, not within a nested 'subpackage\\subpackage'.\n4. Run the 'java subpackage.Test' command to ensure it executes without a 'NoClassDefFoundError'."
+}

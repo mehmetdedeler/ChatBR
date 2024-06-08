@@ -1,0 +1,1 @@
+{"id": "130300", "title": "Bug 130300Remove, hide or obfuscate XnoWeave", "description": "Bug 130300Remove, hide or obfuscate XnoWeave This option is redundant apart from use in AspectJ development and maintenance. It is confusing to users and is a source new problems for LTW. ", "OB": "", "EB": "", "SR": ""}

@@ -1,0 +1,1 @@
+{"bug_id": "134671", "title": "Bug 134671Legend title is displayed incorrectly.", "description": "Legend title is displayed incorrectly.Steps:1.Import the attached report design file2.PreviewActual Results:1.Legend title is \"Company\", but displayed as \"=Company\"Expected Results:1.Legend title is displayed correctly."}

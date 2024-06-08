@@ -1,0 +1,15 @@
+{
+  "id": "16822",
+  "title": "Bug 16822 - Search results not cleared after moving compilation unit",
+  "description": "Build 200205211.",
+  "OB": "Search result for declaration of X persists in the search view after moving compilation unit X.java from 'P/src1' to 'P/src2'.",
+  "EB": "After moving compilation unit X.java from 'P/src1' to 'P/src2', the search result for declaration of X should be removed from the search view.",
+  "SR": [
+    "Create project P with 2 source folders 'src1' and 'src2'.",
+    "Create compilation unit X.java under 'P/src1'.\npublic class X {}",
+    "Search for declaration of X.",
+    "Move X.java to 'P/src2'.",
+    "Observe: The search result is still in the search view.",
+    "Double-clicking on the search result opens a 'Search Error' dialog, stating:\nAn error occurred while creating a Java element.\nReason: X.java does not exist."
+  ]
+}

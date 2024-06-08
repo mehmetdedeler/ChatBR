@@ -1,0 +1,8 @@
+{
+  "id": "49503",
+  "title": "Connectors do not bind to their ports in Catalina.load(), but only later in start()",
+  "description": "Connectors do not bind to their ports in Catalina.load(), but only later in start(). Testing with trunk at revision 957942, thus this supposedly affects 7.0.0 as well. In TC6, there is a separate prestartup phase when starting Tomcat, to allow Connectors to bind to their ports before other parts of Tomcat are started. IIRC, it is implemented by having separate Bootstrapload(String[]) and Bootstartstart() methods [1]. Essentially, it breaks the fix for BZ 48625.",
+  "OB": "Connectors do not bind to their ports in the Catalina.load() phase.",
+  "EB": "Connectors should bind to their ports during the Catalina.load() phase, as was the behavior in TC6.",
+  "SR": "To reproduce:\n1. Add the following line to conf/catalina.properties: org.apache.catalina.startup.EXITONINITFAILURE=true\n2. Start two Tomcat instances with the same configuration at the same time."
+}

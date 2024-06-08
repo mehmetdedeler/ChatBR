@@ -1,0 +1,1 @@
+{"id": "120216", "title": "Bug 120216: Group dialog should be shown even if dataset is not set.", "description": "", "OB": "An error is shown when trying to open the group dialog without setting a dataset.", "EB": "", "SR": ""}

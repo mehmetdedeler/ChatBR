@@ -1,0 +1,8 @@
+{
+  "id": "2940",
+  "title": "Slow Checkbox State Update in Export Zip",
+  "description": "When updating the checkboxes in the Export Zip feature, there is a significant delay, taking around 30 seconds to reflect changes. A busy cursor should be displayed during this process.",
+  "OB": "The observed behavior is that it takes a long time, approximately 30 seconds in my case, for the table's checkbox states to update. During this time, a busy cursor should be shown.",
+  "EB": "The expected behavior is that the checkbox state updates should be much quicker, ideally in a matter of a few seconds, and a busy cursor should be displayed to indicate that the system is working on the updates.",
+  "SR": "To reproduce this issue:\n1. Open the 'Export Zip' feature.\n2. Select a significant number of files or items for export.\n3. Observe the delay in the checkbox state updates, which should take around 30 seconds, and look for the absence of a busy cursor during this time."
+}

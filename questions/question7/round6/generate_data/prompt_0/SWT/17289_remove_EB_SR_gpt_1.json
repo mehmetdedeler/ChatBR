@@ -1,0 +1,8 @@
+{
+  "id": "17289",
+  "title": "Bug 17289 - Combo doesn't take focus by clicking on it (Photon)",
+  "description": "Try clicking on the first Combo.",
+  "OB": "When clicking on the first Combo, it does not take focus anymore. However, if I drop down the combo list, it will take focus.",
+  "EB": "The expected behavior is that when I click on the first Combo, it should take focus as it did previously, without the need to drop down the combo list.",
+  "SR": "To reproduce the issue:\n1. Launch the application.\n2. Locate the first Combo element.\n3. Click on the first Combo element."
+}

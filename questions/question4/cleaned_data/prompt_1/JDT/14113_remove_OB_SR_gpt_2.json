@@ -1,0 +1,8 @@
+{
+  "id": "14113",
+  "title": "Bug 14113: Should listen to FSOURCEATTACHED and FSOURCEDETACHED java deltas",
+  "description": "Bug 14113: Should listen to FSOURCEATTACHED and FSOURCEDETACHED java deltas",
+  "OB": "The class file editor does not refresh when FSOURCEATTACHED and FSOURCEDETACHED java deltas occur.",
+  "EB": "Upon encountering FSOURCEATTACHED and FSOURCEDETACHED java deltas, the expected behavior is to refresh the class file editor to reflect the changes in the source.",
+  "SR": "1. Open a Java file in the class file editor. 2. Introduce FSOURCEATTACHED or FSOURCEDETACHED delta by external means. 3. Observe that the class file editor does not automatically refresh. 4. Manually trigger a (FREMOVEDFROMCLASSPATH | FSOURCEDETACHED | FSOURCEATTACHED) delta. 5. Confirm that the FREMOVEDFROMCLASSPATH is successfully removed once this bug is fixed."
+}

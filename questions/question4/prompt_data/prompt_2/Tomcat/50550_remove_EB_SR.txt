@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '50550', 'title': 'Bug 50550PropFind 404 error after MkCol succes', 'description': 'Bug 50550PropFind 404 error after MkCol succes This suggests this has to do with caching.Note2: This situation sounds similar to call 21288 (FIXED\'DirContext caching problem with Dreamweaver 6 when recursively creating directories\').Reproducable using a jackrabbit client;HttpClient client = new HttpClient();String newDir = "http://localhost:8080/webdav/output/" + UUID.randomUUID() + "/";// Comment out this request to make second propfind succesfulHttpMethod propFindMethod1 = new PropFindMethod(newDir);client.executeMethod(propFindMethod1);propFindMethod1.releaseConnection();HttpMethod mkcolMethod = new MkColMethod(newDir);client.executeMethod(mkcolMethod);mkcolMethod.releaseConnection();HttpMethod propFindMethod = new PropFindMethod(newDir);client.executeMethod(propFindMethod);propFindMethod.releaseConnection(); ', 'OB': 'A propfind call on a resource returns a 404 error when executed after a mkcol for the same resource. ', 'EB': '', 'SR': ''}
+</BUG REPORT>

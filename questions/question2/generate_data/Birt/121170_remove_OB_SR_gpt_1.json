@@ -1,0 +1,8 @@
+{
+  "id": "121170",
+  "title": "Bug 121170 - Inconsistent Column Labels in Meta Data Object",
+  "description": "The software is experiencing issues related to column labels in the meta data object.",
+  "OB": "The 'getcolumnlabel' function from the meta data object is currently not returning user recognizable strings. It provides unclear or inconsistent labels, making it challenging for end users to understand the data.",
+  "EB": "The 'getcolumnlabel' function from the meta data object should return user recognizable strings that are clear and consistent. These labels need to be displayed to the end user before and after data extraction, and the function should provide the same labels in both scenarios.",
+  "SR": "To reproduce the issue:\n1. Access the meta data object.\n2. Call the 'getcolumnlabel' function on any column.\n3. Observe the label it returns, which should be unclear or inconsistent."
+}

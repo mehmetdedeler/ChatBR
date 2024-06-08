@@ -1,0 +1,1 @@
+{"id": "6308", "title": "Bug 6308Open type dialog should trim entered value", "description": "", "OB": "", "EB": " Bug 6308Open type dialog should trim entered value Leading and trailing spaces should be ignored in the input field of this dialog", "SR": ""}

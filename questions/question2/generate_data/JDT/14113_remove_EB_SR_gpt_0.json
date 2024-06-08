@@ -1,0 +1,8 @@
+{
+  "id": "14113",
+  "title": "Incorrect Handling of Source Attachment Changes for JAR Files",
+  "description": "This bug report addresses the issue of incorrectly handling source attachment changes for JAR files.",
+  "OB": "In the build dated 20020416, when a user changes the attached source of a JAR file, it triggers a FREMOVEDFROMCLASSPATH java delta. This behavior is clearly incorrect. As a result, the user interface (UI) responds by closing the class file editors that were opened for this JAR file. While closing the editors is appropriate for a FREMOVEDFROMCLASSPATH delta, it's not the expected behavior in this case.",
+  "EB": "The expected behavior is that when changing the attached source of a JAR file, it should trigger a (FSOURCEDETACHED | FSOURCEATTACHED) delta, rather than a FREMOVEDFROMCLASSPATH delta. This change should ensure that the UI responds correctly without closing the class file editors.",
+  "SR": "To reproduce this issue: 1) Use the software with the build date of 20020416. 2) Change the attached source of a JAR file. You will observe that a FREMOVEDFROMCLASSPATH java delta is fired and class file editors are closed. Although an attempt was made to fix the delta to be a (FSOURCEDETACHED | FSOURCEATTACHED) delta, the UI did not react as expected."
+}

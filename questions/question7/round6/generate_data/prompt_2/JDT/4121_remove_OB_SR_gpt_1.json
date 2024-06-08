@@ -1,0 +1,8 @@
+{
+  "id": "4121",
+  "title": "Bug 4121 - JarExporter causes out-of-sync (1GILQD5)",
+  "description": "When using the JarExporter, it results in an out-of-sync state.",
+  "OB": "The JarExporter includes the exported JAR file within itself, causing an out-of-sync issue.",
+  "EB": "The exported JAR file should exclude itself to prevent out-of-sync problems.",
+  "SR": "1. Open JarExporter tool.\n2. Select 'Export'.\n3. Check the exported JAR contents; observe it contains a duplicate of itself.\n4. This duplication leads to the out-of-sync state."
+}

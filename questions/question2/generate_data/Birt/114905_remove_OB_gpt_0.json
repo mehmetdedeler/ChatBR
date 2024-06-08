@@ -1,0 +1,8 @@
+{
+  "id": "114905",
+  "title": "Default Value Lost in List Box of Report Parameter After Modification",
+  "description": "When modifying the default value in a list box of a report parameter, the default value is lost. This issue affects the user experience and should be resolved.",
+  "OB": "The default value set in the list box of the report parameter is lost after modifying the default value.",
+  "EB": "Change the Display type to Combo Box, and the expected result should be that \"aaa\" is the default value. After step 5, the OK button should be grayed out.",
+  "SR": "To reproduce the issue:\n1. Create a new report parameter.\n2. Set the Display type to List Box.\n3. Input three values: \"aa\", \"bb\", and \"cc\". Set \"aa\" as the default value and click OK.\n4. Reopen the Edit Parameter dialog.\n5. Modify \"aa\" to \"aaa\" and click OK directly.\n6. Reopen the Edit Parameter dialog."
+}

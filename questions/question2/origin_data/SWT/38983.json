@@ -1,0 +1,1 @@
+{"bug_id": "38983", "title": "Bug 38983StyledText  ignore WRAP when SINGLE style is specified", "description": "build 20030611The WRAP style should be ignored when both it and the SINGLE style bit isspecified in the StyledText constructor. Also, setWordWrap should do nothingwhen SINGLE is specified."}

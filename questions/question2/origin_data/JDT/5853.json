@@ -1,0 +1,1 @@
+{"bug_id": "5853", "title": "Bug 5853Jar packager: progress reporting not optimal", "description": " follow smoke test until step \"Create a Jar from a Jar Package Description\" do the stepsobserve: the progress bar show 100% right from the beginning."}

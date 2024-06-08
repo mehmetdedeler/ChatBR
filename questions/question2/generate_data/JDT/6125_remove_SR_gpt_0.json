@@ -1,0 +1,8 @@
+{
+  "id": "6125",
+  "title": "Bug 6125: JAR Packager Reports Open Files Late",
+  "description": "When I press the 'Finish' button, I receive the following error message: 'JAR creation failed: Unsaved Editors'.",
+  "OB": "Upon clicking 'Finish', an error message appears: 'JAR creation failed: Unsaved Editors'.",
+  "EB": "I expected to be able to create a JAR file even if I have unsaved editors. If this is not possible, there should be a dialog prompt to allow me to save the unsaved changes before JAR creation.",
+  "SR": "1. Open the JAR creation wizard.\n2. Fill in the required information for JAR creation.\n3. Open some text editors but don't save the changes.\n4. Click on the 'Finish' button to create the JAR file."
+}

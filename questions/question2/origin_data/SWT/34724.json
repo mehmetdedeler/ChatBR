@@ -1,0 +1,1 @@
+{"bug_id": "34724", "title": "Bug 34724ControlExample", "description": "Eclipse 2.1 RC2Run the ControlExample as standlaone.From the menubar select Control  Log Events.Click on the Dialog tab.Note that there are two dialog result text widgets.There should only be one.Reproduced error on Win2K and GTK."}

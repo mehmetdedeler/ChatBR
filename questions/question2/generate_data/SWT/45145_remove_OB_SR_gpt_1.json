@@ -1,0 +1,8 @@
+{
+  "id": "45145",
+  "title": "Bug 45145: Second window comes to front when using first",
+  "description": "When using Eclipse, there is an issue where the second window unexpectedly comes to the front when working in the first window. This behavior is not desired and disrupts the workflow.",
+  "OB": "When I'm working in the first window in Eclipse, the second window often comes to the front without any action from my side. This is disruptive and shouldn't happen.",
+  "EB": "Unless I click on the Eclipse dock icon, the only time a window should come to the front is if I click on it explicitly (or some behavior takes me to a widget in the other window). The second window should not pop up in front of the first one on its own.",
+  "SR": "To reproduce this issue:\n1. Open Eclipse with at least two separate windows.\n2. Start working in the first window, performing regular tasks.\n3. Observe that at some point, the second window comes to the front without any user action."
+}

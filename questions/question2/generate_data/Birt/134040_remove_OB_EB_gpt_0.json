@@ -1,0 +1,8 @@
+{
+  "id": "134040",
+  "title": "Row has unexpected page break property in Property Editor",
+  "description": "When working with the software, I observed an issue related to rows in the Property Editor. It seems that rows are having an unexpected page break property assigned to them, which is not the intended behavior.",
+  "OB": "When inserting a grid or table and selecting a row in the Property Editor, the row is shown to have a page break property associated with it. This is not the expected behavior as rows should not have a page break property by default.",
+  "EB": "I expect that when inserting a grid or table and selecting a row in the Property Editor, the row should not display any page break property. Rows in the Property Editor should not have this property assigned to them unless explicitly configured by the user.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the software and create a new document.\n2. Insert a grid or table into the document.\n3. Select one of the rows within the grid or table.\n4. Access the Property Editor for the selected row.\n5. Observe that the row displays an unexpected page break property, which should not be present."
+}

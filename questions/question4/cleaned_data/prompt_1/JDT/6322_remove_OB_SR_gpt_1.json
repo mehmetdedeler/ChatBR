@@ -1,0 +1,8 @@
+{
+  "id": "6322",
+  "title": "Bug 6322 - All types dialog shows obfuscated classes",
+  "description": "Bug 6322 - The 'All types' dialog displays obfuscated classes. JDK 1.4 includes obfuscated classes (a, a1, b, c, d), etc.",
+  "OB": "The 'All types' dialog is currently showing obfuscated classes, making it difficult to identify and select the desired classes. This affects the usability of the dialog.",
+  "EB": "The obfuscated classes (e.g., a, a1, b, c, d) should be presented in a less prominent way, ensuring that non-obfuscated classes are more easily distinguishable. This will improve the user experience and make it simpler to locate and select the desired classes in the 'All types' dialog.",
+  "SR": "Modify the 'All types' dialog to display obfuscated classes with reduced prominence. Ensure that non-obfuscated classes remain easily distinguishable for improved usability. Perform thorough testing to confirm that the changes have been implemented successfully and that the dialog functions as expected."
+}

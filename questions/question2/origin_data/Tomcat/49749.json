@@ -1,0 +1,1 @@
+{"bug_id": "49749", "title": "Bug 49749SSO cookie should be added as HttpOnly", "description": "SSO cookies should be made HttpOnly by default.In org.apache.catalina.authenticator.AuthenticatorBaseregister(),798 response.addCookie(cookie);798+ response.addCookieInternal(cookie, true);"}

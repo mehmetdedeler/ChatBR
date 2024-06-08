@@ -1,0 +1,8 @@
+{
+  "id": "18705",
+  "title": "Bug 18705 - Excessive Flashing in Control Example",
+  "description": "The Control Example is experiencing frequent flashing. Investigate the cause.",
+  "OB": "The entire frame is being repainted, leading to excessive flashing.",
+  "EB": "Optimize the repainting process to refresh only the bottom edge of the outermost frames, eliminating unnecessary flashing.",
+  "SR": "Conduct a thorough code review to identify and address the root cause of the excessive flashing in the Control Example. Implement the necessary optimizations to improve the user experience."
+}

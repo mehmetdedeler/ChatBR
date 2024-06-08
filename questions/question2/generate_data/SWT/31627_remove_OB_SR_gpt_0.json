@@ -1,0 +1,8 @@
+{
+  "id": "31627",
+  "title": "Bug 31627 - Core Dump When Changing Perspective with DBCS Project",
+  "description": "This bug report highlights a core dump issue that arises when switching perspectives in Eclipse after adding a DBCS (Double-Byte Character Set) project to the workspace. The problem is observed in a Japanese language environment running on RedHat 8 with GTK 2.2 and IBM JDK 1.3.1.",
+  "OB": "The observed behavior section is currently empty. Please provide a detailed description of what occurs when the core dump issue happens.",
+  "EB": "The expected behavior is that changing perspectives, especially when selecting the 'Resource Perspective' icon, should occur without any errors or core dumps.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Create a project using DBCS characters (e.g., 'あいうえお' in Unicode).\n2. Right-click on the project and select 'Team' > 'Share Project...'\n3. Select the CVS repository.\n4. Choose the option 'Use project name as module name' and click 'Finish.'\n5. Select the project in the Synchronize view.\n6. Right-click on the project and choose 'Add Version Control.'\n7. Right-click on the project and select 'Commit.'\n8. Right-click on the project and select 'Delete' (Choose 'also delete contents under the /workspace folder name').\n9. Change the perspective to the 'CVS Perspective.'\n10. Expand the repository and HEAD.\n11. Right-click on the DBCS project and select 'Check Out As Project.'\n12. [Steps beyond this point are missing in the original report.]"
+}

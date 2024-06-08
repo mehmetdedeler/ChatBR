@@ -1,0 +1,8 @@
+{
+  "id": "124066",
+  "title": "Insert Chart Not Translated into Chinese in Context Menu",
+  "description": "When right-clicking in the layout to bring up the context menu, the 'Insert Chart' option is not translated into Chinese as expected.",
+  "OB": "When right-clicking in the layout to bring up the context menu, the 'Insert Chart' option is not translated into Chinese as expected.",
+  "EB": "The expected behavior is that the 'Insert Chart' option should be translated into Chinese in the context menu.",
+  "SR": "To reproduce the issue:\n1. Open the software.\n2. Go to the layout where you can insert charts.\n3. Right-click in the layout to bring up the context menu.\n4. Observe that the 'Insert Chart' option is not translated into Chinese."
+}

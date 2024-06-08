@@ -1,0 +1,8 @@
+{
+  "id": "2120",
+  "title": "Bug 2120 - MRU File List is not persisted between sessions (1GE71Z0)",
+  "description": "The MRU (Most Recently Used) File List is not being saved between sessions.",
+  "OB": "The MRU file list in the File menu is empty after restarting the application.",
+  "EB": "The MRU file list should retain the recently used files between sessions. When you reopen the application, the list should show the files you previously opened.",
+  "SR": "Steps to reproduce:\n1. Start the workbench.\n2. Open 2 or 3 files.\n3. Shutdown the workbench.\n4. Restart the workbench."
+}

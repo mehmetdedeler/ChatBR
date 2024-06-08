@@ -1,0 +1,8 @@
+{
+  "id": "23267",
+  "title": "Bug 23267[Import/Export] Import Project should have a default folder",
+  "description": "Bug 23267[Import/Export] Import Project should have a default folder",
+  "OB": "When attempting to import a project, no default folder is pre-selected, and users have to navigate through the file system to choose the import location.",
+  "EB": "It would be nice if the Import Project feature could remember the last folder from which I imported a project. This would streamline the process and improve user experience.",
+  "SR": "1. Open the application and navigate to the Import Project feature.\n2. Observe that no default folder is pre-selected.\n3. Choose a project to import and complete the import process.\n4. Repeat the process and check if the Import Project feature now defaults to the last used folder."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "17825",
+  "title": "Bug 17825: ControlExampleText beeps when I choose SWT.MULTI",
+  "description": "Bug 17825: ControlExampleText beeps when I choose SWT.MULTI. Somehow, I don't think it's supposed to do that.",
+  "OB": "When choosing SWT.MULTI, clicking on other buttons also makes the bell sound.",
+  "EB": "I hear a Windows 'ding' when I choose SWT.MULTI (the bell sound that indicates an incorrect action).",
+  "SR": "Ensure that selecting SWT.MULTI does not trigger the bell sound, and investigate the cause of unintended beeping on button clicks."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "6969", "title": "Bug 6969NPE in code formatter preference page", "description": "20011206Open the code formatter preference pageGo to the style tabGo to the number of spaces... fieldBackspace until the field is emptyNPE"}

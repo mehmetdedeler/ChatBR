@@ -1,0 +1,1 @@
+{"bug_id": "5707", "title": "Bug 5707Display.setAppName() has no effect on XDisplay application name", "description": "APPNAME defaults to \"SWT\" which is always used, even if 'appName=Eclipse' isspecified in the product.ini. The problem is that the X display is openedbefore display.setAppName() is applied."}

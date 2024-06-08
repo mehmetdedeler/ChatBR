@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Strange 'Copy Package' Behavior",
+  "description": "When using 'Copy Package' in org.eclipse.jdt.internal.ui within jdt.ui 3.1, selecting 'xxx' as the destination, a package named 'ui' is created within 'xx'.",
+  "OB": "After performing the 'Copy Package' operation with 'xxx' as the destination, a new package named 'ui' is unexpectedly created within the 'xx' package.",
+  "EB": "The expected behavior is that the 'Copy Package' operation should create a copy of the selected package without creating any additional packages within it. In this case, selecting 'xxx' as the destination should result in a copied package without any additional 'ui' package within it.",
+  "SR": "To reproduce the issue:\n1. Open org.eclipse.jdt.internal.ui in jdt.ui 3.1.\n2. Perform the 'Copy Package' operation.\n3. Select 'xxx' as the destination when prompted."
+}

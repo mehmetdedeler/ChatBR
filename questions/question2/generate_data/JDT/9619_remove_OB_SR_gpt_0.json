@@ -1,0 +1,8 @@
+{
+  "id": "9619",
+  "title": "Bug 9619 - 'Move Static Member' Dialog Details",
+  "description": "The bug report discusses issues related to the 'Move Static Member' dialog. The report highlights problems with mnemonics, a lack of validation on the type field, and provides suggestions for improvements in label text and dialog initialization.",
+  "OB": "The observed behavior is not explicitly mentioned in the report, but it appears to pertain to problems with the 'Move Static Member' dialog.",
+  "EB": "The expected behavior is not explicitly stated, but the user suggests improvements such as using the title for 'Move static field(s)' and the description for 'x fields from xx,' and initializing the selection dialog with the type currently entered.",
+  "SR": "The steps to reproduce the reported issues are not provided in the report."
+}

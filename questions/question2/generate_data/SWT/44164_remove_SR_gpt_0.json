@@ -1,0 +1,8 @@
+{
+  "id": "44164",
+  "title": "Bug 44164 - Javadoc Update Needed for Image Constructor",
+  "description": "The report highlights a need for an update in the Javadoc documentation for the constructor 'Image(Device, ImageData).' It includes a code example that exposes the issue, mentions the observed behavior, and suggests the expected behavior. However, specific steps to reproduce are not provided.",
+  "OB": "The observed behavior (OB) is described as the constructor for 'Image(Device, ImageData)' having the potential to throw 'org.eclipse.swt.SWTException: Unsupported color depth.' This indicates a specific issue related to the constructor.",
+  "EB": "The expected behavior (EB) is that the missing information regarding the potential exception ('org.eclipse.swt.SWTException: Unsupported color depth') should be added to the Javadoc documentation for the 'Image(Device, ImageData)' constructor. The report correctly suggests what should be addressed.",
+  "SR": "The steps to reproduce (SR) are not provided in the report. To enhance the report, it would be valuable to include clear and specific steps to replicate the issue related to the constructor's potential exception."
+}

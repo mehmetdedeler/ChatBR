@@ -1,0 +1,8 @@
+{
+  "id": "124599",
+  "title": "Bug 124599: Shortcut delete and menu delete act differently in table column.",
+  "description": "Description: Shortcut delete and menu delete behave differently in the table column.",
+  "OB": "When attempting to delete a table column using the shortcut key, the column is deleted instantly without any confirmation prompt. However, when using the delete option from the menu, a confirmation dialog appears before the column is deleted.",
+  "EB": "Expect both the shortcut delete and menu delete options to provide a consistent user experience. There should be a confirmation dialog for column deletion when using the shortcut key, similar to the behavior triggered by the menu option.",
+  "SR": "Steps to reproduce:\n1. Open a table in the application.\n2. Navigate to a column that you want to delete.\n3. Use the shortcut key for deleting the column.\n4. Observe the absence of a confirmation dialog.\n5. Now, use the delete option from the menu to delete the same column.\n6. Observe the presence of a confirmation dialog before the column is deleted."
+}

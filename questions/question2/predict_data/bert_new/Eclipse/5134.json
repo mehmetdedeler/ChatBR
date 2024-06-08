@@ -1,0 +1,1 @@
+{"id": "5134", "title": "Bug 5134Default button in About dialog is wrong", "description": "The default button is \"Plugin Info\". It should be \"OK\". ", "OB": "Bug 5134Default button in About dialog is wrong ", "EB": "", "SR": "Open the about dialog. "}

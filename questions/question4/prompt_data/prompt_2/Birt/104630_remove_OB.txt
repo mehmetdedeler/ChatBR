@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '104630', 'title': "Bug 104630Column icons don't show up in connecting derby database", 'description': '', 'OB': '', 'EB': "In Avaiable Items sector, expand Data Source by clicking the related icon.Expected Result:table icons and column icons will show up.Actual Result:column icons don't show up. ", 'SR': 'The Steps of Reproduce:1. New a project2. New a report3. In Data Explorer view, New a Data Source to connect derby database:Driver Class: com.ibm.db2.jcc.DB2DriverDatabase URL: jdbc:db2://spmdb:1527/guiUser Name:rootPassword:root4. After set up Data Source, create a dataset5. In Edit Data SetData Set window, select Query.6. '}
+</BUG REPORT>

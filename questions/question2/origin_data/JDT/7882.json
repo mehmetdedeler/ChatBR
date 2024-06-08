@@ -1,0 +1,1 @@
+{"bug_id": "7882", "title": "Bug 7882Rename method to Constructor Name: Warning shows twice", "description": "When renaming a method, I enter the class name, and press Next.I get warning that the method will have a constructor name, but I get this samewarning twice."}

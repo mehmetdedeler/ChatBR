@@ -1,0 +1,1 @@
+{"id": "21386", "title": "Bug 21386Help uses xerces implementation classes instead of APIs", "description": "", "OB": " Bug 21386Help uses xerces implementation classes instead of APIs Help uses org.apache.xerces packages instead of APIs (javax.xml.parserspackages).", "EB": "", "SR": ""}

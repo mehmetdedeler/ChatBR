@@ -1,0 +1,8 @@
+{
+  "id": "19458",
+  "title": "Bug 19458[Navigator] Copy Project dialog UI problems",
+  "description": "The Copy Project dialog in Navigator is experiencing UI issues, indicated by the text being in red.",
+  "OB": "The text in the Copy Project dialog is displayed in red.",
+  "EB": "If I uncheck the default location checkbox, the default location should remain in the edit box, and it should not be cleared. The text color should be black, and it should include the standard on-the-fly validation small error icon.",
+  "SR": "To reproduce the issue:\n1. Create a single project, e.g., 'test'.\n2. Copy the project.\n3. In the 'Copy Project' dialog:\n   a. Ensure 'Use Default Location' is checked.\n   b. Try to select or copy the default location from the edit box below.\n   c. Consider choosing a location close to the default location."
+}

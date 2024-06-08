@@ -1,0 +1,8 @@
+{
+  "id": "24877",
+  "title": "Bug 24877: Inability to Retrieve File Extension in SWT FileDialog",
+  "description": "When using the SWT FileDialog, it's impossible to retrieve the file extension. This severely impacts usability as it prevents the correct determination of the file extension required to append to the file name.",
+  "OB": "The JAR export wizard uses only 'test' for the JAR file field instead of 'test.zip'.",
+  "EB": "The export wizard should utilize the file name 'test.zip' when this issue occurs.",
+  "SR": "1) Open a Java file.\n2) Navigate to File > Export...\n3) Choose 'JAR file' and click Next.\n4) Click Browse... to trigger the Save As file dialog.\n5) Enter 'test' in the file name field.\n6) Select '.zip' from the 'Save as type' dropdown.\n7) Click Save.\n\nResult: The JAR export wizard uses 'test' for the JAR file field.\nExpected result: The JAR export wizard should use 'test.zip' for the JAR file field."
+}

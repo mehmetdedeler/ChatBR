@@ -1,0 +1,1 @@
+{"id": "54625", "title": "Bug 54625Incremental support does not work with outjar", "description": "Bug 54625Incremental support does not work with outjar Either fix the class file deleting etc. to work with jars, or always do a batchbuild when working with outjars. ", "OB": "", "EB": "", "SR": ""}

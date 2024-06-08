@@ -1,0 +1,1 @@
+{"id": "6536", "title": "Bug 6536: Javadoc does not appear for the selected field in TH", "description": "", "OB": "When selecting a field in the Type Hierarchy view, the Javadoc for the field does not appear.", "EB": "", "SR": "To reproduce the issue, follow the steps below:\n1. Open the Type Hierarchy view.\n2. Select a field."}

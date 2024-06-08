@@ -1,0 +1,1 @@
+{"id": "19256", "title": "Bug 19256SIP event", "description": "Bug 19256SIP event ", "OB": "At the moment SIP hides the lowerpart of the screen. ", "EB": "We would like to have an API to get the SIP event on Windows CE sowe can do a resize to the window. ", "SR": ""}

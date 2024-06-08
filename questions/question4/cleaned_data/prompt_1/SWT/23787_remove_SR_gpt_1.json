@@ -1,0 +1,8 @@
+{
+  "id": "23787",
+  "title": "Bug 23787[Properties dialog] Project Properties Info page should not use text fields",
+  "description": "Bug 23787[Properties dialog] Project Properties Info page should not use text fields Integration build 09/17. Looks bad on all motif platforms.",
+  "OB": "The issue manifests on motif platforms, where text fields in the Project Properties Info page receive automatic borders, identifying them as user input targets. Additionally, on Solaris/AIX/HPUX, these fields exhibit different colored backgrounds, making them stand out even more.",
+  "EB": "To address this, the text fields should be created as readonly Text fields instead of Labels. This adjustment will prevent the automatic borders on motif platforms and eliminate the distracting background color differences on Solaris/AIX/HPUX. The rationale for making these fields readonly is to allow users to select and copy their values.",
+  "SR": "Ensure that the Project Properties Info page on all platforms (especially motif, Solaris, AIX, HPUX) displays text fields as readonly Text fields rather than Labels to maintain a consistent and visually appealing appearance. Verify that this change does not affect the functionality of selecting and copying the field values."
+}

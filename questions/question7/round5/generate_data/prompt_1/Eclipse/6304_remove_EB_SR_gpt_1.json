@@ -1,0 +1,1 @@
+{"id": "6304", "title": "Bug 6304 - Cannot synchronize a .java file and another resource", "description": "", "OB": "Unable to synchronize a .java file and another resource.", "EB": "", "SR": "1. Open the application.\n2. Try to synchronize a .java file with another resource.\n3. Observe the behavior and note the issue."}

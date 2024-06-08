@@ -1,0 +1,1 @@
+{"bug_id": "30924", "title": "Bug 30924StyledText  StyleRange hashCode throws NullPointerException", "description": "The implementation of StyleRange's hashCode method assumes the object has aforeground and background color.This is a bad assumption.When trying toput StyleRanges without a foreground or background color into a java.util.Set,a NullPointerException is thrown."}

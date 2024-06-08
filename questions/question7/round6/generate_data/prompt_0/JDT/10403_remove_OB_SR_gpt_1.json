@@ -1,0 +1,8 @@
+{
+  "id": "10403",
+  "title": "Bug 10403: Project creation should confirm the bin directory can be scrubbed",
+  "description": "",
+  "OB": "When creating a new project in the software, there is no confirmation or check to ensure that the 'bin' directory can be scrubbed or cleaned.",
+  "EB": "When creating a new project, we expect the software to provide a confirmation or validation step that ensures the 'bin' directory can be scrubbed successfully. This is crucial for maintaining a clean and functional project environment.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the software and log in.\n2. Click on 'New Project' to create a new project.\n3. During the project creation process, observe that there is no confirmation or validation step for the 'bin' directory."
+}

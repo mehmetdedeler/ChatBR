@@ -1,0 +1,8 @@
+{
+  "id": "3970",
+  "title": "Bug 3970[preferences] UI needed to define the default line delimiters for new files (1GFIOAX)",
+  "description": "Bug 3970[preferences] UI needed to define the default line delimiters for new files (1GFIOAX) the Windows work stations are used as X terminals and to run Eclipse (since PCs are cheaper than Unix boxes).",
+  "OB": "When developing a Unix product/program on a Windows workstation using Eclipse, the default line delimiters for new files are not clearly defined in the preferences UI.",
+  "EB": "The preferences UI should provide a clear option to define default line delimiters for new files when developing on Windows workstations running Eclipse for Unix development.",
+  "SR": "Steps to reproduce:\n1. Open Eclipse on a Windows workstation.\n2. Navigate to the preferences or settings menu.\n3. Look for an option to define default line delimiters for new files.\n4. Observe if the UI provides a clear and functional way to set this preference."
+}

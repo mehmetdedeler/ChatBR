@@ -1,0 +1,1 @@
+{"bug_id": "15586", "title": "Bug 15586Warn the user when a project without the Java nature is opened", "description": "When opening a closed project that doesn't have the Java nature when opened,then we should inform the user that the opened project will not appear in thepackages view."}

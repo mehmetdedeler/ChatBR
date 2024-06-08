@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "Bug 108822 - Improved Logic Needed for Disk Sorting with Border Value Rows",
+  "description": "There is an issue with disk sorting when dealing with a specific number of rows, and the program doesn't handle it correctly.",
+  "OB": "When sorting on disk, if we sort 40000 rows of data and set the program to process less than 40000 rows, it does the following operation.",
+  "EB": "When sorting on disk, if we sort 40000 rows of data and set the program to process less than 40000 rows, we expect the program to handle this situation more effectively. Specifically, we expect it to optimize the process for the given row count.",
+  "SR": "To reproduce the issue:\n1. Save the file as a temporary file.\n2. Call the file into memory.\n3. Perform the sorting operation on the data.\n4. Save the sorted data back to a temporary file."
+}

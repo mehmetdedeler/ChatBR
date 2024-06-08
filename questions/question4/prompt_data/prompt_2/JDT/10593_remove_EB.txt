@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '10593', 'title': 'Bug 10593Jar export should add ".jar" suffix if not specified', 'description': '', 'OB': 'Build 20020228 select some files export them using the jar export enter "test" as the jar name it creates a jar file called "test"Itshould use "test.jar". ', 'EB': '', 'SR': 'Build 20020228 select some files export them using the jar export enter "test" as the jar name it creates a jar file called "test"Itshould use "test.jar". '}
+</BUG REPORT>

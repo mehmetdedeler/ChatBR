@@ -1,0 +1,1 @@
+{"bug_id": "119216", "title": "Bug 119216Regression: Group can't be added in layout editor.", "description": "Description: Group can't be added in layout editor.Steps to reproduce:1. Add a table.2. Right click on the table and find that \"insert group\" is grayed out."}

@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+In your bug reports, it is essential to provide clear and informative statements for the following categories:
+- **Observed Behavior (OB):** This section should describe the relevant software behavior, actions, output, or results. Avoid vague statements like "the system does not work."
+- **Expected Behavior (EB):** This part should articulate what the software should or is expected to do, using phrases like "should...", "expect...", or "hope...". Avoid suggestions or recommendations for bug resolution in this section.
+- **Steps to Reproduce (SR):** Include user actions or operations that can potentially lead to reproducing the issue. Use phrases like "to reproduce," "steps to reproduce," or "follow these steps."
+It is possible that the bug report may lack sufficient details in the OB, EB, and SR sections. In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements. Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '17993', 'title': "Bug 17993Find/Replace shouldn't replace typed entry with value from history", 'description': 'It wouldbe better if what I type isn\'t replaced with a value from the history.The current behaviour seems to be similar to "autocomplete" which isparticularly common in browsers. In the future, perhaps, a full "autocomplete"feature could be provided. ', 'OB': 'I\'m using the F1 build.The Find/Replace dialog (accessed through EditFind/Replace...) has a historyof recent searches. When you type in the "Find" or "Replace With" fields itsearches for entries from a previous search. If it finds one, it replaces whatyou have typed with the value from the history. The search of the history iscase insensitive, which means that the case of what you have typed may bechanged to the case of the value in the history.In some scenarios this makes it impossible to perform find or replaceoperations. ', 'EB': '', 'SR': ''}
+</BUG REPORT>

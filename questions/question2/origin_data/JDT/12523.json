@@ -1,0 +1,1 @@
+{"bug_id": "12523", "title": "Bug 12523Paste in Packages does not accept files on the clipboard", "description": "I created a FileTransfer in another view that contains file paths and placed iton the clipboard using SWT DND Clipboard object. Resource navigator recognizedthis and allowed me to paste the files into the project, but Packages 'Paste'didn't."}

@@ -1,0 +1,32 @@
+{
+    "id": "chatcmpl-8G9W6qST6wJVXHAbYzUuCS9w19Ve2",
+    "object": "chat.completion",
+    "created": 1698860522,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": {
+                    "id": "18268",
+                    "title": "Bug 18268 - Not finding images and files in NL specific subdirectories",
+                    "description": "Bug 18268 - Not finding images and files in NL specific subdirectories build 200205291235 Setup. Start eclipse. Delete <install/eclipse/org.eclipse.platform2.0.0/eclipselg.gif3. Edit <install/eclipse/org.eclipse.platform2.0.0/about.ini. Change the value of the aboutImage property: aboutImage=$nl$/eclipselg.gif. 4. Edit <install/eclipse/org.eclipse.platform2.0.0/about.ini. Change the value of the aboutImage property: aboutImage=nl/en/eclipselg.gif. 7. Open the about dialog. Observe: There is a main image again. This suggests that the UI is correctly passing the entire path to IPluginDescriptor.find, but that the '$nl$' path segment is not being handled correctly.",
+                    "OB": "The bug report lacks an 'Observed Behavior' (OB) section. However, based on the description, it can be inferred that the observed behavior is related to the incorrect handling of the '$nl$' path segment when trying to find images and files in NL specific subdirectories.",
+                    "EB": "The software is expected to correctly handle the '$nl$' path segment and find images and files in NL specific subdirectories as specified in the configuration. The behavior should not result in the main image disappearing when following the provided steps.",
+                    "SR": "To reproduce the issue, follow these steps: Exit eclipse. 1. Copy the file <install/eclipse/org.eclipse.platform2.0.0/eclipselg.gif down into an NL specific subdirectory; i.e., move it to <install/eclipse/org.eclipse.platform2.0.0/nl/en/eclipselg.gif. 2. Start eclipse. 5. Start eclipse. 8."
+                }
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 521,
+        "completion_tokens": 283,
+        "total_tokens": 804
+    },
+    "origin": {
+        "input_prompt": "Your role is a senior software engineer, you are very good at analyzing and writing bug reports.\nIn your bug reports, it is essential to provide clear and informative statements for the following categories:\n- **Observed Behavior (OB):** This section should describe the relevant software behavior, actions, output, or results. Avoid vague statements like \"the system does not work.\"\n- **Expected Behavior (EB):** This part should articulate what the software should or is expected to do, using phrases like \"should...\", \"expect...\", or \"hope...\". Avoid suggestions or recommendations for bug resolution in this section.\n- **Steps to Reproduce (SR):** Include user actions or operations that can potentially lead to reproducing the issue. Use phrases like \"to reproduce,\" \"steps to reproduce,\" or \"follow these steps.\"\nIt is possible that the bug report may lack sufficient details in the OB, EB, and SR sections. In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements. Also, improve the wording of these statements for clarity where possible.\nTo facilitate this process, please provide your responses in JSON format as follows:\n{\"id\": \"\", \"title\": \"\", \"description\": \"\", \"OB\": \"\", \"EB\": \"\", \"SR\": \"\"}",
+        "input_content": "<BUG REPORT>\n{'id': '129569', 'title': 'Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window', 'description': 'Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window This is BiDI specific defect. tomer)3. tomerREMOT)4. Make sure that this table has columns with BiDi name (e.g. \"EMANNMULOC\")5. from tomer.tomerREMOT3. where tomer.tomerREMOT.EMANNMULOC != \\'OLLEH world\\'Actual results:1. select tomer.tomerEMANNMULOC.REMOT2. from tomer.tomerREMOT3. where tomer.tomerOLLEH\\' =! ', 'OB': '', 'EB': \"Add following condition to the where portion of SQL query:tomer.tomerREMOT.EMANNMULOC != 'OLLEH world'Expected results:1. select tomer.tomerREMOT.EMANNMULOC2. \", 'SR': ''}"
+    }
+}

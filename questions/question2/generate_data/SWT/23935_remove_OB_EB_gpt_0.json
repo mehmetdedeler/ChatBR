@@ -1,0 +1,8 @@
+{
+  "id": "23935",
+  "title": "Bug 23935 - Focus Issue with Text Widget in a Tree Parent",
+  "description": "The bug report addresses a focus issue related to a Text widget that is a child of a Tree widget, and both widgets are children of a shell. The issue seems to be platform-specific, affecting non-Windows platforms. A potential workaround is suggested, involving creating the text editor as a sibling of the tree and positioning it above the tree.",
+  "OB": "The bug report lacks specific details about the observed behavior. It's essential to describe what happens when the Text widget is used within the Tree widget to address the issue effectively.",
+  "EB": "The expected behavior is missing from the bug report. It's important to clarify what the software should do to meet the expected user experience.",
+  "SR": "To reproduce the issue, please provide clear and complete steps to demonstrate the problem. Describe what should happen and what actually happens when interacting with the Text widget in the Tree parent."
+}

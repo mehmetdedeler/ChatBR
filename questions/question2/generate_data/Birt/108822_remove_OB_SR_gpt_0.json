@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "Improvement needed for processing disk sorting with border value for row",
+  "description": "The current logic for processing disk sorting with a border value for row is suboptimal. A better approach is needed to address this issue.",
+  "OB": "The current sorting logic for disk processing with border values for rows is inefficient and slow.",
+  "EB": "A more efficient sorting logic is expected. It should directly sort the data in memory and then write it to the file, resulting in improved performance.",
+  "SR": "To reproduce the issue:\n1. Take a file with data that includes border values for rows.\n2. Use the current sorting method to process the data.\n3. Observe the slow performance.\n\nTo test the expected behavior:\n1. Use the improved sorting logic.\n2. Process the same file with border values for rows.\n3. Verify that the sorting is significantly faster and more efficient."
+}

@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+In your bug reports, it is essential to provide clear and informative statements for the following categories:
+- **Observed Behavior (OB):** This section should describe the relevant software behavior, actions, output, or results. Avoid vague statements like "the system does not work."
+- **Expected Behavior (EB):** This part should articulate what the software should or is expected to do, using phrases like "should...", "expect...", or "hope...". Avoid suggestions or recommendations for bug resolution in this section.
+- **Steps to Reproduce (SR):** Include user actions or operations that can potentially lead to reproducing the issue. Use phrases like "to reproduce," "steps to reproduce," or "follow these steps."
+It is possible that the bug report may lack sufficient details in the OB, EB, and SR sections. In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements. Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '7785', 'title': 'Bug 7785SaveAs Forgets the file type', 'description': 'Bug 7785SaveAs Forgets the file type The icon has also changed from the parent javafile icon to a generic file icon. ', 'OB': '', 'EB': 'The file is for all intents and purposes nowa generic file, as opening it will provethe file is opened as text.Expected Behaviour:The file should be saved with the same extension as the original unlessexplicitly changed. ', 'SR': "1) Open an existing java file2) Modify it (I moved an existing class)3) Click the SaveAs icon, next to the Save IconA dialog will come up.4) Browse for a valid container location5) Type the filename, but ignore the extension, which isn't requested.6) Click Ok.Observe that the Navigator has added the file in the specified location, butwith no file extension shown. "}
+</BUG REPORT>

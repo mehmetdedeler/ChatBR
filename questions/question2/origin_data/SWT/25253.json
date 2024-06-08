@@ -1,0 +1,1 @@
+{"bug_id": "25253", "title": "Bug 25253Preference dialog doesn't display last preference page", "description": "Build 20021022LinuxGTK1. Open the preferences dialog.2. Select a preference page (say, JavaTemplates).3. Close the dialog and reopen it.4. The last page (Templates) flashes onto the screen for a moment and then thefirst preference page (Workbench) is displayed."}

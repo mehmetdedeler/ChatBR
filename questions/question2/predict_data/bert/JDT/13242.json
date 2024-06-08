@@ -1,0 +1,1 @@
+{"id": "13242", "title": "Bug 13242quick fix: method name not offered", "description": " Bug 13242quick fix: method name not offered void d(){class D{void fs(){dsss(); //error};}}d is not offered as a fix", "OB": "", "EB": "", "SR": ""}

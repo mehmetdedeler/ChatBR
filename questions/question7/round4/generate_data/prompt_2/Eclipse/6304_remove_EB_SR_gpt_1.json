@@ -1,0 +1,1 @@
+{"id": "6304", "title": "Cannot synchronize a .java file and another resource", "description": "", "OB": "When attempting to synchronize a .java file with another resource, such as a .xml file or a .properties file, an error occurs and the synchronization fails.", "EB": "", "SR": ""}

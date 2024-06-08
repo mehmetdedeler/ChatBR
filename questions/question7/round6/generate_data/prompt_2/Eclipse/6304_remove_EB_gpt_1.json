@@ -1,0 +1,8 @@
+{
+  "id": "6304",
+  "title": "Cannot synchronize a .java file and another resource",
+  "description": "When attempting to synchronize a .java file with another resource, the process fails. Additional details are needed to investigate and address the issue.",
+  "OB": "Synchronization failure when attempting to synchronize a .java file with another resource, such as a .properties file, in the package viewer.",
+  "EB": "The synchronization process should successfully update both the selected .java file and the associated resource (e.g., .properties file) in the package viewer.",
+  "SR": "Steps to reproduce:\n1. Open the package viewer.\n2. Select a .java file and another resource (e.g., a .properties file).\n3. Attempt to synchronize the selected files."
+}

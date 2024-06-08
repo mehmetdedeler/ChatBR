@@ -1,0 +1,8 @@
+{
+  "id": "6304",
+  "title": "Cannot Synchronize a .java File and Another Resource",
+  "description": "When attempting to synchronize a .java file with another resource, the synchronization process fails to work as expected.",
+  "OB": "When I try to synchronize a .java file with another resource, the synchronization process does not work properly.",
+  "EB": "I expect that when I synchronize a .java file with another resource, the synchronization process should complete successfully without any errors or issues.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the software.\n2. Navigate to the file you want to synchronize (a .java file) and another resource.\n3. Right-click on the .java file.\n4. Choose the 'Synchronize' option.\n5. Observe the synchronization process and note any errors or issues that occur."
+}

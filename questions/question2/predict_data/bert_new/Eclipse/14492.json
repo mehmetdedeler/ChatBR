@@ -1,0 +1,1 @@
+{"id": "14492", "title": "Bug 14492working set wizards override page title", "description": "Bug 14492working set wizards override page title ", "OB": "The title isignored/overwritten by the working set wiazrds. ", "EB": "", "SR": "I create my working set page with MyPage(pageId, title, icon). "}

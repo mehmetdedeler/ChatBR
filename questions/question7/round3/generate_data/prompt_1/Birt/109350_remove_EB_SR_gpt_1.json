@@ -1,0 +1,1 @@
+{"id": "109350", "title": "Bug 109350: Output parameter should display in data set dialog.", "description": "", "OB": "While in the query result page, there is no data returned. The actual result is that the output parameter should be displayed in the edit data set dialog.", "EB": "", "SR": ""}

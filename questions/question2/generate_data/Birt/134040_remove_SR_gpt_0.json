@@ -1,0 +1,8 @@
+{
+  "id": "134040",
+  "title": "Bug 134040: Row retains page break property in Property Editor",
+  "description": "The bug report pertains to an issue where the Row in the Property Editor retains a page break property even though it should not.",
+  "OB": "When setting pageBreak properties for a Row in the Property Editor, the page break property can be set, but it cannot be saved.",
+  "EB": "The Row should not retain the page break property in the Property Editor. It should be possible to set the page break property, but it should also be saved as expected.",
+  "SR": "Steps to reproduce:\n1. Open the Property Editor.\n2. Navigate to the Row section.\n3. Set the pageBreak properties for the Row.\n4. Try to save the changes. Expected result: The page break property is saved. Actual result: The page break property cannot be saved."
+}

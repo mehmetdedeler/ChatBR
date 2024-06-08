@@ -1,0 +1,1 @@
+{"id": "6656", "title": "Bug 6656: Close button moves down when view resized smaller", "description": "", "OB": "", "EB": "The close button and the label should stay on the same line, regardless of the size of the view. The close button should be located in the far right corner, as users are accustomed to.", "SR": ""}

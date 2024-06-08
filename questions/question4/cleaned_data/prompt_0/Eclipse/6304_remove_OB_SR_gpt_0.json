@@ -1,0 +1,1 @@
+{"id": "6304", "title": "Bug 6304: Unable to synchronize a .java file and another resource", "description": "", "OB": "When opening the context menu, the 'Team' entry is missing.", "EB": "The 'Team' entry should be present in the context menu.", "SR": "To reproduce the issue, follow these steps:\n1. Open the context menu.\n2. Verify that the 'Team' entry is missing."}

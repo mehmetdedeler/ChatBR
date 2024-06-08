@@ -1,0 +1,8 @@
+{
+  "id": "114905",
+  "title": "Bug 114905: Default Value Lost in List Box of Report Parameter after Modification",
+  "description": "Description: The default value set in the list box of the report parameter is lost after modifying the default value.",
+  "OB": "Upon modifying the default value in the list box of a report parameter, the system fails to retain the updated default value.",
+  "EB": "The system should preserve the modified default value in the list box of the report parameter after it has been changed.",
+  "SR": "Steps to reproduce:\n1. Create a new report parameter and set the Display type to List Box.\n2. Input three values: 'aa', 'bb', 'cc', and set 'aa' as the default. Click OK.\n3. Reopen the Edit Parameter dialog, modify 'aa' to 'aaa', and click OK directly.\n4. Reopen the Edit Parameter dialog.\n5. Observe the default value set in the list box."
+}

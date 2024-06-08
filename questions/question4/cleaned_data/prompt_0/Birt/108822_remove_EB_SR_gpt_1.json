@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "Bug 108822 - More efficient logic needed for disk sorting with border value for row count",
+  "description": "",
+  "OB": "When sorting on disk and selecting 40000 rows of data, if the program is configured to process data less than 40000 rows, unexpected operations occur.",
+  "EB": "Expect the program to efficiently handle disk sorting operations, especially when the row count is set to the border value (40000 in this case).",
+  "SR": "1. Open the program and configure it to sort data on disk.\n2. Set the row count to 40000.\n3. Configure the program to process data less than 40000 rows.\n4. Observe the unexpected operations during the sorting process."
+}

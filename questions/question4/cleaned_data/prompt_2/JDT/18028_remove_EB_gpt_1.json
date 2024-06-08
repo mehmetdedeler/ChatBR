@@ -1,0 +1,8 @@
+{
+  "id": "18028",
+  "title": "Bug 18028: Failure to Check Resource Write Permissions on Package Rename",
+  "description": "When attempting to rename a package, the system fails to verify if all resources within the package are writable.",
+  "OB": "While creating a package with a Code Unit (CU) and making the CU read-only, an attempt to rename the package results in an unexpected exception dialog.",
+  "EB": "The system should perform a validation check before renaming a package to ensure that all resources, including any contained Code Units, are writable. If any resources are set to read-only, the rename operation should be prevented, and an appropriate notification should be provided.",
+  "SR": "1. Create a package containing a Code Unit (CU). \n2. Make the CU read-only. \n3. Attempt to rename the package.\n\nExpected result: The system should prevent the rename operation and provide a notification about the read-only status of resources within the package."
+}

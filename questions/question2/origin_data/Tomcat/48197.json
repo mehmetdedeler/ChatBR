@@ -1,0 +1,1 @@
+{"bug_id": "48197", "title": "Bug 48197XByteBuffer: privatize public fields; fix Javadoc", "description": "Created attachment 24536 [details]Patch to fix various problems in XByteBuffer.Patch to fix various problems in XByteBuffer."}

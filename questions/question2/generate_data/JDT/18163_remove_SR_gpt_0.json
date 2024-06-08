@@ -1,0 +1,8 @@
+{
+  "id": "18163",
+  "title": "Bug 18163 - Add Import should ignore leading/trailing whitespace",
+  "description": "The 'Add Import' feature is not working correctly due to leading/trailing whitespace in the selection.",
+  "OB": "When I use 'Ctrl+M' to perform 'Add Import,' nothing happens because there is trailing whitespace within the selection.",
+  "EB": "The 'Add Import' feature should work as expected, recognizing 'Node' instead of 'Node ' since I made my selection by using 'Shift + Ctrl + Right' to ensure no extra spaces.",
+  "SR": "1. Open the code editor.\n2. Select the word 'Node' with 'Shift + Ctrl + Right,' including any trailing whitespace.\n3. Use the 'Ctrl+M' shortcut to add an import. Observe that nothing happens, indicating the issue with trailing whitespace."
+}

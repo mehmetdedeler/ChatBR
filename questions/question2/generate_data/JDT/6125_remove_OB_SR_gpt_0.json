@@ -1,0 +1,8 @@
+{
+  "id": "6125",
+  "title": "Bug 6125 - JAR Packager Reports Open Files Very Late",
+  "description": "This bug report is related to the behavior of the JAR packager in handling unsaved files during JAR creation.",
+  "OB": "The observed behavior is not explicitly mentioned, but it can be inferred that when attempting to create a JAR file with unsaved files, the process fails without providing an option to save the files.",
+  "EB": "The expected behavior should allow the user to create a JAR file with unsaved editors. If this is not supported, there should be a dialog prompt that allows the user to save or discard changes before proceeding.",
+  "SR": "The steps to reproduce the issue are not provided, but the problem can be encountered when attempting to create a JAR file with unsaved changes, which results in the reported behavior."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "31946", "title": "Bug 31946Moving CoolBarItems leaves temporary cheese", "description": "I20030214 start Eclipse move CoolBarItemsObserve: while dragging CoolbarItems leave temporary cheese which is cleared whenreleasing the mouse"}

@@ -1,0 +1,8 @@
+{
+  "id": "7581",
+  "title": "Bug 7581: ComboBoxCellEditor sizing issue in property sheet",
+  "description": "From ECJoe Winchester <JoeWin@us.ibm.com wrote in message news:3C407F76.31A82113@us.ibm.com...",
+  "OB": "The ComboBoxCellEditor does not size correctly in the property sheet.",
+  "EB": "The ComboBoxCellEditor should size correctly in the property sheet, adjusting to the content as expected.",
+  "SR": "1. Open the property sheet.\n2. Navigate to a section using the ComboBoxCellEditor.\n3. Observe that the ComboBoxCellEditor does not size correctly."
+}

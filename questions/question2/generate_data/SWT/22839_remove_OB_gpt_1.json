@@ -1,0 +1,8 @@
+{
+  "id": "22839",
+  "title": "Bug 22839: SWT Window Focus Causes Incorrect Palette Colors",
+  "description": "In the provided code, a problem is observed related to SWT window focus causing incorrect palette colors when switching between windows. The issue has been tested on a Sh4 (BigSur/Tahoe) system running a maxall configuration of WinCe 3.00 with j9 version 1.5 from wsdd 4.0 runtimes with SWT version 2104.",
+  "OB": "When an SWT window gains focus, the background colors of other windows change to incorrect colors. Similarly, when another window gains focus, the SWT window's colors also change to be incorrect.",
+  "EB": "The expected behavior is that when an SWT window gains focus, it should not affect the background colors of other windows, and when another window gains focus, the SWT window's colors should remain correct.",
+  "SR": "To reproduce the issue:\n1. Import the 'org.eclipse.swt' library.\n2. Run the provided code on a Sh4 (BigSur/Tahoe) system with the specified configuration.\n3. Focus on an SWT window and observe the background colors of other windows changing to incorrect colors.\n4. Focus on another window and notice that the SWT window's colors also change to be incorrect."
+}

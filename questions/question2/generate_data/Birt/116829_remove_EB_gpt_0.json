@@ -1,0 +1,8 @@
+{
+  "id": "116829",
+  "title": "Label height doesn't change with label font modification.",
+  "description": "When modifying the font size of a label in the UI, the label's height does not update immediately.",
+  "OB": "After modifying the font size of a label, the label's height remains unchanged in the UI.",
+  "EB": "I expect that when I modify the font size of a label, the label's height should adjust accordingly to accommodate the new font size without any delay.",
+  "SR": "To reproduce the issue:\n1. Add a label to the UI.\n2. Edit the label's font size to '18 points'.\n3. Observe that the label's height does not change to match the new font size."
+}

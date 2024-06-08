@@ -1,0 +1,1 @@
+{"bug_id": "116899", "title": "Bug 116899Using verbose in aop.xml does not yield info messages", "description": "The interpretation of the verbose option for LTW is not consistent with otheruses in AspectJ e.g. ajc, iajc. It should allow info as well as warining anderror messages to be output. The option parser and testcase need to be updated."}

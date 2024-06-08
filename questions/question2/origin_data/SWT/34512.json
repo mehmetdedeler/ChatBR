@@ -1,0 +1,1 @@
+{"bug_id": "34512", "title": "Bug 34512ComputeSize of table and tree too small", "description": "2.1 RC2In the ControlExample, go to the Table tab and select Preferred for size.Note that you need to scroll vertically a little bit to see the last item."}

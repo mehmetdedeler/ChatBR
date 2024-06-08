@@ -1,0 +1,8 @@
+{
+  "id": "49235",
+  "title": "Bug 49235: ServletContainerInitializer onStartup Set<Class<? classSet is not expecting 'MySomeClass'",
+  "description": "When using ServletContainerInitializer's onStartup method with Set<Class<? classSet, the output is 'MySomeClass' instead of the expected behavior.",
+  "OB": "The output 'MySomeClass' is displayed when using ServletContainerInitializer onStartup with Set<Class<? classSet.",
+  "EB": "The expected behavior is that 'MySomeClass' should not be the output when using ServletContainerInitializer onStartup with Set<Class<? classSet.",
+  "SR": "To reproduce the issue:\n1. Create a ServletContainerInitializer implementation.\n2. In the onStartup method, pass a Set<Class<? classSet as an argument.\n3. Observe the output, which should not display 'MySomeClass' as it currently does."
+}

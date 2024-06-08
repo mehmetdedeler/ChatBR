@@ -1,0 +1,8 @@
+{
+  "id": "12906",
+  "title": "Bug 12906[Editor Mgmt] Unable to open file in another editor if already opened in one (missing warning/error message)",
+  "description": "Bug 12906[Editor Mgmt] If file is already opened in one editor, cannot open in another editor (should give error msg)",
+  "OB": "When a file is open, navigating to the Java Perspective and attempting to open a Java file by double-clicking does not trigger any response. Subsequently, right-clicking on the Java file and choosing 'Open With... System Editor' also does not produce any action. The workbench should display a warning message indicating that attempting to open the file may result in overwriting changes. Alternatively, an error message should prompt the user to close all files first. It appears to be a safety feature preventing external editing while the file is already opened in WSAD.",
+  "EB": "However, there should be a warning message when attempting to open a file that is already open in another editor.",
+  "SR": "1. Close any open files. 2. Switch to the Java Perspective. 3. Open a Java file by double-clicking on it. 4. Right-click on the opened Java file. 5. Select 'Open With... System Editor'. Expected behavior: A warning message should appear, notifying the user about the potential overwriting of changes and asking if they want to continue. Alternatively, an error message should instruct the user to close all files before proceeding."
+}

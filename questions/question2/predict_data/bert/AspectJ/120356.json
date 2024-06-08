@@ -1,0 +1,1 @@
+{"id": "120356", "title": "Bug 120356@AJ decl err/warn does not show cross structure view", "description": " Bug 120356@AJ decl err/warn does not show cross structure view Perhaps an issue in the ASM struct for DEOWsince cross struct. is empty in AJDT , despite error / warning gutter and message is ok.", "OB": "", "EB": "", "SR": ""}

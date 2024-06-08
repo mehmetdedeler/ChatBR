@@ -1,0 +1,8 @@
+{
+  "id": "134040",
+  "title": "Page break property can be set for rows in Property Editor but not saved",
+  "description": "When using the Property Editor to modify rows in a grid or table, page break properties can be set, but they are not saved as expected.",
+  "OB": "In the Property Editor, it is possible to set the page break property for a row in a grid or table.",
+  "EB": "The expected behavior is that the Property Editor should not allow the page break property to be set for rows in a grid or table, and if it is set, it should not be saved.",
+  "SR": "To reproduce the issue:\n1. Insert a grid or table.\n2. Select one row in the grid or table using the Property Editor."
+}

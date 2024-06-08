@@ -1,0 +1,1 @@
+{"bug_id": "8205", "title": "Bug 8205Missing mnemonic: Outline ViewOpen Super Implementation", "description": "Select a method in the outline view. \"Open Super Implementation\" on the popupmenu is missing a mnemonic."}

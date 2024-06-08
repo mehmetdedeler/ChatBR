@@ -1,0 +1,1 @@
+{"bug_id": "58681", "title": "Bug 58681X should output available X options", "description": "ajc should emit the available X options on help or X request (the latter likejava) to get more traffic and feedback on the experimental options."}

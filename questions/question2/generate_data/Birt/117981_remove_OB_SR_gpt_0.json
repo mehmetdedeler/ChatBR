@@ -1,0 +1,8 @@
+{
+  "id": "117981",
+  "title": "Bug 117981 - Any item can't be selected at the first time in library outline view.",
+  "description": "Description: When attempting to select an item in the library outline view for the first time, the selection does not work as expected. Steps to reproduce: 1.",
+  "OB": "Upon clicking an item in the library outline view for the first time, it does not get selected, and there is no visual feedback or change in the selection state.",
+  "EB": "The expected behavior is that when I click on an item in the library outline view for the first time, it should become selected, and there should be a clear indication of its selection status, such as highlighting or an icon change.",
+  "SR": "1. Open the application and navigate to the library outline view. 2. Attempt to click on any item in the view for the first time."
+}

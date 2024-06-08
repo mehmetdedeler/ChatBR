@@ -1,0 +1,8 @@
+{
+  "id": "49890",
+  "title": "Nio Selector Issue on Linux Platform",
+  "description": "On the Linux platform, the Nio Selector has an issue that causes the server's CPU to reach 100% and remain at 100% until the server is restarted. This issue has been observed with Java versions 1.6.007, 1.6.018, and 1.6.021. It appears to be a duplicate of Bug 46373, which the Jetty team may have already addressed. Additional logging has been added to NioEndpoint.java for investigation.",
+  "OB": "The observed behavior is that the server's CPU usage spikes to 100% and remains at that level continuously until the server is manually restarted.",
+  "EB": "The expected behavior is that the server's CPU usage should remain at a reasonable level, and there should be no need to restart the server to resolve this issue.",
+  "SR": "To reproduce this JVM bug, follow these steps:\n1. Access the web application.\n2. Perform several requests (e.g., press F5 in the browser and hold the button).\n3. Observe the server's CPU usage spiking to 100% and remaining at that level."
+}

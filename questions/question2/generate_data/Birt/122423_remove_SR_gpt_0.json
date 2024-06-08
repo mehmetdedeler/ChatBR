@@ -1,0 +1,8 @@
+{
+  "id": "122423",
+  "title": "Support page range in RenderTask",
+  "description": "Bug 122423 - Support page range in RenderTask. If a page range is specified, it should be parsed and processed, outputting the pages one after another with a page splitter, similar to the runAndRenderTask. In the case where a single page number is set, there can only be one page.",
+  "OB": "The observed behavior is that the software currently does not support page ranges in RenderTask. For PDF format, if a range is specified, the system does not log any message and still outputs the entire report. For HTML format, the system does not support page ranges in the format of '1,2,510' + 'All'. Invalid page numbers are not logged, and no error message is returned.",
+  "EB": "The expected behavior is that the code should check if there is a page range set. If an invalid page number is provided, it should be logged, and an error message should be returned. If neither a page range nor a page number is set, the software should default to processing all pages, instead of the current behavior of giving an error message.",
+  "SR": "To reproduce the issue and test the fix:\n1. Open the software and access the RenderTask feature.\n2. For PDF format, specify a page range, e.g., '1-5', and attempt to render the document.\n3. For HTML format, provide a page range in the format '1,2,510' + 'All' and try rendering.\n4. Observe the lack of error messages or page range processing for the current software behavior.\n5. After applying the fix, repeat the same steps and verify that invalid page numbers are logged, and error messages are displayed as expected."
+}

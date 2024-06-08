@@ -1,0 +1,8 @@
+{
+  "id": "9619",
+  "title": "Bug 9619 - Issue with Moving Static Member in Dialog Details",
+  "description": "Bug 9619 - There are several issues identified in the current functionality:\n- Mnemonics are missing.\n- Validation is absent on the type field, although it's not expensive to validate (already done in the type wizard for superclass).\n- Improvements suggested:\n  a. Implement 'isValidTypeName' function.\n  b. Modify label to read 'Select destination type:'.",
+  "OB": "Mnemonic keys are not visible or functioning. No validation occurs when entering data in the 'type' field. The label on the dialog doesn't match the suggested 'Select destination type:'.",
+  "EB": "Mnemonics should be visible and functional. Implement validation for the 'type' field. Modify the label on the dialog to 'Select destination type:'.",
+  "SR": "To reproduce:\n1. Browse offers from a type contained within a CU in a different project."
+}

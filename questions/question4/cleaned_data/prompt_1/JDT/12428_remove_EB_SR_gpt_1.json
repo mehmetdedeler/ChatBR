@@ -1,0 +1,8 @@
+{
+  "id": "12428",
+  "title": "Bug 12428: Confusing message in Pull Up",
+  "description": "The current message displays 'copy method 'void setUp()' to type 'TestCase'. The following adjustments are suggested: Change 'copy' to 'Copy', capitalize 'TestCase', and rephrase the deletion message for clarity. When selecting to delete 'setUp' from 'TestCase', the message shown should be 'Delete method 'void setUp()' declared in type 'junit.framework.TestCase'.",
+  "OB": "When viewing the tree of changes under Assert, the message 'copy method 'void setUp()' to type 'TestCase', with 'TestCase' displayed using its fully qualified name, is observed.",
+  "EB": "The expected message should be 'Copy method 'void setUp()' FROM type 'TestCase', with 'Copy' capitalized and 'TestCase' fully capitalized. Additionally, when selecting to delete 'setUp' from 'TestCase', the message should display 'Delete method 'void setUp()' declared IN type 'junit.framework.TestCase'.",
+  "SR": "Steps to reproduce:\n1. Navigate to the tree of changes under Assert.\n2. Observe the message 'copy method 'void setUp()' to type 'TestCase'.\n3. Attempt to delete 'setUp' from 'TestCase' and note the message shown as 'Delete method 'void setUp()' declared in type 'junit.framework.TestCase'."
+}

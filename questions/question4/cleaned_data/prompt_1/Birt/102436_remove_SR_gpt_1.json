@@ -1,0 +1,8 @@
+{
+  "id": "102436",
+  "title": "Bug 102436 - Date/time value not stored correctly in report design",
+  "description": "An invalid date/time string (which does not conform to a universal format or the system default locale format) should have been rejected.",
+  "OB": "When creating a new 'DateTime' type report parameter in BIRT report designer, if an invalid date string (e.g., '55/66/9999') is entered in the 'default value' field, the invalid value is accepted. Subsequently, in the report design, the parameter definition is displayed, revealing two problems.",
+  "EB": "(1) The model should have stored a dateTime type constant using the XML schema date/time format (yyyymmddThh:mm:ss, see http://www.w3.org/TR/xmlschema2/), which is locale-independent, ensuring portability. (2) The date value should have been validated either by the UI or the Model.",
+  "SR": "1. Open BIRT report designer.\n2. Create a new report parameter of type 'DateTime'.\n3. In the 'default value' field, input an invalid date string, for example, '55/66/9999'.\n4. Observe that the invalid value is accepted, and the parameter definition appears in the report design."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "129561",
+  "title": "Bug 129561HCGBIDI: Undesirable generation of SQL query elements",
+  "description": "Bug 129561HCGBIDI: Undesirable generation of SQL query elements. This is not even NLS specific defect. Otherwise the query will fail.\n1. Create a table with a name that includes a blank space in this database.\n2. Select 'Preview Results'.\nResult: An exception is fired.\n3. Check 'Table Name'.\n4. Check 'Column Name'.",
+  "OB": "When a table with a name containing a blank space is created in this database, and 'Preview Results' is selected, an exception is thrown. The 'Table Name' and 'Column Name' are also affected.",
+  "EB": "You should get a SQL query that looks something like 'select USER.Table Name.Column Name'. There should be no exceptions thrown when 'Preview Results' is selected for a table with a name containing a blank space.",
+  "SR": "1. Create a table with a name containing a blank space in this database.\n2. Select 'Preview Results'.\n3. Check 'Table Name'.\n4. Check 'Column Name'."
+}

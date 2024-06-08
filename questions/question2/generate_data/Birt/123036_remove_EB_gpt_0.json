@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Data in a Report is Doubly Stored",
+  "description": "In our software, there is an issue where data is being stored twice, which is causing redundancy and inefficiency in the system.",
+  "OB": "Data in a report is doubly stored. The same data is being saved twice, resulting in redundancy and inefficiency.",
+  "EB": "The expected behavior is that data should be stored only once, as intended. There should not be any duplication of data in the report, which will improve the system's performance and efficiency.",
+  "SR": "To reproduce this issue:\n1. Open the application and log in to your account.\n2. Navigate to the 'Reports' section.\n3. Create a new report or open an existing one.\n4. Input some data into the report.\n5. Save the report.\n6. Observe that the data is stored twice, once in the content stream, and once in another location (DtE)."
+}

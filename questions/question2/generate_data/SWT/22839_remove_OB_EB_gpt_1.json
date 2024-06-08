@@ -1,0 +1,8 @@
+{
+  "id": "22839",
+  "title": "Bug 22839: SWT window focus affects other window palettes incorrectly",
+  "description": "When an SWT window gains focus, it causes background windows' colors to change to incorrect colors. Similarly, when another window gains focus, the SWT window's colors also change incorrectly. This issue has been observed and tested on a Sh4 (BigSur/Tahoe) system running a MaxAll configuration of WinCe 3.00 with J9 version 1.5 from WSDD 4.0 runtimes with SWT version 2104.",
+  "OB": "When an SWT window comes into focus, all background windows' colors are changed to incorrect colors, and similarly, when another window is in focus, the SWT window's colors will change to be incorrect.",
+  "EB": "When an SWT window gains focus, it should not cause any change in the colors of background windows, and when another window gains focus, the SWT window's colors should remain consistent and not change incorrectly.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open an SWT application on a Sh4 (BigSur/Tahoe) system with a MaxAll configuration of WinCe 3.00.\n2. Ensure you are using J9 version 1.5 from WSDD 4.0 runtimes with SWT version 2104.\n3. Have multiple windows open, including at least one SWT window and background windows.\n4. Bring the SWT window into focus.\n5. Observe that the colors of the background windows change to incorrect colors.\n6. Now, bring another window into focus.\n7. Observe that the SWT window's colors change incorrectly as well."
+}

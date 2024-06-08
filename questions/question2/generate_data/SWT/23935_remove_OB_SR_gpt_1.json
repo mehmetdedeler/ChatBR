@@ -1,0 +1,8 @@
+{
+  "id": "23935",
+  "title": "Bug 23935 - Text widget with Tree parent does not lose focus",
+  "description": "Both widgets are children of the shell. The right tree and text only work on Windows. We can probably work around by creating the text editor as a sibling of the tree and moving it above the tree.",
+  "OB": "When running the attached code, the right tree and text widgets, which are both children of the shell, do not behave as expected. They do not lose focus on Windows.",
+  "EB": "When running the attached code, we expect the left tree and text widgets to behave correctly on both Windows and Linux, just like the right tree and text should on Windows.",
+  "SR": "To reproduce the issue, please follow these steps:\n1. Build the code using version 20020920.\n2. Run the attached code.\n3. Observe the behavior of the right tree and text widgets, which should not lose focus on Windows."
+}

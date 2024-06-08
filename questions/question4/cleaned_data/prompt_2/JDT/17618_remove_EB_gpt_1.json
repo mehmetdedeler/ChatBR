@@ -1,0 +1,8 @@
+{
+  "id": "17618",
+  "title": "Bug 17618: Changing output location should delete all derived resources",
+  "description": "When changing the output location of a project, the expected behavior is that all derived resources should be deleted. However, there is an issue where the class files are removed correctly, but the resources are not removed as expected. This behavior persists even after changing the output folder back to the original project location. Additionally, when inspecting the properties dialog of these resources, they are incorrectly tagged as 'Derived'.",
+  "OB": "After changing the output folder to project/bin, all class files are correctly removed, which is the expected behavior. However, the resources in the project/bin folder remain unaffected, contrary to the expected behavior.",
+  "EB": "Upon changing the output folder to project/bin, the expected behavior is that all derived resources, including class files and other associated resources, should be deleted. Subsequently, when reverting the output folder to the original project location, all class files and resources should be removed, ensuring a clean state.",
+  "SR": "1. Create a project with autobuild enabled.\n2. Import Java sources and resources into the project.\n3. Change the output folder to project/bin.\n4. Observe that all class files are correctly removed (expected behavior).\n5. Change the output folder back to the original project location.\n6. Verify that all class files and resources are removed, conforming to the expected behavior.\n7. Open the project/bin folder and ensure that all resources are no longer present. Note: Check the properties dialog of these resources to confirm that they are not incorrectly tagged as 'Derived'."
+}

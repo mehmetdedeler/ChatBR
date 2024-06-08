@@ -1,0 +1,1 @@
+{"id": "38076", "title": "Bug 38076Combo doesn't calculate its size properly when only text is set.", "description": " Debian Linux, GTK 2.2.16.", "OB": " Bug 38076Combo doesn't calculate its size properly when only text is set. See attached screenshots.The pulldown arrow seems too big and the width is too small for its contentwhen expanded.", "EB": "", "SR": ""}

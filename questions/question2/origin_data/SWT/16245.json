@@ -1,0 +1,1 @@
+{"bug_id": "16245", "title": "Bug 16245CTabFolder  tooltips and arrowing around", "description": "CTabfolder should move by a full page when using the arrow keys.The tooltips on CTabFolder show stay around when you move inside the tab area just like in toolbars."}

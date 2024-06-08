@@ -1,0 +1,8 @@
+{
+  "id": "11280",
+  "title": "Bug 11280[View Mgmt] Switching perspectives loses view maximized state",
+  "description": "The issue involves the maximized state of the CVS repository view being lost when switching perspectives.",
+  "OB": "Upon switching perspectives, the CVS repository view, previously maximized, is no longer in the maximized state. The view returns to its default size.",
+  "EB": "When switching perspectives, the CVS repository view should remain maximized if it was in that state before the perspective switch. The maximized state should persist across perspective changes.",
+  "SR": "To reproduce:\n1. Open the CVS repository view.\n2. Maximize the view.\n3. Switch to a different perspective.\n4. Observe that the CVS repository view is no longer maximized, contrary to the expected behavior."
+}

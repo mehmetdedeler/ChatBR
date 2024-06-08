@@ -1,0 +1,1 @@
+{"id": "103963", "title": "If there is no data for series, it should display a friendly error message", "description": "", "OB": "There is no friendly error message displayed when there is no data for series.", "EB": "", "SR": "1. Open the application.\n2. Go to the series section.\n3. Delete all the data for the series.\n4. Check if a friendly error message is displayed."}

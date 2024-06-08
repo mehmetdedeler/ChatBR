@@ -1,0 +1,1 @@
+{"bug_id": "42308", "title": "Bug 42308with APR bytessent bytesreceived performance data is not collected", "description": "with APR bytes received and bytes sent are always 0."}

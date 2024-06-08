@@ -1,0 +1,8 @@
+{
+  "id": "17618",
+  "title": "Bug 17618 - Changing output location should delete all derived resources",
+  "description": "",
+  "OB": "1) Create a project with autobuild enabled.\n2) Import Java sources and resources.\n3) Change the output folder to 'project/bin'. All class files are removed (expected behavior).\n4) Change the output folder back to be the project root directory. All class files are removed (expected behavior).\n5) Open 'project/bin', and all resources are still there. Note: When opening the properties dialog on such a resource, it is tagged as 'Derived'.",
+  "EB": "When changing the output location of a project in Eclipse, all derived resources, including class files, should be deleted as part of the process. After the change, the project should only contain non-derived resources, and no derived resources should be present in the old output location.",
+  "SR": "To reproduce the issue:\n1) Create a project with autobuild enabled.\n2) Import Java sources and resources.\n3) Change the output folder to 'project/bin'. Observe that all class files are removed (expected behavior).\n4) Change the output folder back to the project's root directory. Observe that all class files are removed (expected behavior).\n5) Open 'project/bin', and observe that all resources are still there, even though they should have been deleted when changing the output location."
+}

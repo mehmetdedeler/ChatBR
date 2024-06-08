@@ -1,0 +1,1 @@
+{"id": "12884", "title": "Bug 12884find strings to externalize  should be cancelable", "description": "Bug 12884find strings to externalizeshould be cancelable ", "OB": "instead of a busy cursor it should show a progress dialog with cancelation ", "EB": "instead of a busy cursor it should show a progress dialog with cancelation ", "SR": ""}

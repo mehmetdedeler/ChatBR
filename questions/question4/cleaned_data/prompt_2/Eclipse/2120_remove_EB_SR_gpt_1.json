@@ -1,0 +1,8 @@
+{
+  "id": "2120",
+  "title": "Bug 2120MRU File List not persisting between sessions (1GE71Z0)",
+  "description": "The MRU (Most Recently Used) File List in the File menu is failing to retain files between sessions.",
+  "OB": "When opening files, they appear in the File menu's MRU list. However, upon closing the application and reopening it, the files no longer show up in the MRU list. This behavior indicates that the MRU list is not persisting between sessions as expected.",
+  "EB": "The MRU list in the File menu should maintain a record of recently opened files even after the application is closed and reopened. Upon relaunch, the files previously accessed should still be displayed in the MRU list.",
+  "SR": "1. Open the application.\n2. Open several files.\n3. Check the File menu's MRU list to confirm that the opened files are listed.\n4. Close the application.\n5. Reopen the application and verify if the files previously opened are still present in the MRU list."
+}

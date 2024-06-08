@@ -1,0 +1,1 @@
+{"bug_id": "15604", "title": "Bug 15604Promote Fill arguments on method completion to a real preference", "description": "It is still in work in progress but it has become an established feature by now.Promote the preference to the code assist preference page."}

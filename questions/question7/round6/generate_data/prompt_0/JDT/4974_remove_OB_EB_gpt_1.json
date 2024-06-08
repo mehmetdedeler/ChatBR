@@ -1,0 +1,8 @@
+{
+  "id": "4974",
+  "title": "Bug 4974 - Set classpath / output location should be one operation",
+  "description": "",
+  "OB": "",
+  "EB": "",
+  "SR": "204:1. create a project with 'src' as source folder and 'bin' as output location.2. in the project properties change the setting to use the project as source folder and the project as output location."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "9374", "title": "Bug 9374Surround with try/catch: doesn't work with static initializers", "description": "package tests;import java.io.;public class D {private static InputStream input;static {input = new FileInputStream(\"myfile\");}}Can't surround input= ....."}

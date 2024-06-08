@@ -1,0 +1,1 @@
+{"id": "47568", "title": "Bug 47568TestTomcat fails to delete work directory", "description": "TestTomcat.setUp() creates a work directory, but does not delete it in tearDown() ", "OB": "Bug 47568TestTomcat fails to delete work directory ", "EB": "", "SR": ""}

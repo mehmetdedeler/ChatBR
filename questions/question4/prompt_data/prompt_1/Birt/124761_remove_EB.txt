@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '124761', 'title': "Bug 124761When add two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10',the data can be extracted.", 'description': "Bug 124761When add two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10',the data can be extracted. ", 'OB': "Description:When add two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10',the data can not be extracted.Steps to reproduce:1. import the attached report2. previewActual result:the data can not be extracted.Expect result:The intersection set ofthe data 'State is equal to CA' and the data 'EmployeeId is Top 10' should be displayed. ", 'EB': '', 'SR': "Description:When add two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10',the data can not be extracted.Steps to reproduce:1. import the attached report2. "}
+</BUG REPORT>

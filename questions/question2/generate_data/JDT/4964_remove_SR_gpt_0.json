@@ -1,0 +1,8 @@
+{
+  "id": "4964",
+  "title": "Bug 4964 - Code Assist Suggests Incorrect Completions",
+  "description": "This bug report pertains to the behavior of code assist in version Build 204 of the software.",
+  "OB": "While writing SWT code, I observed that when typing 'button.dispose' in the code editor, the code assist feature automatically inserted 'DISPOSED' into the code. This behavior occurred when the code assist list was displayed, and I inadvertently typed '('.",
+  "EB": "The expected behavior is for the code assist to be more context-aware. Specifically, when the user types '(', the code assist should prioritize suggesting 'dispose()' rather than 'DISPOSED'. Alternatively, making the code assist case-sensitive may prevent such issues.",
+  "SR": "To reproduce the issue:\n1. Open the software and navigate to the code editor.\n2. Begin writing SWT code, for example, 'button.dispose'.\n3. When the code assist list appears, select 'DISPOSED' from the list.\n4. The expected behavior is for the code assist to suggest 'dispose()' when '(' is typed."
+}

@@ -1,0 +1,1 @@
+{"id": "12195", "title": "Bug 12195TestCase creation wizard: no progress when pressing super button", "description": "Bug 12195TestCase creation wizard: no progress when pressing super button ", "OB": "This is not consistent with the New Class wizard. ", "EB": "", "SR": "There is no progress shown in the wizard when pressing the browse button forselecting the super class. "}

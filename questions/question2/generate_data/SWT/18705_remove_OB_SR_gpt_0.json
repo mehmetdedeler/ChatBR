@@ -1,0 +1,8 @@
+{
+  "id": "18705",
+  "title": "Bug 18705: Excessive Flashing in Control Example",
+  "description": "The report is very brief and lacks details, making it unclear what the issue is and how to reproduce it.",
+  "OB": "The report does not provide information about the observed behavior; it only mentions excessive flashing without details.",
+  "EB": "The expected behavior is mentioned as 'only the bottom edge of the outermost frames need to be repainted.' However, this is not explained in context, and the report lacks clarity.",
+  "SR": "The steps to reproduce are not provided, which is essential to understand and address the issue."
+}

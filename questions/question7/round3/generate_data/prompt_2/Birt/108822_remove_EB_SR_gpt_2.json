@@ -1,0 +1,1 @@
+{"id": "108822", "title": "More efficient disk sorting logic needed for handling border values in row data", "description": "When performing disk sorting on 40000 rows of data, if the program is configured to process less than 40000 rows, the following operation is performed by DtE:", "OB": "The observed behavior is not mentioned in the bug report.", "EB": "", "SR": ""}

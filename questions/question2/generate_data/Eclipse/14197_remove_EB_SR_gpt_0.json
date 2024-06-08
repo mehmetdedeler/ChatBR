@@ -1,0 +1,8 @@
+{
+  "id": "14197",
+  "title": "Bug 14197: Unexpected Behavior When Removing a Working Set",
+  "description": "When removing a working set, changes are applied immediately, which is not the expected behavior.",
+  "OB": "After creating a working set with one project and selecting it, the package view is filtered as expected.",
+  "EB": "The expected behavior is that when removing a working set, changes should not be applied immediately. Instead, the package view should return to its previous state, unfiltered by the working set.",
+  "SR": "To reproduce the issue:\n1. Create a working set with one project.\n2. Select the working set to filter the package view.\n3. Attempt to remove the working set."
+}

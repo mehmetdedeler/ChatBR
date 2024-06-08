@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '49299', 'title': 'Bug 49299Servlet 3.0 ch.7.1.1 says that custom cookie name affects URL rewriting', 'description': 'Bug 49299Servlet 3.0 ch.7.1.1 says that custom cookie name affects URL rewriting ', 'OB': 'Created attachment 25442 [details]cookiename.warIn chapter 7.1.1 of servlet30finalspec.pdf it is said that"If a web application configures a custom name for its session tracking cookies, thesame custom name will also be used as the name of the URI parameter if the sessionid is encoded in the URL (provided that URL rewriting has been enabled). Actual result:The page sends the following cookie:SetCookie: MYSESSIONCOOKIE=658C60E714E9C7C833F4FDA366E0477F; Path=/cookiename; HttpOnlybut the Reload link on the page uses "jsessionid":http://localhost:8080/cookiename/index.jsp;jsessionid=658C60E714E9C7C833F4FDA366E0477F4. ', 'EB': '', 'SR': ''}
+</BUG REPORT>

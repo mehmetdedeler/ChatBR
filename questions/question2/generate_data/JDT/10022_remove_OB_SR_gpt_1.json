@@ -1,0 +1,8 @@
+{
+  "id": "10022",
+  "title": "Incorrect 'Build' Popup Action Enablement",
+  "description": "The 'Build' popup action enablement is incorrect.",
+  "OB": "When attempting to trigger a manual build, the 'Build' option in the popup is always enabled, regardless of whether a build is already in progress or has been completed.",
+  "EB": "The 'Build' option in the popup should only be enabled when there is no ongoing build or when the build is already done automatically. It should be disabled if a build is currently in progress.",
+  "SR": "To reproduce the issue:\n1. Open the application.\n2. Initiate a build process manually.\n3. Observe that the 'Build' option in the popup remains enabled even when the build is in progress or has already been completed."
+}

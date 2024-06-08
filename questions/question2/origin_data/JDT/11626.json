@@ -1,0 +1,1 @@
+{"bug_id": "11626", "title": "Bug 11626extract method: needs a regression test for 11622/11537", "description": "20020314see bug 11622 for test case (it adds import to java.lang.List[] like in bug11537)extract temp has a regression test for theseand it's fixed in the latest for extract method toobut we need a regression test to prevent seeing this bug in the future"}

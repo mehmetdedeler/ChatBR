@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "Improvement needed for Disk Sorting Logic with Border Row Values",
+  "description": "When sorting data on disk, the current logic is not handling border row values effectively, resulting in undesired behavior. We need to improve this logic to ensure proper processing of data when the number of rows to be sorted is less than the total available rows (40000 in this case).",
+  "OB": "When sorting data on disk, if we sort 40000 rows of data but set the program to process only a subset of the data, issues occur during the sorting process.",
+  "EB": "We expect the sorting logic to handle situations where the program is set to process a subset of the data (less than 40000 rows) effectively, ensuring that the sorting operation is performed correctly without issues.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Sort 40000 rows of data on disk.\n2. Configure the program to process only a subset of the data, let's say 20000 rows.\n3. Initiate the sorting process.\n4. Observe the unexpected behavior during sorting due to the subset processing."
+}

@@ -1,0 +1,1 @@
+{"id": "11280", "title": "Bug 11280[View Mgmt] Switching perspectives loses view maximized state", "description": "", "OB": "When switching perspectives, the view maximized state is lost.", "EB": "Expect the view to remain maximized when switching perspectives.", "SR": "To reproduce: 1. Open the application. 2. Maximize the view. 3. Switch to a different perspective."}

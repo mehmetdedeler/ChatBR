@@ -1,0 +1,8 @@
+{
+  "id": "269522",
+  "title": "Bug 269522 [handles] Cross reference view and markers incorrectly display joinpoints for advice",
+  "description": "The cross reference view and markers are displaying an incorrect number of joinpoints assigned to advice.",
+  "OB": "When selecting line 22, there are 5 joinpoints visible (should only be 3). On selecting line 68, there are no joinpoints visible (should be 2 here). Additionally, right-clicking the marker at line 68 and choosing 'advises' displays all 5 joinpoints instead of the expected 2.",
+  "EB": "The cross reference view and markers should accurately reflect the number of joinpoints assigned to advice based on the selected lines and 'advises' option.",
+  "SR": "1. Open the file and navigate to line 22. Verify that there are 3 joinpoints displayed instead of 5.\n2. Move to line 68 and verify that there are 2 joinpoints displayed instead of none.\n3. Right-click the marker at line 68 and choose 'advises.' Confirm that only 2 joinpoints are shown, not all 5."
+}

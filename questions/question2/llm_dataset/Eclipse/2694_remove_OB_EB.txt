@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '2694', 'title': 'Bug 2694Editor Selection Dialog: UI suggestions (1GI6RPE)', 'description': ' Bug 2694Editor Selection Dialog: UI suggestions (1GI6RPE) press Add for the associated editors.a. Multiple selection could be enabledc. The default entry in the associated editors list could be marked (default) (see perspectives)NOTES:KLM (10/10/2001 1:54:57 PM)Also:f. Need a width hint for the dialogg. Why does the File editors Pref page grow in height when it is selected, but no other pagesdo the same?I currently have fixes for a, c, fNeed to releaseKLM (10/10/2001 5:58:58 PM)released fixes for a, c, f, g', 'OB': '', 'EB': '', 'SR': " MA (09.08.2001 12:04:06)1. in the preference page go to WorkbenchFile Editors2. Without selecting something from the 'Internal Editors' go to 'External Editors' and select an entry.Switch back to Internal: (Still no selection), press OK This adds you the selected external editor."}
+</BUG REPORT>

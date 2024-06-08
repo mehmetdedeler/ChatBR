@@ -1,0 +1,1 @@
+{"id": "17894", "title": "Bug 17894 - Open Mode preference not reset by Restore Defaults", "description": "", "OB": "The Open Mode preference is not being reset when the Restore Defaults action is performed.", "EB": "", "SR": ""}

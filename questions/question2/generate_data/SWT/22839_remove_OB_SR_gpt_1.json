@@ -1,0 +1,8 @@
+{
+  "id": "22839",
+  "title": "Bug 22839 - SWT window in focus affects palettes of other windows",
+  "description": "When an SWT window is in focus, palettes of other windows become unresponsive, and vice versa.",
+  "OB": "When an SWT window has focus, interactions with the palettes of other windows do not work correctly. For example, when you click on a color palette in another window, it does not respond as expected, and the same issue occurs in reverse when focusing on a different window.",
+  "EB": "The expected behavior is that when an SWT window is in focus, interactions with palettes in other windows should work as intended. Clicking on a color palette in a different window should result in the expected response, and vice versa.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open an SWT window (e.g., an application or dialog) on your system.\n2. Have multiple other windows or applications open simultaneously, each containing some form of palette or color selection feature (e.g., a color picker).\n3. Focus on the SWT window you opened in step 1.\n4. Attempt to interact with the palettes in the other windows, such as clicking on color options or using palette-related tools.\n5. Observe that the palettes in other windows do not respond correctly to your interactions. The expected behavior is that they should respond as usual when another window is in focus."
+}

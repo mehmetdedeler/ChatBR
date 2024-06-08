@@ -1,0 +1,1 @@
+{"id": "123036", "title": "Bug 123036 Data in a reprot is doubly stored", "description": "", "OB": "While generating a report, the data is being stored twice.", "EB": "The data in the report should be stored only once.", "SR": "To reproduce the issue: 1. Generate a report. 2. Check the content stream and DtE to verify if the data is being stored twice."}

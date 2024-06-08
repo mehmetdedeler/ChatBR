@@ -1,0 +1,8 @@
+{
+  "id": "104630",
+  "title": "Bug 104630: Column icons don't show up when connecting to Derby database",
+  "description": "Column icons are not visible when attempting to connect to a Derby database.",
+  "OB": "When connecting to a Derby database, the column icons are not displayed as expected.",
+  "EB": "Upon connecting to a Derby database, the column icons should be visible and properly displayed.",
+  "SR": "1. Launch the application.\n2. Navigate to the 'Database' tab.\n3. Click on 'Connect' for a Derby database.\n4. Observe the column icons in the connected database."
+}

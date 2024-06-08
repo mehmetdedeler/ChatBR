@@ -1,0 +1,3 @@
+{"id": "24779",
+  "title": "Bug 24779[Perspectives] Reference to invalid views are not removed",
+  "description": "Bug 24779[Perspectives] Reference to invalid views are not removed\n\nObserved Behavior (OB): No observed behavior was provided in the bug report.\n\nExpected Behavior (EB): The plugin was not available the last time Eclipse was closed, so the workbench should have no more reference to this plugin.\n\nSteps to Reproduce (SR): No steps to reproduce were provided in the bug report."}

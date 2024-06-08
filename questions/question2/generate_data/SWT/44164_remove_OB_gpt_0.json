@@ -1,0 +1,8 @@
+{
+  "id": "44164",
+  "title": "Bug 44164 - Javadoc Update Needed for Image Constructor",
+  "description": "This bug report highlights the requirement for an update in the Javadoc documentation for the constructor 'Image(Device, ImageData).' A code example is provided that indicates an issue where the 'Image' constructor throws an exception. However, the specific observed behavior and expected behavior are not detailed.",
+  "OB": "The observed behavior (OB) related to the 'Image' constructor throwing an exception is mentioned, but specific details about the exception or its impact are missing.",
+  "EB": "The expected behavior (EB) should be to have clear and accurate Javadoc documentation for the 'Image(Device, ImageData)' constructor that mentions any potential exceptions and how to handle them. The reporter expects this information to be added to the Javadoc.",
+  "SR": "The provided steps to reproduce are insufficient and do not provide clear instructions for replicating the issue. More detailed steps should be included to help identify the problem accurately."
+}

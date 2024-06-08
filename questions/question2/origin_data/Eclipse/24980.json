@@ -1,0 +1,1 @@
+{"bug_id": "24980", "title": "Bug 24980[Wizards] Progress not shown in Wizards", "description": "20021016Wizards have the same problem with not showing updated Text during a progressdone within the UI thread as the ProgressMonitorDialog had. It should use thesame sort of fix as 21382 where Control.update() is called when running in theUI Thread."}

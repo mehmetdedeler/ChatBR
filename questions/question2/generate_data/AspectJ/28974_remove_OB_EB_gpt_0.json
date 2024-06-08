@@ -1,0 +1,8 @@
+{
+  "id": "28974",
+  "title": "Bug 28974 - Compiler error when introducing a 'final' field",
+  "description": "This bug report addresses a compilation error encountered when trying to introduce a 'final' field within an aspect.",
+  "OB": "The observed behavior is not explicitly provided in the report, making it challenging to understand the exact issue or its impact.",
+  "EB": "The expected behavior is not clearly defined in the report, but it suggests that there might be a need to specify the desired behavior regarding the introduction of 'final' fields within aspects.",
+  "SR": "To address this issue effectively, it is important to provide additional information regarding the observed behavior and to specify the desired outcome. Clear and complete steps to reproduce the problem would also be helpful for understanding and resolving the issue." 
+}

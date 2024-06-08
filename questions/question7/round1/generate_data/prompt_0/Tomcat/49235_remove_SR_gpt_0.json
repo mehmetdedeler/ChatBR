@@ -1,0 +1,1 @@
+{"id": "49235", "title": "Bug 49235ServletContainerInitializer onStartup(Set<Class<? classSet is not expect class", "description": "Bug 49235ServletContainerInitializer onStartup(Set<Class<? The output is \"MySomeClass\".", "OB": "The output is \"MySomeClass\", which is not expected.", "EB": "The output should not be \"MySomeClass\".", "SR": ""}

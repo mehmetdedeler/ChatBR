@@ -1,0 +1,1 @@
+{"id": "116404", "title": "Bug 116404[Regression]Color Palette doesn't work properly", "description": "Bug 116404[Regression]Color Palette doesn't work properly Description:Color Palette doesn't work properly.Steps to reproduce:1. ", "OB": "PreviewExpected result:See attached golden file.Actual result:It doesn't work. ", "EB": "", "SR": "Run attached file colorpalette.xml2. "}

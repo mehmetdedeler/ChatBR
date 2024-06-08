@@ -1,0 +1,1 @@
+{"bug_id": "16014", "title": "Bug 16014Find dialog replaces search string", "description": "1. Select a work (e.g. \"abc\")2. Open Find dialog (Ctrl+F)3. Enter different string into the Replace With field (e.g. \"xyz\")4. Press \"Replace\"Note: The search string (\"abc\") has been replaced (with \"xyz\")"}

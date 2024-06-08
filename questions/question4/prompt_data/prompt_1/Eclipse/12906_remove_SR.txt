@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '12906', 'title': 'Bug 12906[Editor Mgmt] If file is already opened in one editor, cannot open in another editor (should give error msg)', 'description': 'Bug 12906[Editor Mgmt] If file is already opened in one editor, cannot open in another editor (should give error msg) ', 'OB': "Close it.go to the Java Perspective, open a java file by simply double clickingon it.The file is now opened in the workbench.Now right click on the Java fileOpen With .. System Editor.Nothing happens.The workbench should be warning message saying thatyou may overwrite changes... and do you want to continue?or errormessage saying that theh should close all file first.We believe it's a safety feature where WSAD doesn't allow externalediting while the file is already opened in WSAD. ", 'EB': 'However, there shouldbe warning ', 'SR': ''}
+</BUG REPORT>

@@ -1,0 +1,8 @@
+{
+  "id": "42724",
+  "title": "Bug 42724: StyledText selection rendered incorrectly on bidi platforms",
+  "description": "The selection background is rendered incorrectly on bidi platforms. It seems unnecessary to redraw the entire selection background because there is code in StyledTextRenderer.drawLine that creates a style range for the selection.",
+  "OB": "The selection background is rendered incorrectly on bidi platforms, including unselected characters in the background.",
+  "EB": "The expected behavior is that the selection background should only include the characters within the selection and should not extend to unselected characters.",
+  "SR": "Steps to reproduce:\n1. Build version: 20030903\n2. Use the attached BidiUtil.\n3. Type one English character followed by three or more Arabic/Hebrew characters.\n4. Place the caret at the beginning of the line.\n5. Select the next two characters, including one bidi character.\n6. Observe that the selection background includes unselected characters."
+}

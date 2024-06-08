@@ -1,0 +1,8 @@
+{
+  "id": "11314",
+  "title": "Bug 11314 - Replace package name fragments should always be smaller",
+  "description": "The description of this bug report is missing, but I will provide clear and informative statements for the OB, EB, and SR sections based on the provided information.",
+  "OB": "When attempting to replace package name fragments, the system currently allows users to enter a sequence '2~.'",
+  "EB": "The expected behavior is that the system should not permit users to enter '2~.' as it violates the rule that package name fragments should always be smaller.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Launch the application.\n2. Navigate to the 'Replace Package Name Fragments' feature.\n3. Attempt to enter '2~.' as a package name fragment to be replaced."
+}

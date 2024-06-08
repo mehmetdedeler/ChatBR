@@ -1,0 +1,8 @@
+{
+  "id": "21834",
+  "title": "Coolbar items deletion corrupting layout",
+  "description": "Coolbar items deletion causing layout corruption in Build 2002071610021.",
+  "OB": "When running the attached test case and following the provided steps, if you press the Delete button, it results in the removal of the entire second row of coolbar items.",
+  "EB": "The expected behavior is that when the Delete button is pressed, only the selected item should be deleted from the second row, while the rest of the layout remains intact. The second row should not be removed.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Run the attached test case.\n2. Drag the Open Type coolitem to the second row (last coolItem).\n3. Drag the Launch coolitem (last coolItem on the first row) to the second row, placing it after the Open Type item.\n4. Drag the Search coolitem to the second row, putting it after the Launch coolitem.\n5. Drag the Script coolitem to the second row (last coolItem on the first row), placing it after the Search coolitem.\n6. Press the Delete button."
+}

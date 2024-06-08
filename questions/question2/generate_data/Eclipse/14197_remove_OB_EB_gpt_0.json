@@ -1,0 +1,8 @@
+{
+  "id": "14197",
+  "title": "Removing a working set immediately causes changes",
+  "description": "When removing a working set, changes occur immediately.",
+  "OB": "Upon removing a working set, the selected package view becomes unfiltered, and changes take place instantly.",
+  "EB": "When removing a working set, we expect that the package view should remain filtered as it was before, and changes should not occur immediately. The working set removal should be a separate action from applying any changes.",
+  "SR": "To reproduce the issue: 1. Create a working set with one project and select it, ensuring the package view is filtered. 2. Open the working set dialog again. 3. Create a second working set. 4. Delete the first working set."
+}

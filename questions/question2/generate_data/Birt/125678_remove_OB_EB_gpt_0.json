@@ -1,0 +1,8 @@
+{
+  "id": "125678",
+  "title": "The original chart instance in report design handle is not modified after running the report",
+  "description": "When generating a report with a chart in the design, the chart instance in the report design handle remains unchanged after the report is executed.",
+  "OB": "After running the report, the chart instance in the report design handle still displays the same data and appearance as in the original design.",
+  "EB": "The expected behavior is that the chart instance in the report design handle should reflect the updated data and appearance as specified in the report generation process. It should not retain the old design information.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the report design tool.\n2. Create a new report with a chart element.\n3. Customize the chart's data and appearance in the design handle.\n4. Save the report design.\n5. Generate the report using the saved design.\n6. Examine the chart instance in the report design handle, and you will observe that it has not been updated as expected."
+}

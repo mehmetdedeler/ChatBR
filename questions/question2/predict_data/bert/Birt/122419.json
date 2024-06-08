@@ -1,0 +1,1 @@
+{"id": "122419", "title": "Bug 122419Masterpage cannot access Data Set properties", "description": " Bug 122419Masterpage cannot access Data Set properties If one references a data set property in the master page, i.e.", "OB": " row[\"title\"],then the viewer displays only 'undefined'.", "EB": "", "SR": ""}

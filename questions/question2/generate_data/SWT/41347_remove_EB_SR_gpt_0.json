@@ -1,0 +1,8 @@
+{
+  "id": "41347",
+  "title": "Bug 41347 - CCombo Mouse Selection Issue",
+  "description": "The issue discusses an unexpected behavior related to CCombo's mouse selection, particularly the firing of defaultSelection events, causing confusion for users.",
+  "OB": "When the CCombo's drop-down list is opened using the mouse, and an entry is selected using the mouse, the CCombo triggers a defaultSelection event. This behavior is inconsistent with standard Combos. As a result, it's challenging to differentiate between selecting an entry with the mouse and pressing Enter from the CCombo's text field.",
+  "EB": "The expected behavior is that when a CCombo's drop-down list is opened with the mouse, selecting an entry using the mouse should not trigger a defaultSelection event. This should align with the behavior of standard Combos. Users should be able to distinguish between selecting an entry with the mouse and pressing Enter from the text field.",
+  "SR": "To reproduce the issue:\n1. Use a CCombo.\n2. Open the combo list by clicking the drop-down arrow with the mouse.\n3. Select an entry from the list using the mouse.\n\nExpected Result: Selecting an entry from the list using the mouse should not trigger a defaultSelection event.\n\nActual Result: The CCombo fires a defaultSelection event when an entry is selected with the mouse, making it indistinguishable from pressing Enter from the text field."
+}

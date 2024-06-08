@@ -1,0 +1,8 @@
+{
+  "id": "9619",
+  "title": "Bug 9619: Move static member: Dialog details",
+  "description": "Bug 9619 - Move static member: Dialog details 20020212a. Mnemonics b. No validation on the type field. Type existence is not too expensive (done in the type wizard for super class), so could be done. At least isValidTypeName f. label could say 'Select destination type:' g.",
+  "OB": "The current dialog for moving static members does not have mnemonics. Additionally, there is no validation on the type field, and the label does not provide clear instructions for selecting the destination type.",
+  "EB": "I expect the dialog to include mnemonics for easier navigation. The type field should have validation to ensure that the entered type exists, similar to the validation in the type wizard for super class. The label should be updated to 'Select destination type.'",
+  "SR": "To reproduce the issue:\n1. Open the dialog for moving static members.\n2. Observe that there are no mnemonics present.\n3. Try entering an invalid type in the type field and notice that there is no validation.\n4. Observe that the label does not indicate 'Select destination type.'"
+}

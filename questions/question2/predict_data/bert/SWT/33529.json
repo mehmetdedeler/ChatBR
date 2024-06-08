@@ -1,0 +1,1 @@
+{"id": "33529", "title": "Bug 33529Banded background shows through in text's focus rings", "description": "", "OB": " Bug 33529Banded background shows through in text's focus rings", "EB": "", "SR": " RC1 open any plugin.xml file with PDE editorObserve: banded background shows through in the focus ring are of all text fields(editable and non editable)"}

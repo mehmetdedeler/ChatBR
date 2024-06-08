@@ -1,0 +1,8 @@
+{
+  "id": "7752",
+  "title": "Bug 7752: Exporting multiple files with the same name under different directories to a zip file fails.",
+  "description": "",
+  "OB": "When attempting to export multiple files with the same name under different directories to a zip file, an error occurs during the export process.",
+  "EB": "The export process should successfully create a zip file containing all selected files, even if they share the same name but belong to different directories.",
+  "SR": "1. Launch WSWB and create two projects.\n2. Under each project, create a new file with the same name (e.g., \"foo.txt\").\n3. From the main menu, select File > Export and choose Zip File as the export option.\n4. In the Export dialog window, select both projects, provide a name for the zip file (e.g., \"test.zip\"), and initiate the export process."
+}

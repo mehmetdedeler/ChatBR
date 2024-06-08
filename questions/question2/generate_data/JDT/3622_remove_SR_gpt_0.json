@@ -1,0 +1,8 @@
+{
+  "id": "3622",
+  "title": "Confusing Message in New Package Wizard",
+  "description": "The New Package Wizard displays a confusing message when creating a package with an empty name field.",
+  "OB": "When invoking the New Java Package wizard, before entering any text into the package name field, a message appears at the top that says, 'A folder corresponding to the package name already exists.' This message appears even when the package name field is empty, causing confusion about its meaning. It is unclear whether this message should be considered an error, and if it is, whether it should be displayed in red with an error icon.",
+  "EB": "The expected behavior should be as follows: When invoking the New Java Package wizard and before entering any text into the package name field, no message should appear at the top. If a message is necessary to indicate that a package with an empty name cannot be created, it should be a clear warning message rather than an error message. The 'Finish' button should also be disabled until a valid name is provided.",
+  "SR": "To better understand and address the problem, please provide clear and detailed steps to reproduce the issue, including the actions taken and what should happen when following these steps."
+}

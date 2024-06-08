@@ -1,0 +1,8 @@
+{
+  "id": "11863",
+  "title": "Bug 11863: Update Test Suite action does not allow removal",
+  "description": "",
+  "OB": "When using the 'Update Test Suite' action, it is not clear that selecting 'Y' in the dialog will result in 'X' being removed.",
+  "EB": "The expected behavior is that the 'Update Test Suite' action should allow the removal of 'X' when 'Y' is selected in the dialog, and this behavior should be clearly communicated to the user.",
+  "SR": "To reproduce the issue:\n1. Perform an update on a test suite that contains 'X'.\n2. Use the 'Update Test Suite' action.\n3. Select 'Y' in the dialog.\n4. Observe that 'X' is not removed as expected, and the behavior is unclear to the user."
+}

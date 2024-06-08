@@ -1,0 +1,1 @@
+{"bug_id": "123036", "title": "Bug 123036 Data in a reprot is doubly stored", "description": "We currently stored data twice. Once in the content stream, once by DtE. The instance stored by content stream should not be there."}

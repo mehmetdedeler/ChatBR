@@ -1,0 +1,1 @@
+{"id": "25507", "title": "Bug 25507Compare view prevents Ctrl + F6 working", "description": "Bug 25507Compare view prevents Ctrl + F6 working ", "OB": "", "EB": "", "SR": "20021023If you have a compare view up you cannot use Ctrl+F6.STEPS1) Open some editors2) Hit Ctrl+F6 editors come up3) Compare a class with another version4) Hit Ctrl+F6nothing "}

@@ -1,0 +1,8 @@
+{
+  "id": "103963",
+  "title": "Bug 103963: If there is no data for series, it should pop up a friendly error message to remind.",
+  "description": "When attempting to create a chart and selecting a column without data, there is a lack of appropriate feedback or error messaging.",
+  "OB": "When selecting a column without data for the chart, no error message is displayed, leaving the user unaware of the issue.",
+  "EB": "The expected behavior is that when a user selects a column without data for the chart, the system should display a friendly and informative error message. The message should clearly communicate that there is no data available for the selected series, guiding the user on how to resolve the issue or suggesting alternative actions.",
+  "SR": "To reproduce the issue:\n1. Create a chart.\n2. Set the data definition.\n3. Select a column without any data.\n4. Observe the lack of a friendly error message or any feedback regarding the absence of data for the selected series."
+}

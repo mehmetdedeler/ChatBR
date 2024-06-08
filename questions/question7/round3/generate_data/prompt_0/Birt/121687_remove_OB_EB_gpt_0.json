@@ -1,0 +1,1 @@
+{"id": "121687", "title": "Bug 121687: Exception thrown when exporting data in a table inside a grid cell", "description": "", "OB": "", "EB": "", "SR": "To reproduce the bug:\n1. Insert a table inside one grid cell.\n2. Insert another table inside the other grid cell."}

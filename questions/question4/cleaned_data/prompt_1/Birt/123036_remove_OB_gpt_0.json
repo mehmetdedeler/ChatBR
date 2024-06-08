@@ -1,0 +1,1 @@
+{"id": "123036", "title": "Bug 123036 Data in a report is doubly stored", "description": "", "OB": "When generating a report, the data is being stored twice, causing duplication.", "EB": "The instance stored by the content stream should not be saved.", "SR": "To fix this issue, ensure that the data is only stored once, either in the content stream or by DtE."}

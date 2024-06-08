@@ -1,0 +1,8 @@
+{
+  "id": "35156",
+  "title": "Ctrl+F1 Inconsistent Functionality in Help Search Fields",
+  "description": "The Ctrl+F1 shortcut is inconsistently functioning across various fields within the help search feature.",
+  "OB": "Ctrl+F1 shortcut functionality is limited to specific fields in the help search, not universally applicable.",
+  "EB": "Ctrl+F1 should uniformly function across all fields within the help search feature.",
+  "SR": "1. Open the help search feature.\n2. Navigate to different sections or fields within the help search.\n3. Try using Ctrl+F1 shortcut in each field.\n4. Note the inconsistency in its functionality across the various fields."
+}

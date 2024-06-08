@@ -1,0 +1,1 @@
+{"bug_id": "23028", "title": "Bug 23028EC: Tab unindent does not work", "description": " select a block of text in the Java editor press Tab and the whole block will be indented now press Shift+Tab and focus will be reassigned instead of unindenting theblock"}

@@ -1,0 +1,8 @@
+{
+  "id": "13189",
+  "title": "Bug 13189: Refactoring - Deleting Fields Context Menu Overridden by Message Dialog",
+  "description": "20020409I on LinuxMotif and w2k: 1. Setup JUnit. 2. <Additional Context>",
+  "OB": "Observed Behavior is that no context menu is displayed; instead, a message dialog immediately prompts whether to delete the getter/setter as well.",
+  "EB": "Upon right-clicking to delete fields during refactoring, the expected behavior is to display a context menu allowing the user to choose specific actions, such as deleting only the selected fields.",
+  "SR": "1. Open JUnit. 2. <Steps to Reproduce> 3. Right-click on the fields to be deleted during refactoring. 4. Observe the absence of the context menu and the immediate appearance of a message dialog prompting the deletion of getter/setter as well."
+}

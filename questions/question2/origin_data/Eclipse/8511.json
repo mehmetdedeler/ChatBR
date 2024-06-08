@@ -1,0 +1,1 @@
+{"bug_id": "8511", "title": "Bug 8511Cannot mark a task as completed without the mouse", "description": "The only place that a task can be marked as completed is via a double click onthe completed check box. Ditto for setting the severity. This should beaddressed when the table navigation is implemented."}

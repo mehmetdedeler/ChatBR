@@ -1,0 +1,8 @@
+{
+  "id": "2940",
+  "title": "Bug 2940 - Export Zip: Updating of checkboxes should use busy cursor",
+  "description": "In a workspace with many projects, when exporting a Zip file, the updating of checkboxes should use a busy cursor to indicate progress.",
+  "OB": "It takes a long time (approximately 30 seconds in my case) to update the checked state of the table. A busy cursor should be shown during this process.",
+  "EB": "The expected behavior is that when updating the checkboxes for the projects, a busy cursor should be displayed to indicate that the system is processing the changes. This will provide feedback to the user that the operation is ongoing.",
+  "SR": "To reproduce this issue:\n1. Open a workspace with many projects.\n2. Navigate to the 'Export Zip' option.\n3. Select all projects that you want to include in the Zip file.\n4. Choose the file types you wish to export.\n5. Press the 'Ok' button to initiate the export process. The updating of checkboxes should be accompanied by a busy cursor to show the progress."
+}

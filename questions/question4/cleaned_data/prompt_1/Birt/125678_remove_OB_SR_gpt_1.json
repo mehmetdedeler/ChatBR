@@ -1,0 +1,8 @@
+{
+  "id": "125678",
+  "title": "Bug 125678: Original chart instance in report design handle not modified after running the report",
+  "description": "The original chart instance in the report design handle is not being modified after running the report.",
+  "OB": "Upon executing the report, the chart instance remains unchanged, and it does not reflect the expected modifications based on the report data.",
+  "EB": "After running the report, I anticipate that the chart instance obtained during design time should be updated to reflect the data bound to it. However, this behavior is not observed. This issue was not present up to BIRT 2.0M3, where the chart was correctly updated after running the report.",
+  "SR": "1. Obtain the design time instance of the chart in the application.\n2. Invoke the method to run the report using the obtained chart instance.\n3. Verify that after running the report, the chart instance reflects the data it is bound to. Note the absence of this behavior, which was previously functioning correctly up to BIRT 2.0M3."
+}

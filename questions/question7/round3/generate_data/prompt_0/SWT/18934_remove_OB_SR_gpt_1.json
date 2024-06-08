@@ -1,0 +1,1 @@
+{"id": "18934", "title": "Bug 18934: Scrollbars should be disabled in ImageAnalyzer example", "description": "", "OB": "The scrollbars in the ImageAnalyzer example are not disabled.", "EB": "Scrollbars in the ImageAnalyzer example should be disabled.", "SR": "To reproduce: 1. Open the ImageAnalyzer example. 2. Observe that the scrollbars are enabled. "}

@@ -1,0 +1,1 @@
+{"id": "7581", "title": "Bug 7581: ComboBoxCellEditor sizing issue in property sheet", "description": "From ECJoe Winchester <JoeWin@us.ibm.com wrote in message ...", "OB": "The ComboBoxCellEditor is not sizing correctly in the property sheet.", "EB": "", "SR": ""}

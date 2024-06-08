@@ -1,0 +1,8 @@
+{
+  "id": "10403",
+  "title": "Bug 10403 - Project Creation Should Confirm the 'bin' Directory Can Be Scrubbed",
+  "description": "This is a bug report related to project creation.",
+  "OB": "When a user creates a new project for an existing directory structure and configures the output folder to point at a 'bin' directory, there is no confirmation or check to ensure that the 'bin' directory can be safely deleted and subsequently rebuilt. Some users are creating projects and directing the output folder to a 'bin' directory that may contain more than just .class files, which cannot be regenerated from the available .java files.",
+  "EB": "The expected behavior is that when a user creates a new project for an existing directory structure and configures the output folder to point at a 'bin' directory, there should be a confirmation or check to ensure that the 'bin' directory can be safely deleted and subsequently rebuilt. This is particularly important because the 'bin' directory might contain files other than .class files, which cannot be regenerated from the available .java files.",
+  "SR": "The steps to reproduce the bug are not provided. To assist in resolving this issue, please provide clear and detailed steps on how to recreate the problem."
+}

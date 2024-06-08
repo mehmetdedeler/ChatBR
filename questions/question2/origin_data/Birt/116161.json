@@ -1,0 +1,1 @@
+{"bug_id": "116161", "title": "Bug 116161Dynamic text can't be added to the library by dragging from the palette to the outline view.", "description": "Description: Dynamic text can't be added to the library by dragging from thepalette to the outline view.Steps to reproduce:1. Drag a dynamic text item from palette to outline view.2. It is forbidden."}

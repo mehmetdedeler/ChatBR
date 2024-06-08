@@ -1,0 +1,1 @@
+{"bug_id": "13481", "title": "Bug 13481Exceptions trying to close a Search View", "description": "build 20020409 on WinXP. one window open singlestacked Java editor Outline view docked to the right Search view docked to the top tried to close the Search view and got the attached exceptions (forced myworkbench to close)"}

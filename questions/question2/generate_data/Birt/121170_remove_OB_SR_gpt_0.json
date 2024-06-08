@@ -1,0 +1,8 @@
+{
+  "id": "121170",
+  "title": "Bug 121170 - get column label from meta data object should return some user recognizable strings",
+  "description": "",
+  "OB": "When using the 'get column label' function from the meta data object, it currently returns gibberish or non-user recognizable strings.",
+  "EB": "The 'get column label' function from the meta data object should return user recognizable labels that can be easily understood by the end user. The labels displayed before and after data extraction should be the same.",
+  "SR": "To reproduce the issue:\n1. Access the meta data object.\n2. Use the 'get column label' function with any valid column.\n3. Observe that the returned label is not user-friendly or easily understandable."
+}

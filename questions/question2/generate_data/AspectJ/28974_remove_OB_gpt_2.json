@@ -1,0 +1,8 @@
+{
+  "id": "28974",
+  "title": "Compiler error when introducing a 'final' field",
+  "description": "When introducing a 'final' field, a compiler error occurs with no source information available. This issue is preventing successful compilation.",
+  "OB": "When trying to compile the code, a compiler error occurs. The error message is: 'Cannot assign a value to the final field com.ibm.amc.DemoBean.ajc$interField$comibmamc$verbose.'",
+  "EB": "The expected behavior is that the code compiles without any errors. The final field should be assignable without causing a compilation error.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the 'DemoBeanEJB.java' file located in the 'com/ibm/amc/' directory.\n2. Look for the line with the declaration 'static final boolean DemoBean.verbose = true;'\n3. Attempt to compile the code using the AspectJ Compiler (ajc).\n4. Observe the compilation error message: 'Cannot assign a value to the final field com.ibm.amc.DemoBean.ajc$interField$comibmamc$verbose.'"
+}

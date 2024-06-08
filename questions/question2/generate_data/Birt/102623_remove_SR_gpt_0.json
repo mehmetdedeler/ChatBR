@@ -1,0 +1,8 @@
+{
+  "id": "102623",
+  "title": "Image can't be refreshed after importing again.",
+  "description": "",
+  "OB": "After importing an image again, the new image is not displayed, and the original image remains on the layout.",
+  "EB": "When importing a new image (e.g., 'image1.jpg') into the layout again, the expected behavior is that the new image should be displayed. The actual result is that the original image is still displayed.",
+  "SR": "1. Open the application and go to the layout where an image is displayed.\n2. Import a new image file named 'image1.jpg' into the layout.\n3. Observe the layout to see if the new image is displayed.\n4. The bug occurs if the original image is still displayed instead of the newly imported 'image1.jpg'."
+}

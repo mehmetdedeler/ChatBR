@@ -1,0 +1,1 @@
+{"id": "16308", "title": "Bug 16308[DND] dnd from os to navigator shows an incorrect icon", "description": "", "OB": " Bug 16308[DND] dnd from os to navigator shows an incorrect icon smoke test for 0518it shows a move icon although move will not happen", "EB": "", "SR": ""}

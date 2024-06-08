@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Bug 123036 - Duplicate Data Storage Issue in Reports",
+  "description": "This bug report is regarding a data duplication problem in reports. Data is stored redundantly, and the content stream may contain instances that should be excluded.",
+  "OB": "The observed behavior is that an instance stored in the content stream is present when it should not be there.",
+  "EB": "The expected behavior is that the instance stored by the content stream is not present, ensuring that data is not duplicated in reports.",
+  "SR": "To reproduce this bug:\n1. Generate or access a report.\n2. Observe that the instance stored by the content stream is incorrectly included in the report."
+}

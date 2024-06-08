@@ -1,0 +1,1 @@
+{"id": "41362", "title": "Bug 41362GTKBIDI: RTL support in Group", "description": "Bug 41362GTKBIDI: RTL support in Group ", "OB": "", "EB": "Text direction of label, which is used as title of SWT Group widget, should beset separately. ", "SR": ""}

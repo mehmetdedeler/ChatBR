@@ -1,0 +1,8 @@
+{
+  "id": "10022",
+  "title": "Bug 10022: Incorrect 'Build' Popup Action Enablement",
+  "description": "The 'Build' popup action enablement is incorrect.",
+  "OB": "The 'Build' popup action is always enabled, even when a build is already completed. This leads to unnecessary manual builds.",
+  "EB": "The 'Build' popup action should only be enabled if a manual build is required. If the build is already done automatically, the 'Build' option should be disabled.",
+  "SR": "Ensure that the 'Build' popup action is correctly enabled/disabled based on whether a manual build is needed, and update the UI accordingly. Review the logic that determines the enablement of the 'Build' action to prevent unnecessary builds."
+}

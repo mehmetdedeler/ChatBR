@@ -1,0 +1,1 @@
+{"id": "46986", "title": "Bug 46986org.apache.jasper.Constants public arrays are mutable", "description": " Bug 46986org.apache.jasper.Constants public arrays are mutable", "OB": " There are various public String arrays in org.apache.jasper.Constants. Although the array variables are final, any code can change any of the array constants.", "EB": "", "SR": ""}

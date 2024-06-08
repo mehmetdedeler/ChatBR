@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+In your bug reports, it is essential to provide clear and informative statements for the following categories:
+- **Observed Behavior (OB):** This section should describe the relevant software behavior, actions, output, or results. Avoid vague statements like "the system does not work."
+- **Expected Behavior (EB):** This part should articulate what the software should or is expected to do, using phrases like "should...", "expect...", or "hope...". Avoid suggestions or recommendations for bug resolution in this section.
+- **Steps to Reproduce (SR):** Include user actions or operations that can potentially lead to reproducing the issue. Use phrases like "to reproduce," "steps to reproduce," or "follow these steps."
+It is possible that the bug report may lack sufficient details in the OB, EB, and SR sections. In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements. Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '18268', 'title': 'Bug 18268not finding images and files in NLspecific subdirectories', 'description': 'Bug 18268not finding images and files in NLspecific subdirectories build 200205291235Setup Start eclipse. Delete <install/eclipse/org.eclipse.platform2.0.0/eclipselg.gif3. Edit <install/eclipse/org.eclipse.platform2.0.0/about.iniChange the value of the aboutImage property:aboutImage=$nl$/eclipselg.gif4. Edit <install/eclipse/org.eclipse.platform2.0.0/about.iniChange the value of the aboutImage property:aboutImage=nl/en/eclipselg.gif7. Open the about dialogObserve: There is a main image again.This suggests that the UI is correctly passing the entire pathto IPluginDescriptor.find, but that the "$nl$" path segment is not beinghandled correctly. ', 'OB': 'Open the about dialog Observe: There is a main image. ', 'EB': '', 'SR': 'Exit eclipse.1. Copy the file <install/eclipse/org.eclipse.platform2.0.0/eclipselg.gifdown into an NLspecific subdirectory; i.e., move it to<install/eclipse/org.eclipse.platform2.0.0/nl/en/eclipselg.gif2. Start eclipse5. Start eclipse8. '}
+</BUG REPORT>

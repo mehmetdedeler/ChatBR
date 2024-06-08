@@ -1,0 +1,8 @@
+{
+  "id": "269522",
+  "title": "Bug 269522 - Cross Reference View and Markers Mix Up Joinpoints Assigned to Advice",
+  "description": "This bug report addresses a problem related to the Cross Reference view and markers mixing up joinpoints assigned to advice.",
+  "OB": "The observed behavior includes the following issues:\n1. When selecting line 22, you can observe 5 joinpoints, but there should only be 3.\n2. When selecting line 68, you see zero joinpoints, even though there should be 2.\n3. Right-clicking the marker at line 68 and choosing 'advises' reveals all 5 joinpoints instead of the expected 2.",
+  "EB": "The expected behavior should be as follows:\n1. When selecting line 22, you should see only 3 joinpoints, not 5.\n2. When selecting line 68, it should display 2 joinpoints, not zero.\n3. Right-clicking the marker at line 68 and choosing 'advises' should reveal only the 2 relevant joinpoints, not all 5.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open and perform a clean compile on the attached project.\n2. Open the Cross Reference view.\n3. Select line 22 and note that it shows 5 joinpoints instead of the expected 3.\n4. Select line 68 and observe that it displays zero joinpoints instead of the expected 2.\n5. Right-click the marker at line 68 and choose 'advises' to see all 5 joinpoints instead of only 2."
+}

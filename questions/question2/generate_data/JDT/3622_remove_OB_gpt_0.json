@@ -1,0 +1,8 @@
+{
+  "id": "3622",
+  "title": "Confusing Message in New Package Wizard",
+  "description": "The New Package Wizard displays a confusing message when creating a package with an empty name field.",
+  "OB": "The observed behavior is not explicitly mentioned in the report. Please provide details about what exactly happens when this issue occurs.",
+  "EB": "Based on the information provided, the expected behavior should be as follows: When invoking the New Java Package wizard and before entering any text into the package name field, a message should not appear at the top. If a message is necessary to indicate that a package with an empty name cannot be created, it should be a clear warning message, and it should not enable any actions until a valid name is provided.",
+  "SR": "To better understand and address the problem, please provide clear and detailed steps to reproduce the issue. Starting from the beginning of the process, please describe the actions taken and what should happen when following these steps."
+}

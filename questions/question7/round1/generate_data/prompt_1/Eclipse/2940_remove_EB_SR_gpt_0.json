@@ -1,0 +1,1 @@
+{"id": "2940", "title": "Bug 2940 - Export Zip: Updating of checkboxes should use busy cursor", "description": "It takes a long time (30 seconds in my case) to update the checked state of the table. A busy cursor should be shown.", "OB": "It takes a long time (30 seconds in my case) to update the checked state of the table. A busy cursor should be shown.", "EB": "", "SR": ""}

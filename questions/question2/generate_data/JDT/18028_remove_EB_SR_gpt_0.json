@@ -1,0 +1,8 @@
+{
+  "id": "18028",
+  "title": "Bug 18028 - 'Rename Package' Does Not Check Resource Writability",
+  "description": "The 'Rename Package' functionality does not verify if all resources are writeable, leading to an unexpected exception dialog.",
+  "OB": "Upon creating a package that contains a Compilation Unit (CU) and making the CU readonly, attempting to rename the package results in the display of an unexpected exception dialog.",
+  "EB": "The 'Rename Package' functionality should verify if all resources, including the CU, are writeable before allowing the renaming of the package. Users should not encounter an unexpected exception dialog in this scenario.",
+  "SR": "To reproduce the issue, follow these steps:\n1) Create a package with a Compilation Unit (CU) in it.\n2) Make the CU readonly.\n3) Attempt to rename the package.\nObservation: After the renaming process is finished, you get an unexpected exception dialog."
+}

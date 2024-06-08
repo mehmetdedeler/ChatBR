@@ -1,0 +1,8 @@
+{
+  "id": "18163",
+  "title": "Bug 18163: Add Import doesn't ignore leading/trailing whitespace",
+  "description": "When attempting to use Ctrl+M (Add Import), the action fails due to trailing whitespace in the selected text.",
+  "OB": "Upon using Ctrl+M (Add Import), no action occurs when there is trailing whitespace within the selected text.",
+  "EB": "Ctrl+M (Add Import) should successfully add imports even if there is leading or trailing whitespace within the selection.",
+  "SR": "1. Select text containing leading or trailing whitespace.\n2. Use Ctrl+M (Add Import).\n3. Observe that the import should be added without being affected by the whitespace."
+}

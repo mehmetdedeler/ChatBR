@@ -1,0 +1,1 @@
+{"bug_id": "7411", "title": "Bug 7411Cannot add breakpoint on super()", "description": "If you are in a constructor and you wish to breakpoint on \"super()\", it iscurrently not possible."}

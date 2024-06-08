@@ -1,0 +1,8 @@
+{
+  "id": "18285",
+  "title": "Bug 18285 - Double-Clicking on Import Statement Redirects to Referenced Type",
+  "description": "Double-clicking on an import statement in the package view outline results in opening the editor for the referenced type instead of the unit hosting the import reference.",
+  "OB": "In build 20020528, when double-clicking on a type import statement in the package view outline, it opens the editor for the target type instead of the unit hosting the import reference.",
+  "EB": "The expected behavior is that double-clicking on a type import statement in the package view outline should open the editor for the unit hosting the import reference, not the target type itself.",
+  "SR": "To reproduce the issue in build 20020528:\n1. Open the package view outline.\n2. Locate a type import statement (e.g., 'import com.example.MyType;').\n3. Double-click on the import statement.\nObservation: The editor opens for the referenced type ('MyType') rather than the unit hosting the import reference."
+}

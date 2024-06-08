@@ -1,0 +1,8 @@
+{
+  "id": "13269",
+  "title": "Incorrect operation order in jarpackager",
+  "description": "Same issue occurs for '.jardesc' files. Perhaps displaying a warning in the wizard's header, along with the icon, would be more appropriate in the case of the '.jardesc' file, rather than a dialog box at the end. If the user prefers that, they should utilize the 'save the manifest in the workspace' option combined with the 'reuse and save the manifest in the workspace' option. (Reported on 20020409 by JRT.)",
+  "OB": "The wizard fails to complete its operation when not overwriting the '.jardesc' file.",
+  "EB": "Regardless of whether the user chooses to overwrite or not, the wizard should complete its operation successfully. The 'use existing manifest from workspace' option should not result in saving a new manifest file.",
+  "SR": "1. Open the jarpackager wizard.\n2. Choose a '.jardesc' file for packaging.\n3. Select the 'use existing manifest from workspace' option.\n4. Complete the wizard without overwriting the '.jardesc' file.\n5. Observe the failure of the wizard to complete its operation successfully."
+}

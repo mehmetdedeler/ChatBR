@@ -1,0 +1,8 @@
+{
+  "id": "124620",
+  "title": "Bug 124620 - Referenced Parameter icon remains valid after deleting parameter in library",
+  "description": "When deleting a parameter in the library and reopening the report design file, the parameter icon appears unaffected. However, similar operations on datasets result in invalid dataset icons in the report.",
+  "OB": "Upon deleting a parameter in the library, reopening the report design file shows that the parameter icon remains unaffected. In contrast, performing similar operations on datasets renders their icons invalid in the report.",
+  "EB": "After deleting a parameter in the library, the expected behavior is that the corresponding parameter icon should be invalid when reopening the report design file. This behavior should be consistent with the handling of dataset icons.",
+  "SR": "1. Open a report design file that references a parameter from the library.\n2. Delete the referenced parameter in the library.\n3. Reopen the report design file.\n\nExpected result: The icon of the deleted parameter should be invalid, matching the behavior observed with dataset icons."
+}

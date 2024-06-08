@@ -1,0 +1,8 @@
+{
+  "id": "129561",
+  "title": "Bug 129561HCGBIDI: Undesirable generation of SQL query elements",
+  "description": "Bug 129561HCGBIDI: Undesirable generation of SQL query elements. This is not even NLS specific defect. Otherwise, the query will fail.\n1. Create a table with a name including a blank space in this database. Select 'Preview Results'.\nResult: Exception is fired.\n7. 'Table Name'. 'Column Name'\n8. ",
+  "OB": "When attempting to preview results after creating a table with a name containing a blank space, an exception is thrown.",
+  "EB": "The issue occurs because, on the Query screen in the Edit Data Set dialog, the drag/drop of columns into the Query screen must enclose every entity name, including blank spaces, in quotation marks. The expected behavior is that no exception should be issued when selecting 'Preview Results' after performing the mentioned steps.",
+  "SR": "Steps to reproduce:\n1. Create a DB2 database.\n2. Ensure it has a column with a name containing a blank space.\n3. Create a Data Source based on the database from step 1.\n4. Create a Data Set based on the table from Step 2.\n5. On the Query screen, drag and drop the column name from step 2 into the select portion of the clause.\n6. Manually change the SQL query as follows: select USER."
+}

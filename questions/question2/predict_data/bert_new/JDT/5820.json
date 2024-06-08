@@ -1,0 +1,1 @@
+{"id": "5820", "title": "Bug 5820Close all editors brings up hierarchy of object", "description": "Bug 5820Close all editors brings up hierarchy of object Build: 11071. ", "OB": "Hit CtrlShiftF4The hierarchy for Object appears after ~30 seconds.This is very confusing. ", "EB": "", "SR": "Open a Java editor in the Java perspective2. Select the project3. "}

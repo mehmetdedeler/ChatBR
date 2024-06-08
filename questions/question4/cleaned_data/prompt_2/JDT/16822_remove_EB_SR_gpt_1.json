@@ -1,0 +1,8 @@
+{
+  "id": "16822",
+  "title": "Bug 16822 - Search results persist after moving file",
+  "description": "Build 200205211.",
+  "OB": "After moving X.java to 'P/src2', the search result remains in the search view. When attempting to double-click on the search result, a 'Search Error' dialog appears with the message: 'An error occurred while creating a Java element. Reason: X.java does not exist.'",
+  "EB": "After moving X.java to 'P/src2', the search result should be automatically removed from the search view. Double-clicking on the search result should not trigger any errors, and the Java element should be created successfully.",
+  "SR": "1. Open the project 'P'.\n2. Move the file 'X.java' to the 'P/src2' directory.\n3. Open the search view.\n4. Observe that the search result for 'X.java' is still present.\n5. Double-click on the search result.\n6. Observe the 'Search Error' dialog with the mentioned error message."
+}

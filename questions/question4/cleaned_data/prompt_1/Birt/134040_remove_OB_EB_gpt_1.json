@@ -1,0 +1,8 @@
+{
+  "id": "134040",
+  "title": "Bug 134040: Row should not have the page break property in Property Editor now.",
+  "description": "",
+  "OB": "When selecting a row in the grid/table, the page break property is present in the Property Editor.",
+  "EB": "The page break property should not be displayed in the Property Editor when selecting a row in the grid/table.",
+  "SR": "Steps to Reproduce:\n1. Insert a grid/table.\n2. Select one row."
+}

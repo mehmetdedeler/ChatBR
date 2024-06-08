@@ -1,0 +1,1 @@
+{"id": "18351", "title": "Bug 18351[Dialogs] Buttons on switch to editor dialog are too small", "description": "Bug 18351[Dialogs] Buttons on switch to editor dialog are too small ", "OB": "", "EB": "Should set same min size as in Dialog.createButton ", "SR": ""}

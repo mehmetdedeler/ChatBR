@@ -1,0 +1,8 @@
+{
+  "id": "132103",
+  "title": "No objects under Context in palette when scripting a data set",
+  "description": "When scripting a data set, there are no objects listed under the 'Context' section in the palette, which is unexpected.",
+  "OB": "When scripting a data set, no objects are displayed under the 'Context' section in the palette.",
+  "EB": "When scripting a data set, I expect to see the following objects listed under the 'Context' section in the palette: 'this,' 'row,' and 'reportContext.' Additionally, there should be other objects available for other methods.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create a new data set and select it.\n2. Switch to the script view, choose 'onFetch,' and open the palette."
+}

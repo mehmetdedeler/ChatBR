@@ -1,0 +1,8 @@
+{
+  "id": "123727",
+  "title": "Bug 123727 - 'Top N' and 'Bottom N' functions not functioning as expected",
+  "description": "The 'Top N' and 'Bottom N' functions are not working as intended when used in conjunction with report parameters.",
+  "OB": "When applying the 'Top N' function along with a report parameter in the chart filters, the displayed data does not reflect the expected 'Top N' results.",
+  "EB": "The 'Top N' function, when combined with a report parameter, should correctly filter and display the top N results in the chart, reflecting the user's specified conditions.",
+  "SR": "1. Create a new data source and a dataset.\n2. Define a report parameter.\n3. Drag a chart to the layout.\n4. In the chart dialogue, navigate to the 'select data' tab and click the 'filters' button.\n5. Set two filter conditions: one utilizing the 'Top N' function and the other utilizing the defined report parameter.\n6. Verify that the chart displays the expected results according to the specified 'Top N' condition and report parameter."
+}

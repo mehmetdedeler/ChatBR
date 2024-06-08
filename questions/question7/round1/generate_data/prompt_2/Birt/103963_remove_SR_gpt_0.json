@@ -1,0 +1,1 @@
+{"id": "103963", "title": "If there is no data for series, it should display a friendly error message", "description": "", "OB": "When previewing the series, no error message is displayed", "EB": "When there is no data for the series, a friendly error message should be displayed", "SR": "Steps to reproduce:\n1. Load the series with no data\n2. Preview the series"}

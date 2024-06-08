@@ -1,0 +1,1 @@
+{"bug_id": "7914", "title": "Bug 7914Cannot copy a Java project in the packages view", "description": "There is no way to copy a Java project in the packages view. You can copy aproject in the Navigator. This is a functional gap."}

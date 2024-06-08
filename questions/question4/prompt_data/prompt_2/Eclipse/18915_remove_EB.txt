@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '18915', 'title': 'Bug 18915[Preferences] switching between erroneous preferences pages should generate error, not warning.', 'description': '', 'OB': 'if i enter invalid data on any preference pages (and it red flags me on the ui),if i try to select a another page without fixing the problem, i get thefollowing warning dialog:"warningthe currently displayed page contains invalid values"this should be an "error" dialog considering one is not allowed to leave thepage without fixing the mistake. ', 'EB': '', 'SR': 'if i enter invalid data on any preference pages (and it red flags me on the ui),if i try to select a another page without fixing the problem, i get thefollowing warning dialog:"warningthe currently displayed page contains invalid values"this should be an "error" dialog considering one is not allowed to leave thepage without fixing the mistake. '}
+</BUG REPORT>

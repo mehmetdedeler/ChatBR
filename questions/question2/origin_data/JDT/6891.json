@@ -1,0 +1,1 @@
+{"bug_id": "6891", "title": "Bug 6891Enclosing type checkbox doesn't appear in tab order in new class wizard", "description": "Build 20011211In the new class wizard, the checkbox for enclosing type doesn't appear in thetab order.The JDT code doesn't seem to be doing any magic."}

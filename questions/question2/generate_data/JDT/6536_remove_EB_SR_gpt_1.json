@@ -1,0 +1,8 @@
+{
+  "id": "6536",
+  "title": "Bug 6536: 'Add Javadoc' Option Not Functioning for Fields in TH",
+  "description": "When trying to add Javadoc to a field in TH, the 'Add Javadoc' option from the context menu is unresponsive.",
+  "OB": "When attempting to use the 'Add Javadoc' option on a field in TH from its context menu, nothing happens. It does not add the Javadoc to the field. The menu option appears to be non-functional.",
+  "EB": "The expected behavior is that when selecting 'Add Javadoc' from the context menu for a field in TH, it should open a dialog or prompt for adding Javadoc comments to the selected field. The Javadoc comments should then be successfully added to the field after input.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open TH (presumably referring to a specific software or application).\n2. Navigate to a class or file containing a field for which you want to add Javadoc.\n3. Right-click on the field to open the context menu.\n4. Select the 'Add Javadoc' option from the context menu.\n5. Observe that nothing happens, and the Javadoc comments are not added to the field."
+}

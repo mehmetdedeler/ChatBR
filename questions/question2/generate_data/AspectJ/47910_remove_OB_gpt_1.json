@@ -1,0 +1,8 @@
+{
+  "id": "47910",
+  "title": "Bug 47910: 'ajc outjar' command generates jarfile without MANIFEST.MF",
+  "description": "When using the 'ajc outjar' command with a METAINF/MANIFEST.MF file inside, the resulting jar file does not contain the MANIFEST.MF file.",
+  "OB": "When I use the 'ajc outjar' command with a METAINF/MANIFEST.MF file inside, it generates a jar file, but the generated jar file does not contain the MANIFEST.MF file.",
+  "EB": "If the 'ajc outjar' command is used with a METAINF/MANIFEST.MF file inside, the resulting jar file should be a valid jar file, i.e., it should contain the MANIFEST.MF file.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Call the 'ajc sourceroots <mydir outjar <my.jar' command.\n2. An output file with a .jar extension is created.\n3. However, when you inspect the generated jar file, you will find that it does not contain the MANIFEST.MF file."
+}

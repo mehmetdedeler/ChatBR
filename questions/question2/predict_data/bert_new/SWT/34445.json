@@ -1,0 +1,1 @@
+{"id": "34445", "title": "Bug 34445Reverse sort for AddressBook example", "description": "When you click on the header for a column in the AddressBook example, it sortsthe selected column. ", "OB": "", "EB": "It would be nice if selecting it again reversed the sortas most client applications would. ", "SR": "Bug 34445Reverse sort for AddressBook example "}

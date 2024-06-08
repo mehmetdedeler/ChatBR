@@ -1,0 +1,1 @@
+{"bug_id": "17039", "title": "Bug 17039[Editor Mgmt] R1.0 workspace: Default perspective preference lost", "description": "build F1Change the default perspective in a workspace running on R1.0 from Resource toJavaRun the workspace with F1The default perspective setting is not honored"}

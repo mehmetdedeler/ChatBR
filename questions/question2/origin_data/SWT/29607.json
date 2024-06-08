@@ -1,0 +1,1 @@
+{"bug_id": "29607", "title": "Bug 29607[Cell Editors] usability: ComboBoxCellEditor unusable on GTK", "description": "20030114i cannot select anything from any comboboxcelleditor on gtk  it either doesnot expand at all or expands and hides the list right awaythis affects the task list as well as java editor hovers pref page"}

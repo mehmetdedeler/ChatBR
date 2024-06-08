@@ -1,0 +1,8 @@
+{
+  "id": "32286",
+  "title": "Bug 32286 - Button Orientation Resets When Toggling SWT.BORDER Property",
+  "description": "This bug report pertains to the behavior of Button controls in the SWT Controls example of Eclipse. When using SWT.ARROW buttons and toggling the SWT.BORDER property, the arrow alignment property of these buttons is unexpectedly reset to 'UP'.",
+  "OB": "The observed behavior is that when you use Button controls with the SWT.ARROW style, and you select or deselect the SWT.BORDER property, the arrow buttons change their orientation to something other than 'UP'. However, when the SWT.BORDER property is toggled, the arrow buttons revert to their 'UP' orientation.",
+  "EB": "The expected behavior is that selecting or deselecting the SWT.BORDER property should not affect the orientation of the arrow buttons. The arrow buttons should maintain their selected alignment regardless of the state of the border property.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Launch Eclipse, ensuring that it is not already running.\n2. Accept the new configuration defaults.\n4. Observe that the buttons change to arrow buttons pointing up.\n5. A new SWT Controls view should appear.\n8. The arrow buttons change their orientation.\n9. The arrows change their orientation back to 'UP' after selecting or deselecting the SWT.BORDER property."
+}

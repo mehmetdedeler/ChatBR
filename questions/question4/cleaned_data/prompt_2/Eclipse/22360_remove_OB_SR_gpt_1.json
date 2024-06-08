@@ -1,0 +1,8 @@
+{
+  "id": "22360",
+  "title": "Bug 22360[Fonts] FontRegistry instantiation issue with resources outside org.eclipse.jface.resource",
+  "description": "FontRegistry cannot be instantiated using resources outside org.eclipse.jface.resource. Currently, all the resources being looked up are limited to those relative to the location of the FontRegistry class within the org.eclipse.jface.resource path. A possible solution is to modify FontRegistry to accept a client class (or class loader) as an additional parameter in the constructor.",
+  "OB": "Attempting to instantiate FontRegistry with resources outside org.eclipse.jface.resource results in an error or unexpected behavior.",
+  "EB": "FontRegistry should be able to handle instantiation with resources outside org.eclipse.jface.resource. To achieve this, it can be enhanced to accept a client class or class loader as an additional parameter in the constructor.",
+  "SR": "1. Create a FontRegistry instance while providing resources located outside org.eclipse.jface.resource.\n2. Verify that the FontRegistry is successfully instantiated without errors.\n3. Confirm that the FontRegistry can now handle resources from locations beyond org.eclipse.jface.resource."
+}

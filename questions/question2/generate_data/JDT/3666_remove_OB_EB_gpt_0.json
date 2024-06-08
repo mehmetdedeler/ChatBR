@@ -1,0 +1,8 @@
+{
+  "id": "3666",
+  "title": "Code Assist Consumes Excessive Code",
+  "description": "Code assist consumes too much code in certain situations, causing inconvenience to the programmer.",
+  "OB": "The observed behavior is not provided in the report. Please specify what you see happening when code assist consumes too much code.",
+  "EB": "The expected behavior is also not described. Please explain what code assist should do correctly in this situation.",
+  "SR": "To better understand and address the problem, please provide clear and detailed steps to reproduce the issue. Starting from the beginning of the process, describe the actions taken and what should happen when following these steps." 
+}

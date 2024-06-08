@@ -1,0 +1,1 @@
+{"bug_id": "116758", "title": "Bug 116758There is no icon for image and chart template.", "description": "Description: There is no icon for image and chart template.Steps to reproduce:1. Create an image element and changes it to a template.2. There is no icon in front of it."}

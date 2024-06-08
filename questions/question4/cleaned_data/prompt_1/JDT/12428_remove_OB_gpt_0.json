@@ -1,0 +1,8 @@
+{
+    "id": "12428",
+    "title": "Bug 12428 - Pull Up: Confusing message",
+    "description": "Bug 12428 - Pull Up: Confusing message. The current message is incorrect. It should be 'Copy method 'void setUp()' FROM type 'TestCase'', with an uppercase 'C' in 'Copy'. Additionally, when selecting to delete setUp from TestCase, the message displayed under TestCase is 'Delete method 'void setUp()' declared in type 'junit.framework.TestCase''. (Markus)",
+    "OB": "The current message is confusing and contains errors. It should be 'Copy method 'void setUp()' FROM type 'TestCase'', with an uppercase 'C' in 'Copy'.",
+    "EB": "The message should be consistent and use the fully qualified name. So it should be 'Copy method 'void setUp()' FROM type 'junit.framework.TestCase''.",
+    "SR": "To reproduce the issue, perform the following steps:\n\n1. Run Pull up on TestCase.setUp to copy the method to Assert.\n2. Go to the 2nd page of the wizard."
+}

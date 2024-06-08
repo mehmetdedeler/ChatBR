@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '19458', 'title': 'Bug 19458[Navigator] Copy Project dialog UI problems', 'description': 'Bug 19458[Navigator] Copy Project dialog UI problems this is inred text. ', 'OB': '', 'EB': 'if i uncheck the default location checkbox, the default location shouldremain in the edit box (it should not clear it). it should be black text, and include the standard ontheflyvalidation small error icon. ', 'SR': "clean f2:create a single project, say 'test'.copy, paste.on the 'copy project' dialog:1. with use default location checked, i should still be able to select to viewor copy the default location from the edit box below.2. perhaps i want to choose apath close to the default location.3. "}
+</BUG REPORT>

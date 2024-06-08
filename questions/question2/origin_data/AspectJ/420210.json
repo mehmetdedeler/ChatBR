@@ -1,0 +1,1 @@
+{"bug_id": "420210", "title": "Bug 420210Support additional message insert keys in declare error/warning", "description": "It would be good to be able to insert the enclosing class name or enclosing member for a joinpoint."}

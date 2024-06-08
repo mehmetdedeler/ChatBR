@@ -1,0 +1,1 @@
+{"bug_id": "25387", "title": "Bug 25387[Wizards] [resources] File System Import changes file permissions", "description": "Creating a Project (simple or otherwise) and importing files into it using theimportFile System wizard takes away the executable permission from theimported exec files."}

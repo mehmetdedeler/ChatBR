@@ -1,0 +1,8 @@
+{
+  "id": "18934",
+  "title": "Bug 18934 - Scrollbars should be disabled in ImageAnalyzer example",
+  "description": "In the ImageAnalyzer example, there is an issue with the scrollbars that need to be addressed.",
+  "OB": "When using the ImageAnalyzer example, the scrollbars are still active and functional. Users can scroll horizontally and vertically within the image despite the intended behavior of the ImageAnalyzer.",
+  "EB": "Bug 18934 - Scrollbars should be disabled in ImageAnalyzer example. The expected behavior is that the scrollbars should be completely disabled, preventing any scrolling actions within the ImageAnalyzer. Users should not be able to scroll horizontally or vertically within the image.",
+  "SR": "To reproduce this issue:\n1. Open the ImageAnalyzer example.\n2. Load an image for analysis.\n3. Try to scroll both horizontally and vertically within the image. You should notice that the scrollbars are still functional, allowing unintended scrolling."
+}

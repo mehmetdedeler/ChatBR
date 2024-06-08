@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '151938', 'title': 'Bug 151938Handle Duplicate javaagent entries more gracefully', 'description': 'Failing that, it would be better to fail and give an error message than emit the bytecode.This issue came up for our automated installer, which adds a javaagent flag to VM startup commands. We are making our scripts more intelligent to avoid this issue, but we are probably not the only people who will hit this issue (e.g., if someone manually edits both setclasspath.bat and catalina.bat to add the flag for a Tomcat instance...) ', 'OB': '', 'EB': 'Bug 151938Handle Duplicate javaagent entries more gracefully It would be better if AspectJ detected that it was specified more than once and gave a warning then disabled all but one of the agents. ', 'SR': "If you start a java 5 VM with AspectJ's loadtime weaver specified more than once using the javaagent flag, if there is an aop.xml file defined, it chokes badly: it tries to reweave the woven AspectJ code and emits massive amounts of bytecode. "}
+</BUG REPORT>

@@ -1,0 +1,8 @@
+{
+  "id": "11306",
+  "title": "Bug 11306 - Unexpected Wizard Launch in New Class Creation",
+  "description": "This report addresses an issue related to the behavior of the New Class Wizard.",
+  "OB": "The observed behavior is missing in the report.",
+  "EB": "When a user selects 'Yes' in response to creating a new project, the Java Class wizard should open the Java Project wizard.",
+  "SR": "To reproduce this issue:\n1. In a new workspace, press the 'New Class' button in the Java perspective.\n2. Observe the unexpected behavior where the resulting dialog is the first page of the generic new project wizard instead of the expected Java Project wizard."
+}

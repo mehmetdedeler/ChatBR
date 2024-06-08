@@ -1,0 +1,8 @@
+{
+  "id": "4964",
+  "title": "Automatic Code Assist Fails to Prioritize Expected Method Suggestions",
+  "description": "While writing SWT code, the code assist feature unexpectedly inserts the incorrect method suggestion despite a more relevant option being available. For instance, when typing 'button.dispose(', the code assist incorrectly prioritizes 'DISPOSED' over the expected 'dispose()' method, leading to erroneous code completion. This disrupts the coding flow, necessitating manual deletion and correction of the inserted code.",
+  "OB": "In Build 204, when typing 'button.dispose(' in SWT code, the code assist displays a list with 'DISPOSED', 'intWidget', and 'dispose()' as options. Upon typing '(', the code assist automatically inserts the currently highlighted suggestion without user confirmation.",
+  "EB": "In this scenario, the code assist should intelligently recognize the context of the code being written, prioritizing the most relevant method suggestion ('dispose()') when '(' is typed after 'button.dispose'. Alternatively, the code assist behavior should be case-sensitive to ensure accurate and contextually appropriate suggestions.",
+  "SR": "Steps to reproduce:\n1. Open Build 204 and start typing SWT code.\n2. Enter 'button.dispose' in the code editor.\n3. Note the appearance of the code assist list with options like 'DISPOSED', 'intWidget', and 'dispose()'.\n4. Continue typing '(' after 'dispose'.\n5. Observe the automatic insertion of the selected suggestion from the list, despite 'dispose()' being the expected method."
+}

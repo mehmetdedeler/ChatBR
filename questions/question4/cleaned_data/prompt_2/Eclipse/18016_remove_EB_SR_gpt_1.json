@@ -1,0 +1,8 @@
+{
+  "id": "18016",
+  "title": "Most menu actions enabled for custom entries from the repository",
+  "description": "The bug report indicates that most menu actions are enabled for custom entries from the repository, but they are meaningless and should be removed. The specific issue is related to six menu entries, and 'copy' is mentioned as not functioning correctly. Structured selection is also affected (see bug 18015).",
+  "OB": "Six menu entries are enabled, namely: open declaration, open type hierarchy, open super implementation, show in packages view, copy, and search. However, none of these actions perform any meaningful operations. The 'copy' function does not work as expected, and structured selection is also affected, as highlighted in bug 18015. This issue is marked as major and is likely to impact many users.",
+  "EB": "Most menu actions for custom entries from the repository should be disabled, leaving only essential and functional options. Specifically, the 'copy' function needs to be fixed to perform its intended operation, and structured selection should work as expected.",
+  "SR": "1. Navigate to a custom entry from the repository.\n2. Observe the enabled menu actions: open declaration, open type hierarchy, open super implementation, show in packages view, copy, and search.\n3. Attempt to use each menu action and note that they do not perform meaningful operations.\n4. Specifically, try using the 'copy' function, and observe that it does not work as expected.\n5. Additionally, verify that structured selection is impacted, as reported in bug 18015."
+}

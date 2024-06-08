@@ -1,0 +1,1 @@
+{"bug_id": "42897", "title": "Bug 42897BIDI: CHECK style doesn't work with RTL Tree or Table", "description": "When set to mirrored, the checkbox appears grey"}

@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '7734', 'title': 'Bug 7734System can be shut down without save file warnings', 'description': '', 'OB': '', 'EB': 'provide a "Do you want to save your file", Yes, No, Cancel (which halts the shutdown) dialog box.Expected Behaviour:Should provide a "Do you want to save your file", Yes, No, Cancel (which haltsthe shutdown) dialog box.One other nice feature might be to allow the applications to control theshutdown/save also or to pop up there own windows that would also (if cancel isselected) allow the user to stop the shutdown. ', 'SR': ''}
+</BUG REPORT>

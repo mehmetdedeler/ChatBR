@@ -1,0 +1,8 @@
+{
+  "id": "24411",
+  "title": "Mouse Click on Link Does Not Select Link in Welcome Page",
+  "description": "Mouse click on a link in the welcome page should select the link but it doesn't.",
+  "OB": "In build 20021001, when you ensure that you get a welcome page after a restart (by removing the welcome line in prefstore.ini of the workbench metadata), and then you click on any link in the welcome page, the appropriate action is executed. However, when you return to the welcome page, the clicked link is not visually selected. Currently, the ProductInfoDialog dialog implements this behavior, but it would be beneficial if links were also selected when clicked to provide more context to the user upon their return to the welcome page.",
+  "EB": "In build 20021001, when you ensure that you get a welcome page after a restart (by removing the welcome line in prefstore.ini of the workbench metadata), and then you click on any link in the welcome page, the appropriate action should be executed. When you return to the welcome page, the clicked link should be visibly selected to provide more context to the user.",
+  "SR": "1. Ensure you are using build 20021001.\n2. Make sure that you get a welcome page after a restart. This can be achieved by removing the welcome line in prefstore.ini of the workbench metadata.\n3. Click on any link in the welcome page.\n4. Observe that the appropriate action is executed.\n5. Return to the welcome page.\n6. Check if the clicked link is visually selected." 
+}

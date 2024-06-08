@@ -1,0 +1,8 @@
+{
+  "id": "6536",
+  "title": "Bug 6536 - 'Add Javadoc' Action Inoperative in Type Hierarchy",
+  "description": "The 'Add Javadoc' action in the Type Hierarchy context menu is not working as expected.",
+  "OB": "When selecting 'Add Javadoc' from the context menu in the Type Hierarchy view, nothing happens. The action does not add the Javadoc to the selected field as it should.",
+  "EB": "The expected behavior is that when 'Add Javadoc' is selected, it should add the Javadoc to the selected field in the Type Hierarchy view. Alternatively, if this feature is not functioning correctly, it should be fixed to add the Javadoc as intended.",
+  "SR": "To help investigate and address this issue, please provide the steps to reproduce the problem."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "5473",
+  "title": "Bug 5473ShiftLeft behavior with intermixed tabs and spaces",
+  "description": "Bug 5473ShiftLeft behavior with intermixed tabs and spaces Build 200110251.",
+  "OB": "When attempting to execute the ShiftLeft function after replacing the tab character in the first line with spaces to align both lines visually, the text still moves inconsistently. It's unclear how the function is expected to behave, but in the given scenario, the second line should be shifted left, and the first line should at least be adjusted up to the space character (eliminating the tab). The presence of a stray space causes confusion and prevents the expected text shift.",
+  "EB": "After replacing the tab character in the first line with spaces to align both lines visually, executing the ShiftLeft function should consistently shift the second line left and adjust the first line, removing the tab character at least up to the space character. The text should move as expected without any confusion caused by stray spaces.",
+  "SR": "1. Replace the tab character in the first line with spaces to visually align both lines.\n2. Execute the ShiftLeft function.\n3. Observe that the second line is shifted left, and the first line is adjusted, removing the tab character up to the space character. Ensure no stray spaces are present that might cause confusion during text shifting."
+}

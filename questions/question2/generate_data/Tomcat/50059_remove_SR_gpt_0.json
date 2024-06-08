@@ -1,0 +1,8 @@
+{
+  "id": "50059",
+  "title": "Bug 50059 - Resources Not Served with metadatacomplete='true'",
+  "description": "This bug report addresses an issue where resources are not served from the /WEB-INF/lib/{.jar}/META-INF/resources directory when the metadatacomplete attribute is set to 'true' in the web.xml file. It pertains to a Servlet 3.0 web application named 'foo'.",
+  "OB": "When starting the web app in Tomcat 7.0.2 and attempting to access http://localhost:8080/foo/index.html, the observed behavior is that a 404 error is returned. In contrast, the expected behavior is that it should respond with a 200 response and serve the index.html file.",
+  "EB": "The expected behavior is that the JAR file ('bar.jar') should be placed in the /WEB-INF/lib directory of the web application.",
+  "SR": "To reproduce the issue: 1. Create a JAR file containing a single /META-INF/resources/index.html file. 2. Start the web app in Tomcat 7.0.2. 3. In your browser, go to http://localhost:8080/foo/index.html. Expected result: A 200 response with index.html served. Actual result: A 404 error. Additionally, the bug report could be enhanced by providing more details about the configuration and context."
+}

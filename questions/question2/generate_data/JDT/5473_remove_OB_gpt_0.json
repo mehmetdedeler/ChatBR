@@ -1,0 +1,8 @@
+{
+  "id": "5473",
+  "title": "Bug 5473 - ShiftLeft Behavior with Intermixed Tabs and Spaces",
+  "description": "This bug report addresses the ShiftLeft behavior when tabs and spaces are intermixed in the text.",
+  "OB": "The specific observed behavior is not described in the report.",
+  "EB": "The expected behavior is not explicitly stated in the report, leaving it unclear what the desired outcome should be.",
+  "SR": "To potentially reproduce the issue, follow these steps:\n1. In a default text editor, type in the following:\n   <space<tab some text<tab some text\n2. Now, highlight the two lines above and execute ShiftLeft. However, it is noted that 'nothing moves.'"
+}

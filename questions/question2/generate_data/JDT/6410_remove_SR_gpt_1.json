@@ -1,0 +1,8 @@
+{
+  "id": "6410",
+  "title": "Bug 6410: File unchanged but dirtied by code assist",
+  "description": "Bug 6410: File unchanged but dirtied by code assist",
+  "OB": "The file is marked as dirtied, even though no changes are made, and the code assist feature does not appear.",
+  "EB": "If there are no suggestions provided by the code assist feature, the file should not be marked as dirtied.",
+  "SR": "To reproduce:\n1. Open the specific file in the editor.\n2. Trigger the code assist feature by typing appropriate syntax or using a keyboard shortcut.\n3. Note that the file is marked as dirtied even if no changes are made or suggested by the code assist."
+}

@@ -1,0 +1,32 @@
+{
+    "id": "chatcmpl-8GA3yVuxvcu8fYKh3bPPVrBVUpDyH",
+    "object": "chat.completion",
+    "created": 1698862622,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": {
+                    "id": "7752",
+                    "title": "Bug 7752: Export multiple files with same file name under different directories to zip file fails.",
+                    "description": "Steps to reproduce:\n1. Launch WSWB and create two projects.\n2. Under each project, create a new file with the same name (such as 'foo.txt').\n3. From the main menu, select File > Export and choose the option to export as a Zip File.\n4. [Additional details needed for the description.]",
+                    "OB": "",
+                    "EB": "",
+                    "SR": ""
+                }
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 393,
+        "completion_tokens": 122,
+        "total_tokens": 515
+    },
+    "origin": {
+        "input_prompt": "Your role is a senior software engineer, you are very good at analyzing and writing bug reports.\nIn your bug reports, it is essential to provide clear and informative statements for the following categories:\n- **Observed Behavior (OB):** This section should describe the relevant software behavior, actions, output, or results. Avoid vague statements like \"the system does not work.\"\n- **Expected Behavior (EB):** This part should articulate what the software should or is expected to do, using phrases like \"should...\", \"expect...\", or \"hope...\". Avoid suggestions or recommendations for bug resolution in this section.\n- **Steps to Reproduce (SR):** Include user actions or operations that can potentially lead to reproducing the issue. Use phrases like \"to reproduce,\" \"steps to reproduce,\" or \"follow these steps.\"\nIt is possible that the bug report may lack sufficient details in the OB, EB, and SR sections. In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements. Also, improve the wording of these statements for clarity where possible.\nTo facilitate this process, please provide your responses in JSON format as follows:\n{\"id\": \"\", \"title\": \"\", \"description\": \"\", \"OB\": \"\", \"EB\": \"\", \"SR\": \"\"}",
+        "input_content": "<BUG REPORT>\n{'id': '7752', 'title': 'Bug 7752Export multiple files with same file name under different directories to zip file fails.', 'description': 'Steps to reproduce:1. ', 'OB': '', 'EB': '', 'SR': 'Launch WSWB and create two projects2. Under each project, create a new file with the same name (such as \"foo.txt\")3. From the mainmenu, Select FileExportand select Zip File to export4. '}"
+    }
+}

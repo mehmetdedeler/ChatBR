@@ -1,0 +1,1 @@
+{"bug_id": "10916", "title": "Bug 10916Perspective buttons on left hand side should not toggle", "description": "Click on the button for the currently active perspective inthe toolbar on the left.Notice that it toggles from pushed to unpushed!I would expectthese buttons to behave more like a radio button and ensureexactly one button is selected at a time."}

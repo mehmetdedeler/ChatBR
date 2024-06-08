@@ -1,0 +1,8 @@
+{
+  "id": "122584",
+  "title": "Bug 122584 - Cascading parameter values not displayed properly in HTML viewer",
+  "description": "Description: Cascading parameter values can't be displayed properly in HTML viewer. Steps to reproduce: 1. ",
+  "OB": "When selecting the first parameter value, the expected behavior is that the second parameter value in the same cascading parameter group should be displayed. However, it is not displayed as intended.",
+  "EB": "The expected behavior is that when selecting a parameter value, the corresponding cascading parameter values should be displayed accordingly in the HTML viewer.",
+  "SR": "To reproduce the issue: 1. Open the HTML viewer. 2. Select the first parameter value in the cascading parameter group. 3. Observe that the second parameter value is not displayed as expected."
+}

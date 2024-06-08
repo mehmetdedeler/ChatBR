@@ -1,0 +1,8 @@
+{
+  "id": "116744",
+  "title": "Bug 116744 - Dynamic text content type has no effect",
+  "description": "",
+  "OB": "When using a dynamic text element to display the contents of a database field with three types of content (HTML text within <html>...</html> tags, HTML fragments not within <html> tags, and Text with RTF tags), the displayed content does not reflect the expected formatting based on the content type.",
+  "EB": "I expect the dynamic text element to correctly interpret and display the content based on its type. HTML text should render with proper HTML formatting, HTML fragments should be displayed without additional tags, and Text with RTF tags should be appropriately formatted.",
+  "SR": "To reproduce the issue:\n1. Set up a database field with three types of content: HTML text within <html>...</html> tags, HTML fragments not within <html> tags, and Text with RTF tags.\n2. Use a dynamic text element to display the contents of this field in the application.\n3. Observe that the displayed content does not match the expected formatting based on the content type."
+}

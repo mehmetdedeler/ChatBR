@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+In your bug reports, it is essential to provide clear and informative statements for the following categories:
+- **Observed Behavior (OB):** This section should describe the relevant software behavior, actions, output, or results. Avoid vague statements like "the system does not work."
+- **Expected Behavior (EB):** This part should articulate what the software should or is expected to do, using phrases like "should...", "expect...", or "hope...". Avoid suggestions or recommendations for bug resolution in this section.
+- **Steps to Reproduce (SR):** Include user actions or operations that can potentially lead to reproducing the issue. Use phrases like "to reproduce," "steps to reproduce," or "follow these steps."
+It is possible that the bug report may lack sufficient details in the OB, EB, and SR sections. In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements. Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '124761', 'title': "Bug 124761When add two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10',the data can be extracted.", 'description': "Bug 124761When add two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10',the data can be extracted. ", 'OB': "Description:When add two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10',the data can not be extracted.Steps to reproduce:1. import the attached report2. previewActual result:the data can not be extracted.Expect result:The intersection set ofthe data 'State is equal to CA' and the data 'EmployeeId is Top 10' should be displayed. ", 'EB': '', 'SR': ''}
+</BUG REPORT>

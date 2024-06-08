@@ -1,0 +1,1 @@
+{"id": "103963", "title": "Bug 103963: No friendly error message displayed when there is no data for series", "description": "", "OB": "", "EB": "", "SR": "1. Create a chart and set the data definition.\n2. Select a column that does not have any data.\n3. Observe the behavior."}

@@ -1,0 +1,8 @@
+{
+  "id": "117981",
+  "title": "Any item can't be selected at the first time in library outline view.",
+  "description": "Description: When attempting to select an item in the library outline view for the first time, it fails to be selected. This issue is affecting the user's ability to interact with the library's content as expected.",
+  "OB": "Upon clicking on an item in the library outline view for the first time, the item remains unselected, and there is no visual indication that the item has been clicked.",
+  "EB": "Expected behavior: When clicking on an item in the library outline view for the first time, the item should become selected, and there should be a visual indication, such as highlighting, to show that the item has been successfully selected.",
+  "SR": "Steps to reproduce:\n1. Open the library outline view.\n2. Add a label to the library file, if one does not exist.\n3. Select the label item in the library outline view for the first time."
+}

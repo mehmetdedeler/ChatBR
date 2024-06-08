@@ -1,0 +1,8 @@
+{
+  "id": "13725",
+  "title": "Revert Operation Slower than Close and Reopen in Java Editor",
+  "description": "The Revert operation is significantly slower than the close and reopen actions in the Java editor.",
+  "OB": "After answering 'no' to the 'do you want to save changes' dialog, double-click on the file in the navigator to reopen it. However, if I repeat steps 1 and 2, and then select 'Revert' from the pop-up menu in the editor, it takes 15 seconds to replace the contents of the window with the original.",
+  "EB": "",
+  "SR": "1. Open an editor for the file org.eclipse.swt.custom.StyledText.java from the source folder 'Eclipse SWT Custom Widgets' in the project 'org.eclipse.swt' in the open-source repository.\n2. Select the end of the first line and add a space character to mark the file as dirty.\n3. On my fast machine at home, it takes about 8 seconds to perform the following steps:\n   - Click on the close box in the editor tab.\n   - Answer 'no' to the 'do you want to save changes' dialog.\n   - Double-click on the file in the navigator to reopen it.\n4. Repeat steps 1 and 2, then select 'Revert' from the pop-up menu in the editor. Observe that it takes 15 seconds to replace the contents of the window with the original."
+}

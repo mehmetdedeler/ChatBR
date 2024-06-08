@@ -1,0 +1,1 @@
+{"id": "120315", "title": "Bug 120315: Display property set to 'none' not taking effect in new pdf emitter", "description": "", "OB": "The display property of an item is set to 'none', but it doesn't take effect in the new PDF emitter.", "EB": "", "SR": "Steps to Reproduce:\n1. Add a label.\n2. Open the 'Properties' view.\n3. Set the 'display' property of the section to 'none'."}

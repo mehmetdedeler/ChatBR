@@ -1,0 +1,8 @@
+{
+  "id": "6322",
+  "title": "Bug 6322: All types dialog shows obfuscated classes",
+  "description": "Bug 6322: All types dialog shows obfuscated classes. JDK 1.4 includes obfuscated classes (a, a1, b, c, d) etc.",
+  "OB": "Obfuscated classes (such as 'a', 'a1', 'b', 'c', 'd') are prominently displayed in the Open Type dialog.",
+  "EB": "The Open Type dialog should not display obfuscated classes from JDK 1.4.",
+  "SR": "1. Open the IDE and navigate to the 'Open Type' dialog.\n2. Observe the list of classes displayed, specifically looking for obfuscated classes like 'a', 'a1', 'b', 'c', 'd' from JDK 1.4.\n3. Expected behavior is that obfuscated classes should not be visible in the 'Open Type' dialog."
+}

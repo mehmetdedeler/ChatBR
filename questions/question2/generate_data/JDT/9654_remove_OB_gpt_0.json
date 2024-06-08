@@ -1,0 +1,8 @@
+{
+  "id": "9654",
+  "title": "Bug 9654 - Modify Parameters: Dialog Details",
+  "description": "Bug 9654 - Modify Parameters: Dialog details contain duplicated name validation on the first page. The first and second columns could be merged.",
+  "OB": "The layout has issues: a large margin exists between the button and the list. The top button is not aligned properly with the dialog's top. The table lacks a label for mnemonic purposes. It does not support multiple selection, although 'move up' and 'move down' actions can be applied to multiple items. The signature preview is not properly displayed as a label and needs better text wrapping. Additionally, the signature preview's background color should match the hover color.",
+  "EB": "The layout issues should be fixed by reducing the margin between the button and the list, aligning the top button correctly with the dialog's top, and adding a label to the table for mnemonic support. The dialog should support multiple selection for items, particularly when using 'move up' and 'move down' actions. The signature preview should be displayed as a label with proper text wrapping, and its background color should match the hover color.",
+  "SR": "To reproduce the layout issue with the margin, change a parameter name to be very long, and you'll observe the preview being cut off."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "134949",
+  "title": "Themes Nesting Issue in Library",
+  "description": "Bug 134949Themes nest in another library. When trying to nest themes from one library into another, an error message is displayed. The user is uncertain about how to proceed.",
+  "OB": "When I open the Library tree of Library A in the library explorer and attempt to drag and drop the themes from Library B into the layout of Library A, the software presents an error message. This error message states that the library namespace 'B' already exists within Library A.",
+  "EB": "I expected that I would be able to successfully nest the themes from Library B into Library A without encountering an error. The software should allow me to organize and use themes from multiple libraries within a single library.",
+  "SR": "To reproduce the issue:\n1. Open the Library tree of Library A in the library explorer.\n2. Attempt to drag and drop themes from Library B into the layout of Library A. The error message should appear, indicating that the library namespace 'B' already exists within Library A."
+}

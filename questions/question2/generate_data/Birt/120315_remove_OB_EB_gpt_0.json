@@ -1,0 +1,8 @@
+{
+  "id": "120315",
+  "title": "Display Property 'none' Not Working in New PDF Emitter",
+  "description": "",
+  "OB": "When the display property of an item is set to 'none', it does not hide the item as expected in the new PDF emitter.",
+  "EB": "The expected behavior is that when the display property of an item is set to 'none', the item should be hidden in the new PDF emitter.",
+  "SR": "Steps to reproduce:\n1. Add a label to the document.\n2. Open the 'properties' view for the label.\n3. Set the 'sectionDisplay' property to 'none'.\n4. Generate a PDF using the new PDF emitter and observe that the label is not hidden as expected."
+}

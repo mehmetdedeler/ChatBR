@@ -1,0 +1,1 @@
+{"bug_id": "48967", "title": "Bug 48967Externalize Strings \"catalina.base\" and \"catalina.home\"", "description": "Created attachment 25169 [details]Patch externalizing stringsStrings \"catalina.base\" and \"catalina.home\" are present multiple times in the code base. Most of them should be replaced by a reference to a constant."}

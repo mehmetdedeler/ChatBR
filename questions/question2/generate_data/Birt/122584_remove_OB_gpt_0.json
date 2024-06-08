@@ -1,0 +1,8 @@
+{
+  "id": "122584",
+  "title": "Cascading Parameter Values Not Displayed Correctly in HTML Viewer",
+  "description": "Cascading parameter values are not displayed properly in the HTML viewer.",
+  "OB": "When using the HTML viewer to preview a design with cascading parameters, the second parameter value in the same cascading parameter group is not displayed.",
+  "EB": "I expect that when I select the first parameter value, the second parameter value in the same cascading parameter group should be displayed in the HTML viewer.",
+  "SR": "To reproduce the issue:\n1. Open the attached design file in the HTML viewer.\n2. Click on the 'Change Parameter' button in the HTML viewer."
+}

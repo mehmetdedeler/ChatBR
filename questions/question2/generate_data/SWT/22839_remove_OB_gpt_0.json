@@ -1,0 +1,8 @@
+{
+  "id": "22839",
+  "title": "Bug 22839 - SWT window in focus causes incorrect colors in other windows",
+  "description": "The provided Java code seems to be incomplete and unrelated to the bug report. It's recommended to add relevant information about the issue.",
+  "OB": "The bug report does not provide an observed behavior.",
+  "EB": "To enable and disable the creation of type comments, go to WindowPreferencesJavaCode Generation.",
+  "SR": "Steps to reproduce the issue:\n1. Import the 'org.eclipse.swt' library.\n2. When an SWT window comes into focus, observe that all background windows change to incorrect colors.\n3. Similarly, when another window is in focus, the SWT window's colors will change to be incorrect.\n\nThe issue has been tested on an Sh4 (BigSur/Tahoe) running a maxall configuration of WinCe 3.00 with j9 version 1.5 from wsdd 4.0 runtimes with SWT version 2104."
+}

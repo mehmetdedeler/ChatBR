@@ -1,0 +1,1 @@
+{"id": "16452", "title": "Bug 16452Must check for null in uses of IWorkbenchPartReference.getPart", "description": " Bug 16452Must check for null in uses of IWorkbenchPartReference.getPart Build 20020519See bug 16444.There are occurrences inorg.eclipse.jdt.internal.ui.refactoring.RefactoringSupportFactory.RenameSupport.selectAndReveal(Object)", "OB": "", "EB": "", "SR": ""}

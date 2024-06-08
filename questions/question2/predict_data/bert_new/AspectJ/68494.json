@@ -1,0 +1,1 @@
+{"id": "68494", "title": "Bug 68494ajdoc does not support .aj files", "description": "Bug 68494ajdoc does not support .aj files ", "OB": "", "EB": "In addition to accepting .java source files ajdoc needs to accept .aj files. ", "SR": ""}

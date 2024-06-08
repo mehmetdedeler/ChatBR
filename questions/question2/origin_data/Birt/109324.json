@@ -1,0 +1,1 @@
+{"bug_id": "109324", "title": "Bug 109324DataSet element does not see Packages", "description": "DataSet element does not have Packages in scope.It is therefore impossible toreference any Java class from any of the DataSet or ScriptedDataSet methods."}

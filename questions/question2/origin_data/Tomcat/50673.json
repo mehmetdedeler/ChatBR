@@ -1,0 +1,1 @@
+{"bug_id": "50673", "title": "Bug 50673Error when stopping Tomcat using services.msc", "description": "When stopping Tomcat using services.msc, an error message is displayed: \"Windows could not stop the Apache Tomcat 7 service on Local Computer. Error 109: The pipe has been ended.\"Despite this error, Tomcat appears to stop normally.No such problem was encountered in 6.0.29."}

@@ -1,0 +1,1 @@
+{"bug_id": "24676", "title": "Bug 24676StyledText  double click word select and caret placement", "description": "Double click word select places caret at beginning of word, not the end.Looks like this problem has been here for awhile, but went undetected due toJFace's override of double click behavior."}

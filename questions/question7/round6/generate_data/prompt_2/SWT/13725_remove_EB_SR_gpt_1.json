@@ -1,0 +1,8 @@
+{
+  "id": "13725",
+  "title": "Revert Function Slowness in Java Editor",
+  "description": "The revert function in the Java editor is significantly slower compared to closing and reopening the file.",
+  "OB": "When I answer 'no' to the 'do you want to save changes' dialog and double click on the file in the navigator to reopen it, the file opens quickly. However, if I repeat these steps and then select 'Revert' from the pop-up menu in the editor, it takes approximately 15 seconds to replace the contents of the window with the original file contents.",
+  "EB": "The 'Revert' function should execute as quickly as closing and reopening the file, taking no more than a few seconds to display the original content.",
+  "SR": "1. Open a file in the Java editor. \n2. Answer 'no' to the 'do you want to save changes' dialog.\n3. Double click on the file in the navigator to reopen it and observe the speed of reopening.\n4. Repeat steps 1 and 2.\n5. Right-click in the editor and select 'Revert' from the pop-up menu.\n6. Note the time taken for the content to revert to the original."
+}

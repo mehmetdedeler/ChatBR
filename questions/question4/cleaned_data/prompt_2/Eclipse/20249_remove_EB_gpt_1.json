@@ -1,0 +1,8 @@
+{
+  "id": "20249",
+  "title": "Bug 20249[Help] Change editor/view/perspective F1 help",
+  "description": "Bug 20249[Help] Change editor/view/perspective F1 help",
+  "OB": "When the 'Change Editor' menu is open (Build F2), pressing F1 displays some help. However, the help window closes immediately, preventing the user from reading its contents. If F1 is intended to provide help for the 'Change Editor' menu, the help window should remain open for the user to read.",
+  "EB": "",
+  "SR": "1. Open the 'Change Editor' menu (Build F2). \n2. Press F1 to display help. \n3. Observe that the help window closes immediately. \n4. If F1 is supposed to provide help for the 'Change Editor' menu, ensure that the help window remains open for the user to read."
+}

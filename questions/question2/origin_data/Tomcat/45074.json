@@ -1,0 +1,1 @@
+{"bug_id": "45074", "title": "Bug 45074Add configuration parameters for finer tuning of Http11AprProtocol thread usage", "description": "Created attachment 21997 [details]Add some properties to the connectorHere's an enhancement patch to enable tuning of the number of sendfile and poller threads in the APR connector."}

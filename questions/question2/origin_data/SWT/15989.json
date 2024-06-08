@@ -1,0 +1,1 @@
+{"bug_id": "15989", "title": "Bug 15989Coolbar walkback when adding item", "description": "1. Run the attached test case.2. Move the Script coolitem and the launch coolitem down to a new row (so thatthere are two rows).3. Press the Add button.Walkback.Only happens on Linux."}

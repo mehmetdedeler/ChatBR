@@ -1,0 +1,1 @@
+{"bug_id": "11228", "title": "Bug 11228package name shortening pref page  tooltip works as help", "description": "tooltip in the pref page where you can specify pattern to shorten package namescontains some useful information that should be exposed on the page itself(you can write patterns with numbers!)current behavior is suboptimal (users must be lucky to find that feature)"}

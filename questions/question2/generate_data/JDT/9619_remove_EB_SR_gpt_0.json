@@ -1,0 +1,8 @@
+{
+  "id": "9619",
+  "title": "Bug 9619 - Issues with 'Move Static Member' Dialog Details",
+  "description": "The user reported several issues related to the 'Move Static Member' dialog. The issues include small 'Browse' button size, misleading use of the title text, and offering destination types that are from source types.",
+  "OB": "The observed behavior consists of these issues: a small 'Browse' button, a misleading title displaying 'Type not found' when proceeding to the next page, and the dialog offering destination types that are actually source types. It's also mentioned that mnemonics are problematic, and there's no validation on the type field.",
+  "EB": "The expected behavior is not explicitly stated, but it can be inferred from the issues mentioned. The user expects the 'Browse' button to have an appropriate size, clear and accurate title text, and that the dialog should only offer destination types that are not source types. Additionally, mnemonics should work, and there should be validation on the type field to ensure it exists.",
+  "SR": "To reproduce these issues, follow these steps:\n1. Open the 'Move Static Member' dialog.\n2. Observe the small 'Browse' button.\n3. Proceed to the next page in the dialog and note the title displaying 'Type not found.'\n4. When selecting destination types, you may encounter source types incorrectly listed as options. Additionally, ensure that mnemonics are not functioning correctly, and there's no validation on the type field."
+}

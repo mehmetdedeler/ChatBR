@@ -1,0 +1,8 @@
+{
+  "id": "6304",
+  "title": "Cannot synchronize a .java file and another resource",
+  "description": "When attempting to synchronize a .java file with another resource, the expected option is missing from the context menu.",
+  "OB": "When trying to synchronize a .java file with another resource, the 'Team' entry is not present in the context menu.",
+  "EB": "I expect that when I open the context menu, the 'Team' entry should be available, allowing me to synchronize the .java file with another resource.",
+  "SR": "To reproduce this issue:\n1. Open the software.\n2. Navigate to the file you want to synchronize, which is a .java file.\n3. Right-click on the .java file to open the context menu. The 'Team' entry is missing."
+}

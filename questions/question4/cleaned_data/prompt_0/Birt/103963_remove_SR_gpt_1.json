@@ -1,0 +1,8 @@
+{
+  "id": "103963",
+  "title": "Bug 103963: No Friendly Error Message When No Data for Series",
+  "description": "The system does not display a friendly error message when there is no data for a series.",
+  "OB": "When attempting to preview, no friendly error message is provided.",
+  "EB": "If there is no data for a series, the system should display a friendly error message to remind the user.",
+  "SR": "Steps to reproduce:\n1. Attempt to preview a series with no data."
+}

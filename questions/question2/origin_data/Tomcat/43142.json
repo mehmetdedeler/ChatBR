@@ -1,0 +1,1 @@
+{"bug_id": "43142", "title": "Bug 43142webapp expanded in a FOLDER named webapps/xxx.war is loaded TWICE", "description": "reproduce: copy the expanded of file xxx.war file in a FOLDERtomcat/webapps/xxx.warbug: tomcat will load the app TWICE"}

@@ -1,0 +1,8 @@
+{
+  "id": "44164",
+  "title": "Update needed in javadoc for constructor Image(Device, ImageData)",
+  "description": "The constructor for Image(Device, ImageData) in the SWT library may throw an org.eclipse.swt.SWTException: Unsupported color depth, but this is not documented in the javadoc. This issue should be addressed to improve clarity for developers.",
+  "OB": "The constructor for Image(Device, ImageData) can also throw org.eclipse.swt.SWTException: Unsupported color depth.",
+  "EB": "The javadoc for the constructor Image(Device, ImageData) should be updated to mention that it can throw an org.eclipse.swt.SWTException: Unsupported color depth when the color depth is unsupported. This update will help developers understand the potential exception that may be raised when using this constructor.",
+  "SR": "To reproduce the issue and verify the absence of documentation, you can create a simple Java program like the following: \n\n1. Import the necessary SWT library: import org.eclipse.swt.widgets.\n2. Create a Java class, for example, TestImageInvalidImage.\n3. Inside the main method of the class, initialize an ImageData with unsupported color depth: ImageData data = new ImageData(10, 10, 1, new PaletteData(0xff0000, 0x00ff00, 0x0000ff));\n4. Attempt to create an Image using the constructor in question: Image image = new Image(Display.getDefault(), data);\n5. Ensure that the program is compiled and executed.\n6. Observe whether an org.eclipse.swt.SWTException: Unsupported color depth is thrown during the execution, indicating the issue with the constructor documentation."
+}

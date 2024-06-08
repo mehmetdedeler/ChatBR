@@ -1,0 +1,1 @@
+{"id": "6055", "title": "Bug 6055rename a readonly package does not issue a warning", "description": "issue a waring like it does on projects and source folders) ", "OB": "Bug 6055rename a readonly package does not issue a warning ", "EB": "renaming a readonly package should ask for confirmation (e.g. ", "SR": ""}

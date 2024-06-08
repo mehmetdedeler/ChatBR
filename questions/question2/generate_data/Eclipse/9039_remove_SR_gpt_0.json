@@ -1,0 +1,8 @@
+{
+  "id": "9039",
+  "title": "New Project Wizard: Default Directory Not Remembered",
+  "description": "When using the New Project Wizard in Eclipse, the default directory is not being remembered. I've encountered this issue while manually entering the directory path.",
+  "OB": "When using the New Project Wizard, if you deselect the 'Use default' option and select an arbitrary location like '/test,' then select 'Use default' again (assuming you accidentally clicked the checkbox's label instead of the text box), and finally, deselect 'Use default' a second time, the 'Directory' field becomes empty.",
+  "EB": "When using the New Project Wizard, if you deselect the 'Use default' option, select an arbitrary location like '/test,' then select 'Use default' again, and finally, deselect 'Use default' a second time, the 'Directory' field should remember the last location at least while the dialog is shown.",
+  "SR": "1. Open Eclipse.\n2. Go to the New Project Wizard.\n3. In the wizard, deselect the 'Use default' option for the directory.\n4. Manually enter an arbitrary location, e.g., '/test.'\n5. Select 'Use default' again, assuming you accidentally clicked the checkbox's label instead of the text box.\n6. Deselect 'Use default' a second time.\n7. Observe that the 'Directory' field is empty when it should have remembered the last location entered."
+}

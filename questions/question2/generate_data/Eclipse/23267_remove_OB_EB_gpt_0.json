@@ -1,0 +1,8 @@
+{
+  "id": "23267",
+  "title": "Bug 23267[Import/Export] Import Project lacks default folder",
+  "description": "When importing an existing Eclipse project on XP and clicking the Browse button, the dialog does not provide a suitable default folder.",
+  "OB": "When attempting to import an existing Eclipse project on Windows XP and clicking the 'Browse' button, a dialog opens, but it does not have a default folder preselected. The user is left with no initial folder to start the import process.",
+  "EB": "The expected behavior is that when importing a project, the 'Import Project' dialog should automatically select a default folder. This default folder should be the last location where a project was imported from or, if that's not available, a commonly used project directory. This default folder should simplify the import process and enhance user experience.",
+  "SR": "To reproduce this issue:\n1. Open the Eclipse IDE on a Windows XP machine.\n2. Go to the 'File' menu.\n3. Select 'Import' from the dropdown.\n4. In the 'Import' dialog, choose 'General' and then 'Existing Projects into Workspace.'\n5. Click the 'Browse' button in the 'Select root directory' section.\n6. Observe that the 'Browse for Folder' dialog does not have a default folder preselected."
+}

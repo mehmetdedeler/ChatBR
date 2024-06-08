@@ -1,0 +1,8 @@
+{
+  "id": "124761",
+  "title": "Bug 124761: Data extraction issue with multiple filters",
+  "description": "When adding two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10', the data can be extracted.",
+  "OB": "The data can be extracted when adding two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10'.",
+  "EB": "The expected behavior is that when adding the specified filters, the data should not be extracted as described in the OB.",
+  "SR": "Steps to reproduce:\n1. Import the attached report.\n2. Add the filter 'State is equal to CA'.\n3. Add the filter 'EmployeeId is Top 10'.\n4. Observe that the data is extracted, which is not the expected behavior."
+}

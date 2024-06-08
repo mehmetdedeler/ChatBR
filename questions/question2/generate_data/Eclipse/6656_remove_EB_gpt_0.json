@@ -1,0 +1,8 @@
+{
+  "id": "6656",
+  "title": "Bug 6656 - Close button moves down when view resized smaller",
+  "description": "",
+  "OB": "When a view like the Navigator is resized smaller on Linux, running build 20011127, the tool items move below the label. However, so does the pulldown menu icon (triangle) and the close icon (X). If it starts moving around, I think users will get confused.",
+  "EB": "When a view like the Navigator is resized smaller on Linux, running build 20011127, the close button should remain in its original position and not move down. The pulldown menu icon (triangle) should also stay in its intended location, ensuring a consistent and user-friendly interface.",
+  "SR": "To reproduce the issue:\n1. Open the software on a Linux system.\n2. Ensure you are using build 20011127.\n3. Go to a view, like the Navigator.\n4. Resize the view to make it smaller.\n5. Observe that the tool items, pulldown menu icon (triangle), and the close icon (X) move below the label."
+}

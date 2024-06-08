@@ -1,0 +1,8 @@
+{
+  "id": "18915",
+  "title": "Bug 18915[Preferences] Switching between erroneous preferences pages should generate an error, not a warning.",
+  "description": "",
+  "OB": "When switching between preferences pages with errors, a warning is currently generated.",
+  "EB": "When switching between preferences pages with errors, an error should be generated instead of a warning.",
+  "SR": "1. Open the application preferences.\n2. Intentionally introduce errors in one or more preferences pages.\n3. Attempt to switch between the erroneous preferences pages.\n4. Observe the warning generated (currently), which should be an error according to the expected behavior."
+}

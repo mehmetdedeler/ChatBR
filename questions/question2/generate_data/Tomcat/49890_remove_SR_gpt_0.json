@@ -1,0 +1,8 @@
+{
+  "id": "49890",
+  "title": "High CPU Usage Issue on Linux Platform with Nio Selector",
+  "description": "This bug report highlights a problem related to the Nio Selector on the Linux platform. The issue is characterized by the server's CPU usage spiking to 100%, which persists until the server is restarted. The problem has been confirmed with multiple Java versions, including 1.6.007, 1.6.018, and 1.6.021. The reporter suggests that this issue may be a duplicate of Bug 46373, and there is a reference to a potential solution proposed by the Jetty team at http://jira.codehaus.org/browse/JETTY937?focusedCommentId=168060&page=com.atlassian.jira.plugin.system.issuetabpanels:commenttabpanel. Additionally, the reporter mentions that they have made some modifications to the NioEndpoint.java file to include additional logging for diagnostics.",
+  "OB": "The observed behavior includes server's CPU usage spiking to 100% on the Linux platform. This issue is evidenced by the fact that 'selector.select(timeout)' sometimes returns zero keys on Linux.",
+  "EB": "The expected behavior is that the server's CPU usage remains at a reasonable level, ensuring smooth server operation without excessive CPU consumption.",
+  "SR": "To reproduce this potential JVM bug, perform several HTTP requests to a web application. A simple way to achieve this is to repeatedly press the F5 key in a web browser while holding it down. Please note that this issue seems specific to the Linux platform and has not been observed on Windows. For further investigation, the attached 'NioEndpoint.7z' includes a modified NioEndpoint.java file with additional logging."
+}

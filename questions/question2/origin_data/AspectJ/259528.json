@@ -1,0 +1,1 @@
+{"bug_id": "259528", "title": "Bug 259528[incremental] [build] Class with ITD declared on it causes too many full builds", "description": "When there is a structural change to a class that has an ITD on it there is a full build.This should be an incremental build, but the compiler always drops to a full build."}

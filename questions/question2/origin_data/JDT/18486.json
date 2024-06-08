@@ -1,0 +1,1 @@
+{"bug_id": "18486", "title": "Bug 18486Need documentation for startup extension point.", "description": "Need document<extension point=\"org.eclipse.ui.startup\"/See bug 7679"}

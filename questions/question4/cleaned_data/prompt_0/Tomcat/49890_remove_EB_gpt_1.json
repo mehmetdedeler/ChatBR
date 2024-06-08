@@ -1,0 +1,8 @@
+{
+  "id": "49890",
+  "title": "Bug 49890 - Nio Selector issue on Linux platform",
+  "description": "Bug 49890 - Nio Selector issue on Linux platform. Created attachment 25997 [details] NioEndpoint.java and simple web application. Sometimes, the server's CPU reaches 100% and stays at 100% until the server is restarted. Reproduced with Java versions: 1.6.007, 1.6.018, 1.6.021. It is a duplicate of issue: Bug 46373. It seems that Jetty guys fixed that problem: http://jira.codehaus.org/browse/JETTY937?focusedCommentId=168060&page=com.atlassian.jira.plugin.system.issuetabpanels:commenttabpanel. I added some logging to NioEndpoint.java.",
+  "OB": "With this logging, we can see that selector.select(timeout) sometimes returns zero keys on the Linux platform.",
+  "EB": "We expect that the selector.select(timeout) operation on the Linux platform should consistently return the expected number of keys, similar to its behavior on the Windows platform.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Use the attached NioEndpoint.7z with the patched NioEndpoint.java (with logging).\n2. Utilize the provided web.7z containing a simple web application.\n3. Run the server on a Linux platform using Java versions 1.6.007, 1.6.018, or 1.6.021.\n4. Observe the server's CPU usage reaching 100% and remaining at 100% until the server is restarted. This issue should not be reproducible on a Windows platform."
+}

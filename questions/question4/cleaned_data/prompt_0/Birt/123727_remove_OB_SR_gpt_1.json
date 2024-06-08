@@ -1,0 +1,8 @@
+{
+  "id": "123727",
+  "title": "Bug 123727: 'Top N' and 'Bottom N' not functioning as expected",
+  "description": "",
+  "OB": "When attempting to use the 'Top N' and 'Bottom N' features, no data is displayed.",
+  "EB": "Expect the software to display data according to the specified 'Top N' and 'Bottom N' parameters when saving and previewing. Actual result: No data is displayed.",
+  "SR": "1. Open the software and navigate to the data analysis section.\n2. Select the 'Top N' or 'Bottom N' option.\n3. Configure the necessary parameters.\n4. Save the changes.\n5. Preview the data.\n6. Observe that no data is displayed, contrary to the expected behavior."
+}

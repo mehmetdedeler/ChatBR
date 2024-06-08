@@ -1,0 +1,8 @@
+{
+  "id": "13189",
+  "title": "Context Menu Overridden by Message Dialog When Deleting Fields",
+  "description": "Users have reported that the context menu is overridden by a message dialog when trying to delete fields during refactoring.",
+  "OB": "The observed behavior is that when attempting to delete fields, the context menu is not displayed as expected. Instead, a message dialog appears immediately, asking whether the user wants to delete the getter/setter as well.",
+  "EB": "The expected behavior is that the context menu should be displayed without interruption, allowing users to initiate field deletion without immediate message dialogs.",
+  "SR": "To reproduce the issue:\n1. Set up JUnit2.\n2. Enable the option 'Code Generator: Remove prefix from field names'.\n3. Open the 'TestCase.java' file.\n4. In the outliner, right-click on 'fName'."
+}

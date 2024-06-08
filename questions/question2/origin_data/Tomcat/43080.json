@@ -1,0 +1,1 @@
+{"bug_id": "43080", "title": "Bug 43080Suspicious url pattern warning logged to wrong webapp", "description": "\"Suspicious url pattern\" warnings are logged to the wrong webapp, not the oneactually using them.These log events are coming from SecurityCollection.java."}

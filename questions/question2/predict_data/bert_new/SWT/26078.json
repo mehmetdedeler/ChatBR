@@ -1,0 +1,1 @@
+{"id": "26078", "title": "Bug 26078TabFolder.getClientArea() not correct.", "description": "Bug 26078TabFolder.getClientArea() not correct. ", "OB": "The getClientArea() for TabFolders in Photon are not using the PtPanelGroup'scanvas area to calculate the client area.The assumption used in the currentcode breaks on 6.2.1. ", "EB": "", "SR": ""}

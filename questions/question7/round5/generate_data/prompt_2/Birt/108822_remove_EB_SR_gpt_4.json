@@ -1,0 +1,1 @@
+{"id": "108822", "title": "More efficient logic is needed to handle disk sorting for rows with border values", "description": "", "OB": "When sorting data on disk and there are 40000 rows, if the program is configured to process only a subset of the data (less than 40000), the current logic performs the following operations:", "EB": "", "SR": ""}

@@ -1,0 +1,1 @@
+{"id": "24150", "title": "Bug 24150ShiftTab does not shift left", "description": "Bug 24150ShiftTab does not shift left ", "OB": "The text is not shifted, butthe editor tab gets something like a focus. ", "EB": "", "SR": "20020924 linuxgtk (works on w2k)Select a few lines of text and press ShiftTab. "}

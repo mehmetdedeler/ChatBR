@@ -1,0 +1,8 @@
+{
+  "id": "151938",
+  "title": "Bug 151938 - Handling Duplicate javaagent Entries More Gracefully",
+  "description": "The bug report is related to the handling of duplicate javaagent entries. The user suggests that in such cases, AspectJ should detect multiple entries, issue a warning, and disable all but one of the agents. The issue is prominent when adding a javaagent flag to VM startup commands, particularly through automated installers or manual edits to script files.",
+  "OB": "The observed behavior is as follows: If a java 5 VM is started with AspectJ's loadtime weaver specified more than once using the javaagent flag and if there is an aop.xml file defined, the software encounters issues. It attempts to reweave the woven AspectJ code and emits excessive amounts of bytecode. Additionally, wrapping the script twice can result in the generation of duplicate entries.",
+  "EB": "The expected behavior, as proposed in the bug report, is for AspectJ to improve its handling of duplicate javaagent entries. Specifically, it should detect when the javaagent is specified more than once and handle this situation gracefully. Instead of emitting excessive bytecode, the software should provide a warning and disable all but one of the agents. This would prevent the issues described in the observed behavior.",
+  "SR": "To reproduce the issue:\n1. Start a java 5 VM.\n2. Specify AspectJ's loadtime weaver more than once using the javaagent flag.\n3. Observe that the software does not handle this situation gracefully and experiences issues with reweaving AspectJ code and generating excessive bytecode."
+}

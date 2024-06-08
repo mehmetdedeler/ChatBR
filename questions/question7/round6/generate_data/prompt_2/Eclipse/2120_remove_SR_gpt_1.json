@@ -1,0 +1,8 @@
+{
+  "id": "2120",
+  "title": "Bug 2120 - MRU File List not Persisting Between Sessions (1GE71Z0)",
+  "description": "The MRU (Most Recently Used) File List is not persisting between sessions.",
+  "OB": "The files appear in the File menu MRU list initially, but upon restarting the application, the files no longer appear in the MRU list.",
+  "EB": "The expected behavior is that the files should persist in the File menu MRU list between sessions.",
+  "SR": "1. Launch the application.\n2. Open several files.\n3. Observe the files in the File menu MRU list.\n4. Close and restart the application.\n5. Check the File menu MRU list again. The files should still be present."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "More Robust Logic Needed for Disk Sorting with Border Values in Row",
+  "description": "The current implementation lacks efficient processing of disk sorting when encountering border values for row numbers.",
+  "OB": "When sorting on disk, if sorting is performed on 40,000 rows of data, and the program processes the data less than 40,000 rows, the following unexpected behavior is observed:",
+  "EB": "The expected behavior is that the sorting process on disk should handle the specified number of rows correctly, including cases where the data processed is less than the specified row value.",
+  "SR": "Steps to Reproduce:\n1. Save the file as a temporary file.\n2. Load the file into memory.\n3. Attempt to sort the data.\n4. Save the sorted data to a temporary file."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "18268",
+  "title": "Bug 18268 - Not Finding Images and Files in NL-specific Subdirectories",
+  "description": "When starting Eclipse, the software is not finding images and files in NL-specific subdirectories as expected. This issue occurs in build 200205291235. To reproduce, follow the steps below.",
+  "OB": "When you open the about dialog, observe that there is a main image.",
+  "EB": "When you open the about dialog, you should see the main image. The software should correctly handle the '$nl$' path segment and display the image from the NL-specific subdirectory.",
+  "SR": "To reproduce the issue:\n1. Exit Eclipse.\n2. Copy the file <install/eclipse/org.eclipse.platform2.0.0/eclipselg.gif> down into an NL-specific subdirectory, i.e., move it to <install/eclipse/org.eclipse.platform2.0.0/nl/en/eclipselg.gif>.\n3. Start Eclipse again."
+}

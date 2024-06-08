@@ -1,0 +1,8 @@
+{
+  "id": "11866",
+  "title": "Wrong labels in Update Test Suite dialog",
+  "description": "The labels in the Update Test Suite dialog are incorrect.",
+  "OB": "The label 'Test Classes to be included' is written as 'TestClasses' (missing space). The status line incorrectly mentions methods being selected instead of types. The action name is written together as 'TestSuite' instead of 'Test Suite'.",
+  "EB": "The labels in the Update Test Suite dialog should be accurate and appropriately spaced. 'Test Classes to be included' should be written correctly. The status line should refer to types, not methods. The action name should be 'Test Suite' instead of 'TestSuite'.",
+  "SR": "1. Open the Update Test Suite dialog.\n2. Observe the label 'Test Classes to be included'.\n3. Check the status line for the description of selected items.\n4. Examine the action name in the dialog."
+}

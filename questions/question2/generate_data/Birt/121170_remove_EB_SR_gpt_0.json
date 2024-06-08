@@ -1,0 +1,8 @@
+{
+  "id": "121170",
+  "title": "Column Labels Are Null Before Extraction, Should Return User-Recognizable Strings",
+  "description": "When accessing column labels from meta data objects, the labels returned before data extraction are null, while they should be user-recognizable strings after extraction.",
+  "OB": "Before data extraction, the labels returned by the software are null. However, after data extraction, the labels should be recognizable strings.",
+  "EB": "The expected behavior is that when retrieving column labels from meta data objects, they should be user-recognizable strings both before and after data extraction.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Access a meta data object containing column labels.\n2. Note the labels before any data extraction operation.\n3. Perform a data extraction operation.\n4. Re-access the same meta data object and check if the labels are now recognizable strings."
+}

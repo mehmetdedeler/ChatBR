@@ -1,0 +1,8 @@
+{
+  "id": "49299",
+  "title": "Bug 49299 Servlet 3.0 ch.7.1.1 Incorrect Custom Cookie Name Behavior",
+  "description": "Bug 49299 Servlet 3.0 ch.7.1.1 incorrectly states that custom cookie name affects URL rewriting.",
+  "OB": "The page sends the following cookie: SetCookie: MYSESSIONCOOKIE=658C60E714E9C7C833F4FDA366E0477F; Path=/cookiename; HttpOnly, but the Reload link on the page uses 'jsessionid': http://localhost:8080/cookiename/index.jsp;jsessionid=658C60E714E9C7C833F4FDA366E0477F4.",
+  "EB": "The expected behavior is for the output to be \"MySomeClass\".",
+  "SR": "To reproduce the issue:\n1. Deploy the attached war file as cookiename.war.\n2. Access http://localhost:8080/cookiename/."
+}

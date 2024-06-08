@@ -1,0 +1,1 @@
+{"id": "140395", "title": "Bug 140395IImage.getID() return null on chart images", "description": "", "OB": "Bug 140395IImage.getID() return null on chart images When I use image.getID() to retrieve ID of chart image, it always returns null. ", "EB": "", "SR": ""}

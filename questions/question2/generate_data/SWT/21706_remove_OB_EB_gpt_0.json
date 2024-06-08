@@ -1,0 +1,8 @@
+{
+  "id": "21706",
+  "title": "Bug 21706: Issue with Class.forName() Usage in BidiUtil on Win32",
+  "description": "This bug report pertains to a problem with 'Class.forName()' usage in BidiUtil on the Win32 platform.",
+  "OB": "The bug report does not provide specific observed behavior.",
+  "EB": "The expected behavior should be the resolution of the issue related to 'Class.forName()' usage. The bug report suggests a potential solution by changing the line of code to 'static Callback callback = new Callback (new BidiUtil().getClass(), 'windowProc', 4);'. However, it is noted that this change has not been tested.",
+  "SR": "To address the bug, you can attempt the proposed code change by modifying the line: 'static Callback callback = new Callback (BidiUtil.class, 'windowProc', 4);' to 'static Callback callback = new Callback (new BidiUtil().getClass(), 'windowProc', 4);'. After making this change, further testing and verification should be carried out to confirm that the issue is resolved."
+}

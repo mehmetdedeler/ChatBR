@@ -1,0 +1,8 @@
+{
+  "id": "116744",
+  "title": "Bug 116744 - Dynamic text content type has no effect",
+  "description": "",
+  "OB": "When attempting to set the content type to 'Dynamic Text' in the application, the expected dynamic behavior does not occur. Instead, the content remains static, unaffected by the specified content type.",
+  "EB": "Expect the 'Dynamic Text' content type to result in dynamic and changing text within the designated area. The content should dynamically update based on the specified parameters for the 'Dynamic Text' type.",
+  "SR": "1. Open the application and navigate to the content settings.\n2. Select the 'Dynamic Text' option for the content type.\n3. Save the changes and observe the content area to ensure dynamic text updates are applied as expected."
+}

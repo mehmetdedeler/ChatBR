@@ -1,0 +1,1 @@
+{"id": "2944", "title": "Bug 2944IDialogPage.getControl JavaDoc should indicate null is a valid return value (1GKX8QB)", "description": " Bug 2944IDialogPage.getControl JavaDoc should indicate null is a valid return value (1GKX8QB)", "OB": "", "EB": " IDialogPage.getControlThe JavaDoc should indicate that null is a valid return value.NOTES:", "SR": ""}

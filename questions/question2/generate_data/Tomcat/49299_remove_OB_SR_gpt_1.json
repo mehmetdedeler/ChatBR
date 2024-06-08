@@ -1,0 +1,8 @@
+{
+  "id": "49299",
+  "title": "Bug 49299 - Servlet 3.0 ch.7.1.1 Custom Cookie Name Issue",
+  "description": "The documentation for Servlet 3.0 chapter 7.1.1 mentions that custom cookie names affect URL rewriting, but there seems to be an issue with this behavior.",
+  "OB": "The observed behavior is not provided in the bug report.",
+  "EB": "Expected behavior: According to the documentation in chapter 7.1.1, if custom cookie names affect URL rewriting, I would expect the 'Reload' link to be 'http://localhost:8080/cookiename/index.jsp;MYSESSIONCOOKIE=658C60E714E9C7C833F4FDA366E0477F'.",
+  "SR": "Steps to reproduce:\n1. Open a web browser.\n2. Navigate to 'http://localhost:8080/cookiename/index.jsp'.\n3. Observe the 'Reload' link and check the URL structure."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "18163",
+  "title": "Bug 18163: Add Import should ignore leading/trailing whitespace",
+  "description": "When using the 'Add Import' feature, it fails to work when there's trailing whitespace in the selection.",
+  "OB": "When selecting text using 'Shift + Ctrl + Right' and then attempting to use 'Ctrl+M' (Add Import), the feature does not work as expected.",
+  "EB": "The 'Add Import' feature should work correctly when there's trailing whitespace in the selected text. It should ignore the whitespace and add the import statement as needed.",
+  "SR": "To reproduce the issue:\n1. Select some text using 'Shift + Ctrl + Right', ensuring there's trailing whitespace in the selection.\n2. Press 'Ctrl+M' to trigger the 'Add Import' feature.\n3. Observe that the feature does not add the import statement as expected."
+}

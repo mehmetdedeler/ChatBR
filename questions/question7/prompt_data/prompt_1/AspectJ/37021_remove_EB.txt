@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '37021', 'title': 'Bug 37021source path wrong in declare warning on binary files', 'description': 'Bug 37021source path wrong in declare warning on binary files [java|aj]".See tests/new/binaryWarnings/.. for code to run to see the problem.Limitations of the tests: These tests return false positives when detecting this error because filenamechecking is not enabled in harness verification of messages. (I saw it in AJDT, so perhaps if the filename makes nosense to AJDT, AJDT simply omits it.) ', 'OB': 'In declare warning messages when targeting .class files from injars, the sourcepath is listed in the form "app.Main.class" rather than "app/Main. I have also see the filenames not appear at all, but these tests do notreproduce that problem. ', 'EB': '', 'SR': 'In declare warning messages when targeting .class files from injars, the sourcepath is listed in the form "app.Main.class" rather than "app/Main. '}
+</BUG REPORT>

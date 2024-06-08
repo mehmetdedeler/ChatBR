@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '23935', 'title': 'Bug 23935Text widget with Tree parent does not lose focus', 'description': 'Both widgets are children ofthe shell.The right tree and text only work on Windows. We can probably work around by creating thetext editor as a sibling of the tree and moving it above the tree. ', 'OB': '', 'EB': '', 'SR': 'When youclick anywhere in the tree the tree gets focus. '}
+</BUG REPORT>

@@ -1,0 +1,8 @@
+{
+  "id": "151938",
+  "title": "Handle Duplicate javaagent Entries Gracefully",
+  "description": "The issue arises when multiple javaagent flags are added to VM startup commands. Our automated installer encounters this problem, leading to bytecode emission instead of failing or providing an error message. We're improving our scripts to mitigate this, but it's likely others might encounter it (e.g., manually editing setclasspath.bat and catalina.bat for a Tomcat instance).",
+  "OB": "When multiple javaagent flags are included in VM startup commands, the bytecode is emitted instead of failing or generating an error message.",
+  "EB": "AspectJ should identify when multiple javaagent entries are specified and issue a warning, disabling all but one of the agents.",
+  "SR": "1. Edit VM startup commands to include multiple javaagent flags.\n2. Execute the commands.\n3. Observe whether AspectJ warns about the multiple entries and disables all but one of the agents."
+}

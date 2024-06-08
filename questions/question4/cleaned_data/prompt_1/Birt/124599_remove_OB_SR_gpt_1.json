@@ -1,0 +1,8 @@
+{
+  "id": "124599",
+  "title": "Bug 124599 - Shortcut delete and menu delete behave differently in table column",
+  "description": "Description: Shortcut delete and menu delete behave differently in table column.\nSteps to reproduce: 1. [Details missing]",
+  "OB": "Observed result: [Details missing]",
+  "EB": "Expected result: Undo it, click delete in context menu.\nThey should act the same.",
+  "SR": "Steps to reproduce:\n1. [Provide specific details for step 1]\n2. [Provide specific details for step 2]\n3. [Provide specific details for step 3]"
+}

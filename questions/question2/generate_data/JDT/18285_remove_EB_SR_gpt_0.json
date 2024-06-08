@@ -1,0 +1,8 @@
+{
+  "id": "18285",
+  "title": "Double-clicking on Import Statement Opens Target Type Instead of Importing Unit",
+  "description": "When navigating through the package view outline, there is a problem with double-clicking on type import statements.",
+  "OB": "Currently, when you double-click on a type import statement in the package view outline, it opens the editor on the target type, instead of opening the unit that hosts the import reference.",
+  "EB": "The expected behavior is that double-clicking on a type import statement should open the editor on the unit hosting the import reference, not the target type.",
+  "SR": "Steps to reproduce:\n1. Open Build 20020528.\n2. Navigate to the package view outline.\n3. Locate a type import statement.\n4. Double-click on the type import statement."
+}

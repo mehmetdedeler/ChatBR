@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "More Robust Logic Needed for Disk Sorting with Border Row Values",
+  "description": "The current logic for processing disk sorting is inadequate, especially when dealing with border values for row counts.",
+  "OB": "When sorting data on disk with a dataset of 40000 rows, and the program is configured to process the data less than 40000 rows, the following behavior is observed:",
+  "EB": "We expect the sorting process to handle cases where the row count is at its maximum (40000 rows) more effectively. Specifically, it should handle the sorting operation without issues or failures, regardless of the number of rows processed.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Configure the program to sort data on disk with a dataset of 40000 rows.\n2. Set the program to process the data less than 40000 rows.\n3. Perform the following operations:\n   a. Save the file as a temporary file.\n   b. Load the file into memory.\n   c. Initiate the sorting operation.\n   d. Save the sorted data to a temporary file."
+}

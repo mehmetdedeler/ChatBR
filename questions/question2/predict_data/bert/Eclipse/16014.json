@@ -1,0 +1,1 @@
+{"id": "16014", "title": "Bug 16014Find dialog replaces search string", "description": " Bug 16014Find dialog replaces search string 1. \"abc\")2. \"xyz\")4. Press \"Replace\"Note: The search string (\"abc\") has been replaced (with \"xyz\")", "OB": "", "EB": "", "SR": " Select a work (e.g. Open Find dialog (Ctrl+F)3. Enter different string into the Replace With field (e.g."}

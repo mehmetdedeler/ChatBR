@@ -1,0 +1,1 @@
+{"id": "46988", "title": "Bug 46988JMXAccessorTask String constants should be final", "description": "Bug 46988JMXAccessorTask String constants should be final Created attachment 23452 [details]Patch to make fields finalJMXAccessorTask String constants should be final ", "OB": "", "EB": "", "SR": ""}

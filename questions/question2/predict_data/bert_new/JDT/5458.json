@@ -1,0 +1,1 @@
+{"id": "5458", "title": "Bug 5458Add unimplemented deprecated methods", "description": "Bug 5458Add unimplemented deprecated methods Build 20011025 (aka 206)When generating stubs for unimplemented methods, the @deprecated tag should beinserted in case the method to implement was itself deprecated. ", "OB": "", "EB": "", "SR": ""}

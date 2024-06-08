@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "Bug 108822: Improved Logic Needed for Disk Sorting with Border Value in Row",
+  "description": "",
+  "OB": "When sorting on disk with a dataset of 40000 rows and setting the program to process data less than 40000 rows, the system performs the following operations:\n1. Saves the file as a temp file.\n2. Calls the file to memory.\n3. Sorts the data.\n4. Saves the file to a temp file.",
+  "EB": "The system should effectively handle disk sorting with a dataset of 40000 rows, ensuring seamless processing for cases where the program is set to handle data less than 40000 rows. The current logic appears to have shortcomings in this scenario.",
+  "SR": "To reproduce the issue:\n1. Set up a dataset with 40000 rows.\n2. Configure the program to process data less than 40000 rows.\n3. Initiate the disk sorting operation."
+}

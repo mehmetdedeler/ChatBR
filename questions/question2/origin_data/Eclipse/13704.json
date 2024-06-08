@@ -1,0 +1,1 @@
+{"bug_id": "13704", "title": "Bug 13704Outline View has text in middle of view when there is no outline", "description": "On Linux when there are no contents for the Outline View the message to theuser is in the middle of the view. It should be top justified like in windows.STEPS1) Open the PDE Perspective2) Close all editors"}

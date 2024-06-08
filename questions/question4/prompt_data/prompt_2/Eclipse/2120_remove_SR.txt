@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '2120', 'title': 'Bug 2120MRU File List is not persisted between sessions (1GE71Z0)', 'description': '', 'OB': 'Bug 2120MRU File List is not persisted between sessions (1GE71Z0) Notice how files appear in File menu MRU list.4. Notice how files do not appear in File menu MRU list.These files should be persisted between sessions.NOTES:DS (5/23/01 3:36:30 PM)Note: We should be using the IPersistableElement.Do not peek into theimplementation to get the underlying resource.The IEditorInput may not bea resource. ', 'EB': 'Notice how files do not appear in File menu MRU list.These files should be persisted between sessions.NOTES:DS (5/23/01 3:36:30 PM)Note: We should be using the IPersistableElement.Do not peek into theimplementation to get the underlying resource.The IEditorInput may not bea resource. ', 'SR': ''}
+</BUG REPORT>

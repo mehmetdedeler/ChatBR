@@ -1,0 +1,1 @@
+{"id": "29208", "title": "Bug 29208Gtk directory dialog behaves like a file dialog", "description": " Bug 29208Gtk directory dialog behaves like a file dialog", "OB": "  it's too easy to get a null result when a directory has been selected but afile hasn't there are many spurious filerelated widgets that are inappropriate", "EB": "", "SR": ""}

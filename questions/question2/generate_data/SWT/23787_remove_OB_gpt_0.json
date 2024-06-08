@@ -1,0 +1,8 @@
+{
+  "id": "23787",
+  "title": "Bug 23787 - Display Issue in Project Properties Info Page",
+  "description": "The Project Properties Info page is experiencing a display issue. This problem is specific to the integration build from 09/17 and affects all Motif platforms. The issue is related to the use of text fields on this page.",
+  "OB": "The bug report does not provide a clear observed behavior. It's essential to describe what exactly is happening on the Info page to address the issue effectively.",
+  "EB": "The expected behavior is that the fields on the Info page should be created as readonly Labels instead of Text fields. This change is expected to improve the display and user experience.",
+  "SR": "To reproduce the issue:\n1. Open a Project.\n2. Right-click and select 'Properties.'\n3. Navigate to the Info page and observe the display issue with the readonly fields (e.g., Path, Type, etc.) that are currently implemented as Text fields."
+}

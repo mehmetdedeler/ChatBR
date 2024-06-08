@@ -1,0 +1,1 @@
+{"bug_id": "48173", "title": "Bug 48173org.apache.catalina.tribes.io.ChannelData.EMPTYDATAARRAY should be final", "description": "org.apache.catalina.tribes.io.ChannelData.EMPTYDATAARRAY should be final"}

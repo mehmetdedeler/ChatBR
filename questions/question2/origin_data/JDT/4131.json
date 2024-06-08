@@ -1,0 +1,1 @@
+{"bug_id": "4131", "title": "Bug 4131extract method: missing exception declaration (1GIUPJ3)", "description": "AK (8/22/2001 10:23:30 AM)1.public class A {void m() throws Exception{/[/try{for (;;){}}catch(Exception e){throw new Exception();}/]/}}2. extract from /[/ to /]/3. the new method is missing the exception declaratiowhich results in compile errorNOTES:"}

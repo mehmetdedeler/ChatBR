@@ -1,0 +1,8 @@
+{
+  "id": "44164",
+  "title": "Update needed in javadoc for constructor Image(Device, ImageData)",
+  "description": "The current javadoc for constructor Image(Device, ImageData) lacks clarity regarding potential exceptions, leading to confusion in usage.",
+  "OB": "When instantiating Image with a Device and ImageData, it can sometimes throw org.eclipse.swt.SWTException: Unsupported color depth.",
+  "EB": "The javadoc for constructor Image(Device, ImageData) should explicitly mention that it can throw org.eclipse.swt.SWTException when encountering an unsupported color depth in the provided ImageData.",
+  "SR": "1. Navigate to the constructor Image(Device, ImageData).\n2. Create an Image instance with a Device and an ImageData of unsupported color depth.\n3. Verify that the constructor throws org.eclipse.swt.SWTException: Unsupported color depth."
+}

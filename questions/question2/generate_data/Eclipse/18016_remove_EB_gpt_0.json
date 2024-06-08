@@ -1,0 +1,8 @@
+{
+  "id": "18016",
+  "title": "Most Menu Actions Should Be Disabled for Custom Elements from Repository",
+  "description": "When dealing with custom elements from the repository, most menu actions are enabled, but they don't have any meaningful functionality. This behavior should be corrected.",
+  "OB": "In the repository view, there are 6 menu entries that are enabled for custom elements, but when clicked, none of them perform any action. These entries are:\n1. Open Declaration\n2. Open Type Hierarchy\n3. Open Super Implementations\n4. Show in Packages View\n5. Copy\n6. Search\n\nNote that 'Copy' could potentially serve a purpose, but it currently doesn't work. Additionally, structured selection seems to be affected by a related bug (see bug 18015). This issue should be considered major, as it is likely to impact many users.",
+  "EB": "When dealing with custom elements from the repository, the expected behavior is that most menu actions should be disabled or only enabled if they have a meaningful function. Specifically:\n1. The 'Open Declaration,' 'Open Type Hierarchy,' 'Open Super Implementations,' 'Show in Packages View,' and 'Search' options should be disabled for custom elements.\n2. The 'Copy' option should be enabled and should function as expected.\n3. The issue related to structured selection (bug 18015) should also be resolved to ensure proper interaction with custom elements.",
+  "SR": "To reproduce this issue:\n1. Open the repository view in the software.\n2. Select a .java file that represents a custom element from the repository."
+}

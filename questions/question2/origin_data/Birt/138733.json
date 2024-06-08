@@ -1,0 +1,1 @@
+{"bug_id": "138733", "title": "Bug 138733getExpressionValue fails", "description": "The following script fails onRow OnCreateif (this.getRowData().getExpressionValue(\"row[CREDITLIMIT]\")  80000 ){this.getStyle().backgroundColor = \"red\";}"}

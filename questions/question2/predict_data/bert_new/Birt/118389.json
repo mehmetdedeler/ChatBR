@@ -1,0 +1,1 @@
+{"id": "118389", "title": "Bug 118389Java based scripting  ScriptStyle  getBorderRightWidth", "description": "Bug 118389Java based scriptingScriptStylegetBorderRightWidth ", "OB": "", "EB": "", "SR": "steps to reproduce, create a label map the label to the Java class attachedexpected behavior, getBorderRightWidth return \"1cm\"actual behavior, getBorderRightWidth return null "}

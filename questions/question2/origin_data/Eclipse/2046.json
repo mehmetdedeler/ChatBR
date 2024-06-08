@@ -1,0 +1,1 @@
+{"bug_id": "2046", "title": "Bug 2046org.eclipse.ui.plugin.AbstractUIPlugin.loadDialogSettings() is using URLgetFile() (1GDTWUZ)", "description": "org.eclipse.ui.plugin.AbstractUIPlugin.loadDialogSettings() is using URLgetFile()this will fail when the install directory is not local see initializePluginPreferences for an example of using a streamNOTES:"}

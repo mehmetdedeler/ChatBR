@@ -1,0 +1,1 @@
+{"bug_id": "21030", "title": "Bug 21030StyledText  during cut if clipboard copy fails do not delete text", "description": "StyledText.cut() calls copy() which does a clipboard copy and can fail.If thecopy fails, the cut operation should NOT delete the text.One can currentlylose work.Resolve later.Why copy is failing so often in some cases [Bug 16011] is aseparate issue."}

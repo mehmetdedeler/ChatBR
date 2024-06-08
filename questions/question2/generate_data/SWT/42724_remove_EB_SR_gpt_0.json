@@ -1,0 +1,8 @@
+{
+  "id": "42724",
+  "title": "Bug 42724 - Incorrect Selection Rendering on Bidi Platforms",
+  "description": "This bug report discusses an issue with the rendering of selections in StyledText on bidi (Bi-directional) platforms. The report suggests that there may be a more efficient way to handle selection background rendering by leveraging code in StyledTextRenderer.drawLine related to style ranges for selections.",
+  "OB": "The observed behavior is that when forcibly redrawing the entire client area on a bidi platform, the entire bidi segment is drawn with a selection background. This problem is attributed to code in DisplayRenderer.drawLineSelectionBackground that redraws the entire selection background without considering bidi segments (direction runs). The correct selection background should be drawn in StyledTextRenderer.drawStyledLine, taking bidi segments and tab stops into account.",
+  "EB": "The expected behavior is that the selection background is rendered correctly on bidi platforms, considering bidi segments and tab stops. This would ensure that selections are displayed accurately.",
+  "SR": "Steps to reproduce the issue are not provided in the bug report."  
+}

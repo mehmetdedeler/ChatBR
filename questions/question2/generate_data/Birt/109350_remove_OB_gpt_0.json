@@ -1,0 +1,8 @@
+{
+  "id": "109350",
+  "title": "Output parameter not displayed in data set dialog",
+  "description": "The output parameter from a stored procedure called from an Oracle database is not displayed in the data set dialog.",
+  "OB": "The output parameter from a stored procedure called from an Oracle database is not displayed in the data set dialog.",
+  "EB": "The output parameter should be displayed in the data set dialog when a stored procedure is called from an Oracle database. It should show the query result stored in the output parameter as an object.",
+  "SR": "1. Call a stored procedure from an Oracle database.\n2. Observe that the query result is stored in an output parameter as an object.\n3. Open the data set dialog and check if the output parameter is displayed."
+}

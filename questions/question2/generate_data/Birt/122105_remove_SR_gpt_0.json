@@ -1,0 +1,8 @@
+{
+  "id": "122105",
+  "title": "Missing Schema in Stored Procedure Naming",
+  "description": "The schema should be added as 'schemaname.Procedurename' when using a stored procedure.",
+  "OB": "When dragging a stored procedure to the QueryText in the 'Edit data set' window, the stored procedure naming does not include the database schema name.",
+  "EB": "The expected behavior is that when a stored procedure is added to the QueryText in the 'Edit data set' window, the stored procedure naming should include both the database schema name and the stored procedure name in the format 'schemaname.Procedurename'.",
+  "SR": "To reproduce the issue:\n1. Create a new report.\n2. Open the 'Edit data set' window.\n3. Drag a stored procedure to the QueryText in the 'Edit data set' window.\n4. Observe that the stored procedure naming does not include the schema name, which is the problem."
+}

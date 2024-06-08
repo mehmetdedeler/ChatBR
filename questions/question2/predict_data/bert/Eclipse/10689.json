@@ -1,0 +1,1 @@
+{"id": "10689", "title": "Bug 10689Can't use [ESC] key to cancel \"Navigator Filters\" window", "description": " Bug 10689Can't use [ESC] key to cancel \"Navigator Filters\" window", "OB": " hit escape, the dialog doesn't go away", "EB": "", "SR": " 1. pull down the menu on the navigator view2. select 'Filters ...'3."}

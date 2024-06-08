@@ -1,0 +1,8 @@
+{
+  "id": "116744",
+  "title": "Dynamic text content type has no effect",
+  "description": "When using a dynamic text element to display content from a database field with three types of content, the Content Type property setting has no effect on the displayed results.",
+  "OB": "The dynamic text element does not change its display based on the Content Type property setting. Whether I set it to Auto, Plain, or HTML, the displayed results remain the same.",
+  "EB": "I expect the dynamic text element to display the content according to the Content Type property setting as follows:\n\n- For Plain, I expect the literal content (including tags) to be displayed.\n- For Auto, I expect content 1, 2, and 3 to appear properly without any HTML or RTF tags.\n- For HTML, I expect content 1 and 2 to appear properly without HTML tags, and content 3 to appear literally with RTF tags.\n\nPlease refer to the attached report for a visual representation of the expected results.",
+  "SR": "To reproduce this issue, follow these steps:\n\n1. Have a database field with three types of content:\n   - HTML text within <html>...</html> tags.\n   - HTML fragments not within <html> tags.\n   - Text with RTF tags.\n2. Use a dynamic text element to display the contents of this field."
+}

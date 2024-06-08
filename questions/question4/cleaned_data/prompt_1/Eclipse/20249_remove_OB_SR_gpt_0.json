@@ -1,0 +1,8 @@
+{
+  "id": "20249",
+  "title": "Bug 20249[Help] Change editor/view/perspective F1 help",
+  "description": "Bug 20249[Help] Change editor/view/perspective F1 help",
+  "OB": "When pressing F1 in the editor, view, or perspective change menus, the F1 help displays irrelevant information, causing flashing. This issue is also observed in the change viewer and change perspective menus. Furthermore, none of the actions under 'Window > Keyboard Shortcuts' have any F1 help defined to describe their functionalities.",
+  "EB": "If there is no F1 help defined for a specific action in the editor, view, perspective change, change viewer, or change perspective menus, pressing F1 should not display any information. This change aims to eliminate the flashing issue. Additionally, actions under 'Window > Keyboard Shortcuts' should have F1 help defined to provide users with clear descriptions of their functionalities.",
+  "SR": "Ensure that pressing F1 only displays help information for actions that have explicitly defined F1 help in the editor, view, perspective change, change viewer, and change perspective menus. Also, update 'Window > Keyboard Shortcuts' to include F1 help for each action to enhance user understanding of the functionalities."
+}

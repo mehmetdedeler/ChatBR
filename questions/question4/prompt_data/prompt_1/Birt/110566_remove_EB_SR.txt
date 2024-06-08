@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '110566', 'title': 'Bug 110566Wrong data set result returned when set an invalid filter expression row[0]', 'description': 'Then when set filterlike "row[0] equals to 0". Or justreturn null result set. ', 'OB': 'Bug 110566Wrong data set result returned when set an invalid filter expression row[0] description:Wrong data set result returned when set an invalid filter expression row[0]steps to reproduce:1. set a filter in data set with "row[0] equals to "2. click on Preview tab.actual result:The first result record returned when previewexpected result:As developer said that row[0] can only be generated after all the data werefetched. Row[0] can\'t be taken as filter expression. ', 'EB': '', 'SR': ''}
+</BUG REPORT>

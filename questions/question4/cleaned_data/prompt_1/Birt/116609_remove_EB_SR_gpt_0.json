@@ -1,0 +1,1 @@
+{"id": "116609", "title": "Bug 116609 - [Regression] Color orange doesn't work.", "description": "Description: The color orange is not displaying correctly.\nSteps to reproduce:\n1. Open the Preview.\n\nOB: The color orange should be visible.\nEB: The color orange is not displayed correctly.\nSR: Investigate and fix the issue causing the color orange to not display correctly."}

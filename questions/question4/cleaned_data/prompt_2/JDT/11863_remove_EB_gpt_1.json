@@ -1,0 +1,8 @@
+{
+  "id": "11863",
+  "title": "Bug 11863: Update Test Suite action does not allow removal",
+  "description": "The current behavior of the 'Update Test Suite' action is not clear when attempting to remove items.",
+  "OB": "When selecting 'Y' in the dialog, it is not evident that 'X' will be removed.",
+  "EB": "The expected behavior is that selecting 'Y' in the dialog should result in the removal of 'X'.",
+  "SR": "Steps to Reproduce:\n1. Open the 'Update Test Suite' action dialog.\n2. Select 'Y'.\n3. Observe that 'X' is not removed as expected."
+}

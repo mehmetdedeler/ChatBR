@@ -1,0 +1,1 @@
+{"id": "120315", "title": "If the display property of an item is set to 'none', it doesn't take effect in new PDF emitter", "description": "", "OB": "When the display property of an item is set to 'none' in the new PDF emitter, the item remains visible instead of being hidden.", "EB": "", "SR": ""}

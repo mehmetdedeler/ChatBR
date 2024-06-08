@@ -1,0 +1,8 @@
+{
+  "id": "11306",
+  "title": "Bug 11306 - Unexpected Wizard Launch in New Class Creation",
+  "description": "This report concerns an issue related to the behavior of the New Class Wizard.",
+  "OB": "The observed behavior is missing, and the expected behavior is not stated in the report.",
+  "EB": "The expected behavior should be explicitly described to clarify the issue.",
+  "SR": "To address this problem, please provide more details on the observed behavior, and explicitly state the expected behavior. Additionally, provide step-by-step instructions on how to reproduce the issue in a new workspace."
+}

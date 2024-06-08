@@ -1,0 +1,1 @@
+{"bug_id": "49091", "title": "Bug 49091Util.specialCharactersRepresentation should be private", "description": "jasper.tagplugins.jstl.Util.specialCharactersRepresentation is a mutable public static array; it is not used outside the class as far as I can tell and so should be made private"}

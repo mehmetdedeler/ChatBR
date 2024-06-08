@@ -1,0 +1,8 @@
+{
+  "id": "109350",
+  "title": "Output Parameter Not Displayed in Data Set Dialog",
+  "description": "In the data set dialog, the output parameter is not being displayed as expected.",
+  "OB": "The output parameter is not visible in the data set dialog when calling a stored procedure from an Oracle database.",
+  "EB": "The output parameter should be clearly visible and displayed within the data set dialog when calling a stored procedure from an Oracle database.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the data set dialog.\n2. Call a stored procedure from an Oracle database in the dialog.\n3. Observe that the output parameter is not displayed as expected."
+}

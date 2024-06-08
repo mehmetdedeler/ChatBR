@@ -1,0 +1,1 @@
+{"id": "50631", "title": "Bug 50631InternalNioInputBuffer should honor maxHttpHeadSize", "description": " Bug 50631InternalNioInputBuffer should honor maxHttpHeadSize", "OB": " InternalNioInputBuffer automatically expands its buffer while reading in request line, effectively ignoring the maxHttpHeaderSize setting.", "EB": "", "SR": ""}

@@ -1,0 +1,8 @@
+{
+  "id": "17423",
+  "title": "Bug 17423: Revert appears twice in the popup menu.",
+  "description": "There are two Revert options in the menu.",
+  "OB": "When the editor is dirty, and the menu is popped up, two Revert options are visible.",
+  "EB": "There is only one Revert option, and it is correctly disabled when the editor is dirty.",
+  "SR": "Ensure that the Revert option is displayed only once in the popup menu and is appropriately disabled when the editor is dirty."
+}

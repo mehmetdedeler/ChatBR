@@ -1,0 +1,1 @@
+{"id": "117981", "title": "Bug 117981 - Unable to select any item at the first time in library outline view.", "description": "Description: Any item in the library outline view cannot be selected when attempting to do so for the first time. The focus immediately jumps to the library file node in the outline view.\n\nSteps to reproduce:\n1. Open the library outline view.\n2. "}

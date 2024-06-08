@@ -1,0 +1,8 @@
+{
+  "id": "21834",
+  "title": "Bug 21834: Coolbar Deleting Items Corrupting Layout",
+  "description": "The bug report pertains to issues with the Coolbar, particularly when deleting items, causing layout corruption. This problem was observed in Build 2002071610021.",
+  "OB": "Upon pressing the 'Delete' button, the first item on the second row is deleted, and it's noticed that the 'Launch' item is moved to the first row during the deletion process.",
+  "EB": "Pressing the 'Delete' button should result in the deletion of the first item on the second row, but the second row should not be removed. It should remain as is. The 'Launch' item should stay on the second row, and it should not move to the first row during the deletion process.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Press the 'Delete' button, and it should delete the first item on the second row. However, the second row should remain intact. Notice that the 'Launch' item stays on the second row and does not move to the first row during the deletion."
+}

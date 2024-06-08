@@ -1,0 +1,8 @@
+{
+  "id": "124066",
+  "title": "Insert Chart Option Not Translated into Chinese in Context Menu",
+  "description": "When using the software in a Chinese environment, the 'Insert Chart' option in the context menu is not translated into Chinese.",
+  "OB": "The 'Insert Chart' option in the context menu is displayed in English when the software is used in a Chinese environment.",
+  "EB": "The 'Insert Chart' option in the context menu should be displayed in Chinese when the software is used in a Chinese environment.",
+  "SR": "Steps to reproduce:\n1. Set the software environment to Chinese.\n2. Create a report.\n3. Right-click to open the context menu and observe that the 'Insert Chart' option is displayed in English instead of Chinese."
+}

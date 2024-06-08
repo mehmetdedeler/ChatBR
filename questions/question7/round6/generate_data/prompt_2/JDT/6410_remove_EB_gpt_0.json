@@ -1,0 +1,3 @@
+{"id": "6410", "title": "Bug 6410: File unchanged but dirtied by code assist",
+  "description": "The file is marked as dirtied even though no changes have been made, and code assist does not appear.",
+  "OB": "The file is marked as dirtied but no changes were made, and code assist does not appear.", "EB": "", "SR": "1122. To reproduce this issue, please follow these steps:\n1. Open a Java file.\n2. Place the cursor inside the leftmost parenthesis of a method call. For example, consider 'I' to be the cursor below:\n   Object o = anotherObject.method(I);\n3. Press Ctrl + Space to trigger code assist."}

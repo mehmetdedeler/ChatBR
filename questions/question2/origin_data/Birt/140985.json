@@ -1,0 +1,1 @@
+{"bug_id": "140985", "title": "Bug 140985Cancel button in parameter dialog doesn't work", "description": "Description:Cancel button in parameter dialog doesn't workSteps to reproduce:1. New a parameter2. Preview and click Cancel Expected result:Transfer to layout Actual result:Nothing happened."}

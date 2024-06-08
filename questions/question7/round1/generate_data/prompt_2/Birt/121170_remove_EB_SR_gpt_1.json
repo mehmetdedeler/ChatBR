@@ -1,0 +1,1 @@
+{"id": "121170", "title": "Bug 121170 - get column label from meta data object should return user recognizable strings", "description": "", "OB": "The labels returned before extraction are null, while the ones after extraction are recognizable strings.", "EB": "The get column label function should return non-null, recognizable strings both before and after extraction.", "SR": ""}

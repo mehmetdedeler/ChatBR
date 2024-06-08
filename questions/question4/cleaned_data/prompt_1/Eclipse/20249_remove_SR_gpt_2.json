@@ -1,0 +1,8 @@
+{
+  "id": "20249",
+  "title": "Bug 20249[Help] Change editor/view/perspective F1 help",
+  "description": "Bug 20249[Help] Change editor/view/perspective F1 help",
+  "OB": "When the change editor menu is open, pressing F1 displays some help. However, the help window closes immediately, preventing the user from reading its contents.",
+  "EB": "If there is F1 help defined, pressing F1 should keep the help window open for the user to read. If there is no F1 help defined, pressing F1 should not display anything to avoid unnecessary flashing. This issue also extends to the change viewer and change perspective menus, where none of the actions under Window Keyboard Shortcuts have any F1 help defined to describe their functionalities.",
+  "SR": "1. Open the change editor menu.\n2. Press F1 and observe the help window behavior.\n3. Repeat the same steps for the change viewer and change perspective menus."
+}

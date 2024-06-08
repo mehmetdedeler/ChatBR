@@ -1,0 +1,1 @@
+{"bug_id": "12104", "title": "Bug 12104modify parameters: not allowed on some constructors", "description": "public class A extends Error{A(String s){}}"}

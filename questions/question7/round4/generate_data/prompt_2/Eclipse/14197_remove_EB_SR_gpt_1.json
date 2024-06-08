@@ -1,0 +1,1 @@
+{"id": "14197", "title": "Removing a working set immediately causes changes to occur", "description": "When removing a working set, changes occur immediately.", "OB": "1. Create a working set containing one project and select it. Package view is filtered.\n2. ", "EB": "", "SR": ""}

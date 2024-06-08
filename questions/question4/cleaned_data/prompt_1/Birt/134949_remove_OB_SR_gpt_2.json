@@ -1,0 +1,8 @@
+{
+  "id": "134949",
+  "title": "Bug 134949 - Themes Nest in Other Library",
+  "description": "Themes are nesting in another library. Details: Themes are nesting in another library. Step 1.",
+  "OB": "Themes are incorrectly nesting in a library other than the expected one.",
+  "EB": "Themes should not nest in libraries other than the designated one. They should follow the expected structure.",
+  "SR": "1. Open the application.\n2. Navigate to the theme settings.\n3. Observe the theme nesting behavior in libraries other than the designated one."
+}

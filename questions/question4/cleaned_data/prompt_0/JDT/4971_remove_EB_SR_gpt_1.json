@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Bug 4971: Strange 'copy package'",
+  "description": "Bug 4971 occurs during 'copy package' in version 2031 of org.eclipse.jdt.internal.ui in jdt.ui. The issue is observed when selecting 'xxx' as the destination.",
+  "OB": "Upon performing the 'copy package' operation, the destination 'xx' unexpectedly contains a package named 'ui'.",
+  "EB": "The expected behavior is that the 'copy package' operation should result in the destination ('xx') having the copied package without any additional or unexpected sub-packages, specifically not including a 'ui' package.",
+  "SR": "To reproduce the issue:\n1. Open the Eclipse IDE.\n2. Navigate to org.eclipse.jdt.internal.ui.\n3. Trigger the 'copy package' operation.\n4. When prompted, select 'xxx' as the destination.\n5. Observe the contents of the destination ('xx') for the presence of an unexpected 'ui' package."
+}

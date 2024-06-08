@@ -1,0 +1,8 @@
+{
+  "id": "49235",
+  "title": "Bug 49235 - Incorrect Output from ServletContainerInitializer onStartup",
+  "description": "This bug report addresses an issue with ServletContainerInitializer onStartup resulting in unexpected output.",
+  "OB": "The observed behavior is that the output is 'MySomeClass,' whereas the user expected the output to be 'MySomeClass.' The report mentions that this behavior is not compliant with Servlet 3.0 specifications and that similar code worked fine on Glassfish 3.0.",
+  "EB": "The expected behavior is to output 'MySomeClass,' which matches the observed behavior. The reported issue seems to be based on an expectation mismatch.",
+  "SR": "The steps to reproduce this issue are not provided, as the observed and expected behaviors are identical."
+}

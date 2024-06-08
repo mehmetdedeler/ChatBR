@@ -1,0 +1,8 @@
+{
+  "id": "17423",
+  "title": "Bug 17423: Revert Appears Twice in the Popup Menu",
+  "description": "There are two 'Revert' options in the menu.",
+  "OB": "Two 'Revert' options are visible in the popup menu.",
+  "EB": "Only one 'Revert' option should appear in the popup menu.",
+  "SR": "1. Open the application and navigate to the main menu.\n2. Right-click to open the popup menu.\n3. Observe the presence of two 'Revert' options in the menu."
+}

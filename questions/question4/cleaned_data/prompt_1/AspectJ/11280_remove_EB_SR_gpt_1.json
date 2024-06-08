@@ -1,0 +1,8 @@
+{
+  "id": "11280",
+  "title": "Bug 11280[View Mgmt] Switching perspectives loses view maximized state",
+  "description": "When switching perspectives in the View Management module, the view maximized state is lost.",
+  "OB": "The bug manifests when changing perspectives in View Management, resulting in the loss of the maximized state for the current view.",
+  "EB": "Upon switching perspectives, the view should retain its maximized state, ensuring a consistent user experience.",
+  "SR": "1. Investigate and identify the root cause of the maximized state loss when switching perspectives.\n2. Implement a fix to preserve the maximized state during perspective changes.\n3. Conduct thorough testing to ensure the issue is resolved without introducing new bugs."
+}

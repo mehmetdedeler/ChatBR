@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '113047', 'title': 'Bug 113047No chidren node listing when change data source for a data set in data set editor page of the query tab.', 'description': '', 'OB': ' description:No chidren node listing when change data source for a data set in data seteditor page of the query tab.steps to reproduce:1. new a data set without SQL statement2. the new data source has no database/table /column informationactual result:No chidren node listing when change data source for a data set in data seteditor page of the query tab.Close the data set editor and reopen it.', 'EB': '', 'SR': ' Bug 113047No chidren node listing when change data source for a data set in data set editor page of the query tab. description:No chidren node listing when change data source for a data set in data seteditor page of the query tab.steps to reproduce:1. new a data set without SQL statement2. in data set editor data source page. change data source3. the new data source has no database/table /column informationactual result:No chidren node listing when change data source for a data set in data seteditor page of the query tab.Close the data set editor and reopen it.'}
+</BUG REPORT>

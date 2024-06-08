@@ -1,0 +1,8 @@
+{
+  "id": "123523",
+  "title": "Previewing a scripted data set mapped to a java event handler throws NPE",
+  "description": "When previewing a scripted data set mapped to a java event handler, a NullPointerException (NPE) is thrown (See ScriptExecutor.getClassUsingCustomClassPath). The context will be null in this case. The reason for using the context is to use cached class loaders when possible. We can either provide an external map to use as a cache, or not bother with caching at all.",
+  "OB": "When previewing a scripted data set mapped to a java event handler, a NullPointerException (NPE) is thrown due to the null context.",
+  "EB": "The expected behavior is that the system should not throw a NullPointerException when previewing a scripted data set with a null context. Instead, it should use some other mechanism to obtain the class loader.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the software and navigate to the scripted data set that is mapped to a java event handler.\n2. Attempt to preview the data set.\n3. Observe the NullPointerException being thrown when the context is null."
+}

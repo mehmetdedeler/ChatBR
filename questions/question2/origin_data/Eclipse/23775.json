@@ -1,0 +1,1 @@
+{"bug_id": "23775", "title": "Bug 23775[Navigator] NPE if Move operation cancelled", "description": "integration build 09/17 the the Resource Navigator select a file resource, rightclick  Move... in the subsequent Folder Selection dialog click Cancel you'll get the attached stack trace"}

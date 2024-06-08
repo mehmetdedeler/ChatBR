@@ -1,0 +1,8 @@
+{
+  "id": "12398",
+  "title": "Bug 12398: Accessibility problems",
+  "description": "I need to first click on one of the 'live' areas before it starts working (e.g., the banner with the tool buttons, the nav frame, or the content frame.)",
+  "OB": "When interacting with the application, there is a requirement to click on one of the 'live' areas before functionality initiates. For instance, the banner with the tool buttons, the nav frame, or the content frame needs to be clicked for the application to respond.",
+  "EB": "Upon launching the Help view, the tab key should trigger relevant actions without the need for an initial click on the 'live' areas.",
+  "SR": "20020326, Win2KWhen I launch the Help view, the tab key does not actually do anything. "
+}

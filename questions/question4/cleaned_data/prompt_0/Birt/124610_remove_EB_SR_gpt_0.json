@@ -1,0 +1,1 @@
+{"id": "124610", "title": "Add a filter on a boolean computed column causes error", "description": "", "OB": "When adding a filter on a boolean computed column, an error occurs.", "EB": "", "SR": "To reproduce: \n1. Open the software \n2. Go to the computed column section \n3. Add a boolean computed column \n4. Try to add a filter on the computed column \n5. Observe the error"}

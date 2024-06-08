@@ -1,0 +1,8 @@
+{
+  "id": "122105",
+  "title": "Schema Not Added to 'schemaname.Procedurename' When Using Stored Procedure",
+  "description": "When using a stored procedure, the schema should be added as 'schemaname.Procedurename' in the data source and data set.",
+  "OB": "Currently, when a stored procedure is used, the schema name is not added to the 'schemaname.Procedurename' in the data source and data set. Instead, only the procedure name is displayed without the schema name.",
+  "EB": "I expect that when using a stored procedure, the schema name should be included in the data source and data set as 'schemaname.Procedurename' to accurately reflect the complete procedure reference.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Create a data source in the software.\n2. Create a data set that uses a stored procedure.\n3. Observe that the schema name is not added to the 'schemaname.Procedurename' in the data source and data set."
+}

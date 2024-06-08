@@ -1,0 +1,8 @@
+{
+  "id": "3622",
+  "title": "Bug 3622 - New Package Wizard has confusing message (1GD0L9O)",
+  "description": "The New Package Wizard in the Java Project is displaying a confusing message, causing user frustration.",
+  "OB": "When attempting to create a new package in a Java Project, the New Package Wizard shows a vague error message without specifying the issue. This is confusing for users as they can't identify what's wrong.",
+  "EB": "The New Package Wizard should provide a clear and informative error message when there is an issue with creating a new package in a Java Project. Users should be able to understand the problem and take appropriate action.",
+  "SR": "To reproduce the issue:\n1. Create a new Java Project.\n2. Select the project.\n3. Attempt to create a new package in the project. The confusing error message will be displayed."
+}

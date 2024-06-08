@@ -1,0 +1,8 @@
+{
+  "id": "49235",
+  "title": "Bug 49235 - ServletContainerInitializer onStartup(Set<Class<? classSet does not produce expected output",
+  "description": "When invoking ServletContainerInitializer's onStartup method with a Set of Class objects, the output is 'MySomeClass', but it is expected to be different. This issue seems to be related to Servlet 3.0 spec. It's worth noting that my code functions correctly on Glassfish 3.0.",
+  "OB": "Upon calling ServletContainerInitializer's onStartup method with a Set of Class objects, the current output is 'MySomeClass'.",
+  "EB": "The expected behavior is that the output should not be 'MySomeClass' and should align with the requirements of Servlet 3.0 spec.",
+  "SR": "To reproduce the issue, perform the following steps:\n1. Create a ServletContainerInitializer implementation in a Servlet 3.0 compatible environment.\n2. Implement the onStartup method with a Set of Class objects as a parameter.\n3. Call the onStartup method with the Set of Class objects and observe the output."
+}

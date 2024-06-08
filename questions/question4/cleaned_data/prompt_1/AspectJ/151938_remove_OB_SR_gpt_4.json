@@ -1,0 +1,8 @@
+{
+  "id": "151938",
+  "title": "Bug 151938 Handle Duplicate javaagent entries more gracefully",
+  "description": "Failing that, it would be better to fail and give an error message than emit the bytecode. This issue came up for our automated installer, which adds a javaagent flag to VM startup commands. We are making our scripts more intelligent to avoid this issue, but we are probably not the only people who will hit this issue (e.g., if someone manually edits both setclasspath.bat and catalina.bat to add the flag for a Tomcat instance...)",
+  "OB": "AspectJ fails to handle duplicate javaagent entries gracefully, resulting in unexpected behavior.",
+  "EB": "It would be better if AspectJ detected that it was specified more than once and gave a warning, then disabled all but one of the agents.",
+  "SR": "To reproduce the issue:\n1. Add the javaagent flag to VM startup commands.\n2. Manually edit both setclasspath.bat and catalina.bat to add the flag for a Tomcat instance.\n3. Observe unexpected behavior due to duplicate javaagent entries."
+}

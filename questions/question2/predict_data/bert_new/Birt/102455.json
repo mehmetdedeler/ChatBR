@@ -1,0 +1,1 @@
+{"id": "102455", "title": "Bug 102455Pie Chart is not round", "description": "Bug 102455Pie Chart is not round ", "OB": "", "EB": "It shouldbe perfectly round at least by default. ", "SR": "Create a pie chart in the report designer: the pie chart is ovale. "}

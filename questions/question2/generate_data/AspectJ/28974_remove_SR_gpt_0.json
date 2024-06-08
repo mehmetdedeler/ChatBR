@@ -1,0 +1,8 @@
+{
+  "id": "28974",
+  "title": "Bug 28974 - Compiler error when introducing a 'final' field",
+  "description": "This bug report pertains to a compilation error encountered when attempting to introduce a 'final' field.",
+  "OB": "The observed behavior is that the provided aspect fails to compile with version 1.1b2 of the software, generating a compilation error message: '$ ajc com/ibm/amc/.java com/ibm/amc/ejb/.javad:/eclipse/runtimeworkspaceajsamples/Mock EJBs/com/ibm/amc/DemoBeanEJB.java:1: Cannot assign a value to the final field com.ibm.amc.DemoBean.ajc$interField$comibmamc$verbose!!'",
+  "EB": "The expected behavior is not explicitly stated in the report, but it implies that there may be a need to enable or disable the creation of type comments, and this action might involve going to 'WindowPreferencesJavaCode Generation.' The report hints at a desired user interface change.",
+  "SR": "To effectively address this issue, more information about the desired behavior and any specific user actions required should be provided. Additionally, clear and complete steps to reproduce the problem are essential for understanding and resolving the issue." 
+}

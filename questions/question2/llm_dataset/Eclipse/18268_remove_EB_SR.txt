@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '18268', 'title': 'Bug 18268not finding images and files in NLspecific subdirectories', 'description': ' Bug 18268not finding images and files in NLspecific subdirectories build 200205291235Setup Start eclipse. Delete <install/eclipse/org.eclipse.platform2.0.0/eclipselg.gif3. Edit <install/eclipse/org.eclipse.platform2.0.0/about.iniChange the value of the aboutImage property:aboutImage=$nl$/eclipselg.gif4. Edit <install/eclipse/org.eclipse.platform2.0.0/about.iniChange the value of the aboutImage property:aboutImage=nl/en/eclipselg.gif7. Open the about dialogObserve: There is a main image again.This suggests that the UI is correctly passing the entire pathto IPluginDescriptor.find, but that the "$nl$" path segment is not beinghandled correctly.', 'OB': ' Open the about dialog Observe: There is a main image.', 'EB': '', 'SR': ''}
+</BUG REPORT>

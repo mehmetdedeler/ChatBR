@@ -1,0 +1,8 @@
+{
+  "id": "14943",
+  "title": "Bug 14943 - Code Assist does not respect platform line ends",
+  "description": "The Code Assist feature is not behaving as expected when it comes to respecting platform-specific line endings.",
+  "OB": "When using the Code Assist feature, it does not adjust or format the suggested code snippets to match the line endings used by the platform. It consistently uses Unix-style line endings, even when the project or file is set to use a different line ending convention.",
+  "EB": "Code Assist should respect and adapt to the line ending settings of the project or file where it is being used. If the project uses Windows-style line endings (CRLF), Code Assist should generate code snippets with CRLF line endings. Similarly, if the project uses Unix-style line endings (LF), Code Assist should generate code snippets with LF line endings.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Create a new class in any project.\n2. Add a method within the class.\n3. Define a local variable for an array inside the method.\n4. Use Code Assist to generate code snippets or suggestions. Observe that the line endings in the generated code do not match the line ending format used in the project or file."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "26109", "title": "Bug 26109[Dialogs] Need a FormData version of the button sizing API", "description": "The button sizing API in Dialog assumes the developer wants a GridData. Weshould promote the FormData version in PathVariablesDialog to Dialog."}

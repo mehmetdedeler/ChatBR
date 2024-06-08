@@ -1,0 +1,8 @@
+{
+  "id": "132103",
+  "title": "No objects under Context in palette when scripting a data set",
+  "description": "When attempting to script a data set, there are no objects visible under the 'Context' section in the palette. This is causing issues with data manipulation and scripting tasks.",
+  "OB": "When scripting a data set, under the 'Context' section in the palette, no objects are displayed.",
+  "EB": "I expect to see a list of relevant objects under the 'Context' section in the palette when scripting a data set. These objects should include data fields and dataset properties that can be used in the script.",
+  "SR": "To reproduce this issue:\n1. Open the software and navigate to the data set scripting interface.\n2. Look at the 'Context' section in the palette on the left-hand side of the screen.\n3. Observe that no objects are displayed under the 'Context' section."
+}

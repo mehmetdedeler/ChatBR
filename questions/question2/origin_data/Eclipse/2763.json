@@ -1,0 +1,1 @@
+{"bug_id": "2763", "title": "Bug 2763[Dialogs] DCR: TypeFilteringDialog should be public API (1GIYHMY)", "description": "The org.eclipse.ui.internal.dialogs.TypeFilteringDialog should bepublic API to guarantee that selecting a type is consistent all overthe workbench. The same dialog is used (and had to be copied fornow) in the Search dialog.NOTES:"}

@@ -1,0 +1,1 @@
+{"bug_id": "18165", "title": "Bug 18165IWorkbenchPart doesn't work as described", "description": "Please fix the JavaDOC for IWorkbenchPart.It states that createPartControl(Composite) will get called after init.Thisis not guaranteed to occur."}

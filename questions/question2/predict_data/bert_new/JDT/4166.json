@@ -1,0 +1,1 @@
+{"id": "4166", "title": "Bug 4166DCR: Javadoc for implementers of a method (1GJJ5LD)", "description": "Bug 4166DCR: Javadoc for implementers of a method (1GJJ5LD) ", "OB": "If I hover over a method which implements an interfaceor overrides a method I would like to see the correspondingJavadoc (unless I also added my own Javadoc).NOTES: ", "EB": "", "SR": ""}

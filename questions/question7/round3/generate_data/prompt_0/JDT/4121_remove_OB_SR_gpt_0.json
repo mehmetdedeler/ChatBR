@@ -1,0 +1,1 @@
+{"id": "4121", "title": "Bug 4121: JarExporter causes out of sync", "description": "Bug 4121: JarExporter causes out of sync", "OB": "", "EB": "The exported jar file should not include itself.", "SR": ""}

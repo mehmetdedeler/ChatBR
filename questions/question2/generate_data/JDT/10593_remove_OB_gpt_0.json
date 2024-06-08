@@ -1,0 +1,8 @@
+{
+  "id": "10593",
+  "title": "Bug 10593 - Jar Export Should Add \".jar\" Suffix If Not Specified",
+  "description": "This bug report addresses an issue related to jar export functionality.",
+  "OB": "When using Build 20020228, if you select certain files for export and enter 'test' as the jar name using the jar export feature, it creates a jar file with the name 'test'.",
+  "EB": "The expected behavior is that in Build 20020228, when selecting specific files for export and entering 'test' as the jar name using the jar export feature, it should create a jar file named 'test.jar'.",
+  "SR": "To reproduce this bug:\n1. Use Build 20020228.\n2. Select specific files for export.\n3. Utilize the jar export feature.\n4. Enter 'test' as the jar name.\n5. Observe that it creates a jar file with the name 'test' instead of 'test.jar'."
+}

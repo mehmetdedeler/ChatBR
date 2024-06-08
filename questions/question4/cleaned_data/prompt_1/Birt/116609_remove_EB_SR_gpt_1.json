@@ -1,0 +1,8 @@
+{
+  "id": "116609",
+  "title": "Bug 116609 [Regression] Color orange doesn't work.",
+  "description": "Bug 116609 [Regression] Color orange doesn't work. Description: Color orange doesn't work. Steps to reproduce: 1. [Please provide additional details for the steps to reproduce.]",
+  "OB": "Preview. Expected result: Orange color works. Actual result: It didn't work. [Please provide more details about the observed behavior.]",
+  "EB": "[Please provide a clear and detailed description of the expected behavior.]",
+  "SR": "[Please provide a detailed and complete set of steps to reproduce the issue.]"
+}

@@ -1,0 +1,1 @@
+{"bug_id": "98646", "title": "Bug 98646parser cannot parse varargs correctly", "description": "the following cannot be parsed:call( (int, Integer...))see in modules/weaver/.../PointcutVisitorTest (uncomment the testTemp())See \"FIXME AV for Adrian\" comments in PatternParser. Half fix but then fails forother tests.Adrian can you have a look at it ?Thanks"}

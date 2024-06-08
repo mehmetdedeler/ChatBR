@@ -1,0 +1,8 @@
+{
+  "id": "23787",
+  "title": "Bug 23787 - Project Properties Info Page Display Issue on Motif Platforms",
+  "description": "The Project Properties Info page is displaying incorrectly on Motif platforms. The issue is specific to the integration build from 09/17. The text fields on this page should not use text fields and have display issues on Motif platforms, although they look fine on Windows.",
+  "OB": "On Windows, the Project Properties Info page appears fine. However, on Motif platforms, the text fields on this page get automatic borders, which make them look like user input fields. Additionally, on Solaris, AIX, and HPUX, these fields have different colored backgrounds, making them stand out even worse.",
+  "EB": "The expected behavior is that the Project Properties Info page should have a consistent and clean display across different platforms, including Motif. The text fields should not have automatic borders, and their backgrounds should be consistent with the page's overall design.",
+  "SR": "To reproduce the issue:\n1. Select a Project.\n2. Right-click and choose 'Properties.'\n3. On the subsequent Info page, observe the display issue with the readonly fields (the values for Path, Type, etc.)."
+}

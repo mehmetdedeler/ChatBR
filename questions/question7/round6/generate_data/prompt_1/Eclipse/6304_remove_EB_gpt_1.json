@@ -1,0 +1,8 @@
+{
+  "id": "6304",
+  "title": "Bug 6304: Cannot synchronize a .java file and another resource",
+  "description": "The bug report lacks sufficient details in the OB (Observed Behavior), EB (Expected Behavior), and SR (Steps to Reproduce) sections.",
+  "OB": "When attempting to synchronize a .java file and another resource (e.g., a .properties file) in the package viewer, an error or unexpected behavior occurs.",
+  "EB": "The synchronization process between a .java file and another resource should complete successfully without errors or unexpected behavior.",
+  "SR": "1. Open the package viewer.\n2. Select a .java file and another resource (e.g., a .properties file).\n3. Attempt to synchronize the selected files."
+}

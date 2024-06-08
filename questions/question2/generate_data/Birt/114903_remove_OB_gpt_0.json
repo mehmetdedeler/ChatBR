@@ -1,0 +1,8 @@
+{
+  "id": "114903",
+  "title": "Default values are not shown in Show Report Parameters' dialog",
+  "description": "When attempting to modify report parameters, default values are not displayed as expected, requiring manual input of all values in the Enter Parameters dialog.",
+  "OB": "Default values for report parameters are not displayed in the Show Report Parameters dialog.",
+  "EB": "Upon previewing the report and clicking the 'Show Report Parameters' button, I expected to see the default values displayed in the value box for each parameter. This would allow me to easily modify the parameter I want to change without manually inputting all values.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Create several report parameters.\n2. Set default values for these parameters.\n3. Drag the parameters to the report layout.\n4. Preview the report.\n5. Click the 'Show Report Parameters' button. The bug can be observed when the default values are not shown in the dialog, and all values appear empty in the Enter Parameters dialog."
+}

@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '10654', 'title': 'Bug 10654Allow all jars in a folder to be added to build path', 'description': 'Bug 10654Allow all jars in a folder to be added to build path ', 'OB': '', 'EB': '', 'SR': "When adding jar files to the build path using classpath variables, you have tospecify each jar file separately, even if there are several in the samedirectory. In order to get my code tocompile, I had to add in several of the jar files from the WTE plugin directory.This involved manually searching through the jar files to find the missingclasses, and adding in the appropriate jars.I believe bug 3887 alludes to this feature (saying it will be deferred), but Ihaven't been able to find a bug report or feature request directly describingthis. "}
+</BUG REPORT>

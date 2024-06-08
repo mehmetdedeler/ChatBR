@@ -1,0 +1,8 @@
+{
+    "id": "22360",
+    "title": "Bug 22360[Fonts] FontRegistry Instantiation Issue",
+    "description": "When attempting to instantiate FontRegistry using resources outside org.eclipse.jface.resource, the FontRegistry class restricts resource lookup to only those relative to the location of the class org.eclipse.jface.resource. To resolve this issue, the FontRegistry constructor should be modified to accept a client class or class loader as an additional parameter.",
+    "OB": "The FontRegistry class restricts resource lookup to only those relative to the location of the class org.eclipse.jface.resource.",
+    "EB": "The FontRegistry constructor should be modified to accept a client class or class loader as an additional parameter, allowing clients to load their own resource bundle and pass it as a parameter to the constructor.",
+    "SR": "1. Create a client class or class loader. \n2. Modify the FontRegistry constructor to accept the client class or class loader as an additional parameter. \n3. Load the required resource bundle using the client class or class loader and pass it to the FontRegistry constructor."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "116744",
+  "title": "Dynamic text content type has no effect",
+  "description": "When attempting to change the content type to dynamic text, it doesn't have the expected impact on the system. The issue is causing a disruption in our workflow.",
+  "OB": "When we select the dynamic text content type option, it doesn't update the content as it should.",
+  "EB": "We expect that when choosing the dynamic text content type, the content displayed should change dynamically based on user interactions and data updates. It should adapt and show real-time changes without requiring manual refresh.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Log in to the application.\n2. Navigate to the 'Content Type' settings in the user profile or content editor.\n3. Choose 'Dynamic Text' as the content type for a specific piece of content.\n4. Observe that the content remains static and does not dynamically update as expected, even when data changes occur. It should update without any additional user action."
+}

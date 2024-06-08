@@ -1,0 +1,1 @@
+{"id": "48175", "title": "Bug 48175Loggers should be final", "description": " Bug 48175Loggers should be final Created attachment 24516 [details]Patch to make log fields final where possibleLog fields should be final (see r834226)", "OB": "", "EB": "", "SR": ""}

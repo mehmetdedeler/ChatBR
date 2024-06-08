@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Strange 'copy package' Bug in org.eclipse.jdt.internal.ui",
+  "description": "When attempting to copy a package in the org.eclipse.jdt.internal.ui of project xxx, there's a strange issue.",
+  "OB": "When trying to copy a package, the 'copy package' functionality does not work as expected.",
+  "EB": "The 'copy package' operation should work correctly in the org.eclipse.jdt.internal.ui of project xxx.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create a new project named xxx.\n2. In the Package viewer, select a package within the project (e.g., from the context menu, choose 'copy')."
+}

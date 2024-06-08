@@ -1,0 +1,1 @@
+{"bug_id": "131835", "title": "Bug 131835Clean up FO related code", "description": "Now that FO is not part of BIRT, clean up all references to FO, including the FORenderOption, TailoredForFOP, etc."}

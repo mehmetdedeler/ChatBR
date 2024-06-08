@@ -1,0 +1,1 @@
+{"id": "116758", "title": "Bug 116758There is no icon for image and chart template.", "description": "Bug 116758There is no icon for image and chart template. Description: There is no icon for image and chart template.Steps to reproduce:1. ", "OB": "There is no icon in front of it. ", "EB": "", "SR": "Create an image element and changes it to a template.2. "}

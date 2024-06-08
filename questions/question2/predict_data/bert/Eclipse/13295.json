@@ -1,0 +1,1 @@
+{"id": "13295", "title": "Bug 13295F2 does not work in Outline view", "description": " Bug 13295F2 does not work in Outline view I assume this is because of the new editor key binding support.", "OB": " EditShow Javadoc does not work from Outline view but does not when using theshortcut key (F2).", "EB": "", "SR": ""}

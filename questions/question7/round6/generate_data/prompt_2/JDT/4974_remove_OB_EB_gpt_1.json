@@ -1,0 +1,8 @@
+{
+  "id": "4974",
+  "title": "Bug 4974: Integration Issue with Classpath and Output Location Configuration",
+  "description": "When attempting to modify the source folder and output location settings in project properties, an issue arises where the changes are not correctly reflected or applied in the project configuration.",
+  "OB": "After modifying the source folder and output location settings in project properties, the changes do not take effect, and the project continues to use the previous configurations.",
+  "EB": "Expected behavior is that upon modifying the source folder and output location in project properties, the project should update to utilize the new settings without any discrepancy.",
+  "SR": "1. Create a project with 'src' as the source folder and 'bin' as the output location.\n2. Access the project properties and modify the settings to use the project as both the source folder and output location."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "21706",
+  "title": "Bug 21706BidiUtil in win32 has Class.forName() usage",
+  "description": "Bug 21706BidiUtil in win32 has Class.forName() usage",
+  "OB": "The BidiUtil in win32 currently lacks a private constructor.",
+  "EB": "A private constructor should be added. Since there are no non-static methods in this class, it is advisable to have a private constructor. This prevents unnecessary instantiation of the class and does not add any size, as the compiler provides a free public constructor by default.",
+  "SR": "1. Open the BidiUtil class in win32.\n2. Observe the absence of a private constructor.\n3. Add a private constructor to the BidiUtil class."
+}

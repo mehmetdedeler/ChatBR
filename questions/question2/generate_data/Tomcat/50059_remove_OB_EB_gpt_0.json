@@ -1,0 +1,8 @@
+{
+  "id": "50059",
+  "title": "Bug 50059 - Resources Not Served from /WEB-INF/lib/{.jar}/META-INF/resources When metadatacomplete='true'",
+  "description": "In a Servlet 3.0 web application named 'foo', a bug is observed when the metadatacomplete attribute is set to 'true' in the web.xml file. This bug prevents resources from being served from /WEB-INF/lib/{.jar}/META-INF/resources.",
+  "OB": "When the web.xml is configured with metadatacomplete='true' and the web application 'foo' is started in Tomcat 7.0.2, accessing http://localhost:8080/foo/index.html results in a 404 response. The expected behavior is a 200 response with index.html served.",
+  "EB": "",
+  "SR": "To reproduce the issue:\n1. Create a JAR file containing a single /META-INF/resources/index.html file.\n2. Place this JAR file in /WEB-INF/lib within the 'foo' web application.\n3. Start the web application in Tomcat 7.0.2.\n4. Access http://localhost:8080/foo/index.html in a web browser.\n   - Expected result: A 200 response with index.html served.\n   - Actual result: A 404 response is observed.\n\nThe problem is resolved when modifying the web.xml to use metadatacomplete='false' and then restarting the application, at which point /foo/index.html responds as expected. Testing the same web application with Glassfish v3.0.1 shows that it works as expected, regardless of the metadatacomplete attribute setting. It appears that metadatacomplete should only regulate annotation and web fragment processing, as per the Servlet 3.0 specification."
+}

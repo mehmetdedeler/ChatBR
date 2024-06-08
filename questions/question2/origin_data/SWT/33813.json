@@ -1,0 +1,1 @@
+{"bug_id": "33813", "title": "Bug 33813List doesn't send out selection events for arrow keys", "description": "I20030304 Open Window  Preferences  Workbench  Fonts Select first item in List with mouse use Arrow Down to select other entriesObserve: the description field isn't updated. If you use the mouse to select the field, thedescription field is updated."}

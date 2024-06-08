@@ -1,0 +1,1 @@
+{"id": "108822", "title": "Bug 108822 - More efficient logic is expected for disk sorting when there are border values for row numbers", "description": "", "OB": "When sorting data on disk, if the sort is performed on a dataset of 40000 rows and the program is set to process less than 40000 rows, the system performs the following operations:", "EB": "", "SR": ""}

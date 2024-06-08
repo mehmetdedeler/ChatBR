@@ -1,0 +1,8 @@
+{
+  "id": "17703",
+  "title": "Bug 17703 - Edit Add Task action should use Workbench dialog as Java Editor does",
+  "description": "The Edit Add Task action in the software is not behaving as expected.",
+  "OB": "Currently, when you select the Edit Add Task action, it opens a separate dialog that is different from the one used by the Java Editor.",
+  "EB": "The expected behavior is that the Edit Add Task action should use the same Workbench dialog as the Java Editor, providing a consistent user experience.",
+  "SR": "To reproduce the issue:\n1. Open the software.\n2. Go to the menu and select 'Edit' > 'Add Task'.\n3. Observe that a different dialog opens, not the one used in the Java Editor."
+}

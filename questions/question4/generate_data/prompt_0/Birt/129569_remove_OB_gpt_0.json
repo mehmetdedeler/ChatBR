@@ -1,0 +1,32 @@
+{
+    "id": "chatcmpl-8G9DYwWOcEXm6nwbNq1RuhdyX76OJ",
+    "object": "chat.completion",
+    "created": 1698859372,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": {
+                    "id": "129569",
+                    "title": "Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window",
+                    "description": "Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window. This is a BiDI specific defect. The issue occurs when performing a SQL query with BiDi characters in the Query window. The current behavior is incorrect and needs to be addressed.",
+                    "OB": "When performing a SQL query in the Query window with columns containing BiDi characters, the order of the BiDi characters is undesirable.",
+                    "EB": "The expected behavior is that the order of BiDi characters in the SQL query results should be correct and match the order of the input columns containing BiDi characters.",
+                    "SR": "To reproduce the issue:1. Create a DB2 database.2. Create a user with a Latin name.3. Create a table under this user with mixed Latin and BiDi name (e.g., 'EMANNMULOC').4. Create a Data Source based on the DB from step 1.5. Create a Data Set based on the table from step 3.6. Add the column name from step 4 to the select portion of the SQL query.7. Add the table name from step 3 to the from portion of the SQL query.8. Execute the SQL query in the Query window."
+                }
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 607,
+        "completion_tokens": 294,
+        "total_tokens": 901
+    },
+    "origin": {
+        "input_prompt": "Your role is a senior software engineer, you are very good at analyzing and writing bug reports.\nIn your bug reports, it is essential to provide clear and informative statements for the following categories:\n- **Observed Behavior (OB):** This section should describe the relevant software behavior, actions, output, or results. Avoid vague statements like \"the system does not work.\"\n- **Expected Behavior (EB):** This part should articulate what the software should or is expected to do, using phrases like \"should...\", \"expect...\", or \"hope...\". Avoid suggestions or recommendations for bug resolution in this section.\n- **Steps to Reproduce (SR):** Include user actions or operations that can potentially lead to reproducing the issue. Use phrases like \"to reproduce,\" \"steps to reproduce,\" or \"follow these steps.\"\nIt is possible that the bug report may lack sufficient details in the OB, EB, and SR sections. In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements. Also, improve the wording of these statements for clarity where possible.\nTo facilitate this process, please provide your responses in JSON format as follows:\n{\"id\": \"\", \"title\": \"\", \"description\": \"\", \"OB\": \"\", \"EB\": \"\", \"SR\": \"\"}",
+        "input_content": "<BUG REPORT>\n{'id': '129569', 'title': 'Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window', 'description': 'Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window This is BiDI specific defect. tomer)3. tomerREMOT)4. Make sure that this table has columns with BiDi name (e.g. \"EMANNMULOC\")5. from tomer.tomerREMOT3. where tomer.tomerREMOT.EMANNMULOC != \\'OLLEH world\\'Actual results:1. select tomer.tomerEMANNMULOC.REMOT2. from tomer.tomerREMOT3. where tomer.tomerOLLEH\\' =! ', 'OB': '', 'EB': \"Add following condition to the where portion of SQL query:tomer.tomerREMOT.EMANNMULOC != 'OLLEH world'Expected results:1. select tomer.tomerREMOT.EMANNMULOC2. \", 'SR': 'Create DB2 data base2. Create user with Latin name (e.g. Create table under this user with mixed Latin and BiDI name (e.g. Create Data Source based on the DB from 16. Create Data Set based on the table from 37. Add column name from 4 to the select portion of the SQL query8. Add table name from 3 to the from portion of SQL query9. '}"
+    }
+}

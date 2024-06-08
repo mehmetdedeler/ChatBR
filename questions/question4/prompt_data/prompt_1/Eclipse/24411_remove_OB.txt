@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '24411', 'title': 'Bug 24411[Welcome] Mouse click on link should select link', 'description': 'Bug 24411[Welcome] Mouse click on link should select link ', 'OB': '', 'EB': 'build 20021001make sure you get a welcome page when you restart (I remove the welcome...line in prefstore.ini of the workbench metadata)click on any link in the welcome pagethe appropriate action is executed but the clicked link is not selected whenyou return to the welcome pageIt would be nice if links were selected when clicked to provide more contextto the user when he returns to the welcome page. ', 'SR': 'build 20021001make sure you get a welcome page when you restart (I remove the welcome...line in prefstore.ini of the workbench metadata)click on any link in the welcome pagethe appropriate action is executed but the clicked link is not selected whenyou return to the welcome pageIt would be nice if links were selected when clicked to provide more contextto the user when he returns to the welcome page. '}
+</BUG REPORT>

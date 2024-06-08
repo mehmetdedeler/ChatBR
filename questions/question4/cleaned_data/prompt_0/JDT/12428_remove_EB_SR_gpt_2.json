@@ -1,0 +1,8 @@
+{
+  "id": "12428",
+  "title": "Bug 12428Pull Up: Confusing message",
+  "description": "Bug 12428Pull Up: Confusing message Shouldn't it be 'Copy method 'void setUp()' FROM type 'TestCase'\" (also with uppercase C in Copy). Another thing: if I select to delete setUp from TestCase, I get under TestCase the message \"Delete method 'void setUp()' declared in type 'junit.framework.TestCase'. (Markus)",
+  "OB": "When attempting to delete the 'setUp' method from the 'TestCase', the displayed message states: 'Delete method 'void setUp()' declared in type 'junit.framework.TestCase'. Additionally, in the tree of changes, under 'Assert', the message 'copy method 'void setUp()' to type 'TestCase'' is presented, with 'TestCase' shown with the fully qualified name.",
+  "EB": "The expected behavior should reflect the following: When selecting to delete the 'setUp' method from 'TestCase', the message should accurately state 'Delete method 'void setUp()' FROM type 'TestCase'. Also, in the tree of changes under 'Assert', the message should read 'Copy method 'void setUp()' FROM type 'TestCase', with 'TestCase' correctly displayed in its entirety.",
+  "SR": "To reproduce the issue, perform the following steps:\n1. Access the 'TestCase' class.\n2. Attempt to delete the 'setUp' method from 'TestCase'.\n3. Observe the displayed message in the 'TestCase' section.\n4. Review the 'Assert' tree in the changes section to witness the message regarding copying the 'setUp' method."
+}

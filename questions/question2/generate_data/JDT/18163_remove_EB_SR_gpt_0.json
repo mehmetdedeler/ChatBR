@@ -1,0 +1,8 @@
+{
+  "id": "18163",
+  "title": "Add Import should ignore leading/trailing whitespace",
+  "description": "When adding imports with Ctrl+M, trailing whitespace within the selection causes the operation to fail.",
+  "OB": "When I use Ctrl+M (Add Import), nothing happens due to the presence of trailing whitespace within the selection.",
+  "EB": "The 'Add Import' feature should ignore any leading or trailing whitespace within the selection and successfully add the required import statement.",
+  "SR": "To reproduce the issue:\n1. Open a source code file.\n2. Select a portion of code that requires an import statement, ensuring there is trailing whitespace within the selection.\n3. Use the keyboard shortcut Ctrl+M (Add Import).\n4. Observe that the import is not added due to the trailing whitespace."
+}

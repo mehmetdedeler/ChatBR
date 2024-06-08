@@ -1,0 +1,8 @@
+{
+  "id": "6410",
+  "title": "Bug 6410 - File unchanged but dirtied by code assist",
+  "description": "When using code assist, the file is marked as changed even though it remains unchanged.",
+  "OB": "After using code assist (CtrlSpace), the Java file is marked as 'dirtied' or 'changed' even though there are no modifications made to the file.",
+  "EB": "The expected behavior is that the file should not be marked as changed or dirtied by code assist if no actual modifications have been made to the file.",
+  "SR": "To reproduce the issue:\n1. Open a Java file.\n2. Place the cursor inside the leftmost parenthesis of a method call, for example, consider 'I' to be the cursor below:\n   Object o = anotherObject.method(I);\n3. Press CtrlSpace."
+}

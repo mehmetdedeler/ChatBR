@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Strange 'copy package' Bug in org.eclipse.jdt.internal.ui",
+  "description": "In the software version 2031, there is a strange issue with the 'copy package' feature in the 'org.eclipse.jdt.internal.ui' module of 'jdt.ui'. When selecting 'xxx' as the destination, the problem occurs. The result is that 'xx' contains a package named 'ui' unexpectedly.",
+  "OB": "After selecting 'xxx' as the destination, 'xx' contains a package named 'ui' when using the 'copy package' feature.",
+  "EB": "The expected behavior is that when using the 'copy package' feature, the destination package ('xxx') should not contain an additional 'ui' package. It should create a copy without unexpected alterations.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create a new project named 'xxx'.\n2. Open the Package viewer.\n3. Select a package in project 'A', for example, from the context menu choose 'copy'.\n4. Observe the 'xx' package to see if it unexpectedly contains a package named 'ui'."
+}

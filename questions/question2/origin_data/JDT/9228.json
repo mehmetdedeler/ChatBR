@@ -1,0 +1,1 @@
+{"bug_id": "9228", "title": "Bug 9228Surround with trycatch works only if the selected code throws a exception", "description": "As there are runtime exceptions, wich can be interesting to catch by clients,it would be nice to allow the surround feature on any code snippet. Standardexception could be Throwable."}

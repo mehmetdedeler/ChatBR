@@ -1,0 +1,8 @@
+{
+  "id": "17423",
+  "title": "Bug 17423: Revert appears twice in the popup menu.",
+  "description": "There are two 'Revert' options in the menu.",
+  "OB": "The 'Revert' option is duplicated in the popup menu.",
+  "EB": "The 'Revert' option should appear only once in the popup menu.",
+  "SR": "Investigate and resolve the issue causing the duplication of the 'Revert' option in the popup menu. Ensure that only one 'Revert' option is displayed."
+}

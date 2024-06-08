@@ -1,0 +1,1 @@
+{"id": "102623", "title": "Bug 102623: Image can't be refreshed after importing again.", "description": "", "OB": "The image is not refreshed when imported again.", "EB": "The image should be refreshed and the new image should be displayed.", "SR": "Steps to reproduce:  1. Import the new image 'image1.jpg' into the layout.  2. Verify that the new image is displayed."}

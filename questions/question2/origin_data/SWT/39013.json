@@ -1,0 +1,1 @@
+{"bug_id": "39013", "title": "Bug 39013scrolling down in editor corrupts contents", "description": "When using the arrow keys to scroll up/down in an editor view the view contentsbecome corrupted. Using the mouse to scroll doesn't have this problem.Using build N20030617"}

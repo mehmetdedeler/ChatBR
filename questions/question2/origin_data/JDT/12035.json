@@ -1,0 +1,1 @@
+{"bug_id": "12035", "title": "Bug 12035refactoring error page: must be able to handle working copies", "description": "as it is now the error page always gets the original element from the workingcopy i pass it in the JavaSourceContextit should be able to just use this working copy  otherwise i have no way topresent error context correctly"}

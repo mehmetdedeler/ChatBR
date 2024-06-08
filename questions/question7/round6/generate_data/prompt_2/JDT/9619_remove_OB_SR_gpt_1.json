@@ -1,0 +1,8 @@
+{
+  "id": "9619",
+  "title": "Bug 9619: Issue with Moving Static Member in Dialog Details",
+  "description": "The bug revolves around the functionality related to moving static members. Mnemonics are present, but there's no validation for the type field. However, type existence checking isn't too resource-intensive (already done in the type wizard for the superclass), so it should be implemented. Additionally, the label 'Select destination type:' should be used.",
+  "OB": "The current title doesn't align with the action 'Move static field(s).' The description lacks clarity on handling 'x fields from xx.' The selection dialog isn't initialized with the currently entered type.",
+  "EB": "The title should be 'Move static field(s),' and the description should specify moving 'x fields from xx.' Implement validation for the type field using the title 'Select destination type:'. Also, ensure the selection dialog initializes with the currently entered type.",
+  "SR": "Steps to reproduce: 1. Open the static member move functionality. 2. Note the discrepancy between the title 'Move static member' and the actual action 'Move static field(s).' 3. Observe the unclear handling of 'x fields from xx' during the process. 4. Enter a type in the dialog and notice the lack of validation. 5. Check if the selection dialog initializes with the currently entered type."
+}

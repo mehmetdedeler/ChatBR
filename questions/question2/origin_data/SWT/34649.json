@@ -1,0 +1,1 @@
+{"bug_id": "34649", "title": "Bug 34649TabFolder title does not handle mnemonics properly", "description": "RC2, running on SuSE with gtk2.0.6 open Eclipse's Preferences dialog, go to page Java  Compiler the third tab on the page should say \"Compliance & Classfiles\", but insteadappears as \"Compliance  Classfiles\" verified this works fine on win32, motif and photon"}

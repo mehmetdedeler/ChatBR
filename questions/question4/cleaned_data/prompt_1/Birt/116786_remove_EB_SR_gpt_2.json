@@ -1,0 +1,8 @@
+{
+  "id": "116786",
+  "title": "Bug 116786 - Library include should store relative path.",
+  "description": "The bug report indicates that the report design stores an absolute path, and the goal is to save it as a relative path.",
+  "OB": "The current observed behavior shows that the report design includes an absolute path in the form of <property name=\"fileName\"/>E:/birt/sampleReports/otherlib/lib1.rptlibrary</property><property name=\"namespace\">lib1</property>.",
+  "EB": "The expected behavior is to store the library include with a relative path instead of an absolute path.",
+  "SR": "Steps to reproduce:\n1. Open a BIRT report design that includes an external library.\n2. Check the library include path in the report design.\n3. Ensure that the path is stored as an absolute path.\n4. The bug should be reproduced when the path is saved as an absolute path instead of a relative one."
+}

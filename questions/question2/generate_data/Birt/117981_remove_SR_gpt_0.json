@@ -1,0 +1,8 @@
+{
+  "id": "117981",
+  "title": "Any item can't be selected on the first attempt in the library outline view",
+  "description": "Description: When attempting to select an item in the library outline view, it fails to be selected on the first try. Instead, the focus shifts to the library file node in the outline view. Subsequently, the item can be selected on the second attempt.",
+  "OB": "Upon attempting to select an item in the library outline view, it is not selected on the first try, and the focus shifts to the library file node in the outline view.",
+  "EB": "The expected behavior is that when I initially select the label item in the library outline view, it should be selected without any focus shift. There should be no need for a second attempt to select the item.",
+  "SR": "Steps to reproduce:\n1. Open the library outline view.\n2. Attempt to select any item within the view. Observe that it is not selected on the first attempt, and the focus moves to the library file node.\n3. Make a second attempt to select the same item, and it should be selected without any focus shift."
+}

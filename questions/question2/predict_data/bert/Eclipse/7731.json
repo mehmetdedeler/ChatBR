@@ -1,0 +1,1 @@
+{"id": "7731", "title": "Bug 7731Page::init(IPageSite pageSite) never called on JavaOutlinePage", "description": " Bug 7731Page::init(IPageSite pageSite) never called on JavaOutlinePage", "OB": " consequently, getSite() on JavaOutlinePage returns null, which is against APIand prevents accessing things like IActionBars", "EB": "", "SR": ""}

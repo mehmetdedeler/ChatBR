@@ -1,0 +1,1 @@
+{"bug_id": "136939", "title": "Bug 136939Bad heading on dialog box Edit Data Source", "description": "In BIRT 2.1RC0 build. This might be a DTP issue. I don't know.To reproduce:Edit a data source.Expected:The title of the Edit Data Source dialog is: Edit a data sourceActual:The title of the Edit Data Source dialog is: Create a new data source"}

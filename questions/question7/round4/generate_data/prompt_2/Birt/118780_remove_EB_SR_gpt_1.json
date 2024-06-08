@@ -1,0 +1,1 @@
+{"id": "118780", "title": "Set alias for columns in dataset, but the Expression Builder still shows the old column names when the dataset is selected", "description": "", "OB": "When selecting a dataset with set aliases for columns in the Expression Builder, it still displays the original column names instead of the aliases.", "EB": "", "SR": ""}

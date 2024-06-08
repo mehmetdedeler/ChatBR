@@ -1,0 +1,1 @@
+{"bug_id": "49892", "title": "Bug 49892Wrong JNDI Name for Method Resource Injections", "description": "Method based JNDI env. injections not worked correctly. Patch is attached. See Java EE 6 specification section, EE. 5.2.5 Annotations and Injections. Patch is provided that solves problem."}

@@ -1,0 +1,1 @@
+{"bug_id": "15509", "title": "Bug 15509Wrong input for import/export actions", "description": "build 20020502 + newer JDT codeOpen a file in the editorSelect the project in the navigator== import/export are fed with the editor element instead of the navigatorselection.Note: same applies if the selection is in another view (e.g. Packages view)"}

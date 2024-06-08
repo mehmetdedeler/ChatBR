@@ -1,0 +1,8 @@
+{
+  "id": "117981",
+  "title": "Bug 117981: Unable to select items on the first attempt in library outline view",
+  "description": "Description: Users are unable to select any item on the first attempt in the library outline view. The focus erroneously jumps to the library file node in the outline view.",
+  "OB": "Upon attempting to select any item in the library outline view for the first time, the focus is immediately redirected to the library file node.",
+  "EB": "Expected Behavior: Users should be able to select items in the library outline view without any interference. The focus should remain on the selected item.",
+  "SR": "Steps to Reproduce:\n1. Add a label to the library file.\n2. In the library outline view, attempt to select the label item.\n3. Verify that the item is selected without the focus jumping to the library file node."
+}

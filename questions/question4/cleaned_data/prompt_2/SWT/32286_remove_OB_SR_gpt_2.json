@@ -1,0 +1,8 @@
+{
+  "id": "32286",
+  "title": "Bug 32286 - ControlExample Button Tab: Changing styles resets button orientation",
+  "description": "Bug 32286 - ControlExample Button Tab: Changing styles resets button orientation. Ensure that Eclipse is not running. Accept new configuration defaults. The buttons will change to arrow buttons, pointing up.",
+  "OB": "When styles are changed, the button orientation resets unexpectedly.",
+  "EB": "Select or deselect SWT.BORDER in the styles group should not reset the button orientation.",
+  "SR": "1. Launch Eclipse and open ControlExample.\n2. Accept the new configuration defaults.\n3. Navigate to the styles group.\n4. Select or deselect SWT.BORDER.\n5. Observe that the button orientation remains unchanged."
+}

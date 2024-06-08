@@ -1,0 +1,8 @@
+{
+  "id": "134040",
+  "title": "Bug 134040: Row has an unexpected page break property in Property Editor",
+  "description": "The bug report is about an issue where a row is able to have a page break property in the Property Editor, but it cannot be saved, which is not the expected behavior.",
+  "OB": "The observed behavior is that a page break can be set to a row in the Property Editor, but it cannot be saved.",
+  "EB": "The expected behavior is that a row should not have the option to set a page break property in the Property Editor. This option should not be available for rows.",
+  "SR": "To reproduce the issue:\n1. Open the Property Editor.\n2. Select a row.\n3. Look for the 'Page Break' property option.\n4. Observe that the option is available for rows.\n5. Try to set a page break for the row.\n6. Attempt to save the changes.\n\nExpected result: Row should not have the option to set a page break property.\nActual result: Page break can be set for the row in the Property Editor but cannot be saved."
+}

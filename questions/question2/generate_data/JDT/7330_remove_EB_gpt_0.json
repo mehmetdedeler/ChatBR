@@ -1,0 +1,8 @@
+{
+  "id": "7330",
+  "title": "Bug 7330 - Insufficient Actions on Text Selection",
+  "description": "The 'Add Javadoc Comment' action is not available in the context menu, and the distribution of actions is inconsistent, leading to user confusion.",
+  "OB": "The observed behavior is that the 'Add Javadoc Comment' action is missing in the context menu, and it's not clear why some actions are in the context menu while others are not.",
+  "EB": "The expected behavior is that all relevant actions should be available from the context menu or in a way that's easily accessible to users. It should not force users to switch views or navigate through multiple menus to access common actions.",
+  "SR": "To address this issue, please make the 'Add Javadoc Comment' action available in the context menu (or via the Edit menu) and ensure that all actions are distributed in a way that is logical and user-friendly."
+}

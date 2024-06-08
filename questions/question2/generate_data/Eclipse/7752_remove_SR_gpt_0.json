@@ -1,0 +1,8 @@
+{
+  "id": "7752",
+  "title": "Bug 7752 - Exporting Multiple Files with Same Name Under Different Directories to Zip File Fails",
+  "description": "When attempting to export multiple files with the same name under different directories to a zip file, an error occurs. Follow the steps below to reproduce the issue.",
+  "OB": "In the 'Export' dialog window, select both projects created earlier and give the zip file a name (e.g., 'test.zip'). Begin the export to a zip file. The result is an error message box that pops up, indicating 'Problems were encountered during export,' and the details list a file with the same name in 'project2' as the problem (e.g., 'foo.txt' in 'project 2').",
+  "EB": "The zip file should be able to store files with the same name under different directories without encountering any problems. For instance, if you name the file 'foo.txt' in 'project 2' as 'foo2.txt,' there should be no issues during export.",
+  "SR": "1. Open the software and go to the 'Export' dialog window.\n2. Select two projects that contain files with the same name but are located in different directories.\n3. Provide a name for the zip file (e.g., 'test.zip').\n4. Initiate the export to a zip file.\n5. Observe the error message that appears, indicating problems during export and listing the file with the same name as the issue."
+}

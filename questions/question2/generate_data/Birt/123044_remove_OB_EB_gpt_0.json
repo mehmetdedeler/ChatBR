@@ -1,0 +1,8 @@
+{
+  "id": "123044",
+  "title": "Page break missing when previewing attached PDF file",
+  "description": "When previewing an attached PDF file, the page break in the first item doesn't occur as expected.",
+  "OB": "When opening the attached PDF file for preview, the first item does not have a page break, and the content flows continuously from one page to the next.",
+  "EB": "I expected that when I open the attached PDF file for preview, there should be a page break at the end of the first item, ensuring proper separation between the pages.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the attached PDF file mentioned in bug report 1228982 for preview."
+}

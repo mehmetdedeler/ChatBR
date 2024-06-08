@@ -1,0 +1,1 @@
+{"id": "126390", "title": "Bug 126390IDataSetInstance needs method to return column information", "description": "", "OB": " Bug 126390IDataSetInstance needs method to return column information There is no way to get the Java equivalent of the JavaScript columnDefns array, which describes the columns in a data set.", "EB": "", "SR": ""}

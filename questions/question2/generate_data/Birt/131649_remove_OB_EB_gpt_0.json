@@ -1,0 +1,8 @@
+{
+  "id": "131649",
+  "title": "Bug 131649 - Designer generates wrong column reference expression for inner table",
+  "description": "Designer generates the wrong column reference expression for an inner table. This design uses a two-level table to list offices and their employees, allowing you to construct an expression like this: row[\"FIRSTNAME\"] + \" \" + row[\"LASTNAME\"] + \" / \" + row[\"OFFICECODE\"]. However, this report does not run as expected. The correct behavior when the user double-clicks on \"COUNTRY\" is to insert rows[0][\"COUNTRY\"] into the expression. The first index (an integer) to the \"rows\" array corresponds to the 0-based index of the nested table which contains the data set (0 = the outermost table, 1 = the first-level inner table, etc.).",
+  "OB": "When the user double-clicks on the column \"COUNTRY\" in the inner table, the report design does not insert the expected reference, resulting in an error when the report is executed.",
+  "EB": "The expected behavior is that when the user double-clicks on \"COUNTRY,\" the report design should insert rows[0][\"COUNTRY\"] into the expression.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the attached report design (test1.rptdesign).\n2. Double-click on the inner list's Data Item to edit its expression.\n3. Click on \"Available Data Sets\" in the expression editor.\n4. Choose the data set \"offices\" from the list of available data sets.\n5. Double-click on the column \"COUNTRY\" within the data set."
+}

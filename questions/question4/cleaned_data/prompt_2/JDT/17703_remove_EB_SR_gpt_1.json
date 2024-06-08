@@ -1,0 +1,8 @@
+{
+  "id": "17703",
+  "title": "Bug 17703: Inconsistent Task Action Dialog",
+  "description": "When selecting a CU in the packages view and executing 'File > Add Task,' a different dialog appears compared to executing the action from the Java editor's ruler context menu.",
+  "OB": "When selecting a CU in the packages view and executing 'File > Add Task,' a different dialog appears compared to executing the action from the Java editor's ruler context menu.",
+  "EB": "The 'File > Add Task' action in the packages view should use the same dialog as when executed from the Java editor's ruler context menu.",
+  "SR": "1. Open the packages view.\n2. Select a CU.\n3. Execute 'File > Add Task.'\n4. Note the dialog appearance.\n5. Open a Java file in the editor.\n6. Use the ruler context menu to execute 'Add Task.'\n7. Compare the dialogs between steps 3 and 6."
+}

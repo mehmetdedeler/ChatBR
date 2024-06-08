@@ -1,0 +1,8 @@
+{
+  "id": "121974",
+  "title": "Global Expressions Evaluation Issue in BIRT Scripting Environment",
+  "description": "When working with global expressions in the BIRT scripting environment, such as {params['p1']}, {new DateTime()}, they should always be available and evaluable regardless of the iteration context. However, currently, Dte scriptExpression has three types: BEFOREFIRSTROW, AFTERLASTROW, ONEACHROW, and a 'QueryResults or its iterator has been closed' DataException is thrown when trying to evaluate these expressions. In reality, these global expressions should not be tied to the data row iteration.",
+  "OB": "When attempting to evaluate global expressions like {params['p1']} and {new DateTime()} in the BIRT scripting environment, a 'QueryResults or its iterator has been closed' DataException is thrown.",
+  "EB": "Global expressions, such as {params['p1']} and {new DateTime()}, should be available and evaluable within the BIRT scripting environment regardless of the iteration context. They should not trigger a 'QueryResults or its iterator has been closed' DataException.",
+  "SR": "1. Open the BIRT scripting environment.\n2. Use global expressions like {params['p1']} or {new DateTime()}.\n3. Observe that a 'QueryResults or its iterator has been closed' DataException is thrown when attempting to evaluate these expressions, even when not within the data row iteration. This behavior should not occur."
+}

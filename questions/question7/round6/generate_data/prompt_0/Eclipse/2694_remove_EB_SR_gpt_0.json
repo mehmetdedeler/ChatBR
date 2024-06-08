@@ -1,0 +1,8 @@
+{
+  "id": "2694",
+  "title": "Bug 2694 - Editor Selection Dialog: UI suggestions (1GI6RPE)",
+  "description": "Bug 2694 - Editor Selection Dialog: UI suggestions (1GI6RPE). When pressing 'Add' for the associated editors, the following improvements and issues were noted by the user KLM on 10/10/2001. Fixes for a, c, and f have been released. However, some issues still persist, and further information is required.",
+  "OB": "a. The 'OK' button is enabled even when no selection is made. b. There is no information about the expected behavior.",
+  "EB": "a. The 'OK' button should only be enabled when a selection is made. b. It is unclear what the expected behavior should be, so further details are needed to define it.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the Editor Selection Dialog.\n2. Press 'Add' for the associated editors without making any selection. The 'OK' button is still enabled."
+}

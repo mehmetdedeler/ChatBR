@@ -1,0 +1,8 @@
+{
+  "id": "103963",
+  "title": "No Friendly Error Message When Data is Missing for Series",
+  "description": "When there is no data available for a series, the software fails to display a friendly error message, which is necessary for providing a good user experience. This bug report aims to address this issue.",
+  "OB": "The software fails to provide a friendly error message when no data is available for a series.",
+  "EB": "If there is no data for a series, the software should display a friendly error message to inform the user about the absence of data. This message is crucial for improving user experience and helping users understand why they are not seeing any data for the series.",
+  "SR": "To reproduce the issue:\n1. Open the software.\n2. Navigate to a series that has no data available.\n3. Observe that the software does not display a friendly error message."
+}

@@ -1,0 +1,1 @@
+{"id": "130495", "title": "Bug 130495Get rid of SessionHandleAdapter", "description": "Bug 130495Get rid of SessionHandleAdapter Now, we use SessionHandleAdapter to keep current active report deisng. That's a bad practive for editor swith and rebuild will cuase lots of problmes.Need find way to replace it. ", "OB": "", "EB": "", "SR": ""}

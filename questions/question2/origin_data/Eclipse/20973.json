@@ -1,0 +1,1 @@
+{"bug_id": "20973", "title": "Bug 20973[Contributions] Update code to reflect supported extension attributes", "description": "In the code, there are constants with attribute names which we do not support(and are also not in the documentation). These should be removed. See bug 19833for more details."}

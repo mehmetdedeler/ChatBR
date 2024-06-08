@@ -1,0 +1,8 @@
+{
+    "id": "129561",
+    "title": "Bug 129561HCGBIDI: Undesirable generation of SQL query elements",
+    "description": "Bug 129561HCGBIDI: Undesirable generation of SQL query elements. This bug is not NLS specific. When creating a table with a name that includes blank spaces in the database and selecting 'Preview Results', an exception is fired. The expected behavior is to generate a SQL query with the format 'select USER.Table Name.Column Name'.",
+    "OB": "When previewing the results of a table with a name including blank spaces, an exception is fired.",
+    "EB": "The expected behavior is for the SQL query to be generated in the format 'select USER.Table Name.Column Name'",
+    "SR": "Please modify the code to generate the SQL query with the correct format when previewing the results of a table with a name including blank spaces."
+}

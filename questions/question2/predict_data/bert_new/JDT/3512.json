@@ -1,0 +1,1 @@
+{"id": "3512", "title": "Bug 3512Reorg confirmation dialog (1G470GF)", "description": "Bug 3512Reorg confirmation dialog (1G470GF)the title shouldn't be \"Save\". ", "OB": "", "EB": "It should be more specific regarding the current reorg action. ok should be the default button.NOTES:EG (11/17/00 12:38:48 PM)not critical ", "SR": ""}

@@ -1,0 +1,1 @@
+{"id": "6410", "title": "Bug 6410 File unchanged but dirtied by code assist", "description": "When using code assist, the file is being marked as dirty even though there were no changes made to the file.", "OB": "", "EB": "If code assist does not have any suggestions, it should not mark the file as dirty.", "SR": ""}

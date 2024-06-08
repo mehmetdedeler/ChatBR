@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Bug 4971: Strange 'copy package'",
+  "description": "Bug 4971: Strange 'copy package' issue in org.eclipse.jdt.internal.ui in jdt.ui. Selecting 'xxx' as destination.",
+  "OB": "After the operation, 'xx' contains a package named 'ui'.",
+  "EB": "Expected behavior is that it should be 'org.eclipse.jdt.internal.ui'.",
+  "SR": "Steps to Reproduce:\n1. Open 'jdt.ui'\n2. Select 'xxx' as the destination\n3. Perform the 'copy package' operation\n4. Observe the resulting package structure in 'xx'"
+}

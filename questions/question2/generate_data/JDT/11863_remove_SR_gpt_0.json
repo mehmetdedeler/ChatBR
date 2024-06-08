@@ -1,0 +1,8 @@
+{
+  "id": "11863",
+  "title": "Bug 11863: Update Test Suite action does not allow for removal",
+  "description": "The Update Test Suite action does not provide the option to remove an item, and the expected behavior is to allow the removal of items during the update process.",
+  "OB": "When using the Update Test Suite action, it is not clear that selecting 'Y' in the dialog will result in item 'X' being removed.",
+  "EB": "Normally, the 'Update' action should display the existing content (e.g., directories, zip files) and allow users to modify or remove items. I expect the action to be renamed to 'Recreate Test Suite' to address this problem, making it clear that items can be removed during the update process.",
+  "SR": "Steps to reproduce:\n1. Open the Test Suite that you want to update.\n2. Select the 'Update Test Suite' action.\n3. Examine the dialog that appears and try to find an option to remove items. Note that there is no clear way to remove items during this process."
+}

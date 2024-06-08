@@ -1,0 +1,1 @@
+{"bug_id": "13082", "title": "Bug 13082RefactorUndo/Redo labels not updated properly", "description": "Build 20020404++ do smoke test extract the method rename Test  A Undo refactoring:observe: the Undo label is still saying undo rename Test ... notUndo extract method"}

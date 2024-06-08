@@ -1,0 +1,1 @@
+{"bug_id": "133776", "title": "Bug 133776Oda DesignerState support on OdaDataSource", "description": "OdaDataSet supported Oda DesignerState. This feature is also need in OdaDataSource.Please add OdaDesignerState property to OdaDataSource element in ROM. Make the related changes."}

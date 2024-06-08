@@ -1,0 +1,1 @@
+{"bug_id": "11428", "title": "Bug 11428Wildcard search does not work", "description": "The query syntax says  and ? are supported, but searching for proj brings 0hits.It does not work in any driver since 20020228 until most recent 20020314"}

@@ -1,0 +1,8 @@
+{
+  "id": "12906",
+  "title": "Opening File in Editor Issue",
+  "description": "When a file is already opened in one editor, it should give an error message if an attempt is made to open it in another editor.",
+  "OB": "When a Java file is already opened in the workbench editor and I try to open the same file with the 'System Editor,' nothing happens. There is no warning message or error message displayed.",
+  "EB": "When a Java file is already opened in the workbench editor and an attempt is made to open it with the 'System Editor,' it should display a warning message informing the user that the file is already open and asking if they want to continue. Alternatively, it should display an error message suggesting that all open files should be closed first.",
+  "SR": "To reproduce the issue:\n1. Make sure you have an associated Windows editor for your Java file.\n2. If not, go to the file explorer, double click on any Java file, and select WordPad or Notepad as the default editor for all Java files.\n3. In the Java Perspective, right-click on the Java file and select 'Open With' -> 'System Editor.' A Notepad or WordPad window will pop up with the Java file opened. Close it.\n4. Go to the Java Perspective and open a Java file by simply double-clicking on it. The file is now opened in the workbench editor.\n5. Right-click on the same Java file and select 'Open With' -> 'System Editor.' Observe that nothing happens, whereas it should display a warning or error message."
+}

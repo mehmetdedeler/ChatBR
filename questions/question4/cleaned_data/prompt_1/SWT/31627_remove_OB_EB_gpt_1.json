@@ -1,0 +1,8 @@
+{
+  "id": "31627",
+  "title": "Bug 31627DBCS: Perspective change caused core dump after adding DBCS project to the workspace",
+  "description": "Language: Japanese\nBuild driver: eclipseSDKI20030211linuxgtk\nOS: RedHat8(Japanese: locale jaJP.eucJP), gtk 2.2\nJDK Ver. : IBM JDK1.3.1 + SR3\nSummary: DBCS: Perspective change caused core dump after adding DBCS project to the workspace\nDescription: Steps to recreate problem:1. ",
+  "OB": "When changing the perspective to CVS after adding a DBCS project to the workspace, a core dump occurs.",
+  "EB": "The application should not experience a core dump when changing perspectives after adding a DBCS project to the workspace.",
+  "SR": "Ensure that changing the perspective to CVS after adding a DBCS project to the workspace does not lead to a core dump. Additionally, review the CVS integration process for handling DBCS projects to prevent this issue."
+}

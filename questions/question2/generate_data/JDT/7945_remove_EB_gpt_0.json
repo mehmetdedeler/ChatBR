@@ -1,0 +1,8 @@
+{
+  "id": "7945",
+  "title": "Bug 7945 - Search Results Not Selected in External Jar",
+  "description": "In Build 200201151, when searching for references to a field in an external JAR, the first match is not automatically selected upon double-clicking.",
+  "OB": "The observed behavior is that when double-clicking on a search result, the first match is not selected in the external JAR.",
+  "EB": "I expected that when double-clicking on a search result, the first match in the external JAR would be selected as it should be.",
+  "SR": "To reproduce this issue:\n1. Ensure that you have JDK 1.3.1 as the default JRE and have the source for rt.jar.\n2. Open the 'java.io.File' class.\n3. Select the field 'tmpFir'.\n4. Perform a search for references to this field. Double-click on the search result to observe that the first match is not selected as expected."
+}

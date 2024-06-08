@@ -1,0 +1,8 @@
+{
+  "id": "18268",
+  "title": "Bug 18268: Unable to locate images and files in NL-specific subdirectories",
+  "description": "Bug 18268: The application is unable to find images and files in NL-specific subdirectories in build 200205291235. Setup: 1. Start Eclipse. 2. Delete <install/eclipse/org.eclipse.platform2.0.0/eclipselg.gif> 3. Edit <install/eclipse/org.eclipse.platform2.0.0/about.ini> Change the value of the aboutImage property to: aboutImage=$nl$/eclipselg.gif 4. Edit <install/eclipse/org.eclipse.platform2.0.0/about.ini> Change the value of the aboutImage property to: aboutImage=nl/en/eclipselg.gif 7. Open the about dialog. Observe: There is a main image again. This suggests that the UI is correctly passing the entire path to IPluginDescriptor.find, but that the \"$nl$\" path segment is not being handled correctly.",
+  "OB": "Opening the about dialog, the main image is not displayed.",
+  "EB": "The main image should be displayed correctly in the about dialog.",
+  "SR": "To reproduce the issue: 1. Exit Eclipse. 2. Copy the file <install/eclipse/org.eclipse.platform2.0.0/eclipselg.gif> into an NL-specific subdirectory; i.e., move it to <install/eclipse/org.eclipse.platform2.0.0/nl/en/eclipselg.gif> 3. Start Eclipse. 4. Start Eclipse again."
+}

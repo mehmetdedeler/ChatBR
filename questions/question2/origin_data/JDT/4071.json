@@ -1,0 +1,1 @@
+{"bug_id": "4071", "title": "Bug 4071Format option loses place in editor (1GHQFU6)", "description": "If you select the Format option from the pop up menu in a Java Editor your current selection locationis lost requiring you to search around for it again.STEPS1) Open a relatively large .java file2) Go near the bottom3) Select format  you are sent back to the top.NOTES:"}

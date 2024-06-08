@@ -1,0 +1,1 @@
+{"bug_id": "49075", "title": "Bug 49075protected Class User doesn't check argument roles for null", "description": "Created attachment 25246 [details]check for null to guard Collections.unmodifiableListIf roles is null, Collections.unmodifiableList will throw a NPE."}

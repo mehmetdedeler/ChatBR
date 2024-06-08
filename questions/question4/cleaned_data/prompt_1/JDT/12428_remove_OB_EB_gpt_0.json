@@ -1,0 +1,8 @@
+{
+    "id": "12428",
+    "title": "Bug 12428: Pull Up - Confusing message",
+    "description": "When performing the Pull Up refactoring on the TestCase.setUp method, the error message displayed is confusing. It should be 'Copy method 'void setUp()' FROM type 'TestCase' (also with an uppercase 'C' in 'Copy'). Additionally, if I select to delete setUp from TestCase, I receive the message 'Delete method 'void setUp()' declared in type 'junit.framework.TestCase''. Please update the error message to clarify the action being taken.",
+    "OB": "The error message for the Pull Up refactoring on the TestCase.setUp method is confusing.",
+    "EB": "The error message for the Pull Up refactoring on the TestCase.setUp method should be updated to provide clearer instructions.",
+    "SR": "When performing the Pull Up refactoring on TestCase.setUp method, update the error message to clarify the action being taken. Additionally, on the 2nd page of the wizard, ensure the instruction 'Run Pull up on TestCase.setUp (copies the method to Assert)' is provided."
+}

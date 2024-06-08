@@ -1,0 +1,1 @@
+{"id": "114054", "title": "Bug 114054NPE in CContentOutlinePage.createContentProvider()", "description": "Bug 114054NPE in CContentOutlinePage.createContentProvider() ", "OB": "CUIPlugin.getActiveWorkbenchWindow().getActivePage() can return null. ", "EB": "", "SR": ""}

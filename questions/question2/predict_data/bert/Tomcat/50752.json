@@ -1,0 +1,1 @@
+{"id": "50752", "title": "Bug 50752Typo in Embedded.java log message", "description": " Bug 50752Typo in Embedded.java log message There's a debug log message in Embedded.java with a typo in it:\"INITIALCONTEXTFACTORY alread set \"Attached is a patch against the 6029 tag, but the issue exists in tc6.0.x/trunk", "OB": "", "EB": "", "SR": ""}

@@ -1,0 +1,1 @@
+{"bug_id": "41359", "title": "Bug 41359percflow aspects compiled from jars share one instance for all entry points", "description": "When a percflow aspect is woven into source code from a jar using the aspectPathcompiler option, it produces only one instance of the aspect for each entrypointdefined in the source code."}

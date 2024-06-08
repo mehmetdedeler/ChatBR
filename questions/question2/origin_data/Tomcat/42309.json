@@ -1,0 +1,1 @@
+{"bug_id": "42309", "title": "Bug 42309Request: support for NIO in Embedded Tomcat", "description": "in org.apache.catalina.startup.Embedded there is no direct API to create an NIOconnector. This would be very helpful for all applications which use tomcat inembedded mode and require the CometProcessor."}

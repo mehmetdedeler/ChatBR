@@ -1,0 +1,1 @@
+{"bug_id": "16181", "title": "Bug 16181Tab key doesn't work in editor when 'Insert spaces for tabs' enabled", "description": "Using integration build 0515, pressing Tab in an editor window doesn't do anything when 'Insertspaces for tabs' is selected. The editor is marked as unsaved, but no spaces appear."}

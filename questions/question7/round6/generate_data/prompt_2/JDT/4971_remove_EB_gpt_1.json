@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Unexpected behavior with 'Copy Package'",
+  "description": "Encountered unexpected behavior when using the 'Copy Package' functionality in version 2031 of org.eclipse.jdt.internal.ui within jdt.ui3. Selecting xxx as the destination led to unusual results.",
+  "OB": "Upon completion, the package 'ui' appears within xx unexpectedly.",
+  "EB": "The 'Copy Package' operation should duplicate the selected package into the specified destination without creating unexpected or additional packages.",
+  "SR": "To replicate the issue:\n1. Create a new project xxx.\n2. Open the Package viewer.\n3. Select a package within project A.\n4. From the context menu, choose 'Copy'."
+}

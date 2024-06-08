@@ -1,0 +1,1 @@
+{"bug_id": "29142", "title": "Bug 29142Hyperlinking from stackdump locks up Eclipse", "description": "I am trying to use the hyperlinking feature within the console. I an exceptionin my console view. I move the mouse pointer over, it turns to link. I clickto the link, but then Eclipse never return from this. I have kill the Eclipse."}

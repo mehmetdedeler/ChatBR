@@ -1,0 +1,8 @@
+{
+  "id": "120216",
+  "title": "Bug 120216 - Group dialog not appearing when dataset is not set",
+  "description": "The group dialog is not being displayed when a table report item is added without setting a data set.",
+  "OB": "When adding a table report item without setting a data set, the group dialog does not appear.",
+  "EB": "The group dialog should be displayed when adding a table report item, even if a data set is not set. This behavior is expected to allow users to create table groups without being restricted by dataset selection.",
+  "SR": "1. Open the application and navigate to the report design section.\n2. Click on 'Add a table report item' from the toolbar.\n3. Do not set a data set when configuring the table report item.\n4. Attempt to create a new table group. The group dialog should be displayed as expected."
+}

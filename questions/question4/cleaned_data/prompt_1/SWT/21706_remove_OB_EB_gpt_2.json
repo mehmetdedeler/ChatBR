@@ -1,0 +1,8 @@
+{
+  "id": "21706",
+  "title": "Bug 21706 - BidiUtil in win32 has Class.forName() usage",
+  "description": "The current implementation of BidiUtil in win32 relies on Class.forName() usage.",
+  "OB": "The code uses Class.forName() to obtain the class of BidiUtil, which might result in runtime errors and is considered unsafe.",
+  "EB": "Modify the code to use a direct instantiation of BidiUtil, as shown below:\n\n```java\nstatic Callback callback = new Callback(new BidiUtil(), \"windowProc\", 4);\n```",
+  "SR": "Please update the code to use direct instantiation of BidiUtil instead of relying on Class.forName() to ensure safer and more reliable behavior. While I haven't tested it, the suggested modification is expected to achieve the same functionality."
+}

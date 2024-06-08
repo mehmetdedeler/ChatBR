@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '10022', 'title': 'Bug 10022Incorrect "Build" popup action enablement', 'description': 'Bug 10022Incorrect "Build" popup action enablement ', 'OB': 'If "Build" action in the context sensitive popup menu in the Java perspectiveis always enabled. Even if the user goes to PreferencesWorkbench andselects "Perform build automatically on resource modification" the build menuoption still appears in the Java popup menus.I believe this is incorrect. ', 'EB': 'No need for a manual build if the build is alreadydone, automatically.Mazen Faraj. ', 'SR': ''}
+</BUG REPORT>

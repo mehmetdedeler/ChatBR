@@ -1,0 +1,8 @@
+ {
+  "id": "114470",
+  "title": "Bug 114470 [Smoke] Error message thrown when using new Date('3/2/2005') as value in table filter.",
+  "description": "When attempting to filter a table with the value 'new Date('3/2/2005')', an error is encountered.",
+  "OB": "When using the value 'new Date('3/2/2005')' as a filter for a table, an error message is displayed on the report page.",
+  "EB": "Save and preview the report. Expected result: The filter should work without errors. Actual result: An error message is displayed on the report page, indicating data conversion issues when trying to convert 'new Date('3/2/2005')' to a Date data type.",
+  "SR": "Steps to reproduce the bug: 1. Create a new data source and a dataset containing a datetime column. 2. Insert a table into the report. 3. Create a filter based on the datetime column. 4. In the 'value1' field of the filter, input 'new Date('3/2/2005')'."
+}

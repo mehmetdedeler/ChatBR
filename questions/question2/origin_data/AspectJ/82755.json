@@ -1,0 +1,1 @@
+{"bug_id": "82755", "title": "Bug 82755[ajdoc] update ajdoc to support Java 5 language features", "description": "Java 5 langauge features such as enums and annotations need to be supported byajdoc."}

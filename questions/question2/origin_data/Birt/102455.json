@@ -1,0 +1,1 @@
+{"bug_id": "102455", "title": "Bug 102455Pie Chart is not round", "description": "Create a pie chart in the report designer: the pie chart is ovale. It shouldbe perfectly round at least by default."}

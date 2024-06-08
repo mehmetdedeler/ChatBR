@@ -1,0 +1,8 @@
+{
+  "id": "18335",
+  "title": "Perspective contents lost when view is maximized",
+  "description": "When a user maximizes a view in the software, the perspective contents are lost, and the layout is not saved correctly when the workbench is closed.",
+  "OB": "When a user maximizes a view, the software does not retain the original perspective and layout. Instead, it switches to a temporary layout, and upon closing the workbench, this temporary layout is persisted, causing a loss of the proper layout.",
+  "EB": "The expected behavior is that when a user maximizes a view, the software should retain the original perspective and layout. When the workbench is closed, it should save the proper layout, not the temporary one.",
+  "SR": "To reproduce the issue:\n1. Open the software and create a custom perspective layout with multiple views.\n2. Maximize one of the views.\n3. Close the workbench.\n4. Reopen the software and observe that the maximized view is using a temporary layout instead of the original layout."
+}

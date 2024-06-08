@@ -1,0 +1,8 @@
+{
+  "id": "6009",
+  "title": "Bug 6009 - New class wizard doesn't get context right for nested classes",
+  "description": "When using the New Class Wizard in our integrated development environment (IDE), there is an issue with the context detection for nested classes.",
+  "OB": "When attempting to create a nested class using the New Class Wizard, it fails to correctly identify the context in which the class should be created. As a result, the wizard often places the nested class in the wrong location or does not generate it at all.",
+  "EB": "The expected behavior is that the New Class Wizard accurately detects the context for nested classes and places them within the appropriate parent class or namespace. It should provide options for selecting the desired parent class or namespace if necessary.",
+  "SR": "To reproduce this issue:\n1. Open our IDE and create a new project.\n2. Within the project, create a parent class or namespace if one does not already exist.\n3. Right-click on the parent class or namespace in the project explorer.\n4. Select 'New' and then 'Class' to open the New Class Wizard.\n5. In the New Class Wizard, choose 'Nested Class' as the class type.\n6. Complete the wizard by specifying the class name and any other required details.\n7. Observe that the nested class is not placed in the correct context, or it may not be generated at all."
+}

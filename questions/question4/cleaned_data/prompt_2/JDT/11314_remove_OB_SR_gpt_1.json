@@ -1,0 +1,8 @@
+{
+  "id": "11314",
+  "title": "Bug 11314: Replace package name fragments should always be smaller",
+  "description": "The 'Replace package name fragments with:' field in the preferences (JavaWork in progress) is exhibiting unexpected behavior. Currently, when attempting to replace the package name fragment 'com.ibm.foobar' with 'co~.ib~.foobar', the compressed name is not consistently smaller. This contradicts the expected behavior.",
+  "OB": "When attempting to replace the package name fragment 'com.ibm.foobar' with 'co~.ib~.foobar' in the 'Replace package name fragments with:' field, the compressed name is not consistently smaller.",
+  "EB": "The 'Replace package name fragments with:' field should consistently produce a compressed name that is smaller when replacing the package name fragment 'com.ibm.foobar' with 'co~.ib~.foobar'.",
+  "SR": "1. Open the preferences in the JavaWork in-progress environment.\n2. Navigate to the 'Replace package name fragments with:' field.\n3. Enter 'com.ibm.foobar' in the 'Replace' input.\n4. Enter 'co~.ib~.foobar' in the 'With' input.\n5. Observe that the compressed name is not consistently smaller than the original name."
+}

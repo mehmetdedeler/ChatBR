@@ -1,0 +1,8 @@
+{
+  "id": "109350",
+  "title": "Bug 109350 - Output parameter not displaying in data set dialog",
+  "description": "",
+  "OB": "On the query result page, no data is returned. The actual result is that the output parameter should be displayed in the edit data set dialog.",
+  "EB": "Bug 109350 - Output parameter should be displayed in the data set dialog. Details: Output parameter should be displayed in the edit data set dialog.",
+  "SR": "Steps to reproduce:\n1. Call the stored procedure from the Oracle database.\n2. Check the query result page; observe that no data is returned.\n3. Expected result: Output parameter should be displayed in the edit data set dialog."
+}

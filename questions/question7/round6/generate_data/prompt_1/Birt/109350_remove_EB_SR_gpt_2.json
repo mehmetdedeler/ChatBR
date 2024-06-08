@@ -1,0 +1,8 @@
+{
+  "id": "109350",
+  "title": "Bug 109350 - Output parameter not displaying in data set dialog",
+  "description": "The output parameter is not appearing in the data set dialog on the query result page.",
+  "OB": "While in the query result page, no data is returned. The actual result is that the output parameter should be displayed in the edit data set dialog.",
+  "EB": "When on the query result page, the output parameter should be visible in the edit data set dialog.",
+  "SR": "1. Navigate to the query result page.\n2. Observe that no data is returned.\n3. Expected behavior: The output parameter should be displayed in the edit data set dialog."
+}

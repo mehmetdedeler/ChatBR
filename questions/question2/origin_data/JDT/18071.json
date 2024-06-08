@@ -1,0 +1,1 @@
+{"bug_id": "18071", "title": "Bug 18071Package Viewer: Too many refreshes", "description": "F1 when a working copy is closed, it's package is updated update on a package results in a refresh as the abstract filter claims thatIMAGE is a filter property"}

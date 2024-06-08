@@ -1,0 +1,8 @@
+{
+  "id": "11280",
+  "title": "Bug 11280 - View Maximization State Lost When Switching Perspectives",
+  "description": "When navigating between perspectives in the software, the maximized state of the CVS repository view is not retained as expected.",
+  "OB": "Upon switching perspectives from Java to Resource and back to Java, the maximized state of the CVS repository view is lost.",
+  "EB": "The maximized state of the CVS repository view should persist when switching between different perspectives.",
+  "SR": "1. Open the CVS repository view in the Java perspective.\n2. Double click the title bar to maximize the view.\n3. Switch to the Resource perspective.\n4. Return to the Java perspective. The CVS repository view should remain maximized."
+}

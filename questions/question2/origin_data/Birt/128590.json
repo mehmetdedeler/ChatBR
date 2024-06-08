@@ -1,0 +1,1 @@
+{"bug_id": "128590", "title": "Bug 128590Tooltip of chart didn't show completely.", "description": "Description:Tooltip of chart didn't show completely.Steps to reproduce:1. Preview attached report.2. Move mouse from bottom/right into the chart.Expected result:Tooltip shows.Actual result:Tooltip didn't show completely."}

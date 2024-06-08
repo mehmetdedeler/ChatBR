@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Bug 123036 Data in a report is doubly stored",
+  "description": "The bug report lacks details about the specific behavior observed, the expected behavior, and the steps to reproduce. Based on the context, I'll supplement and improve the wording of the bug report.",
+  "OB": "When generating a report, data is observed to be stored twice – once in the content stream and once by DtE (Data-to-Entity).",
+  "EB": "The expected behavior is that the instance stored by the content stream should not be duplicated. Data should only be stored once either by the content stream or DtE.",
+  "SR": "Steps to reproduce the issue are unclear. However, the bug seems to manifest during report generation. Please provide specific steps to reproduce the problem, including any relevant configuration or input data."
+}

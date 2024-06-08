@@ -1,0 +1,1 @@
+{"bug_id": "12611", "title": "Bug 12611'move..' is always disabled in the outline context menu", "description": "'move..' is always disabled in the outline context menuthis comes from ReorgGroup which includes 'move' as well (maybe it shouldn't)maybe this should be adressed together with Dirk's menu restructuring"}

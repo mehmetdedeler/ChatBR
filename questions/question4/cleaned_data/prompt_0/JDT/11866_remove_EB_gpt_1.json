@@ -1,0 +1,8 @@
+{
+  "id": "11866",
+  "title": "Bug 11866 - Wrong labels in Update Test Suite dialog",
+  "description": "Bug 11866 - Wrong labels in Update Test Suite dialog",
+  "OB": "In the Update Test Suite dialog, there are several issues with the labels and text:\n\n1. The label 'Test Classes to be included' is written as 'TestClasses' (missing space).\n2. The status line mentions 'methods being selected' instead of 'types' being selected.\n3. The action name is written as 'TestSuite' without a space, but it should be 'Test Suite'.",
+  "EB": "Expected Behavior:\n\n1. The label 'Test Classes to be included' should be displayed correctly with a space between 'Test' and 'Classes'.\n2. The status line should correctly mention 'types' being selected instead of 'methods'.\n3. The action name should be displayed as 'Test Suite' with a space between the words.",
+  "SR": "Steps to Reproduce:\n1. Open the Update Test Suite dialog in the software.\n2. Observe the label 'Test Classes to be included'.\n3. Notice that the label is written as 'TestClasses' without a space.\n4. Examine the status line in the dialog to see 'methods being selected' instead of 'types'.\n5. Look at the action name, which is displayed as 'TestSuite' without a space, and it should be 'Test Suite'."
+}

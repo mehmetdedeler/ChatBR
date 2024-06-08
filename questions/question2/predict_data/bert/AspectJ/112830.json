@@ -1,0 +1,1 @@
+{"id": "112830", "title": "Bug 112830Warning \"couldn't find aspectjrt.jar on classpath\"", "description": " Bug 112830Warning \"couldn't find aspectjrt.jar on classpath\"", "OB": " The compiler makes this warning if \"aspectrt.jar\" file has a different name like\"aspectrt1.3.jar\", which is the case when compiling with maven.", "EB": "", "SR": ""}

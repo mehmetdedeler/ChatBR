@@ -1,0 +1,1 @@
+{"id": "49118", "title": "Bug 49118Inefficient use of String concatenation in loop", "description": " Bug 49118Inefficient use of String concatenation in loop Created attachment 25293 [details]Patch to use StringBuilder instead of +=StringHttpServlet toTrace method concatenates Strings in a loop; this is very inefficient.", "OB": "", "EB": "", "SR": ""}

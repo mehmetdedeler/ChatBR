@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '121170', 'title': 'Bug 121170get column label from meta data object should return some user recognizable strings', 'description': '', 'OB': 'The labels returned before extraction are null, while the ones after extraction are recognizable strings. ', 'EB': '', 'SR': ''}
+</BUG REPORT>

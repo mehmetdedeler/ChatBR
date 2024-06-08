@@ -1,0 +1,8 @@
+{
+  "id": "6125",
+  "title": "JAR Packager Reports Open Files Late",
+  "description": "Upon pressing finish, 'JAR creation failed: Unsaved Editors' error message appears.",
+  "OB": "The JAR packager reports a failure related to unsaved editors when attempting to create a JAR file.",
+  "EB": "The JAR packager should check for unsaved changes before initiating the JAR creation process and provide a prompt to save changes or handle them appropriately.",
+  "SR": "1. Make changes in a file without saving.\n2. Open the JAR packager for its project.\n3. Enter all necessary path, destination, and JAR packager details.\n4. Attempt to create the JAR file."
+}

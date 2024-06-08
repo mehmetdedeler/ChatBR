@@ -1,0 +1,8 @@
+{
+  "id": "49299",
+  "title": "Bug 49299 - Servlet 3.0 ch.7.1.1 Incorrect Information about Custom Cookie Name and URL Rewriting",
+  "description": "Bug 49299 in Servlet 3.0 Chapter 7.1.1 incorrectly states that custom cookie name affects URL rewriting.",
+  "OB": "The documentation claims that setting a custom cookie name should impact URL rewriting, but in the current trunk, the default 'jsessionid' is used instead.",
+  "EB": "The documentation should accurately reflect the behavior in the current trunk, where URL rewriting defaults to 'jsessionid' regardless of the custom cookie name.",
+  "SR": "To reproduce the issue, deploy the attached war file (cookiename.war) and access http://localhost:8080/cookiename/ as described in the steps provided."
+}

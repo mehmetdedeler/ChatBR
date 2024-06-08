@@ -1,0 +1,8 @@
+{
+  "id": "5473",
+  "title": "Bug 5473: ShiftLeft behavior with intermixed tabs and spaces",
+  "description": "ShiftLeft behavior issue when using intermixed tabs and spaces in Build 200110251.",
+  "OB": "When using a default text editor, if you enter the following: <space<tab some text<tab some text2 and then highlight the two lines, and execute ShiftLeft, nothing happens.",
+  "EB": "When using the ShiftLeft feature in the text editor with intermixed tabs and spaces, it should correctly shift the lines to the left, adjusting the indentation appropriately.",
+  "SR": "To reproduce the issue:\n1. Open a default text editor.\n2. Enter the following text: <space<tab some text<tab some text2\n3. Highlight the two lines you just entered.\n4. Execute the ShiftLeft command."
+}

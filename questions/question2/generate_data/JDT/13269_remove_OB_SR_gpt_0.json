@@ -1,0 +1,8 @@
+{
+  "id": "13269",
+  "title": "Incorrect Operation Order in Jar Packager",
+  "description": "The issue reported pertains to an incorrect operation order in the jar packager, and this behavior also applies to '.jardesc' files. It is suggested that, in the case of '.jardesc' files, showing a warning in the wizard's header (now that an icon is displayed) would be more appropriate than presenting a dialog box at the end. Users who wish to proceed with overwriting should utilize the 'save the manifest in the workspace' option combined with the 'reuse and save the manifest in the workspace' option. This bug was reported on 2002-04-09 by JRT.",
+  "OB": "",
+  "EB": "In either case, choosing not to overwrite files should not prevent the wizard from completing its operation. The 'use existing manifest from workspace' option should not create a new manifest file.",
+  "SR": ""
+}

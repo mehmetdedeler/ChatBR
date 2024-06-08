@@ -1,0 +1,8 @@
+{
+  "id": "18705",
+  "title": "Excessive Flashing in Control Example",
+  "description": "The report describes excessive flashing in the Control Example, and the expected behavior is not clear. We need to provide more details.",
+  "OB": "When running the Control Example and resizing the window vertically, all tabs in the TabFolder and all Frames flash.",
+  "EB": "The expected behavior is not clearly defined in the report. It should specify how the software should behave when resizing the window vertically to address the flashing issue.",
+  "SR": "Steps to reproduce:\n1. Open the Control Example application.\n2. Resize the application window in the vertical direction only."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "21834",
+  "title": "Bug 21834: Coolbar deleting items corrupting layout",
+  "description": "Bug 21834: Coolbar deleting items corrupting layout in Build 2002071610021.",
+  "OB": "When pressing the Delete button, the second row is removed instead of only deleting the first item on that row.",
+  "EB": "Press the Delete button. This should delete the first item on the second row without affecting the layout. The second row should remain intact after the deletion.",
+  "SR": "Steps to Reproduce:\n1. Open the Coolbar.\n2. Navigate to the second row.\n3. Press the Delete button.\n4. Observe that the second row gets removed and the layout is corrupted.\nExpected Behavior:\n- The first item on the second row should be deleted, leaving the rest of the layout unaffected.\n- The second row should remain after the deletion."
+}

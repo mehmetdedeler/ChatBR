@@ -1,0 +1,1 @@
+{"bug_id": "15380", "title": "Bug 15380Add Bookmark action is disabled in the Editor", "description": "The Add Bookmark action is provided in the Edit menu but it is disabled on textselections. Text Editors should retarget this action so that it also operateson text selections."}

@@ -1,0 +1,8 @@
+{
+  "id": "10403",
+  "title": "Bug 10403 - Project creation should confirm the bin directory can be scrubbed",
+  "description": "",
+  "OB": "When creating a new project, there is no confirmation or indication that the bin directory can be scrubbed.",
+  "EB": "Upon project creation, there should be a confirmation or clear indication that the bin directory can be scrubbed successfully without any issues.",
+  "SR": "1. Open the application and navigate to the 'Create Project' section.\n2. Fill in the necessary details for the new project.\n3. Observe the absence of any confirmation regarding the scrubbing capability of the bin directory."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "18028",
+  "title": "Bug 18028 - 'Rename Package' Does Not Check Resource Writability",
+  "description": "The 'Rename Package' functionality does not verify if all resources are writeable, leading to unexpected exceptions.",
+  "OB": "The observed behavior of the bug report is missing, but it is likely related to issues encountered when attempting to rename a package containing read-only files.",
+  "EB": "The expected behavior is that the 'Rename Package' functionality should include a precondition check to verify if resources inside packages are writeable. This should prevent any exceptions from occurring during the renaming process.",
+  "SR": "To reproduce the issue:\n1) Create a package containing read-only files.\n2) Attempt to rename the package.\nObservation: Unexpected exceptions may occur during or after the renaming process."
+}

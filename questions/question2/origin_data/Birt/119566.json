@@ -1,0 +1,1 @@
+{"bug_id": "119566", "title": "Bug 119566Support template items in page header/footer", "description": "Currently you can't create template report items inside a page header/footer. This should be fixed."}

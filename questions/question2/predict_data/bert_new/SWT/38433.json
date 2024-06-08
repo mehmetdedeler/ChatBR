@@ -1,0 +1,1 @@
+{"id": "38433", "title": "Bug 38433Editor titlebars are not painted", "description": "", "OB": "Bug 38433Editor titlebars are not painted Build 20030604The editor titlebar is not correctly painted. Only some of theeditors actually appear. Also, the bottom 1/4 of viewpart titlebarsare not painted. ", "EB": "", "SR": ""}

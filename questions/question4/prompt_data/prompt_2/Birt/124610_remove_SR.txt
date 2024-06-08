@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '124610', 'title': 'Bug 124610Add a filter on a boolean computed column will cause error.', 'description': '', 'OB': 'Bug 124610Add a filter on a boolean computed column will cause error. ', 'EB': 'Save and preview.Expected result:Filter works.Actual result:Error0 : data.engine.ConvertToDataTypeError ( 1 time(s) )detail : org.eclipse.birt.data.engine.core.DataException:can not be converted to class java.lang.Boolean. ', 'SR': ''}
+</BUG REPORT>

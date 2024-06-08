@@ -1,0 +1,7 @@
+{
+  "id": "28974",
+  "title": "Bug 28974Compiler error when introducing a \"final\" field",
+  "description": " Bug 28974Compiler error when introducing a \"final\" field no source information available ! !1 errorpackage com.ibm.amc;import com.ibm.amc.ejb.SessionBean;/@author colyerTo change this generated comment edit the template variable \"typecomment\":WindowPreferencesJavaTemplates. /public aspect DemoBeanEJB {declare parents: DemoBean implements SessionBean;// THIS NEXT LINE IS THE CULPRITstatic final boolean DemoBean.verbose = true;private transient String DemoBean.ctx;public void DemoBean.ejbActivate( ) {if ( verbose ) {System.out.println( \"ejbActivate Called\" );}}}Making the intertype declaration nonfinal solves the problem...",
+  "OB": " The aspect below fails to compile with 1.1b2, producing the compilation error:$ ajc com/ibm/amc/.java com/ibm/amc/ejb/.javad:/eclipse/runtimeworkspaceajsamples/Mock EJBs/com/ibm/amc/DemoBeanEJB.java:1: Cannot assign a value to the final field com.ibm.amc.DemoBean.ajc$interField$comibmamc$verbose!!",
+  "EB": " To enable and disable the creation of type comments go toWindowPreferencesJavaCode Generation.", "SR": " The aspect below fails to compile with 1.1b2, producing the compilation error:$ ajc com/ibm/amc/.java com/ibm/amc/ejb/.javad:/eclipse/runtimeworkspaceajsamples/Mock EJBs/com/ibm/amc/DemoBeanEJB.java:1: Cannot assign a value to the final field com.ibm.amc.DemoBean.ajc$interField$comibmamc$verbose!!"
+}

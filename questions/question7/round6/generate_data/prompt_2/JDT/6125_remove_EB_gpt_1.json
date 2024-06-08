@@ -1,0 +1,8 @@
+{
+  "id": "6125",
+  "title": "Bug 6125 - JAR Packager Reports Open Files Too Late",
+  "description": "Upon pressing 'Finish' in the JAR creation process, the error 'JAR creation failed: Unsaved Editors' is displayed.",
+  "OB": "When attempting to create a JAR file, the JAR packager reports open files very late, resulting in a 'JAR creation failed: Unsaved Editors' error message.",
+  "EB": "The JAR packager should detect and alert users about unsaved files or changes before initiating the JAR creation process, preventing the 'JAR creation failed: Unsaved Editors' error.",
+  "SR": "1. Open a file within the project.\n2. Make edits to the file without saving.\n3. Access the JAR packager within the project.\n4. Fill in all necessary fields (path, destination, name of JAR, packager description, etc.).\n5. Attempt to create the JAR file by clicking 'Finish'."
+}

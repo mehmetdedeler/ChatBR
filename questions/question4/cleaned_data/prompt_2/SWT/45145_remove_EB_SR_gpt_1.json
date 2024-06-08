@@ -1,0 +1,8 @@
+{
+  "id": "45145",
+  "title": "Bug 45145: Second window takes focus when interacting with the first",
+  "description": "When switching from another application to an Eclipse window and clicking on a docked view or perspective, another window takes the front position, overlapping other application windows.",
+  "OB": "When switching from another application to an Eclipse window and clicking on a docked view or perspective, the other window comes to the front over my other applications' windows.",
+  "EB": "When interacting with an Eclipse window, clicking on a docked view or perspective should not cause another window to take focus and come to the front, overlapping other applications' windows.",
+  "SR": "Steps to reproduce:\n1. Open Eclipse.\n2. Switch from another application to the Eclipse window.\n3. Click on a docked view or perspective within Eclipse.\n4. Observe if another window takes focus and comes to the front, overlapping other application windows."
+}

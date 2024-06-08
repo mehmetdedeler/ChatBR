@@ -1,0 +1,1 @@
+{"bug_id": "78261", "title": "Bug 78261field pattern with \"void\" type should be compiletime error", "description": "We really should barf early onget(void i)as opposed to just compiling through and treating it as something that'll nevermatch.I rated this as minor since this is just an error message issue."}

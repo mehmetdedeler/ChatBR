@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '41347', 'title': "Bug 41347CCombo shouldn't fire defaultSelection on mouse list selection", 'description': "Bug 41347CCombo shouldn't fire defaultSelection on mouse list selection It shouldn't do this. A typical user of a combobox would be vert surprised to have thedialog be dismissed just because the entry was selected. ", 'OB': '', 'EB': "It shouldfire a selection instead.Default selection means something was selected and you should go and dosomething. The typical reaction is to process the selection and dismiss the dialog.A combo shouldn't fire default selection from just selecting an entry in thedropdown. Hittingenter from the text field should be treated as default selection. ", 'SR': ''}
+</BUG REPORT>

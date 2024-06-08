@@ -1,0 +1,8 @@
+{
+  "id": "124599",
+  "title": "Bug 124599: Shortcut delete and menu delete behave differently in table column.",
+  "description": "Description: Shortcut delete and menu delete behave differently in table column.\nSteps to reproduce: 1. [Additional Steps Needed]",
+  "OB": "[Additional Details Needed]",
+  "EB": "Undo it, click delete in context menu.\nExpected result: Shortcut delete and menu delete should behave consistently.\nActual result: In step 2, the entire grid in the group header was deleted. In step 3, the grid in the group header remained untouched.",
+  "SR": "Open the attached file in bug 124598. In the file, the second table has a list/grid nested in its group header and a merge in the group header row. 2. Select the second column, press delete on your keyboard. 3. [Additional Steps Needed]"
+}

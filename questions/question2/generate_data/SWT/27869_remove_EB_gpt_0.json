@@ -1,0 +1,8 @@
+{
+  "id": "27869",
+  "title": "Bug 27869 - Performance Issue with StyledText and Font.getFontData",
+  "description": "This bug report addresses a performance problem related to the excessive use of the Font.getFontData API in the StyledText component. It is suggested that the metric information should be cached in the StyledText and only updated when the font is changed. The issue becomes particularly noticeable when using Eclipse's Java Editor on platforms like Redhat 8 and Motif running on UTF8 encoding.",
+  "OB": "The observed behavior is that running Eclipse and using the Java Editor, a single keystroke can trigger the Font.getFontData() API to be called 13 times. This API is also overused during scrolling and text selection. Each Font has 7 FontData, so when typing 'a' in the Java Editor, 91 (713) FontData will be loaded.",
+  "EB": "The expected behavior is that the performance issue related to the overuse of Font.getFontData should be addressed. The Font metrics information should be cached in StyledText and updated only when the font changes.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Add a 'System.out.println' statement as the first line of the 'Font.getFontData' method.\n2. Run a self-hosted Eclipse instance.\n3. Watch the console for the printed output.\n\nThis problem is of concern, especially on certain platforms like Motif running on UTF8 encoding."
+}

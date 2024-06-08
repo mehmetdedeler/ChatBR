@@ -1,0 +1,1 @@
+{"bug_id": "14730", "title": "Bug 14730Edit button in working set dialog does nothing", "description": "Build 20020425:Open the working sets dialog \"Window  Working sets\" and select an existingworking set and select it from the list then select the edit button nothinghappens. This has been working properly for ages, now it's broken."}

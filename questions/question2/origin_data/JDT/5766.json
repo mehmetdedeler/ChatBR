@@ -1,0 +1,1 @@
+{"bug_id": "5766", "title": "Bug 5766Update refs in String/Java Doc should be off by default", "description": "When renaming an element then the optionsto Update references in Strings/Java Doc/Comments is on by defaultit should be off."}

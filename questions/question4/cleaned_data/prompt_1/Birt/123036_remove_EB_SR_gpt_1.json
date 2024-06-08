@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Bug 123036 Data in a report is doubly stored",
+  "description": "The current bug report lacks sufficient details in the OB, EB, and SR sections. I will infer and supplement the missing information based on context.",
+  "OB": "The issue manifests as redundant storage of data in the report. This results in data being stored twice, causing inaccuracies and inefficiencies.",
+  "EB": "The expected behavior is that data should be stored only once in the report, ensuring accuracy and avoiding unnecessary duplication.",
+  "SR": "Steps to reproduce:\n1. Open the application and navigate to the 'Reports' section.\n2. Generate or view a report that contains data.\n3. Observe that the data is stored twice in the report."
+}

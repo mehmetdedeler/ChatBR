@@ -1,0 +1,8 @@
+{
+  "id": "17993",
+  "title": "Find/Replace behavior should not replace typed entry with value from history",
+  "description": "The current behavior of the Find/Replace feature is replacing the manually typed entry with a value from the history, which is not desirable. It would be better if what I type isn't replaced with a value from the history. The current behavior seems to be similar to 'autocomplete,' which is particularly common in browsers. In the future, perhaps, a full 'autocomplete' feature could be provided.",
+  "OB": "The current behavior of the Find/Replace feature replaces the manually typed entry with a value from the history.",
+  "EB": "The expected behavior for the Find/Replace feature is that it should not replace the manually typed entry with a value from the history. Instead, it should allow users to perform find and replace operations while respecting the case of what the user types. Until then, the feature should be removed.",
+  "SR": "To reproduce the issue:\n1. Open a document so that the 'Edit > Find/Replace...' option becomes available.\n2. Attempt to perform a Find/Replace operation.\n3. Observe that the behavior is similar for the 'Replace With' field, where the manually typed entry is replaced with a value from the history."
+}

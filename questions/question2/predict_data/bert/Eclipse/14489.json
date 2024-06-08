@@ -1,0 +1,1 @@
+{"id": "14489", "title": "Bug 14489[Contributions] IStatusLineManager.setErrorMessage", "description": " Bug 14489[Contributions] IStatusLineManager.setErrorMessage IStatusLineManager.setMessage(String message) doesn't get updated after usingIStatusLineManager.setErrorMessage(String message).", "OB": "", "EB": "", "SR": ""}

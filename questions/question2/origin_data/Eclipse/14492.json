@@ -1,0 +1,1 @@
+{"bug_id": "14492", "title": "Bug 14492working set wizards override page title", "description": "I create my working set page with MyPage(pageId, title, icon). The title isignored/overwritten by the working set wiazrds."}

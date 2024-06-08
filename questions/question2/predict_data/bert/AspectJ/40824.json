@@ -1,0 +1,1 @@
+{"id": "40824", "title": "Bug 40824asm treats \"declare parents\" as methods", "description": " Bug 40824asm treats \"declare parents\" as methods", "OB": "", "EB": " \"declare parents\" member declarations report their kind as \"method\" instead ofwhat they are.", "SR": ""}

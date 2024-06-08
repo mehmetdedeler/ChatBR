@@ -1,0 +1,1 @@
+{"bug_id": "39730", "title": "Bug 39730code assist popup does not take focus", "description": "20030703on windows, when the code assist window comes up, the first item is selectedon GTK, this does not happen until i press arrawdownwhich is very frustratingmajor for me(dunno if it's text or swt though)"}

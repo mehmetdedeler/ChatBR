@@ -1,0 +1,8 @@
+{
+  "id": "102516",
+  "title": "Bug 102516 - JDBC Data Set Editor should load tables and columns on demand",
+  "description": "The JDBC Data Set Editor page for a SQL Query has a tree control that lists the tables and columns in your data source.",
+  "OB": "When using the JTOpenJDBC drivers on the iSeries platform, the tree control displays every schema (aka catalog) on the system, which easily amounts to several hundred tables. I noticed this behavior when I used the code from CVS dated 6/30/05. Although there is a schema filter, I still receive a warning message during the page load because the tree is being populated at that time.",
+  "EB": "I expect the loading of the tree to be deferred until the user either expands the tree or applies a filter. This would prevent the warning message from appearing during the initial page load.",
+  "SR": "To reproduce the issue:\n1. Open the JDBC Data Set Editor for a SQL Query.\n2. Use the JTOpenJDBC drivers on the iSeries platform.\n3. Observe the tree control, which should display all schemas.\n4. Notice that a warning message appears during the page load due to the tree being populated at this time."
+}

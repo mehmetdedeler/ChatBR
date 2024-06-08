@@ -1,0 +1,1 @@
+{"id": "14197", "title": "Bug 14197: Removing a working set immediately makes changes", "description": "Bug 14197: Removing a working set immediately makes changes", "OB": "200204181. When a working set with one project is created and selected, the package view is filtered.\n2. After removing the working set, the filter changes immediately.", "EB": "", "SR": ""}

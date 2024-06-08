@@ -1,0 +1,8 @@
+{
+  "id": "14197",
+  "title": "Removing a working set immediately triggers unintended changes",
+  "description": "Bug 14197: Removing a working set immediately triggers unintended changes",
+  "OB": "When I remove a working set, the package view in the background refreshes immediately, and any changes I made to the working sets are applied without the option to cancel them.",
+  "EB": "At the moment of deletion, I expect the package view in the background to refresh only when I close the working set selection dialog, not during the manipulation of working sets. Additionally, I believe that pressing 'cancel' should revert all changes I made to working sets, including the removal of sets.",
+  "SR": "Steps to reproduce the issue:\n1. Open the working set management interface.\n2. Make changes to one or more working sets (e.g., remove a working set or modify its contents).\n3. Observe that the package view in the background refreshes immediately after making changes.\n4. Attempt to cancel the changes, and notice that the 'cancel' action does not revert the modifications as expected."
+}

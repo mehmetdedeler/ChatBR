@@ -1,0 +1,8 @@
+{
+  "id": "118780",
+  "title": "Alias Name Not Displayed in Expression Builder",
+  "description": "When setting an alias for columns in a dataset, the expression builder still displays the old column name instead of the alias when selecting the dataset.",
+  "OB": "When selecting the dataset in the expression builder and double-clicking on the first column name, the original column name is displayed below in the expression builder, but the alias name appears above as row[\"column1\"].",
+  "EB": "In the expression builder, when selecting the dataset and double-clicking on the first column name, the alias name should be displayed instead of the original column name. According to scr 78193 in tracker, the first column in the expression builder should use the alias name as expected.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Create a new datasource and a dataset.\n2. Set an alias for the first column in the dataset, naming it \"column1\".\n3. Insert a data item and bind it to the dataset.\n4. Open the expression builder, select the dataset, and double-click the first column name. You will observe that the original column name is displayed below, and the alias name appears as row[\"column1\"]."
+}

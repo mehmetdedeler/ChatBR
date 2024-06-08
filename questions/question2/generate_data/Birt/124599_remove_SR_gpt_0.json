@@ -1,0 +1,8 @@
+{
+  "id": "124599",
+  "title": "Shortcut delete and menu delete act differently in table column.",
+  "description": "Shortcut delete and menu delete act differently in table column.",
+  "OB": "Shortcut delete and menu delete act differently in the table column.",
+  "EB": "When you perform a shortcut delete or click delete in the context menu, they should have the same behavior.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the table with a group header in the software.\n2. Try to delete a grid within the group header using the shortcut delete key.\n3. Then, right-click on the same grid within the group header and select 'delete' from the context menu."
+}

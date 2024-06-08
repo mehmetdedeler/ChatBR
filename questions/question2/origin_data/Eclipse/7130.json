@@ -1,0 +1,1 @@
+{"bug_id": "7130", "title": "Bug 7130Pin button should be after action sets", "description": "Build 20011218Since the pin button only applies to the active editor, and cannot be hooked byviews (unlike the Save actions), it should appear after the action sets andbefore editor contributions.See also bug 6971"}

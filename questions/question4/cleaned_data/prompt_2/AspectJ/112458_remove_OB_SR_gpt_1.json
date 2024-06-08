@@ -1,0 +1,8 @@
+{
+  "id": "112458",
+  "title": "Property Editor Displays Layout Item Properties in Master Page Viewer",
+  "description": "The Property Editor continues displaying the properties of layout items even after switching to the Master page viewer.",
+  "OB": "When switching to the Master page viewer, the Property Editor displays properties related to layout items.",
+  "EB": "Upon switching to the Master Page viewer, the Property Editor should update to reflect the properties associated specifically with the Master Page.",
+  "SR": "1. Open the project and navigate to any layout page.\n2. Switch to the Master Page viewer.\n3. Observe the Property Editor panel to see it displaying properties related to layout items instead of the expected Master Page properties."
+}

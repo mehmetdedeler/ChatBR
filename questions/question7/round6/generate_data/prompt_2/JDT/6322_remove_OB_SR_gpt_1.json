@@ -1,0 +1,8 @@
+{
+  "id": "6322",
+  "title": "All Types Dialog Displays Obfuscated Classes",
+  "description": "When using JDK 1.4, the 'All Types' dialog displays obfuscated classes such as 'a', 'a1', 'b', 'c', 'd', etc.",
+  "OB": "The 'All Types' dialog prominently showcases obfuscated classes like 'a', 'a1', 'b', 'c', 'd', etc., making it challenging to discern actual class names.",
+  "EB": "Obfuscated classes should appear less prominently or be clearly distinguished from the actual class names in the 'All Types' dialog.",
+  "SR": "1. Open the 'All Types' dialog in JDK 1.4.\n2. Notice how obfuscated classes 'a', 'a1', 'b', 'c', 'd', etc., are displayed.\n3. Attempt to differentiate between obfuscated and non-obfuscated class names within the dialog."
+}

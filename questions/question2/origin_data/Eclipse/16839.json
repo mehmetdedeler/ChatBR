@@ -1,0 +1,1 @@
+{"bug_id": "16839", "title": "Bug 16839[Editor Mgmt] Need to remove deprecated 2.0 APIs", "description": "Just a reminder that we need to remove API that we added in 2.0 and deprecatedthem. E.g. getEditorThreshold in IWorkbenchPage and IPageLayout."}

@@ -1,0 +1,1 @@
+{"id": "12104", "title": "Bug 12104modify parameters: not allowed on some constructors", "description": "Bug 12104modify parameters: not allowed on some constructors public class A extends Error{A(String s){}} ", "OB": "", "EB": "", "SR": ""}

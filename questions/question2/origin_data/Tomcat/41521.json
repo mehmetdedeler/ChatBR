@@ -1,0 +1,1 @@
+{"bug_id": "41521", "title": "Bug 41521filtermapping doesn't support  for servletname", "description": "SRV 6.2.5 of the servlet 2.5 spec introduces support for '' as the servletnamein a filtermapping.TC6 does not currently support that value as specified. Iwill attach a patch shortly."}

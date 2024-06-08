@@ -1,0 +1,8 @@
+{
+    "id": "16938",
+    "title": "Bug 16938DCR: Class File Editor should scroll more naturally",
+    "description": "20020521 (F1)(This may not be a debug PRI wasn't sure). So the workaround, if the user wants to scroll through the Class File editor, is to always use the thumb.",
+    "OB": "When a breakpoint is put in a java file, right before a System.out.println statement, and debug to the breakpoint, and step into the println call, a Class File Editor opens. Clicking on the scrollbar's down arrow only scrolls one pixel at a time. Clicking on the scrollbar's background should scroll a page at a time, but it only scrolls about a line at a time. However, grabbing the thumb and scrolling with that works well.",
+    "EB": "The Class File Editor should scroll one line at a time when clicking on the arrows. Clicking on the scrollbar's background should scroll a page at a time. Currently, it only scrolls about a line at a time. Grabbing the thumb and scrolling with that works well.",
+    "SR": "1. Put a breakpoint in a java file right before a System.out.println statement.\n2. Start the debugging process and step into the println call.\n3. Wait for the Class File Editor to open.\n4. Click on the scrollbar's down arrow to observe the scrolling behavior.\n5. Click on the scrollbar's background to observe the scrolling behavior.\n6. Grab the thumb and scroll to verify the scrolling behavior."
+}

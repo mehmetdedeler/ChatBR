@@ -1,0 +1,1 @@
+{"id": "6536", "title": "Add Javadoc on field in Type Hierarchy does nothing", "description": "", "OB": "", "EB": "", "SR": "To reproduce: \n1. Open the Type Hierarchy view.\n2. Select a field in the Type Hierarchy view."}

@@ -1,0 +1,1 @@
+{"bug_id": "15527", "title": "Bug 15527JavaCore constants should be used is favor of hardcoded strings", "description": "the following classes should use constants defined in JavaCode rather thanhardcoded stringsStubUtilityCodeFormatterUtilCompilationUnitEditorJavaCodeScannerJavaCompiletionProcessor"}

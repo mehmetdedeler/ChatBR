@@ -1,0 +1,1 @@
+{"id": "116564", "title": "Bug 116564 - The title of hyperlink builder should be 'Hyperlink Options', now it changes with settings.", "description": "", "OB": "", "EB": "The title of hyperlink builder should be 'Hyperlink Options', but it changes with settings.", "SR": "To reproduce: 1. Click on 'OK', then reopen hyperlink builder."}

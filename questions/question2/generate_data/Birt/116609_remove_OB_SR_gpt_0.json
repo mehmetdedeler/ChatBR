@@ -1,0 +1,8 @@
+{
+  "id": "116609",
+  "title": "Bug 116609 [Regression] Color orange doesn't work.",
+  "description": "Bug 116609 [Regression] Color orange doesn't work.",
+  "OB": "The color orange is not displayed correctly in the application.",
+  "EB": "Preview. Expected result: The orange color should be displayed correctly.",
+  "SR": "Steps to reproduce: \n1. Open the application. \n2. Navigate to the color selection menu. \n3. Choose the 'Orange' color option."
+}

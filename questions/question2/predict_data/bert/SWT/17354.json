@@ -1,0 +1,1 @@
+{"id": "17354", "title": "Bug 17354Double clicking expands and collapses item", "description": " F1Suse 8.0, KDE 3.0, GTK 2 load JUnit double click on package junit.frameworkobserve: the package gets expanded and collapses again.On other platforms this expands the node.", "OB": " Bug 17354Double clicking expands and collapses item", "EB": "", "SR": ""}

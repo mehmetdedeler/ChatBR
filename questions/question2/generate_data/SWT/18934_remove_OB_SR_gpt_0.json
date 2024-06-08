@@ -1,0 +1,8 @@
+{
+  "id": "18934",
+  "title": "Bug 18934: Scrollbars Should Be Disabled in ImageAnalyzer Example",
+  "description": "The bug report is regarding scrollbars in the ImageAnalyzer example.",
+  "OB": "The observed behavior is that the scrollbars in the ImageAnalyzer example are enabled but do not serve any functional purpose.",
+  "EB": "The expected behavior is that the scrollbars should either be disabled or, if enabled, they should serve a functional purpose when viewing images. The current state of enabled but ineffective scrollbars can be confusing for users and should be addressed.",
+  "SR": "A clear set of steps to reproduce the issue is not provided in the report. However, to reproduce the problem, one can follow these steps:\n1. Open the ImageAnalyzer example.\n2. Observe that the scrollbars are enabled, but they don't have any effect on the displayed images."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "28745", "title": "Bug 28745Esc does not cancel tracker", "description": "20021218on gtk, pressing Esc does not seem to cancel drag and dropit does on windows"}

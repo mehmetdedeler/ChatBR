@@ -1,0 +1,8 @@
+{
+  "id": "12428",
+  "title": "Bug 12428: Misleading Messages in Pull Up Refactoring",
+  "description": "The Pull Up refactoring displays misleading messages that need correction.",
+  "OB": "The observed behavior in the Pull Up refactoring includes:\n- Misleading messages displayed during the refactoring process.",
+  "EB": "The expected behavior is to have clear and accurate messages during the Pull Up refactoring.",
+  "SR": "To reproduce the issue:\n1. Run the 'Pull Up' refactoring on 'TestCase.setUp' (this copies the method to 'Assert').\n2. Go to the second page of the refactoring wizard."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "16828", "title": "Bug 16828CTabFolder flashing tooltip", "description": "Windows 2000F1Place cursor at very bottom edge of CTabFolder tabs.Tooltip appears but thenmouse enters the tooltip which means it leaves the CTabFolder and the tooltipcloses.Repeats until you move the mouse up.Note this can also be a problemif tabs are on bottom of folder."}

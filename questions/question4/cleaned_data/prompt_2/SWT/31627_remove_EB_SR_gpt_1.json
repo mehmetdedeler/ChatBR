@@ -1,0 +1,8 @@
+{
+  "id": "31627",
+  "title": "Bug 31627: Core dump occurs when changing perspective after adding a DBCS project to the workspace",
+  "description": "Language: Japanese\nBuild driver: eclipseSDKI20030211linuxgtk\nOS: RedHat8 (Japanese: locale jaJP.eucJP), gtk 2.2\nJDK Ver.: IBM JDK1.3.1 + SR3\nSummary: Changing perspective leads to a core dump after adding a DBCS project to the workspace.\n\nDescription:\nSteps to recreate problem:",
+  "OB": "After adding a DBCS project to the workspace, attempting to change the perspective results in a core dump.",
+  "EB": "Changing perspectives should not lead to a core dump after adding a DBCS project to the workspace.",
+  "SR": "1. Open Eclipse with the mentioned configurations.\n2. Add a DBCS project to the workspace.\n3. Attempt to change the perspective within Eclipse.\n4. Observe the core dump occurring."
+}

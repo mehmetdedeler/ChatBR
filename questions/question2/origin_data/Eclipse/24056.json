@@ -1,0 +1,1 @@
+{"bug_id": "24056", "title": "Bug 24056[Preferences] File association preferences are not exported", "description": "The preferences for associating files (and file types) with editors are notexported correctly and thus cannot be imported. These preferences should beexported/imported like other preferences."}

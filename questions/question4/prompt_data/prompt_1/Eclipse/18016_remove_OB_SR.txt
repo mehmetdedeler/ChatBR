@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '18016', 'title': 'Bug 18016most menu actions should be disabled for cus from repo', 'description': 'Bug 18016most menu actions should be disabled for cus from repo )but the rest is meaningless and they should be removed.3. ', 'OB': '', 'EB': "also 'convert line delimiters' should be disabled4. ", 'SR': ''}
+</BUG REPORT>

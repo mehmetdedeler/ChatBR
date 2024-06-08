@@ -1,0 +1,8 @@
+{
+  "id": "2120",
+  "title": "MRU File List Not Persisted Between Sessions",
+  "description": "The Most Recently Used (MRU) file list is not being persisted between sessions.",
+  "OB": "Upon opening the software, I observed that files are listed in the File menu MRU list. However, when I closed the software and reopened it, the previously opened files did not appear in the MRU list. These files should be retained and displayed in the MRU list between sessions.",
+  "EB": "I expect that when I open files using the software, they should be listed in the MRU list in the File menu. Furthermore, even after closing the software and restarting it, the previously opened files should still be present in the MRU list.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Start the software.\n2. Open 2 or 3 files.\n3. Close the software.\n4. Restart the software. The MRU list in the File menu should still display the files you previously opened."
+}

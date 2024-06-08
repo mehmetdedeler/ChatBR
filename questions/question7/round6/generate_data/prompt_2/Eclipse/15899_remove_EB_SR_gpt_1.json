@@ -1,0 +1,8 @@
+{
+  "id": "15899",
+  "title": "Bug 15899: 'Close All Saved' does not work consistently",
+  "description": "The 'Close All Saved' feature is not functioning reliably in build 20020508 with the latest UI code.",
+  "OB": "When using build 20020508 with the latest UI code, attempting to close all saved files by selecting 'Close All Saved' from the file menu does not produce any observable effect.",
+  "EB": "Upon selecting 'Close All Saved' from the file menu, the expected behavior is that all saved files should be closed successfully.",
+  "SR": "1. Open the application using build 20020508 with the latest UI code.\n2. Create a new file, for example, f1.txt.\n3. Open multiple editors.\n4. Save changes in some editors.\n5. Select 'Close All Saved' from the file menu.\n6. Observe that, in some cases, nothing happens, indicating the bug in the 'Close All Saved' functionality."
+}

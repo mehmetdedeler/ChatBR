@@ -1,0 +1,8 @@
+{
+  "id": "114470",
+  "title": "Bug 114470[Smoke] Error message occurs when using new Date('3/2/2005') in table filter",
+  "description": "An error message is displayed when attempting to use 'new Date('3/2/2005')' as a value in a table filter.",
+  "OB": "When attempting to use 'new Date('3/2/2005')' as a filter value, an error message is displayed.",
+  "EB": "The expected behavior is that using 'new Date('3/2/2005')' in a table filter should not result in an error message, and the filter should be applied as intended.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create a new data source and a dataset containing a datetime column.\n2. Insert a table into the application.\n3. Create a filter based on the datetime column.\n4. In the filter value, input 'new Date('3/2/2005')' as an example."
+}

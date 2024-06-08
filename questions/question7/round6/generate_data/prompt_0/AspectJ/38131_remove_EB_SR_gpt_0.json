@@ -1,0 +1,8 @@
+{
+  "id": "38131",
+  "title": "Bug 38131ajc needs -d . option while correctly compiling classes from subpackage",
+  "description": "Bug 38131ajc needs -d . I am using 1.1rc1. This is a regression since rc1 and a deviation from javac. I am guessing this may have to do something with a change in the underlying Eclipse compiler. Create a class in a subpackage such as:\n\npackage subpackage;\n\npublic class Test {\n  public static void main(String[] args) {\n    System.out.println(\"Hello\");\n  }\n}\n\nThen compile using the following command: ajc subpackage\\Test.java\n\nYou will see a directory \"subpackage\" created under the existing \"subpackage\" directory. subpackage\\Test.java or javac subpackage\\Test.java. No big deal, really.",
+  "OB": "The test.class is then put in subpackage\\subpackage directory. This means running java command results in Exception in thread \"main\" java.lang.NoClassDefFoundError: subpackage/Test. Running either of the following command fixes the problem: ajc -d .",
+  "EB": "The expected behavior is that when compiling with ajc, the test.class should be placed in the subpackage directory, and running the java command should not result in any errors. This can be achieved by using the ajc -d option.",
+  "SR": "To reproduce the issue:\n1. Create a class in a subpackage as described in the bug report.\n2. Compile the class using the command 'ajc subpackage\\Test.java'.\n3. Observe the creation of the 'subpackage' directory and the placement of test.class in subpackage\\subpackage.\n4. Attempt to run the compiled class using the java command, resulting in the mentioned Exception.\n5. Fix the issue by compiling with the command 'ajc -d .'."
+}

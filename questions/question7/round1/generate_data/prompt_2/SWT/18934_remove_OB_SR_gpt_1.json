@@ -1,0 +1,1 @@
+{"id": "18934", "title": "Scrollbars should be disabled in ImageAnalyzer example", "description": "", "OB": "When opening the ImageAnalyzer example, scrollbars are enabled.", "EB": "The scrollbars should be disabled in the ImageAnalyzer example.", "SR": "1. Open the ImageAnalyzer example.\n2. Look for the presence of scrollbars."}

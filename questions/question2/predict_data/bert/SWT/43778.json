@@ -1,0 +1,1 @@
+{"id": "43778", "title": "Bug 43778Browser  mozilla GTK into Motif appears in top level window", "description": "", "OB": " Bug 43778Browsermozilla GTK into Motif appears in top level window", "EB": " instead of being embedded into parent shell", "SR": ""}

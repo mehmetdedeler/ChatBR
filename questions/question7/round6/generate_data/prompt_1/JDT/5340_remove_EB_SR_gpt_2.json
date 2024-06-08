@@ -1,0 +1,8 @@
+{
+  "id": "5340",
+  "title": "Bug 5340 - Cancelling 'add exception' breakpoint has no effect",
+  "description": "When attempting to add an exception breakpoint, the progress dialog closes immediately. Additionally, the exception list comes up, ignoring the cancellation request. The expected behavior is for the system to either honor the cancellation request or disable the cancel button when calling ProgressMonitorDialog.run, passing false for the cancelable parameter.",
+  "OB": "The progress dialog closes immediately upon attempting to add an exception breakpoint. Subsequently, the exception list appears, disregarding the cancellation request. The desired behavior is either to respect the cancellation request or disable the cancel button during the ProgressMonitorDialog.run operation by passing false for the cancelable parameter.",
+  "EB": "The progress dialog should remain open until the user's intention to add an exception breakpoint is confirmed or canceled. If canceled, the system should gracefully handle the cancellation request, ensuring that the exception list does not appear. Additionally, when calling ProgressMonitorDialog.run, the cancel button should be disabled by passing false for the cancelable parameter.",
+  "SR": "Modify the code related to adding exception breakpoints to address the premature closing of the progress dialog and the disregard for cancellation requests. Update the ProgressMonitorDialog.run method to correctly handle the cancelable parameter, ensuring that it reflects the user's intention to proceed or cancel the operation."
+}

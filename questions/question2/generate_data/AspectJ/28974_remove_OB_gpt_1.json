@@ -1,0 +1,8 @@
+{
+  "id": "28974",
+  "title": "Compiler error when introducing a 'final' field",
+  "description": "When introducing a 'final' field, a compiler error occurs with no source information available.",
+  "OB": "The aspect below fails to compile with 1.1b2, producing the compilation error: $ ajc com/ibm/amc/.java com/ibm/amc/ejb/.java d:/eclipse/runtime/workspace/ajsamples/Mock EJBs/com/ibm/amc/DemoBeanEJB.java:1: Cannot assign a value to the final field com.ibm.amc.DemoBean.ajc$interField$comibmamc$verbose!!",
+  "EB": "To enable and disable the creation of type comments, go to Window > Preferences > Java > Code Generation.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the 'DemoBeanEJB.java' file located at 'd:/eclipse/runtime/workspace/ajsamples/Mock EJBs/com/ibm/amc/'.\n2. Introduce a 'final' field in the 'DemoBeanEJB' aspect.\n3. Attempt to compile the code using version 1.1b2 of the AspectJ Compiler (ajc).\n4. Observe the compiler error mentioned in the observed behavior."
+}

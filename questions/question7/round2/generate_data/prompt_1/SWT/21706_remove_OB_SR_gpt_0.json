@@ -1,0 +1,1 @@
+{"id": "21706", "title": "Bug 21706BidiUtil in win32 has Class.forName() usage", "description": "Bug 21706BidiUtil in win32 has Class.forName() usage", "OB": "The observed behavior is not mentioned in the bug report.", "EB": "The expected behavior is not mentioned in the bug report.", "SR": "The steps to reproduce the bug are not mentioned in the bug report."}

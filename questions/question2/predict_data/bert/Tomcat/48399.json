@@ -1,0 +1,1 @@
+{"id": "48399", "title": "Bug 48399Lock fields should be final", "description": " Created attachment 24715 [details]Patch lock field that should be finalA field that is used as a lock should be final.org.apache.catalina.ha.session.DeltaSession.diffLockis protected and mutable.", "OB": "", "EB": " Bug 48399Lock fields should be final", "SR": ""}

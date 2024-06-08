@@ -1,0 +1,8 @@
+{
+  "id": "14113",
+  "title": "Listen to FSOURCEATTACHED and FSOURCEDETACHED Java Deltas",
+  "description": "Bug 14113: Should listen to FSOURCEATTACHED and FSOURCEDETACHED Java deltas",
+  "OB": "Currently, when one changes the attached source of a JAR, a FREMOVEDFROMCLASSPATH Java delta is fired. This behavior is incorrect. As a result, the UI responds by closing the class file editors opened for this JAR. This is expected for a FREMOVEDFROMCLASSPATH Java delta. However, when I attempted to modify the delta to be an (FSOURCEDETACHED | FSOURCEATTACHED) delta, the UI did not react as expected.",
+  "EB": "In this case, I expect the system to refresh the class file editor to display the new source. To address this issue, I plan to fire a delta of (FREMOVEDFROMCLASSPATH | FSOURCEDETACHED | FSOURCEATTACHED) and remove the FREMOVEDFROMCLASSPATH delta once this bug is resolved.",
+  "SR": "To reproduce the issue:\n1. Open a class file editor for a JAR with attached source.\n2. Change the attached source of the JAR.\n3. Observe that a FREMOVEDFROMCLASSPATH Java delta is fired and the class file editor is closed. This behavior is incorrect and needs to be fixed as described in the expected behavior."
+}

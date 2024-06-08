@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Bug 4971: Strange 'copy package'",
+  "description": "Bug 4971: Encountering an issue with 'copy package' in org.eclipse.jdt.internal.ui in jdt.ui. Steps to reproduce: 1. Select xxx as destination. 2. [Additional steps if any]",
+  "OB": "Upon completion, the destination directory 'xx' contains a package named 'ui'.",
+  "EB": "The expected behavior is that the destination directory 'xx' should contain the package 'org.eclipse.jdt.internal.ui' instead of 'ui'.",
+  "SR": "Ensure that the 'copy package' functionality correctly copies packages and maintains the correct package hierarchy under the destination directory. Validate that the destination directory for the selected package is 'org.eclipse.jdt.internal.ui' as intended."
+}

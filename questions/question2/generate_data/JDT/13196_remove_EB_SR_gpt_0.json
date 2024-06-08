@@ -1,0 +1,8 @@
+{
+  "id": "13196",
+  "title": "Inconsistent Behavior when Manipulating Source in Browsing Perspective",
+  "description": "Users have reported an inconsistency in the behavior when manipulating source in the type hierarchy and the method list of the browser perspective.",
+  "OB": "When performing the following actions from the user's perspective:\n1. Open Java Browsing Perspective.\n2. Select a type.\n3. Select a method in the method list view.\n4. Delete the method using the context menu in the method list view.\n   - The editor becomes dirty as expected.\n5. Select another type.\n6. Open the type hierarchy on this type and dock the hierarchy view.\n7. Select a method in the method list view.\n8. Select the same method in the hierarchy view.\n9. Delete the method using the context menu in the hierarchy view.\n   - The method is deleted on the file system.\n   - The type list view, method list view, and editor are all cleared.\n\nNote: This issue is not observed when the editor is already in a dirty state.",
+  "EB": "The expected behavior is that, regardless of the editor's state, users should experience consistent results when manipulating source in the type hierarchy and the method list of the browser perspective.",
+  "SR": ""
+}

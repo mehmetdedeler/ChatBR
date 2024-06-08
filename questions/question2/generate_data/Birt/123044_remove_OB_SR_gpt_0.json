@@ -1,0 +1,8 @@
+{
+  "id": "123044",
+  "title": "Bug 123044 - Preview attached file in PDF and the page break in the first item didn't happen.",
+  "description": "Description: When previewing an attached file in PDF, the page break in the first item didn't occur.",
+  "OB": "When previewing the attached file in PDF, the first page is not blank as expected. The first item is configured with 'pagebreakbefore' set to 'always', but the page break doesn't happen.",
+  "EB": "Preview in PDF. Expected result: The first page should be blank because the first item is configured with 'pagebreakbefore' set to 'always'. Actual result: The page break before action didn't happen.",
+  "SR": "Steps to reproduce: 1. Attach a file. 2. Open the file for preview in PDF format. 3. Observe the first page to check if it's blank and if the 'pagebreakbefore' setting is applied."
+}

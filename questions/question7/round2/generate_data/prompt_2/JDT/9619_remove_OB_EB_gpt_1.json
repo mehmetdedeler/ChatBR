@@ -1,0 +1,1 @@
+{"id": "9619", "title": "Bug 9619 - Move static member: Dialog details", "description": "Bug 9619 - Move static member: Dialog details 20020212a.\nMnemonics.\nNo validation on the type field. Type existence is not too expensive (done in the type wizard for superclass), so it could be implemented.\nAt least isValidTypeName.\nLabel could say 'Select destination type:'."}

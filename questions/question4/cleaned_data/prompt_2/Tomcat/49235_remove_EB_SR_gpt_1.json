@@ -1,0 +1,8 @@
+{
+  "id": "49235",
+  "title": "Bug 49235: Unexpected Output from ServletContainerInitializer onStartup()",
+  "description": "When invoking ServletContainerInitializer onStartup(Set<Class<? extends ServletContextListener>> classSet) method, the output is \"MySomeClass\", contrary to the expected output. This behavior is not in line with the Servlet 3.0 spec. Notably, the code functions correctly on Glassfish 3.0.",
+  "OB": "The output received is \"MySomeClass\", while the expected output should be different.",
+  "EB": "The expected output should match the anticipated result based on the Servlet 3.0 specification. This output discrepancy is not in line with the expected behavior.",
+  "SR": "1. Prepare a test environment similar to the one used in Glassfish 3.0.\n2. Invoke the ServletContainerInitializer onStartup() method with the appropriate parameters.\n3. Observe and compare the output received with the expected output based on the Servlet 3.0 specification."
+}

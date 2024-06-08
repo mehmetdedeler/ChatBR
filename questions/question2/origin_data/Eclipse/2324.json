@@ -1,0 +1,1 @@
+{"bug_id": "2324", "title": "Bug 2324[UI] Error in DialogPageContextComputer comment (1GER27D)", "description": "From GregDialogPageContextComputer For determining the help context for controls in a wizard page.Comment implies wizard pages. Isn't it also used for dialogs?NOTES:RG (6/3/01 10:52:42 AM)Should be For determining the help context for controls in a dialog page."}

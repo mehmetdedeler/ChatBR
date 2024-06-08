@@ -1,0 +1,8 @@
+{
+  "id": "2120",
+  "title": "Bug 2120MRU File List is not persisted between sessions (1GE71Z0)",
+  "description": "The Most Recently Used (MRU) File List is not being persisted between sessions as expected.",
+  "OB": "1. Start the workbench.\n2. Open 2 or 3 files.\n3. Shutdown the workbench.",
+  "EB": "1. Restart the workbench.",
+  "SR": "The MRU File List should persist between sessions. After restarting the workbench, the previously opened files should be listed in the MRU list as part of the expected behavior."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "8142",
+  "title": "Bug 8142 - No scoped type hierarchy on binary projects",
+  "description": "Bug 8142 - No scoped type hierarchy on binary projects. The description is unclear about the problem.",
+  "OB": "When attempting to access the scoped type hierarchy for 'org.apache.ant', an error message is displayed: 'No declaration of selected members in the chosen hierarchy of 'org.apache.ant'.' It is unclear what this message signifies.",
+  "EB": "When accessing the scoped type hierarchy for 'org.apache.ant' in binary projects, the expected behavior would be to display the class hierarchies of the internal jars. Additionally, clarity is needed on the meaning of the error message.",
+  "SR": "1. Open a binary project containing 'org.apache.ant'.\n2. Attempt to access the scoped type hierarchy for 'org.apache.ant'.\n3. Observe the error message stating 'No declaration of selected members in the chosen hierarchy of 'org.apache.ant'.'\n4. Note the absence of class hierarchies for the internal jars.\n5. Clarify the interpretation of the error message for better understanding."
+}

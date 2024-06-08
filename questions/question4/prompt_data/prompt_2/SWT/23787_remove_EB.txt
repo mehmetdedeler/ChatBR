@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '23787', 'title': 'Bug 23787[Properties dialog] Project Properties  Info page should not use text fields', 'description': 'Bug 23787[Properties dialog] Project PropertiesInfo page should not use text fields Integration build 09/17.Looks bad on all motif platforms. ', 'OB': 'this looks fine on windows, but on motif these text fields all get automaticborders, which identify them as user input targets.Additionally, onSolaris/AIX/HPUX these fields have different coloured backgrounds which makethem stand out much worse ', 'EB': '', 'SR': 'select a Project, rightclickProperties on the subsequent Info page the readonly fields (the values for Path, Type,etc.) '}
+</BUG REPORT>

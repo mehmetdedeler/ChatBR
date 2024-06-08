@@ -1,0 +1,1 @@
+{"bug_id": "22060", "title": "Bug 22060StyledText  bidi  ArrayIndexOutOfBoundsException", "description": "build 20020730Not sure how to reproduce and when that happened. Attaching log."}

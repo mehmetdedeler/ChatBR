@@ -1,0 +1,1 @@
+{"id": "18705", "title": "Too much flashing in Control Example", "description": "When using the Control Example, there is excessive flashing occurring. It is unclear why this is happening.", "OB": "", "EB": "The flashing should be limited to only the bottom edge of the outermost frames that need to be repainted.", "SR": ""}

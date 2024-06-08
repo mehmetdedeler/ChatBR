@@ -1,0 +1,8 @@
+{
+  "id": "121170",
+  "title": "Bug 121170: get column label from metadata object should return recognizable strings",
+  "description": "The current behavior of the get column label from the metadata object is not aligning with user expectations.",
+  "OB": "When using getcolumnlabel before data extraction, it does not return user-recognizable strings. Instead, it provides some internal representation that is not suitable for displaying to end users.",
+  "EB": "Expect that the getcolumnlabel function, when called before extraction, should return the same labels as after extraction. This is crucial as these labels are meant for user display, and consistency is necessary for a better user experience.",
+  "SR": "To reproduce the issue:\n1. Call getcolumnlabel on the metadata object before data extraction.\n2. Observe that the returned labels are not in a user-friendly format.\n3. Compare these labels with the ones obtained after the data extraction to highlight the inconsistency."
+}

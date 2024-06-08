@@ -1,0 +1,1 @@
+{"id": "15727", "title": "Bug 15727There are 2 WizardNewProjectCreationPages", "description": "Bug 15727There are 2 WizardNewProjectCreationPages We have a class called WizardNewProjectCreationPage in bothorg.eclipse.ui.dialogs and org.eclipse.ui.internal.dialogs. ", "OB": "", "EB": "The internal oneshould be removed and replaced with the main one. ", "SR": ""}

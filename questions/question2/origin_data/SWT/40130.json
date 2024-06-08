@@ -1,0 +1,1 @@
+{"bug_id": "40130", "title": "Bug 40130StyledText  add accessibility support to StyledText", "description": "build 20030611Opening bug to track changes Grant submitted for making StyledText accessible(adding AccessibleControlListener)."}

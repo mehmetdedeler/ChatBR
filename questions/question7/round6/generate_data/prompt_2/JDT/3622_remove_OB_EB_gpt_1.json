@@ -1,0 +1,8 @@
+{
+  "id": "3622",
+  "title": "Bug 3622: New Package Wizard has confusing message (1GD0L9O)",
+  "description": "When using the New Package Wizard, the message displayed is confusing. This bug report aims to clarify the observed behavior, expected behavior, and steps to reproduce the issue.",
+  "OB": "Upon initiating the New Package Wizard, the message displayed is unclear and may lead to user confusion. It does not provide sufficient guidance on the actions required.",
+  "EB": "The New Package Wizard should present a clear and concise message that guides users through the process of creating a new package, ensuring that they understand the steps involved and the information required.",
+  "SR": "1. Open the IDE and create a new Java Project.\n2. Select the newly created project.\n3. Navigate to the 'File' menu and choose 'New' -> 'Package'.\n4. Observe the message displayed during the package creation process and note any ambiguities or lack of clarity."
+}

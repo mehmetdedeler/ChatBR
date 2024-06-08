@@ -1,0 +1,8 @@
+{
+  "id": "42225",
+  "title": "Can't assign command to Ctrl+Backspace",
+  "description": "Unable to assign a command to Ctrl+Backspace key combination.",
+  "OB": "The Ctrl+Backspace key combination does not perform any assigned command or action.",
+  "EB": "I expect that I should be able to assign a command or action to Ctrl+Backspace, and when I press it, the assigned action should be executed. By default, Ctrl+Backspace should delete the previous word.",
+  "SR": "Steps to reproduce:\n1. Open the software's keybindings or shortcuts settings.\n2. Attempt to assign a specific command to Ctrl+Backspace.\n3. Save the changes.\n4. Press Ctrl+Backspace and observe that the assigned command does not execute, or it simply deletes the previous word if not assigned."
+}

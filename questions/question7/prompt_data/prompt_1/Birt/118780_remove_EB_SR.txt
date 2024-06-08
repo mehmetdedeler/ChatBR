@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '118780', 'title': 'Bug 118780Set alias for columns in data set but in expression builder still shows the old columns name when select the dataset.', 'description': '', 'OB': 'Bug 118780Set alias for columns in data set but in expression builder still shows the old columns name when select the dataset. ', 'EB': '', 'SR': ''}
+</BUG REPORT>

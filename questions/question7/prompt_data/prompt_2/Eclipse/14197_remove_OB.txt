@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '14197', 'title': 'Bug 14197Removing a working set immediatly makes changes', 'description': 'Bug 14197Removing a working set immediatly makes changes ', 'OB': '', 'EB': 'At the moment of delete, the package view in the background refilters.In my opinion refiltering should only happen when closing the working setselection dialog, not while manipulating. I also think that pressing cancelshould cancel all changes I did to woking sets ( cancel the remove) ', 'SR': '200204181. create a working set with one project and select it package view is filtered2. Open the working set dialog again, create a second working set, delete thefirst. '}
+</BUG REPORT>

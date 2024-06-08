@@ -1,0 +1,1 @@
+{"bug_id": "27159", "title": "Bug 27159[Import/Export] Export to Zip file \"Overwrite existing\" does nothing", "description": "The setting for overwriting existing file without a warning is kinf ofpointless as it only asks if you want to overwrite the main zip file.It should eithera) Act like the File exportb) Be removed."}

@@ -1,0 +1,8 @@
+{
+  "id": "49299",
+  "title": "Bug 49299 - Inconsistent Cookie Name in Servlet 3.0 URL Rewriting",
+  "description": "This bug report addresses an inconsistency related to custom cookie names and URL rewriting as specified in Servlet 3.0 Chapter 7.1.1.",
+  "OB": "The observed behavior is that, according to Chapter 7.1.1 of the servlet30finalspec.pdf, when a web application configures a custom name for its session tracking cookies, the same custom name should be used as the name of the URI parameter if the session ID is encoded in the URL. However, the actual result is that the page sends a cookie with a default name 'jsessionid' rather than the custom name 'MYSESSIONCOOKIE' as expected.",
+  "EB": "The expected behavior should be that the custom cookie name 'MYSESSIONCOOKIE' is used in URL rewriting, in accordance with the Servlet 3.0 specification.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Deploy the provided 'cookiename.war' file.\n2. Access 'http://localhost:8080/cookiename/'.\n3. Observe the behavior where 'jsessionid' is used instead of the expected 'MYSESSIONCOOKIE' in URL rewriting."
+}

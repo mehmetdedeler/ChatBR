@@ -1,0 +1,8 @@
+{
+  "id": "6304",
+  "title": "Bug 6304: Unable to synchronize a .java file and another resource",
+  "description": "When attempting to synchronize a .java file with another resource, such as a .properties file, in the package viewer, an issue arises.",
+  "OB": "When selecting a .java file and another resource, synchronization fails to work as expected. The files do not synchronize, and there is no indication of any error or activity.",
+  "EB": "Upon selecting a .java file and another resource, the synchronization process should successfully update both files, ensuring that changes in one file reflect accurately in the other.",
+  "SR": "Steps to Reproduce:\n1. Open the package viewer.\n2. Select a .java file and another resource (e.g., a .properties file).\n3. Attempt to synchronize the selected files.\n4. Observe the lack of synchronization and any error messages."
+}

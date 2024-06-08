@@ -1,0 +1,8 @@
+{
+  "id": "134488",
+  "title": "Bug 134488: Setting a page break for a table inside a list group header causes a data display error",
+  "description": "When attempting to set a page break for a table within a list group header, an issue occurs that affects the data display.",
+  "OB": "When a page break is configured for a table inside a list group header, the data display becomes corrupted or incorrect.",
+  "EB": "I expect that setting a page break for a table within a list group header should not cause any issues with the data display. The data should be properly formatted and displayed as intended.",
+  "SR": "To reproduce the issue:\n1. Open the application and navigate to a page with a list group header containing a table.\n2. Configure a page break for the table inside the list group header.\n3. Observe the data display and note any errors or corruption."
+}

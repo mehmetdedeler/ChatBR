@@ -1,0 +1,1 @@
+{"id": "10144", "title": "Bug 10144org.eclipse.ui.views.internal.framelist. should become API", "description": "Bug 10144org.eclipse.ui.views.internal.framelist. ", "OB": "", "EB": "should become API The framelist classes are internal but are used by external clients andtherefore they should be promoted to API. ", "SR": ""}

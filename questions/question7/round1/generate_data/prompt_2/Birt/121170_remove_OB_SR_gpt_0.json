@@ -1,0 +1,1 @@
+{"id": "121170", "title": "Bug 121170 - get column label from meta data object should return user recognizable strings", "description": "", "OB": "", "EB": "When using the getcolumnlabel method before and after data extraction, it should return the same user recognizable labels.", "SR": ""}

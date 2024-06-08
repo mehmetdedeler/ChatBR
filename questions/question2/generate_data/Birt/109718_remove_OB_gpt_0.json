@@ -1,0 +1,8 @@
+{
+  "id": "109718",
+  "title": "Bug 109718 - Tips Show Large Content in One Line",
+  "description": "When adding large content to a text item in the layout and hovering the mouse over it, the tips are displayed as a single line. This behavior is unexpected and does not provide a clear user experience.",
+  "OB": "When inserting a text in the layout and placing the mouse cursor over it, the tips are displayed as a single line, making it difficult to read and understand the content.",
+  "EB": "The expected behavior is that when hovering over a text item with large content, the tips should be displayed in a format that allows users to easily read and understand the content. The tips should wrap the text appropriately to ensure readability.",
+  "SR": "Steps to reproduce:\n1. Insert a text item into the layout.\n2. Input the following text into the text item:\n\n'Contents1. MINOR ENHANCEMENTS 32.1 PROVIDE PROPERTY GROUP INFORMATION ON ELEMENT DEFN CLASS 32.2 COMPLETE THE TODO TASKS 32.3 REVIEW RESULT 32.4 MESSAGE FILE ENHANCEMENT 4 CURRENTLY WE STORE THE ERROR MESSAGE FOR EXCEPTIONS IN THE MESSAGE.PROPERTY FILE. NEW FEATURES 53.1 RHINO EXPRESSION PARSER 53.2 STRUCTURE TYPE SUPPORT 63.3 NEW SYSTEM 64. QA TEST SUPPORTING 7'\n3. Hover the mouse cursor over the text item and observe the tips display."
+}

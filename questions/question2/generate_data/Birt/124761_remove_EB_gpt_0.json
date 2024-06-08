@@ -1,0 +1,8 @@
+{
+  "id": "124761",
+  "title": "Data not Extracted with Two Filters",
+  "description": "When adding two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10', the data is not being extracted correctly.",
+  "OB": "When adding two filters, one is 'State is equal to CA' and the other is 'EmployeeId is Top 10', the data is not being extracted.",
+  "EB": "The expected behavior is that the intersection set of the data 'State is equal to CA' and the data 'EmployeeId is Top 10' should be displayed.",
+  "SR": "Steps to reproduce:\n1. Import the attached report.\n2. Preview the report."
+}

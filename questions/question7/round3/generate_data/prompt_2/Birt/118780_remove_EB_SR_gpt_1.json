@@ -1,0 +1,1 @@
+{"id": "118780", "title": "Bug 118780 - Old column names displayed in expression builder when selecting dataset with aliases", "description": "", "OB": "When setting aliases for columns in a dataset, the expression builder still displays the original column names when selecting the dataset.", "EB": "", "SR": ""}

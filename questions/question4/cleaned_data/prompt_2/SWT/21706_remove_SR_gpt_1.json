@@ -1,0 +1,8 @@
+{
+  "id": "21706",
+  "title": "Bug 21706: Resolve NoClassDefFoundError in BidiUtil on CLDC version of SWT",
+  "description": "The current issue in BidiUtil on win32 involves the usage of Class.forName(), leading to a NoClassDefFoundError in the CLDC version of SWT.",
+  "OB": "When attempting to utilize the BidiUtil in the CLDC version of SWT, a NoClassDefFoundError occurs due to the usage of Class.forName(\"org.eclipse.swt.internal.BidiUtil\"). This issue arises as the method is not defined in the CLDC class libraries.",
+  "EB": "To address this issue, adding a private constructor in BidiUtil is suggested. As there are no non-static methods in this class, making the constructor private prevents unnecessary instantiation of the class, without adding any extra size.",
+  "SR": "Steps to resolve:\n1. Modify BidiUtil by adding a private constructor.\n2. Verify the absence of non-static methods, ensuring the constructor remains private without adding additional size to the class."
+}

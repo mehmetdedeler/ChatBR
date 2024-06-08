@@ -1,0 +1,1 @@
+{"id": "123036", "title": "Bug 123036 Data in a report is doubly stored", "description": "", "OB": "Currently, the data in the report is being stored twice.", "EB": "", "SR": "To reproduce the issue, follow these steps: 1. Generate a report. 2. Check the content stream and DtE records to verify if the data is being stored twice."}

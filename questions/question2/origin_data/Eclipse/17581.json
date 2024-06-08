@@ -1,0 +1,1 @@
+{"bug_id": "17581", "title": "Bug 17581CompletionProposalPopup should null its instance vars on hide()", "description": "F1CompletionProposalPopup intances are not removed righth away when you dimissthe popup,so they should clean the memory more agressively when hide() is calledfFilteredProposals is especially painful"}

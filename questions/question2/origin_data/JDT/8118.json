@@ -1,0 +1,1 @@
+{"bug_id": "8118", "title": "Bug 8118Extract Local Variable: Cant extract my expression", "description": "1. junit.swing.AboutDialog:select 'GridBagConstraints.CENTER' try to extract it as local variable.  can't, refactoring claims that this is not an expression."}

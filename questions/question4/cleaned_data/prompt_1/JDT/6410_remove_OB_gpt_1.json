@@ -1,0 +1,8 @@
+{
+  "id": "6410",
+  "title": "Bug 6410 - File Unchanged but Dirtied by Code Assist",
+  "description": "When using code assist, the file is dirtied even when no suggestions are provided.",
+  "OB": "Upon invoking code assist without any suggestions, the file is marked as dirty.",
+  "EB": "If code assist has nothing to suggest, it should not mark the file as dirty.",
+  "SR": "1. Open a Java file. Place the cursor inside the leftmost parenthesis of a method call. For example, consider \"I\" to be the cursor below: Object o = anotherObject.method(I); Press Ctrl+Space."
+}

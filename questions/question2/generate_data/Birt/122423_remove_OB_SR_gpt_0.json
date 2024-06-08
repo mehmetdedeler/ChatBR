@@ -1,0 +1,8 @@
+{
+  "id": "122423",
+  "title": "Bug 122423 - Support page range in RenderTask",
+  "description": "Bug 122423 - Support page range in RenderTask. If a page range is provided, the code should parse it and output the specified pages one after another with a page splitter. If an invalid page number is set, it should be logged, and an error message should be returned. If neither a page range nor a page number is set, the default behavior should be to render all pages, rather than giving an error message.",
+  "OB": "The current code does not support page ranges in RenderTask. It doesn't check if there is a range set and doesn't handle invalid page numbers. Instead, it currently results in an error message.",
+  "EB": "The code should check if there is a page range set. If an invalid page number is provided, it should be logged, and an error message should be returned. If neither a page range nor a page number is set, the default behavior should be to render all pages, without showing an error message.",
+  "SR": "To reproduce this bug: \n1. Set up a RenderTask. \n2. Provide a page range as input. \n3. Execute the RenderTask. \n4. Observe the current behavior where it doesn't handle the page range and generates an error message. \n5. Expected behavior should be that it processes the provided page range and renders the specified pages."
+}

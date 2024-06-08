@@ -1,0 +1,8 @@
+{
+  "id": "16822",
+  "title": "Bug 16822 - Search results not being removed when cu is moved",
+  "description": "Build 200205211.",
+  "OB": "Search results persist on the screen even after moving cu (current user).",
+  "EB": "Search results should be removed from the display when cu is moved.",
+  "SR": "1. Log in to the system.\n2. Perform a search for any item.\n3. Move the cu to a different location.\n4. Observe that the search results are still visible on the screen."
+}

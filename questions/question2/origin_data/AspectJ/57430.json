@@ -1,0 +1,1 @@
+{"bug_id": "57430", "title": "Bug 57430exception printing", "description": "Exceptions thrown from the compiler used to be printed once, with the submitbugheader.Now they are printed twice, without and with the header.True of CVSversion."}

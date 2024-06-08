@@ -1,0 +1,1 @@
+{"id": "17667", "title": "Bug 17667Code assist close", "description": "Bug 17667Code assist close ", "OB": "", "EB": "", "SR": "F1 create classpublic class A {public static void main(String[] arguments) {da}} open code assist after da press tobserve: code assist closes although there are a lot of Data classes "}

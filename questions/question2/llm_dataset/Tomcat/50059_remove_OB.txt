@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '50059', 'title': 'Bug 50059Resources are not served from /WEBINF/lib/{.jar}/METAINF/resources if metadatacomplete="true" is set in web.xml', 'description': ' Bug 50059Resources are not served from /WEBINF/lib/{.jar}/METAINF/resources if metadatacomplete="true" is set in web.xml Make a Servlet 3.0 webapp (lets name it foo) with metadatacomplete="true" attribute set on the webapp element in the /WEBIBNF/web.xml.2.', 'OB': '', 'EB': ' The jar should be placed in /WEBINF/lib (lets name it bar.jar).3.', 'SR': ' To reproduce:1. Make a jar holding a single /METAINF/resources/index.html file. Start the web app in Tomcat 7.0.2 and in browser go to http://localhost:8080/foo/index.html.Expected result: 200 response and index.html served.Actual result: 404If you modify the web.xml to metadatacomplete="false" and restart the app now /foo/index.html will respond as expected.I tried the same webapp with Glassfish v3.0.1 and it works as expected regardless what I set in metadatacomplete attribute.I made a quick look in the servlet 3.0 spec and as far as I can see metadatacomplete only regulates annotation and web fragment processing.'}
+</BUG REPORT>

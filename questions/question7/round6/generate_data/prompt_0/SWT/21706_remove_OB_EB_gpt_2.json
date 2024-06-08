@@ -1,0 +1,8 @@
+{
+  "id": "21706",
+  "title": "Bug 21706 - BidiUtil in win32 has Class.forName() usage",
+  "description": "Bug 21706 - BidiUtil in win32 has Class.forName() usage",
+  "OB": "The issue is that there is a line in org.eclipse.swt.internal.BidiUtil that uses Class.forName() to create a Callback object. This is causing a NoClassDefFoundError in the CLDC version of SWT.",
+  "EB": "BidiUtil in win32 should not use Class.forName() for its functionality.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Examine the code in the win32 version of BidiUtil.\n2. Locate the line of code that uses Class.forName()."
+}

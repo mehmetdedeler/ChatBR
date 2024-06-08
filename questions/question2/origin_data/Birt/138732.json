@@ -1,0 +1,1 @@
+{"bug_id": "138732", "title": "Bug 138732getValue fails", "description": "The following script fails onData Element OnCreateif( this.getValue() < 70000){this.getStyle().backgroundColor = \"Purple\";}"}

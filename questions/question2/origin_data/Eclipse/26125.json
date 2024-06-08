@@ -1,0 +1,1 @@
+{"bug_id": "26125", "title": "Bug 26125Workbench startup is throwing dialog rather than logging to .log", "description": "build I20021113 took new build started it on old workspace got an internal error dialog: Executable extension definitionfor \"class\"not found. hit OK it came up OK nothing in log"}

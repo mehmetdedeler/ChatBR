@@ -1,0 +1,1 @@
+{"id": "5077", "title": "Bug 5077org.eclipse.jdt.junit does not compile under Java 1.2.2", "description": "Bug 5077org.eclipse.jdt.junit does not compile under Java 1.2.2 org.eclipse.jdt.junit.internal.LauncherUtil:29getPath() is not defined in URL ", "OB": "", "EB": "", "SR": ""}

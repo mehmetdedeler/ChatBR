@@ -1,0 +1,8 @@
+{
+  "id": "16822",
+  "title": "Bug 16822: Search results not cleared after moving file",
+  "description": "Build 200205211.",
+  "OB": "After moving X.java to 'P/src2', the search result remains in the search view. Double-clicking on the search result opens a 'Search Error' dialog, indicating that an error occurred while creating a Java element. The reason given is that X.java does not exist.",
+  "EB": "After moving X.java to 'P/src2', the search result should be removed from the search view. Double-clicking on the search result should not open a 'Search Error' dialog.",
+  "SR": "1. Create project P with 2 source folders 'src1' and 'src2'.\n2. Create compilation unit (cu) X.java under 'P/src1' with the content: 'public class X {}'.\n3. Search for the declaration of X.\n4. Move X.java to 'P/src2'.\n   - Observe: The search result is still in the search view.\n   - Attempt to double-click on the search result.\n   - Observe: A 'Search Error' dialog appears, stating that an error occurred while creating a Java element. The reason given is that X.java does not exist."
+}

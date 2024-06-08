@@ -1,0 +1,8 @@
+{
+  "id": "14113",
+  "title": "Bug 14113 Should listen to FSOURCEATTACHED and FSOURCEDETACHED java deltas",
+  "description": "Bug 14113 Should listen to FSOURCEATTACHED and FSOURCEDETACHED java deltas",
+  "OB": "Currently, it is not specified how the system handles FSOURCEATTACHED and FSOURCEDETACHED java deltas. The expected behavior (OB) in this scenario is not clearly defined.",
+  "EB": "In this case, when FSOURCEATTACHED or FSOURCEDETACHED java deltas occur, the system should refresh the class file editor to incorporate the new source. As a temporary workaround, a (FREMOVEDFROMCLASSPATH | FSOURCEDETACHED | FSOURCEATTACHED) delta is being fired, with the intention to remove the FREMOVEDFROMCLASSPATH once this bug is fixed.",
+  "SR": "Specify and implement the expected behavior for handling FSOURCEATTACHED and FSOURCEDETACHED java deltas. Ensure that the class file editor is refreshed appropriately to reflect changes in the source. Additionally, remove the temporary workaround (FREMOVEDFROMCLASSPATH | FSOURCEDETACHED | FSOURCEATTACHED) when addressing this bug."
+}

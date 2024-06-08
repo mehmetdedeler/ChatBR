@@ -1,0 +1,8 @@
+{
+  "id": "13269",
+  "title": "Incorrect Order of Operations in Jar Packager",
+  "description": "Users have reported an issue related to the order of operations in the jar packager, which also applies to '.jardesc' files. It is suggested that a warning in the wizard's header (now that an icon is shown as well) would be more appropriate than a dialog box at the end. If users want to proceed with overwriting, they should use the 'save the manifest in the workspace' option combined with the 'reuse and save the manifest in the workspace' option.",
+  "OB": "The problem arises because the jar file is created before the overwrite verifications occur. It's worth noting that the messages like 'saving manifest file failed' might be inappropriate in this case, considering that the user chose not to overwrite the manifest file.",
+  "EB": "",
+  "SR": ""
+}

@@ -1,0 +1,8 @@
+{
+  "id": "47910",
+  "title": "Bug 47910 - Missing MANIFEST.MF in 'ajc' outjar JAR file",
+  "description": "When using 'ajc' with the 'outjar' option, the resulting JAR file does not contain a 'MANIFEST.MF' file, which makes it an invalid JAR file.",
+  "OB": "When I call 'ajc' with the command 'sourceroots <mydir outjar <my.jar,' an output file is created with a '.jar' extension, but it is not a valid JAR file because it lacks a 'MANIFEST.MF' file. The text for 'ajc' suggests using 'outjar' to put output classes in a zip file, but having a parameter called 'outjar' that creates a zip file doesn't seem to align with the expectation of a valid JAR file.",
+  "EB": "When the 'outjar' option is used with 'ajc,' the resulting file should be a valid JAR file, which means it should contain a 'MANIFEST.MF' file as part of the JAR structure.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Run 'ajc' with the 'sourceroots' option specifying your source directory and 'outjar' option to create a JAR file. For example: 'ajc sourceroots <mydir outjar <my.jar.'\n2. Examine the created JAR file to verify if it contains a 'MANIFEST.MF' file. The absence of the 'MANIFEST.MF' file indicates the problem."
+}

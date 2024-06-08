@@ -1,0 +1,8 @@
+{
+  "id": "123044",
+  "title": "Bug 123044 - Page break not observed in the first item when previewing attached PDF file",
+  "description": "Description: When previewing the attached file in PDF, the expected page break in the first item didn't occur. Steps to reproduce: 1.",
+  "OB": "When previewing the attached file in PDF, the expected page break in the first item didn't occur.",
+  "EB": "Preview the file in PDF. Expected result: The first page should be blank because the first item is set to pagebreakbefore always. Actual result: The page break before action didn't happen.",
+  "SR": "1. Open the attached file in the PDF previewer."
+}

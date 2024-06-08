@@ -1,0 +1,1 @@
+{"bug_id": "112218", "title": "Bug 112218Preference dialog does not open in I200510110920", "description": "There are unresolvecd compilation errors in the preference dialog.Thiserrors prevent the preference dialog from opening in I200510110920.I'm investigating how this happened, and I've requested a rebuild."}

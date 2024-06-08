@@ -1,0 +1,1 @@
+{"bug_id": "19089", "title": "Bug 19089No popup menu java editor ruler (Photon)", "description": "1) Open a java editor2) Right click on the left vertical rulerThis should popup a menu to add breakpoints/marks,etc, butit does not."}

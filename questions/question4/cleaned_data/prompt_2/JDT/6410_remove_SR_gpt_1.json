@@ -1,0 +1,8 @@
+{
+  "id": "6410",
+  "title": "Bug 6410: File marked as dirty by code assist without changes",
+  "description": "When using code assist, the file is marked as dirty despite no changes being made.",
+  "OB": "Upon utilizing code assist, the file is flagged as dirty even though no modifications have been applied. Additionally, code assist does not display any suggestions.",
+  "EB": "Code assist should not mark the file as dirty if no changes have been made or suggested.",
+  "SR": "1. Open the file in the code editor.\n2. Trigger the code assist feature.\n3. Observe the file being marked as dirty despite no changes made.\n4. Verify that code assist does not present any suggestions."
+}

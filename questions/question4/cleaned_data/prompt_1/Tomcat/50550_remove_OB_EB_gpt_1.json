@@ -1,0 +1,8 @@
+{
+  "id": "50550",
+  "title": "Bug 50550 - PropFind 404 error after MkCol success",
+  "description": "Bug 50550 - PropFind 404 error after MkCol success. This suggests it has to do with caching. Note: This situation sounds similar to call 21288 (FIXED - 'DirContext caching problem with Dreamweaver 6 when recursively creating directories'). Reproducible using a Jackrabbit client:\n\n```java\nHttpClient client = new HttpClient();\nString newDir = \"http://localhost:8080/webdav/output/\" + UUID.randomUUID() + \"/\";\n// Comment out this request to make the second PropFind successful\nHttpMethod propFindMethod1 = new PropFindMethod(newDir);\nclient.executeMethod(propFindMethod1);\npropFindMethod1.releaseConnection();\nHttpMethod mkcolMethod = new MkColMethod(newDir);\nclient.executeMethod(mkcolMethod);\nmkcolMethod.releaseConnection();\nHttpMethod propFindMethod = new PropFindMethod(newDir);\nclient.executeMethod(propFindMethod);\npropFindMethod.releaseConnection();\n```",
+  "OB": "A PropFind call on a resource returns a 404 error when executed after an MkCol for the same resource.",
+  "EB": "The PropFind call should not result in a 404 error after successfully executing an MkCol for the same resource.",
+  "SR": "Investigate and address the issue causing a 404 error in PropFind calls after a successful MkCol. Ensure that subsequent PropFind requests for the same resource return the expected results."
+}

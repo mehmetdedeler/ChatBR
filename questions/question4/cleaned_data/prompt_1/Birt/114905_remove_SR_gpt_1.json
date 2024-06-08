@@ -1,0 +1,8 @@
+{
+  "id": "114905",
+  "title": "Bug 114905: Default value lost in list box of report parameter after modification",
+  "description": "The default value set in the list box of the report parameter is lost after modifying the default value.",
+  "OB": "The default value is not retained in the list box of the report parameter after modifying it.",
+  "EB": "Change the Display type to Combo Box. The expected result is that 'aaa' should be the default value. After completing step 5, the OK button should be grayed out.",
+  "SR": "1. Set the default value in the list box of the report parameter. \n2. Modify the default value. \n3. Change the Display type to Combo Box. \n4. Observe that 'aaa' is not the default value. \n5. Check that the OK button is still active instead of being grayed out."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "120315",
+  "title": "Bug 120315: Display property 'none' not taking effect in new PDF emitter",
+  "description": "",
+  "OB": "When the display property of an item is set to 'none' in the new PDF emitter, the expected behavior is that the item should be hidden or not rendered, but currently, it remains visible.",
+  "EB": "The expected behavior is that when the display property of an item is set to 'none', it should not be visible or rendered in the new PDF emitter.",
+  "SR": "1. Open the application.\n2. Navigate to the PDF emitter section.\n3. Set the display property of an item to 'none'.\n4. Observe that the item is still visible in the generated PDF."
+}

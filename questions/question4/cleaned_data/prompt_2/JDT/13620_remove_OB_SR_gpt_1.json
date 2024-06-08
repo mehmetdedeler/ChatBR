@@ -1,0 +1,8 @@
+{
+  "id": "13620",
+  "title": "Bug 13620: Java Source Attachment Preference Page Text Alignment Issue",
+  "description": "The Java Source Attachment Preference Page displays excessive white space, affecting the overall layout.",
+  "OB": "The text on the Java Source Attachment Preference Page is not aligned properly, resulting in a large amount of white space between the text and the top of the page.",
+  "EB": "The text on the Java Source Attachment Preference Page should be aligned at the top, consistent with the layout of other elements on the page.",
+  "SR": "1. Open the Java Source Attachment Preference Page.\n2. Observe the excessive white space between the text and the top of the page."
+}

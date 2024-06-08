@@ -1,0 +1,1 @@
+{"bug_id": "13197", "title": "Bug 13197new class wizzard creates protected constructor instead of public", "description": "When creating a class with the classwizzard using 'Constructors fromsuperclass' the constuctor is created with protected visibility and not withpublic visibility."}

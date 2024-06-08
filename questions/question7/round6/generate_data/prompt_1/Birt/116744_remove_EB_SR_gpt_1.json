@@ -1,0 +1,8 @@
+{
+  "id": "116744",
+  "title": "Bug 116744 - Dynamic text content type has no effect",
+  "description": "The dynamic text content type is not functioning as expected.",
+  "OB": "When attempting to use the dynamic text content type, no changes or effects are observed in the application.",
+  "EB": "When using the dynamic text content type, it should dynamically update and display the specified text content in the application.",
+  "SR": "1. Open the application.\n2. Navigate to the section where dynamic text content type is applicable.\n3. Apply the dynamic text content type.\n4. Observe that the text content does not dynamically update as expected."
+}

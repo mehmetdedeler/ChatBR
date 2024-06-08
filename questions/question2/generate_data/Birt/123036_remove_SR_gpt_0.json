@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Bug 123036 - Duplicate Data Storage Issue in Reports",
+  "description": "This bug report pertains to a data duplication problem in reports where data is stored redundantly, resulting in two instances of the same data.",
+  "OB": "The observed behavior is that data is currently stored twice.",
+  "EB": "The expected behavior is that the instance stored by the content stream should not be duplicated, ensuring that data is not redundantly stored in reports.",
+  "SR": "To reproduce this bug:\n1. Generate or access a report.\n2. Observe that the data is redundantly stored, with two instances in the report."
+}

@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '138175', 'title': 'Bug 138175bookmark link set in drill through link should be saved in Hyperlink Options dialog.', 'description': '', 'OB': 'Reopen Hyperlink Options dialogResult:The selected bookmark is gone but it is saved in xml source.Expected result:Target bookmark displayed in Hyperlink Options dialog. ', 'EB': 'Bug 138175bookmark link set in drill through link should be saved in Hyperlink Options dialog. Description:bookmark link set in drill through link should be saved in Hyperlink Options dialog.Steps to reproduce:1. Reopen Hyperlink Options dialogResult:The selected bookmark is gone but it is saved in xml source.Expected result:Target bookmark displayed in Hyperlink Options dialog. ', 'SR': ''}
+</BUG REPORT>

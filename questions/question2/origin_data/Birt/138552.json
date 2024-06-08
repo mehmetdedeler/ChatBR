@@ -1,0 +1,1 @@
+{"bug_id": "138552", "title": "Bug 138552[Smoke][Regression]The web viewer can not work", "description": "Description:The web viewer can not workSteps to reproduce:1. new a report2. new a label and input something in the label3. save and preview with the web viewerActual result:Nothing is displayed."}

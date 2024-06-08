@@ -1,0 +1,8 @@
+{
+  "id": "16822",
+  "title": "Search results not cleared after moving cu",
+  "description": "Build 200205211.",
+  "OB": "When a customer unit (cu) is moved from one location to another in the software, the search results that were displayed before the move remain on the screen. This results in outdated search results being displayed even after the cu has been moved.",
+  "EB": "The expected behavior is that when a cu is moved, the search results should be automatically cleared from the screen, ensuring that the user sees an empty search result screen. This will prevent the display of outdated information and provide an accurate representation of the cu's new location.",
+  "SR": "Steps to reproduce the issue:\n1. Launch the software and perform a search that returns some results.\n2. Select a customer unit (cu) from the search results.\n3. Click on the option to move the cu to a different location within the software.\n4. After the cu has been successfully moved, observe that the search results from step 1 are still displayed on the screen, despite the cu's new location. This behavior is unexpected and should not occur."
+}

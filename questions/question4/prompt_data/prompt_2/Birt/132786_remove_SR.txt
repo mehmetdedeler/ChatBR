@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '132786', 'title': 'Bug 132786Value2 should be cleaned after convert operator from between to equal in highlight rule.', 'description': '2 between 1 and 3, color blue.3. ', 'OB': 'Save the report, see generated xml source.Expected result:In xml source, value2 should be cleaned in highlight expression.Actual result:In xml source, value1 is 1 and value2 is 3. ', 'EB': 'Bug 132786Value2 should be cleaned after convert operator from between to equal in highlight rule. Description:Value2 should be cleaned after convert operator from between to equal in highlight rule.Steps to reproduce:1. Save the report, see generated xml source.Expected result:In xml source, value2 should be cleaned in highlight expression.Actual result:In xml source, value1 is 1 and value2 is 3. ', 'SR': ''}
+</BUG REPORT>

@@ -1,0 +1,1 @@
+{"bug_id": "14429", "title": "Bug 14429Smoke 20020423: replace from local history wrong indentation", "description": " load TestCase.java edit method runTest save replace method with latest from local histroyobserve: the method is wrong indentedIMO the culprit is a change DB did at MemberEdit."}

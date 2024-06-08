@@ -1,0 +1,8 @@
+{
+  "id": "116786",
+  "title": "Library Include Should Store Relative Path",
+  "description": "When including a library in a report design, the software should save the relative path instead of the absolute path.",
+  "OB": "Currently, the report design stores the absolute path of the library as follows: <property name='fileName'/E:/birt/sampleReports/otherlib/lib1.rptlibrary</property> <property name='namespace'lib1</property>",
+  "EB": "Library include should store relative path. When a library is included in a report design, the BIRT designer should generate and save the relative path. For example, if my report design is in $project/test, the library's path should be relative to this location.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the BIRT designer.\n2. Create a new report design or open an existing one.\n3. Include a library in the report design.\n4. Check the path of the included library in the report design properties."
+}

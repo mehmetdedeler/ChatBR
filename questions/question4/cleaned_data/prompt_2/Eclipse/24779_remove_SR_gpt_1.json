@@ -1,0 +1,8 @@
+{
+  "id": "24779",
+  "title": "Bug 24779[Perspectives] Reference to invalid views are not removed",
+  "description": "Bug 24779[Perspectives] Reference to invalid views are not removed. It already tried, and it can't.8.",
+  "OB": "When a perspective that is not currently displayed contains an invalid view (associated plugin has been removed, ...), an 'Unable to restore perspective' error message is displayed after each launch of Eclipse, until the perspective is displayed one time.1. The 'java' perspective is displayed.3. Restart Eclipse. A 'Unable to restore perspective...' error message is displayed, indicating the need to remove the plugin.6. Close and restart Eclipse. The same 'Unable to restore perspective...' error message persists. It raises questions about why we still get this error message and why the workbench attempts to create this view again.",
+  "EB": "The plugin was not available the last time Eclipse was closed, so the workbench should no longer have any reference to this plugin.7.",
+  "SR": "1. Open Eclipse and display the 'java' perspective.2. Remove the corresponding plugin for the invalid view.3. Restart Eclipse.4. Observe the 'Unable to restore perspective...' error message.5. Close Eclipse.6. Restart Eclipse again.7. Verify that the 'Unable to restore perspective...' error message persists, raising concerns about the workbench attempting to recreate the invalid view."
+}

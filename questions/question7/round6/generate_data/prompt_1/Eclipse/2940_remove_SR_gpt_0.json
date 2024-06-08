@@ -1,0 +1,8 @@
+{
+  "id": "2940",
+  "title": "Bug 2940 - Export Zip: Updating of checkboxes should use busy cursor (1GKWVMA)",
+  "description": "Bug 2940 - Export Zip: Updating of checkboxes should use busy cursor (1GKWVMA) MA (01.10.2001 11:38:21)1.",
+  "OB": "The process of updating checkbox states in the table is slow, taking approximately 30 seconds in my case. A busy cursor should be displayed during this operation.",
+  "EB": "During the update of checkbox states in the table, a busy cursor should be displayed to indicate ongoing activity. This process currently takes around 30 seconds in my case.",
+  "SR": "Improve the efficiency of updating checkbox states in the table to reduce the time it takes, and ensure a busy cursor is shown to provide feedback to the user during this operation."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "121682",
+  "title": "Bug 121682: Exception thrown when exporting data from a table containing highlight/map.",
+  "description": "Exception is thrown when attempting to export data from the attached report.",
+  "OB": "Upon attempting to export data from a table containing highlight/map in the attached report, an exception is thrown.",
+  "EB": "When exporting data from the table, the expected result is that the data should be successfully exported. However, the actual result is an exception thrown in: ReportEngineService.getMetaData().",
+  "SR": "Steps to Reproduce:\n1. Open the attached report.\n2. Navigate to the table containing highlight/map.\n3. Attempt to export the data from the table.\n4. Observe the exception being thrown in: ReportEngineService.getMetaData()."
+}

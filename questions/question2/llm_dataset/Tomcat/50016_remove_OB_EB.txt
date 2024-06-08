@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '50016', 'title': 'Bug 50016bad division of responsibility around isUserInRole and new Request login and logout methods', 'description': ' Bug 50016bad division of responsibility around isUserInRole and new Request login and logout methods Created attachment 26089 [details]improve division of responsibility for isUserInRole and login/logout methodsThere are 2 similar problems that have a bad division of responsibility.1. Request.isUserInRole tries to prevent jacc implementations and is also wrong.In the current tomcat implementation, roleref mappings are first applied to the supplied role and then the target role is tested. jacc requires that this be implemented by constructing a roleref permission with the current servlet name and the supplied (not mapped) role.', 'OB': '', 'EB': '', 'SR': ' Aside from the spec language, consider a web app with two roles A and B and a servlet S that maps A to B and B to A.'}
+</BUG REPORT>

@@ -1,0 +1,1 @@
+{"id": "46562", "title": "Bug 46562Reader not closed", "description": "Bug 46562Reader not closed Closing the reader solves the problem. ", "OB": "SHTML files are locked when using windows. ", "EB": "", "SR": ""}

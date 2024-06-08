@@ -1,0 +1,8 @@
+{
+  "id": "7330",
+  "title": "Bug 7330: Make more actions available on text selection",
+  "description": "I could not find the action \"Add Javadoc Comment\" until I switched to the Outline view in the Edit (or some other global) menu. Currently, actions seem to be distributed based on personal taste, and this approach should be changed. It is unclear to users why some actions are in the context menu and some are not. While not all actions need to be in the context menu, they must be reachable from the editor; forcing users to switch views is not acceptable.",
+  "OB": "The action 'Add Javadoc Comment' should be available in the context menu and if not, it should be reachable via the Edit menu.",
+  "EB": "Ensure that the 'Add Javadoc Comment' action is accessible both in the context menu and through the Edit menu.",
+  "SR": "Improve the organization of actions to make them consistently available to users, either through the context menu or the Edit menu, without requiring a view switch."
+}

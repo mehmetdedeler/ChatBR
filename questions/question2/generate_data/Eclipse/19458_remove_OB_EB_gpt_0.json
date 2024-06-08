@@ -1,0 +1,8 @@
+{
+  "id": "19458",
+  "title": "Bug 19458[Navigator] Copy Project dialog UI problems",
+  "description": "Bug 19458[Navigator] Copy Project dialog UI problems. The text is displayed in red.",
+  "OB": "The 'Copy Project' dialog does not allow the user to select a custom location when the 'Use Default Location' option is checked. The text in the dialog is displayed in red.",
+  "EB": "1. When 'Use Default Location' is checked, the user should still be able to select or edit the default location from the input box below. 2. The user should have the option to choose a custom path close to the default location, even when 'Use Default Location' is selected.",
+  "SR": "To reproduce the issue: 1. Create a single project, e.g., 'test'. 2. Copy the project. 3. In the 'Copy Project' dialog: a. Ensure the 'Use Default Location' option is checked. b. Attempt to select or edit the default location from the input box below. c. Try to choose a custom path near the default location."
+}

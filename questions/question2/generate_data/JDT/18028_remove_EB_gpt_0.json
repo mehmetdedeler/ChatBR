@@ -1,0 +1,8 @@
+{
+  "id": "18028",
+  "title": "Bug 18028 - Rename package doesn't check if all resources are writeable",
+  "description": "When attempting to rename a package that contains a Compilation Unit (CU) and the CU is made read-only, the software does not check if all resources are writeable, leading to an unexpected exception dialog.",
+  "OB": "Upon creating a package with a Compilation Unit (CU) and setting the CU to read-only, when attempting to rename the package, an unexpected exception dialog is displayed.",
+  "EB": "The software should check if all resources, including the Compilation Unit, are writeable before allowing the user to rename the package. It should not produce an unexpected exception dialog in this scenario.",
+  "SR": "1. Create a package that contains a Compilation Unit (CU).\n2. Make the CU read-only.\n3. Attempt to rename the package.\n4. Observe that an unexpected exception dialog is displayed."
+}

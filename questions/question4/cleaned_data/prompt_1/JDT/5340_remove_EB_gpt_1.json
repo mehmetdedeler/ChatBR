@@ -1,0 +1,8 @@
+{
+  "id": "5340",
+  "title": "Bug 5340 - Cancelling add exception breakpoint has no effect",
+  "description": "",
+  "OB": "When attempting to cancel adding an exception breakpoint (by clicking cancel in the progress dialog), the progress dialog immediately closes. However, the exception list still appears despite the cancellation attempt. It disregards the cancellation request, failing to halt the addition process.",
+  "EB": "Upon clicking 'cancel' in the progress dialog while adding an exception breakpoint, the process should terminate accordingly. Either the addition should honor the cancellation request, ensuring the progress dialog closes without adding the breakpoint, or the 'cancel' button functionality needs to be disabled during this process (by passing 'false' for the 'cancellable' parameter in ProgressMonitorDialog.run).",
+  "SR": "1) Navigate to the debug perspective's breakpoints pane.\n2) Click the 'J!' button to add an exception breakpoint.\n3) In the progress dialog, click the 'cancel' button."
+}

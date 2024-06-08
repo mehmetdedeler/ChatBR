@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "More Efficient Logic Needed for Disk Sorting with Border Row Values",
+  "description": "",
+  "OB": "When sorting on disk and the data consists of 40000 rows, the program processes the data for values less than 40000. However, the current implementation exhibits unexpected behavior during this process.",
+  "EB": "Expected behavior is that the program should efficiently handle disk sorting, especially when dealing with border row values. The sorting process for values less than 40000 should execute without issues.",
+  "SR": "1. Load a dataset with 40000 rows onto the disk.\n2. Initiate the sorting process on disk.\n3. Configure the program to process data less than 40000 rows.\n4. Observe the sorting operation and verify that it behaves as expected without errors."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "17168", "title": "Bug 17168Packages view: Open in context menu for  imports", "description": "Test pass 1 JUnit setup open AboutDialog select java.awt.event. open context menuobserve: Open is in context menu, although it can't be applied."}

@@ -1,0 +1,8 @@
+{
+  "id": "116786",
+  "title": "Library Include Stores Absolute Path Instead of Relative Path",
+  "description": "When creating library includes in the report design, the software is currently storing the absolute path. It should store the relative path instead to ensure portability and flexibility.",
+  "OB": "In the report design, I noticed that the library include is storing the absolute path, like this: <property name='fileName' value='E:/birt/sampleReports/otherlib/lib1.rptlibrary'/>. This is not ideal as it makes the report less portable and flexible.",
+  "EB": "The expected behavior is that the library include should store the relative path, like this: <property name='fileName' value='lib1.rptlibrary'/>. Storing the relative path will ensure that the report can be easily moved to different directories or systems without breaking the references.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the report design in the software.\n2. Add a library include to the report.\n3. Observe that the software stores the absolute path in the 'fileName' property instead of the relative path."
+}

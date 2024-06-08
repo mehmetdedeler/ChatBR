@@ -1,0 +1,1 @@
+{"bug_id": "49141", "title": "Bug 49141Impossible cast in naming.factory.SendMailFactory.getObjectInstance", "description": "naming.factory.SendMailFactory.getObjectInstance contains an impossible cast from javax.mail.internet.MimeMessage to javax.mail.internet.MimePart[Findbugs]"}

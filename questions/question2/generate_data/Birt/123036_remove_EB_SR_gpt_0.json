@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Data in a report is doubly stored",
+  "description": "When generating reports in our software, we've identified an issue where data is being stored twice, leading to inaccurate reports and increased storage usage.",
+  "OB": "Data in a report is doubly stored, We currently store data twice.",
+  "EB": "Data in a report should be stored only once to ensure accurate reports and efficient storage usage.",
+  "SR": "To reproduce the issue:\n1. Open the software and log in to your account.\n2. Navigate to the 'Reports' section.\n3. Generate a report by selecting the desired parameters.\n4. Review the generated report and check the data storage. You will notice that the data is stored twice."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "10022",
+  "title": "Bug 10022 - Incorrect 'Build' Popup Action Enablement",
+  "description": "This bug report pertains to the behavior of the 'Build' action in the context-sensitive popup menu within the Java perspective.",
+  "OB": "The bug report lacks a clear description of the observed behavior and expected behavior. It does not provide sufficient details to understand the issue.",
+  "EB": "The expected behavior mentioned is 'No need for a manual build if the build is already done, automatically.' This is a statement of expected behavior, but it needs to be connected to the observed issue.",
+  "SR": "There are no steps to reproduce provided, making it unclear how to encounter the problem."
+}

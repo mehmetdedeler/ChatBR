@@ -1,0 +1,8 @@
+{
+"id": "47910",
+"title": "Bug 47910 - Missing MANIFEST.MF in outjar jarfile",
+"description": "The reported issue concerns the absence of a MANIFEST.MF file inside the generated .jar file with a METAINF/MANIFEST.MF file inside.",
+"OB": "N/A",
+"EB": "When the 'outjar' parameter is used with 'ajc,' the resulting file should be a valid jar file, which means it should contain the required MANIFEST.MF file.",
+"SR": "To reproduce the issue:\n1. Execute the following command: 'ajc sourceroots <mydir outjar <my.jar'\n2. Check the generated 'my.jar' file for the presence of a MANIFEST.MF file. It should be missing."
+}

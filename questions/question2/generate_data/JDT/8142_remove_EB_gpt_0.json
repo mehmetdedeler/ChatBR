@@ -1,0 +1,8 @@
+{
+  "id": "8142",
+  "title": "Bug 8142 - No Scoped Type Hierarchy on Binary Projects",
+  "description": "In the context of Bug 8142, the issue is not clearly understood or described.",
+  "OB": "When I select a binary project (e.g., org.apache.ant) and hit 'F4' to view the scoped type hierarchy, I get the message: 'No declaration of selected members in the chosen hierarchy of 'org.apache.ant'. I would expect to see the class hierarchies of the internal JARs. I don't understand what this message means.",
+  "EB": "The expected behavior is that when I hit 'F4' on a binary project selection (e.g., org.apache.ant), I should see the class hierarchies of the internal JARs. The message should be clearer and provide meaningful information.",
+  "SR": "To reproduce the issue:\n1. Open a binary project (e.g., org.apache.ant).\n2. Hit the 'F4' key to view the scoped type hierarchy.\n3. Observe the message and behavior. The issue is that it should display class hierarchies of the internal JARs and provide a more informative message."
+}

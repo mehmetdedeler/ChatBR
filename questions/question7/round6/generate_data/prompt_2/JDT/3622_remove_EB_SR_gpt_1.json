@@ -1,0 +1,8 @@
+{
+  "id": "3666",
+  "title": "Bug 3666: Code Completion Hungry code assist (1GDRYW5)",
+  "description": "Under certain circumstances, the code assist consumes excessive code, leading to incorrect program behavior. The issue arises when adding a parameter to the 'baz' call within 'bar' to rectify the program. The UI should allow the choice between using the code assist end position or the cursor location for source replacement control. However, the code assist option was later removed.",
+  "OB": "The code transformation occurs as follows:\n\nBefore code assist: baz(x.foo());\nAfter code assist: baz(x.foo()x.foo())\n\nExpected behavior:\n\npublic class X {\n  void bar(X x) {\n    baz(x.foo());\n  }\n  int foo() {\n    return 5;\n  }\n  void baz(int i, int j) {\n  }\n}",
+  "EB": "The code completion should provide the correct transformation, resulting in the expected behavior without consuming extra code or causing syntax errors.",
+  "SR": "Steps to Reproduce:\n1. Open the enclosed class 'X'.\n2. Within the 'bar' method, invoke 'baz' with 'x.foo()' as the argument.\n3. Use the code assist feature.\n4. Observe the excessive code consumption in the 'baz' call, resulting in the incorrect code transformation."
+}

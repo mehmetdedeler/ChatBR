@@ -1,0 +1,8 @@
+{
+  "id": "151938",
+  "title": "Handle Duplicate javaagent Entries More Gracefully",
+  "description": "The issue arises when adding a javaagent flag to VM startup commands, particularly in cases where the flag is duplicated. This problem was encountered in our automated installer. While we're adapting our scripts to mitigate this, it's essential to address this issue more broadly, as manual edits to setclasspath.bat and catalina.bat could similarly trigger this problem for other users.",
+  "OB": "When a java 5 VM with AspectJ's loadtime weaver is started with the javaagent flag specified more than once, and an aop.xml file is defined, it leads to significant issues. AspectJ attempts to reweave the woven AspectJ code and emits excessive bytecode.",
+  "EB": "AspectJ should handle Duplicate javaagent entries more gracefully. Ideally, it would detect multiple occurrences of the javaagent flag and issue a warning, disabling all but one of the agents.",
+  "SR": "1. Start a java 5 VM with AspectJ's loadtime weaver specified multiple times using the javaagent flag.\n2. Ensure there is an aop.xml file defined.\n3. Observe the system behavior as AspectJ attempts to reweave the code, emitting excessive bytecode."
+}

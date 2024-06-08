@@ -1,0 +1,8 @@
+{
+  "id": "128359",
+  "title": "Incorrect Logic with Added Filter in Table on Layout",
+  "description": "We observe that the dataset initially contains 10 records (DataResultA).",
+  "OB": "When we drag the dataset to the layout and add another filter (FilterB) to the table, the actual result is that the output of FilterB is based on DataResultA.",
+  "EB": "When we drag the dataset to the layout and set another filter (FilterB) on the table, we expect that the result of FilterB should be based on DataResultB.",
+  "SR": "1. Drag the dataset to the layout.\n2. Set another filter (FilterB) on the table."
+}

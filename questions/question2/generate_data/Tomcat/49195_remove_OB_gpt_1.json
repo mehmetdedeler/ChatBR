@@ -1,0 +1,8 @@
+{
+  "id": "49195",
+  "title": "Bug 49195: Using 1 as shutdown port with Windows service works but prints error message",
+  "description": "When configuring Tomcat as a Windows service and specifying <Server port=\"1\" in server.xml, it works as expected for shutting down the server. However, an error message is printed during the process. It's worth noting that there might be room for improvement in the shutdown process itself. For instance, using System.exit(0) would be a more robust approach. It's possible that the same behavior occurs with jsvc, although I haven't tested it.",
+  "OB": "When using a shutdown port value of 1 in server.xml for Tomcat running as a Windows service, the server successfully shuts down, but it generates an error message during the shutdown process.",
+  "EB": "Ideally, when using a shutdown port value of 1, the Tomcat server should shut down without generating an error message. It would be better to improve the shutdown process, possibly by using a different approach like wait(10000) instead of sleep(10000) in StandardServer.await(). This change would allow the server to be woken by a notifyAll() call or using an interrupt() call to wake up the thread if known.",
+  "SR": "To reproduce this issue:\n1. Install Tomcat as a service on a Windows machine.\n2. Start the Tomcat service.\n3. Stop the Tomcat service.\n4. Trigger a server shutdown through an OS signal, for example, by calling Catalina.stop()."
+}

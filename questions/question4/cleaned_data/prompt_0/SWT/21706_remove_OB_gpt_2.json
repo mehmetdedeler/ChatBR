@@ -1,0 +1,8 @@
+{
+  "id": "21706",
+  "title": "Bug 21706 - BidiUtil in win32 has Class.forName() usage",
+  "description": "Bug 21706 - BidiUtil in win32 has Class.forName() usage",
+  "OB": "The issue is that there is a line in org.eclipse.swt.internal.BidiUtil that uses Class.forName() to create a Callback object. This is causing a NoClassDefFoundError in the CLDC version of SWT.",
+  "EB": "The BidiUtil class should have a private constructor. There are no non-static methods in this class, so it would be a good practice to make the constructor private, preventing people from instantiating the class if there's no need to. This change won't add any size because the compiler already provides a free public constructor. The goal is to make the constructor private instead of public.",
+  "SR": "To reproduce the issue, change the line above to: static Callback callback = new Callback(new BidiUtil().getClass(), \"windowProc\", 4); Although I haven't tested it, this modification should achieve the same functionality."
+}

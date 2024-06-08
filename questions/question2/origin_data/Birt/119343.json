@@ -1,0 +1,1 @@
+{"bug_id": "119343", "title": "Bug 119343Smoke: Report design can't be edited.", "description": "Description: Report design can't be modified.Steps to reproduce:1. Create a report.2. Preview and then edit it.3. Preview again.4. It is not modified."}

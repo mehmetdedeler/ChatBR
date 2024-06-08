@@ -1,0 +1,1 @@
+{"bug_id": "19106", "title": "Bug 19106Unable to restore MRU list message sent to log", "description": "Build F2I had the following message in my log!ENTRY org.eclipse.ui 4 4 Jun 04, 2002 11:00:55.166!MESSAGE Unable to restore mru list  no input factory ID.!SESSION Jun 04, 2002 11:15:41.521 I suspect this is from starting up Eclipse at some point."}

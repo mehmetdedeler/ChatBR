@@ -1,0 +1,8 @@
+{
+  "id": "17825",
+  "title": "Bug 17825 ControlExampleText beeps when I choose SWT.MULTI",
+  "description": "The issue reports an unexpected behavior where selecting SWT.MULTI in ControlExampleText results in beeping sounds.",
+  "OB": "When you choose SWT.MULTI in ControlExampleText, it triggers beeping sounds. Additionally, clicking on other buttons also produces the bell sound.",
+  "EB": "The expected behavior is that selecting SWT.MULTI should not produce beeping sounds, and the application should behave as intended without any audible alerts.",
+  "SR": "To reproduce the issue: \n1. Use Build F1 (20020521) on Win2K. \n2. In the SWT example ControlExample, navigate to the Text tab. \n3. Click on the Styles SWT.SINGLE and then switch back to Styles SWT.MULTI. This should trigger the problem."
+}

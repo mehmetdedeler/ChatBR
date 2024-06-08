@@ -1,0 +1,8 @@
+{
+  "id": "124067",
+  "title": "Bug 124067 - Relative Path Not Supported When Selecting XML File",
+  "description": "When selecting an XML file, the relative path should be supported.",
+  "OB": "When attempting to use a relative path while selecting an XML file, only the absolute path is currently supported.",
+  "EB": "When selecting an XML file, the software should support both relative and absolute paths. It is expected that the user can choose either path type when specifying the file location.",
+  "SR": "1. Open a new report.\n2. Select an XML file.\n3. Verify that the file path used is relative and not just absolute. The system should correctly handle and utilize both relative and absolute paths for XML files."
+}

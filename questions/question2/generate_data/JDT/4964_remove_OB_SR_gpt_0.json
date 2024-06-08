@@ -1,0 +1,8 @@
+{
+  "id": "4964",
+  "title": "Bug 4964 - Code Assist Inserting Incorrect Suggestions",
+  "description": "This bug report addresses an issue with code assist in the software.",
+  "OB": "The observed behavior is that when 'DISPOSED' is the first item in the code assist list and is selected, it inserts 'button.DISPOSED' into the code, which is not the desired behavior.",
+  "EB": "The expected behavior is for the code assist to consider context, especially when the user types '('. In this case, it should prioritize suggesting 'dispose()' over 'DISPOSED'. Alternatively, the code assist could be made case-sensitive to avoid such issues.",
+  "SR": "To reproduce the problem:\n1. Use the software with the reported issue.\n2. Start typing code, such as 'button.dispose'.\n3. Observe that 'DISPOSED' is selected from the code assist list.\n4. The expected behavior is for the code assist to suggest 'dispose()' when '(' is typed."
+}

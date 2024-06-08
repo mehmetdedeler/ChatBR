@@ -1,0 +1,1 @@
+{"id": "6277", "title": "Bug 6277Shift Left/Right use CTRL+I", "description": "", "OB": "Build 20011122.In the edit menu for a Java editor, the accelerators for Shift Left/Rightuse Ctrl+I.Shouldn't it show as Ctrl+Tab?Tab should be a different keycode than CTRL+I.Currently, the Java editor takes both. ", "EB": "", "SR": "Bug 6277Shift Left/Right use CTRL+I "}

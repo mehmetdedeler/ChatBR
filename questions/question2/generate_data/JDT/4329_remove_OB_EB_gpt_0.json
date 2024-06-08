@@ -1,0 +1,8 @@
+{
+  "id": "4329",
+  "title": "Bug 4329 - Search for Declarations Issue in Package View",
+  "description": "This bug report concerns a problem related to searching for declarations when using the Package view selection and dialog.",
+  "OB": "When attempting to search for declarations via the Package view selection and dialog, the software does not return any results. It appears that the search initializes with the fully qualified name, which causes this issue. However, when performing a search using the context menu in the packages view, the search works as expected.",
+  "EB": "The expected behavior is that when searching in the Java context, the software should first try to locate the Java element. If that attempt fails, it should display the element name in the search results instead of the fully qualified name.",
+  "SR": "To reproduce the issue:\n1. Open the Package view.\n2. Use the search dialog to search for declarations.\n3. Observe that no search results are returned.\n4. Alternatively, use the context menu in the packages view for the same search, which should return the expected results."
+}

@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '7752', 'title': 'Bug 7752Export multiple files with same file name under different directories to zip file fails.', 'description': 'Steps to reproduce:1. ', 'OB': '', 'EB': 'foo.txtin project 2).If you name foo.txt in project 2 foo2.txt there are no problems.Expected Behaviour:The zip file should be able to store files with same name under differentdirectories. ', 'SR': ''}
+</BUG REPORT>

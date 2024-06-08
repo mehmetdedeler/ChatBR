@@ -1,0 +1,1 @@
+{"id": "17915", "title": "Bug 17915JUnit dirty indicator appears to early", "description": "", "OB": "Bug 17915JUnit dirty indicator appears to early opening a compilation unit in the editor marks the test result as dirty. ", "EB": "", "SR": ""}

@@ -1,0 +1,1 @@
+{"bug_id": "117645", "title": "Bug 117645\"element, struct, structref\" is not supported for a property type.", "description": "Description: \"element, struct, structref\" is not supported for a property type.Steps to reproduce:1. Add a user property.2. \"element, struct, structref\" is not supported for a property type."}

@@ -1,0 +1,8 @@
+{
+  "id": "16938",
+  "title": "Bug 16938DCR: Class File Editor Scroll Behavior Issue",
+  "description": "Observed on 20020521 (F1) (This may not be a debug PRI; wasn't sure). So the workaround, if the user wants to scroll through the Class File editor, is to always use the thumb.",
+  "OB": "When attempting to scroll through the Class File editor, the editor only scrolls about a line at a time.",
+  "EB": "The Class File Editor should scroll more naturally. It should scroll one line at a time when you click on the arrows or click on the scrollbar's background to scroll a page at a time. Currently, grabbing the thumb and scrolling with that works well.",
+  "SR": "1. Open the Class File Editor. 2. Attempt to scroll using the arrows. 3. Attempt to scroll by clicking on the scrollbar's background. 4. Notice the unexpected scrolling behavior, where it scrolls about a line at a time instead of a page at a time."
+}

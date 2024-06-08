@@ -1,0 +1,1 @@
+{"bug_id": "17910", "title": "Bug 17910OpenRefactoringWIzardAction: is API but has protected method that us internal classes", "description": "F1Opt to remove the class and use an internal helper class instead."}

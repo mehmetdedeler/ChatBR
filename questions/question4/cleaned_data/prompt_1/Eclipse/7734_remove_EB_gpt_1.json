@@ -1,0 +1,8 @@
+{
+  "id": "7734",
+  "title": "Bug 7734: System can be shut down without savefile warnings",
+  "description": "",
+  "OB": "When shutting down Windows while a WSWB session is open with opened, dirty .txt file(s), there is no warning or question message box to give users a chance to save their changes. As a result, the changes in the .txt file are lost.",
+  "EB": "When shutting down Windows while a WSWB session is open with opened, dirty .txt file(s), there should be a warning or question message box prompting users to save their changes before proceeding with the shutdown. This ensures that users have an opportunity to prevent the loss of their work.",
+  "SR": "1. Start WSWB and create a new project.\n2. Create a text file in the project and add a line of text to it.\n3. Notice that the text file is marked as a dirty file.\n4. Left-click on the Windows Start menu and select the 'Shut Down' command to initiate the shutdown/reboot process.\n5. Results: There should be a warning or question message box, allowing users to save their dirty file(s) before the computer is shut down or rebooted. Verify that this behavior is consistent with other Windows programs (like Word, Outlook, etc.)."
+}

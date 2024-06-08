@@ -1,0 +1,8 @@
+{
+  "id": "102623",
+  "title": "Bug 102623: Image can't be refreshed after importing again.",
+  "description": "The user encounters difficulty refreshing an image after reimporting.",
+  "OB": "After renaming 'image2.jpg' to 'image1.jpg' and attempting to refresh, the updated image doesn't appear in the layout view.",
+  "EB": "Upon reimporting and renaming, the system should refresh the layout view to display the updated 'image1.jpg' without any issues.",
+  "SR": "1. Import 'image1.jpg' into layout view.\n2. Delete the imported image file from the outline image.\n3. Rename 'image2.jpg' to 'image1.jpg'.\n4. Attempt to refresh the layout view to observe if 'image1.jpg' updates correctly."
+}

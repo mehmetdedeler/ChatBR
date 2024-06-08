@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '102516', 'title': 'Bug 102516JDBC Data Set Editor should load tables and columns on demand', 'description': 'Bug 102516JDBC Data Set Editor should load tables and columns on demand The JDBC Data Set Editor page for a SQL Query has a tree control that lists thetables and columns in your data source. ', 'OB': '', 'EB': 'Could the load of the tree bedeferred until the user expands the tree or applys a filter? ', 'SR': 'When the data set editor is opened youhave to wait while the entire schema is queried and eventually get the "Only 500items can be viewed in the available list...".Bug <a href="https://bugs.eclipse.org/bugs/showbug.cgi?id=101372"101372</aasks for the ability to filter based on schema. '}
+</BUG REPORT>

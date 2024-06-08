@@ -1,0 +1,1 @@
+{"id": "123036", "title": "Bug 123036 - Data in a report is doubly stored", "description": "", "OB": "The data in the report is being stored twice, causing duplication.", "EB": "The data in the report should be stored only once to avoid duplication.", "SR": "Modify the code to ensure that the data in the report is stored only once."}

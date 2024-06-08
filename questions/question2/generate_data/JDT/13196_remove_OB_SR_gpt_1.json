@@ -1,0 +1,8 @@
+{
+  "id": "13196",
+  "title": "Browsing Manipulations Affecting Open Editor",
+  "description": "Bug 13196 occurs when browsing manipulations have unintended consequences on the working copy in an open editor.",
+  "OB": "When performing manipulations while an editor is open, the manipulations have unintended effects on the working copy shown in the editor.",
+  "EB": "Expected behavior: When there is an open editor, all manipulations should only affect the working copy displayed in the editor, and not have unintended consequences elsewhere.",
+  "SR": "Steps to reproduce:\n1. Open an editor with a working copy being displayed.\n2. Perform any manipulation on the working copy, such as editing a file or deleting a file.\n3. Observe that the manipulation also affects the working copy outside of the editor, which is unexpected."
+}

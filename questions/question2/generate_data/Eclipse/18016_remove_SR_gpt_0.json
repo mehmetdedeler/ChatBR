@@ -1,0 +1,8 @@
+{
+  "id": "18016",
+  "title": "Most Menu Actions Should Be Disabled for Custom Cus from Repository",
+  "description": "In Bug 18016, most menu actions should be disabled for custom Cus from the repository. However, the rest is meaningless and they should be removed.",
+  "OB": "There are 6 menu entries enabled, and none of them perform any actions. These entries include: open declaration, open type hierarchy, open super implementation, show in packages view, copy, and search 'copy.' 'Copy' could potentially be made to mean something, but it does not work at the moment, similar to structured selection (see bug 18015). This issue is marked as major and is likely to affect many users.",
+  "EB": "Most menu actions for custom Cus from the repository should be disabled. Additionally, the 'convert line delimiters' option should also be disabled.",
+  "SR": "To reproduce the issue:\n1. Open the software.\n2. Access the menu for custom Cus from the repository.\n3. Observe that the following menu actions are enabled but do not perform any actions: open declaration, open type hierarchy, open super implementation, show in packages view, copy, and search 'copy.'\n4. Attempt to use the 'convert line delimiters' option and observe that it is also enabled when it should be disabled."
+}

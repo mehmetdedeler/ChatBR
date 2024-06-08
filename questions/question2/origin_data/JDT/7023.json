@@ -1,0 +1,1 @@
+{"bug_id": "7023", "title": "Bug 7023Refactoring too many builds when auto build is on", "description": "Refactoring saves compilation units for the precondition checking and this cantrigger an autobuild. This autobuild should be supressed since you need tobuild again after the refactoring."}

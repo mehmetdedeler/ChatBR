@@ -1,0 +1,8 @@
+{
+  "id": "28974",
+  "title": "Bug 28974 - Compiler error when introducing a 'final' field",
+  "description": "This bug report addresses a compilation issue when introducing a 'final' field in an aspect.",
+  "OB": "The observed behavior is that the provided aspect fails to compile with version 1.1b2 of the software, resulting in a compilation error. The error message is: 'Cannot assign a value to the final field com.ibm.amc.DemoBean.ajc$interField$comibmamc$verbose!!'",
+  "EB": "The expected behavior is that introducing a 'final' field in an aspect should compile successfully without any errors.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Attempt to compile the provided aspect with version 1.1b2 of the software.\n2. Observe the compilation error message mentioned in the observed behavior." 
+}

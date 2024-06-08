@@ -1,0 +1,8 @@
+{
+  "id": "7330",
+  "title": "Action 'Add Javadoc Comment' Not Found in Edit Menu",
+  "description": "I couldn't find the 'Add Javadoc Comment' action until I switched to the Outline view. Currently, it seems that actions are distributed based on personal preference, and this should be changed. It's unclear to users why some actions are in the context menu and some are not. It's not acceptable to force users to switch views to access certain actions.",
+  "OB": "The 'Add Javadoc Comment' action is not available in the Edit menu or any other global menu.",
+  "EB": "I expected the 'Add Javadoc Comment' action to be accessible from the Edit menu.",
+  "SR": "To reproduce, try to access the 'Add Javadoc Comment' action via the Edit menu."
+}

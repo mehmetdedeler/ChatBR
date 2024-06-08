@@ -1,0 +1,1 @@
+{"id": "24313", "title": "Bug 24313Can't toggle checkboxes in Table", "description": "Bug 24313Can't toggle checkboxes in Table ", "OB": "In the Filters dialog, try checking/unchecking some filters.This is despite that the simple examples of Table with SWT.CHECK, works. ", "EB": "", "SR": ""}

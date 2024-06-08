@@ -1,0 +1,8 @@
+{
+  "id": "17894",
+  "title": "Bug 17894 - Open Mode Preference Not Reset by Restore Defaults",
+  "description": "When attempting to reset the Open Mode preference to its default values using the 'Restore Defaults' option, the expected behavior is not observed. The Open Mode preference remains unchanged even after performing this action.",
+  "OB": "Upon selecting 'Restore Defaults' in the Workbench preferences after changing the Open Mode to 'Single Click' and selecting both checkboxes, the Open Mode preference remains set to 'Single Click,' and the checkboxes are not cleared.",
+  "EB": "When the 'Restore Defaults' option is chosen in the Workbench preferences, it is expected that the Open Mode preference should revert to its default setting, which is 'Double Click,' and both checkboxes should be cleared.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the Workbench preferences in the application.\n2. Under the 'Open Mode' section, change the setting to 'Single Click' and select both checkboxes.\n3. Click on the 'Restore Defaults' button.\n4. Observe that the Open Mode preference is not reset to 'Double Click,' and the checkboxes remain selected."
+}

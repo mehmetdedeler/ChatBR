@@ -1,0 +1,1 @@
+{"bug_id": "5974", "title": "Bug 5974Can size parts so small they're invisible", "description": "Build 20011112.By dragging sashes, you can resize views and editors so small they're invisible.We should set a minimum size."}

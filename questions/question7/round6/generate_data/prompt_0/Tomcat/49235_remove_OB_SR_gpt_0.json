@@ -1,0 +1,8 @@
+{
+  "id": "49235",
+  "title": "Bug 49235 - ServletContainerInitializer onStartup(Set<Class<? classSet is not expect class",
+  "description": "Bug 49235 - ServletContainerInitializer onStartup(Set<Class<? The output is 'MySomeClass'.",
+  "OB": "The output 'MySomeClass' is observed.",
+  "EB": "classSet is not expected to contain 'MySomeClass'.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Execute ServletContainerInitializer onStartup with the provided Set<Class<?> classSet.\n2. Observe the output and note the presence of 'MySomeClass' in classSet."
+}

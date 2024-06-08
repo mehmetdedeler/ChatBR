@@ -1,0 +1,8 @@
+{
+  "id": "120216",
+  "title": "Bug 120216 - Group dialog not displayed when dataset is not set",
+  "description": "The group dialog is not being displayed when attempting to create a new table group without setting a dataset.",
+  "OB": "When adding a table report item without setting a dataset and trying to create a new table group, the group dialog does not appear. Users are unable to define a group when the dataset is not defined.",
+  "EB": "The group dialog should be displayed even when the dataset is not set. Users should be able to define a group without specifying a dataset.",
+  "SR": "1. Open the application and create a new project.\n2. Add a table report item to the project.\n3. Do not set a dataset for the table report item.\n4. Attempt to create a new table group.\n5. Observe that the group dialog is not displayed.\n6. Expected behavior: The group dialog should appear, allowing users to define a group even when the dataset is not defined."
+}

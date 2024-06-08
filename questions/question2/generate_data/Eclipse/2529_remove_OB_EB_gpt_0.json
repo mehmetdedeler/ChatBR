@@ -1,0 +1,8 @@
+{
+  "id": "2529",
+  "title": "Bug 2529 - Open/Close Project Availability Issue (1GFKW5S)",
+  "description": "Bug 2529 - Open/Close Project Availability Issue (1GFKW5S) Currently, the ability to open or close a project is not consistently available in the Navigator. This issue occurs when both P1 and P2 are selected.",
+  "OB": "In the Navigator, the options to open or close a project do not consistently appear when multiple projects are selected.",
+  "EB": "The expected behavior is that the 'Open Project' and 'Close Project' options should always be available in the Navigator, regardless of how many projects are selected. Users should be able to open and close projects as needed.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Create two projects, named P1 and P2.\n2. In the Navigator, select P2.\n3. Observe that the 'Open Project' and 'Close Project' options may not always be available as expected."
+}

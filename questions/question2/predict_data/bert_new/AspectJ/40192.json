@@ -1,0 +1,1 @@
+{"id": "40192", "title": "Bug 40192build cancel during weaving", "description": "Bug 40192build cancel during weaving ", "OB": "The build can not be cancelled during the bytecode weaving stage. ", "EB": "", "SR": ""}

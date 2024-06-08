@@ -1,0 +1,8 @@
+{
+  "id": "102623",
+  "title": "Bug 102623: Image not refreshing after re-import",
+  "description": "",
+  "OB": "When attempting to refresh an imported image by re-importing, the original image remains displayed.",
+  "EB": "After re-importing the image, the display should update to show the newly imported image instead of retaining the original one.",
+  "SR": "1. Import a new image named 'image1.jpg' into the layout view. 2. Delete 'image1.jpg' from the outline image. 3. Rename 'image2.jpg' as 'image1.jpg'. 4. Observe the display to verify if the image refreshes as expected."
+}

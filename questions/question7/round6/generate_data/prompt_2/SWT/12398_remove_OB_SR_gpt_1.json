@@ -1,0 +1,8 @@
+{
+  "id": "12398",
+  "title": "Bug 12398: Accessibility problems",
+  "description": "Bug 12398: Accessibility problems. I need to first click on one of the 'live' areas before it starts working (e.g., the banner with the tool buttons, the nav frame, or the content frame.",
+  "OB": "Upon initial launch, the Help view does not respond to keyboard input until a 'live' area, such as the banner with tool buttons, the navigation frame, or the content frame, is clicked.",
+  "EB": "The Help view should be responsive to keyboard input immediately upon launch, without requiring the user to click on any specific area.",
+  "SR": "1. Launch the application.\n2. Observe that the Help view does not respond to keyboard input.\n3. Click on one of the 'live' areas, such as the banner with tool buttons, the navigation frame, or the content frame.\n4. Notice that after clicking, the Help view becomes navigable via the keyboard."
+}

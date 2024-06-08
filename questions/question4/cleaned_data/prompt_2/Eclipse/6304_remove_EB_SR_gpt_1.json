@@ -1,0 +1,8 @@
+{
+  "id": "6304",
+  "title": "Bug 6304 - Unable to synchronize a .java file and another resource",
+  "description": "When attempting to synchronize a .java file with another resource, the following issue occurs:",
+  "OB": "The synchronization process fails when trying to synchronize a .java file with another resource.",
+  "EB": "The synchronization process should successfully synchronize a .java file with another resource without any errors.",
+  "SR": "1. Open the project in the IDE.\n2. Navigate to a .java file that needs synchronization.\n3. Attempt to synchronize the .java file with another resource.\n4. Observe the synchronization failure."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "12906",
+  "title": "Bug 12906[Editor Mgmt] Unable to open a file in multiple editors simultaneously",
+  "description": "Bug 12906[Editor Mgmt] If a file is already opened in one editor, attempting to open it in another editor does not display a warning or error message.",
+  "OB": "When attempting to open a file that is already open in another editor, the system allows the operation without providing any notification or warning.",
+  "EB": "However, there should be a warning or error message displayed, informing the user that the file is already open in another editor and cannot be opened simultaneously in multiple editors.",
+  "SR": "1. Open a file in one editor.\n2. Attempt to open the same file in another editor.\n3. Observe the absence of a warning or error message."
+}

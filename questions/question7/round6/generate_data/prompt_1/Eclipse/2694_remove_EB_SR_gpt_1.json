@@ -1,0 +1,8 @@
+{
+  "id": "2694",
+  "title": "Bug 2694: Editor Selection Dialog UI Improvements",
+  "description": "The Editor Selection Dialog requires enhancements related to enabling multiple selections, marking the default entry, providing a width hint for the dialog, and addressing the File editors Pref page height growth issue.",
+  "OB": "No selection is possible, but the OK button is enabled.",
+  "EB": "The OK button should only be enabled when at least one item is selected. Additionally, the default entry in the associated editors list should be visibly marked as '(default)'. The dialog should provide support for multiple selections. A width hint should be applied to the dialog window. The File editors Pref page should not expand in height upon selection; it should maintain consistent behavior as other pages.",
+  "SR": "1. Open the Editor Selection Dialog.\n2. Observe the enabled state of the OK button when no item is selected.\n3. Attempt to mark an entry as default in the associated editors list.\n4. Try to select multiple items within the dialog.\n5. Verify the width of the dialog window.\n6. Navigate to the File editors Pref page and compare its behavior in height upon selection with other pages to identify the discrepancy."
+}

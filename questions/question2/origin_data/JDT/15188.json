@@ -1,0 +1,1 @@
+{"bug_id": "15188", "title": "Bug 15188Persist \"update references\" refactoring preference", "description": "The \"Move\" refactoring dialog should persist the \"Update references to the movedelement(s)\" preference.In addition, the default setting for the button should be ON. The common casefor a refactoring is that the user wants us to update references."}

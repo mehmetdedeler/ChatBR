@@ -1,0 +1,1 @@
+{"bug_id": "11407", "title": "Bug 11407[Preferences] ScopedPreferenceStoreneedsSaving always returns true", "description": "CVSDecoratorPreferencesPage performOk()does a CVSDecorator.refresh() even ifthe user has already hit Apply.Since decorator updating is expensive, this isneedlessly expensive."}

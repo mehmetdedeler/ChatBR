@@ -1,0 +1,8 @@
+{
+  "id": "17423",
+  "title": "Bug 17423: Revert appears twice in the popup menu.",
+  "description": "There are two 'Revert' options in the menu.",
+  "OB": "Two 'Revert' options are present in the menu.",
+  "EB": "There should be only one 'Revert' option, and it should be disabled.",
+  "SR": "Steps to Reproduce:\n1) Open a Java editor.\n2) Make the editor dirty.\n3) Popup the menu. The 'Revert' option should appear only once, disabled, after the 'UNDO' option and before the 'FORMAT' option."
+}

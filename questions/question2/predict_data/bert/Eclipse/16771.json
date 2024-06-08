@@ -1,0 +1,1 @@
+{"id": "16771", "title": "Bug 16771Actions rely on localization support.", "description": " Bug 16771Actions rely on localization support.", "OB": " Accelerators that use Spaces (Content assist and parameter assist) do not workin Locales other than English (tested in German and Italian with the sameresults).", "EB": "", "SR": ""}

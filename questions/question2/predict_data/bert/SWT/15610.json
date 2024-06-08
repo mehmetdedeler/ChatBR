@@ -1,0 +1,1 @@
+{"id": "15610", "title": "Bug 15610StyledText  DoubleClickDrag doesn't work, works on Text", "description": " Bug 15610StyledTextDoubleClickDrag doesn't work, works on Text", "OB": " A doubleclickdrag (click, and then press again without releasing) doesn'twork.This is typically used to swipeselect, but at the word boundary.Thisis what the Text control does.", "EB": "", "SR": ""}

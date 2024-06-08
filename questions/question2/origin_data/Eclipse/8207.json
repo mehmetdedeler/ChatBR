@@ -1,0 +1,1 @@
+{"bug_id": "8207", "title": "Bug 8207Editor contributions disapper on perspective switch", "description": "Build 20021222 open the Java perspective open a Java file switch to Debug perspective. Observe that the editor contributions tothe Toolbar are gone. switch back to Java perspective. Still no editor toolbar contributions"}

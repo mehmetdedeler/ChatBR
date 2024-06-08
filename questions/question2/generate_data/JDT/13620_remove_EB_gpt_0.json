@@ -1,0 +1,8 @@
+{
+  "id": "13620",
+  "title": "Java Source Attachment Preference Page Excessive White Space",
+  "description": "The Java Source Attachment Preference Page displays an info label with excessive white space, causing a layout issue.",
+  "OB": "On the Java Source Attachment Preference Page, there is an info label that is positioned in the middle of the page, and it has an excessive amount of white space around it.",
+  "EB": "The expected behavior is that the info label should be positioned with proper alignment, and there should not be excessive white space around it. The vertical alignment should be set to SWT.ALIGN_BEGINNING.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Load a project from the repository.\n2. Select a source folder.\n3. Open the Properties dialog.\n4. Select Java Source Attachment.\n5. Observe that the info label is in the middle of the dialog with excessive white space."
+}

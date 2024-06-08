@@ -1,0 +1,8 @@
+{
+    "id": "7734",
+    "title": "Bug 7734: System can be shut down without savefile warnings",
+    "description": "",
+    "OB": "",
+    "EB": "The system does not provide a 'Do you want to save your file' dialog box when attempting to shut down. It does not give any warnings or options to save the file before shutting down. Instead, it immediately shuts down without any prompts or user intervention.",
+    "SR": "To reproduce the issue, follow these steps:1. Open a file in the application.2. Make some changes to the file.3. Try to shut down the system.4. Notice that there is no 'Do you want to save your file' dialog box or any options to save the file.5. The system shuts down immediately without any prompts or user intervention."
+}

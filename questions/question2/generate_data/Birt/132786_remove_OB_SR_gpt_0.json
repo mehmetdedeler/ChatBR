@@ -1,0 +1,8 @@
+{
+  "id": "132786",
+  "title": "Value2 not cleaned after converting operator from between to equal in highlight rule",
+  "description": "When using the 'between' operator with values 1 and 3, the color is set to blue. However, the issue is that Value2 is not cleaned after converting the operator from 'between' to 'equal' in the highlight rule.",
+  "OB": "Currently, in the xml source, value2 is not cleaned when the operator is changed from 'between' to 'equal' in the highlight rule.",
+  "EB": "Value2 should be automatically cleaned or reset when the operator is changed from 'between' to 'equal' in the highlight rule. This means that in the xml source, Value2 should be empty or set to the appropriate default value.",
+  "SR": "Steps to reproduce:\n1. Save the report.\n2. Examine the generated xml source.\n3. Change the operator from 'between' to 'equal' in the highlight rule.\n4. Check the xml source for the status of Value2.\n\nExpected result:\nIn the xml source, Value2 should be cleaned or set to the appropriate default value when the operator is changed to 'equal'.\n\nActual result:\nIn the xml source, Value2 is not cleaned and retains its previous value."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "44164",
+  "title": "Update needed in javadoc for constructor Image(Device, ImageData)",
+  "description": "There's a discrepancy in the constructor Image(Device, ImageData) javadoc that needs correction. Below is an example code that triggers an exception while attempting to create an Image object from a valid ImageData object.",
+  "OB": "The code provided throws an exception when attempting to create an Image object from a valid ImageData object.",
+  "EB": "This information regarding the discrepancy should be added to the javadoc for clarity and to guide users effectively.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Import org.eclipse.swt.graphics.\n2. Use the provided code snippet to attempt Image creation from ImageData, resulting in the exception."
+}

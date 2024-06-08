@@ -1,0 +1,8 @@
+{
+  "id": "114470",
+  "title": "Bug 114470[Smoke] Error message thrown when using new Date('3/2/2005') as a value in table filter",
+  "description": "When attempting to filter a table with the date '3/2/2005', an error message is generated.",
+  "OB": "When attempting to filter a table with the date '3/2/2005', an error message is generated.",
+  "EB": "The expected behavior is that when using 'new Date('3/2/2005')' as a value in the table filter, it should not result in an error message, and the table should be filtered accordingly.",
+  "SR": "1. Open the application.\n2. Navigate to the table filter feature.\n3. Enter 'new Date('3/2/2005')' as the filter value.\n4. Observe the error message being thrown."
+}

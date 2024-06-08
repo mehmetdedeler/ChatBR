@@ -1,0 +1,8 @@
+{
+  "id": "24779",
+  "title": "Bug 24779[Perspectives] Reference to invalid views are not removed",
+  "description": "When attempting to remove a reference to invalid views in Eclipse perspectives, the operation fails. This issue persists despite multiple attempts to resolve it (tried and failed eight times).",
+  "OB": "Upon opening Eclipse, a view associated with a plugin that is easily removable (e.g., the EditorList plugin) remains referenced even after removal. Subsequently, switching to another perspective (e.g., 'Java' perspective) results in having two open perspectives. Upon closing Eclipse, removing or moving the plugin, and then switching to the perspective containing the removed view triggers an 'Unable to restore perspective...' error message.",
+  "EB": "The expected behavior is that references to views associated with removed plugins should be properly removed when switching perspectives or closing Eclipse. Users should not encounter 'Unable to restore perspective...' error messages in such scenarios.",
+  "SR": "1. Open Eclipse.\n2. Open a view associated with a plugin that can be easily added and removed (e.g., the EditorList plugin).\n3. Open another perspective (e.g., the 'Java' perspective), resulting in two open perspectives.\n4. Close Eclipse.\n5. Remove or move the plugin.\n6. Switch to the perspective containing the view that no longer exists.\n7. Observe the 'Unable to restore perspective...' error message.\n8. Close and restart Eclipse to verify the absence of error messages."
+}

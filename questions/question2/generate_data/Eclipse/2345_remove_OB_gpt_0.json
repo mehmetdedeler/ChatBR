@@ -1,0 +1,8 @@
+{
+  "id": "2345",
+  "title": "Bug 2345[Editor Mgmt] Open with a different type of editor has no effect if file already open (1GEWMSQ)",
+  "description": "Bug 2345[Editor Mgmt] Open with a different type of editor has no effect if file already open (1GEWMSQ)",
+  "OB": "When attempting to open a file with a different type of editor that is already open, nothing happens. It simply reactivates the scripted resource editor example, even though the file type is different.",
+  "EB": "Reproduce the steps in 1GEWMOZ:\n- Create a new basic project.\n- Create a new file named 'test.xml'.\n- The editor used by default is the scripted resource editor example, which ignores the XML file content.\n- In the Navigator, select 'test.xml'.\n- Choose 'Open With...' and then select 'Default Text Editor'.\n- Expected behavior: A new editor should open for 'test.xml' with the default text editor, as the editor type is different.",
+  "SR": "Reproduce the steps in 1GEWMOZ:\n1. Create a new basic project.\n2. Create a new file named 'test.xml'.\n3. The editor used is the scripted resource editor example, which ignores the XML file content.\n4. In the Navigator, select 'test.xml'.\n5. Choose 'Open With...'\n6. Select 'Default Text Editor'.\n\nNotes: When searching for an existing open file, it should consider the editor types and open a new editor if the type is different."
+}

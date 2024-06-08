@@ -1,0 +1,1 @@
+{"bug_id": "20461", "title": "Bug 20461WinCE  Wait cursor does not show up", "description": "BusyIndicator does not work on WinCE.The following codeCursor cursor = new Cursor(display, SWT.CURSORWAIT);Shell.setCursor (cursor);only works after the user taps on the screen, which is not useful."}

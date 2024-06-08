@@ -1,0 +1,8 @@
+{
+  "id": "17993",
+  "title": "Bug 17993 Find/Replace shouldn't replace typed entry with value from history",
+  "description": "The bug report suggests that the Find/Replace feature is replacing the typed entry with a value from the history, causing issues for users.",
+  "OB": "The observed behavior is that when using the Find/Replace dialog, if you type in the 'Find' or 'Replace With' fields, the software searches for entries from a previous search in the history. If it finds a matching entry, it replaces what you've typed with the value from the history. The search is case-insensitive, which results in the case of what you've typed being changed to match the value in the history. This behavior can make it impossible to perform find or replace operations.",
+  "EB": "The expected behavior is that what a user types into the 'Find' or 'Replace With' fields should not be automatically replaced with values from the history. The user's input should not be modified unless they explicitly choose a value from the history. This behavior is similar to common find/replace functionality in text editors and software applications.",
+  "SR": "To reproduce the issue:\n1. Use the F1 build of the software.\n2. Access the Find/Replace dialog through Edit > Find/Replace...\n3. Type 'a' into the 'Find' field and click 'Find'.\n4. Attempt to type 'A' into the 'Find' field. Observe that you are unable to type 'A' as it is replaced with 'a' from the history."
+}

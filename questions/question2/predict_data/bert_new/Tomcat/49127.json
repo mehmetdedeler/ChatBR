@@ -1,0 +1,1 @@
+{"id": "49127", "title": "Bug 49127SimpleTcpReplicationManager.startInternal() ignores Exception", "description": "Bug 49127SimpleTcpReplicationManager.startInternal() ignores Exception ha.session.SimpleTcpReplicationManager.startInternal() ignores Exception when invoking Thread.sleep()it only needs to ignore InterruptedException. ", "OB": "", "EB": "", "SR": ""}

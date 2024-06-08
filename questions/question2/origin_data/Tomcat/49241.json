@@ -1,0 +1,1 @@
+{"bug_id": "49241", "title": "Bug 49241DataSourceFactory.parsePoolProperties() doesn't look for \"suspectTimeout\"", "description": "If you call the DataSourceFactory.parsePoolProperties() method, passing in a Properties object with the \"suspectTimeout\" property set, that key/value pair is never passed on to the PoolProperties.setSuspectTimeout() method."}

@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '49195', 'title': 'Bug 49195Using 1 as shutdown port with Windows service works, but prints error message', 'description': ' 1. Specify <Server port="1" in server.xml3. That can be used to differentiate the two use cases.There could be improvements on how to stop Tomcat. System.exit(0) would work regardless of all that.I suppose that jsvc may show the same behaviour, but I have not tried.', 'OB': '', 'EB': ' If that is the case, it would be better to use wait(10000) instead of sleep(10000) in StandardServer.await(), so that it could be woken by a notifyAll() call, or use interrupt() call to wake it up (if we know the thread).', 'SR': ' Install Tomcat as a service on Windows2. Start the service, and then stop the service.4. Shut down server through OS signal. E.g., to call Catalina.stop().'}
+</BUG REPORT>

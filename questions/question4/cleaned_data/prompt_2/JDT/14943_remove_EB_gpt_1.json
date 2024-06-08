@@ -1,0 +1,8 @@
+{
+  "id": "14943",
+  "title": "Bug 14943: Code Assist generates incorrect line endings on Windows",
+  "description": "Code Assist does not respect platform line ends when generating code.",
+  "OB": "When using code assist to create a for loop with a temporary variable, the resulting code contains LF linefeeds on a Windows machine.",
+  "EB": "Code Assist should generate code with CRLF line endings on Windows machines to maintain platform consistency.",
+  "SR": "Steps to Reproduce:\n1. Open the IDE and create a new class.\n2. Add a method to the class.\n3. Use Code Assist to define a local variable for an array within the method.\n4. Observe the line endings in the generated code on a Windows machine."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "7945",
+  "title": "Bug 7945 - Search Results Not Selected in External JAR",
+  "description": "In Build 200201151, there is a bug where search results are not automatically selected when searching for references to a field in an external JAR.",
+  "OB": "When searching for references to this field, if you double-click on the search result, the first match is not selected.",
+  "EB": "The expected behavior is that you should get 3 matches in the 'getTempDir()' method when searching for references in an external JAR.",
+  "SR": "To reproduce this issue:\n1. Make sure you have JDK 1.3.1 set as the default JRE (and that you have the source for rt.jar).\n2. Open the 'java.io.File' class.\n3. Select the field 'tmpFir'.\n4. Search for references to this field.\n5. Double-click on the search result.\n6. Observe that the first match is not automatically selected.\n7. Verify that you should get 3 matches in the 'getTempDir()' method."
+}

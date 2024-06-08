@@ -1,0 +1,8 @@
+{
+  "id": "121170",
+  "title": "Bug 121170 - get column label from meta data object should return recognizable strings",
+  "description": "",
+  "OB": "When using the 'getcolumnlabel' function before data extraction, it currently does not return user recognizable strings. Instead, it returns some unidentified labels.",
+  "EB": "The 'getcolumnlabel' function should return the same user recognizable strings both before and after data extraction. This is crucial as these labels are displayed to the end user.",
+  "SR": "1. Initialize the system.\n2. Use the 'getcolumnlabel' function on a meta data object before data extraction.\n3. Note the labels returned.\n4. Proceed with data extraction.\n5. Again, use the 'getcolumnlabel' function on the same meta data object after extraction.\n6. Compare the labels obtained before and after extraction. They should be identical."
+}

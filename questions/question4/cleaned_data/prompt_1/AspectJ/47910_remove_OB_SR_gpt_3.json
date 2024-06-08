@@ -1,0 +1,8 @@
+{
+  "id": "47910",
+  "title": "Bug 47910: ajc outjar jarfile missing MANIFEST.MF",
+  "description": "When calling ajc with the parameters sourceroots <mydir outjar <my.jar, an output file with a .jar extension is created. However, this file is not a valid jar file because it does not contain a MANIFEST.MF file. The documentation for ajc suggests that outjar should create a zip file, but it does not make sense for a parameter called outjar to create a zip file.",
+  "OB": "The generated JAR file should include the required MANIFEST.MF file within the METAINF directory.",
+  "EB": "If the outjar parameter is used, the resulting file should be a valid jar file and include the MANIFEST.MF file.",
+  "SR": "The ajc compiler should generate a valid jar file with the MANIFEST.MF file when the outjar parameter is used."
+}

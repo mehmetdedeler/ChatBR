@@ -1,0 +1,8 @@
+{
+  "id": "6536",
+  "title": "Javadoc Not Added When Selecting 'Add Javadoc' on Field in Type Hierarchy",
+  "description": "When attempting to add Javadoc on a field in the Type Hierarchy view, the 'Add Javadoc' action is not functioning as expected.",
+  "OB": "When selecting 'Add Javadoc' from the context menu on a field in the Type Hierarchy view, nothing happens.",
+  "EB": "I expect that when I select 'Add Javadoc' from the context menu on a field in the Type Hierarchy view, it should add the Javadoc for that field. Alternatively, if this functionality is not supported, the 'Add Javadoc' option should be removed from the context menu to avoid confusion.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the Type Hierarchy view.\n2. Select a field in the Type Hierarchy view.\n3. Right-click on the selected field to open the context menu.\n4. From the context menu, choose 'Add Javadoc'.\n5. Observe that nothing happens, indicating that the Javadoc is not added to the field."
+}

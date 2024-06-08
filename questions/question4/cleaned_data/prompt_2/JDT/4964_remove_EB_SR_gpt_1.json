@@ -1,0 +1,8 @@
+{
+  "id": "4964",
+  "title": "Automatic Code Assist Issue with Incorrect Insertion",
+  "description": "While writing SWT code, when typing 'button.dispose', the code assist list pops up. I don't notice it and continue typing. When I reach 'button.dispose(', the automatic code assist inserts the first item from the list, 'DISPOSED', instead of completing the 'dispose()' method. This results in incorrect code completion, forcing me to delete and rewrite it.",
+  "OB": "While typing 'button.dispose(', the automatic code assist inserts 'DISPOSED' instead of completing 'dispose()'.",
+  "EB": "The code assist should recognize the context of the typed characters 'dispose(' and suggest completing the 'dispose()' method instead of other unrelated suggestions like 'DISPOSED'.",
+  "SR": "1. Open SWT code for a button.\n2. Type 'button.dispose'.\n3. Observe the code assist list pop-up with 'DISPOSED' and other suggestions.\n4. Continue typing '(' immediately after 'dispose'.\n5. Note how the code assist inserts 'DISPOSED' instead of completing 'dispose()'."
+}

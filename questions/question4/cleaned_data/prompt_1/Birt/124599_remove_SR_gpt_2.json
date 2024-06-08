@@ -1,0 +1,8 @@
+{
+  "id": "124599",
+  "title": "Bug 124599 - Shortcut delete and menu delete behave differently in table column",
+  "description": "Shortcut delete and menu delete exhibit inconsistent behavior in table column.",
+  "OB": "Shortcut delete and menu delete act differently in the table column.",
+  "EB": "Expected behavior is that both shortcut delete and menu delete should behave consistently. Undo it and click delete in the context menu.",
+  "SR": "Steps to reproduce:\n1. Perform a shortcut delete.\n2. Undo it.\n3. Click delete in the context menu.\nExpected result: Both actions should behave the same way.\nActual result:\n- In step 2, the entire grid in the group header was deleted.\n- In step 3, the grid in the group header remained untouched."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "11314",
+  "title": "Bug 11314 - Incorrect Package Name Compression",
+  "description": "The issue relates to incorrect package name compression in the 'Replace package name fragments' preferences.",
+  "OB": "When entering 'com.ibm.foobar' in the 'Replace package name fragments with:' field, it gets replaced with 'co~.ib~.foobar'. This behavior contradicts the expectation that package name compression should only replace a fragment if the compressed name is actually smaller. For example, 'com.' should not be replaced since 'co~.' is the same length and contains less information.",
+  "EB": "The package name compression should adhere to the rule that it only replaces a fragment if the compressed name is shorter while retaining the necessary information.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Using Build 20020214, access the preferences.\n2. In the 'Replace package name fragments with:' field, enter '2~.'."
+}

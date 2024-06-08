@@ -1,0 +1,8 @@
+{
+  "id": "13269",
+  "title": "Bug 13269: Incorrect operation order in jarpackager",
+  "description": "Bug 13269: Incorrect operation order in jarpackager. The same issue is observed for the '.jardesc' file. Perhaps a warning in the wizard's header (now that an icon is shown as well) would be better in the case of the '.jardesc' file than a dialog box at the end. If the user wants that, they should use the 'save the manifest in the workspace' option combined with the 'reuse and save the manifest in the workspace' option. [20020409. JRT.]",
+  "OB": "The bug report lacks specific details about the observed issue. Based on the description, it seems the issue is related to an incorrect operation order in the jarpackager. Additional information about the unexpected behavior and the steps to reproduce it would be helpful.",
+  "EB": "Either way, not overwriting this file should not cause the wizard to not complete its operation. The 'use existing manifest from workspace' option should not save a new manifest file. Please provide more details on the steps to reproduce the issue and the expected behavior to facilitate a more accurate resolution.",
+  "SR": "Please include detailed steps to reproduce the problem, including any specific configurations or inputs used. Additionally, clarify the expected behavior of the jarpackager in both the general case and when dealing with '.jardesc' files. This information is crucial for an effective resolution of the reported bug."
+}

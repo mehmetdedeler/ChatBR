@@ -1,0 +1,8 @@
+{
+  "id": "116829",
+  "title": "Label height doesn't change with label font modification",
+  "description": "Description: When the label font size is modified, the label's height doesn't change immediately. This should occur instantly. Steps to reproduce:",
+  "OB": "After modifying the font size of the label, the label's height remains the same in the UI.",
+  "EB": "The label's height should adjust to match the font size changes when the label's font is modified.",
+  "SR": "1. Open the application where labels are used.\n2. Locate a label element in the UI.\n3. Modify the font size of the label.\n4. Observe that the label's height does not change to accommodate the font size change, which is the unexpected behavior."
+}

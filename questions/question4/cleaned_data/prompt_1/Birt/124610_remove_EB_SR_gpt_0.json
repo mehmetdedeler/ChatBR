@@ -1,0 +1,1 @@
+{"id": "124610", "title": "Add a filter on a boolean computed column causes an error", "description": "", "OB": "When a filter is added on a boolean computed column, an error occurs.", "EB": "", "SR": ""}

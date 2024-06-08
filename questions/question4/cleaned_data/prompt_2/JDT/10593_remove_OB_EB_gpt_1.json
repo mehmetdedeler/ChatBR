@@ -1,0 +1,8 @@
+{
+  "id": "10593",
+  "title": "Bug 10593: Jar export should add \".jar\" suffix if not specified",
+  "description": "When exporting files using the jar export feature, the generated jar file does not automatically include the \".jar\" suffix if it is not specified in the name.",
+  "OB": "Upon exporting files with the jar export feature and providing a name without the \".jar\" suffix, the resulting jar file is created without the expected suffix.",
+  "EB": "The jar export functionality should automatically append the \".jar\" suffix to the generated jar file if not explicitly provided in the name.",
+  "SR": "1. Open Build 20020228.\n2. Select some files for export.\n3. Choose the jar export option.\n4. Enter a name without the \".jar\" suffix, for example, enter \"test\" as the jar name.\n5. Observe that the generated jar file is created with the name \"test\" instead of \"test.jar\" as expected."
+}

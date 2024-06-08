@@ -1,0 +1,1 @@
+{"bug_id": "5161", "title": "Bug 5161More info in Console open on type dialog", "description": "When open on type gets multiple hits in the same package you cannot determinewhich file you are opening.For example, if I have one version of a class insource, and one in a jar, then I have no idea which one I'm opening."}

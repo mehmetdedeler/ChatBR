@@ -1,0 +1,8 @@
+{
+  "id": "38131",
+  "title": "Bug 38131: Missing '-d' option in ajc compiler",
+  "description": "When using ajc 1.1rc1, there's a regression issue where compiling classes from a subpackage results in unexpected directory creation. This seems to diverge from the behavior of javac, possibly related to changes in the Eclipse compiler used. To reproduce:",
+  "OB": "Compiling a class within a subpackage using ajc results in the creation of an additional 'subpackage' directory within the existing 'subpackage' directory.",
+  "EB": "The expected behavior should mirror javac's behavior, avoiding the creation of an extra 'subpackage' directory.",
+  "SR": "1. Create a class in a subpackage, e.g., 'subpackage/Test.java' with a 'main' method printing 'Hello'.\n2. Compile using 'ajc subpackage\\Test.java'.\n3. Observe the creation of an extra 'subpackage' directory."
+}

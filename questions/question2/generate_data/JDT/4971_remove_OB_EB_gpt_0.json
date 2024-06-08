@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Strange 'copy package' behavior in project 2031",
+  "description": "When working with project 2031 in org.eclipse.jdt.internal.ui of jdt.ui3, there is an issue related to the 'copy package' functionality. Selecting 'xxx' as the destination for the copy operation seems to result in unexpected behavior.",
+  "OB": "The 'copy package' operation does not behave as expected when 'xxx' is chosen as the destination.",
+  "EB": "The expected behavior is that when 'xxx' is selected as the destination for the 'copy package' operation, it should successfully copy the package without any unexpected issues or errors.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create a new project with the name 'xxx'.\n2. Navigate to the Package viewer within the project.\n3. Select a package in the project (e.g., from the context menu).\n4. Choose the 'copy package' option and select 'xxx' as the destination."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "128359",
+  "title": "Logic Error in Table Filter When Applied to Layout",
+  "description": "When a filter is added to the table on the layout, the logic is not working correctly. We observe that the dataset has 10 records (DataResultA).",
+  "OB": "When dragging the dataset to the layout and setting another filter (FilterB) on the table, the actual result is that the result of FilterB is based on DataResultA. However, the expected result is that the result of FilterB should be based on DataResultB.",
+  "EB": "The expected behavior is that when a filter (FilterB) is added to the table on the layout, it should correctly base its result on DataResultB, not DataResultA.",
+  "SR": "To reproduce the issue:\n1. Drag the dataset to the layout.\n2. Set FilterB on the table.\n3. Observe that the result of FilterB is based on DataResultA, not DataResultB."
+}

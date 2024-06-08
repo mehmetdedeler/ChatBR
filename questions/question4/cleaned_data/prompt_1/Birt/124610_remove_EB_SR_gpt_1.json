@@ -1,0 +1,8 @@
+{
+  "id": "124610",
+  "title": "Bug 124610: Adding a filter on a boolean computed column causes an error.",
+  "description": "When attempting to add a filter on a boolean computed column, an error occurs.",
+  "OB": "When trying to apply a filter to a boolean computed column, the system throws an error.",
+  "EB": "Filters should be successfully applied to boolean computed columns without triggering errors.",
+  "SR": "1. Navigate to the table with a boolean computed column.\n2. Attempt to add a filter to the boolean computed column.\n3. Observe the error that occurs."
+}

@@ -1,0 +1,8 @@
+{
+    "id": "6322",
+    "title": "All types dialog shows obfuscated classes",
+    "description": "JDK 1.4 includes obfuscated classes (a, a1, b, c, d) which are showing up prominently in the Open Type dialog.",
+    "OB": "The Open Type dialog prominently displays obfuscated classes (a, a1, b, c, d) from JDK 1.4.",
+    "EB": "Obfuscated classes (a, a1, b, c, d) should be displayed with less prominence in the Open Type dialog.",
+    "SR": "To reproduce:\n1. Launch the software and navigate to the Open Type dialog.\\n2. Observe the presence of obfuscated classes (a, a1, b, c, d) from JDK 1.4."
+}

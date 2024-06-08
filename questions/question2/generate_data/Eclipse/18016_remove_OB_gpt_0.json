@@ -1,0 +1,8 @@
+{
+  "id": "18016",
+  "title": "Most Menu Actions Should Be Disabled for Custom Files from Repository",
+  "description": "In Bug 18016, most menu actions should be disabled for custom files from the repository, but the rest is meaningless and they should be removed.",
+  "OB": "Currently, when viewing a custom file from the repository, many menu actions are available and functional, which is not intended behavior. The actions are active and can be executed, including actions like 'Copy,' 'Paste,' and 'Delete,' which should be disabled for these files.",
+  "EB": "The expected behavior is that most menu actions should be disabled for custom files from the repository. These actions should be inactive and not clickable. Additionally, the 'Convert Line Delimiters' action should also be disabled for such files.",
+  "SR": "To reproduce this issue:\n1. Open the repository view.\n2. Select a custom file, such as a .java file."
+}

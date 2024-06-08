@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '134488', 'title': 'Bug 134488Set page break for table inside list group header will cause data display error.', 'description': '', 'OB': 'Bug 134488Set page break for table inside list group header will cause data display error. ', 'EB': '', 'SR': 'Description:Set page break for table inside list group header will cause data display error.Steps to reproduce:1. Insert a list with a group2. Insert a table to list group header3. Set pagebreakbefore to always to table.4. Preview in web viewer/html/pdf. '}
+</BUG REPORT>

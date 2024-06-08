@@ -1,0 +1,1 @@
+{"id": "5340", "title": "Bug 5340 - Cancelling add exception breakpoint has no effect", "description": "", "OB": "", "EB": "", "SR": "1) Go to the breakpoints pane in the debug perspective. 2) Click the J! button to add an exception breakpoint. 3) In the progress dialog that appears after clicking the button, click the cancel button."}

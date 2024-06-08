@@ -1,0 +1,8 @@
+{
+  "id": "50016",
+  "title": "Bad division of responsibility around isUserInRole and new Request login/logout methods",
+  "description": "There are two issues causing a problematic division of responsibility:\n\n1. The Request.isUserInRole function is attempting to prevent JACC implementations but is not functioning correctly. Currently, in the Tomcat implementation, roleref mappings are first applied to the provided role before testing the target role. JACC requires constructing a roleref permission using the current servlet name and the supplied (unmapped) role.\n\n2. Both isUserInRole and the new login/logout methods should be directly delegated to the Authenticator. Additionally, the Authenticator should have the capability to decide whether it wants to cache authentication results.",
+  "OB": "The current implementation of isUserInRole reports true for both roles A and B when a user in role A (true) is not in role B (false).",
+  "EB": "To align with a JACC implementation, Request.isUserInRole should provide the original role and, if possible, the servlet name to the wrapper. Moreover, if there is a mapping, only the mapped role should be checked. A user in role A (true) and not in role B (false) should accurately reflect these conditions.",
+  "SR": "Steps to Reproduce:\n1. Set up a user in role A and not in role B.\n2. Use the Request.isUserInRole function to test if the user is in role A (true) and not in role B (false).\n3. Observe the function's output for both roles A and B."
+}

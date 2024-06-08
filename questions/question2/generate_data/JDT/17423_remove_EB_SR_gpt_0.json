@@ -1,0 +1,8 @@
+{
+  "id": "17423",
+  "title": "Revert Option Appears Twice in the Popup Menu",
+  "description": "There are two Revert options in the menu.",
+  "OB": "In the popup menu, the Revert option appears twice.",
+  "EB": "The expected behavior is that only one instance of the Revert option should be displayed in the menu.",
+  "SR": "To reproduce the issue:\n1. Open the application.\n2. Right-click anywhere to open the popup menu.\n3. Observe that the Revert option is listed twice in the menu."
+}

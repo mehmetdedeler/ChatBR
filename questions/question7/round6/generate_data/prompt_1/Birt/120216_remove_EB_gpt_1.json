@@ -1,0 +1,8 @@
+{
+  "id": "120216",
+  "title": "Bug 120216 - Group dialog not displayed when dataset is not set",
+  "description": "The bug report lacks sufficient details in the Observed Behavior (OB), Expected Behavior (EB), and Steps to Reproduce (SR) sections. I will infer and supplement the missing information for clarity.",
+  "OB": "When attempting to create a new table group without setting the dataset, an error is displayed.",
+  "EB": "As per template requirements, the user interface should not perform validation. Therefore, the group dialog should be displayed even when the dataset is not set.",
+  "SR": "1. Add a table report item.\n2. Do not set the dataset.\n3. Try creating a new table group. The group dialog should be displayed despite the dataset not being set."
+}

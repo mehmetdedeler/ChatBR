@@ -1,0 +1,1 @@
+{"id": "7369", "title": "Bug 7369NPE in JUnit plugin in JUnit Launch wizard", "description": " Bug 7369NPE in JUnit plugin in JUnit Launch wizard", "OB": "", "EB": "", "SR": " 1) select a project with no test cases2) press the run button so that the launcher selection dialog shows up3) select JUnit and press next"}

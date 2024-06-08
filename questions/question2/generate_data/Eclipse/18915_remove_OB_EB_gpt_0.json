@@ -1,0 +1,8 @@
+{
+  "id": "18915",
+  "title": "Error Dialog Expected When Switching Between Erroneous Preferences Pages",
+  "description": "The issue pertains to the warning dialog that appears when switching between erroneous preferences pages in the software.",
+  "OB": "When I enter invalid data on any preference page and then attempt to select another page without rectifying the problem, a warning dialog is displayed. The warning message states: 'The currently displayed page contains invalid values.'",
+  "EB": "I expect an 'error' dialog to be displayed instead of a 'warning' dialog when trying to switch to another preferences page with validation errors. This is because users should not be allowed to leave the page without addressing the validation issues.",
+  "SR": "To reproduce the issue:\n1. Go to any preferences page in the software.\n2. Enter invalid data on the page, causing validation errors to be shown on the UI.\n3. Try to select another preferences page without fixing the validation errors.\n4. Observe the warning dialog, which should be an 'error' dialog according to the expected behavior."
+}

@@ -1,0 +1,8 @@
+{
+"id": "123044",
+"title": "Bug 123044: Preview in PDF doesn't apply page break as expected",
+"description": "Description: When attempting to preview an attached file in PDF format, the page break in the first item is not being implemented correctly.",
+"OB": "Upon attempting to preview an attached file in PDF format, the page break in the first item is not being implemented correctly.",
+"EB": "When previewing the file in PDF format, the first page should appear blank because the first item has the 'pagebreakbefore' attribute set to 'always'.",
+"SR": "Steps to reproduce:\n1. Open the relevant file in the software.\n2. Click on the 'Preview' option to view the file in PDF format.\n3. Check the first item to verify whether the page break is being applied correctly."
+}

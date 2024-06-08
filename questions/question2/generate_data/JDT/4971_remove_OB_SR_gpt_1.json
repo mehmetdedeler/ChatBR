@@ -1,0 +1,8 @@
+{
+  "id": "4971",
+  "title": "Bug 4971 - Strange 'copy package'",
+  "description": "When attempting to copy a package in version 2031 of the 'org.eclipse.jdt.internal.ui' in the 'jdt.ui', selecting 'xxx' as the destination package leads to unexpected behavior.",
+  "OB": "When selecting 'xxx' as the destination package for the copy operation, the software exhibits unexpected behavior.",
+  "EB": "The expected behavior is that the destination should be 'org.eclipse.jdt.internal.ui' instead of 'xxx' for the copy package operation.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open version 2031 of 'org.eclipse.jdt.internal.ui' in 'jdt.ui'.\n2. Attempt to copy a package.\n3. When prompted to select the destination package, choose 'xxx'."
+}

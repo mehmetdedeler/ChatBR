@@ -1,0 +1,8 @@
+{
+  "id": "23267",
+  "title": "Import Project lacks default folder in Import/Export feature",
+  "description": "When using the Import/Export feature (Bug 23267), there is a missing default folder for Import Project.",
+  "OB": "While importing an existing Eclipse project on Windows XP and clicking the Browse button, a dialog opens without a default folder.",
+  "EB": "The expected behavior is that Import Project should have a default folder preselected. It would be convenient if the software could remember the last folder from which I've imported a project.",
+  "SR": "To reproduce the issue:\n1. Open the software and navigate to the Import/Export feature.\n2. Select 'Import Project.'\n3. On Windows XP, click the 'Browse' button.\n4. Observe that the dialog does not have a default folder preselected."
+}

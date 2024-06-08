@@ -1,0 +1,1 @@
+{"bug_id": "6696", "title": "Bug 6696Code completion should indicate deprecated methods", "description": "The icon for deprecated methods should be overlaid with a warning icon."}

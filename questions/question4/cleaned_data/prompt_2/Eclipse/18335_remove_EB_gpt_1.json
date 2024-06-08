@@ -1,0 +1,8 @@
+{
+  "id": "18335",
+  "title": "Bug 18335: Perspective contents lost when view is maximized",
+  "description": "When maximizing a view within a perspective in F1, all contents of the perspective (including views and layout information) are lost except for the maximized view. The code for maximizing a view seems to replace the entire page layout with a temporary one containing only the maximized view.",
+  "OB": "Upon maximizing a view within any perspective in F1, all other views and layout information disappear, leaving only the maximized view visible.",
+  "EB": "Upon maximizing a view, the expected behavior is that the other views and layout information within the perspective remain intact alongside the maximized view.",
+  "SR": "To reproduce the issue:\n1. Switch to another perspective.\n2. Exit the workbench.\n3. Reopen the workbench.\n4. Switch back to the perspective with the previously maximized view."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "23935",
+  "title": "Bug 23935 - Focus Issue with Text Widget in a Tree Parent",
+  "description": "The bug report addresses a focus issue in which a Text widget, when placed as a child of a Tree widget, does not lose focus as expected. Both widgets are children of the shell. The issue appears to be platform-specific, affecting non-Windows platforms, and a potential workaround is suggested, involving creating the text editor as a sibling of the tree and positioning it above the tree.",
+  "OB": "The observed behavior is that when you click anywhere in the tree, the tree widget gains focus. However, on Linux, the Text widget does not lose focus when you click on the tree. This issue occurs because the Text widget is a child of the Tree widget. The bug report also mentions platform UI bug 2470, which is likely related to this issue.",
+  "EB": "The expected behavior is that, when interacting with the Tree widget, the Text widget should lose focus as intended, providing a consistent user experience across different platforms.",
+  "SR": "To reproduce the issue:\n1. Create a shell.\n2. Add a Tree widget and a Text widget as children of the shell.\n3. Click anywhere in the Tree widget.\n4. Observe that the Tree widget gains focus, but the Text widget does not lose focus, particularly on Linux."
+}

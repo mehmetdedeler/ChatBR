@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Bug 123036 Data in a report is doubly stored",
+  "description": "",
+  "OB": "The issue observed is that data is being stored twice in the system.",
+  "EB": "The expected behavior is that data should be stored only once, either in the content stream or by DtE, but not both.",
+  "SR": "To reproduce the bug, follow these steps:\n1. Input data into the system.\n2. Trigger the content stream storage process.\n3. Perform an action that triggers DtE storage.\n4. Check the system to observe the data being stored twice."
+}

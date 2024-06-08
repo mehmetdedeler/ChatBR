@@ -1,0 +1,8 @@
+{
+  "id": "14113",
+  "title": "Bug 14113: Failure to Trigger FSOURCEATTACHED and FSOURCEDETACHED Java Deltas",
+  "description": "Bug 14113: The system is failing to respond to FSOURCEATTACHED and FSOURCEDETACHED Java deltas.",
+  "OB": "Currently, when FSOURCEATTACHED and FSOURCEDETACHED Java deltas occur, there is no observable behavior or response from the system. The class file editor does not refresh to reflect the new source.",
+  "EB": "Upon encountering FSOURCEATTACHED and FSOURCEDETACHED Java deltas, the expected behavior is for the system to refresh the class file editor automatically. This ensures that the new source is reflected in the editor without any manual intervention.",
+  "SR": "1. Open a project in the IDE.\n2. Introduce FSOURCEATTACHED or FSOURCEDETACHED Java deltas.\n3. Observe that the class file editor does not refresh automatically to reflect the changes."
+}

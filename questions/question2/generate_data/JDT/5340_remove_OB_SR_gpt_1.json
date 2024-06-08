@@ -1,0 +1,8 @@
+{
+  "id": "5340",
+  "title": "Cancelling add exception breakpoint has no effect",
+  "description": "When attempting to cancel the process of adding an exception breakpoint, the software does not respond as expected.",
+  "OB": "When trying to cancel the addition of an exception breakpoint, the progress dialog does not close as it should.",
+  "EB": "The progress dialog should close immediately when the user attempts to cancel adding an exception breakpoint. Furthermore, when the exception list is displayed, it should either honor the cancellation request and not add the breakpoint or disable the cancel button. To achieve this, when calling ProgressMonitorDialog.run, the 'cancellable' parameter should be set to 'false'.",
+  "SR": "1) Start the software and navigate to the exception breakpoint addition process. 2) Begin the process of adding an exception breakpoint. 3) While the progress dialog is visible, attempt to cancel the operation. 4) Observe that the progress dialog should close immediately, and the exception list should either not add the breakpoint or have the cancel button disabled."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "21706",
+  "title": "Bug 21706 - BidiUtil in Win32 Throws NoClassDefFoundError",
+  "description": "The usage of Class.forName() in BidiUtil in Win32 is causing a NoClassDefFoundError.",
+  "OB": "The issue arises from the line in org.eclipse.swt.internal.BidiUtil: 'static Callback callback = new Callback (BidiUtil.class, \"windowProc\", 4);'. This uses 'BidiUtil.class', which essentially means 'Class.forName(\"org...BidiUtil\")'. However, this method throws a NoClassDefFoundError, which isn't defined in the CLDC class libraries. This issue is specific to the CLDC version of SWT and is only visible during verification using jxeLink or similar tools. The Eclipse compiler doesn't produce an error, assuming NoClassDefFoundError is available. Hence, this requires a modification.",
+  "EB": "The line causing the issue should be changed to: 'static Callback callback = new Callback (new BidiUtil().getClass(), \"windowProc\", 4);'. This change removes the reflection usage and is expected to yield the same functionality without throwing the NoClassDefFoundError.",
+  "SR": "To replicate the issue:\n1. Navigate to the line 'static Callback callback = new Callback (BidiUtil.class, \"windowProc\", 4);' in org.eclipse.swt.internal.BidiUtil.\n2. Run the application in the CLDC version of SWT or use jxeLink for verification.\nExpected behavior: After changing the line to 'static Callback callback = new Callback (new BidiUtil().getClass(), \"windowProc\", 4);', the NoClassDefFoundError should no longer occur."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "11863",
+  "title": "Bug 11863: Update Test Suite action behavior and naming issue",
+  "description": "",
+  "OB": "The 'Update Test Suite' action does not behave as expected. It should normally show the content of the existing items (directory, zip file) and allow for modification, but it does something different.",
+  "EB": "The expected behavior is that the 'Update Test Suite' action should display the existing content and allow for modification, as the name implies. There is also a naming issue that could be resolved by renaming the action and the dialog to 'Recreate Test Suite' to better reflect its actual behavior.",
+  "SR": "To reproduce the issue:\n1. Perform an update on a test suite that contains 'X'.\n2. Observe that the 'Update Test Suite' action does not behave as expected, and its behavior is different from what the name suggests."
+}

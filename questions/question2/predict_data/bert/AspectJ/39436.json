@@ -1,0 +1,1 @@
+{"id": "39436", "title": "Bug 39436[Tasks] No summary shown in status line", "description": " Bug 39436[Tasks] No summary shown in status line", "OB": " build I20030625The old tasks view showed a summary of the number of tasks, errors, warningsand infos in the status line.This is missing in the reworked view.", "EB": "", "SR": ""}

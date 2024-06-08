@@ -1,0 +1,8 @@
+{
+  "id": "49299",
+  "title": "Bug 49299 - Servlet 3.0 ch.7.1.1 Custom Cookie Name Issue",
+  "description": "The issue is related to the discrepancy between the documentation in chapter 7.1.1 of servlet30finalspec.pdf and the actual behavior of session tracking cookies and URL rewriting.",
+  "OB": "In chapter 7.1.1 of servlet30finalspec.pdf, it is stated that if a web application configures a custom name for its session tracking cookies, the same custom name will also be used as the name of the URI parameter if the session ID is encoded in the URL (provided that URL rewriting has been enabled). However, the actual behavior observed is that the page sends the following cookie:\n\nSet-Cookie: MYSESSIONCOOKIE=658C60E714E9C7C833F4FDA366E0477F; Path=/cookiename; HttpOnly\n\nBut the Reload link on the page uses 'jsessionid' in the URL.",
+  "EB": "The expected behavior is that, as per the documentation, when a web application configures a custom name for its session tracking cookies, that custom name should also be used as the name of the URI parameter if the session ID is encoded in the URL when URL rewriting is enabled. Therefore, the URI for the Reload link should have used the custom cookie name instead of 'jsessionid'.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Deploy the provided war file (cookiename.war).\n2. Access the application at http://localhost:8080/cookiename/\n3. Observe the behavior where the URI for the Reload link uses 'jsessionid' instead of the custom session cookie name, contrary to the expected behavior described in the documentation."
+}

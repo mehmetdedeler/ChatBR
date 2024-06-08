@@ -1,0 +1,1 @@
+{"bug_id": "17277", "title": "Bug 17277Java Editor: converting line delimiters and undo", "description": "If I convert line delimiters for a file and then choose 'undo' only the lastdelimiter is changed. My test file had 3000 lines :)"}

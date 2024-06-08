@@ -1,0 +1,8 @@
+{
+  "id": "24411",
+  "title": "Bug 24411[Welcome] Mouse click on link should select link",
+  "description": "Bug 24411[Welcome] Mouse click on link should select link",
+  "OB": "When clicking on a link in the welcome page, the link is not visually selected upon returning to the welcome page.",
+  "EB": "After clicking on any link in the welcome page, the link should be visually selected when the user returns to the welcome page.",
+  "SR": "1. Open the application and ensure the welcome page is displayed (verify using the specified build - 20021001).\n2. Remove the welcome page from the workbench metadata by editing the 'prefstore.ini' file.\n3. Click on any link in the welcome page.\n4. Observe that the appropriate action is executed, but the clicked link is not visually selected when you return to the welcome page."
+}

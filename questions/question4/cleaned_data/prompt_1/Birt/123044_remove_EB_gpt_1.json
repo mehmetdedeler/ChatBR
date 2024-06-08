@@ -1,0 +1,8 @@
+{
+  "id": "123044",
+  "title": "Bug 123044 - Preview attached file in PDF, page break missing in the first item",
+  "description": "Description: Preview attached file in PDF, and the page break in the first item didn't happen. Steps to reproduce: 1.",
+  "OB": "When previewing the attached file in PDF, the expected page break in the first item did not occur.",
+  "EB": "The first item in the PDF preview should display a page break as intended.",
+  "SR": "Steps to reproduce: 1. Open the attached file in PDF. 2. Navigate to the first item. 3. Observe that the page break is missing."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "124066",
+  "title": "Bug 124066: 'Insert Chart' not translated in Chinese context menu",
+  "description": "In the context menu, 'Insert Chart' is not translated into Chinese.",
+  "OB": "When right-clicking in the layout to bring up the context menu, the 'Insert Chart' option is not translated into Chinese.",
+  "EB": "Expected behavior: The 'Insert Chart' option in the context menu should be translated into Chinese.",
+  "SR": "Steps to reproduce:\n1. Create a report in a Chinese environment."
+}

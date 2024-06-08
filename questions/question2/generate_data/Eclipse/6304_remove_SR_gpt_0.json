@@ -1,0 +1,8 @@
+{
+  "id": "6304",
+  "title": "Cannot Synchronize .java File and Another Resource",
+  "description": "When attempting to synchronize a .java file with another resource, the expected functionality is not present.",
+  "OB": "When I try to synchronize a .java file with another resource, I cannot find the 'Team' entry in the context menu.",
+  "EB": "I expect to see the 'Team' entry in the context menu when trying to synchronize a .java file with another resource. It should be available.",
+  "SR": "To reproduce the issue:\n1. Open the software project in which the .java file is located.\n2. Locate the .java file you want to synchronize.\n3. Right-click on the .java file to open the context menu.\n4. Look for the 'Team' entry in the context menu. It should be there, but it's missing."
+}

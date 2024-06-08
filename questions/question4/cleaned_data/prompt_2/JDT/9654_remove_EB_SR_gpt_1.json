@@ -1,0 +1,8 @@
+{
+  "id": "9654",
+  "title": "Bug 9654 - Modify Parameters: Dialog Details",
+  "description": "Bug 9654 - Modify Parameters: Dialog details contain duplicated name validation on the first page. The first and second columns appear to be merged.",
+  "OB": "a. Buttons appear too small.\nb. When the dialog appears, no table entry is pre-selected. However, both move buttons are enabled.\nc. Changing a parameter name to something very long causes the preview to be cut off.\nd. The dialog appears excessively large for methods with numerous parameters.",
+  "EB": "a. Buttons should have an appropriate size for easy interaction.\nb. When the dialog appears, it should pre-select the first table entry. Move buttons should be appropriately disabled when no entry is selected.\nc. The preview should display the full name of parameters, even when they are long.\nd. The dialog should adjust its size dynamically based on the number of parameters.",
+  "SR": "1. Open the 'Modify Parameters' dialog.\n2. Note the size of the buttons.\n3. Observe if any table entry is pre-selected upon opening the dialog.\n4. Change a parameter name to a lengthy one and observe if the preview gets cut off.\n5. Check the dialog size for methods with numerous parameters."
+}

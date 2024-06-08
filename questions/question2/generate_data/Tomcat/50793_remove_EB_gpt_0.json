@@ -1,0 +1,8 @@
+{
+  "id": "50793",
+  "title": "Bug 50793 - Invalid DispatchType in ServletRequestListener on async dispatch",
+  "description": "The bug report points out an issue with the DispatcherType value when a ServletRequestListener is invoked after a call to AsyncContext.dispatch(). It incorrectly returns REQUEST instead of ASYNC.",
+  "OB": "The observed behavior is that when a ServletRequestListener is invoked after a call to AsyncContext.dispatch(), the DispatcherType returned from the ServletRequest is REQUEST, which is incorrect.",
+  "EB": "The expected behavior is that after calling AsyncContext.dispatch(), the DispatcherType returned from the ServletRequest should be ASYNC, indicating the asynchronous nature of the dispatch operation.",
+  "SR": "To reproduce the issue: 1. Set up a ServletRequestListener. 2. Trigger an AsyncContext.dispatch() operation within your servlet. 3. Observe the DispatcherType returned from the ServletRequest in the ServletRequestListener. It should return REQUEST when it should actually be ASYNC."
+}

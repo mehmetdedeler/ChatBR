@@ -1,0 +1,8 @@
+{
+  "id": "22839",
+  "title": "Swt window affects other window palettes when in focus",
+  "description": "The provided code appears to be related to an issue where an SWT window, when in focus, affects the palettes of other windows and vice versa. This behavior is unexpected and problematic.",
+  "OB": "When an SWT window is in focus, it causes interference with the palettes of other windows, and the same interference occurs when other windows are in focus.",
+  "EB": "When using SWT windows, the palettes of other windows should not be affected by the focus state of a specific window. Each window's palette should remain isolated and unaffected by the focus state of other windows.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Run the provided Java code, ensuring that the SWT library is properly configured.\n2. Open multiple SWT windows.\n3. Select one of the windows to bring it into focus.\n4. Observe the interference or unexpected behavior in the palettes of other windows when they are not in focus."
+}

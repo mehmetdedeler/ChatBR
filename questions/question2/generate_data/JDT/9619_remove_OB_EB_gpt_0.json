@@ -1,0 +1,8 @@
+{
+  "id": "9619",
+  "title": "Bug 9619 - Issues with 'Move Static Member' Dialog Details",
+  "description": "The user reported several issues related to the 'Move Static Member' dialog. The issues include small 'Browse' button size, misleading use of the title text, and offering destination types that are from source types.",
+  "OB": "The observed behavior consists of several issues, although the specific details are not provided in the report.",
+  "EB": "The expected behavior is not explicitly stated, but it can be inferred that the user expects these issues to be addressed and resolved.",
+  "SR": "The steps to reproduce the issues are not provided in the report. However, the user mentioned a problem with 'Browse' offering a type from a CU in a different project."
+}

@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '109718', 'title': 'Bug 109718Put large content in text item, the tips shows the content in one line', 'description': ' INTRODUCTION 32. SOME OF THE ERROR MESSAGE DOESN?? ?T HAVE ENOUGH INFORMATION FOR USER TOIDENTIFY THE ERROR. 42.5 ADD JAVASCRIPT OBJECT 42.6 SUPPORT DROP IN THE GROUP HEADER 42.7 PROVIDE UNDOABLE TRANSACTION 42.8 USER PROPERTY REVISION 52.9 HELP GUI TO FILTRATE THE UNNECESSARY NOTIFICATIONS 53. ELEMENT EXTENSION 65. Save and put mouse on the text itemExpected Result:tips shows in given formatActual Result:tips shows in one line', 'OB': '', 'EB': ' THE PARAMETER FOR ELEMENT NAME AND PROPERTY NAME SHOULD BEPROVIDED.', 'SR': ' Steps to reproduce:1.Insert a text in the layout, input "Contents1. MINOR ENHANCEMENTS 32.1 PROVIDE PROPERTY GROUP INFORMATION ON ELEMETNDEFN CLASS 32.2 COMPLETE THE TODO TASKS 32.3 REVIEW RESULT 32.4 MESSAGE FILE ENHANCEMENT 4CURRENTLY WE STORE THE ERROR MESSAGE FOR EXCEPTIONS IN THE MESSAGE.PROPERTYFILE. NEW FEATURES 53.1 RHINO EXPRESSION PARSER 53.2 STRUCTURE TYPE SUPPORT 63.3 NEW SYSTEM 64. QA TEST SUPPORTING 7"2.'}
+</BUG REPORT>

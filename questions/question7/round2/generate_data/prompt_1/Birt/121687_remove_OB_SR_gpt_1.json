@@ -1,0 +1,1 @@
+{"id": "121687", "title": "Bug 121687: Exception thrown when exporting data from a table inside a grid cell", "description": "", "OB": "The bug report lacks a description of the observed behavior.", "EB": "When attempting to export data from a table inside a grid cell, an exception is thrown.", "SR": "The bug report lacks steps to reproduce the issue."}

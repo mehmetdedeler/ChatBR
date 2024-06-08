@@ -1,0 +1,8 @@
+{
+  "id": "129569",
+  "title": "Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window",
+  "description": "Bug 129569HCGBIDI: Undesirable order of BiDI chars in Query window. This is a BiDI specific defect. Follow the steps below to reproduce the issue.",
+  "OB": "In the Query screen of the Edit Data Set dialog, the order of BiDi (Hebrew or Arabic) characters is disrupted. Specifically, in the 1st and 3rd rows, the character order is mixed up, making it impossible to read the query. In the 1st row, the column name and part of the table name are swapped, and in the 3rd row, the constant, table name, and column name are all jumbled together.",
+  "EB": "The expected behavior is that the order of BiDi characters in the Query screen should be correct and readable. To achieve this, add the following condition to the 'where' portion of the SQL query: tomer.tomerREMOT.EMANNMULOC != 'OLLEH world'.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the Query window in the Edit Data Set dialog.\n2. Enter the following SQL query: 'select tomer.tomerEMANNMULOC.REMOT' and 'from tomer.tomerREMOT.EMANNMULOC != 'OLLEH world'.\n3. Observe the undesirable order of BiDi characters in the query screen."
+}

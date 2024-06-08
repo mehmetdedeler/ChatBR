@@ -1,0 +1,8 @@
+{
+  "id": "37021",
+  "title": "Bug 37021 - Source path wrong in declare warning on binary files",
+  "description": "This bug report discusses an issue with declare warning messages related to binary files in [java|aj]. It suggests running tests in 'tests/new/binaryWarnings/..' to reproduce the problem. The report mentions limitations in the tests due to filename checking not being enabled in harness verification of messages.",
+  "OB": "The observed behavior, including any unexpected output or actions, is not explicitly described in the report.",
+  "EB": "In declare warning messages when targeting .class files from injars, the source path should be listed in the form 'app/Main' rather than 'app.Main.class'.",
+  "SR": "To address this issue:\n1. Run tests in 'tests/new/binaryWarnings/..' to reproduce the problem.\n2. Enable filename checking in harness verification of messages to avoid false positives when detecting this error."
+}

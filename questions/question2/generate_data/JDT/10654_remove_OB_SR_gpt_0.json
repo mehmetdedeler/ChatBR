@@ -1,0 +1,8 @@
+{
+  "id": "10654",
+  "title": "Bug 10654 - Allow Adding All Jars in a Folder to Build Path",
+  "description": "This bug report addresses the request for a new feature related to adding jar files to the build path.",
+  "OB": "Currently, the observed behavior is not explicitly described in the report. It appears to be a feature request or enhancement proposal.",
+  "EB": "The expected behavior, as suggested by the reporter, is to enable the use of a classpath variable to point to an entire directory, allowing all jar files in that directory to be added to the build path. This would be similar to the installed extensions feature of the Java launcher, where users can specify the system property java.ext.dirs to point to a list of directories containing jar files that are automatically added to the classpath.",
+  "SR": "To reproduce or implement this feature:\n1. Open the software development environment.\n2. Access the build path settings for a project.\n3. Add a new classpath variable or feature that allows pointing to a directory containing jar files.\n4. Ensure that all jar files in the specified directory are automatically added to the build path.\n\nThe user suggests this feature after using a class contained in the WebSphere Test Environment plugin (in WSAD4.0)."
+}

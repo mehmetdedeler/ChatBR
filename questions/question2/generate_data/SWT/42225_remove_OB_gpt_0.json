@@ -1,0 +1,8 @@
+{
+  "id": "42225",
+  "title": "Bug 42225 - Issue with Ctrl+Backspace Key Assignment",
+  "description": "This bug report addresses difficulties in assigning a command to the Ctrl+Backspace key combination.",
+  "OB": "The observed behavior is that, out of the box, Ctrl+Backspace should delete the previous word.",
+  "EB": "The expected behavior is that, out of the box, Ctrl+Backspace should delete the previous word. It should perform this action without any misinterpretation.",
+  "SR": "To replicate the issue:\n1. Utilize a Swiss German keyboard with Swiss German locale settings.\n2. Open the keybinding manager or key preference page in the software.\n3. Attempt to assign a command to Ctrl+Backspace.\n\nDesired Outcome: Out of the box, Ctrl+Backspace should correctly delete the previous word without any misinterpretation.\n\nActual Outcome: The keybinding manager misinterprets Ctrl+Backspace as Ctrl+Del, resulting in the deletion of the next word, and incorrectly displays Ctrl+Del when trying to reassign the key."
+}

@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '38131', 'title': 'Bug 38131ajc needs d . option while correctly compiling classes from subpackage', 'description': 'Bug 38131ajc needs d . I am using 1.1rc1. This is a regression since rc1 and a deviation from javac.I am guessing this may have to do something with change in the underlyingEclipse compiler.Create a class in a subpackage such as:package subpackage;public class Test {public static void main(String[] args) {System.out.println("Hello");}}Then compile using following command: ajc subpackage\\Test.javaYou will see a directory "subpackage" created under the existing "subpackage"directory. subpackage\\Test.javaor javac subpackage\\Test.javaNo big deal, really. ', 'OB': '', 'EB': 'But it will be nice to have same behavior as javac. ', 'SR': 'option while correctly compiling classes from subpackage '}
+</BUG REPORT>

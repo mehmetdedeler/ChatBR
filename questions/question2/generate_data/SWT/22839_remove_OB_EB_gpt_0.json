@@ -1,0 +1,8 @@
+{
+  "id": "22839",
+  "title": "Bug 22839: Palette Colors Issue with SWT Windows in Focus",
+  "description": "The bug report discusses problems with palette colors when SWT (Standard Widget Toolkit) windows are in focus.",
+  "OB": "The observed behavior is missing from the bug report, so it's unclear what specific issues occur with palette colors.",
+  "EB": "The expected behavior is that when an SWT window comes into focus, it should not cause incorrect changes in the background window colors, and vice versa.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open an SWT window.\n2. Bring the SWT window into focus.\n3. Observe changes in background window colors.\n4. Open another window.\n5. Bring the new window into focus.\n6. Observe changes in SWT window colors. The bug report indicates this issue was tested on an Sh4 (BigSur/Tahoe) running WinCe 3.00 with j9 version 1.5 from wsdd 4.0 runtimes and SWT version 2104."
+}

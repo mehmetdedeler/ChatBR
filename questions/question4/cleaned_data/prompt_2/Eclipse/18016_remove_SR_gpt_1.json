@@ -1,0 +1,8 @@
+{
+  "id": "18016",
+  "title": "Most menu actions should be disabled for customizations from the repository",
+  "description": "Bug 18016 - Most menu actions should be disabled for customizations from the repository, as the current behavior is meaningless and they should be removed.",
+  "OB": "Six menu entries are enabled, but none of them perform any actions. These entries are: 'Open Declaration,' 'Open Type Hierarchy,' 'Open Super Implementation,' 'Show in Packages View,' 'Copy,' and 'Search.' 'Copy' could be made to mean something, but it does not work as of now. Structured selection is also affected (see bug 18015). Marking this issue as major, as it is likely to impact many users.",
+  "EB": "Additionally, the 'Convert Line Delimiters' option should be disabled.",
+  "SR": "1. Open the application and navigate to a customization from the repository.\n2. Observe that six menu entries ('Open Declaration,' 'Open Type Hierarchy,' 'Open Super Implementation,' 'Show in Packages View,' 'Copy,' 'Search') are enabled.\n3. Attempt to use these menu entries and note that none of them perform any actions.\n4. Try to use the 'Copy' option and observe that it does not work as expected.\n5. Check the structured selection, as mentioned in bug 18015, to see the impact.\n6. Additionally, verify that the 'Convert Line Delimiters' option is disabled when applicable."
+}

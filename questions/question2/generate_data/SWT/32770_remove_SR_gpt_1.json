@@ -1,0 +1,8 @@
+{
+  "id": "32286",
+  "title": "Button Tab changing styles resets button orientation",
+  "description": "Ensure that Eclipse is not running. Accept new configuration defaults. When using the Button controls from the SWT Controls example, if SWT.ARROW buttons are used and SWT.BORDER property is selected or deselected, the arrow alignment property of all the arrow buttons is reset to UP.",
+  "OB": "When using the Button controls from the SWT Controls example, if SWT.ARROW buttons are used and SWT.BORDER property is selected or deselected, the arrow alignment property of all the arrow buttons is reset to UP.",
+  "EB": "Select or deselect SWT.BORDER in the styles group to change button orientation without it being reset to UP.",
+  "SR": "1. Ensure that Eclipse is not running.\n2. Accept new configuration defaults.\n3. Open the SWT Controls view.\n4. Select or deselect SWT.BORDER in the styles group.\n5. Observe the arrow buttons changing their orientation as a result of the style change."
+}

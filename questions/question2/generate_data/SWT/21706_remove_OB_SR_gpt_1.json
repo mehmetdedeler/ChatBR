@@ -1,0 +1,8 @@
+{
+  "id": "21706",
+  "title": "Bug 21706: BidiUtil in win32 has Class.forName() usage",
+  "description": "The BidiUtil class in win32 uses Class.forName() and should have a private constructor.",
+  "OB": "The BidiUtil class in win32 currently uses Class.forName() for some purpose.",
+  "EB": "The expected behavior is to add a private constructor to the BidiUtil class. There are no non-static methods in this class, so it would be a good practice to make the constructor private to prevent unnecessary instantiation of the class. This change does not add any size to the class, as the compiler provides a free public constructor by default. Making the constructor private is a better design choice.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Access the BidiUtil class in a win32 environment.\n2. Examine the class's structure and code to find the usage of Class.forName()."
+}

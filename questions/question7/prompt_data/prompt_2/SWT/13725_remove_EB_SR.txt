@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '13725', 'title': 'Bug 13725Revert is much slower than close and reopen in java editor.', 'description': 'Bug 13725Revert is much slower than close and reopen in java editor. ', 'OB': 'answer "no" to the "do you want to save changes" dialog double click on the file in the navigator to reopen it.However, if I repeat steps 1) and 2), and then select "Revert" from the pop upmenu in the editor it takes15 seconds to replace the contents of the windowwith the original. ', 'EB': '', 'SR': ''}
+</BUG REPORT>

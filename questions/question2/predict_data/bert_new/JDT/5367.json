@@ -1,0 +1,1 @@
+{"id": "5367", "title": "Bug 5367Meaningless brackets presented with primitive display options", "description": "Bug 5367Meaningless brackets presented with primitive display options ", "OB": "With the primitive display options all turned on, booleans are rendered:enableCancelButton= false []doubles have the same problem ", "EB": "", "SR": ""}

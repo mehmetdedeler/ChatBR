@@ -1,0 +1,8 @@
+{
+  "id": "28974",
+  "title": "Compiler error when introducing a 'final' field",
+  "description": "When trying to compile the aspect below with version 1.1b2, it results in a compilation error. Making the intertype declaration nonfinal resolves the issue.",
+  "OB": "When attempting to compile the aspect with version 1.1b2, the following compilation error is produced: 'Cannot assign a value to the final field com.ibm.amc.DemoBean.ajc$interField$comibmamc$verbose.'",
+  "EB": "To resolve this issue, please navigate to WindowPreferencesJavaCode Generation to enable and disable the creation of type comments.",
+  "SR": "1. Open the AspectJ file 'com/ibm/amc/DemoBeanEJB.java'.\n2. Attempt to compile the aspect using version 1.1b2 of the compiler.\n3. Observe the compilation error 'Cannot assign a value to the final field com.ibm.amc.DemoBean.ajc$interField$comibmamc$verbose.'\n4. To resolve the issue, go to WindowPreferencesJavaCode Generation and configure the settings as needed."
+}

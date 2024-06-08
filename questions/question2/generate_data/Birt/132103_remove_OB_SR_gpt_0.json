@@ -1,0 +1,8 @@
+{
+  "id": "132103",
+  "title": "No objects under Context in palette when scripting a data set",
+  "description": "When attempting to script a data set, there is an issue with the Context section in the palette. It appears to be empty when it should not be.",
+  "OB": "When scripting a data set, the Context section in the palette is empty.",
+  "EB": "When scripting a data set, I expect to see objects listed under the Context section in the palette. Specifically, the objects related to the data set that is being scripted should be visible. This includes objects like tables, columns, and data sources. Additionally, I expect the option to script the 'BeforeOpen' event to be available in the Context section as well.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the software and navigate to the data set scripting interface.\n2. In the palette, locate the 'Context' section.\n3. Observe that there are no objects listed under the 'Context' section when there should be.\n4. Also, check if the 'BeforeOpen' event is missing from the available scripting options in the 'Context' section.\n5. Additionally, note that a related bug with ID 126110 exists."
+}

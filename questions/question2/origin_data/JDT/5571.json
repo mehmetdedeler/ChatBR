@@ -1,0 +1,1 @@
+{"bug_id": "5571", "title": "Bug 5571JAR Packager: Reveal first checked project", "description": "If the list of projects in the JAR Packager is long it is possible that theshown projects are not checked even though there are checked projects (due tocurrent selection).== reveal the first checked project."}

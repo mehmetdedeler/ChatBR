@@ -1,0 +1,8 @@
+{
+  "id": "50793",
+  "title": "Bug 50793: Incorrect DispatchType in ServletRequestListener during async dispatch",
+  "description": "Bug 50793 reports an issue with the DispatcherType in ServletRequestListener during async dispatch.",
+  "OB": "During async dispatch, the DispatcherType in ServletRequestListener is incorrectly set, leading to discrepancies between the expected and actual DispatcherType values.",
+  "EB": "The DispatcherType in ServletRequestListener during async dispatch should match the value returned in the filter/servlet when the actual servlet is invoked.",
+  "SR": "Steps to reproduce:\n1. Set up a servlet and filter with asynchronous dispatch.\n2. Implement a ServletRequestListener.\n3. Invoke the servlet within the filter.\n4. Observe the DispatcherType values in the ServletRequestListener for each dispatch."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "12428",
+  "title": "Bug 12428: Confusing Message in Pull Up Refactoring",
+  "description": "The Pull Up refactoring has a confusing message that needs correction.",
+  "OB": "During the Pull Up refactoring, the observed behavior includes:\n- The message in the 'Tree of Changes' section under 'Assert' reads: 'Copy method 'void setUp()' to type 'TestCase''. Here, 'TestCase' is shown with the fully qualified name.",
+  "EB": "The expected behavior in the Pull Up refactoring should have a clear and correct message:\n- The message should read: 'Copy method 'void setUp()' FROM type 'TestCase'' (with an uppercase 'C' in 'Copy').",
+  "SR": "To reproduce the issue:\n1. Perform the Pull Up refactoring on 'TestCase.setUp' (copies the method to 'Assert')."
+}

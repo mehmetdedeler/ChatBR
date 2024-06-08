@@ -1,0 +1,8 @@
+{
+  "id": "44164",
+  "title": "Update Needed in Javadoc for Constructor Image(Device, ImageData)",
+  "description": "Bug 44164 - Update needed in Javadoc for constructor Image(Device, ImageData).",
+  "OB": "The Javadoc for the constructor Image(Device, ImageData) is missing important documentation.",
+  "EB": "This should be added to the Javadoc to provide complete and accurate information for developers.",
+  "SR": "To reproduce the issue:\n1. Create a Java class, e.g., TestImageInvalidImage.\n2. Add the main method with the following code:\n\n```java\nImageData data = new ImageData(10, 10, 1, new PaletteData(0xff0000, 0x00ff00, 0x0000ff));\nImage image = new Image(Display.getDefault(), data);\n// image.dispose();\n```\n3. Run the program to see that the Javadoc is missing information for the constructor Image(Device, ImageData)."
+}

@@ -1,0 +1,12 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+OB(observed behavior): Relevant software behavior, action, output or result. Uninformative sentences like "the system does not work" are not considered OB. 
+EB(expected behavior): If sentence contains phrase that relevant what software should/hope/be expected occur, like "should...", "expect...", "hope..." should be considered EB. Suggestion or recommendation to solve bug can not be considered EB. 
+SR(steps to reproduce): If a sentence potential contains user's action or operation, should be considered SR. Like "to reproduce", "steps to reproduce", "follow these steps", can not be considered SR. 
+The bug report may not fully include or may be missing details on observed behavior(OB), expected behavior(EB), and steps to reproduce(SR).
+Your should infer appropriate details based on context and supplement a complete bug report with clear OB/EB/SR. 
+You should improve the wording of the existing OB, EB, SR statements for clarity when possible. For SR, you should give clear, accuracy and full steps when possible.
+You should output your response with JSON format {"id":"", "title":"", "description":"", "OB":"", "EB":"", "SR":""}
+
+<BUG REPORT>
+{'id': '3666', 'title': 'Bug 3666CodeCompletion  Hungry code assist (1GDRYW5)', 'description': ' Bug 3666CodeCompletionHungry code assist (1GDRYW5) jkca (5/15/2001 11:04:56 AM)jresdk 106Under certain circumstances code assist eats too much code.Consider the enclosed class.As a programmer, I must add aparameter to the baz call in bar to make the program correct.Steps:1. UI can decide whether it wants to use the codeassist end position (until the end of current identifier) or the cursor location it used to start with, so as to controlthe amount of source to replace. Removing codeassist option.', 'OB': '', 'EB': '', 'SR': ' Change the baz call tobaz(x.x.foo())2. Place the cursor after the first "x."3. CtrlSpace to bring up code assist4. Type "f" to filter the list.5. Select, "foo()"6.'}
+</BUG REPORT>

@@ -1,0 +1,1 @@
+{"bug_id": "116556", "title": "Bug 116556Smoke Test: visibility doesn't work properly.", "description": "Description: visiblity doesn't work properly.Steps to reproduce:1. Add a table and set its visiblity.2. Hide element in pdf and preview in html.Actual result: it is displayed neither in html nor in pdf."}

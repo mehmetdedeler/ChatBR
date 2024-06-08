@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Bug 123036 Data in a report is doubly stored",
+  "description": "The bug involves data being doubly stored in a report.",
+  "OB": "Currently, when viewing the generated report, duplicate entries of data are observed, leading to confusion and inaccuracies.",
+  "EB": "The expected behavior is that each piece of data should be stored and displayed only once in the report, ensuring accurate and non-redundant information.",
+  "SR": "Steps to reproduce:\n1. Generate a report using the specified parameters.\n2. Navigate to the generated report and observe the data entries.\n3. Compare the displayed data with the original input to identify duplicate entries.\n4. Confirm that the data is indeed stored twice, once in the content stream and once by DtE."
+}

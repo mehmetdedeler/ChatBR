@@ -1,0 +1,1 @@
+{"id": "6536", "title": "Add Javadoc on field in TH does nothing", "description": "", "OB": "When selecting a field in the Type Hierarchy view, no action is taken.", "EB": "Selecting a field in the Type Hierarchy view should trigger the addition of Javadoc.", "SR": "To reproduce the issue, follow these steps: 1. Open the Type Hierarchy view. 2. Select a field in the view."}

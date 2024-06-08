@@ -1,0 +1,8 @@
+{
+  "id": "6125",
+  "title": "Bug 6125 - JAR packager reports open files very late",
+  "description": "When pressing finish, the JAR creation fails with the error message 'Unsaved Editors'5.",
+  "OB": "The JAR packager reports open files very late, causing the creation process to fail with the error 'Unsaved Editors'5'.",
+  "EB": "",
+  "SR": "Ensure that the JAR packager reports open files in a timely manner to prevent creation failures. Investigate and address the issue causing the 'Unsaved Editors'5' error during JAR creation."
+}

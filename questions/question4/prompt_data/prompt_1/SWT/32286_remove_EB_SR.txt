@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '32286', 'title': 'Bug 32286ControlExample Button Tab  changing styles resets button orientation', 'description': 'Bug 32286ControlExample Button Tabchanging styles resets button orientation Ensure that Eclipse is not running. Accept new configuration defaults.4. Thebuttons will change to arrow buttons, pointng up.7. ', 'OB': 'Problem Description:When using the Button controls from the SWT Controls example, if SWT.ARROWbuttons are used and SWT.BORDER property is selected or deselected, the arrowalignment property of all the arrow buttons is reset to UP.Steps to Reproduce:1. Anew SWT Controls view appears.5. The arrowbuttons will change their orientation.8. The arrows will changetheir orientation back to "up".9. ', 'EB': '', 'SR': ''}
+</BUG REPORT>

@@ -1,0 +1,8 @@
+{
+  "id": "18705",
+  "title": "Bug 18705 - Too much flashing in Control Example",
+  "description": "The issue involves excessive flashing in the Control Example, and the cause is unclear.",
+  "OB": "When running the control example and resizing the window in the vertical direction only, it is observed that all tabs in the TabFolder and all Frames flash excessively.",
+  "EB": "Upon resizing the window in the vertical direction, the expected behavior is that tabs in the TabFolder and Frames should resize smoothly without excessive flashing.",
+  "SR": "1. Launch the control example.\n2. Resize the window in the vertical direction only.\n3. Observe excessive flashing in all tabs of the TabFolder and Frames."
+}

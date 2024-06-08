@@ -1,0 +1,8 @@
+{
+  "id": "5340",
+  "title": "Bug 5340 - Ineffective Cancellation of Adding Exception Breakpoint",
+  "description": "This bug report is related to the issue of cancelling the addition of an exception breakpoint.",
+  "OB": "The observed behavior is not specified in the report.",
+  "EB": "The expected behavior is that when clicking 'Cancel' in the progress dialog, the addition of the exception breakpoint should be effectively cancelled, and the operation should terminate immediately. Currently, the progress dialog closes immediately, and eventually, the exception list appears, ignoring the cancellation request. The cancel button should be disabled during the operation (when calling ProgressMonitorDialog.run, pass 'false' for the 'cancellable' parameter).",
+  "SR": "The steps to reproduce the issue are not provided in the report."
+}

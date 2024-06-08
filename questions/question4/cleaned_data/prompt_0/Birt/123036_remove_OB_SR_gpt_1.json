@@ -1,0 +1,8 @@
+{
+  "id": "123036",
+  "title": "Bug 123036: Data in a report is doubly stored",
+  "description": "Upon investigation, it appears that there is an issue with data duplication in the generated reports.",
+  "OB": "When generating a report, the data from the content stream is stored twice, leading to redundancy and potential data integrity issues. This is observed in the generated reports where the same information appears duplicated.",
+  "EB": "The instance stored by the content stream should not be duplicated in the generated reports. Each piece of data should be stored only once to ensure accurate and non-redundant information in the reports.",
+  "SR": "1. Open the application and navigate to the 'Generate Report' section.\n2. Select the parameters for the report.\n3. Initiate the report generation process.\n4. Examine the generated report for any duplicated data entries from the content stream."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "4974",
+  "title": "Set Classpath and Output Location Should Be Combined into One Operation",
+  "description": "The current behavior of the software in setting the classpath and output location is causing confusion due to a strange error message. This bug report aims to improve the software by combining these two operations into one and addressing the error message.",
+  "OB": "Currently, when attempting to set the classpath and output location in the software, users receive a strange error message.",
+  "EB": "The expected behavior is that setting the classpath and output location should be combined into one operation. This means that users should be able to specify both the classpath and output location simultaneously, making the process more intuitive. Additionally, the error message should be improved to provide a more meaningful description, such as 'Cannot nest '/xy/src' within '/xy.'",
+  "SR": "To reproduce this issue:\n1. Open the software.\n2. Navigate to the 'Set Classpath and Output Location' section.\n3. Attempt to set both the classpath and output location at the same time.\n4. Observe the strange error message that appears."
+}

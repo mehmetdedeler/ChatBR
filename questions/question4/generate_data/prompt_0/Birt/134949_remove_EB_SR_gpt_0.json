@@ -1,0 +1,32 @@
+{
+    "id": "chatcmpl-8G7ITDWal7pkOeNmYSXtQZ4a9m61r",
+    "object": "chat.completion",
+    "created": 1698851989,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": {
+                    "id": "134949",
+                    "title": "Bug 134949 - Themes nest in other library",
+                    "description": "Bug 134949 - Themes nest in other library\n\nDetails: Themes nest in other library\n\nStep: 1.",
+                    "OB": "When I open the Library tree of library A in the library explorer and attempt to drag and drop themes from library B into the layout, I encounter an issue. The actual result is that it pops up an error message, indicating that the library namespace 'B' already exists.",
+                    "EB": "I expect that I should be able to add themes from library B to the layout of library A without encountering any errors or conflicts. The system should handle the nesting of themes appropriately.",
+                    "SR": "To reproduce the issue:\n1. Open the Library tree of library A in the library explorer.\n2. Attempt to drag and drop themes from library B into the layout of library A."
+                }
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 406,
+        "completion_tokens": 162,
+        "total_tokens": 568
+    },
+    "origin": {
+        "input_prompt": "Your role is a senior software engineer, you are very good at analyzing and writing bug reports.\nIn your bug reports, it is essential to provide clear and informative statements for the following categories:\n- **Observed Behavior (OB):** This section should describe the relevant software behavior, actions, output, or results. Avoid vague statements like \"the system does not work.\"\n- **Expected Behavior (EB):** This part should articulate what the software should or is expected to do, using phrases like \"should...\", \"expect...\", or \"hope...\". Avoid suggestions or recommendations for bug resolution in this section.\n- **Steps to Reproduce (SR):** Include user actions or operations that can potentially lead to reproducing the issue. Use phrases like \"to reproduce,\" \"steps to reproduce,\" or \"follow these steps.\"\nIt is possible that the bug report may lack sufficient details in the OB, EB, and SR sections. In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements. Also, improve the wording of these statements for clarity where possible.\nTo facilitate this process, please provide your responses in JSON format as follows:\n{\"id\": \"\", \"title\": \"\", \"description\": \"\", \"OB\": \"\", \"EB\": \"\", \"SR\": \"\"}",
+        "input_content": "<BUG REPORT>\n{'id': '134949', 'title': 'Bug 134949Themes nest in other library', 'description': 'Bug 134949Themes nest in other library Details:Themes nest in other libraryStep:1. ', 'OB': 'I open the Library tree of A in library explorer and drop the themes from B into layout.Actual result:It pop up an error message and said that the library namespace \"B\" exists already.Exception result:I don\\'t konw if I can use by this method. ', 'EB': '', 'SR': ''}"
+    }
+}

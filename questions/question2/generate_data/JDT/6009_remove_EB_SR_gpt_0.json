@@ -1,0 +1,8 @@
+{
+  "id": "6009",
+  "title": "Bug 6009 - New Class Wizard Doesn't Get Context Right for Nested Classes",
+  "description": "This bug report pertains to an issue with the New Class Wizard's behavior in relation to nested classes.",
+  "OB": "The observed behavior reported is that the New Class Wizard fails to correctly identify the context for nested classes. However, the specific details of this behavior are not provided in the report.",
+  "EB": "The expected behavior should be clearly defined, but it's missing in the report. The ideal bug report should specify what the New Class Wizard should do correctly in the context of nested classes.",
+  "SR": "Steps to reproduce the issue are not provided in the report. For a more complete report, it should outline the exact steps that lead to the problem."
+}

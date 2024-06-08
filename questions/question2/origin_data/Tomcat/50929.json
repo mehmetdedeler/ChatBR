@@ -1,0 +1,1 @@
+{"bug_id": "50929", "title": "Bug 50929[patch] Ensure rethrown exceptions retain the original cause", "description": "Created attachment 26770 [details]Patch to fix problem in some filesWhere an exception is caught an rethrown, it helps to provide the original exception as the cause."}

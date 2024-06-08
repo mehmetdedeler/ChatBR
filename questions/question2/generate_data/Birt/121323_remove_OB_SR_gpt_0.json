@@ -1,0 +1,8 @@
+{
+  "id": "121323",
+  "title": "XML Edit Data Set dialog does not persist filter information",
+  "description": "",
+  "OB": "When using the XML Edit Data Set dialog, the filter information is not persisting after closing and reopening the dialog.",
+  "EB": "The XML Edit Data Set dialog should persist the filter information, allowing users to set a plain XPath expression (with the path from the data set selector itself) and retain this filter even after closing the dialog.",
+  "SR": "1. Open the XML Edit Data Set dialog.\n2. Enter a plain XPath expression with the path from the data set selector.\n3. Apply a filter as needed.\n4. Close the dialog.\n5. Reopen the dialog, and verify that the filter information is still present."
+}

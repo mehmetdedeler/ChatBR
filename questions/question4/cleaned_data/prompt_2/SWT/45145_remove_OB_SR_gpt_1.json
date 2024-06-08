@@ -1,0 +1,8 @@
+{
+  "id": "45145",
+  "title": "Bug 45145: Incorrect Window Behavior in Eclipse",
+  "description": "When working with multiple windows in Eclipse, the second window unexpectedly comes to the front without user intervention.",
+  "OB": "When navigating through tasks in the primary window, the secondary window pops to the front, interrupting the workflow. It happens intermittently and disrupts the expected flow of work.",
+  "EB": "The secondary window should remain in the background unless explicitly clicked upon, except in scenarios where user action naturally leads to interaction with elements in the other window.",
+  "SR": "Steps to reproduce:\n1. Open two separate windows in Eclipse.\n2. Begin performing tasks in the primary window.\n3. While actively engaged in the primary window, observe the secondary window unexpectedly gaining focus without direct interaction."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "3622",
+  "title": "Bug 3622: New Package Wizard has confusing message (1GD0L9O)",
+  "description": "When using the New Package Wizard, there is a confusing message displayed.",
+  "OB": "Upon invoking the New Java Package wizard, a message appears at the top: 'A folder corresponding to the package name already exists.'",
+  "EB": "Before entering any text in the package name field, no message should be displayed. The user should be able to create a package without encountering this warning.",
+  "SR": "1. Open the New Java Package wizard.\n2. Observe the message at the top before entering any text in the package name field.\n3. Confirm that the message does not appear when the package name field is empty."
+}

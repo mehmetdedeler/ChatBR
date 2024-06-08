@@ -1,0 +1,8 @@
+{
+  "id": "19933",
+  "title": "Bug 19933: Emacs - Keybinding Service Always Clears Status Line",
+  "description": "In Emacs, the keybinding service always clears the status line. However, the action could have written to the status line. We currently do not have the API necessary to get the message in the status line, so it is not possible to solve the problem in general. The problem can be solved for some cases by not clearing the status line when running in the default mode.",
+  "OB": "The keybinding service in Emacs consistently clears the status line.",
+  "EB": "The expected behavior is that the keybinding service should clear the status line only after the appropriate action has been run. The current behavior is to always clear the status line, but it should not do so when the action writes to the status line.",
+  "SR": "To reproduce the issue:\n1. Open Emacs in the default mode.\n2. Perform any action that should write to the status line.\n3. Observe that the status line is cleared even when it should not be."
+}

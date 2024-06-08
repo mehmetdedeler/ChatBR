@@ -1,0 +1,1 @@
+{"bug_id": "18132", "title": "Bug 18132New wizards should verify if folder is on classpath", "description": "1. create J project 'P' with source folder setup (source folder 'src')2. use new wizard to create a class== you can create a class inside 'P' or in a folder which is not on the classpath"}

@@ -1,0 +1,1 @@
+{"id": "7591", "title": "Bug 7591Flicker when toggeling show inherited filter", "description": " Bug 7591Flicker when toggeling show inherited filter", "OB": "", "EB": " When toggeling the show inherited filter in the type hierarchy you can watchthe scrollbar grow.We should bracket this refresh with setRedraw(false/true) so that there is onlya single refresh.", "SR": ""}

@@ -1,0 +1,1 @@
+{"bug_id": "130070", "title": "Bug 130070Created By is empty when new a report.", "description": "Description:Created By is empty when new a report.Steps to reproduce:1. New a report and see Created By property.Result:It's empty."}

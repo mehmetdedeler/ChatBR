@@ -1,0 +1,1 @@
+{"bug_id": "34634", "title": "Bug 34634\"Select a type\" hierarchy view message cut off", "description": "build RC2The message displayed in the hierarchy view when no type is selected is notfully visible. It is cut off vertically on the right side."}

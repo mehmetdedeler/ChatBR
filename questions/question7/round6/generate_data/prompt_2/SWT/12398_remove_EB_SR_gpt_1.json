@@ -1,0 +1,8 @@
+{
+  "id": "12398",
+  "title": "Accessibility Problems with Help View",
+  "description": "I encounter accessibility problems where I need to first click on one of the 'live' areas before it starts working, such as the banner with the tool buttons, the nav frame, or the content frame.",
+  "OB": "On 20020326, using Win2K, when I launch the Help view, the tab key does not actually do anything.",
+  "EB": "When launching the Help view, the tab key should navigate through the interactive elements without requiring a prior click on a 'live' area.",
+  "SR": "1. Open the application on a Win2K system.\n2. Navigate to the Help view.\n3. Attempt to use the tab key to navigate through the interactive elements.\n4. Observe that the tab key does not function as expected."
+}

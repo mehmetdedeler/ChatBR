@@ -1,0 +1,8 @@
+{
+  "id": "101187",
+  "title": "Localization key cannot be blank when adding",
+  "description": "Bug 101187 - Localization key cannot be blank when adding.\n\nDescription: When the key is left blank, externalized text cannot be displayed in the chart's title.",
+  "OB": "When attempting to add a localization key with a blank value, externalized text is not displayed in the chart's title.",
+  "EB": "In the properties file, it should be possible to leave the key blank while still having a valid value associated with it. The expected result is that the externalized text can be displayed in the chart title. However, the actual result is that it can't be displayed.",
+  "SR": "To reproduce:\n1. Open the properties file.\n2. Leave the localization key blank, but ensure that it has a valid value associated with it.\n3. Attempt to add this key to the chart title. The externalized text should not be displayed."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "28974",
+  "title": "Bug 28974 - Compiler error when introducing a 'final' field",
+  "description": "This bug report highlights a compilation error that occurs when introducing a 'final' field within an aspect.",
+  "OB": "The observed behavior is that the provided aspect fails to compile with version 1.1b2 of the software. The specific compilation error message is as follows: '$ ajc com/ibm/amc/.java com/ibm/amc/ejb/.javad:/eclipse/runtimeworkspaceajsamples/Mock EJBs/com/ibm/amc/DemoBeanEJB.java:1: Cannot assign a value to the final field com.ibm.amc.DemoBean.ajc$interField$comibmamc$verbose!!'",
+  "EB": "The expected behavior is that introducing a 'final' field within an aspect should be allowed without causing a compilation error.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Attempt to compile the provided aspect using version 1.1b2 of the software.\n2. Observe the compilation error message as mentioned in the observed behavior." 
+}

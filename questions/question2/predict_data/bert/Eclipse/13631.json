@@ -1,0 +1,1 @@
+{"id": "13631", "title": "Bug 13631ResourceNavigator does not remove property change listener", "description": "", "OB": " Bug 13631ResourceNavigator does not remove property change listener The new working set support registers a property change listener on the pagewhich is not removed.", "EB": "", "SR": ""}

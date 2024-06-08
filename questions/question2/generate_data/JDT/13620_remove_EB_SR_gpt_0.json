@@ -1,0 +1,8 @@
+{
+  "id": "13620",
+  "title": "Java Source Attachment Preference Page Text Alignment Issue",
+  "description": "The Java Source Attachment Preference Page displays text with excessive white space, causing a text alignment issue.",
+  "OB": "On the Java Source Attachment Preference Page, there is a label that is positioned in the center of the page, and it has a significant amount of white space around it. The vertical alignment of this label appears to be incorrect, and it should be aligned to SWT.ALIGN_BEGINNING.",
+  "EB": "The expected behavior is that the label on the Java Source Attachment Preference Page should not have excessive white space around it. It should be vertically aligned to SWT.ALIGN_BEGINNING, ensuring that the text is properly positioned at the top of the page, without unnecessary spacing.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Load a project from the repository.\n2. Select a source folder within the project.\n3. Open the Properties dialog for the selected source folder.\n4. In the Properties dialog, choose 'Java Source Attachment'.\n5. The issue can be observed in the info label positioned in the middle of the dialog, which has excessive white space."
+}

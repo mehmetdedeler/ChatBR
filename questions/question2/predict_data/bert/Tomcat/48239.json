@@ -1,0 +1,1 @@
+{"id": "48239", "title": "Bug 48239HexUtils exposes public array", "description": " Bug 48239HexUtils exposes public array Created attachment 24567 [details]Patch to replace direct array access with gettersHexUtils has two public static arrays which ought to be immutable.", "OB": "", "EB": "", "SR": ""}

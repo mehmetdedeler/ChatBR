@@ -1,0 +1,1 @@
+{"bug_id": "121864", "title": "Bug 121864Report element can't be deleted", "description": "Description:Report element can't be deletedSteps to reproduce:1.Open the attached design file2.Delete the table/parameters/dataset/datasourceExpected result:The element can be deletedActual result:They can't be deleted"}

@@ -1,0 +1,1 @@
+{"bug_id": "26079", "title": "Bug 26079Use PfLoadMetrics() to speed up text extenting.", "description": "If you use PfLoadMetrics() when using PfExtentWideText() (which we are alreadydoing) then you can avoid all transactions to the external font server.Thisprovides a big drop in CPU usage when using Tables, Trees, and the StyledTexteditor."}

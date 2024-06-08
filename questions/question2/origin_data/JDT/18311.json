@@ -1,0 +1,1 @@
+{"bug_id": "18311", "title": "Bug 18311api: ISourceReference::getSource can return undocumented result", "description": "for binary members, ISourceReference::getSource returns a special valuesometimes SourceMapper.fgUnknownRangehowever, this fact is not documented anywhere and the value itself is not api.the only woraround i see now is to hardcode the range {1, 0}"}

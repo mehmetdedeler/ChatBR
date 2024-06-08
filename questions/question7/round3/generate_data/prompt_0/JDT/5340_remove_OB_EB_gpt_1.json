@@ -1,0 +1,1 @@
+{"id": "5340", "title": "Bug 5340: Cancelling add exception breakpoint has no effect", "description": "", "OB": "", "EB": "", "SR": "1) Go to the breakpoints pane in the debug perspective\n2) Click the J! button to add an exception\n3) In the progress dialog, click cancel."}

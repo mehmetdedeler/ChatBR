@@ -1,0 +1,8 @@
+{
+  "id": "121974",
+  "title": "Bug 121974: Can't evaluate global expressions when ResultIterator is not in the iteration loop",
+  "description": "For global expressions, such as {params[\"p1\"]},{new DateTime()}, it should always be available and evaluatable within the BIRT scripting environment. Currently, Dte scriptExpression has three types: BEFOREFIRSTROW, AFTERLASTROW, ONEACHROW.",
+  "OB": "Global expressions like {params[\"p1\"]},{new DateTime()} cannot be evaluated when ResultIterator is not in the iteration loop.",
+  "EB": "It should return a correct result value whenever be evaluated within the BIRT scripting environment. Introduce a new GLOBAL expression type to mark this requirement.",
+  "SR": "1. Open a BIRT report with global expressions like {params[\"p1\"]},{new DateTime()}.\n2. Move the ResultIterator outside the iteration loop.\n3. Attempt to evaluate the global expressions.\n4. Observe that the expressions do not return the expected values."
+}

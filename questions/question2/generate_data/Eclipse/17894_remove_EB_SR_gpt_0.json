@@ -1,0 +1,8 @@
+{
+  "id": "17894",
+  "title": "Bug 17894: Open Mode Preference Not Reset by Restore Defaults",
+  "description": "When a user tries to reset the preferences to their default values, the 'Open Mode' preference is not reset as expected.",
+  "OB": "Upon selecting the 'Restore Defaults' option, the 'Open Mode' preference remains unchanged.",
+  "EB": "The expected behavior is that when a user chooses 'Restore Defaults,' all preferences, including the 'Open Mode' preference, should be reset to their default values.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Open the application and go to the 'Settings' menu.\n2. Navigate to the 'Preferences' section.\n3. Observe the current value of the 'Open Mode' preference.\n4. Select the 'Restore Defaults' option.\n5. Check the 'Open Mode' preference value again. It should be reset to its default value."
+}

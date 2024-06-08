@@ -1,0 +1,1 @@
+{"bug_id": "7712", "title": "Bug 7712No scroll bars in Microsoft Word documents opened from the workbench", "description": "When a Microsoft Word document in a project is opened from the workbench, noscroll bars appear in the document window. This makes it extremely difficult tonavigate around a large document."}

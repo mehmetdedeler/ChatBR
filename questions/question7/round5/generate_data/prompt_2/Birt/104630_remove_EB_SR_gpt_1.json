@@ -1,0 +1,1 @@
+{"id": "104630", "title": "Bug 104630: Column icons don't show up when connecting to Derby database", "description": "", "OB": "When connecting to a Derby database, the column icons are not displayed.", "EB": "", "SR": ""}

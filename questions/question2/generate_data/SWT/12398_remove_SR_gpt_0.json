@@ -1,0 +1,8 @@
+{
+  "id": "12398",
+  "title": "Bug 12398 Accessibility problems",
+  "description": "The software requires clicking on specific 'live' areas, such as the banner with the tool buttons, the nav frame, or the content frame, before it becomes functional.",
+  "OB": "On March 26, 2002, when I launch the Help view in Windows 2000, the tab key does not perform any expected actions or navigation within the Help view.",
+  "EB": "The expected behavior is that the Help view should be immediately navigable via the keyboard without the need for additional actions, such as clicking on specific areas.",
+  "SR": "Steps to reproduce are not provided in the bug report, but to address this issue, we need to ensure the Help view allows keyboard navigation without the need for initial clicks."  
+}

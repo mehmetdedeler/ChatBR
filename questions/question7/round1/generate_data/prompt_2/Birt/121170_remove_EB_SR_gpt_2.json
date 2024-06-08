@@ -1,0 +1,1 @@
+{"id": "121170", "title": "Bug 121170 - Label extraction from meta data object returning null labels before extraction", "description": "", "OB": "Before extraction, the labels returned from the meta data object are null.", "EB": "", "SR": ""}

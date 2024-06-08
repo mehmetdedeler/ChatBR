@@ -1,0 +1,1 @@
+{"bug_id": "48662", "title": "Bug 48662context.xml expansion on deployment improvements", "description": "Two parts:1. Log a warning/info message if Tomcat ignores a bundled context.xml in favour of one in CATALINABASE/<engine name/<host name2. Make the extraction/copying of context.xml configurable, probably via a new attribute extractXml on the host"}

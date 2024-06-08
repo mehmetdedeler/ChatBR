@@ -1,0 +1,1 @@
+{"bug_id": "117444", "title": "Bug 117444The method setDefault(Object) in UserPropertyDefn should be public.", "description": "The method setDefault(Object) in UserPropertyDefn should be public to let the user set the default value for the user defined property. In the current implemntation, this method is a protected method."}

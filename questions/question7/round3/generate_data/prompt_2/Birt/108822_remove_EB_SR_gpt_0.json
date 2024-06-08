@@ -1,0 +1,1 @@
+{"id": "108822", "title": "More logical processing of disk sorting needed when there is a boundary value for row data", "description": "", "OB": "When sorting on disk, if sorting 40000 rows of data and setting the program to process only data less than 40000, the current behavior is as follows: 1. ", "EB": "", "SR": ""}

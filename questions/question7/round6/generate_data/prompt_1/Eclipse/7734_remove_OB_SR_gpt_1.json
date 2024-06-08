@@ -1,0 +1,8 @@
+{
+  "id": "7734",
+  "title": "Bug 7734: System can be shut down without save file warnings",
+  "description": "",
+  "OB": "When shutting down the system, there is no prompt to save files, leading to potential data loss.",
+  "EB": "A 'Do you want to save your file? Yes, No, Cancel' dialog box should be provided during system shutdown. Additionally, consider allowing applications to control shutdown/save or pop up their own windows, giving users the option to stop the shutdown if 'Cancel' is selected.",
+  "SR": "1. Open multiple applications and create unsaved data in each.\n2. Initiate a system shutdown.\n3. Observe the absence of a prompt to save files before shutdown."
+}

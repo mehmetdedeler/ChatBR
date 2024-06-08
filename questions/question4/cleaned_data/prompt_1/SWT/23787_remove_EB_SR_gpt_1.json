@@ -1,0 +1,8 @@
+{
+  "id": "23787",
+  "title": "Bug 23787[Properties dialog] Project Properties Info page should not use text fields",
+  "description": "Bug 23787[Properties dialog] Project PropertiesInfo page should not use text fields Integration build 09/17.Looks bad on all motif platforms.",
+  "OB": "On Windows, the appearance is acceptable; however, on motif platforms, these text fields acquire automatic borders, distinguishing them as user input targets. Moreover, on Solaris/AIX/HPUX, these fields exhibit different colored backgrounds, exacerbating the visibility issue.",
+  "EB": "The text fields in the Project Properties Info page on motif platforms should not have automatic borders, and the backgrounds on Solaris/AIX/HPUX should be consistent with the overall design.",
+  "SR": "Adjust the styling of text fields in the Project Properties Info page to ensure a uniform and visually appealing appearance across all platforms, eliminating automatic borders on motif platforms and maintaining consistent background colors on Solaris/AIX/HPUX."
+}

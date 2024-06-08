@@ -1,0 +1,8 @@
+{
+  "id": "18016",
+  "title": "Bug 18016: Most Menu Actions Should Be Disabled for Custom Objects from Repository",
+  "description": "Bug 18016 addresses the issue where most menu actions are enabled for custom objects from the repository, even though they are meaningless and should be removed.",
+  "OB": "Currently, there are 6 menu entries that are enabled for custom objects from the repository, but none of them perform any actions. These entries are: open declaration, open type hierarchy, open super implementations, show in packages view, copy, and search. The 'copy' option could potentially be made to mean something, but it currently doesn't work (see bug 18015). This also affects structured selection (see bug 18015). This issue should be marked as major, as it is likely to affect many users.",
+  "EB": "The expected behavior is that most menu actions should be disabled and not accessible for custom objects from the repository. Users should only see menu options that are relevant and functional for the selected object type.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the software.\n2. Navigate to the repository section.\n3. Select a custom object from the repository.\n4. Right-click on the selected custom object.\n5. Observe that there are 6 menu entries enabled that do not perform any actions."
+}

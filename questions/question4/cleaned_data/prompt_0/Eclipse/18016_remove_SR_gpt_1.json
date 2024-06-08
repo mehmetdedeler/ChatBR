@@ -1,0 +1,8 @@
+{
+  "id": "18016",
+  "title": "Bug 18016: Most menu actions should be disabled for cus from repo",
+  "description": "Bug 18016 indicates that most menu actions should be disabled for cus from the repository, but the rest is meaningless and they should be removed.",
+  "OB": "There are 6 menu entries enabled, but none of them perform any actions. These entries include 'Open Declaration,' 'Open Type Hierarchy,' 'Open Super Implementation,' 'Show in Packages View,' 'Copy,' and 'Search.' The 'Copy' functionality could potentially be made to mean something, but it does not work as of now. Structured selection is also affected, as mentioned in Bug 18015. This issue is marked as major and is likely to impact many users.",
+  "EB": "All of the mentioned menu actions, including 'Open Declaration,' 'Open Type Hierarchy,' 'Open Super Implementation,' 'Show in Packages View,' 'Copy,' and 'Search,' should be disabled. Additionally, the 'Convert Line Delimiters' option should also be disabled.",
+  "SR": "To reproduce the issue:\n1. Access the menu containing 'Open Declaration,' 'Open Type Hierarchy,' 'Open Super Implementation,' 'Show in Packages View,' 'Copy,' and 'Search.'\n2. Attempt to use any of these menu actions.\n3. Verify that none of these actions perform any meaningful operations.\n4. Additionally, attempt to use the 'Convert Line Delimiters' option and confirm that it is also disabled."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "9654",
+  "title": "Bug 9654: Modify Parameters Dialog Issues",
+  "description": "Bug 9654Modify Parameters: Dialog details duplicated name validation could be performed on the first pagei. the first and second column could be mergedj.",
+  "OB": [
+    "Buttons are too small.",
+    "When the dialog comes up, no table entry is selected, but both move buttons are enabled.",
+    "When changing a parameter name to something very long, the preview is cut off.",
+    "Dialog appears huge for methods with many parameters."
+  ],
+  "EB": [
+    "Increase spacing between button and list; align top button with dialog top.",
+    "Add a label to the table for mnemonic support.",
+    "Allow multiple selections in the table; enable move up/down for multiple items.",
+    "Ensure the signature preview is a label that wraps text; set its background color to match hover color."
+  ],
+  "SR": "1. Open the Modify Parameters dialog.\n2. Observe the size of buttons and their alignment with the dialog.\n3. Try to change a parameter name to a very long one and check the preview.\n4. Open the dialog with methods having numerous parameters and note the size of the dialog."
+}

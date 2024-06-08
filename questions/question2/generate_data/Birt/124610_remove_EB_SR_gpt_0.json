@@ -1,0 +1,8 @@
+{
+  "id": "124610",
+  "title": "Bug 124610 - Adding a filter on a boolean computed column causes an error",
+  "description": "When attempting to apply a filter to a boolean computed column in the software, it results in an error. This behavior is unexpected and needs to be addressed.",
+  "OB": "When attempting to apply a filter to a boolean computed column in the software, it results in an error.",
+  "EB": "I expect that applying a filter to a boolean computed column should not cause an error. The software should handle this operation gracefully without any unexpected errors.",
+  "SR": "To reproduce the bug, follow these steps:\n1. Open the software.\n2. Navigate to the section where you can create or edit a filter.\n3. Add a filter condition to a boolean computed column.\n4. Save the filter or apply it.\n5. Observe the error that occurs during this process."
+}

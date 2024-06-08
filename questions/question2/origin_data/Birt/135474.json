@@ -1,0 +1,1 @@
+{"bug_id": "135474", "title": "Bug 135474[Smoke]Data in computed columns can't be read", "description": "Details:Data in computed columns can't be readStep:1. New a datasource and dataset2. Add a computed columns and input some wore in Expression.3. Drop the table into layout and preview.Actual result:The column of computed columns only preview undefined."}

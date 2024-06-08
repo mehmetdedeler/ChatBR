@@ -1,0 +1,8 @@
+{
+  "id": "50059",
+  "title": "Bug 50059: Resources not served from /WEBINF/lib/{.jar}/METAINF/resources with metadatacomplete=\"true\" in web.xml",
+  "description": "Bug 50059: Resources are not served from /WEBINF/lib/{.jar}/METAINF/resources if metadatacomplete=\"true\" is set in web.xml. Creating a Servlet 3.0 webapp named 'foo' with metadatacomplete=\"true\" attribute set on the webapp element in /WEBIBNF/web.xml.",
+  "OB": "When metadatacomplete=\"true\" is applied to the webapp in web.xml, the resources from /WEBINF/lib/{.jar}/METAINF/resources are not accessible.",
+  "EB": "The resources should be accessible when the jar (let's call it 'bar.jar') is placed in /WEBINF/lib.",
+  "SR": "1. Create a Servlet 3.0 webapp named 'foo'.\n2. Set metadatacomplete=\"true\" on the webapp element in /WEBIBNF/web.xml.\n3. Place the jar 'bar.jar' in /WEBINF/lib.\n4. Attempt to access resources from /WEBINF/lib/{.jar}/METAINF/resources."
+}

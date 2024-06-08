@@ -1,0 +1,1 @@
+{"bug_id": "19343", "title": "Bug 19343Export preferences doesn't append file extension", "description": "Build 20020602 (F2)When exporting preferences the file chooser filters by extension .epf butdoesn't add that extension to file names entered  meaning that the fileapparently disappears from the list."}

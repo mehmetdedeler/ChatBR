@@ -1,0 +1,1 @@
+{"id": "14768", "title": "Bug 14768Next problem action is always enabled", "description": "", "OB": "Bug 14768Next problem action is always enabled The \"Next Problem..\" action never disables.Clicking it in the toolbar mightdo nothing. ", "EB": "", "SR": ""}

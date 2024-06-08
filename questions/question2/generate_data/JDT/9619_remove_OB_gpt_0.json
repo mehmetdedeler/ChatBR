@@ -1,0 +1,8 @@
+{
+  "id": "9619",
+  "title": "Bug 9619 - Issues with 'Move Static Member' Dialog Details",
+  "description": "The user reported several issues related to the 'Move Static Member' dialog. The issues include problems with mnemonics, lack of validation on the type field, and concerns about the label text and dialog initialization.",
+  "OB": "The observed behavior is not explicitly stated in the report, but it includes issues related to the dialog's user interface and functionality.",
+  "EB": "The expected behavior is not explicitly stated, but it can be inferred that the user expects improvements in the dialog's design and behavior.",
+  "SR": "The steps to reproduce the issues are not provided in the report, except for a mention of 'Browse' offering a type from a CU in a different project."
+}

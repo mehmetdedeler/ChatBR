@@ -1,0 +1,8 @@
+{
+  "id": "42724",
+  "title": "Bug 42724 - Incorrect Selection Rendering on Bidi Platforms",
+  "description": "This bug report discusses an issue with the rendering of selections in StyledText on bidi (Bi-directional) platforms. The report suggests that there might be a need to optimize the selection background rendering by avoiding unnecessary redraws due to code in StyledTextRenderer.drawLine that creates a style range for the selection.",
+  "OB": "The bug report lacks a clear description of the observed behavior (OB) related to the selection rendering issue on bidi platforms.",
+  "EB": "The expected behavior (EB) is stated as follows: 'drawLineSelectionBackground should only be used to render the special line break selection.' This suggests that the selection background should be optimized and used only for rendering special line break selections.",
+  "SR": "Steps to reproduce (SR) are not provided in the report. Please include clear and detailed steps for reproducing the issue."
+}

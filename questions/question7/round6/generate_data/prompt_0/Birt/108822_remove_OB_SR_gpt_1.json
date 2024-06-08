@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "Bug 108822 - More Robust Logic Needed for Disk Sorting with Border Row Value",
+  "description": "",
+  "OB": "When attempting to perform disk sorting with a border value for row, the current logic fails to handle the scenario appropriately. The system crashes during the sorting process, resulting in incomplete or corrupted data files.",
+  "EB": "More robust logic is expected to process disk sorting when a border value for a row is encountered. The system should be capable of sorting the data directly in memory and then writing it to the file. Copying the file to the destination folder should be a seamless operation without causing crashes or data corruption.",
+  "SR": "To reproduce the issue:\n1. Start the application and navigate to the data sorting module.\n2. Provide a data file with a border value for a row.\n3. Initiate the sorting process.\n4. Observe the system crash during or after the sorting operation."
+}

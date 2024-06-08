@@ -1,0 +1,8 @@
+{
+  "id": "9619",
+  "title": "Bug 9619 - Move static member: Dialog details",
+  "description": "Bug 9619 - Move static member: Dialog details 20020212a. Mnemonicsb. No validation on the type field. Type existence is not too expensive (done in the type wizard for the superclass), so could be done. At least isValidTypeNamef. label could say 'Select destination type:'g.",
+  "OB": "The current behavior lacks mnemonics for certain elements, and there is no validation on the type field.",
+  "EB": "The expected behavior is to include mnemonics for all elements and implement validation on the type field. The label should be modified to 'Select destination type.'",
+  "SR": "1. Open the 'Move static field(s)' dialog.\n2. Observe the absence of mnemonics for elements and lack of validation on the type field.\n3. Enter a type in the type field and verify the absence of validation.\n4. Modify the label to 'Select destination type.'\n5. Save changes and re-open the dialog to ensure the changes persist."
+}

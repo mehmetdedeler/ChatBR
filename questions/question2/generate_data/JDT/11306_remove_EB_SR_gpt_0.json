@@ -1,0 +1,8 @@
+{
+  "id": "11306",
+  "title": "Bug 11306 - New Class Wizard Launches Simple Project Wizard",
+  "description": "This bug report addresses a discrepancy in the wizard behavior when creating a new class in a certain context.",
+  "OB": "When there are no existing projects and a user attempts to create a new class, the dialog prompts them to create a new project, which is convenient. However, upon selecting 'yes' to create a new project, the resulting dialog is the first page of the generic New Project Wizard instead of the expected Java Project wizard.",
+  "EB": "The expected behavior is that when creating a new class in the described scenario, the New Class Wizard should directly open the Java Project wizard, as this is the more relevant and appropriate wizard for the context.",
+  "SR": "To replicate the issue:\n1. Launch the software in a situation where there are no existing projects.\n2. Access the Java perspective.\n3. Initiate the 'New Class' action.\n4. Observe the wizard's behavior, which prompts you to create a new project. Select 'yes' to proceed.\n5. Notice that, instead of the expected Java Project wizard, the first page of the generic New Project Wizard is displayed."
+}

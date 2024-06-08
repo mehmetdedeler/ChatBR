@@ -1,0 +1,1 @@
+{"bug_id": "48248", "title": "Bug 48248tribes.group.interceptors.MessageDispatchInterceptor.run should be volatile", "description": "org.apache.catalina.tribes.group.interceptors.MessageDispatchInterceptor.run should be volatile, as it is used to communicate between running threads."}

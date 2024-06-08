@@ -1,0 +1,8 @@
+{
+  "id": "19089",
+  "title": "Bug 19089: No Popup Menu in Java Editor Ruler (Photon)",
+  "description": "The bug report is related to the absence of a popup menu in the Java editor ruler in the Photon version.",
+  "OB": "1) Open a Java editor.\n2) Right-click on the left vertical ruler. It should trigger a popup menu to add breakpoints, marks, etc., but no such menu appears.",
+  "EB": "The expected behavior is that when a Java editor is open and you right-click on the left vertical ruler, a popup menu should appear, allowing users to add breakpoints, marks, and other related functionality. However, in the Photon version, this popup menu is missing.",
+  "SR": "To reproduce the issue:\n1) Open a Java editor.\n2) Right-click on the left vertical ruler. This action should trigger a popup menu with options to add breakpoints and marks, but in the Photon version, the menu does not appear."
+}

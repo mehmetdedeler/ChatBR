@@ -1,0 +1,1 @@
+{"bug_id": "22001", "title": "Bug 22001Wizard should ensure compliance with createControlcontract", "description": "IDialogPage create control states that the created control must be accessablevia getControl.This should be checked with an Assert as its failure can cause problem whichare difficult to diagnose."}

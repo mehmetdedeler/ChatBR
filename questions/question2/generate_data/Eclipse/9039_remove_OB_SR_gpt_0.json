@@ -1,0 +1,8 @@
+{
+  "id": "9039",
+  "title": "New Project Wizard doesn't use default directory",
+  "description": "In the New Project Wizard, when I don't use the default directory and manually enter '/test', there is an issue...",
+  "OB": "When deselecting 'Use default' and manually entering '/test', the 'Directory' field becomes empty when I deselect 'Use default' a second time.",
+  "EB": "I expect that Eclipse should remember the last location (at least while the dialog is shown) when I deselect 'Use default' and then select it again.",
+  "SR": "1. Open the New Project Wizard.\n2. Deselect 'Use default' for the directory field.\n3. Manually enter '/test' as the directory.\n4. Select 'Use default' again (imagine you missed the text box by a few pixels and clicked the checkbox's label instead).\n5. Deselect 'Use default' for the directory field a second time.\n6. Observe that the 'Directory' field is empty again."
+}

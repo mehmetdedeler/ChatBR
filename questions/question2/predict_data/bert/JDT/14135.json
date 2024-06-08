@@ -1,0 +1,1 @@
+{"id": "14135", "title": "Bug 14135Renaming a CUhave to enter .java", "description": " Bug 14135Renaming a CUhave to enter .java The refactoring knows that I'm renaming .java.", "OB": "", "EB": " If the user doesn't enter thenit should be added automatically. Rename CU should behave the same as CreateClass.", "SR": ""}

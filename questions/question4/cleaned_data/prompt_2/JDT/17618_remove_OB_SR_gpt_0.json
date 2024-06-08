@@ -1,0 +1,1 @@
+{"id": "17618", "title": "Bug 17618 - Changing output location should not delete all derived resources", "description": "", "OB": "", "EB": "When changing the output location, all derived resources should not be deleted. It should only be possible to remove those derived resources that have been created by the Java builder.", "SR": ""}

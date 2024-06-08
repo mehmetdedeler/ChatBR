@@ -1,0 +1,8 @@
+{
+  "id": "27869",
+  "title": "Bug 27869 - StyledText overuse of Font.getFontData",
+  "description": "Bug 27869 - StyledText overuse of Font.getFontData. By the way, UTF-8 is the default English encoding for Redhat 8. The FontMetrics API is also heavily used by StyledText. I believe that the metric information should be cached in the StyledText and updated only when the font is changed.",
+  "OB": "When running Eclipse and using the Java Editor, a single key stroke can cause the API Font.getFontData() to be called 13 times. This API is also overused when scrolling the StyledText and selecting text. Each Font has 7 FontData, so every time I type 'a' in the Java Editor, 91 (7*13) FontData will be loaded.",
+  "EB": "I believe, and many people agree, that this API should not be used at all by the StyledText when it's being typed.",
+  "SR": "1. Open Eclipse. \n2. Navigate to the Java Editor. \n3. Type a single character, for example, 'a'. \n4. Observe that the API Font.getFontData() is called 13 times for this single key stroke. \n5. Additionally, while in the Java Editor, scroll through the StyledText and select text. \n6. Notice the overuse of Font.getFontData() in these scenarios."
+}

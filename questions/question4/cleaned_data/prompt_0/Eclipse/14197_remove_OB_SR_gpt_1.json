@@ -1,0 +1,8 @@
+{
+  "id": "14197",
+  "title": "Bug 14197 - Removing a working set immediately makes changes",
+  "description": "Bug 14197 - Removing a working set immediately makes changes",
+  "OB": "When a working set is deleted, the package view in the background immediately refilters.",
+  "EB": "At the moment of delete, the package view in the background should not refilter instantly. Refiltering should only occur when closing the working set selection dialog, not during manipulation. Additionally, pressing cancel in the dialog should revert all changes made to working sets, including canceling the removal.",
+  "SR": "1. Open the working set selection dialog.\n2. Remove a working set.\n3. Observe the immediate refiltering in the package view.\n4. Press cancel and check if all changes made to working sets are reverted."
+}

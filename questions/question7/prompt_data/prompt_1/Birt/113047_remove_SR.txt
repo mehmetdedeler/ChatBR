@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '113047', 'title': 'Bug 113047No chidren node listing when change data source for a data set in data set editor page of the query tab.', 'description': '', 'OB': 'description:No chidren node listing when change data source for a data set in data seteditor page of the query tab.steps to reproduce:1. new a data set without SQL statement2. the new data source has no database/table /column informationactual result:No chidren node listing when change data source for a data set in data seteditor page of the query tab.Close the data set editor and reopen it. ', 'EB': 'The children listed out.expected result:when change data source, new data source children list out ', 'SR': ''}
+</BUG REPORT>

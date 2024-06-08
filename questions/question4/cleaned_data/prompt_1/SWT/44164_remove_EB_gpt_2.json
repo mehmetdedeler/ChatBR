@@ -1,0 +1,8 @@
+{
+  "id": "44164",
+  "title": "Bug 44164: Update needed in javadoc for constructor Image(Device, ImageData)",
+  "description": "Bug 44164 - Update needed in javadoc for constructor Image(Device, ImageData)\n\nImport statement: `import org.eclipse.swt.widgets.`\n\nPublic class TestImageInvalidImage {\n  public static void main(String[] args) {\n    ImageData data = new ImageData(10, 10, 1, new PaletteData(0xff0000, 0x00ff00, 0x0000ff));\n    Image image = new Image(Display.getDefault(), data);// image.dispose();\n  }\n}",
+  "OB": "The constructor for Image(Device, ImageData) can also throw org.eclipse.swt.SWTException: Unsupported color depth.",
+  "EB": "Expected Behavior is that the javadoc for the constructor Image(Device, ImageData) should include information about the potential exception it can throw, specifically the org.eclipse.swt.SWTException related to unsupported color depth.",
+  "SR": "Steps to recreate (note that the ImageData is successfully created, it is Image that is throwing the exception):\n\n1. write `import org.eclipse.swt.graphics.`"
+}

@@ -1,0 +1,1 @@
+{"id": "17239", "title": "Bug 17239Mssing context on error in Rename Element [refactoring]", "description": " Bug 17239Mssing context on error in Rename Element [refactoring]", "OB": "", "EB": "", "SR": " F1 create class A with method foo and bar rename foo to barobserve: the error presented in the wizard doesn't have a context."}

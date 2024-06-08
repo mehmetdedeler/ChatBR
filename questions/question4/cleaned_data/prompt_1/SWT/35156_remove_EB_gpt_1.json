@@ -1,0 +1,8 @@
+{
+  "id": "35156",
+  "title": "Ctrl+F1 functionality limited to specific fields in help search",
+  "description": "",
+  "OB": "Ctrl+F1 functionality is limited to specific fields in the help search.",
+  "EB": "Ctrl+F1 should work consistently across all text fields in the help search.",
+  "SR": "OS: Linux\nGTK Build: RC2 with IBM Java 2131 JRE\n\nSteps to Reproduce:\n1. Launch Eclipse with DBCS locale.\n2. Select 'Search Help' from the menu bar.\n3. When the window pops up, click on the first text field and press Ctrl+F1.\n\nExpected Result:\nA help pop-up screen should appear, displaying information about the Help Search.\n\nExecution Result:\nNothing happens.\n\nComments:\n1. This issue occurs on all DBCS languages.\n2. The problem is specific to the first text field; Ctrl+F1 works correctly when cycling through other fields using the tab key.\n3. Refer to the attached image, where the problematic field is circled in red, while fields circled in green function properly."
+}

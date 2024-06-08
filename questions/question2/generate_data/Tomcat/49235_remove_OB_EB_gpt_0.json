@@ -1,0 +1,8 @@
+{
+  "id": "49235",
+  "title": "Bug 49235 - Incorrect Output in ServletContainerInitializer onStartup",
+  "description": "This bug report addresses an issue with ServletContainerInitializer onStartup producing incorrect output.",
+  "OB": "The observed behavior is not explicitly provided in the bug report.",
+  "EB": "The expected behavior is not explicitly stated in the bug report.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Build Tomcat 7.0.0 from svn r939221.\n2. Use the provided code, including the @MySomeAnn class and the ModuleInitializer class.\n3. In the ModuleInitializer's onStartup method, call System.out.println(targetClass.getName()) for each class in 'classSet.'\n4. Observe that the output is 'MySomeAnn.'"
+}

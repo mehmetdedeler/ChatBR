@@ -1,0 +1,8 @@
+{
+  "id": "115960",
+  "title": "Bug 115960 - Datetime values display inconsistently in dynamic text item and data/text item",
+  "description": "Datetime values retrieved from the table exhibit varying formats when displayed in a dynamic text item and a data/text item.",
+  "OB": "Datetime values retrieved from the table exhibit different formats when displayed in a dynamic text item and a data/text item.",
+  "EB": "When inputting 'new Date()' as content for three items, saving, and previewing, the expected result is that they should display in the same format. However, the actual result is that the data and text item formats match, but the dynamic text item format is different.",
+  "SR": "1. Retrieve datetime values from the table.\n2. Input 'new Date()' as content for three items.\n3. Save and preview.\nExpected result: They should display in the same format.\nActual result: Data and text item formats match, but the dynamic text item format is different."
+}

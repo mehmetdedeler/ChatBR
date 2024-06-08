@@ -1,0 +1,1 @@
+{"bug_id": "24992", "title": "Bug 24992Strange combo boxes on CompilerOther Page", "description": "LinuxGTK 20021017When you pull down one of the combo boxes in the CompilerOther Preference Pagethe combo does not pull down but rather brings up a tiny scrolled compositeSTEPS1) Open the CompilerOther preference page2) Pulldown on of the menus"}

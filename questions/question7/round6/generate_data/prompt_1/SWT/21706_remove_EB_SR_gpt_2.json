@@ -1,0 +1,8 @@
+{
+  "id": "21706",
+  "title": "Bug 21706BidiUtil in win32 has Class.forName() usage",
+  "description": "Bug 21706BidiUtil in win32 has Class.forName() usage",
+  "OB": "When attempting to use BidiUtil in win32, there is an issue with the Class.forName() usage. In particular, in the file org.eclipse.swt.internal.BidiUtil, line 2047 contains the following code: static Callback callback = new Callback(BidiUtil.class, \"windowProc\", 4); The BidiUtil.class is essentially syntactic sugar for Class.forName(\"org.eclipse.swt.internal.BidiUtil\"). The problem arises when this method throws a NoClassDefFoundError, which is not defined in the CLDC class libraries. This poses a challenge in the CLDC version of SWT. This issue may go unnoticed unless using jxeLink or similar tools, as the compiler generates the call itself and assumes NoClassDefFoundError is available, leading to no compiler error from the eclipse compiler or Sun's compiler.",
+  "EB": "The usage of Class.forName(\"org.eclipse.swt.internal.BidiUtil\") should be modified to eliminate the reliance on reflection and prevent the NoClassDefFoundError. A more robust solution is needed to ensure compatibility with the CLDC class libraries in the CLDC version of SWT.",
+  "SR": "1. Open the file org.eclipse.swt.internal.BidiUtil.\n2. Locate line 2047 with the code: static Callback callback = new Callback(BidiUtil.class, \"windowProc\", 4);\n3. Modify the code to eliminate the use of Class.forName(\"org.eclipse.swt.internal.BidiUtil\").\n4. Verify that the changes resolve the issue and prevent the occurrence of NoClassDefFoundError in the CLDC version of SWT."
+}

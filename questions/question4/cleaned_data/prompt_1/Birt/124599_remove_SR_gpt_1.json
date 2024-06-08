@@ -1,0 +1,8 @@
+{
+  "id": "124599",
+  "title": "Bug 124599 - Shortcut delete and menu delete behave differently in table column.",
+  "description": "Description: Shortcut delete and menu delete behave differently in table column. Steps to reproduce: 1. [Incomplete]",
+  "OB": "Shortcut delete and menu delete behave differently in table column.",
+  "EB": "Undo it, click delete in the context menu. Expected result: Both actions should behave the same way.",
+  "SR": "1. Navigate to a table column. 2. [Incomplete]"
+}

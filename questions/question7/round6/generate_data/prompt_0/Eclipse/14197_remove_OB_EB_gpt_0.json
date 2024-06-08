@@ -1,0 +1,8 @@
+{
+  "id": "14197",
+  "title": "Bug 14197 - Removing a working set immediately makes changes",
+  "description": "Bug 14197 - Removing a working set immediately makes changes",
+  "OB": "When creating a working set with one project and selecting it, the package view is filtered. However, when opening the working set dialog again, creating a second working set, and deleting the first one, unexpected changes occur.",
+  "EB": "I expect that when I remove a working set, it should not immediately cause changes to the package view. The package view should remain as it was before removing the working set.",
+  "SR": "To reproduce the issue:\n1. Create a working set with one project and select it, so the package view is filtered.\n2. Open the working set dialog again.\n3. Create a second working set.\n4. Delete the first working set. The issue should become apparent during these steps."
+}

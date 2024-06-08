@@ -1,0 +1,8 @@
+{
+  "id": "103963",
+  "title": "No Friendly Error Message Shown When Data Series is Empty",
+  "description": "When there is no data available for a series, the system should display a user-friendly error message to inform the user about the issue. Currently, this is not happening as expected.",
+  "OB": "When there is no data available for a series, the system fails to provide a friendly error message to the user.",
+  "EB": "The expected behavior is that when there is no data for a series, the system should display a user-friendly error message, informing the user about the empty dataset. This message should help the user understand the situation and take appropriate actions.",
+  "SR": "To reproduce the issue:\n1. Open the application.\n2. Navigate to the 'Series Data' section.\n3. Ensure that there is no data available for any series (empty dataset).\n4. Observe that the system does not display a user-friendly error message as it should."
+}

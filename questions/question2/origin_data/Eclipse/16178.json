@@ -1,0 +1,1 @@
+{"bug_id": "16178", "title": "Bug 16178LRU working set contains removed working set", "description": "The last recently list is not updated when one of its working sets is deleted."}

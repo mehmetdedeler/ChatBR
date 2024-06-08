@@ -1,0 +1,1 @@
+{"bug_id": "16791", "title": "Bug 16791Can't select check boxes", "description": "Build 20020521LinuxGTK1. \"WindowPreferencesJavaInstalled JREs\"2. With a few JREs defined, try to click in the check boxes. Note that theydon't respond.I played with this a bit and noticed that you can select a check box byclicking far below it."}

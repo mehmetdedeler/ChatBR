@@ -1,0 +1,1 @@
+{"bug_id": "33057", "title": "Bug 33057RC1 No caret in editor", "description": "I've just started using RC1, and the text editors (such as the Java editor) nolonger show a caret indicating the insertion point (on Solaris; things seemfine in Win2K).I do have the caret in dialog boxes, such as the Find dialog.Is there some preference I have set worong?"}

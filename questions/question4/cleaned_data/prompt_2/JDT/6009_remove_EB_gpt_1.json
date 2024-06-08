@@ -1,0 +1,8 @@
+{
+  "id": "6009",
+  "title": "Bug 6009: New Class Wizard Fails to Set Correct Context for Nested Classes",
+  "description": "When using the new class wizard, the context for nested classes isn't correctly identified, leading to an issue where the 'Enclosing Type' field remains blank when it should default to the current type in the editor.",
+  "OB": "When attempting to create a new nested class using the 'New Class' wizard, the 'Enclosing Type' field remains blank.",
+  "EB": "The 'Enclosing Type' field in the 'New Class' wizard should default to the current type in the editor when creating a nested class.",
+  "SR": "1. Open Build 20011106.\n2. Have a .java file open in the editor.\n3. Click the 'New Class' button.\n4. Check the 'Enclosing Type' field in the wizard; it should default to the current type in the editor."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "18163",
+  "title": "Bug 18163: Add Import should ignore leading/trailing whitespace",
+  "description": "When using 'Add Import,' it should ignore any leading or trailing whitespace in the selection.",
+  "OB": "Currently, when I use 'Add Import' and select 'Node ' with leading whitespace, the system adds 'Node ' to the import statement.",
+  "EB": "I expect that when I use 'Add Import' and select 'Node ' with leading whitespace, it should add 'Node' to the import statement, ignoring the leading/trailing whitespace.",
+  "SR": "To reproduce the issue:\n1. Open a source file in the code editor.\n2. Locate a part of the code that requires importing a module, for example, 'Node '.\n3. Use the 'Add Import' feature by using 'Shift + Ctrl + Right' to select 'Node '.\n4. Observe that the import statement includes the leading/trailing whitespace."
+}

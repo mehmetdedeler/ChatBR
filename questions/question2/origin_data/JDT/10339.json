@@ -1,0 +1,1 @@
+{"bug_id": "10339", "title": "Bug 10339Refactoring: Pull up should have \"select/deselect all\" options", "description": "When selecting multiple methods for pull up, it would be nice to have theoption to select/deselect all."}

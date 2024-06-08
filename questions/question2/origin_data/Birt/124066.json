@@ -1,0 +1,1 @@
+{"bug_id": "124066", "title": "Bug 124066in context menu, insert chart is not translated into chinese", "description": "steps to reproduce: create a report (chinese env.) right click in the layout to bring up the context menuexpected behavior: insert chart should be translated into chinese.actual behavior: insert chart was not translated into chinese."}

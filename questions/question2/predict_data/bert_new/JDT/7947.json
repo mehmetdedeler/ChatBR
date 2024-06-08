@@ -1,0 +1,1 @@
+{"id": "7947", "title": "Bug 7947JDIDebugModel still using types for breakpoints", "description": "Bug 7947JDIDebugModel still using types for breakpoints ", "OB": "", "EB": "This should be changed to just check on a type name.The current implementation is doing an equality check on a type and a type name. ", "SR": ""}

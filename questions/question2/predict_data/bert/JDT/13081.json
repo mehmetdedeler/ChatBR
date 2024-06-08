@@ -1,0 +1,1 @@
+{"id": "13081", "title": "Bug 13081Bad progress reporting in Rename Type Refactoring", "description": " Bug 13081Bad progress reporting in Rename Type Refactoring Thetext is blank most of the time.", "OB": "", "EB": "", "SR": " Build 20020404 do smoke test Rename Test case to A bad progress reporting when you press next and when you press finish."}

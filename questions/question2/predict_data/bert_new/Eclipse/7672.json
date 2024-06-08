@@ -1,0 +1,1 @@
+{"id": "7672", "title": "Bug 7672Need public access to GlobalBuildAction", "description": "Bug 7672Need public access to GlobalBuildAction To leverage some code needed to do a correct build I want to reuse theGlobalBuildAction. Can you please make this action public. ", "OB": "", "EB": "", "SR": ""}

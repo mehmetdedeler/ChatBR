@@ -1,0 +1,1 @@
+{"bug_id": "15308", "title": "Bug 15308Persist the size of the refactoring wizard", "description": "The initial size of the refactoring wizard is often too small and we aregetting usability complaints. Suggest to persist the size and position of therefactoring wizard.When restoring the position/size we should check that the wizard still fits onthe current screen."}

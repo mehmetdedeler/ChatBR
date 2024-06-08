@@ -1,0 +1,8 @@
+{
+  "id": "12398",
+  "title": "Bug 12398 Accessibility problems",
+  "description": "I encounter an issue with the software where I have to click on specific 'live' areas, such as the banner with the tool buttons, the nav frame, or the content frame, before it becomes functional.",
+  "OB": "On March 26, 2002, when I launch the Help view on Windows 2000, the tab key does not perform any action or navigation within the Help view.",
+  "EB": "I expect the software to allow tab key navigation within the Help view without the need to click on specific areas first. The tab key should move between interactive elements as expected.",
+  "SR": "1. Launch the software on a Windows 2000 machine.\n2. Go to the Help view.\n3. Attempt to navigate through the Help view using the tab key.\n4. Observe that the tab key does not function as expected and does not navigate to the interactive elements."
+}

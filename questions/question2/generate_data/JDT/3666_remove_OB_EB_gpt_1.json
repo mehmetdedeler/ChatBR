@@ -1,0 +1,8 @@
+{
+  "id": "3666",
+  "title": "Bug 3666 - CodeCompletion Hungry code assist (1GDRYW5)",
+  "description": "Under certain circumstances, code assist consumes excessive code. Consider the enclosed class. As a programmer, I must add a parameter to the 'baz' call in 'bar' to make the program correct. Steps: UI can decide whether it wants to use the code assist end position (until the end of the current identifier) or the cursor location it used to start with, so as to control the amount of source to replace. Removing code assist option.",
+  "OB": "Code assist consumes excessive code under certain circumstances.",
+  "EB": "Code assist should not consume excessive code. It should only assist in providing relevant suggestions without affecting the code more than necessary.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Change the 'baz' call to 'baz(x.x.foo())'.\n2. Place the cursor after the first 'x.'.\n3. Press Ctrl+Space to bring up code assist.\n4. Type 'f' to filter the list of suggestions.\n5. Select 'foo()'."
+}

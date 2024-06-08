@@ -1,0 +1,1 @@
+{"bug_id": "136045", "title": "Bug 136045the display name does not work", "description": "Description:the display name does not workSteps to reproduce:1. new a datasource and a dataset2. In the window 'Edit dataset'. click the tab 'Output columns'3. set a display nameon a columnActual result:The display name does not work, however, it is still the column name"}

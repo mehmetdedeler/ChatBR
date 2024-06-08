@@ -1,0 +1,8 @@
+{
+  "id": "47910",
+  "title": "Bug 47910 - Missing MANIFEST.MF in ajc outjar jarfile",
+  "description": "The issue occurs when compiling with ajc and specifying an output jar file. The resulting .jar file does not contain the expected METAINF/MANIFEST.MF file.",
+  "OB": "When using the ajc compiler with the 'sourceroots' option and specifying an output jar file using 'outjar', a .jar file is created. However, this .jar file does not contain the required MANIFEST.MF file.",
+  "EB": "I expected that when I use the ajc compiler to create a .jar file with 'outjar', it should include a valid MANIFEST.MF file within the META-INF directory. This is a standard requirement for a JAR file.",
+  "SR": "To reproduce the issue:\n1. Run the ajc compiler with the 'sourceroots' option.\n2. Specify an output .jar file using the 'outjar' option, like 'ajc sourceroots <mydir outjar <my.jar'.\n3. Check the contents of the generated .jar file, and you will observe the absence of the MANIFEST.MF file within the META-INF directory."
+}

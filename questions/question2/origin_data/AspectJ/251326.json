@@ -1,0 +1,1 @@
+{"bug_id": "251326", "title": "Bug 251326Anonymous inner classes declare inside an ITD method will cause IllegalAccessError", "description": "If i declare an aspect in pkgB, having an ITD method for a class in pkgA using an inner anonymous class, is created in the pkgA package, package protected, but then instantiated from pkgB causeing the error.Test case is attached."}

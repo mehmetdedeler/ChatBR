@@ -1,0 +1,1 @@
+{"id": "4971", "title": "Bug 4971: Error in 'Copy Package' functionality", "description": "Bug 4971: When performing a 'Copy Package' operation in org.eclipse.jdt.internal.ui in jdt.ui, the destination selection does not work as expected.", "OB": "As a result of the 'Copy Package' operation, the package 'ui' is not copied to the destination.", "EB": "", "SR": ""}

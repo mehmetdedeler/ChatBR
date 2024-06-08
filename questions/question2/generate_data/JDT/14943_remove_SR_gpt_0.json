@@ -1,0 +1,8 @@
+{
+  "id": "14943",
+  "title": "Bug 14943 - Code Assist does not respect platform line ends",
+  "description": "Code Assist does not respect platform line ends when creating a for loop with a temporary variable.",
+  "OB": "When using code assist to create a for loop with a temporary variable, the resulting code has LF (Linefeeds) on a Windows machine.",
+  "EB": "The expected behavior is that the resulting code should have CR/LF (Carriage Return and Linefeed) line endings on a Windows machine.",
+  "SR": "Steps to reproduce:\n1. Open the code editor on a Windows machine.\n2. Create a new code file or open an existing one.\n3. Use code assist to generate a for loop with a temporary variable.\n4. Observe that the resulting code has LF line endings instead of the expected CR/LF line endings."
+}

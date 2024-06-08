@@ -1,0 +1,8 @@
+{
+  "id": "3666",
+  "title": "Bug 3666: Code Completion Causes Excessive Code Replacement",
+  "description": "Bug 3666: Code Completion causes excessive code replacement (1GDRYW5). Under certain circumstances, code assist eats too much code. Consider the enclosed class. As a programmer, I must add a parameter to the baz call in bar to make the program correct. UI can decide whether it wants to use the code assist end position (until the end of the current identifier) or the cursor location it used to start with, to control the amount of source to replace. Removing code assist option.",
+  "OB": "Code assist eats too much code under certain circumstances. The program requires adding a parameter to the baz call in the bar method to correct the issue.",
+  "EB": "The code is changed to: baz(x.foo().foo()) I would rather it gave me: baz(x.foo(), x.foo()) public class X { void bar(X x) { baz(x.foo()); } int foo() { return 5; } void baz(int i, int j) {} }",
+  "SR": "Modify code assist to provide a choice between replacing until the end (triggered by 'enter' key) or replacing until the cursor location (triggered by 'insert' key) to control the amount of source replacement. Implement this choice in ITPJUI."
+}

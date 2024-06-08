@@ -1,0 +1,8 @@
+{
+  "id": "42225",
+  "title": "Bug 42225 - Issue with Ctrl+Backspace Key Assignment",
+  "description": "This bug report addresses an issue where Ctrl+Backspace is misinterpreted as Ctrl+Del, resulting in the deletion of the next word. The reporter has a Swiss German Keyboard using Swiss German Locale.",
+  "OB": "The observed behavior is that the keybinding manager interprets Ctrl+Backspace as Ctrl+Del, deleting the next word when pressed.",
+  "EB": "The expected behavior is that out of the box, Ctrl+Backspace should delete the previous word without being misinterpreted as Ctrl+Del.",
+  "SR": "The steps to reproduce the issue are missing from the report. To better understand and address this problem, detailed steps to reproduce the behavior are needed."
+}

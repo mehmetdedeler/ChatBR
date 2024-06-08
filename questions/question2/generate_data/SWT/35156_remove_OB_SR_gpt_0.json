@@ -1,0 +1,8 @@
+{
+  "id": "35156",
+  "title": "Bug 35156 - Ctrl+F1 Help Search Issue",
+  "description": "This bug report addresses an issue related to the functioning of Ctrl+F1 in the Help Search feature of Eclipse.",
+  "OB": "When Eclipse is launched with a DBCS locale, pressing Ctrl+F1 on the first text field within the Help Search window does not trigger the expected help pop-up. Instead, nothing happens. This behavior is consistent across all DBCS languages.",
+  "EB": "The expected behavior is that when pressing Ctrl+F1 on any text field within the Help Search, a help pop-up screen should appear, displaying relevant information about the Help Search topic. This functionality should work consistently across all DBCS languages and all text fields within the Help Search window.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Launch Eclipse with a DBCS locale.\n2. Select 'Search' from the menu bar, then choose 'Help.'\n3. When the Help Search window appears, click on the first text field and press Ctrl+F1.\n\nExpected Result: A help pop-up screen should come up, displaying information about the Help Search.\n\nExecution Result: Nothing happens, and this problem is consistent across all DBCS languages and specifically affects the first text field."
+}

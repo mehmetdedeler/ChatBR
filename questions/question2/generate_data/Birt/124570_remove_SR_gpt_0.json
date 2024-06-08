@@ -1,0 +1,8 @@
+{
+  "id": "124570",
+  "title": "Preview from toolbar always shows first report opened in session",
+  "description": "When using BIRT 2.0 RC2, the Preview option in the Web Viewer consistently displays the first report opened during a session, even when attempting to view a different report.",
+  "OB": "While testing BIRT 2.0 RC2, I encountered an issue with the Preview feature accessible from the toolbar in the Web Viewer. It consistently displays the first report I opened in a session, even if I attempt to view a different report.",
+  "EB": "To reproduce the issue, follow these steps:\n1. Open the 'Sales Invoice' report.\n2. Click on the 'Preview' button.\nActual Result: The 'Product Catalog' report is displayed.\nExpected Result: The 'Sales Invoice' report should be displayed.",
+  "SR": "1. Open the 'Sales Invoice' report.\n2. Click on the 'Preview' button."
+}

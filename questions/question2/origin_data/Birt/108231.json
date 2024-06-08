@@ -1,0 +1,1 @@
+{"bug_id": "108231", "title": "Bug 108231\"Insert\" in context menu of layout view disappears.", "description": "Description: \"Insert\" in context menu of layout view disappears.Steps to reproduce:1. Click on mouse right button in layout view.2. Context menu appears.Actual result: \"Insert\" in context menu disappears."}

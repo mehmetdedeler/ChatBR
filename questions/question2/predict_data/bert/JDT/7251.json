@@ -1,0 +1,1 @@
+{"id": "7251", "title": "Bug 7251compiler preference page: combo boxes should have equal sizes", "description": " Bug 7251compiler preference page: combo boxes should have equal sizes combo boxes have different sizesdepending on whether the entry is 'error'or 'warning'they should be equalsized", "OB": "", "EB": "", "SR": ""}

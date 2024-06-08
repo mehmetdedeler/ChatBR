@@ -1,0 +1,1 @@
+{"bug_id": "50598", "title": "Bug 50598Sample build.xml uses wrong manager.url", "description": "Inhttp://tomcat.apache.org/tomcat7.0doc/appdev/build.xml.txt , referenced from http://tomcat.apache.org/tomcat7.0doc/appdev/processes.htmlsample manager.url is given as \"http://localhost:8080/manager\" but should be \"http://localhost:8080/manager/text\""}

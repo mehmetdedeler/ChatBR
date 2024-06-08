@@ -1,0 +1,8 @@
+{
+  "id": "17758",
+  "title": "Bug 17758[Navigator] Navigator View: Issues with 'Go Into' Action",
+  "description": "There are issues related to the 'Go Into' action within the Navigator View.",
+  "OB": "After closing a project, the history remains or no indication appears in the navigator view, causing confusion. Additionally, opening another project and selecting a folder still enables the 'Go Into' action even when it shouldn't be available.",
+  "EB": "When closing a project, the history should be cleaned up or a clear indication like 'Project is closed' should appear in the navigator view. Furthermore, opening a new project and selecting a folder should disable the 'Go Into' action if it's not appropriate for the selected context.",
+  "SR": "1. Open a project in the Navigator View.\n2. Close the project.\n3. Observe if the history is cleared or if any indication of closure appears in the navigator view.\n4. Open another project.\n5. Select a folder within the new project.\n6. Check if the 'Go Into' action is enabled when it shouldn't be."
+}

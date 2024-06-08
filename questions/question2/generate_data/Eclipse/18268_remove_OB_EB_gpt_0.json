@@ -1,0 +1,8 @@
+{
+  "id": "18268",
+  "title": "Bug 18268: Images and Files Not Found in NL-Specific Subdirectories",
+  "description": "Bug 18268: The software is not finding images and files in NL-specific subdirectories (Build 200205291235).",
+  "OB": "When opening the about dialog in Eclipse, the main image is not displayed as expected.",
+  "EB": "The expected behavior is that the main image should be displayed correctly in the about dialog when the software is configured to use NL-specific subdirectories for image files.",
+  "SR": "To reproduce the issue:\n1. Start Eclipse.\n2. Delete the file <install/eclipse/org.eclipse.platform2.0.0/eclipselg.gif.\n3. Edit the file <install/eclipse/org.eclipse.platform2.0.0/about.ini and change the value of the aboutImage property to 'aboutImage=$nl$/eclipselg.gif'.\n4. Edit the file <install/eclipse/org.eclipse.platform2.0.0/about.ini again and change the value of the aboutImage property to 'aboutImage=nl/en/eclipselg.gif'.\n5. Exit Eclipse.\n6. Copy the file <install/eclipse/org.eclipse.platform2.0.0/eclipselg.gif down into an NL-specific subdirectory; i.e., move it to <install/eclipse/org.eclipse.platform2.0.0/nl/en/eclipselg.gif>.\n7. Start Eclipse again."
+}

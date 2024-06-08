@@ -1,0 +1,1 @@
+{"bug_id": "3607", "title": "Bug 3607Open Type: can't enter fully qualified name (1GCJUJX)", "description": "EG (4/21/2001 4:17:12 PM)it should be possible to enter fully qualified nameNOTES:PA (5/31/01 2:44:32 PM)it isn't.MA (15.08.2001 18:10:01)Filter with the simple name from the current entered name, and select the package using the qualifier."}

@@ -1,0 +1,8 @@
+{
+  "id": "116744",
+  "title": "Bug 116744: Dynamic text content type has no effect",
+  "description": "",
+  "OB": "When utilizing a dynamic text element to display the contents of a database field with three types of content, including HTML text within <html> tags, HTML fragments not within <html> tags, and text with RTF tags, the dynamic text content type does not have the expected effect.",
+  "EB": "The dynamic text element should appropriately render and display the different content types based on the specified dynamic text content type. Specifically, it should handle HTML text within <html> tags, HTML fragments not within <html> tags, and text with RTF tags as distinct content types.",
+  "SR": "To reproduce the issue:\n1. Create a database field with three types of content: HTML text within <html> tags, HTML fragments not within <html> tags, and text with RTF tags.\n2. Use a dynamic text element to display the contents of this field.\n3. Observe that the dynamic text content type does not have the expected effect, and the rendering of different content types is not handled appropriately."
+}

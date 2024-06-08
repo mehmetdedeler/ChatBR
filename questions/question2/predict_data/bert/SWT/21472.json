@@ -1,0 +1,1 @@
+{"id": "21472", "title": "Bug 21472keyPressed event ignored by org.eclipse.swt.widgets.Text for ENTER key", "description": " Bug 21472keyPressed event ignored by org.eclipse.swt.widgets.Text for ENTER key", "OB": " Only the keyReleased event is received after hitting the ENTER key.I assumethis is a Linux/gtk2 problem.", "EB": "", "SR": ""}

@@ -1,0 +1,8 @@
+{
+  "id": "15899",
+  "title": "Bug 15899: Close all saved does not work consistently",
+  "description": "When attempting to close all saved files, the expected behavior is not always achieved, and the observed behavior is inconsistent.",
+  "OB": "When selecting 'Close all saved' from the menu, it sometimes fails to close all the open files. Instead, some files remain open, even though no changes have been made to them.",
+  "EB": "It should consistently close all saved files when 'Close all saved' is selected, regardless of whether changes have been made to the files or not.",
+  "SR": "To reproduce this issue:\n1. Open multiple files in the application.\n2. Make sure some of these files have changes saved, and others do not.\n3. Go to the 'File' menu and select 'Close all saved'.\n4. Observe that some files are not closed as expected, despite no changes being made to them."
+}

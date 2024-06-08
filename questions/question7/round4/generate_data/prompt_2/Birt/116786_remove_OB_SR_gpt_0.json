@@ -1,0 +1,1 @@
+{"id": "116786", "title": "Bug 116786 - Library include does not store relative path", "description": "", "OB": "", "EB": "When a library is included in a report design, the BIRT designer should generate and save the relative path. For example, if the report design is located in $project/test, the library include should store the relative path.", "SR": ""}

@@ -1,0 +1,8 @@
+{
+  "id": "22839",
+  "title": "Focus Issue with SWT Windows Affects Other Windows' Palettes",
+  "description": "When an SWT window is in focus, the palettes of other windows become unresponsive, and vice versa.",
+  "OB": "When an SWT window is in focus, the palettes of other windows become unresponsive, and vice versa.",
+  "EB": "When an SWT window is in focus, the palettes of other windows should remain responsive and not be affected. Focus should not disrupt the functionality of other windows' palettes.",
+  "SR": "1. Launch the application.\n2. Create multiple windows with palettes or dialog boxes.\n3. Click on one window to bring it into focus.\n4. Observe that when a window is in focus, the palettes or dialog boxes in other windows become unresponsive. Conversely, when you switch focus to another window, the same issue occurs in the previously focused window."
+}

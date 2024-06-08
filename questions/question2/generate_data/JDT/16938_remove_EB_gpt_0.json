@@ -1,0 +1,8 @@
+{
+  "id": "16938",
+  "title": "Bug 16938 - Class File Editor Scroll Issue",
+  "description": "Reported in version 20020521 (F1). Note: This may not be a high-priority issue.",
+  "OB": "When debugging a Java file and stepping into a method, if a Class File Editor is opened for a class without the corresponding source code, scrolling in the editor behaves incorrectly. Clicking the scrollbar's down arrow scrolls only one pixel at a time, and clicking on the scrollbar's background scrolls about a line at a time instead of a full page. Manually grabbing and dragging the scrollbar thumb works as expected.",
+  "EB": "The expected behavior is that when debugging and stepping into classes without source code, the Class File Editor should allow more natural scrolling. Clicking the scrollbar's down arrow should scroll a reasonable distance, and clicking on the scrollbar's background should scroll a full page.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open a Java file and set a breakpoint right before a 'System.out.println' statement.\n2. Start debugging and step into the 'println' call. It's essential that the class you step into lacks the corresponding source code.\n3. A Class File Editor opens for that class.\n4. Try to scroll within the Class File Editor using the scrollbar.\n\nObserve that scrolling behaves incorrectly, as described in the 'Observed Behavior' section. It should scroll more naturally as described in the 'Expected Behavior' section."
+}

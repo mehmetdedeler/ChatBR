@@ -1,0 +1,8 @@
+{
+  "id": "134949",
+  "title": "Bug 134949 - Themes nesting in other library",
+  "description": "Themes are nesting in another library. Details: Themes are nesting in another library. Step: 1.",
+  "OB": "Themes are currently nesting in another library.",
+  "EB": "Themes should not nest in another library. This behavior is unexpected and could lead to issues.",
+  "SR": "Steps to reproduce:\n1. [Provide specific steps to reproduce the issue]"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "4974",
+  "title": "Bug 4974 - Set classpath / output location should be one operation",
+  "description": "",
+  "OB": "After pressing 'Ok,' you get the error message: 'Cannot nest output folder /xy in source folder /xy/src.' The problem is that setting output location and classpath are two separate operations. By setting the first, an illegal state is created.",
+  "EB": "After pressing 'Ok,' the expected behavior is that there should be no error message, and the classpath and output location should be set together as a single operation, without causing an illegal state.",
+  "SR": "To reproduce the issue, follow these steps: 1. Open the application. 2. Navigate to the settings or preferences menu where you can set the classpath and output location. 3. Set the classpath and output location separately. 4. Press 'Ok' to confirm. 5. Observe the error message: 'Cannot nest output folder /xy in source folder /xy/src.'"
+}

@@ -1,0 +1,1 @@
+{"id": "16700", "title": "Bug 16700Coolbar tab order is backwards", "description": "", "OB": " Bug 16700Coolbar tab order is backwards", "EB": "", "SR": " Build 20020521Run the attached test case.Press the tab key.Notice that tabbing is backwards for the CoolBar."}

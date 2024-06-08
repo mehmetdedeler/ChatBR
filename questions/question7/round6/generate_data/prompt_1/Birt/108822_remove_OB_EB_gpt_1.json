@@ -1,0 +1,8 @@
+{
+  "id": "108822",
+  "title": "More Robust Logic Needed for Disk Sorting with Border Value for Row",
+  "description": "The current logic for processing disk sorting encounters issues when there is a border value for the row. Improvements are needed.",
+  "OB": "When sorting on disk with a dataset of 40000 rows, and the program processes data less than 40000 rows, the following issues are observed:\n1. Inaccurate saving of the file as a temp file.\n2. Incorrect calling of the file to memory.\n3. Sorting errors on the data.\n4. Incorrect saving of the file to the temp file.",
+  "EB": "The expected behavior is that the sorting process on disk with a dataset of 40000 rows, and processing data less than 40000 rows, should proceed accurately and without errors. Specifically:\n1. The file should be saved correctly as a temp file.\n2. The file should be called to memory without issues.\n3. Sorting should be performed accurately on the data.\n4. The file should be saved correctly to the temp file.",
+  "SR": "To reproduce the issue:\n1. Set up a sorting operation on disk with a dataset of 40000 rows.\n2. Configure the program to process data less than 40000 rows.\n3. Observe the inaccurate saving of the file as a temp file.\n4. Note the incorrect calling of the file to memory.\n5. Identify sorting errors on the data.\n6. Observe the incorrect saving of the file to the temp file."
+}

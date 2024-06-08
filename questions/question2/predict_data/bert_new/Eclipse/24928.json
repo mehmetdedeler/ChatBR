@@ -1,0 +1,1 @@
+{"id": "24928", "title": "Bug 24928[JFace] Need ComboFieldEditor", "description": "Bug 24928[JFace] Need ComboFieldEditor Build 20021016There seems to be a need for a combo box field editor: there are 3 copies in thesystem and I have to introduce another one. ", "OB": "", "EB": "", "SR": ""}

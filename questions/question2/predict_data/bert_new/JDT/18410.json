@@ -1,0 +1,1 @@
+{"id": "18410", "title": "Bug 18410IllegalArgumentException opening NLS search page", "description": "Bug 18410IllegalArgumentException opening NLS search page Build F11. ", "OB": "Ctrl+H)== page does not show up, there is an error written to .log ", "EB": "", "SR": "select a property file which starts with lower case (e.g. x.properties)2. open Search (e.g. "}

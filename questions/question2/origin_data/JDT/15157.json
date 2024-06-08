@@ -1,0 +1,1 @@
+{"bug_id": "15157", "title": "Bug 15157New menu disappears when folder is selected", "description": "Build: 20020501The New menu in the packages view is not added to the popup menu when afolder is selected.It is added when a source folder is selected."}

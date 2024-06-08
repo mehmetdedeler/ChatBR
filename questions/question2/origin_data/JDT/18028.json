@@ -1,0 +1,1 @@
+{"bug_id": "18028", "title": "Bug 18028Rename package doesn't check if all resources are writeable", "description": "F1+ create a package with a CU in it make the CU readonly try to rename the package.observe: after finish you get an unexpected exception dialog. Preconditionchecking should check for read only files inside packages."}

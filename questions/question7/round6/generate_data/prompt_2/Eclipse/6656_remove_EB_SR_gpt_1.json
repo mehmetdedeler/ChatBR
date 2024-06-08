@@ -1,0 +1,8 @@
+{
+  "id": "6656",
+  "title": "Bug 6656: Close button displacement on view resize",
+  "description": "On Linux, using build 20011127 (not reproducible on build 20011116 on Nt2000), the close button displaces downward when resizing a view like the Navigator to a smaller size. This issue does not occur on the Nt2000 build. If the close button starts moving around, it may cause confusion among users.",
+  "OB": "The close button moves downward when resizing the Navigator view to a smaller size on Linux with build 20011127, causing potential confusion.",
+  "EB": "The close button should remain in a consistent position and not displace when resizing the Navigator view or any other applicable view.",
+  "SR": "1. Open the application on Linux with build 20011127.\n2. Navigate to the Navigator view.\n3. Resize the Navigator view to a smaller size.\n4. Observe the close button's movement downward."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "112458",
+  "title": "Property Editor displays layout item properties in Master Page viewer",
+  "description": "The Property Editor is displaying properties of layout items when switching to the Master Page viewer, causing confusion for users who might mistake it for the Master Page Editor.",
+  "OB": "Users may assume it's the Master Page Editor and unintentionally set properties without clicking on the Master Page viewer first.",
+  "EB": "The Property Editor should reflect the properties of the Master Page when in the Master Page viewer.",
+  "SR": "1. Open the application.\n2. Navigate to the page with a Master Page.\n3. Access the Property Editor.\n4. Switch to the Master Page viewer.\n5. Observe the displayed properties – they should match those of the Master Page, not individual layout items."
+}

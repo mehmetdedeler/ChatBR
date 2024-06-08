@@ -1,0 +1,1 @@
+{"id": "10168", "title": "Bug 10168NPE in externalize strings dialog", "description": "Bug 10168NPE in externalize strings dialog Next4. ", "OB": "NPE occurs. ", "EB": "", "SR": "Select Java file2. Externalize Strings3. Click \"Browse\" next to \"test.properties\".Click OK in the dialog without selecting anything. "}

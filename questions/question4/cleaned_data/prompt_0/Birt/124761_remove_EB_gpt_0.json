@@ -1,0 +1,8 @@
+{
+                    "id": "124761",
+                    "title": "Bug 124761: Data not extracted when adding two filters",
+                    "description": "When two filters are added, one being 'State is equal to CA' and the other being 'EmployeeId is Top 10', the data does not get extracted.",
+                    "OB": "When adding two filters, one being 'State is equal to CA' and the other being 'EmployeeId is Top 10', the data does not get extracted.",
+                    "EB": "The intersection set of the data 'State is equal to CA' and the data 'EmployeeId is Top 10' should be displayed.",
+                    "SR": "To reproduce the issue:1. Import the attached report.2. Preview the report and observe that the data does not get extracted."
+                }

@@ -1,0 +1,8 @@
+{
+  "id": "110566",
+  "title": "Incorrect Result Returned for Invalid Filter Expression 'row[0]'",
+  "description": "When attempting to set a filter expression like 'row[0] equals to 0' or any similar invalid filter, the software should not return a null result set.",
+  "OB": "The software currently does not behave as expected when an invalid filter expression like 'row[0] equals to 0' is applied. Instead of returning an error message or handling the invalid filter properly, it returns a null result set.",
+  "EB": "When an invalid filter expression is set, the software should display a relevant error message to inform the user about the issue and prevent the return of a null result set.",
+  "SR": "1. Launch the software.\n2. Open a data set.\n3. Try to set an invalid filter expression, such as 'row[0] equals to 0'.\n4. Observe the software's response and verify that it displays a clear error message instead of returning a null result set."
+}

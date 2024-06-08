@@ -1,0 +1,8 @@
+{
+  "id": "13269",
+  "title": "Bug 13269: Incorrect operation order in jarpackager",
+  "description": "Bug 13269: Incorrect operation order in jarpackager. The same issue applies to the '.jardesc' file. Perhaps a warning in the wizard's header (now that an icon is shown as well) would be better in the case of the '.jardesc' file than a dialog box at the end. If the user wants that, they should use the 'save the manifest in the workspace' option combined with the 'reuse and save the manifest in the workspace' option. (Build Date: 20020409, JRT).",
+  "OB": "The issue involves incorrect operation order in the jarpackager. Specifically, when the user selects the 'use existing manifest from workspace' option, it saves a new manifest file, which is not the expected behavior.",
+  "EB": "The expected behavior is that not overwriting this file should not cause the wizard to fail to complete its operation. When the 'use existing manifest from workspace' option is selected, it should not save a new manifest file.",
+  "SR": "To reproduce the issue:\n1. Open the jarpackager wizard.\n2. Select the 'use existing manifest from workspace' option.\n3. Complete the packaging process.\n4. Observe that a new manifest file is saved instead of using the existing one."
+}

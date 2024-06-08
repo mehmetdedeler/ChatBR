@@ -1,0 +1,8 @@
+{
+  "id": "18268",
+  "title": "Bug 18268 - Images and Files Not Found in NL-Specific Subdirectories",
+  "description": "When starting Eclipse and making specific changes to the 'about.ini' file, images and files in NL-specific subdirectories are not found as expected.",
+  "OB": "When you open the about dialog, observe that there is a main image.",
+  "EB": "When you open the about dialog, observe that there is no main image. The expectation is that it should have found the main image in the NL-specific subdirectory.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Start Eclipse.\n2. Delete the file located at 'install/eclipse/org.eclipse.platform/2.0.0/eclipselg.gif'.\n3. Edit the 'about.ini' file located at 'install/eclipse/org.eclipse.platform/2.0.0/about.ini'.\n4. Change the value of the 'aboutImage' property to 'aboutImage=$nl$/eclipselg.gif'.\n5. Edit the 'about.ini' file again, and change the value of the 'aboutImage' property to 'aboutImage=nl/en/eclipselg.gif'.\n6. Open the about dialog."
+}

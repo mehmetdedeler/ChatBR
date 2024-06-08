@@ -1,0 +1,8 @@
+{
+  "id": "12398",
+  "title": "Accessibility Issues with Live Areas",
+  "description": "When using the application, I've noticed that I need to first click on one of the 'live' areas before it starts working. These areas include the banner with the tool buttons, the nav frame, or the content frame.",
+  "OB": "The application requires a manual click on the 'live' areas (banner, nav frame, content frame) before they become responsive or navigable via the keyboard.",
+  "EB": "We should ensure that the Help view is immediately navigable via the keyboard without the need for a prior click on the 'live' areas.",
+  "SR": "To reproduce the issue:\n1. Open the application.\n2. Attempt to navigate using the keyboard within the Help view without clicking on any 'live' area.\n3. Observe that the keyboard navigation is not functional until you manually click on one of the 'live' areas (e.g., banner, nav frame, or content frame)."
+}

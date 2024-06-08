@@ -1,0 +1,8 @@
+{
+  "id": "6304",
+  "title": "Cannot Synchronize a .java File and Another Resource",
+  "description": "When attempting to synchronize a .java file with another resource in the package viewer, an issue is encountered.",
+  "OB": "When trying to synchronize a .java file with another resource (e.g., a .properties file) in the package viewer, the synchronization process fails.",
+  "EB": "I expect the synchronization of a .java file with another resource to work correctly in the package viewer without any errors.",
+  "SR": "To reproduce the issue:\n1. Open the package viewer.\n2. Select a .java file and another resource (e.g., a .properties file)."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "40257", "title": "Bug 40257parsing of \"../\" paths in LST files is broken", "description": "Relative paths (e.g. \"../\") are no longer parser properly in AJDE 1.1.0."}

@@ -1,0 +1,1 @@
+{"bug_id": "41089", "title": "Bug 41089JspFactoryImpl has SPECVERSION = \"2.0\"", "description": "org.apache.jasper.runtime.JspFactoryImpl hasprivate static final String SPECVERSION = \"2.0\";Should be:private static final String SPECVERSION = \"2.1\";"}

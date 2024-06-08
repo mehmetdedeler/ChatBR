@@ -1,0 +1,8 @@
+{
+  "id": "18335",
+  "title": "Bug 18335 - Perspective contents lost when view is maximized",
+  "description": "The issue involves the loss of perspective contents upon maximizing a view within the workbench.",
+  "OB": "Upon reopening the workbench and switching to the perspective with the maximized view, the contents of the perspective are lost, reverting to a temporary layout instead of the expected proper layout.",
+  "EB": "The expected behavior is that the proper layout of the perspective should persist when the workbench is closed and reopened, even if a view was maximized in that perspective previously.",
+  "SR": "1. Switch to another perspective within the workbench.\n2. Exit the workbench.\n3. Reopen the workbench.\n4. Switch to the perspective that previously had the view maximized. The contents of the perspective should remain intact without reverting to a temporary layout."
+}

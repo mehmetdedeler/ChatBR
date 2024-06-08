@@ -1,0 +1,1 @@
+{"id": "6062", "title": "Bug 6062JavaDocCompletionProcessor should be have configurable case sensitivity", "description": "Need implementation of the following JavaDocCompletionProcessor methodpublic void restrictProposalsToMatchingCases(boolean restrict. ", "OB": "", "EB": "Bug 6062JavaDocCompletionProcessor should be have configurable case sensitivity ", "SR": ""}

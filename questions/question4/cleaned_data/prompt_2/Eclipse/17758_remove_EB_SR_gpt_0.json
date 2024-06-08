@@ -1,0 +1,8 @@
+{
+"id": "17758",
+"title": "Bug 17758 - Problems with 'Go Into' action in Navigator View",
+"description": "When using the 'Go Into' action in the Navigator View, the following issues occur:\n\n1. After importing all plugins from the runtime environment and packing a project (e.g., org.eclipse.ant), the initial use of the 'Go Into' action works correctly.\n\n2. However, when using the 'Go Up' and 'Go Back' actions consecutively, the 'Go Forward' action remains enabled, but the first forward action leads to a blank screen.\n\n3. Clicking on the forward action seems to have no effect.\n\n4. Additionally, the 'Go Into' action becomes disabled after performing the previous steps.",
+"OB": "1. Import all plugins from the runtime environment.\n2. Pack a project (e.g., org.eclipse.ant).\n3. Use the 'Go Into' action.\n4. Use the 'Go Up' action.\n5. Use the 'Go Back' action.\n6. Use the 'Go Back' action again.\n\nExpected Behavior: The 'Go Forward' action should remain enabled, and clicking on it should navigate to the appropriate screen.\n",
+"EB": "",
+"SR": ""
+}

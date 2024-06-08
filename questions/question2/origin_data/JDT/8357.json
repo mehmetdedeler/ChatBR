@@ -1,0 +1,1 @@
+{"bug_id": "8357", "title": "Bug 8357Pull Up: should remove final from field", "description": "Pull up 'fName' in test case.  Compilation Error in TestCaseThe final modifier has to be removed (or the refactoring should not allow tomove final variables."}

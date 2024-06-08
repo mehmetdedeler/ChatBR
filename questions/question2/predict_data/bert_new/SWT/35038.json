@@ -1,0 +1,1 @@
+{"id": "35038", "title": "Bug 35038Refactoring dialog (Extract Local Variable) to big", "description": "Bug 35038Refactoring dialog (Extract Local Variable) to big I20030307The height of the \"Extract Local Variable\" is much too big. ", "OB": "There is much space at the bottom and the dialog nearly takes the whole height. ", "EB": "", "SR": ""}

@@ -1,0 +1,8 @@
+{
+  "id": "32770",
+  "title": "Bug 32770 - Java application launch shortcut error doesn't help user",
+  "description": "Bug 32770 - Java application launch shortcut error doesn't help user. Also, we should improve the quality of the error message.",
+  "OB": "When attempting to launch a Java application using a shortcut, a dialog appears with the message: 'Launch failed: no main type found.' We should consider tracking resource selection similar to the way external tools track selection for variable expansion. In fact, we should be able to combine the two into a single mechanism.",
+  "EB": "The error message for the Java application launch shortcut should provide more helpful guidance to the user. It should indicate the specific issue causing the failure and suggest possible solutions, such as selecting a main type or providing clearer instructions for setting up the application.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Create a Java application shortcut on the desktop or in the application menu.\n2. Double-click the shortcut to launch the Java application.\n3. Observe the dialog with the message 'Launch failed: no main type found.'"
+}

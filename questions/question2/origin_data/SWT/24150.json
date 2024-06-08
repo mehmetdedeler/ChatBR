@@ -1,0 +1,1 @@
+{"bug_id": "24150", "title": "Bug 24150ShiftTab does not shift left", "description": "20020924 linuxgtk (works on w2k)Select a few lines of text and press ShiftTab. The text is not shifted, butthe editor tab gets something like a focus."}

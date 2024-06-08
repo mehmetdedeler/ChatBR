@@ -1,0 +1,8 @@
+{
+  "id": "11280",
+  "title": "Bug 11280 - View Maximization Lost When Switching Perspectives",
+  "description": "When navigating between perspectives, the maximized state of the CVS repository view is not retained.",
+  "OB": "Upon switching perspectives from Java to Resource and back to Java, the maximized state of the CVS repository view is lost, reverting to its default size.",
+  "EB": "The maximized state of the CVS repository view should persist when switching between perspectives. Upon returning to the Java perspective, the view should remain maximized as previously set.",
+  "SR": "1. Open the Eclipse IDE in the Java perspective.\n2. Navigate to the CVS repository view and double-click the title bar to maximize it.\n3. Switch to the resource perspective.\n4. Return to the Java perspective."
+}

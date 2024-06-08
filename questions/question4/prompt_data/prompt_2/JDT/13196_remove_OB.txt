@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '13196', 'title': 'Bug 13196[Browsing] Consequences of changes', 'description': 'Bug 13196[Browsing] Consequences of changes ', 'OB': '', 'EB': 'Then both manipulationsbehave the same.Expected behavior: If there is an open editor, all manipulations should justwork on the working copy shown in the editor. ', 'SR': "From the user's perspective, there is an unexpected behavioral difference whenmanipulation source in the type hierarchy and in the method list of the browserperspective.1) open Java Browsing Perspective2) select a type3) select a method in the method list view4) delete the method (context menu of the method list view) editor becomes dirty (ok)5) select another type6) open type hierarchy on this type, dock the hierachy view7) select a method in the method list view8) select the same method in the hierarchy view9) delete the method (context menu of the hierarchy view) method is deleted on file system, type list view, method list view, editorare all clearedNote: This is not the case when the editor is dirty. "}
+</BUG REPORT>

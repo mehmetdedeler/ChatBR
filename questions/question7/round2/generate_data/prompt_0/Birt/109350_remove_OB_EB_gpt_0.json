@@ -1,0 +1,1 @@
+{"id": "109350", "title": "Bug 109350 - Output parameter should display in data set dialog.", "description": "", "OB": "", "EB": "", "SR": "When calling the stored procedure from the Oracle database, the query result is stored in an output parameter as an object. The output parameter should be displayed in the edit data set dialog."}

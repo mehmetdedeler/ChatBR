@@ -1,0 +1,8 @@
+{
+  "id": "130068",
+  "title": "Bug 130068 - Report Parameter window not appearing during report preview with parameters",
+  "description": "Report Parameter window doesn't pop up when preview a report with parameter. Steps to reproduce:\n1. Open the application and log in to your account.",
+  "OB": "When attempting to preview a report that contains parameters, the Report Parameter window does not appear as expected.",
+  "EB": "The expected behavior is that when previewing a report with parameters, the Report Parameter window should pop up, allowing users to input or select the necessary parameter values before generating the report.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the application.\n2. Log in to your account."
+}

@@ -1,0 +1,1 @@
+{"id": "18229", "title": "Bug 18229Walkback when closing ImageAnalyzer", "description": " Build 20020527Win2k1. Walkback", "OB": "", "EB": "", "SR": " Bug 18229Walkback when closing ImageAnalyzer Open the ImageAnalyzer SWT example.2. Load an animated gif.3. Hit 'animate'4. Close the window.5."}

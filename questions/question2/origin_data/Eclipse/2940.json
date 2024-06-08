@@ -1,0 +1,1 @@
+{"bug_id": "2940", "title": "Bug 2940Export Zip: Updating of checkboxes should use busy cursor (1GKWVMA)", "description": "MA (01.10.2001 11:38:21)1. In a workspace with many project, export Zip.2. Select all project.3. Select file tyoes, choose some. Press ok.4. It takes a log time ( 30 sec in my case) to update the checked state of the table Busy cursor should be shownNOTES:"}

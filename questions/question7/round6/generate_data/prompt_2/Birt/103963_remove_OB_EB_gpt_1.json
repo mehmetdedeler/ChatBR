@@ -1,0 +1,8 @@
+{
+  "id": "103963",
+  "title": "Bug 103963: Missing Friendly Error Message for Empty Series",
+  "description": "When there is no data for a series, the application fails to display a friendly error message as expected.",
+  "OB": "No friendly error message is shown when selecting a column without data for the chart.",
+  "EB": "A user-friendly error message should be displayed when selecting a column without data for the chart.",
+  "SR": "Steps to Reproduce:\n1. Create a chart.\n2. Set data definition for the chart.\n3. Select a column without data."
+}

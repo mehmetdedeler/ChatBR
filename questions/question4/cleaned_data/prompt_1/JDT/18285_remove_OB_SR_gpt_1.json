@@ -1,0 +1,8 @@
+{
+  "id": "18285",
+  "title": "Bug 18285 - Double-clicking on import statement transfers to referenced type",
+  "description": "When double-clicking on a type import statement in the package view outline, the editor opens on the target type instead of the unit hosting the import reference.",
+  "OB": "The expected behavior is that double-clicking on a type import statement in the package view outline should open the editor on the unit hosting the import reference, not on the target type.",
+  "EB": "Build 20020528 In the package view outline, doubleclicking on a type import statement doesopen the editor on the target type, instead of the unit hosting the import reference.",
+  "SR": "Investigate and fix the issue causing the editor to open on the referenced type instead of the unit hosting the import reference when double-clicking on a type import statement in the package view outline."
+}

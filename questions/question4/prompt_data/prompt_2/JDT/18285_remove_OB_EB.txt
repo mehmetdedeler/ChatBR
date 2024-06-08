@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '18285', 'title': 'Bug 18285Doubleclicking on import statement transfers to referenced type', 'description': '', 'OB': '', 'EB': '', 'SR': 'Build 20020528In the package view outline, doubleclicking on a type import statement doesopen the editor on the target type, instead of the unit hosting the importreference. '}
+</BUG REPORT>

@@ -1,0 +1,8 @@
+{
+  "id": "20249",
+  "title": "Bug 20249 - F1 Help Behavior Inconsistent for Editor, Viewer, and Perspective",
+  "description": "When pressing F1 in the editor, viewer, or perspective menu, unexpected behavior occurs with flashing. This bug report aims to address this issue and improve the F1 help behavior.",
+  "OB": "Pressing F1 in the editor, viewer, or perspective menus currently results in flashing or the display of undefined F1 help, even when no F1 help is defined for these actions. This behavior is inconsistent and confusing to users.",
+  "EB": "If there is no F1 help defined for the editor, viewer, or perspective actions, pressing F1 should not trigger any display. The behavior should be consistent across these menus. None of the actions under Window > Keyboard Shortcuts should display undefined F1 help when no help is defined, ensuring a more user-friendly experience.",
+  "SR": "To reproduce the issue:\n1. Open the editor, viewer, or perspective menu.\n2. Press F1 with no specific action selected (e.g., do not select any command).\n3. Observe the flashing or display of undefined F1 help, which should not occur when no help is defined."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "8142",
+  "title": "No Scoped Type Hierarchy on Binary Projects",
+  "description": "I don't understand it.",
+  "OB": "When I hit F4 on a binary project selection (e.g. org.apache.ant), I get: 'No declaration of selected members in the chosen hierarchy of 'org.apache.ant'.",
+  "EB": "I would expect to see the class hierarchies of the internal jars. BTW, what does the message mean?",
+  "SR": "1. Open a binary project selection.\n2. Select 'org.apache.ant' within the project.\n3. Press the F4 key."
+}

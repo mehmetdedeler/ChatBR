@@ -1,0 +1,8 @@
+{
+  "id": "16822",
+  "title": "Search results not cleared when moving 'X.java' to 'P/src2'",
+  "description": "Build 200205211.",
+  "OB": "After moving 'X.java' to 'P/src2', the search results are still visible in the search view. When attempting to double-click on a search result, a 'Search Error' dialog is displayed with the message: 'An error occurred while creating a Java element. Reason: X.java does not exist.'",
+  "EB": "The expected behavior is that when 'X.java' is moved to 'P/src2', the search results in the search view should be cleared, and double-clicking on a search result should open the corresponding Java element without any errors.",
+  "SR": "To reproduce the issue:\n1. Open the search functionality in the software.\n2. Search for 'X.java'.\n3. Observe the search results.\n4. Move 'X.java' to 'P/src2'.\n5. Return to the search view and note that the search results are still visible.\n6. Attempt to double-click on a search result and observe the 'Search Error' dialog with the given error message."
+}

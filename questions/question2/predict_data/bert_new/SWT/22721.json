@@ -1,0 +1,1 @@
+{"id": "22721", "title": "Bug 22721Cannot use keyboard to toggle checkboxes", "description": "Bug 22721Cannot use keyboard to toggle checkboxes ", "OB": "R2.0.1 20020821The is no way to toggle a Checkbox on GTK. On Windows you can use the space barto toggle themon GTK you can only change checked state with the mouse. ", "EB": "", "SR": ""}

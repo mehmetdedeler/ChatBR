@@ -1,0 +1,8 @@
+{
+  "id": "31627",
+  "title": "Bug 31627 - DBCS: Perspective change caused core dump after adding DBCS project to the workspace",
+  "description": "Language: Japanese Build driver: eclipseSDKI20030211linuxgtk OS: RedHat8 (Japanese: locale jaJP.eucJP), gtk 2.2 JDK Ver. : IBM JDK1.3.1 + SR3 Summary: DBCS: Perspective change caused core dump after adding DBCS project to the workspace",
+  "OB": "After performing the specified steps, when changing the perspective to CVS perspective in Eclipse, the software crashes and generates a core dump.",
+  "EB": "The software should not crash or generate a core dump when changing the perspective to CVS perspective. It should smoothly switch perspectives without any errors.",
+  "SR": "Steps to reproduce the problem: 1. Create a project using DBCS characters. 2. Right-click the project and select 'Team' -> 'Share project...'. 3. Select the CVS repository. 4. Select the option 'Use project name as module name' and click 'Finish'. 5. Select the project in the 'Synchronize' view. 6. Right-click on the project and select 'Add Version Control'. 7. Right-click on the project and select 'Commit'. 8. Right-click on the project and select 'Delete' (Select 'also delete contents under /workspace folder name'). 9. Change the perspective to CVS perspective. 10. Expand the repository and HEAD. 11. Right-click on the DBCS project and select 'Check Out As Project'."
+}

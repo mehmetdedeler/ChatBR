@@ -1,0 +1,1 @@
+{"bug_id": "26434", "title": "Bug 26434PrinterData startPage/endPage invalid when page 32767", "description": "build 20021114Run the code belowLeave the default page number 65535Press OKThe startPage and endPage is 1Any page value  32767 entered in the dialog results in 1 in the PrinterOptions"}

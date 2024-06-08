@@ -1,0 +1,8 @@
+{
+  "id": "116786",
+  "title": "Bug 116786 - Library include should store relative path.",
+  "description": "The bug report lacks specific details about the issue.",
+  "OB": "Insufficient information provided in the bug report to understand the observed behavior.",
+  "EB": "When a library is included in a report design, the BIRT designer should generate and save the relative path. For example, if the report design is located in $project/test, the relative path should be stored accordingly.",
+  "SR": "Steps to reproduce are not provided. Please include detailed steps to replicate the issue, starting from the initial state of the system."
+}

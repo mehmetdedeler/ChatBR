@@ -1,0 +1,1 @@
+{"bug_id": "120061", "title": "Bug 120061data type boolean in dbms can not show in data set", "description": "i use postgresql 8.1 and jdbc driverin create data set from table with boolean fieldit have error data set try to make it a integer and show can not convert 't', 'f' to integer"}

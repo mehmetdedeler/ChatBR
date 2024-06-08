@@ -1,0 +1,8 @@
+{
+  "id": "138175",
+  "title": "Bug 138175: Bookmark link set in drill through link should be saved in Hyperlink Options dialog.",
+  "description": "The bug involves the failure to save a bookmark link set in the drill-through link within the Hyperlink Options dialog.",
+  "OB": "Upon reopening the Hyperlink Options dialog, the selected bookmark is not displayed, although it is saved in the XML source.",
+  "EB": "The expected behavior is that the target bookmark should be visible and displayed in the Hyperlink Options dialog after reopening.",
+  "SR": "1. Open the Hyperlink Options dialog.\n2. Set a bookmark link in the drill-through link.\n3. Close and reopen the Hyperlink Options dialog.\n\nResult: The selected bookmark is not displayed.\nExpected result: The target bookmark should be visible in the Hyperlink Options dialog."
+}

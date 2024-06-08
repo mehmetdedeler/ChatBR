@@ -1,0 +1,1 @@
+{"id": "116829", "title": "Bug 116829: Label height doesn't change with label font modification.", "description": "Description: When modifying the font size of a label, the label height does not change right away.\n\nOB:", "EB": "", "SR": "Steps to reproduce:\n\n1. Add a label.\n2. Edit the font size of the label to be 18 points.\n"}

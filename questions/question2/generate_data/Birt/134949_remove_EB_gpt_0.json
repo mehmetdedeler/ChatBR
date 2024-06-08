@@ -1,0 +1,8 @@
+{
+  "id": "134949",
+  "title": "Themes Nest in Other Library Issue",
+  "description": "When attempting to nest themes from Library B into Library A, an error occurs due to the existing library namespace. The expected behavior is not specified in the report. Here are the details with improved clarity:",
+  "OB": "While working in the Library Explorer, I opened the Library tree of A and tried to drag and drop themes from Library B into the layout. The actual result was an error message that indicated the library namespace 'B' already exists. The error message did not provide information on how to resolve the issue, and I'm unsure if this method can be used.",
+  "EB": "The expected behavior is not clearly defined in the report. It would be helpful to know what the intended outcome should be when trying to nest themes from Library B into Library A. This would allow for a more accurate assessment of the issue.",
+  "SR": "To reproduce the issue:\n1. Ensure that Library A is using Library B, and Library B has a 'themes2' component.\n2. Access the Library Explorer and open the Library tree of A.\n3. Attempt to drag and drop the 'themes2' component from Library B into the layout of Library A.\n4. Observe the error message that mentions the existing library namespace 'B.'\n5. Note any additional information provided by the error message and specify if there are any recommended actions to resolve the problem."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "17305", "title": "Bug 17305Search Dialog: Java Page clipped", "description": "F1Suse 8.0, KDE 3.0, GTK 2 create Java file open in editor open search dialogobserve: dialog is clipped.Works well under Windows and Motif"}

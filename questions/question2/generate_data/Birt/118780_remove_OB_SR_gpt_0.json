@@ -1,0 +1,8 @@
+{
+  "id": "118780",
+  "title": "Column Alias Not Displayed Correctly in Expression Builder",
+  "description": "When setting an alias for columns in a dataset, the Expression Builder still shows the old column name when selecting the dataset.",
+  "OB": "When selecting the dataset in the Expression Builder and double-clicking the first column name, the original column name is displayed in the builder instead of the alias name.",
+  "EB": "In the Expression Builder, when selecting the dataset and double-clicking the first column name, the expected behavior is that it should display the alias name as specified in SCR 78193 instead of the original name.",
+  "SR": "To reproduce the issue:\n1. Open the Expression Builder.\n2. Select the dataset containing columns with aliases.\n3. Double-click on the first column name."
+}

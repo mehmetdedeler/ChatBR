@@ -1,0 +1,1 @@
+{"bug_id": "17345", "title": "Bug 17345add \"org\" to \"Organize Imports\"", "description": "PreferencesJavaOrganize ImportsI'd like to see the entry \"org\" added to the existing entries \"java, javax,com\".The package prefix \"org\" is so common ... why not add it to the existingones ... eclipse itself has mostly this prefix."}

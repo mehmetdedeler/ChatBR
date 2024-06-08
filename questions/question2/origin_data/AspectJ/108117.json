@@ -1,0 +1,1 @@
+{"bug_id": "108117", "title": "Bug 108117Complete implementation of abstract generic aspects", "description": "this requires1/ completion of the parameterizeWith implementation in the pointcut AST nodes2/ a much more exhaustive test suite around it."}

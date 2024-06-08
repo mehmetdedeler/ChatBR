@@ -1,0 +1,8 @@
+{
+  "id": "12428",
+  "title": "Bug 12428: Inconsistent Messages in Pull Up Refactoring",
+  "description": "The Pull Up refactoring displays inconsistent messages during the process.",
+  "OB": "The observed behavior in the Pull Up refactoring includes:\n- Inconsistent messages displayed during the refactoring process.",
+  "EB": "The expected behavior is to have consistent and clear messages during the Pull Up refactoring, specifically addressing the use of the fully qualified name.",
+  "SR": "To reproduce the issue:\n1. Run the 'Pull Up' refactoring on 'TestCase.setUp' (this copies the method to 'Assert').\n2. Go to the second page of the refactoring wizard."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "45655", "title": "Bug 45655check permisson", "description": "Created attachment 22458 [details]check permissionjust check permission if it is alloweddon't use cast to same class"}

@@ -1,0 +1,8 @@
+{
+    "id": "11863",
+    "title": "Bug 11863: Update Test Suite action does not allow removal",
+    "description": "",
+    "OB": "The user is unable to remove the content of the test suite when using the 'Update' action. This can be confusing as the name suggests that the action should show the existing content and allow modification.",
+    "EB": "To address this issue, I suggest renaming the action (and the dialog) to 'Recreate Test Suite' to accurately reflect what the action does.",
+    "SR": "The current behavior of the 'Update' action is that it actually recreates the test suite based on the selection in the dialog. Therefore, when performing an update on a test suite that already contains existing content, the action should replace the existing content with the updated selection."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "116564",
+  "title": "Hyperlink Builder Title Inconsistent with Settings",
+  "description": "The title of the hyperlink builder keeps changing with settings, causing confusion.",
+  "OB": "When I click on 'OK' and then reopen the hyperlink builder, the actual result is that its title becomes 'www.actuate.com'.",
+  "EB": "I expected the title of the hyperlink builder to remain consistent as 'Hyperlink Options' regardless of the settings or actions performed.",
+  "SR": "To reproduce this issue:\n1. Open the hyperlink builder.\n2. Make changes to the settings, if necessary.\n3. Click on 'OK'.\n4. Close the hyperlink builder.\n5. Reopen the hyperlink builder."
+}

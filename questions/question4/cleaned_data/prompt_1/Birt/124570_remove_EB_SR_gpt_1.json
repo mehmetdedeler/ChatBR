@@ -1,0 +1,8 @@
+{
+  "id": "124570",
+  "title": "Bug 124570 - Preview from toolbar always shows first report opened in session",
+  "description": "I am testing BIRT 2.0 RC2 and am running into a problem where Preview (from the toolbar) in the Web Viewer will only show the first report I opened in a session.",
+  "OB": "When attempting to use the Preview option from the toolbar in the Web Viewer, only the first report opened in the session is displayed, regardless of the report currently selected.",
+  "EB": "The expected behavior is that the Preview option should display the currently selected report in the Web Viewer, allowing users to preview different reports within the same session.",
+  "SR": "1. Open BIRT 2.0 RC2\n2. Open multiple reports in the Web Viewer\n3. Click on different reports\n4. Use the Preview option from the toolbar\n5. Observe that it consistently shows the content of the first report opened in the session instead of the selected report."
+}

@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '109350', 'title': 'Bug 109350output parameter should display in data set dialog.', 'description': '', 'OB': 'While in query result page, there isno data returnedactual result:output parameter should display in edit data set dialog. ', 'EB': '', 'SR': 'detailsoutput parameter should display in edit data set dialog.steps to reproduce:when call the stored procedure from Oracle database, the query result has beenstored in output parameter as an object. '}
+</BUG REPORT>

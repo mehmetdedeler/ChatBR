@@ -1,0 +1,8 @@
+{
+  "id": "49299",
+  "title": "Bug 49299 - Servlet 3.0 ch.7.1.1 Cookie Name Not Affecting URL Rewriting",
+  "description": "The documentation in Servlet 3.0 chapter 7.1.1 suggests that a custom cookie name should affect URL rewriting, but it does not.",
+  "OB": "The custom cookie name specified in the configuration does not affect the URL rewriting. When I access the Reload link, the URL remains http://localhost:8080/index.jsp;jsessionid=658C60E714E9C7C833F4FDA366E0477F, despite setting the custom cookie name to 'MYSESSIONCOOKIE'.",
+  "EB": "Expected result: If the documentation in chapter 7.1.1 is to be followed, I would expect the Reload link to be http://localhost:8080/cookiename/index.jsp;MYSESSIONCOOKIE=658C60E714E9C7C833F4FDA366E0477F.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Configure a servlet with custom cookie name 'MYSESSIONCOOKIE'.\n2. Access a page that uses sessions, for example, http://localhost:8080/index.jsp.\n3. Click on the Reload link provided by the servlet.\n4. Observe that the URL remains unchanged and does not reflect the custom cookie name in URL rewriting."
+}

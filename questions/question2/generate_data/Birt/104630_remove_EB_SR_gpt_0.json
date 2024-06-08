@@ -1,0 +1,8 @@
+{
+  "id": "104630",
+  "title": "Column icons don't show up in connecting Derby database",
+  "description": "",
+  "OB": "When connecting to a Derby database, the column icons are not displayed in the software.",
+  "EB": "I expect that when I connect to a Derby database, the software should display icons for columns, making it easier to identify their data types or properties.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Open the software.\n2. Go to the 'Database Connections' menu.\n3. Select 'Connect to Derby Database.'\n4. After successfully connecting, navigate to any table or view in the database.\n5. Observe that the column icons, which should indicate data types or properties, are missing."
+}

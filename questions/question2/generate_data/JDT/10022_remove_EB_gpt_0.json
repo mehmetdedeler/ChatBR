@@ -1,0 +1,8 @@
+{
+  "id": "10022",
+  "title": "Bug 10022 - Incorrect 'Build' Popup Action Enablement",
+  "description": "This bug report addresses an issue with the 'Build' action in the context-sensitive popup menu in the Java perspective.",
+  "OB": "The observed behavior indicates that the 'Build' action is always enabled in the context-sensitive popup menu, even if the user goes to Preferences > Workbench and selects 'Perform build automatically on resource modification.' This behavior is considered incorrect.",
+  "EB": "The expected behavior is that the 'Build' action's enablement should be based on the user's preference settings. If the user selects 'Perform build automatically on resource modification' in the Preferences, the 'Build' option should not appear in the Java popup menus when it's not needed.",
+  "SR": "The report doesn't provide specific steps to reproduce the issue, making it difficult to replicate or verify the problem based on the information provided."
+}

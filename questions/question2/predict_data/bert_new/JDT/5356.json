@@ -1,0 +1,1 @@
+{"id": "5356", "title": "Bug 5356Search Result descriptions don't use singular", "description": "Bug 5356Search Result descriptions don't use singular ", "OB": "Text and Java search result descriptions (visible in Search view's title toottip and Search histories) don't show singular text version if there's exactlyone match ", "EB": "", "SR": ""}

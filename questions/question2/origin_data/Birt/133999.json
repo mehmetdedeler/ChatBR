@@ -1,0 +1,1 @@
+{"bug_id": "133999", "title": "Bug 133999Background image won't apply to the column", "description": "Steps to reproduce:1.New a table with some labels2.Choose one column, apply a style with background imageExpected result:Background image will be applied to the columnActual result:Background image didn't apply to the column in layout, but preview is ok"}

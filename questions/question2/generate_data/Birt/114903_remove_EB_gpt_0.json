@@ -1,0 +1,8 @@
+{
+  "id": "114903",
+  "title": "Default Values Not Displayed in 'Show Report Parameters' Dialog",
+  "description": "When accessing the 'Show Report Parameters' dialog, default values for report parameters are not visible.",
+  "OB": "Default values for report parameters are not displayed in the 'Show Report Parameters' dialog.",
+  "EB": "Default values for report parameters should be visible in the 'Show Report Parameters' dialog when accessing it.",
+  "SR": "To reproduce the issue, follow these steps:\n1. Create several report parameters.\n2. Set default values for these report parameters.\n3. Drag these report parameters to the Layout.\n4. Access the 'Show Report Parameters' dialog."
+}

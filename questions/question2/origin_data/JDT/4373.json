@@ -1,0 +1,1 @@
+{"bug_id": "4373", "title": "Bug 4373Packages View  double clich doesn't expand two hiearchy levels", "description": " enable: Show CU children in packages view double click on CUobserve: only one level gets expanded now expand a node by clicking on the +observe: two levels get expanded"}

@@ -1,0 +1,1 @@
+{"id": "14047", "title": "StyledText inefficient redraw during text change with word wrap", "description": "", "OB": "When appending N lines to the StyledText in word wrap mode (build 20020416), the entire client area is redrawn N times.", "EB": "", "SR": ""}

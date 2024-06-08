@@ -1,0 +1,1 @@
+{"bug_id": "8686", "title": "Bug 8686Type Hierarchy: no methods shown", "description": "Smoke for build 20020129 open type hierarchy on TestCase switch to Subtype hierarchy observe: you don't see any members of TestCase lock the method viewobserve: now it is impossible to get the members back. You can click on anynode in the upper class pane. You have to unlock the view"}

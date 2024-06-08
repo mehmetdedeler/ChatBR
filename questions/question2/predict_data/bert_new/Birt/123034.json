@@ -1,0 +1,1 @@
+{"id": "123034", "title": "Bug 123034Move primitive type serialization to BIRT.core", "description": "Bug 123034Move primitive type serialization to BIRT.core Move primitive type serialization/deserialization to BIRT.core. ", "OB": "", "EB": "Engine needs to use them too. ", "SR": ""}

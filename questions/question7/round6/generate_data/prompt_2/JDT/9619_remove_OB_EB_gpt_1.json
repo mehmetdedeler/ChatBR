@@ -1,0 +1,8 @@
+{
+  "id": "9619",
+  "title": "Bug 9619: Dialog Details for Moving Static Member",
+  "description": "Bug 9619 pertains to moving a static member and includes the following details:\n20020212a. Mnemonicsb. No validation on the type field. Type existence is not too expensive (done in the type wizard for superclass), so it could be implemented. At least isValidTypeNamef. The label could say 'Select destination type:'g.",
+  "OB": "When browsing offers, selecting a type from a CU in a different project does not work as expected.",
+  "EB": "When browsing offers, the user should be able to select a type from a CU in a different project without encountering issues.",
+  "SR": "Steps to reproduce:\n1. Access the 'Browse offers' section.\n2. Attempt to select a type from a CU located in a different project."
+}

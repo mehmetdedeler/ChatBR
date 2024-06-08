@@ -1,0 +1,1 @@
+{"id": "120216", "title": "Bug 120216 - Group dialog should be shown even when the dataset is not set", "description": "", "OB": "When the dataset is not set, an error is shown instead of displaying the group dialog. This is not the expected behavior as per the template requirements. The UI should not perform the validation.", "EB": "", "SR": ""}

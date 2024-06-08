@@ -1,0 +1,8 @@
+Your role is a senior software engineer, you are very good at analyzing and writing bug reports.
+It is possible that the bug report may lack sufficient details in the OB(Observed Behavior), EB(Expected Behavior), and SR(Steps to Reproduce) sections.  In such cases, your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB/EB/SR statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '18335', 'title': 'Bug 18335Perspective contents lost when view is maximized', 'description': '', 'OB': 'Bug 18335Perspective contents lost when view is maximized All the contents of the perspective (views, layout info) is lost when thefollowing actions are performed in F1:Maximize a view in any perspective. Observe that only the maximized view is actually present and all otherviews are missing from the perspective.As far as I can remember, view maximize code replaced the page layout with atemporary one that contained only the maximized view. ', 'EB': '', 'SR': 'Switch to another perspective and exit theworkbench. Open the workbench and switch to the perspective with the maximizedview. '}
+</BUG REPORT>

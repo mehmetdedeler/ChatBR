@@ -1,0 +1,8 @@
+{
+  "id": "21706",
+  "title": "Bug 21706: BidiUtil in win32 has Class.forName() usage",
+  "description": "Bug 21706 reports that BidiUtil in win32 has Class.forName() usage.",
+  "OB": "The bug report lacks sufficient details about the issue's observed behavior.",
+  "EB": "Add a private constructor to the BidiUtil class. Since there are no non-static methods in this class, adding a private constructor would be a good practice. This prevents unnecessary instantiation of the class. Additionally, it doesn't increase the size, as the compiler provides a free public constructor. The change involves making the constructor private instead of public.",
+  "SR": "Modify the line above to: static Callback callback = new Callback(new BidiUtil().getClass(), \"windowProc\", 4); I haven't tested it, but it is expected to achieve the same functionality as before."
+}

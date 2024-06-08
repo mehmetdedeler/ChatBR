@@ -1,0 +1,1 @@
+{"bug_id": "2920", "title": "Bug 2920[Workbench] IMemento.getChildren does not match Javadoc API spec (1GKNTYG)", "description": "The Javadoc API of IMemento.getChildren specifies that a listis returned but the code returns an array.NOTES:"}

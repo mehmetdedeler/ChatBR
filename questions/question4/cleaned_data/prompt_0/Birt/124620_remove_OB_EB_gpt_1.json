@@ -1,0 +1,8 @@
+{
+  "id": "124620",
+  "title": "Bug 124620 - Referenced Parameter icon remains valid after the parameter in the library is deleted",
+  "description": "",
+  "OB": "After deleting a parameter from the library used in a report design, the icon representing the referenced parameter in the report remains unchanged, giving the impression that nothing has happened.",
+  "EB": "The Referenced Parameter icon should become invalid or show a visual indication in the report design when the corresponding parameter in the library is deleted.",
+  "SR": "1. Insert a scalar parameter in the library. 2. Create a report, utilizing the above library. In the library explorer, drag the parameter to the data explorer view of the report. 3. Open the library file, delete the parameter. Then reopen the report design file. Observe that the icon of the parameter in the report should reflect the deletion or show some visual indication of the parameter being invalid."
+}

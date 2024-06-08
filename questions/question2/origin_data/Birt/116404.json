@@ -1,0 +1,1 @@
+{"bug_id": "116404", "title": "Bug 116404[Regression]Color Palette doesn't work properly", "description": "Description:Color Palette doesn't work properly.Steps to reproduce:1. Run attached file colorpalette.xml2. PreviewExpected result:See attached golden file.Actual result:It doesn't work."}

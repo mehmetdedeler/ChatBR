@@ -1,0 +1,1 @@
+{"bug_id": "43394", "title": "Bug 43394ImageAnalyzer example failed to read PNG file.", "description": "I attempted to feed the attached file to the image analyzer example and got an error dialog thatsaid \"Error loading file ... i/o error (java.lang.ArrayIndexOutOfBoundException: 0):java.lang.ArrayIndexOutOfBoundException: 0\".Suspect this is a problem with the PNG reader."}

@@ -1,0 +1,1 @@
+{"bug_id": "4354", "title": "Bug 4354Template  pressing new presents an error", "description": " go to PreferencesJavaTemplates press the new button you get an error saying that the template name must not be null. Thisis annoying since I didn't have the change to specify one."}

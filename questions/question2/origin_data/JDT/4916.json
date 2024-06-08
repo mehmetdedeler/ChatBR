@@ -1,0 +1,1 @@
+{"bug_id": "4916", "title": "Bug 4916Potential IDE freeze on Template Preference Page", "description": "Comments from Adam Kiezun:SEVERE:1. go to template pref page.2. select the first one3. edit the name  empty the field and then put a single spacewhole IDE freezes (infinite loop?)"}

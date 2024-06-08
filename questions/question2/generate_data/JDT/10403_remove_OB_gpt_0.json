@@ -1,0 +1,8 @@
+{
+  "id": "10403",
+  "title": "Bug 10403 - Project creation should confirm the bin directory can be scrubbed",
+  "description": "",
+  "OB": "When a user creates a new project for an existing directory structure, there is no confirmation regarding the ability to delete and rebuild the output directory. Some users are creating projects and pointing the output folder at a bin directory, which may contain files other than .class files that can be rebuilt from the available .java files.",
+  "EB": "When a user creates a new project for an existing directory structure and chooses the output directory, the system should confirm that the chosen output directory can be deleted and rebuilt. This confirmation should be provided to avoid potential issues, especially for users who point the output folder at a bin directory that may contain non-rebuildable files.",
+  "SR": "To reproduce this issue, follow these steps:\n1. Launch the software and go to the project creation interface.\n2. Select an existing directory structure as the basis for your new project.\n3. Choose the output directory, and make sure it points to a bin directory containing more than just .class files that can be rebuilt.\n4. Attempt to create the project with these settings."
+}

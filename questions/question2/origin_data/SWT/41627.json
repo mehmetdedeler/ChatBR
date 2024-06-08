@@ -1,0 +1,1 @@
+{"bug_id": "41627", "title": "Bug 41627Editable Combo incorrect width", "description": "The editable Combo dropdown box appears to size its width incorrectly. When thelongest item is selected, a small piece of its last letter is chopped off by thedropdown arrow."}

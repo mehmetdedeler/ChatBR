@@ -1,0 +1,8 @@
+{
+  "id": "49299",
+  "title": "Inconsistency in URL rewriting with custom session tracking cookie name",
+  "description": "Chapter 7.1.1 of servlet30finalspec.pdf states that a custom name for session tracking cookies should affect the URL parameter when URL rewriting is enabled. However, the observed behavior contradicts this specification.",
+  "OB": "Upon accessing the page using the provided war file (cookiename.war), the cookie 'MYSESSIONCOOKIE' is set with a value of '658C60E714E9C7C833F4FDA366E0477F' under Path '/cookiename'. Despite this, when clicking the 'Reload' link on the page, the URL shows 'jsessionid' instead of the expected custom session cookie name.",
+  "EB": "Expected behavior should reflect the specification: the URL parameter should use the custom session tracking cookie name ('MYSESSIONCOOKIE') instead of 'jsessionid' when URL rewriting is enabled.",
+  "SR": "Steps to reproduce: 1. Deploy the provided 'cookiename.war' file. 2. Access 'http://localhost:8080/cookiename/'."
+}

@@ -1,0 +1,1 @@
+{"bug_id": "16897", "title": "Bug 16897No busy indicator while populating type hierarchy", "description": "Build: Freeze 1In a selfhosting workspace, select the type IAdaptable in an editor and hit F4to populate the type hiearchy.Since this interface has many subtypes, thistakes several seconds to populate.There should be a busy indicator while thisis happening."}

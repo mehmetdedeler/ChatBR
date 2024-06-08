@@ -1,0 +1,8 @@
+{
+  "id": "18163",
+  "title": "Bug 18163: Add Import fails to recognize leading/trailing whitespace",
+  "description": "When using 'Add Import' via Ctrl+M, the feature fails to ignore leading or trailing whitespace in the selection, resulting in no action taken.",
+  "OB": "The 'Add Import' feature does not recognize the selection properly due to the presence of trailing whitespace. For instance, after selecting 'Node ' (with extra whitespace), using Ctrl+M does not trigger the import addition.",
+  "EB": "The 'Add Import' feature should correctly identify and handle leading or trailing whitespace within the selection. It should add the import despite the presence of extra spaces, ensuring functionality even after using selections like 'Node ' created with shortcuts like 'Shift + Ctrl + Right'.",
+  "SR": "1. Select a word or phrase with trailing whitespace, such as 'Node ' using shortcuts like Shift + Ctrl + Right.\n2. Trigger the 'Add Import' functionality using Ctrl+M.\n3. Observe that despite the selection, the import isn't added due to the presence of trailing whitespace."
+}

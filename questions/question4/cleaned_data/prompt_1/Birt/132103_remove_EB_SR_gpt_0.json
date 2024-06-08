@@ -1,0 +1,1 @@
+{"id": "132103", "title": "Bug 132103: No objects under Context in palette when scripting a data set", "description": "", "OB": "When scripting a data set, there are no objects displayed under the Context in the palette.", "EB": "", "SR": ""}

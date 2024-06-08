@@ -1,0 +1,8 @@
+{
+  "id": "4329",
+  "title": "Bug 4329 - Inaccurate Search Results in Package View",
+  "description": "This bug report pertains to an issue where the search functionality in the Package view provides inaccurate results.",
+  "OB": "The observed behavior includes the initialization of the Search dialog in the Package view with the fully qualified name, which results in the search failing to locate declarations. In contrast, using the context menu in the packages view for the same search works as expected.",
+  "EB": "The expected behavior is that when searching for declarations in a Java context, the software should first attempt to locate the Java element. If this initial attempt fails, the software should display the element name in the search results instead of the fully qualified name.",
+  "SR": "To reproduce this issue:\n1. Open the Package view.\n2. Utilize the search dialog to search for declarations.\n3. Observe that the search does not yield the correct results due to the use of the fully qualified name in the search.\n4. As a workaround, employ the context menu in the packages view for the same search, which should correctly display the expected search results."
+}

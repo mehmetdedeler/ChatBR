@@ -1,0 +1,1 @@
+{"id": "48645", "title": "Bug 48645RequestUtil.URLDecode(byte[] bytes, String enc)", "description": "Bug 48645RequestUtil.URLDecode(byte[] bytes, String enc) the enc is not used in the implementationpublic static String URLDecode(byte[] bytes, String enc) {return URLDecode(bytes, null, false);} ", "OB": "", "EB": "", "SR": ""}

@@ -1,0 +1,1 @@
+{"bug_id": "37293", "title": "Bug 37293BIDI:GC.drawImage(0, ... draws at 1, ... when using RIGHTTOLEFT", "description": "build 20030429 (+ todays latest from HEAD)Run the attached test case. Observe the one pixel wide background leakingthrough to the right of the double buffer image."}

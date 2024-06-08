@@ -1,0 +1,1 @@
+{"id": "9614", "title": "Bug 9614template: {returntype} puts incorrect form of type name", "description": "", "OB": " Bug 9614template: {returntype} puts incorrect form of type name 1.public String a(){return null;}2. use the following template:{returntype}3. it inserts:QString;instead of Stringit makes this variable unusable", "EB": "", "SR": ""}

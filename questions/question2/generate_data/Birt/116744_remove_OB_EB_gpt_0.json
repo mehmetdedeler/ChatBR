@@ -1,0 +1,8 @@
+{
+  "id": "116744",
+  "title": "Dynamic text content type has no effect",
+  "description": "The dynamic text element is not rendering content as expected based on the content types in the database field.",
+  "OB": "The dynamic text element does not render the content as per the specified content types in the database field.",
+  "EB": "I expect the dynamic text element to render the content from the database field based on the specified content types: 1) HTML text within <html ...</html tag, 2) HTML fragments not within <html tag, and 3) Text with RTF tags. It should appropriately display each type of content as intended.",
+  "SR": "To reproduce the issue:\n1. Access the system with the database field containing the three types of content: HTML text within <html ...</html tag, HTML fragments not within <html tag, and Text with RTF tags.\n2. Use a dynamic text element to display the contents of this field."
+}

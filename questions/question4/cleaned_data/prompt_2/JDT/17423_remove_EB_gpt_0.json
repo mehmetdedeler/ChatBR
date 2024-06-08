@@ -1,0 +1,1 @@
+{"id": "17423", "title": "Bug 17423: Revert appears twice in the popup menu.", "description": "There are two instances of the Revert option in the menu.", "OB": "The Revert option appears twice in the popup menu.", "EB": "", "SR": "1) Open a java editor. 2) Popup the menu. One Revert option appears after UNDO and the other appears before FORMAT."}

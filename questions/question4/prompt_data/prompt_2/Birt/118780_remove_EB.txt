@@ -1,0 +1,7 @@
+Your task is to infer the appropriate details based on the context and supplement the bug report to ensure it contains clear and complete OB(Observed Behavior)/EB(Expected Behavior)/SR(Steps to Reproduce) statements.  Also, improve the wording of these statements for clarity where possible.
+To facilitate this process, please provide your responses in JSON format as follows:
+{"id": "", "title": "", "description": "", "OB": "", "EB": "", "SR": ""}
+
+<BUG REPORT>
+{'id': '118780', 'title': 'Bug 118780Set alias for columns in data set but in expression builder still shows the old columns name when select the dataset.', 'description': '', 'OB': 'Bug 118780Set alias for columns in data set but in expression builder still shows the old columns name when select the dataset. ', 'EB': '', 'SR': 'Bug 118780Set alias for columns in data set but in expression builder still shows the old columns name when select the dataset. Description:Set alias for columns in data set but in expression builder still shows the old columns name when select the dataset.Steps to reproduce:1. New a datasource and a dataset2. Set alias of the first column in the dataset to "column1".3. Insert a data item and bind it to dataset.4. '}
+</BUG REPORT>

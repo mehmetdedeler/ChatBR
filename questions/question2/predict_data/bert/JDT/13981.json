@@ -1,0 +1,1 @@
+{"id": "13981", "title": "Bug 13981Show In Packages view not precise", "description": " Bug 13981Show In Packages view not precise Build 200204160.", "OB": " NavigateShwo in Packages View== CU is selected instead of method", "EB": "", "SR": " Set Package explorer preference to show members1. Select a method in the Outline or Type Hierarchy view2."}

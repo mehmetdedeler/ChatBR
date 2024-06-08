@@ -1,0 +1,8 @@
+{
+  "id": "49890",
+  "title": "Nio Selector Issue on Linux Platform",
+  "description": "This bug report addresses an issue related to the Nio Selector on the Linux platform. The problem is characterized by the server's CPU usage reaching and staying at 100%, requiring a server restart to resolve the issue. This problem has been observed with Java versions 1.6.007, 1.6.018, and 1.6.021. The reporter notes that it appears to be a duplicate of Bug 46373 and references a potential fix by the Jetty team at http://jira.codehaus.org/browse/JETTY937?focusedCommentId=168060&page=com.atlassian.jira.plugin.system.issuetabpanels:commenttabpanel. The reporter has added additional logging to the NioEndpoint.java file for further investigation.",
+  "OB": "The bug report does not provide specific details regarding the observed behavior of the Nio Selector issue on the Linux platform.",
+  "EB": "The expected behavior is that the server's CPU usage should not reach and stay at 100%. It should operate normally without any excessive resource consumption.",
+  "SR": "To reproduce the issue and investigate the JVM bug, the reporter suggests making multiple requests to a web application. This can be achieved by repeatedly pressing F5 in a web browser or performing a similar action. The problem is not observed on the Windows platform. Attached are the files 'NioEndpoint.7z' (containing the patched NioEndpoint.java file with added logging) and 'web.7z' (containing a simple web application for testing)."
+}

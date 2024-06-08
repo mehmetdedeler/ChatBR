@@ -1,0 +1,8 @@
+{
+  "id": "49195",
+  "title": "Bug 49195 - Error Message When Using Port 1 as Shutdown Port with Windows Service",
+  "description": "This bug report addresses an issue related to using port 1 as the shutdown port with the Tomcat Windows service.",
+  "OB": "When using port 1 as the shutdown port with the Tomcat Windows service, the catalina.20100427.log displays the following error message: '27.04.2010 17:49:13 org.apache.catalina.startup.Catalina stopServerSEVERE: No shutdown port configured. Server not shut down.' Despite this message, Tomcat stops successfully after the error message is printed, indicating that it is just a message.",
+  "EB": "The bug report suggests that the software could be improved by using 'wait(10000)' instead of 'sleep(10000)' in StandardServer.await() to allow waking by a notifyAll() call or using an interrupt() call if the thread is known.",
+  "SR": "The bug report does not provide specific steps to reproduce the issue. It would be helpful if the user could provide clear and detailed steps to replicate the problem."
+}

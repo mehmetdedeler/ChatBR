@@ -1,0 +1,8 @@
+{
+  "id": "2529",
+  "title": "Bug 2529[Navigator] Open/Close project inconsistency (1GFKW5S)",
+  "description": "Bug 2529[Navigator] Open/Close project inconsistency (1GFKW5S) Now select both P1 and P2.",
+  "OB": "When both projects P1 and P2 are selected, the 'Open Project' menu item is available, but the 'Close Project' menu item is not.",
+  "EB": "When both projects P1 and P2 are selected, both 'Open Project' and 'Close Project' menu items should be available.",
+  "SR": "To reproduce the issue:\n1. Create two projects, P1 and P2.\n2. Select both projects, P1 and P2."
+}

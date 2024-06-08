@@ -1,0 +1,8 @@
+{
+  "id": "21706",
+  "title": "Bug 21706 - BidiUtil in win32 has Class.forName() usage",
+  "description": "Bug 21706 - BidiUtil in win32 has Class.forName() usage",
+  "OB": "The bug report lacks details about the observed behavior.",
+  "EB": "The proposed solution to change the line above to 'static Callback callback = new Callback(new BidiUtil().getClass(), \"windowProc\", 4);' is provided, but the expected behavior is not clearly specified.",
+  "SR": "To improve clarity, please provide information on the observed behavior and expected behavior after applying the suggested code change. Additionally, it would be helpful to include any specific test scenarios or steps to reproduce the issue for verification."
+}

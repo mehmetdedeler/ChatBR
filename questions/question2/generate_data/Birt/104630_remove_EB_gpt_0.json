@@ -1,0 +1,8 @@
+{
+  "id": "104630",
+  "title": "Column icons don't show up when connecting to a Derby database",
+  "description": "When attempting to connect to a Derby database in a new project and creating a dataset, the column icons are not displaying as expected.",
+  "OB": "When attempting to connect to a Derby database in a new project and creating a dataset, the column icons are not displayed in the Edit Data Set window.",
+  "EB": "Column icons should be visible in the Edit Data Set window when connecting to a Derby database. These icons are expected to provide visual cues and functionalities for managing dataset columns.",
+  "SR": "Steps to reproduce:\n1. Create a new project.\n2. Create a new report within the project.\n3. In the Data Explorer view, create a new Data Source to connect to a Derby database using the following parameters:\n   - Driver Class: com.ibm.db2.jcc.DB2Driver\n   - Database URL: jdbc:db2://spmdb:1527/gui\n   - User Name: root\n   - Password: root\n4. After setting up the Data Source, create a dataset within the report.\n5. In the Edit Data Set window, select 'Query' as the data source type and proceed."
+}

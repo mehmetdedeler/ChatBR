@@ -1,0 +1,8 @@
+{
+  "id": "49235",
+  "title": "Bug 49235 - Unexpected Output in ServletContainerInitializer onStartup",
+  "description": "This bug report pertains to an issue where the ServletContainerInitializer onStartup method produces unexpected output.",
+  "OB": "The observed behavior is not provided in the bug report.",
+  "EB": "The expected behavior is unclear, and more details are needed to define it properly.",
+  "SR": "The steps to reproduce are not mentioned in the bug report and should be added for further investigation."
+}

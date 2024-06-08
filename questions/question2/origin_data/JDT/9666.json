@@ -1,0 +1,1 @@
+{"bug_id": "9666", "title": "Bug 9666Browser Perspective: No Code Generation Actions", "description": "20020212Add getter/setter. override ect not avaiable in browser perspectiveNeed to use GenerateGroup"}

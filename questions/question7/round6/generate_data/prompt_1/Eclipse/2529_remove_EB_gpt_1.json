@@ -1,0 +1,8 @@
+{
+  "id": "2529",
+  "title": "Bug 2529[Navigator] Open/Close project not always available (1GFKW5S)",
+  "description": "Bug 2529[Navigator] Open/Close project not always available (1GFKW5S) Now select both P1 and P2.",
+  "OB": "When both projects P1 and P2 are selected, it is observed that the 'Close Project' menu item is not available, while the 'Open Project' menu item is present.",
+  "EB": "When both projects P1 and P2 are selected, both the 'Open Project' and 'Close Project' menu items should be available.",
+  "SR": "Create two projects, P1 and P2. Select P2 and attempt to close it."
+}

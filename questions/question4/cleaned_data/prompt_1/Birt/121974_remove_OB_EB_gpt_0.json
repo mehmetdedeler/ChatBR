@@ -1,0 +1,8 @@
+{
+    "id": "121974",
+    "title": "Can't evaluate global expressions when ResultIterator is not in the iteration loop",
+    "description": "For global expressions, such as {params[\"p1\"]}, {new DateTime()}, it should always be available and evaluatable within the birt scripting environment. Currently, Dte scriptExpression has three types: BEFOREFIRSTROW, AFTERLASTROW, and ONEACHROW. However, when the ResultIterator is not in the iteration loop, a \"QueryResults or its iterator has been closed\" DataException will be thrown if you try to evaluate these expressions. This exception is misleading since these global expressions are unrelated to the data row iteration.",
+    "OB": "When the ResultIterator is not in the iteration loop, the global expressions {params[\"p1\"]} and {new DateTime()} cannot be evaluated.",
+    "EB": "Even when the ResultIterator is not in the iteration loop, the global expressions {params[\"p1\"]} and {new DateTime()} should still be available and evaluable within the birt scripting environment.",
+    "SR": "To fix this issue, the birt scripting environment needs to be modified so that global expressions can be evaluated even when the ResultIterator is not in the iteration loop."
+}

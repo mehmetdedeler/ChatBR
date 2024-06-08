@@ -1,0 +1,8 @@
+{
+  "id": "42724",
+  "title": "Bug 42724 - Selection Rendering Issue on Bidi Platforms",
+  "description": "This bug report addresses an issue with the rendering of selections in StyledText on bidi (Bi-directional) platforms. The report mentions the need to redraw the entire selection background and discusses code in StyledTextRenderer.drawLine related to style ranges for selections.",
+  "OB": "The observed behavior is that when forcing a redraw of the entire client area on a bidi platform, the entire bidi segment is drawn with a selection background. This occurs because DisplayRenderer.drawLineSelectionBackground code does not consider bidi segments (direction runs), resulting in an incorrect selection background. The correct selection background should be drawn in StyledTextRenderer.drawStyledLine, accounting for bidi segments and tab stops.",
+  "EB": "The expected behavior is that the selection background should be rendered correctly, taking into account bidi segments and tab stops on bidi platforms.",
+  "SR": "To reproduce the issue:\n1. Use build 20030903.\n2. Utilize the attached BidiUtil.\n3. Type one English character followed by three or more Arabic/Hebrew characters.\n4. Place the caret at the beginning of the line.\n5. Select the next two characters, including one bidi character.\n6. Note that the selection background includes unselected characters, indicating the problem with selection rendering on bidi platforms."
+}

@@ -1,0 +1,1 @@
+{"id": "135790", "title": "Bug 135790ClassCastException in RowData.", "description": "Bug 135790ClassCastException in RowData. ", "OB": "ClassCastException is thrown in RowData line 81(IBaseExpression expr = ( IBaseExpression ) valueExpressions.get( index1 );). ", "EB": "", "SR": ""}

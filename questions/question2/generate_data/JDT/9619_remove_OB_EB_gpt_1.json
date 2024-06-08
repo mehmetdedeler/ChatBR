@@ -1,0 +1,8 @@
+{
+  "id": "9619",
+  "title": "Move static member: Dialog details",
+  "description": "Bug 9619 - Move static member: Dialog details 20020212a. Mnemonicsb. No validation on the type field. Type existence is not too expensive (done in the type wizard for super class), so could be done. At least isValidTypeNamef. label could say 'Select destination type:'g.",
+  "OB": "There is no validation on the 'type' field.",
+  "EB": "Validation should be added for the 'type' field, and the label should be changed to 'Select destination type.'",
+  "SR": "To reproduce, browse offers for a type from a CU in a different project."
+}

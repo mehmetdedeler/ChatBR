@@ -1,0 +1,1 @@
+{"bug_id": "24121", "title": "Bug 24121\"Other Extensions:\" field must not show ',' at the end", "description": "Build 20020924Test Case:1. Export  File System2. Press \"Select Types...\"3. In \"Other Extensions\" field add \"a\"4. Press \"OK\"5. Press \"Select Types...\"== the field shows \"a,\""}

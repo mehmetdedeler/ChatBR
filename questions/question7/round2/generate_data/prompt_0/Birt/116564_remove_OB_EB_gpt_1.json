@@ -1,0 +1,1 @@
+{"id": "116564", "title": "Bug 116564: The title of hyperlink builder should be 'Hyperlink Options', now it changes with settings.", "description": "", "OB": "", "EB": "", "SR": "1. Open the hyperlink builder.\n2. Set a label hyperlink as 'www.actuate.com'."}

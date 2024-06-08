@@ -1,0 +1,1 @@
+{"id": "14047", "title": "Bug 14047 - StyledText inefficient redraw during text change with word wrap", "description": "", "OB": "", "EB": "During a text change with word wrap, there are multiple unnecessary redraws occurring. This should be optimized to only have one redraw for each visible line. To reproduce this issue, please run the test case provided below.", "SR": ""}

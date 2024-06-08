@@ -1,0 +1,8 @@
+{
+  "id": "49235",
+  "title": "Bug 49235 - Unexpected Output from ServletContainerInitializer onStartup",
+  "description": "This bug report concerns the behavior of ServletContainerInitializer onStartup when used with a specific class structure.",
+  "OB": "The observed behavior is that the code produces the output 'MySomeClass,' but the user expected it to produce the output 'MySomeAnn.' The report mentions that this behavior is not compliant with Servlet 3.0 specifications and that similar code worked fine on Glassfish 3.0.",
+  "EB": "The expected behavior is to output 'MySomeAnn' as specified in the code.",
+  "SR": "To reproduce the issue:\n1. Build Tomcat 7.0.0 from svn r939221.\n2. Use the provided code:\n\n```java\n@MySomeAnn\npublic class MySomeClass {...}\n\n@HandlesTypes(MySomeAnn.class)\npublic class ModuleInitializer implements ServletContainerInitializer {\n  @Override\n  public void onStartup(Set classSet, ServletContext ctx) throws ServletException {\n    for (Class targetClass : classSet) {\n      System.out.println(targetClass.getName());\n    }\n  }\n}\n```\n3. Run the code and observe that the output is 'MySomeClass' instead of 'MySomeAnn.'"
+}

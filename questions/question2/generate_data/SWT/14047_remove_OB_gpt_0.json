@@ -1,0 +1,8 @@
+{
+  "id": "14047",
+  "title": "Bug 14047 StyledText inefficient redraw during text change with word wrap",
+  "description": "The report addresses an issue related to the inefficient redraw behavior of the StyledText component during text changes in word wrap mode.",
+  "OB": "The observed behavior is that multiple redraws are occurring during text changes in word wrap mode, which is considered inefficient.",
+  "EB": "The expected behavior is that there should be, at most, one redraw for each visible line when making text changes in word wrap mode. This would significantly improve the efficiency of the redraw process.",
+  "SR": "To reproduce the issue, the following step is suggested:\n1. Add the following line to the 'StyledText.performPaint' method to log redraw information:\n   System.out.println('lineCount ' + lineCount + ', paintY ' + paintY + ', renderHeight ' + renderHeight);\nThis will help in understanding the extent of the issue and identifying areas for optimization."
+}

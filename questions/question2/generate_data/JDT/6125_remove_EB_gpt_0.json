@@ -1,0 +1,8 @@
+{
+  "id": "6125",
+  "title": "Bug 6125 - JAR Packager Reports Open Files Late",
+  "description": "This bug report is related to the behavior of the JAR packager in reporting open files.",
+  "OB": "The observed behavior is not clearly described in the report. It mentions a failure message, but the exact behavior or result is not detailed.",
+  "EB": "The expected behavior is that the JAR packager should handle open files appropriately, possibly by either prompting the user to save the file or including the open file in the JAR package.",
+  "SR": "To improve this bug report, please provide more specific details about the observed behavior and the expected behavior. Additionally, provide clear, accurate, and complete steps to reproduce the issue. This will help in diagnosing and addressing the problem effectively."
+}

@@ -1,0 +1,1 @@
+{"id": "49092", "title": "Bug 49092util.IntrospectionUtils.PATHSEPARATOR should be final", "description": "Bug 49092util.IntrospectionUtils.PATHSEPARATOR should be final ", "OB": "", "EB": "The fieldorg.apache.tomcat.util.IntrospectionUtils.PATHSEPARATORshould be final. ", "SR": ""}

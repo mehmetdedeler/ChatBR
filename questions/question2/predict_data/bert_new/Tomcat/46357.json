@@ -1,0 +1,1 @@
+{"id": "46357", "title": "Bug 46357FarmWarDeployer has nonsense condition", "description": "Bug 46357FarmWarDeployer has nonsense condition FarmWarDeployer has the following code at line 152:if(econtainer == null && econtainer instanceof Engine) {There's clearly something wrong with that condition. ", "OB": "", "EB": "", "SR": ""}

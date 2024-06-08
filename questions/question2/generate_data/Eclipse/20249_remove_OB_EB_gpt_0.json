@@ -1,0 +1,8 @@
+{
+  "id": "20249",
+  "title": "Change Editor/View/Perspective F1 Help Bug",
+  "description": "When using the change editor, view, or perspective, the F1 help feature is not working correctly.",
+  "OB": "When the change editor menu is open, pressing F1 displays some help. However, the help window closes immediately, preventing the user from reading its contents.",
+  "EB": "When the user presses F1 while in the change editor menu, the help window should stay open, allowing the user to read the provided help information.",
+  "SR": "To reproduce the issue:\n1. Open the change editor menu.\n2. Press the F1 key."
+}

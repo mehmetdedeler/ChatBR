@@ -1,0 +1,1 @@
+{"bug_id": "46997", "title": "Bug 46997small fix to TaskQueue", "description": "Created attachment 23465 [details]small fixesthe offer method should do the same just with less checks"}

@@ -1,0 +1,8 @@
+{
+  "id": "114470",
+  "title": "Bug 114470 [Smoke] Error message throws when using new Date('3/2/2005') as value in table filter.",
+  "description": "Encountered an issue when using new Date('3/2/2005') in the table filter.",
+  "OB": "Error message appears on the report page due to data conversion issues when using new Date('3/2/2005') in the table filter.",
+  "EB": "Upon saving and previewing, the filter should work without errors. The expected result is a functional filter without any error messages. The actual result is encountering errors on the report page, specifically related to data conversion: data.engine.DataConversionError occurs (1 time) with the details stating that an error happened in data type conversion, and it cannot convert the value to Date.",
+  "SR": "Steps to reproduce:\n1. Open the application and navigate to the specified table (table8).\n2. Apply a filter using the value new Date('3/2/2005').\n3. Save the changes.\n4. Preview the report.\n\nExpected behavior:\nThe filter should work without errors.\n\nActual behavior:\nError messages appear on the report page, indicating a data conversion issue with new Date('3/2/2005')."
+}

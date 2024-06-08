@@ -1,0 +1,1 @@
+{"id": "124501", "title": "Bug 124501need uninstall of jst.utility facet", "description": " Bug 124501need uninstall of jst.utility facet", "OB": " The jst.utility facet needs an uninstall delegate.Without it, it is not possible to deselect this facet and select/install the Dynamic Web Module facet onan existing project.", "EB": "", "SR": ""}

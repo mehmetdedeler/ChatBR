@@ -1,0 +1,1 @@
+{"id": "46247", "title": "Bug 46247SVN property patches", "description": " Bug 46247SVN property patches Created attachment 22905 [details]Patch for tomcat trunk to set SVN propertiesScript file that can be used to set some missing properties on Tomcat trunk.Usable on Unix and Windows; best run from the OS that last updated the file.", "OB": "", "EB": "", "SR": ""}

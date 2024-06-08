@@ -1,5 +1,13 @@
 # Use LLM to generate key entry information to enhance defect report quality
 ***
+# abstract
+Bug reports, containing crucial information such as the Observed Behavior (OB), Expected Behavior (EB), and Steps to Reproduce (S2R), can help developers reproduce and fix bugs efficiently. However, due to the limited experience of the some report writer and the complexity of some bugs, the bug reports often miss this crucial information.  Although some machine learning based approaches and information retrieval (IR) based techniques are proposed to detect and supplement the missing information in bug reports, the performance of these approaches depends heavily on the size and quality of the bug report dataset.
+
+The development of fine-tuning pre-trained models and LLMs can effectively alleviate the problems.  In this paper, we present **ChatBR**, a method for automated assessment and improvement of bug report quality using ChatGPT.First, we fine-tune a pre-trained BERT model using manually annotated bug reports to create a statement-level multi-label classifier to assess the quality of bug reports by detecting whether existing OB, EB, and S2R. Then, we use ChatGPT in a zero-shot setup to generate missing information (OB, EB, and S2R) to improve the quality of the bug report. Finally, we manually check the consistency of the output of ChatGPT with that of the classifier with high confidence. Experimental results show that, in the task of detecting missing information in bug reports,  **ChatBR**  outperforms the state-of-the-art methods by 25.38\%-29.20\%  in terms of precision. In the task of generating missing information in bug reports, **ChatBR** can achieve an average of 84.10\% in terms of semantic similarity of the generated information across six different projects. Furthermore, **ChatBR** can generate more than 99.9\% of high quality bug reports (i.e., bug reports that are full of OB, EB, and S2R) within five calls to ChatGPT.
+
+# OverView
+![image](https://github.com/jiwangjie/Ultra/assets/74883729/95e7b753-64e2-460e-b122-55de118b89c4)
+
 # JavaUtils
 > Tools for managing unprocessed defect report files
 

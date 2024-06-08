@@ -30,13 +30,13 @@
 > + calculate_efficiency.py Calculate the average number of calls per feature, per item, all features, all items
 > + plot.py Plot the results of data analysis
 
-## 4.question4
+## 4.question4 & question7
 > + Try the effect of different Prompt on experimental results
 > + prompt.json Three different prompts were formulated
 > + build_data.py Build three prompt datasets
 > + run.py Call GPT on three different prompt datasets and save the collected results to the generate_data folder
 
-## 5. question5
+## 5. question5 & question6
 > + Try the influence of different LLM on experimental results. Experiment on different LLMS using the first prompt in question4 (which is more detailed)
 > + run.py uses GPT-3.5 and llama2-7b, respectively, and vicuna-7b to generate key information entries in defect reports. The generated results are saved in the generate_data folder.
 

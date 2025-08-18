@@ -114,6 +114,7 @@ def run_chatbr():
     
     # Set up arguments for run.py
     import sys
+    original_argv = sys.argv.copy()
     sys.argv = [
         'run.py',
         '--json_bug_path', './origin_data',
@@ -122,14 +123,32 @@ def run_chatbr():
         '--report_max_length', '2000'
     ]
     
-    # Import and run the main ChatBR script
     try:
-        from run import main
-        main()
-    except ImportError:
-        # If main function doesn't exist, run the script directly
-        print("Running ChatBR pipeline...")
-        exec(open('run.py').read())
+        # Import the run module and execute its main logic
+        from run import parse_run_arguments, transfer_datatype, run_bert_predict, load_sample_call_llm
+        
+        # Parse arguments
+        args = parse_run_arguments()
+        
+        # Step 1: Transfer data type (skip if no pkl files)
+        print("Step 1: Data preparation...")
+        # transfer_datatype(args)  # Skip this step since we're using JSON directly
+        
+        # Step 2: Run BEE-tool classification
+        print("Step 2: Running BEE-tool classification...")
+        run_bert_predict(args)
+        
+        # Step 3: Run ChatGPT generation
+        print("Step 3: Running ChatGPT generation...")
+        load_sample_call_llm(args)
+        
+    except Exception as e:
+        print(f"❌ Error running ChatBR: {e}")
+        import traceback
+        traceback.print_exc()
+    finally:
+        # Restore original argv
+        sys.argv = original_argv
 
 def main():
     """Main setup and run function"""

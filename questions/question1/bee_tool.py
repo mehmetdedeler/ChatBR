@@ -66,15 +66,46 @@ def generateInputVector(sent, nlp):
     if not sent:
         raise ValueError("The sentence is empty")
 
-    ann = nlp.annotate(sent, properties={
-        'annotators': 'tokenize,ssplit,lemma,pos,ner',
-        'outputFormat': 'json',
-    })
-
-    # 获取句子的词元和词性标签
-    ann = json.loads(ann)
-    lemmas = [token['lemma'] for token in ann['sentences'][0]['tokens']]
-    posTags = [token['pos'] for token in ann['sentences'][0]['tokens']]
+    # Get annotation with error handling
+    try:
+        ann = nlp.annotate(sent, properties={
+            'annotators': 'tokenize,ssplit,lemma,pos,ner',
+            'outputFormat': 'json',
+        })
+        
+        # Check if annotation is empty or None
+        if not ann or ann.strip() == "":
+            print(f"Warning: Empty annotation for sentence: '{sent}'")
+            # Return a default feature vector
+            return f"0 {len(map)}:{0}"
+        
+        # Parse JSON with error handling
+        try:
+            ann_parsed = json.loads(ann)
+        except json.JSONDecodeError as e:
+            print(f"Warning: JSON decode error for sentence: '{sent}'")
+            print(f"Raw annotation: {repr(ann)}")
+            # Return a default feature vector
+            return f"0 {len(map)}:{0}"
+        
+        # Check if we have sentences and tokens
+        if not ann_parsed.get('sentences') or len(ann_parsed['sentences']) == 0:
+            print(f"Warning: No sentences in annotation for: '{sent}'")
+            return f"0 {len(map)}:{0}"
+        
+        if not ann_parsed['sentences'][0].get('tokens') or len(ann_parsed['sentences'][0]['tokens']) == 0:
+            print(f"Warning: No tokens in annotation for: '{sent}'")
+            return f"0 {len(map)}:{0}"
+        
+        # 获取句子的词元和词性标签
+        lemmas = [token['lemma'] for token in ann_parsed['sentences'][0]['tokens']]
+        posTags = [token['pos'] for token in ann_parsed['sentences'][0]['tokens']]
+        
+    except Exception as e:
+        print(f"Warning: Error in Stanford CoreNLP annotation for sentence: '{sent}'")
+        print(f"Error: {e}")
+        # Return a default feature vector
+        return f"0 {len(map)}:{0}"
 
     # 创建一个空列表，用于存储特征值
     feature_array = []
@@ -194,7 +225,9 @@ def encode(sentences, originalSentences, stand_nlp):
             print("Error encoding sentence: \"" + str(sentence) + "\"")
             print("Original sentence: \"" + origSentence + "\"")
             print(ex)
-            raise ex
+            # Instead of raising the exception, continue with a default vector
+            print("Continuing with default feature vector...")
+            sentVectors.append(f"0 {len(map)}:{0}")
     return {'sentVectors': sentVectors, 'indexOfLongString': indexOfLongString}
 
 

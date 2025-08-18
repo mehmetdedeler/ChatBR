@@ -223,6 +223,7 @@ def classify_report_quality(model, tokenizer, report, args):
 def predict_multi_data(args):
     """预测多条缺陷报告样本数据"""
     model, tokenizer = create_bert_model(args)
+    project_list = ["AspectJ", "Birt", "Eclipse", "JDT", "SWT", "Tomcat"]
     for project in project_list:
         perfect_num = 0
         args.bert_project_result_path = os.path.join(args.bert_result_path, project)

@@ -44,7 +44,14 @@ def test_components():
     print("\n3. Testing BEE-tool integration...")
     try:
         from classifier_predict import create_bert_model
-        model, tokenizer = create_bert_model()
+        
+        # Create a simple args object for testing
+        class TestArgs:
+            def __init__(self):
+                pass
+        
+        args = TestArgs()
+        model, tokenizer = create_bert_model(args)
         print("✅ BEE-tool model created successfully")
     except Exception as e:
         print(f"❌ BEE-tool integration error: {e}")

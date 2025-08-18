@@ -7,6 +7,7 @@ import pandas as pd
 
 def analysis_llm_data(json_data_path):
     """analysis perfect sample info"""
+    project_list = ["AspectJ", "Birt", "Eclipse", "JDT", "SWT", "Tomcat"]
     for project in project_list:
         bug_report_len_list = []
         project_perfect_data_path = os.path.join(json_data_path, project, 'perfect_data')
@@ -32,6 +33,7 @@ def select_dataset_for_llm(json_data_path, llm_data_path, K=2000):
     """分析BERT数据集"""
     # 数据特征
     del_list = [['OB'], ['EB'], ['SR'], ['OB', 'EB'], ['OB', 'SR'], ['EB', 'SR']]
+    project_list = ["AspectJ", "Birt", "Eclipse", "JDT", "SWT", "Tomcat"]
     for project in project_list:
         project_data_path = os.path.join(json_data_path, project, 'perfect_data')  # 项目的高质量缺陷报告路径
         llm_project_path = os.path.join(llm_data_path, project)  # 项目的llm文件存放路径

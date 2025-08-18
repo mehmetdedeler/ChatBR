@@ -1,0 +1,5 @@
+{
+  "bug_id": "mock_002",
+  "title": "Login page shows blank screen",
+  "description": "The login page displays a blank white screen instead of the login form. This occurs in Firefox browser version 90.0."
+}

@@ -17,3 +17,15 @@ utils/*
 readme
 
 questions/question8
+
+/venv
+
+questions/question2/__pycache__
+
+questions/question2/model/
+
+questions/question2/model/bee/
+
+questions/question2/model/bee/dict.txt
+
+questions/question2/model/bee/model_ob.txt

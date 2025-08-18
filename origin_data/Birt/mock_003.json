@@ -1,0 +1,5 @@
+{
+  "bug_id": "mock_003",
+  "title": "Chart colors are all gray",
+  "description": "When creating a pie chart, all segments appear in gray color instead of different colors. The chart should display different colors for each segment."
+}

@@ -59,6 +59,7 @@ def run_bert_predict(args):
 
 def load_sample_call_llm(args):
     # 遍历每个项目
+    args.gen_data_path = './generate_data'  # Add missing variable
     if not os.path.exists(args.gen_data_path):
         os.mkdir(args.gen_data_path)
 

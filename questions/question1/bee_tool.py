@@ -17,7 +17,11 @@ map = {}
 def readWords():
     try:
         # 读取文件的内容
-        with open('model/bee/dict.txt', 'r', encoding='utf-8') as f:
+        import os
+        # Get the directory where bee_tool.py is located
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        dict_path = os.path.join(current_dir, 'model/bee/dict.txt')
+        with open(dict_path, 'r', encoding='utf-8') as f:
             # 打印所有的行
             for line in f:
                 line = line.rstrip()
@@ -39,8 +43,16 @@ def isEmptySentence(sent_text):
 
 def start_nlp():
     """启动stanford nlp工具包"""
-    nlp = StanfordCoreNLP(r'../../utils/stanford-corenlp-full-2018-01-31')
-    return nlp
+    try:
+        # Try to connect to existing server first using HTTP
+        nlp = StanfordCoreNLP('http://localhost', port=9000)
+        return nlp
+    except Exception as e:
+        print(f"Warning: Could not connect to existing Stanford CoreNLP server: {e}")
+        print("Starting new Stanford CoreNLP server...")
+        # Start a new server with different port to avoid conflicts
+        nlp = StanfordCoreNLP('http://localhost', port=9001)
+        return nlp
 
 
 def close_nlp(nlp):
@@ -187,11 +199,15 @@ def encode(sentences, originalSentences, stand_nlp):
 
 
 def getInputFileName(requestCounter):
-    return "input_" + requestCounter + ".dat"
+    import os
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join(current_dir, "input_" + requestCounter + ".dat")
 
 
 def getOutputFile(prefix, requestCounter):
-    return "prediction_" + prefix + "_" + requestCounter + ".dat"
+    import os
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join(current_dir, "prediction_" + prefix + "_" + requestCounter + ".dat")
 
 
 def writeVectors(sentVectors, requestCounter):
@@ -232,7 +248,16 @@ def predict(prefix, inputFileName, requestCounter):
     print('predict' + prefix.lower() + " " + requestCounter)
     outputFile = getOutputFile(prefix.lower(), requestCounter)  # 调用getOutputFile函数，获取输出文件名
     # 构造执行命令
-    command = "./model/bee/svm_classify.exe -v 1 {} ./model/bee/model_{}.txt {}".format(inputFileName, prefix, outputFile)
+    import os
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    # Use the appropriate executable for the platform
+    import platform
+    if platform.system() == "Darwin":  # macOS
+        svm_exe = os.path.join(current_dir, "model/bee/svm_classify")
+    else:  # Windows
+        svm_exe = os.path.join(current_dir, "model/bee/svm_classify.exe")
+    model_file = os.path.join(current_dir, f"model/bee/model_{prefix}.txt")
+    command = f"{svm_exe} -v 1 {inputFileName} {model_file} {outputFile}"
     try:
         # if not os.path.exists(outputFile):
         #     try:
@@ -240,7 +265,7 @@ def predict(prefix, inputFileName, requestCounter):
         #         subprocess.run("touch {}".format(outputFile), check=True, shell=True)
         #     except subprocess.CalledProcessError as e:
         #         print(f'Error touch prediction file: {e}')
-        subprocess.run(command, check=True)  # 在linux上需要添加shell=True参数
+        subprocess.run(command, check=True, shell=True)  # 在linux上需要添加shell=True参数
     except subprocess.CalledProcessError as e:
         print(f'Error running SVM prediction: {e}')
         raise e

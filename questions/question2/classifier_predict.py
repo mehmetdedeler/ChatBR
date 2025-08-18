@@ -8,6 +8,13 @@ from nltk import sent_tokenize
 from tqdm import tqdm
 from transformers import BertTokenizer, BertConfig, BertForSequenceClassification
 
+# Import BEE-tool components
+import sys
+sys.path.append('../question1')
+from bee_tool import processText, start_nlp, close_nlp, readWords
+
+# Global variable for Stanford NLP
+stanford_nlp = None
 
 def bert_parse_arguments():
     """解析参数"""
@@ -25,17 +32,34 @@ def bert_parse_arguments():
 
 
 def create_bert_model(args):
-    # 实例化BERT分词器和模型
-    tokenizer = BertTokenizer.from_pretrained(args.model_path)
-    model_config = BertConfig.from_pretrained(args.model_path, num_labels=args.num_labels,
-                                              hidden_dropout_prob=args.hidden_dropout_prob)
-    model = BertForSequenceClassification.from_pretrained(args.model_path, config=model_config)
-
-    # 将模型移动到合适的设备上（GPU或CPU）
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    model.to(device)
-    args.device = device
-
+    """Create BEE-tool model instead of BERT model"""
+    global stanford_nlp
+    
+    # Initialize Stanford NLP
+    stanford_nlp = start_nlp()
+    
+    # Read BEE-tool dictionary
+    readWords()
+    
+    # Create dummy model and tokenizer for compatibility
+    class DummyModel:
+        def __init__(self):
+            self.device = torch.device('cpu')
+        
+        def to(self, device):
+            self.device = device
+            return self
+        
+        def eval(self):
+            pass
+    
+    class DummyTokenizer:
+        def __init__(self):
+            pass
+    
+    model = DummyModel()
+    tokenizer = DummyTokenizer()
+    
     return model, tokenizer
 
 
@@ -102,7 +126,7 @@ def parseSentences(text):
 
 
 def predict_and_format(report, model, tokenizer, args):
-    """使用BERT分类，并对结果进行处理"""
+    """使用BEE-tool分类，并对结果进行处理"""
     report_label_set = []
     new_report = {
         "id": report["bug_id"],
@@ -116,7 +140,7 @@ def predict_and_format(report, model, tokenizer, args):
     # 遍历缺陷报告的每一条语句
     report_sentence_list = parseReportSentences(report['title'] + "\n" + report['description'])
     for sent_idx, sentence in enumerate(report_sentence_list):
-        # 调用BERT模型
+        # 调用BEE-tool模型
         sent_labels = predict(sentence, model, tokenizer, args)
         report_label_set.extend(sent_labels)
 
@@ -140,6 +164,7 @@ def predict_and_format(report, model, tokenizer, args):
         return 1
     # 保存一般的缺陷报告
     else:
+        args.bert_project_path = args.bert_project_result_path  # Add missing variable
         with open(os.path.join(args.bert_project_path, report["bug_id"] + ".json"), 'w') as f:
             json.dump(new_report, f)
         f.close()
@@ -147,37 +172,22 @@ def predict_and_format(report, model, tokenizer, args):
 
 
 def predict(sentence, model, tokenizer, args):
-    # encoding sentence
-    encoding = tokenizer.encode_plus(
-        sentence,
-        add_special_tokens=True,
-        max_length=args.max_length,
-        return_token_type_ids=False,
-        padding='max_length',
-        return_attention_mask=True,
-        return_tensors='pt',
-        truncation=True
-    )
-
-    # predict result
-    model.eval()
-    with torch.no_grad():
-        input_ids = encoding['input_ids'].to(args.device)
-        attention_mask = encoding['attention_mask'].to(args.device)
-        outputs = model(input_ids, attention_mask)
-        logits = outputs.logits
-
-    # probabilities = torch.sigmoid(logits)
-    probabilities = torch.sigmoid(logits).detach().cpu().numpy()
-    # 设定阈值来判断每个标签是否存在
-    threshold = 0.5
-    predicted_labels = (probabilities > threshold)
-    predicted_labels.tolist()
-
-    # 标签映射
-    labels, sentence_labels = ['OB', 'EB', 'SR'], []
-    sentence_labels = [labels[idx] for sample in predicted_labels for idx, item in enumerate(sample) if item]
-    return sentence_labels
+    """Use BEE-tool for sentence classification"""
+    global stanford_nlp
+    
+    try:
+        # Use BEE-tool to classify the sentence
+        result = processText("temp_id", sentence, stanford_nlp)
+        
+        # Extract labels from the result
+        labels = []
+        for sent_data in result['bug_report'].values():
+            labels.extend(sent_data['labels'])
+        
+        return labels
+    except Exception as e:
+        print(f"Error in BEE-tool prediction: {e}")
+        return []
 
 
 def is_report_perfect(report, args):
@@ -185,7 +195,7 @@ def is_report_perfect(report, args):
 
     sentence_list = parseSentences(report)
 
-    # 遍历缺陷报告中的每一条语句，并调用BERT模型进行分类
+    # 遍历缺陷报告中的每一条语句，并调用BEE-tool模型进行分类
     report_label_set = []
     for sentence in sentence_list:
         sent_labels = predict(sentence, args.model, args.tokenizer, args)
@@ -197,7 +207,7 @@ def is_report_perfect(report, args):
 
 def classify_report_quality(model, tokenizer, report, args):
     sentence_list = parseSentences(report)
-    # 遍历缺陷报告中的每一条语句，并调用BERT模型进行分类
+    # 遍历缺陷报告中的每一条语句，并调用BEE-tool模型进行分类
     report_label_set = []
     for sentence in sentence_list:
         sent_labels = predict(sentence, model, tokenizer, args)
@@ -233,10 +243,14 @@ def predict_multi_data(args):
                 with open(os.path.join(args.json_bug_path, project, filename), 'r', encoding='utf-8') as f:
                     report = json.load(f)
                 f.close()
-                # 使用BERT对缺陷报告语句进行分类，格式化文件
+                # 使用BEE-tool对缺陷报告语句进行分类，格式化文件
                 perfect_num += predict_and_format(report, model, tokenizer, args)
 
         print("==={} has {} perfect sample===".format(project, perfect_num))
+    
+    # Close Stanford NLP
+    if stanford_nlp:
+        close_nlp(stanford_nlp)
 
 
 if __name__ == '__main__':

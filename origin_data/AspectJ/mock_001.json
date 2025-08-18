@@ -1,0 +1,5 @@
+{
+  "bug_id": "mock_001",
+  "title": "Application crashes when clicking button",
+  "description": "When I click the submit button, the application crashes with a null pointer exception. This happens every time I try to submit the form."
+}

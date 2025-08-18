@@ -1,0 +1,5 @@
+{
+  "bug_id": "mock_004",
+  "title": "Editor freezes during large file editing",
+  "description": "The text editor becomes unresponsive when editing files larger than 10MB. The UI freezes and requires restarting Eclipse to recover."
+}

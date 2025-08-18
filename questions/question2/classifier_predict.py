@@ -228,8 +228,10 @@ def predict_multi_data(args):
         perfect_num = 0
         args.bert_project_result_path = os.path.join(args.bert_result_path, project)
         # 创建项目文件保存路径
-        os.makedirs(args.bert_project_result_path, exist_ok=True)
-        os.makedirs(os.path.join(args.bert_project_result_path, 'perfect_data'), exist_ok=True)
+        if not os.path.exists(args.bert_project_result_path):
+            os.mkdir(args.bert_project_result_path)
+        if not os.path.exists(os.path.join(args.bert_project_result_path, 'perfect_data')):
+            os.mkdir(os.path.join(args.bert_project_result_path, 'perfect_data'))
 
         # 遍历每个项目的缺陷报告
         filelist = os.listdir(os.path.join(args.json_bug_path, project))

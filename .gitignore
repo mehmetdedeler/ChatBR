@@ -21,3 +21,15 @@ questions/question8
 /venv
 
 questions/question2/__pycache__
+
+json_data/*
+
+questions/question2/origin_data/*
+
+questions/question2/predict_data/*
+
+questions/question2/llm_dataset/*
+
+questions/question2/generate_data/*
+
+questions/question2/generate_data/*

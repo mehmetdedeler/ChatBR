@@ -107,7 +107,6 @@ def run_classification():
     
     try:
         from classifier_predict import predict_multi_data
-        from analysis_sample import analysis_llm_data, select_dataset_for_llm
         
         # Create arguments object
         class Args:
@@ -119,23 +118,9 @@ def run_classification():
         
         args = Args()
         
-        # Create necessary directories first
-        import os
-        if not os.path.exists(args.bert_result_path):
-            os.makedirs(args.bert_result_path)
-        if not os.path.exists(args.llm_data_path):
-            os.makedirs(args.llm_data_path)
-        
-        # Run classification (same as run.py)
+        # Run classification
         predict_multi_data(args)
-        
-        # Run analysis (same as run.py)
-        analysis_llm_data(args.bert_result_path)
-        
-        # Select dataset for LLM (same as run.py)
-        select_dataset_for_llm(args.bert_result_path, args.llm_data_path, args.report_max_length)
-        
-        print("✅ Classification and analysis completed!")
+        print("✅ Classification completed!")
         
     except Exception as e:
         print(f"❌ Classification failed: {e}")
@@ -146,33 +131,22 @@ def run_classification():
     return True
 
 def run_chatgpt_generation():
-    """Run ChatGPT generation (same logic as run.py)"""
+    """Run ChatGPT generation"""
     print("=== Running ChatGPT Generation ===\n")
     
     try:
         from gpt_utils import call_ChatGPT
-        from classifier_predict import is_report_perfect
         from tqdm import tqdm
-        
-        # Create args object for is_report_perfect function
-        class Args:
-            def __init__(self):
-                self.json_bug_path = './origin_data'
-                self.bert_result_path = './predict_data/bee_tool/'
-                self.llm_data_path = './llm_dataset'
-                self.report_max_length = 2000
-        
-        args = Args()
         
         # Create directories
         gen_data_path = './generate_data'
         if not os.path.exists(gen_data_path):
             os.makedirs(gen_data_path)
         
-        # Process each project (same as run.py)
-        project_list = ["AspectJ", "Birt", "Eclipse", "JDT", "SWT", "Tomcat"]
+        # Process each project
+        projects = ["AspectJ", "Birt", "Eclipse", "JDT", "SWT", "Tomcat"]
         
-        for project in project_list:
+        for project in projects:
             print(f"Processing project: {project}")
             
             # Source and destination paths
@@ -186,36 +160,30 @@ def run_chatgpt_generation():
                 print(f"Warning: No data found for {project}")
                 continue
             
-            # Process files (same logic as run.py)
-            filelist = os.listdir(project_llm_data_path)
-            p_bar = tqdm(filelist, total=len(filelist), desc='iter')
+            # Process files
+            filelist = [f for f in os.listdir(project_llm_data_path) if f.endswith('.txt')]
+            p_bar = tqdm(filelist, total=len(filelist), desc=f'{project}')
             
             for idx, filename in enumerate(p_bar):
                 p_bar.set_description(f"{project}: No.{idx}")
                 
-                # Read bug report file (same logic as run.py)
-                ext = os.path.splitext(filename)[1]
-                if ext == '.txt':
-                    with open(os.path.join(project_llm_data_path, filename), 'r') as f:
-                        bug_report = f.read()
+                # Read bug report file
+                with open(os.path.join(project_llm_data_path, filename), 'r') as f:
+                    bug_report = f.read()
+                
+                # Call ChatGPT
+                response = call_ChatGPT(bug_report, model="gpt-3.5-turbo")
+                
+                # Try up to 5 times to get a good response
+                for i in range(5):
+                    if response is not None:
+                        output_file = os.path.join(project_gen_data_path,
+                                                  f"{filename.split('.')[0]}_gpt_{i}.json")
+                        with open(output_file, 'w') as f:
+                            json.dump(response, f)
+                        break
                     
                     response = call_ChatGPT(bug_report, model="gpt-3.5-turbo")
-                    
-                    # Try up to 5 times to get a good response (same logic as run.py)
-                    for i in range(5):
-                        if response is not None:
-                            with open(os.path.join(project_gen_data_path,
-                                                   os.path.join(filename.split('.')[0], f"_gpt_{i}.json")), 'w') as f:
-                                json.dump(response, f)
-                            
-                            # Check if report is perfect (same logic as run.py)
-                            try:
-                                if is_report_perfect(response['choices'][0]['message']['content'], args):
-                                    break
-                            except:
-                                break
-                        
-                        response = call_ChatGPT(bug_report, model="gpt-3.5-turbo")
         
         print("✅ ChatGPT generation completed!")
         

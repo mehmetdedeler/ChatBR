@@ -107,6 +107,7 @@ def run_classification():
     
     try:
         from classifier_predict import predict_multi_data
+        from analysis_sample import analysis_llm_data, select_dataset_for_llm
         
         # Create arguments object
         class Args:
@@ -118,9 +119,20 @@ def run_classification():
         
         args = Args()
         
-        # Run classification
+        # Create necessary directories first
+        os.makedirs(args.bert_result_path, exist_ok=True)
+        os.makedirs(args.llm_data_path, exist_ok=True)
+        
+        # Run classification (Step 1: BEE-tool prediction)
+        print("Step 1: Running BEE-tool classification...")
         predict_multi_data(args)
-        print("✅ Classification completed!")
+        
+        # Step 2: Analysis and dataset preparation
+        print("Step 2: Analyzing results and preparing dataset...")
+        analysis_llm_data(args.bert_result_path)
+        select_dataset_for_llm(args.bert_result_path, args.llm_data_path, args.report_max_length)
+        
+        print("✅ Classification and analysis completed!")
         
     except Exception as e:
         print(f"❌ Classification failed: {e}")

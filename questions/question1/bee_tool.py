@@ -69,7 +69,7 @@ def generateInputVector(sent, nlp):
     # Get annotation with error handling
     try:
         ann = nlp.annotate(sent, properties={
-            'annotators': 'tokenize,ssplit,lemma,pos,ner',
+            'annotators': 'tokenize,ssplit,lemma,pos',  # Removed 'ner' to avoid TimeExpressionExtractorImpl error
             'outputFormat': 'json',
         })
         
@@ -234,13 +234,17 @@ def encode(sentences, originalSentences, stand_nlp):
 def getInputFileName(requestCounter):
     import os
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(current_dir, "input_" + requestCounter + ".dat")
+    # Sanitize the requestCounter to avoid spaces and special characters in filename
+    safe_counter = re.sub(r'[^a-zA-Z0-9_-]', '_', str(requestCounter))
+    return os.path.join(current_dir, f"input_{safe_counter}.dat")
 
 
 def getOutputFile(prefix, requestCounter):
     import os
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(current_dir, "prediction_" + prefix + "_" + requestCounter + ".dat")
+    # Sanitize the requestCounter to avoid spaces and special characters in filename
+    safe_counter = re.sub(r'[^a-zA-Z0-9_-]', '_', str(requestCounter))
+    return os.path.join(current_dir, f"prediction_{prefix}_{safe_counter}.dat")
 
 
 def writeVectors(sentVectors, requestCounter):
@@ -290,7 +294,8 @@ def predict(prefix, inputFileName, requestCounter):
     else:  # Windows
         svm_exe = os.path.join(current_dir, "model/bee/svm_classify.exe")
     model_file = os.path.join(current_dir, f"model/bee/model_{prefix}.txt")
-    command = f"{svm_exe} -v 1 {inputFileName} {model_file} {outputFile}"
+    # Use list format to properly handle file paths with spaces
+    command_list = [svm_exe, "-v", "1", inputFileName, model_file, outputFile]
     try:
         # if not os.path.exists(outputFile):
         #     try:
@@ -298,7 +303,7 @@ def predict(prefix, inputFileName, requestCounter):
         #         subprocess.run("touch {}".format(outputFile), check=True, shell=True)
         #     except subprocess.CalledProcessError as e:
         #         print(f'Error touch prediction file: {e}')
-        subprocess.run(command, check=True, shell=True)  # 在linux上需要添加shell=True参数
+        subprocess.run(command_list, check=True)  # Use list format to handle spaces properly
     except subprocess.CalledProcessError as e:
         print(f'Error running SVM prediction: {e}')
         raise e

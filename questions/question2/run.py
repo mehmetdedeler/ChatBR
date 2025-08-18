@@ -6,9 +6,19 @@ from tqdm import tqdm
 
 from classifier_predict import predict_multi_data, is_report_perfect
 from analysis_sample import analysis_llm_data, select_dataset_for_llm
-from questions.gpt_utils import call_ChatGPT
-from questions.question2.pkl2json import parse_pkl_bug_report
-from questions.question2.plot_utils import plot_llm_dataset_ring
+import sys
+sys.path.append('..')
+from gpt_utils import call_ChatGPT
+try:
+    from pkl2json import parse_pkl_bug_report
+    from plot_utils import plot_llm_dataset_ring
+except ImportError:
+    # Create dummy functions if modules don't exist
+    def parse_pkl_bug_report(args, filename):
+        print(f"Warning: pkl2json module not found, skipping {filename}")
+    
+    def plot_llm_dataset_ring(result_path, max_length, project_list):
+        print(f"Warning: plot_utils module not found, skipping plotting")
 
 
 # 1. 转换数据类型

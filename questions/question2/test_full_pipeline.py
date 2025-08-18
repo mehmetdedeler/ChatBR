@@ -17,7 +17,11 @@ def test_components():
         from run import parse_run_arguments, run_bert_predict, load_sample_call_llm
         from classifier_predict import predict_multi_data, is_report_perfect
         from analysis_sample import analysis_llm_data, select_dataset_for_llm
-        from questions.gpt_utils import call_ChatGPT
+        
+        # Fix the import path for gpt_utils
+        import sys
+        sys.path.append('..')
+        from gpt_utils import call_ChatGPT
         print("✅ All modules imported successfully")
     except ImportError as e:
         print(f"❌ Import error: {e}")

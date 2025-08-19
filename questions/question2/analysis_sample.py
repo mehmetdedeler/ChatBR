@@ -56,30 +56,44 @@ def select_dataset_for_llm(json_data_path, llm_data_path, K=2000):
             os.makedirs(llm_project_path, exist_ok=True)
 
         # 筛选项目中缺陷报告长度小于K的样本
-        len_df = pd.read_csv(csv_file_path)
-        selected_list = len_df[len_df['desc'] < K]['bug_id'].tolist()
-        for bug_id in selected_list:
-            # 读取选中的缺陷报告样本
-            with open(os.path.join(project_data_path, "{}.json".format(bug_id)), 'r') as f:
-                report_json = json.load(f)
-            f.close()
-            # 生成并保存不同版本的 bug_report
-            for i, del_keys in enumerate(del_list):
-                modified_report = report_json.copy()
-                for key in del_keys:
-                    if key in modified_report.keys():
-                        modified_report[key] = ""
-                try:
-                    with open(f"{os.path.join(llm_project_path, bug_id)}_remove_{'_'.join(del_keys)}.txt", 'w') as file:
-                        with open("../question4/prompt.json", 'r') as prompt_file:
-                            prompt_json = json.load(prompt_file)
-                        prompt_file.close()
-                        file.write(prompt_json['prompt_0'] + "\n\n<BUG REPORT>\n" +
-                                   str(modified_report) + "\n</BUG REPORT>")
-                except Exception as e:
-                    print(e)
-                finally:
-                    file.close()
+        if os.path.exists(csv_file_path):
+            len_df = pd.read_csv(csv_file_path)
+            selected_list = len_df[len_df['desc'] < K]['bug_id'].tolist()
+            for bug_id in selected_list:
+                # 读取选中的缺陷报告样本
+                bug_report_path = os.path.join(project_data_path, "{}.json".format(bug_id))
+                if os.path.exists(bug_report_path):
+                    with open(bug_report_path, 'r') as f:
+                        report_json = json.load(f)
+                    
+                    # 生成并保存不同版本的 bug_report
+                    for i, del_keys in enumerate(del_list):
+                        modified_report = report_json.copy()
+                        for key in del_keys:
+                            if key in modified_report.keys():
+                                modified_report[key] = ""
+                        
+                        # Create filename with string join
+                        del_keys_str = '_'.join(del_keys)
+                        output_filename = f"{bug_id}_remove_{del_keys_str}.txt"
+                        output_path = os.path.join(llm_project_path, output_filename)
+                        
+                        try:
+                            with open(output_path, 'w') as file:
+                                # Try to read prompt.json, use default if not available
+                                try:
+                                    with open("../question4/prompt.json", 'r') as prompt_file:
+                                        prompt_json = json.load(prompt_file)
+                                    prompt_text = prompt_json.get('prompt_0', '')
+                                except:
+                                    prompt_text = "Your role is a senior software engineer, you are very good at analyzing and writing bug reports."
+                                
+                                file.write(prompt_text + "\n\n<BUG REPORT>\n" +
+                                           str(modified_report) + "\n</BUG REPORT>")
+                        except Exception as e:
+                            print(f"Error writing file {output_path}: {e}")
+        else:
+            print(f"Warning: CSV file not found: {csv_file_path}")
 
 
 if __name__ == '__main__':

@@ -128,10 +128,19 @@ def run_chatbr_with_temp_data(temp_dir, origin_data_path):
         print(f"LLM dataset: {args.llm_data_path}")
         print()
         
-        # Run the same pipeline as run.py
-        transfer_datatype(args)
-        run_bert_predict(args)
-        load_sample_call_llm(args)
+        # Temporarily modify the project_list to use our TestProject
+        import run
+        original_project_list = run.project_list
+        run.project_list = ["TestProject"]
+        
+        try:
+            # Run the same pipeline as run.py
+            transfer_datatype(args)
+            run_bert_predict(args)
+            load_sample_call_llm(args)
+        finally:
+            # Restore original project_list
+            run.project_list = original_project_list
         
         return True
         
@@ -159,6 +168,8 @@ def show_results(temp_dir):
             print(f"    EB: {len(report.get('EB', ''))} chars")
             print(f"    SR: {len(report.get('SR', ''))} chars")
             print()
+    else:
+        print("❌ No classification results found")
     
     # Show generated improvements
     gen_path = os.path.join(temp_dir, "generate_data/TestProject")
@@ -167,6 +178,8 @@ def show_results(temp_dir):
         json_files = [f for f in os.listdir(gen_path) if f.endswith('.json')]
         for json_file in json_files:
             print(f"  - {json_file}")
+    else:
+        print("❌ No generated improvements found")
     
     print(f"\n📁 All results saved in: {temp_dir}")
 

@@ -75,6 +75,13 @@ def load_sample_call_llm(args):
     if not os.path.exists(args.gen_data_path):
         os.mkdir(args.gen_data_path)
 
+    # Get project list from the LLM data directory
+    if os.path.exists(args.llm_data_path):
+        project_list = [d for d in os.listdir(args.llm_data_path) 
+                       if os.path.isdir(os.path.join(args.llm_data_path, d))]
+    else:
+        project_list = []
+
     for project in project_list:
         # 获取文件列表， 遍历文件
         project_llm_data_path = os.path.join(args.llm_data_path, project)

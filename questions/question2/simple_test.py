@@ -128,19 +128,10 @@ def run_chatbr_with_temp_data(temp_dir, origin_data_path):
         print(f"LLM dataset: {args.llm_data_path}")
         print()
         
-        # Temporarily modify the project_list to use our TestProject
-        import run
-        original_project_list = run.project_list
-        run.project_list = ["TestProject"]
-        
-        try:
-            # Run the same pipeline as run.py
-            transfer_datatype(args)
-            run_bert_predict(args)
-            load_sample_call_llm(args)
-        finally:
-            # Restore original project_list
-            run.project_list = original_project_list
+        # Run the same pipeline as run.py
+        transfer_datatype(args)
+        run_bert_predict(args)
+        load_sample_call_llm(args)
         
         return True
         

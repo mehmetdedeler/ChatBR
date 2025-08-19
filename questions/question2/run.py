@@ -73,7 +73,7 @@ def load_sample_call_llm(args):
     # 遍历每个项目
     args.gen_data_path = './generate_data'  # Add missing variable
     if not os.path.exists(args.gen_data_path):
-        os.mkdir(args.gen_data_path)
+        os.makedirs(args.gen_data_path, exist_ok=True)
 
     # Get project list from the LLM data directory
     if os.path.exists(args.llm_data_path):
@@ -87,7 +87,7 @@ def load_sample_call_llm(args):
         project_llm_data_path = os.path.join(args.llm_data_path, project)
         project_gen_data_path = os.path.join(args.gen_data_path, project)
         if not os.path.exists(project_gen_data_path):
-            os.mkdir(project_gen_data_path)
+            os.makedirs(project_gen_data_path, exist_ok=True)
 
         # 遍历每个项目的缺陷报告文件
         filelist = os.listdir(project_llm_data_path)

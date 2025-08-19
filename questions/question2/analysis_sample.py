@@ -50,8 +50,10 @@ def select_dataset_for_llm(json_data_path, llm_data_path, K=2000):
         project_data_path = os.path.join(json_data_path, project, 'perfect_data')  # 项目的高质量缺陷报告路径
         llm_project_path = os.path.join(llm_data_path, project)  # 项目的llm文件存放路径
         csv_file_path = os.path.join(json_data_path, "{}_len_info.csv".format(project))
+        if not os.path.exists(llm_data_path):
+            os.makedirs(llm_data_path, exist_ok=True)
         if not os.path.exists(llm_project_path):
-            os.mkdir(llm_project_path)
+            os.makedirs(llm_project_path, exist_ok=True)
 
         # 筛选项目中缺陷报告长度小于K的样本
         len_df = pd.read_csv(csv_file_path)

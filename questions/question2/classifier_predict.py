@@ -223,23 +223,14 @@ def classify_report_quality(model, tokenizer, report, args):
 def predict_multi_data(args):
     """预测多条缺陷报告样本数据"""
     model, tokenizer = create_bert_model(args)
-    # Get project list from the data directory
-    if os.path.exists(args.json_bug_path):
-        project_list = [d for d in os.listdir(args.json_bug_path) 
-                       if os.path.isdir(os.path.join(args.json_bug_path, d))]
-    else:
-        project_list = []
-    
     for project in project_list:
         perfect_num = 0
         args.bert_project_result_path = os.path.join(args.bert_result_path, project)
         # 创建项目文件保存路径
-        if not os.path.exists(args.bert_result_path):
-            os.makedirs(args.bert_result_path, exist_ok=True)
         if not os.path.exists(args.bert_project_result_path):
-            os.makedirs(args.bert_project_result_path, exist_ok=True)
+            os.mkdir(args.bert_project_result_path)
         if not os.path.exists(os.path.join(args.bert_project_result_path, 'perfect_data')):
-            os.makedirs(os.path.join(args.bert_project_result_path, 'perfect_data'), exist_ok=True)
+            os.mkdir(os.path.join(args.bert_project_result_path, 'perfect_data'))
 
         # 遍历每个项目的缺陷报告
         filelist = os.listdir(os.path.join(args.json_bug_path, project))

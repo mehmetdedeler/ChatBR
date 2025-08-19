@@ -6,19 +6,9 @@ from tqdm import tqdm
 
 from classifier_predict import predict_multi_data, is_report_perfect
 from analysis_sample import analysis_llm_data, select_dataset_for_llm
-import sys
-sys.path.append('..')
-from gpt_utils import call_ChatGPT
-try:
-    from pkl2json import parse_pkl_bug_report
-    from plot_utils import plot_llm_dataset_ring
-except ImportError:
-    # Create dummy functions if modules don't exist
-    def parse_pkl_bug_report(args, filename):
-        print(f"Warning: pkl2json module not found, skipping {filename}")
-    
-    def plot_llm_dataset_ring(result_path, max_length, project_list):
-        print(f"Warning: plot_utils module not found, skipping plotting")
+from questions.gpt_utils import call_ChatGPT
+from questions.question2.pkl2json import parse_pkl_bug_report
+from questions.question2.plot_utils import plot_llm_dataset_ring
 
 
 # 1. 转换数据类型
@@ -29,17 +19,17 @@ except ImportError:
 def parse_run_arguments():
     """解析参数"""
     parser = argparse.ArgumentParser()
-    parser.add_argument('--pkl_data_path', default='./mock_data/pickles/',
+    parser.add_argument('--pkl_data_path', default='D:/projects/pythonProjects/locate_dataset/pickles/',
                         help='原始pkl文件路径')
     parser.add_argument('--json_bug_path',
-                        default='./origin_data/',
+                        default='D:/projects/pythonProjects/re_report/questions/question2/origin_data/',
                         help='pkl保存文件路径')
-    parser.add_argument('--bert_result_path', default='./predict_data/bee_tool/', help='bert模型预测结果路径')
+    parser.add_argument('--bert_result_path', default='./predict_data/bert_new/', help='bert模型预测结果路径')
     parser.add_argument('--device', default='gpu')
     parser.add_argument('--num_labels', default=3)
     parser.add_argument('--max_length', default=128)
     parser.add_argument('--hidden_dropout_prob', default=0.3)
-    parser.add_argument('--model_path', default='../question1/model/bee')
+    parser.add_argument('--model_path', default='../question1/model/bert-tuning-01')
     parser.add_argument('--llm_data_path', default='./llm_dataset')
     parser.add_argument('--report_max_length', default=2000)
 
@@ -50,9 +40,10 @@ def parse_run_arguments():
 
 def transfer_datatype(args):
     """转换数据类型"""
-    # Skip this step since we're using JSON directly
-    print("Skipping data transfer - using JSON files directly")
-    return
+    filenames = os.listdir(args.pkl_data_path)
+    for filename in filenames:
+        if filename.endswith('_0.pkl'):
+            parse_pkl_bug_report(args, filename)
 
 
 def run_bert_predict(args):
@@ -62,32 +53,22 @@ def run_bert_predict(args):
     analysis_llm_data(args.bert_result_path)
     # 选择字符长度小于K的缺陷报告, 将选中的缺陷报告格式化为llm需要的格式
     select_dataset_for_llm(args.bert_result_path, args.llm_data_path, args.report_max_length)
-    # plot (skip if not available)
-    try:
-        plot_llm_dataset_ring(args.bert_result_path, args.report_max_length, project_list)
-    except:
-        print("Skipping plotting - plot_utils not available")
+    # plot
+    plot_llm_dataset_ring(args.bert_result_path, args.report_max_length, project_list)
 
 
 def load_sample_call_llm(args):
     # 遍历每个项目
     args.gen_data_path = './generate_data'  # Add missing variable
     if not os.path.exists(args.gen_data_path):
-        os.makedirs(args.gen_data_path, exist_ok=True)
-
-    # Get project list from the LLM data directory
-    if os.path.exists(args.llm_data_path):
-        project_list = [d for d in os.listdir(args.llm_data_path) 
-                       if os.path.isdir(os.path.join(args.llm_data_path, d))]
-    else:
-        project_list = []
+        os.mkdir(args.gen_data_path)
 
     for project in project_list:
         # 获取文件列表， 遍历文件
         project_llm_data_path = os.path.join(args.llm_data_path, project)
         project_gen_data_path = os.path.join(args.gen_data_path, project)
         if not os.path.exists(project_gen_data_path):
-            os.makedirs(project_gen_data_path, exist_ok=True)
+            os.mkdir(project_gen_data_path)
 
         # 遍历每个项目的缺陷报告文件
         filelist = os.listdir(project_llm_data_path)
@@ -114,21 +95,7 @@ if __name__ == '__main__':
     # 解析参数
     project_list = ["AspectJ", "Birt", "Eclipse", "JDT", "SWT", "Tomcat"]
     args = parse_run_arguments()
-    
-    print("=== ChatBR with BEE-tool Implementation ===")
-    print(f"Input data: {args.json_bug_path}")
-    print(f"Output results: {args.bert_result_path}")
-    print(f"LLM dataset: {args.llm_data_path}")
-    print(f"Generated improvements: ./generate_data")
-    print()
-    
     # 加载数据集，调用ChatGPT
     transfer_datatype(args)
     run_bert_predict(args)
     load_sample_call_llm(args)
-    
-    print("\n🎉 ChatBR implementation completed!")
-    print("Check the results in:")
-    print("- Classification results: ./predict_data/bee_tool/")
-    print("- LLM dataset: ./llm_dataset/")
-    print("- Generated improvements: ./generate_data/")
